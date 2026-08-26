@@ -117,7 +117,7 @@ Two additional vendored skills bracket the whisper pipeline described above:
   likely referenced, then downloads the source video with `yt-dlp` (temp-only, deleted after
   use — the whisper pipeline never touches video, only audio) and uses `ffmpeg -ss <timestamp>`
   to grab one frame per identified moment, saved as
-  `data/{channel}/{stem}_keyframes/{stem}_{HHMMSS}.png`.
+  `data/{channel}/{stem}_keyframes/{stem}_{HHMMSS}.jpg`.
 
 ### The `skills/` directory
 
