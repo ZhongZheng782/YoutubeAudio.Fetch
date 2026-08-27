@@ -20,6 +20,12 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 | [富邦證券授信開戶四合一](data/fubonsec/fubonsec_mhIgas9TsMU_keyframes.md) | 2026-08-06 |
 | [AI投資新選擇！KOSPI 50如何一次掌握韓國50大企業？\| 富邦Global Sight EP10](data/fubonsec/fubonsec_ehESBhQSWyM_keyframes.md) | 2026-08-05 |
 
+### [LEI](data/lei/)
+
+| 影片 | 日期 |
+| --- | --- |
+| [【硬核】我用二十年經驗總結的投資分析框架](data/lei/lei_qbU7LHPZ4Xo_keyframes.md) | 2025-11-27 |
+
 ### [Smart智富月刊](data/smartmonthly-bw/)
 
 | 影片 | 日期 |
