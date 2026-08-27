@@ -24,6 +24,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [好公司跌破支撐該跑還是加碼？別無腦加！先看估值，跌深不等於便宜｜雷浩斯、佑佑｜理財佑佑班](data/smartmonthly-bw/smartmonthly-bw_QDPTr7wipx8_keyframes.md) | 2026-08-25 |
 | [客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥｜Smart智富．投資的一千零一夜247](data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes.md) | 2026-08-22 |
 | [高檔賣7成、低檔全買回，投資達人雷浩斯持股衝95%，他看好那些標的?｜峰哥｜Smart智富．投資的一千零一夜246](data/smartmonthly-bw/smartmonthly-bw_5wLmS5-slJY_keyframes.md) | 2026-08-15 |
 | [日圓甜甜價沒了，28年首見！美日聯手救日圓，下一場股災要來了？新台幣怎沒跟著日圓升值？｜峰哥｜Smart智富．投資的一千零一夜245](data/smartmonthly-bw/smartmonthly-bw_-3z0BSuQ9p8_keyframes.md) | 2026-08-08 |
@@ -35,6 +36,9 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/8/26(三)美債回購能 救川普選情?日本缺工 歐洲缺膽 誰能突圍?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_KUZC2NyCCCY_keyframes.md) | 2026-08-26 |
+| [2026/8/25(二)輝達連七黑 領頭羊動搖 ?經濟諾曼第行動 通膨撐得住?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_tLvKGHyxhd8_keyframes.md) | 2026-08-25 |
+| [2026/8/24(一)美債救不動 黃金 比特幣先起飛?關稅戰再起 最後誰買單？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_dFYqrIQIMvw_keyframes.md) | 2026-08-24 |
 | [2026/8/21(五)巨頭搶錢 誰來接美債?AI是革命or下一場債務危機?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_ajjRvohk-Og_keyframes.md) | 2026-08-21 |
 | [2026/8/19(三)債市風暴 撿便宜時刻?美中爭霸燒錢戰 Al時代只能二選一？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_9VqNpjPGmbM_keyframes.md) | 2026-08-19 |
 | [2026/8/18(二)美股買盤停止追高 散戶等回檔?台灣游資氾濫 普發成常態?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_aRPmzQfTLFc_keyframes.md) | 2026-08-18 |
