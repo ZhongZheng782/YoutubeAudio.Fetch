@@ -36,6 +36,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/8/27(四)輝達財報再超標!追高意願低?美股為何原地踏步?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_lDeHFopOfIs_keyframes.md) | 2026-08-27 |
 | [2026/8/26(三)美債回購能 救川普選情?日本缺工 歐洲缺膽 誰能突圍?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_KUZC2NyCCCY_keyframes.md) | 2026-08-26 |
 | [2026/8/25(二)輝達連七黑 領頭羊動搖 ?經濟諾曼第行動 通膨撐得住?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_tLvKGHyxhd8_keyframes.md) | 2026-08-25 |
 | [2026/8/24(一)美債救不動 黃金 比特幣先起飛?關稅戰再起 最後誰買單？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_dFYqrIQIMvw_keyframes.md) | 2026-08-24 |
