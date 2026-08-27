@@ -6,7 +6,7 @@
 
 ## 00:00:00
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000000.png" alt="fubonsec_EIOQDXWEZbU_000000.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000000.jpg" alt="fubonsec_EIOQDXWEZbU_000000.jpg" width="640">
 
 **逐字稿片段：** 最重要的不是繳稅,是控制權。 你想想看,當你手上完全沒有股票, 你房子也不是你,全部給孩子, 你覺得我都給他,他應該孝順你。 你住在別人家的房子裡, 然後你要跟他伸手拿錢。 所以控制權很重要。
 
@@ -16,7 +16,7 @@
 
 ## 00:00:14
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000014.png" alt="fubonsec_EIOQDXWEZbU_000014.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000014.jpg" alt="fubonsec_EIOQDXWEZbU_000014.jpg" width="640">
 
 **逐字稿片段：** 富邦振振,新戶優惠來囉! 開戶急証500摩比, 完成指定任務再領200摩比加500手續費抵用金, 還有新宇航空布拉格商務艙雙人機票等你抽。 心動不如行動,火速開戶做任務囉!
 
@@ -26,7 +26,7 @@
 
 ## 00:00:28
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000028.png" alt="fubonsec_EIOQDXWEZbU_000028.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000028.jpg" alt="fubonsec_EIOQDXWEZbU_000028.jpg" width="640">
 
 **逐字稿片段：** 嗨大家好我是Sabrina 這集我們來聊聊如果存股族大把的資產都在股票裡 在財富傳承要怎麼來看課稅邏輯以及控制權的考量
 
@@ -36,7 +36,7 @@
 
 ## 00:00:41
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000041.png" alt="fubonsec_EIOQDXWEZbU_000041.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000041.jpg" alt="fubonsec_EIOQDXWEZbU_000041.jpg" width="640">
 
 **逐字稿片段：** 今天同樣歡迎在財富傳承家庭法律領域的專家 恩典法律事務者的所長蘇嘉紅律師來和我們聊聊 蘇律師好 Sabrina好大家好
 
@@ -46,7 +46,7 @@
 
 ## 00:00:51
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000051.png" alt="fubonsec_EIOQDXWEZbU_000051.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000051.jpg" alt="fubonsec_EIOQDXWEZbU_000051.jpg" width="640">
 
 **逐字稿片段：** 蘇律師從您的實務經驗來看 當一位投資人手上的股票市值達到大約多少金額的時候 你會建議必須開始進行傳承規劃呢 這個問題問得很好 其實不容易回答你知道嗎 不容易回答 但是如果真的要去想想 我認為股票如果以3000萬 為做一個基準的話 我覺得先從3000萬來看 你想想看3000萬股票的人 他需要做什麼樣財富規劃呢 3000萬股票如果說今天我們是純股足
 
@@ -56,7 +56,7 @@
 
 ## 00:01:24
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000124.png" alt="fubonsec_EIOQDXWEZbU_000124.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000124.jpg" alt="fubonsec_EIOQDXWEZbU_000124.jpg" width="640">
 
 **逐字稿片段：** 以5%的獲利來說 一年就是150萬 150萬他在鼓勵股息 那鼓勵股息的時候這時候就想說 那這樣這鼓勵股息夠不夠你生活 一百五十萬夠不夠 如果是退休的話 如果過得好一點 應該是可以對不對 所以也就是這三千萬的股票 是要維持自己的安全 所以首先 如果你有三千萬 恭喜你 恭喜恭喜恭喜 那所以要保護自己的股份的安全 也就是說今天我的財產 如果我今天萬一 失智有什麼狀況的情形下 那麼誰會幫我 是不是會把我賣掉 然後我全部沒有了對不對 所以要先注意這個 所以我會建議說 在這個情形下你要注意說
 
@@ -66,7 +66,7 @@
 
 ## 00:02:03
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000203.png" alt="fubonsec_EIOQDXWEZbU_000203.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000203.jpg" alt="fubonsec_EIOQDXWEZbU_000203.jpg" width="640">
 
 **逐字稿片段：** 財產財富的像議定監護契約 未來我真的不知道怎麼處理的時候 那議定監護契約 或者說今天我授權給誰處理 甚至說我今天人不在的情況下 那我的這三千萬是要給誰 因為你已經小有資產了 所以我在的時候 我先保護我自己 那我不在的時候我要給誰 哪些個股你知道 家裡有兩種人 一種是懂得守成的人 一種是比較揮霍的 也就是說我今天股票也分兩種 一個是屬於說 你可能需要常常調整 你賺價差的 那一種是屬於什麼 一種屬於投資嘛 你鼓勵鼓席嘛對不對 全職股等等的 那這樣的話你就覺得 有的人適合拿全職股 有的人適合拿什麼 波段的對不對 那我就把它區分起來 而不是說我今天都不處理 不在之後 有三個孩子就 就三個隨便他們群分 那還是說兩個孩子之後 那我是不是依照他的個性 做一些處理 所以寫遺囑 然後還寫遺囑把你的資產 把股票做一些分門別類 我覺得是相當重要的 而且三千萬的人呢 其實坦白講 如果你有股票三千萬 你要記得要做這個事情 要寫遺囑 然後記得一零結構契約跟授權書 還有記得要傳承你的 真的無形的資產 因為你從比較少的資產 變三千萬 對不對 好 接下來我們往上拉了 三千萬以上 往上跳就差六千萬 因為你六千萬的人 也要做三千萬的事情 也就是說 你還是要做遺囑啦 這些相關的保護 特別六千萬人要注意什麼 有股票六千萬人 要注意一件事情是 你今天恭喜你 你跨過了一個門檻 你說跨什麼門檻 繳稅門檻 因為呢 因為假設說 我們以遺產稅來看 今天除了免稅扣除以外 大概我們可以知道說 超過這部分的時候 到五千六百多萬的時候 它是顆十趴 五千六百多以上是顆十五趴 然後一億一千多萬之後 可以20% 所以六千萬的人表示什麼 你今天大致上你資產 會被科15%的稅率的機會大 所以這時候就要思考說 那這樣啊 我三千萬其實就夠了嘛 我說我股票三千萬應該夠了 Separate你夠嗎 不夠 對對對 一般人可能不夠嘛 那如果不夠那就加油了 那如果說你比較是 屬於省吃儉用 有股票 光是股票 六千萬等 那你就會思考
 
@@ -76,7 +76,7 @@
 
 ## 00:04:28
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000428.png" alt="fubonsec_EIOQDXWEZbU_000428.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000428.jpg" alt="fubonsec_EIOQDXWEZbU_000428.jpg" width="640">
 
 **逐字稿片段：** 那我是不是每年運用免稅額 兩百四十萬免稅額 把我一些資產就先給我孩子 與其未來課稅課十五% 二十% 我為什麼現在不用免稅額 政府給你免稅額 我就每一年就送二四十萬 或者更高 有時候你看你十% 我現在除了二四十萬 可能多送個五百萬 只要課十% 五十萬 我不用留下來未來課一百萬 或者課七十五萬 也就是運用這個稅差的部分 我現在做一些處理 所以6000萬的人特別注意說 未來可能有遺產稅比較高 我就用低的贈與稅稅率來結稅 就是用合理的結稅方式先做安排 對對這個是絕對合法的 因為國稅局網站上也這樣寫 所以可以的好不好利用免稅額
 
@@ -86,7 +86,7 @@
 
 ## 00:05:17
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000517.png" alt="fubonsec_EIOQDXWEZbU_000517.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000517.jpg" alt="fubonsec_EIOQDXWEZbU_000517.jpg" width="640">
 
 **逐字稿片段：** 那麼接下來第三個 如果今天是1億2000萬以上的話 那你要怎麼 我跟你講1億2000萬 我不用辛苦 我不需要去認真的 可能是這樣 如果是這樣的情況 所以我們就發現 如果一次給孩子這麼多資產 他是不是最好的狀況 可能不一定是 因為股票他繼承之後 他就可以變賣 所以適當的把它管理起來
 
@@ -96,7 +96,7 @@
 
 ## 00:05:44
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000544.png" alt="fubonsec_EIOQDXWEZbU_000544.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000544.jpg" alt="fubonsec_EIOQDXWEZbU_000544.jpg" width="640">
 
 **逐字稿片段：** 例如說做信託的處理 或今天我們在投資情況 是不是用公司的投資方式 今天公司持股的方式做投資等等的 用一些架構上 讓孩子可以取得公司的利益 但是不能夠什麼 拔變賣掉 所以資源上是這樣做處理 所以我會建議說 如果說今天以三千萬 六千萬 一億兩千萬 來做一些調整 那你錢越多 這樣越費心思 看怎麼樣傳承最好 所以除了資產規模 家庭結構和健康的因素 也會影響吧 對 確實是家庭結構 你如果家庭結構 比較需要考慮的 例如說像 這樣結果你是可能是重組家庭 或者說今天不一定重組家庭 可能孩子 有些比較特殊的狀況的孩子 或今天有些狀況 所以你就是先要把法律上處理起來 也就是說你在特別的狀況下 你說那這樣法律怎麼規定 法律這樣規定 我要告訴各位 最好的方法是 我人不在的情況下 誰可以幫我控制好整個場面 絕對不是人 是法律 也就是我把設計 我遺囑這樣設計了 我授權書這樣設計 我一定監護這樣設計的 或者我做這樣信託設計 或者我把財產 把它變成什麼 控股公司來做處理 我用這樣的方法 我把它控制在 我可以預防那個風險的情況 所以當我們有這樣的狀況下 那另外就是說 健康的情形上 我真的建議現在就做處理 因為沒有人可以確定說 我說在不健康的時候再處理 或我今天等到我老的時候再處理 其實時間來不及 我們做這種財富規劃 最重要就是時間 時間是你最好的夥伴 因為你現在時間的話 就不會說人有時候 過世前兩年內 這個贈予的財產就變遺產 對 又計算成遺產 那所以我覺得 越健康現在處理最重要 如果手上的股票 想要把財富傳承給下一代 常見的方式 第一種是生前直接贈予股票 第二種是透過遺囑等身後繼承 第三種是透過股票信託的方式 來安排剛您提過課稅的邏輯 那想從父母最在意的 資產控制權的角度來看 來說明這三種方式 主要的差異是什麼
 
@@ -106,7 +106,7 @@
 
 ## 00:08:06
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000806.png" alt="fubonsec_EIOQDXWEZbU_000806.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000806.jpg" alt="fubonsec_EIOQDXWEZbU_000806.jpg" width="640">
 
 **逐字稿片段：** 其實我個人覺得最重要的 不是繳稅是控制權 Safrina講非常好 因為當你你想想看 當你手上沒有完全沒有股票 你房子也不是你全部給孩子 你覺得哇我都給他 他應該孝順你 不對你住在別人家的 你住在別人家的房子裡 然後你要跟他拿身手拿錢 所以變成說你本來是主動的 現在你變成反而你是伸手牌 然後那種角度跟人情冷暖 你會感覺到 我覺得怎麼那麼冷 可是如果財產在你的名下的時候 你可能就講話很大聲嘛 對不對 所以控制權很重要 再來講稅部的部分 我覺得本末 我個人覺得說應該本末是這樣 你今天有錢就繳稅啊 就這樣 如果這樣大家同意的話
 
@@ -116,7 +116,7 @@
 
 ## 00:08:50
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000850.png" alt="fubonsec_EIOQDXWEZbU_000850.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000850.jpg" alt="fubonsec_EIOQDXWEZbU_000850.jpg" width="640">
 
 **逐字稿片段：** 首先第一件事情 我們先寫一份遺囑 因為遺囑最不會影響到你的控制權 我今天寫遺囑說 我要把我的主要的股票 分兩個一個給我的大兒子 然後另外一股票給 或者不動產給二兒子 假設我這樣做區分 不動產跟股票來做區分的話 那這樣做區分的情形下 那就很確保說 我未來他們就不會吵說 我股票分一半 房子分一半 他們不用吵 股票就是我遺囑寫 就是給他 那房子就給他 那這時候對你有什麼好處呢 有好處是你已經做好分配 可是你手上仍然又我有股票跟房子 仍然不是他的 什麼是他的等我不在在他 所以第一個就控制權的角度來說 這樣是好的
 
@@ -126,7 +126,7 @@
 
 ## 00:09:34
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000934.png" alt="fubonsec_EIOQDXWEZbU_000934.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000934.jpg" alt="fubonsec_EIOQDXWEZbU_000934.jpg" width="640">
 
 **逐字稿片段：** 不動產的話 要過戶的情形下 就要什麼 可能要土地增值稅 或者說要掙傭稅 對不對 那不管還有房地合一稅的問題 那當然我們今天可能沒辦法談細的 但如果今天這個原則 用繼承的方式 它會比較 你市價一億兩千萬的房子 可能公告價可能是三千萬 甚至才六千萬 所以在磕稅的部分 遺產稅就真的就會比較少了 那第二部分 那當然因為 就不管是土地增值稅的部分 因為剩餘的時候 它要磕土地增值稅 那我繼承就不用 所以很多稅部上會好 這是蠻好的地方 所以我會建議先用 這樣的方法用遺囑來控制 那交在身上最好
 
@@ -136,7 +136,7 @@
 
 ## 00:10:20
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001020.png" alt="fubonsec_EIOQDXWEZbU_001020.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001020.jpg" alt="fubonsec_EIOQDXWEZbU_001020.jpg" width="640">
 
 **逐字稿片段：** 那第二部分是說 那如果說我的財產比較多 像我剛剛提到說 你有你是六千萬以上 剛剛講股票六千萬 還沒買算其他的東西 對不對 可能還更多嘛 對不對 那在這情形下 我可以用贈予的方式做處理 我這時候一部分 就調節我的手上的控制權 我控制權我也不用這麼多嘛 我不用兩三億都是在我手上啊 我控制控制一億五 可能假設我三億 我控制一億五就好 另外一億五為了節稅的考量 我先贈予給他
 
@@ -146,7 +146,7 @@
 
 ## 00:10:47
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001047.png" alt="fubonsec_EIOQDXWEZbU_001047.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001047.jpg" alt="fubonsec_EIOQDXWEZbU_001047.jpg" width="640">
 
 **逐字稿片段：** 我就用負條件的贈予給他 我可能 我贈予給你不能賣掉 我贈予給你 尤其是孩子 孩子要結婚的時候 要送給他房子什麼什麼 我送給你房子 你不要給另外一半 例如說給兒子 不要給媳婦 給女兒 不要給女婿 特別註明 不然我就要把你拿回來 這是負條件的 負條件或負贈 負擔 這兩個部分你就做資產的控制 也就是我雖然贈予了 可是我也有部分做控制 因為我贈予之後脫離我手上 繳一點贈予稅 未來不用科技產稅 用這樣的方法做調整
 
@@ -156,7 +156,7 @@
 
 ## 00:11:27
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001127.png" alt="fubonsec_EIOQDXWEZbU_001127.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001127.jpg" alt="fubonsec_EIOQDXWEZbU_001127.jpg" width="640">
 
 **逐字稿片段：** 那最後就是說 那我今天財產如果再多 我控制權要很強 那請你運用信託的制度 信託就是我依照 它雖然可以拿到好處 可是要依照我指定的好處去做處理 所以信託是不太一樣的 所以我認為用付層次 第一個先用遺囑 第二個付條件或付負擔的贈予 最後資產比較大 需要控制比較強 我們來設計信託制度來控制 所以除了控制結稅 和控制權的考量 今年投資人資產也逐漸全球化 像是通過國內券商付委託 或直接在海外券商開戶 這類跨境資產在傳承的時候 傳承難易度和稅務處理上 是不是更復雜一點 其實比較複雜 因為跨境 跨境就是要符合那個國家的法律 然後其實我們知道
 
@@ -166,7 +166,7 @@
 
 ## 00:12:23
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001223.png" alt="fubonsec_EIOQDXWEZbU_001223.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001223.jpg" alt="fubonsec_EIOQDXWEZbU_001223.jpg" width="640">
 
 **逐字稿片段：** 我們在海外投資的時候 我們當然可以透過 我們可以透過富邦對不對 然後透過證券 證券然後就付委託去做交易對不對 那我也知道有人 他就直接去那個國家 去找券商或在網路上搜尋 直接跟那個券商做處理 那我覺得這個各自它有各自的好處 但各自它的風險 信託它其實可以控制的權 是比較大的 那通常會有人這樣管理到海外的人
 
@@ -176,7 +176,7 @@
 
 ## 00:12:50
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001250.png" alt="fubonsec_EIOQDXWEZbU_001250.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001250.jpg" alt="fubonsec_EIOQDXWEZbU_001250.jpg" width="640">
 
 **逐字稿片段：** 我跟你講這種幾乎太難了 因為每個國家每個國家法律 那你信託也是信託依照那個國家法律 我跟那些國家不一樣 就我們沒辦法說 信託海外的美國股票 美國的信託也被管不到我們臺灣 說你臺灣控制檯灣的不動產也沒辦法 因為他沒辦法 臺灣不動產不能夠登記在 美國的某某信託基金下面 除非聽過投審會特殊的狀況 一般人是沒有辦法這樣去做 美國信託控制檯灣的資產比較難 所以通常就是在各地各國 然後各自的 如果真的要做信託管理就是各國 對 各國信託管理 而且是說例如說臺灣的話 就是臺灣的遺族 美國的美國遺族 美國的信託 臺灣的信託 各地不同的地方信託 這樣處理是最方便的 是最好的
 
@@ -186,7 +186,7 @@
 
 ## 00:13:38
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001338.png" alt="fubonsec_EIOQDXWEZbU_001338.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001338.jpg" alt="fubonsec_EIOQDXWEZbU_001338.jpg" width="640">
 
 **逐字稿片段：** 如果繼承人需要繳納高額的遺產稅 但長輩留下來的現金不夠 而在遺產稅沒繳清之前 股票是處於凍結的狀態 沒辦法過戶 更沒有辦法賣掉來繳稅 要怎麼樣避免有財產 卻沒有現金繳稅的情況 蘇律師會怎麼建議投資人 可以透過哪些的工具 來規劃或因應呢
 
@@ -196,7 +196,7 @@
 
 ## 00:14:06
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001406.png" alt="fubonsec_EIOQDXWEZbU_001406.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001406.jpg" alt="fubonsec_EIOQDXWEZbU_001406.jpg" width="640">
 
 **逐字稿片段：** 我會建議說要預留稅源 那我認為 我最近碰到一些朋友 他們現金還真的蠻多 那有好幾千萬現金 那現金他現金不會真的很多 他就他也有投資也有不動產 但是他就是現金不會特別多 那如果這樣的朋友就不用擔心了 為什麼因為你現金很多 可是問題是大部分人不是這樣子 你知道嗎 大部分人就是我投資股票 就大部分人就壓在股票上 那壓在股票的時候 又怕當時你不在的時候 那股票的起落情形下 那你如果想要賣掉情形下 你會怕虧到了這部分 所以一般預留稅源
 
@@ -206,7 +206,7 @@
 
 ## 00:14:45
 
-<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001445.png" alt="fubonsec_EIOQDXWEZbU_001445.png" width="640">
+<img src="fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_001445.jpg" alt="fubonsec_EIOQDXWEZbU_001445.jpg" width="640">
 
 **逐字稿片段：** 我們都會建議說 是不是買一些適當的保險 人壽保險 像我本身就會做一些 適當的人壽保險 我過世的時候 可能就有一兩千萬 我太太小孩就領到 那領到這一兩千萬 有什麼好處呢 第一個當然 我的遺產稅沒那麼高 就是因為有 我們有房貸 因為我是主要賺錢的人 我不在之後 那就想家裡不是就 沒有米了嗎 沒有米我孩子不是產了嗎 所以我就想說 那我透過這樣的保險 一部分可以預留稅源 一部分可以讓一些房貸 可以然後再做應急的家用 這三個部分可以保護 所以我會鼓勵有適當的人壽保險 而且人壽保險的好處是 當我不在的時候 他只要拿出儲戶證明 或死亡證明書 然後繼承人的表 相關資料去保險公司去領 他就很快就會下來 就有這個錢 就馬上去繳稅 這很簡單的 那如果真的沒辦法的情況下 我們講股票的話 我們找一些比較相對穩定的股票 有一些股票你仔細的去找 相對穩定 他就不會再這樣上上下下 所以那些股票是適合拿來做底繳 上市上櫃公司股票 因為反正他就是這樣沒有波動 他等同現金 但是又適合的 你就等於在存股對不對 他每年都有股利股息 那我就領股利股息 那當做繳稅的底稅的一個基本 非常謝謝蘇律師幫我們講解了 存股族在財富傳承上的許多迷思 從贈予遺囑到信託的抉擇
 
