@@ -34,23 +34,23 @@
 
 ---
 
-## 00:01:35
+## 00:01:44
 
-<img src="wealth1974_JOLqghWExO8_keyframes/wealth1974_JOLqghWExO8_000135.jpg" alt="wealth1974_JOLqghWExO8_000135.jpg" width="640">
+<img src="wealth1974_JOLqghWExO8_keyframes/wealth1974_JOLqghWExO8_000144.jpg" alt="wealth1974_JOLqghWExO8_000144.jpg" width="640">
 
 **逐字稿片段：** 辜朝明最新書籍 《被追趕的經濟體》 出版囉 本書結合他長期參與 多國經濟政策的經驗 提出對目前各種挑戰的解方 現在熱賣中 可以到財訊官網 博客來 誠品 金石堂購買
 
-**話題推測：** 辜朝明新書《被追趕的經濟體》廣告
+**話題推測：** 辜朝明新書《被追趕的經濟體》廣告（原 00:01:35 抓到轉場模糊畫面，改用廣告完整顯示的畫面）
 
 ---
 
-## 00:01:54
+## 00:01:59
 
-<img src="wealth1974_JOLqghWExO8_keyframes/wealth1974_JOLqghWExO8_000154.jpg" alt="wealth1974_JOLqghWExO8_000154.jpg" width="640">
+<img src="wealth1974_JOLqghWExO8_keyframes/wealth1974_JOLqghWExO8_000159.jpg" alt="wealth1974_JOLqghWExO8_000159.jpg" width="640">
 
 **逐字稿片段：** 這次喻斐幫我們盤點了 台股今年上半年 自由現金流 流出最多的前 10 名 第一名是緯創 第二名是鴻海 再來依序是大聯大 華碩 技嘉 緯穎 這些公司 看得出來是 AI 伺服器相關的 主要的自由現金流 流出的公司 沒錯 我們可以看到前兩名 緯創跟鴻海 它們營收真的是成長很大 今年幾乎都是倍數的增長
 
-**話題推測：** 盤點台股上半年自由現金流流出最多的前10名公司
+**話題推測：**「台股今年上半年自由現金流流出最多前10名」表格首次完整顯示（原 00:01:54 抓到的畫面還停在上一段廣告，表格要到 00:01:59 才出現）
 
 ---
 
