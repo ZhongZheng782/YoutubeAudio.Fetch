@@ -42,7 +42,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
-| [投资方法论与决策科学｜风投女神徐新投资中的三个方法论](data/x/x_dzTP-abkWCc_keyframes.md) | 2026-02-11 |
+| [投資方法論與決策科學｜風投女神徐新投資中的三個方法論](data/x/x_dzTP-abkWCc_keyframes.md) | 2026-02-11 |
 
 ### [游庭皓的財經皓角](data/yutinghaofinance/)
 
