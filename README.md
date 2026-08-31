@@ -38,11 +38,17 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 | [AI股危機不是獲利下滑，而是自由現金流正在消失。哪些熱門ETF受創最大？0050比較抗震嗎？｜峰哥｜Smart智富．投資的一千零一夜244](data/smartmonthly-bw/smartmonthly-bw_WW1Kpl3LLc0_keyframes.md) | 2026-08-01 |
 | [吃播聊投資，峰哥怎麼看債券ETF？長期資金，選0050或台積電？市場反彈，佑佑加碼部位的資產翻正了嗎？｜佑佑，峰哥｜人人都能學會](data/smartmonthly-bw/smartmonthly-bw_XcMUo9k65Rs_keyframes.md) | 2022-11-29 |
 
+### [財訊](data/wealth1974/)
+
+| 影片 | 日期 |
+| --- | --- |
+| [【會員影片節選】AI 訂單讓台廠大賺錢 但卻缺自由現金｜#聽了財知道 EP364 #鴻海 #緯穎](data/wealth1974/wealth1974_JOLqghWExO8_keyframes.md) | 2026-08-31 |
+
 ### [X的財經筆記](data/x/)
 
 | 影片 | 日期 |
 | --- | --- |
-| [投資方法論與決策科學｜風投女神徐新投資中的三個方法論](data/x/x_dzTP-abkWCc_keyframes.md) | 2026-02-11 |
+| [投资方法论与决策科学｜风投女神徐新投资中的三个方法论](data/x/x_dzTP-abkWCc_keyframes.md) | 2026-02-11 |
 
 ### [游庭皓的財經皓角](data/yutinghaofinance/)
 
