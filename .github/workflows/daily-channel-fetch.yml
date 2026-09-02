@@ -126,7 +126,10 @@ jobs:
               md_path = srt.with_name(f"{stem}_keyframes.md")
               if md_path.exists():
                   continue
-              video_id = stem.rsplit("_", 1)[-1]
+              # YouTube video IDs are a fixed 11 chars (can themselves contain "_"),
+              # so slice by width rather than rsplit("_", 1) — the latter truncated
+              # IDs like "rTnPsm_gAhA" or "_FsaTDrvsms" down to a broken short ID.
+              video_id = stem[-11:]
               video_url = f"https://www.youtube.com/watch?v={video_id}"
               print(f"::group::{stem}")
               ok = False
