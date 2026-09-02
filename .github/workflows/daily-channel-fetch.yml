@@ -80,7 +80,12 @@ jobs:
         # `pip install -r requirements.txt`, whose `-e ../llm` only resolves on a dev
         # machine with the sibling llm repo checked out locally. In CI, install the
         # same package straight from GitHub instead.
-        run: pip install Pillow "llm @ git+https://github.com/wenchiehlee/llm.git"
+        # --force-reinstall --no-deps: this is a persistent self-hosted runner (unlike a
+        # GitHub-hosted one, its site-packages survive between runs), and a bare `pip
+        # install pkg @ git+URL` without --upgrade/--force-reinstall silently keeps
+        # whatever commit was already installed — confirmed live when a fix pushed to
+        # wenchiehlee/llm didn't take effect on the very next run.
+        run: pip install --force-reinstall --no-deps Pillow "llm @ git+https://github.com/wenchiehlee/llm.git"
 
       - name: Extract keyframes for videos missing a _keyframes.md
         env:
