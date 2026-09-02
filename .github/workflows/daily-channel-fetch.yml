@@ -15,7 +15,7 @@ jobs:
     # instead of a GitHub-hosted runner: GitHub-hosted runners' datacenter IPs are reliably
     # flagged by YouTube's bot detection ("Sign in to confirm you're not a bot"), even with
     # valid cookies — a residential IP passes cleanly without needing cookies at all.
-    runs-on: [self-hosted]
+    runs-on: [self-hosted, Linux, X64]
     permissions:
       contents: write
 
