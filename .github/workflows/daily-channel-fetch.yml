@@ -84,7 +84,20 @@ jobs:
 
       - name: Extract keyframes for videos missing a _keyframes.md
         env:
+          # GeminiProvider (../llm) round-robins across GEMINI_API_KEY plus any
+          # GEMINI_API_KEY_1..N, permanently skipping ones that come back invalid
+          # or daily-quota-exhausted — mirrors the key pool in GoogleAlertManager/.env.
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+          GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+          GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+          GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
           CODEX_API_URL: ${{ secrets.CODEX_API_URL }}
           CODEX_API_KEY: ${{ secrets.CODEX_API_KEY }}
         run: |
