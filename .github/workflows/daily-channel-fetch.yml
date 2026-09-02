@@ -11,7 +11,11 @@ on:
 
 jobs:
   fetch:
-    runs-on: ubuntu-latest
+    # Runs on the ZhongZheng782 org's self-hosted NAS runner (wenchiehlee.quickconnect.to)
+    # instead of a GitHub-hosted runner: GitHub-hosted runners' datacenter IPs are reliably
+    # flagged by YouTube's bot detection ("Sign in to confirm you're not a bot"), even with
+    # valid cookies — a residential IP passes cleanly without needing cookies at all.
+    runs-on: [self-hosted]
     permissions:
       contents: write
 
@@ -47,7 +51,7 @@ jobs:
 
       - name: Fetch each tracked channel
         env:
-          WHISPER_SOURCE_REPO: wenchiehlee-money/YoutubeAudio.Fetch
+          WHISPER_SOURCE_REPO: ZhongZheng782/YoutubeAudio.Fetch
           WHISPER_TARGET_REPO: ZhongZheng782/Mac-mini
           WHISPER_SOURCE_TYPE: youtube
           REPO_FILE_SYNC_WENCHIEHLEE_MONEY: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}

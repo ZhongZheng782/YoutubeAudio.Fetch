@@ -90,7 +90,7 @@ This repo always uses `youtube` (set via `WHISPER_SOURCE_TYPE` in `.env`).
 ### Config (`.env`, see `.env.example`)
 
 - `WHISPER_TARGET_REPO` — Mac-mini repo that runs the pipeline (e.g. `ZhongZheng782/Mac-mini`)
-- `WHISPER_SOURCE_REPO` — this repo (`wenchiehlee-money/YoutubeAudio.Fetch`)
+- `WHISPER_SOURCE_REPO` — this repo (`ZhongZheng782/YoutubeAudio.Fetch`)
 - `WHISPER_SOURCE_TYPE` — `youtube` for this repo
 - `REPO_FILE_SYNC_ZHONGZHENG782_MONEY` — PAT scoped to `WHISPER_TARGET_REPO` only, `Issues: Read and
   write`. No `Contents` access is needed on either repo — issue creation only needs write on the
