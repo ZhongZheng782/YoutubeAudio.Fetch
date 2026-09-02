@@ -12,6 +12,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [存股傳承一定要信託嗎？律師解析贈與、繼承做不到的關鍵安排｜蘇家宏專訪 EP3](data/fubonsec/fubonsec_324i3yZuBLo_keyframes.md) | 2026-08-28 |
+| [AI會取代你的工作嗎？數位轉型專家揭4大關鍵能力｜詹文男專訪](data/fubonsec/fubonsec_cdsJ6wyuULM_keyframes.md) | 2026-08-26 |
 | [股票存到3000萬就該規劃？遺囑、贈與、信託差異一次看懂｜蘇家宏專訪 EP2](data/fubonsec/fubonsec_EIOQDXWEZbU_keyframes.md) | 2026-08-21 |
 | [CoPoS百家爭鳴：先進封裝的挑戰與投資機會｜富邦投顧 劉立中 協理《富邦說趨勢》 EP 93](data/fubonsec/fubonsec_0L7DV-hnWmM_keyframes.md) | 2026-08-19 |
 | [你的股票最後會留給誰？律師揭存股族最容易忽略的財產傳承觀念｜蘇家宏專訪 EP1](data/fubonsec/fubonsec_W_cLHLRD1m8_keyframes.md) | 2026-08-14 |
@@ -30,8 +32,10 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [清大5000萬變50億！操盤人林哲群公開「賺錢的方法」。50歲有一筆錢，怎麼投資？小資族如何從小錢開始累積資產？清大校務基金現在的持股組合？｜峰哥ft. 林哲群｜Smart智富．投資的一千零一夜248](data/smartmonthly-bw/smartmonthly-bw_TrzuopEcNDE_keyframes.md) | 2026-08-29 |
 | [好公司跌破支撐該跑還是加碼？別無腦加！先看估值，跌深不等於便宜｜雷浩斯、佑佑｜理財佑佑班](data/smartmonthly-bw/smartmonthly-bw_QDPTr7wipx8_keyframes.md) | 2026-08-25 |
 | [客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥｜Smart智富．投資的一千零一夜247](data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes.md) | 2026-08-22 |
+| [連味精都能壟斷AI！看懂日企憑什麼掌控全球命脈？｜曾仲葳、CFP®國際理財顧問吳盛富｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw__FsaTDrvsms_keyframes.md) | 2026-08-18 |
 | [高檔賣7成、低檔全買回，投資達人雷浩斯持股衝95%，他看好那些標的?｜峰哥｜Smart智富．投資的一千零一夜246](data/smartmonthly-bw/smartmonthly-bw_5wLmS5-slJY_keyframes.md) | 2026-08-15 |
 | [日圓甜甜價沒了，28年首見！美日聯手救日圓，下一場股災要來了？新台幣怎沒跟著日圓升值？｜峰哥｜Smart智富．投資的一千零一夜245](data/smartmonthly-bw/smartmonthly-bw_-3z0BSuQ9p8_keyframes.md) | 2026-08-08 |
 | [暴漲暴跌怎麼做當沖？選股竟不看K棒！股價、成交值、大戶單為關鍵｜林昇、佑佑｜理財佑佑班](data/smartmonthly-bw/smartmonthly-bw_XG6az-eXZNY_keyframes.md) | 2026-08-06 |
@@ -49,16 +53,22 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 | 影片 | 日期 |
 | --- | --- |
 | [投资方法论与决策科学｜风投女神徐新投资中的三个方法论](data/x/x_dzTP-abkWCc_keyframes.md) | 2026-02-11 |
+| [告別複雜公式！巴菲特估值法核心就一條！](data/x/x_Ofio1iI-i50_keyframes.md) | 2025-12-01 |
 
 ### [游庭皓的財經皓角](data/yutinghaofinance/)
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/9/2(三)高利率炸彈 AI還能撐?亞洲AI行情 迎來大考驗?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_fpX071E5yI4_keyframes.md) | 2026-09-02 |
+| [2026/9/1(二)美伊再交火 巨頭續燒錢！美股能擺脫 九月魔咒嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_XY31kO-V0Q4_keyframes.md) | 2026-09-01 |
+| [2026/8/31(一)華許放鷹 升息躲得掉?高利率越久 美債美股 誰先撐不住？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_BxtHhc6P1n0_keyframes.md) | 2026-08-31 |
+| [2026/8/28(五)輝達救美股 華許救美債?台灣景氣連八紅 台灣人終於有感?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_rTnPsm_gAhA_keyframes.md) | 2026-08-28 |
 | [2026/8/27(四)輝達財報再超標!追高意願低?美股為何原地踏步?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_lDeHFopOfIs_keyframes.md) | 2026-08-27 |
 | [2026/8/26(三)美債回購能 救川普選情?日本缺工 歐洲缺膽 誰能突圍?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_KUZC2NyCCCY_keyframes.md) | 2026-08-26 |
 | [2026/8/25(二)輝達連七黑 領頭羊動搖 ?經濟諾曼第行動 通膨撐得住?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_tLvKGHyxhd8_keyframes.md) | 2026-08-25 |
 | [2026/8/24(一)美債救不動 黃金 比特幣先起飛?關稅戰再起 最後誰買單？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_dFYqrIQIMvw_keyframes.md) | 2026-08-24 |
 | [2026/8/21(五)巨頭搶錢 誰來接美債?AI是革命or下一場債務危機?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_ajjRvohk-Og_keyframes.md) | 2026-08-21 |
+| [2026/8/20(四)貝森特護盤!美債有救了?巨頭燒錢換市佔 利息拖垮經濟?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_LUGWERSl01s_keyframes.md) | 2026-08-20 |
 | [2026/8/19(三)債市風暴 撿便宜時刻?美中爭霸燒錢戰 Al時代只能二選一？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_9VqNpjPGmbM_keyframes.md) | 2026-08-19 |
 | [2026/8/18(二)美股買盤停止追高 散戶等回檔?台灣游資氾濫 普發成常態?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_aRPmzQfTLFc_keyframes.md) | 2026-08-18 |
 | [2026/8/17(一)指數創高 回檔等加碼?美課100%關稅 無人機大戰開打!【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_OJ5vxmwQrE0_keyframes.md) | 2026-08-17 |
