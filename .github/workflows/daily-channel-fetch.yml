@@ -86,7 +86,7 @@ jobs:
         # install pkg @ git+URL` without --upgrade/--force-reinstall silently keeps
         # whatever commit was already installed — confirmed live when a fix pushed to
         # wenchiehlee/llm didn't take effect on the very next run.
-        run: pip install --force-reinstall --no-deps Pillow "llm @ git+https://github.com/wenchiehlee/llm.git"
+        run: pip install --force-reinstall Pillow google-genai "llm @ git+https://github.com/wenchiehlee/llm.git"
 
       - name: Extract keyframes for videos missing a _keyframes.md
         env:
