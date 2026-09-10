@@ -134,7 +134,7 @@ jobs:
               video_url = f"https://www.youtube.com/watch?v={video_id}"
               print(f"::group::{stem}")
               ok = False
-              for attempt in range(2):
+              for attempt in range(4):
                   proc = subprocess.run([
                       sys.executable,
                       "skills/skill-youtube-channel-srt-keyframe-extract/scripts/keyframe_extract.py",
@@ -144,9 +144,9 @@ jobs:
                       ok = True
                       break
                   print(f"attempt {attempt + 1} failed for {stem}")
+                  import time
+                  time.sleep(30 * (attempt + 1))
               if not ok:
-                  # YouTube's anti-bot throttling is intermittent (seen repeatedly in
-                  # manual testing) — leave it for tomorrow's run rather than fail the job.
                   print(f"::warning::keyframe extraction failed for {stem} after retries, will retry on next run")
               print("::endgroup::")
           PYEOF
