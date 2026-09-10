@@ -148,7 +148,7 @@ DUPLICATE_HASH_THRESHOLD = 6  # max Hamming distance (out of 64 bits) to call it
 
 def _average_hash(path: Path, hash_size: int = DUPLICATE_HASH_SIZE) -> int:
     img = Image.open(path).convert("L").resize((hash_size, hash_size), Image.LANCZOS)
-    pixels = list(img.getdata())
+    pixels = list(img.get_flattened_data()) if hasattr(img, "get_flattened_data") else list(img.getdata())
     avg = sum(pixels) / len(pixels)
     bits = 0
     for p in pixels:
