@@ -32,6 +32,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [越南正夯！股怪教授解析投資機會ｘ越南美女帶路吃喝玩樂！｜詹璇依、股怪教授謝晨彥、Hang TV越南夯台灣頻道主阮秋姮｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_NgXyMZaZbfQ_keyframes.md) | 2026-09-07 |
+| [升息、強美元、AI股大舉債，當心可能推倒台股的三塊骨牌！｜峰哥｜Smart智富．投資的一千零一夜249](data/smartmonthly-bw/smartmonthly-bw_OunGyJJy9x8_keyframes.md) | 2026-09-05 |
 | [清大5000萬變50億！操盤人林哲群公開「賺錢的方法」。50歲有一筆錢，怎麼投資？小資族如何從小錢開始累積資產？清大校務基金現在的持股組合？｜峰哥ft. 林哲群｜Smart智富．投資的一千零一夜248](data/smartmonthly-bw/smartmonthly-bw_TrzuopEcNDE_keyframes.md) | 2026-08-29 |
 | [好公司跌破支撐該跑還是加碼？別無腦加！先看估值，跌深不等於便宜｜雷浩斯、佑佑｜理財佑佑班](data/smartmonthly-bw/smartmonthly-bw_QDPTr7wipx8_keyframes.md) | 2026-08-25 |
 | [客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥｜Smart智富．投資的一千零一夜247](data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes.md) | 2026-08-22 |
@@ -59,6 +61,11 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/9/9(三)油價快破100美元 期中選舉拉警報?道瓊跌費半升!市場大換血?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_b2MbRUsIaU8_keyframes.md) | 2026-09-09 |
+| [2026/9/8(二)亞幣大升值 錢往亞洲跑  外資回補潮?台灣擴廠潮 游資擋不住!【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_O0JBTLUGnQ0_keyframes.md) | 2026-09-08 |
+| [2026/9/7(一)非農超強 美債失守 AI股卻悄悄轉多?美股Q4還有戲?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_c4IT1Mwb_Pg_keyframes.md) | 2026-09-07 |
+| [2026/9/4(五)沒人接盤 債市要變天?2027兆元帳單來了 美股內部出現裂痕?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_6weg9-YmGVs_keyframes.md) | 2026-09-04 |
+| [2026/9/3(四)美國製造業 真的回來了？台灣央行 該升息了嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_R15MWKzLJpE_keyframes.md) | 2026-09-03 |
 | [2026/9/2(三)高利率炸彈 AI還能撐?亞洲AI行情 迎來大考驗?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_fpX071E5yI4_keyframes.md) | 2026-09-02 |
 | [2026/9/1(二)美伊再交火 巨頭續燒錢！美股能擺脫 九月魔咒嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_XY31kO-V0Q4_keyframes.md) | 2026-09-01 |
 | [2026/8/31(一)華許放鷹 升息躲得掉?高利率越久 美債美股 誰先撐不住？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_BxtHhc6P1n0_keyframes.md) | 2026-08-31 |
