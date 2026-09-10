@@ -157,10 +157,11 @@ class ChannelFetcher:
         # YOUTUBE_FETCH_TOKEN/GH_TOKEN are generic fallbacks for ad-hoc local use.
         self.token = (
             token
-            or os.environ.get("REPO_FILE_SYNC_WENCHIEHLEE_MONEY")
             or os.environ.get("REPO_FILE_SYNC_ZHONGZHENG782_MONEY")
+            or os.environ.get("REPO_FILE_SYNC_WENCHIEHLEE_MONEY")
             or os.environ.get("YOUTUBE_FETCH_TOKEN")
             or os.environ.get("GH_TOKEN")
+            or os.environ.get("GITHUB_TOKEN")
         )
         if not self.source_repo:
             raise RuntimeError("WHISPER_SOURCE_REPO must be set (env or .env)")

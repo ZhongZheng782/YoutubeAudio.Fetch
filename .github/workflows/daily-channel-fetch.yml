@@ -56,6 +56,7 @@ jobs:
           WHISPER_SOURCE_TYPE: youtube
           REPO_FILE_SYNC_WENCHIEHLEE_MONEY: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
           REPO_FILE_SYNC_ZHONGZHENG782_MONEY: ${{ secrets.REPO_FILE_SYNC_ZHONGZHENG782_MONEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           LIMIT="${{ github.event.inputs.limit || '5' }}"
           for url in $(python -c "import json; print('\n'.join(json.load(open('channels.json'))))"); do
