@@ -128,6 +128,8 @@ truth; this repo's copy and `InvestorConference`'s copy are both deployments kep
 `whisper_issue_client.py` here expecting changes to persist — fix it upstream in the registry repo
 and re-run `self_update.py`, unless you're doing a one-off local experiment.
 
-Full design details (issue metadata schema, stem parsing rules, company-configs tuning / GT
-correction loop) live in the Mac-mini repo's `skills/skill-mlx-api-server-whisper/SKILL.md`, not
-in this repo.
+
+## Critical Diagnostics Guidelines
+- **Always fetch and inspect un-truncated error logs** (searching for `ModuleNotFoundError`, `Traceback`, or exit codes) before forming any diagnosis hypothesis.
+- **Never guess or state a root cause without empirical log evidence.**
+
