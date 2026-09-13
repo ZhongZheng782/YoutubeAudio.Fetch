@@ -32,6 +32,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [黃仁勳出手1000億，圖什麼？聯發科與供應鏈迎最大商機，產業隊長張捷點名供應鏈受惠股，下一批飆股曝光！｜峰哥ft. 張捷｜Smart智富．投資的一千零一夜250](data/smartmonthly-bw/smartmonthly-bw_fR7auIG3M-0_keyframes.md) | 2026-09-12 |
 | [越南正夯！股怪教授解析投資機會ｘ越南美女帶路吃喝玩樂！｜詹璇依、股怪教授謝晨彥、Hang TV越南夯台灣頻道主阮秋姮｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_NgXyMZaZbfQ_keyframes.md) | 2026-09-07 |
 | [升息、強美元、AI股大舉債，當心可能推倒台股的三塊骨牌！｜峰哥｜Smart智富．投資的一千零一夜249](data/smartmonthly-bw/smartmonthly-bw_OunGyJJy9x8_keyframes.md) | 2026-09-05 |
 | [清大5000萬變50億！操盤人林哲群公開「賺錢的方法」。50歲有一筆錢，怎麼投資？小資族如何從小錢開始累積資產？清大校務基金現在的持股組合？｜峰哥ft. 林哲群｜Smart智富．投資的一千零一夜248](data/smartmonthly-bw/smartmonthly-bw_TrzuopEcNDE_keyframes.md) | 2026-08-29 |
