@@ -62,6 +62,13 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/9/18(五)台灣央行 為何不升息?第2戶貸款回7成 房市底部到了?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_Ulz539c38mw_keyframes.md) | 2026-09-18 |
+| [2026/9/17(四)三年首度升息!這只是剛開始?升息循環開啟 美股漲得動嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_TQ_oEc9vnB8_keyframes.md) | 2026-09-17 |
+| [2026/9/16(三)股市還在撐 債市先崩?2026最難一局 Fed升息後 誰先投降？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_wmu1GS07BMo_keyframes.md) | 2026-09-16 |
+| [2026/9/15(二)AI踩煞車 重擊晶片股?10年債殖利率破5% AI泡沫洩氣？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_KNWS5tp0HYc_keyframes.md) | 2026-09-15 |
+| [2026/9/14(一)油價破百!升息箭在弦上?中期選舉倒數 美債撐得住?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_FtPa8H718To_keyframes.md) | 2026-09-14 |
+| [2026/9/11(五)油價破百 債券失火!股市撿便宜?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_mhVVuuWUhCw_keyframes.md) | 2026-09-11 |
+| [2026/9/10(四)摺疊機登場 蘋果救美股? 市場飽和 蘋果能創造 下一個換機潮？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_cOTLqoaHBxE_keyframes.md) | 2026-09-10 |
 | [2026/9/9(三)油價快破100美元 期中選舉拉警報?道瓊跌費半升!市場大換血?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_b2MbRUsIaU8_keyframes.md) | 2026-09-09 |
 | [2026/9/8(二)亞幣大升值 錢往亞洲跑  外資回補潮?台灣擴廠潮 游資擋不住!【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_O0JBTLUGnQ0_keyframes.md) | 2026-09-08 |
 | [2026/9/7(一)非農超強 美債失守 AI股卻悄悄轉多?美股Q4還有戲?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_c4IT1Mwb_Pg_keyframes.md) | 2026-09-07 |
