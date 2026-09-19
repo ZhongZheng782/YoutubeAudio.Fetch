@@ -32,6 +32,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [韓股去槓桿結束，反攻號角可能正要吹響 ｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_WXZqPbEusDA_keyframes.md) | 2026-09-18 |
+| [越南股市2025年漲幅超過4成*！這只是剛開始嗎？「越南2.0」5大升級看未來10年｜峰哥、中國信託越南機會基金經理人張晨瑋｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_YoNKzSvLxj8_keyframes.md) | 2026-09-18 |
 | [黃仁勳出手1000億，圖什麼？聯發科與供應鏈迎最大商機，產業隊長張捷點名供應鏈受惠股，下一批飆股曝光！｜峰哥ft. 張捷｜Smart智富．投資的一千零一夜250](data/smartmonthly-bw/smartmonthly-bw_fR7auIG3M-0_keyframes.md) | 2026-09-12 |
 | [越南正夯！股怪教授解析投資機會ｘ越南美女帶路吃喝玩樂！｜詹璇依、股怪教授謝晨彥、Hang TV越南夯台灣頻道主阮秋姮｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_NgXyMZaZbfQ_keyframes.md) | 2026-09-07 |
 | [升息、強美元、AI股大舉債，當心可能推倒台股的三塊骨牌！｜峰哥｜Smart智富．投資的一千零一夜249](data/smartmonthly-bw/smartmonthly-bw_OunGyJJy9x8_keyframes.md) | 2026-09-05 |
