@@ -32,6 +32,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [台股還能投資？AI商機多點開花，市值型ETF 2.0掌握「現任＋下任」核心](data/smartmonthly-bw/smartmonthly-bw_Q6T7rLcSbds_keyframes.md) | 2026-09-21 |
 | [台股5萬點只是前菜？杜金龍：這波牛市末升段上看8萬點！台積電有機會漲到哪裡？杜大師解密台積電、聯發科與鴻海實戰操作心法！｜峰哥ft. 杜金龍｜Smart智富．投資的一千零一夜251](data/smartmonthly-bw/smartmonthly-bw_LKAYiw41EZg_keyframes.md) | 2026-09-19 |
 | [韓股去槓桿結束，反攻號角可能正要吹響 ｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_WXZqPbEusDA_keyframes.md) | 2026-09-18 |
 | [越南股市2025年漲幅超過4成*！這只是剛開始嗎？「越南2.0」5大升級看未來10年｜峰哥、中國信託越南機會基金經理人張晨瑋｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_YoNKzSvLxj8_keyframes.md) | 2026-09-18 |
@@ -65,6 +66,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/9/21(一)美股最危險組合:油價100美元+美債5% 川習會登場 利多還有戲?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_EJdsmRgakkU_keyframes.md) | 2026-09-21 |
 | [2026/9/18(五)台灣央行 為何不升息?第2戶貸款回7成 房市底部到了?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_Ulz539c38mw_keyframes.md) | 2026-09-18 |
 | [2026/9/17(四)三年首度升息!這只是剛開始?升息循環開啟 美股漲得動嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_TQ_oEc9vnB8_keyframes.md) | 2026-09-17 |
 | [2026/9/16(三)股市還在撐 債市先崩?2026最難一局 Fed升息後 誰先投降？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_wmu1GS07BMo_keyframes.md) | 2026-09-16 |
