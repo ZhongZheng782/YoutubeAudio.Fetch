@@ -32,6 +32,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [台股創新高就能追？別急！追強不追高，慎防假突破｜王子縈、佑佑｜理財佑佑班](data/smartmonthly-bw/smartmonthly-bw_tFVq0jnAq0M_keyframes.md) | 2026-09-22 |
 | [台股還能投資？AI商機多點開花，市值型ETF 2.0掌握「現任＋下任」核心](data/smartmonthly-bw/smartmonthly-bw_Q6T7rLcSbds_keyframes.md) | 2026-09-21 |
 | [台股5萬點只是前菜？杜金龍：這波牛市末升段上看8萬點！台積電有機會漲到哪裡？杜大師解密台積電、聯發科與鴻海實戰操作心法！｜峰哥ft. 杜金龍｜Smart智富．投資的一千零一夜251](data/smartmonthly-bw/smartmonthly-bw_LKAYiw41EZg_keyframes.md) | 2026-09-19 |
 | [韓股去槓桿結束，反攻號角可能正要吹響 ｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_WXZqPbEusDA_keyframes.md) | 2026-09-18 |
@@ -49,10 +50,25 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 | [AI股危機不是獲利下滑，而是自由現金流正在消失。哪些熱門ETF受創最大？0050比較抗震嗎？｜峰哥｜Smart智富．投資的一千零一夜244](data/smartmonthly-bw/smartmonthly-bw_WW1Kpl3LLc0_keyframes.md) | 2026-08-01 |
 | [吃播聊投資，峰哥怎麼看債券ETF？長期資金，選0050或台積電？市場反彈，佑佑加碼部位的資產翻正了嗎？｜佑佑，峰哥｜人人都能學會](data/smartmonthly-bw/smartmonthly-bw_XcMUo9k65Rs_keyframes.md) | 2022-11-29 |
 
+### [LEI](data/themarketmemo/)
+
+| 影片 | 日期 |
+| --- | --- |
+| [破解投資圈「窮人思維模式」](data/themarketmemo/themarketmemo_tNzUUET5opY_keyframes.md) | 2026-01-16 |
+| [全職投資人，需要具備哪些條件？](data/themarketmemo/themarketmemo_hDOZ5n9PJFI_keyframes.md) | 2025-12-03 |
+| [【硬核】我用二十年經驗總結的投資分析框架](data/themarketmemo/themarketmemo_qbU7LHPZ4Xo_keyframes.md) | 2025-11-27 |
+| [市場崩盤的本質是什麼？｜聊聊流動性風險](data/themarketmemo/themarketmemo_IMZgGZVQu2M_keyframes.md) | 2025-10-09 |
+| [我的故事：從設計師到職業投資人](data/themarketmemo/themarketmemo_DRiYHzY83T0_keyframes.md) | 2025-10-01 |
+
 ### [財訊](data/wealth1974/)
 
 | 影片 | 日期 |
 | --- | --- |
+| [五大商社砸重金 尋找下個成長動能｜#投資IN總經 EP97  #財訊 #日本](data/wealth1974/wealth1974_GIVExayTQwM_keyframes.md) | 2026-09-22 |
+| [台積電領頭 四大亮點引爆 AI 新格局｜#聽了財知道 EP370 #SEMICON #台積電](data/wealth1974/wealth1974_ksWBCvgQR5k_keyframes.md) | 2026-09-21 |
+| [三現象拆解生技熱 漲升內涵大不同｜#財訊不漏接 EP053 #財訊podcast #捷立康 #康霈 #仁新](data/wealth1974/wealth1974_kDBwZJ7kMxQ_keyframes.md) | 2026-09-19 |
+| [台灣下一座護國神山？ 健康產業將有億元市場｜#老謝開講 EP293 #財訊 feat. 威力先進董事長 王文欽](data/wealth1974/wealth1974_c68PvMZYzOo_keyframes.md) | 2026-09-18 |
+| [機器人走向量產 能改善醫護負擔嗎？｜#幸福經濟學 EP16 #財訊](data/wealth1974/wealth1974_5gxEt8Vgtiw_keyframes.md) | 2026-09-17 |
 | [【會員影片節選】AI 訂單讓台廠大賺錢 但卻缺自由現金｜#聽了財知道 EP364 #鴻海 #緯穎](data/wealth1974/wealth1974_JOLqghWExO8_keyframes.md) | 2026-08-31 |
 
 ### [X的財經筆記](data/x/)
@@ -66,6 +82,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/9/22(二)那指創新高!個股沒跟上?美股重新押注AI 不怕高利率了？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_U4RH_CPe3GQ_keyframes.md) | 2026-09-22 |
 | [2026/9/21(一)美股最危險組合:油價100美元+美債5% 川習會登場 利多還有戲?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_EJdsmRgakkU_keyframes.md) | 2026-09-21 |
 | [2026/9/18(五)台灣央行 為何不升息?第2戶貸款回7成 房市底部到了?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_Ulz539c38mw_keyframes.md) | 2026-09-18 |
 | [2026/9/17(四)三年首度升息!這只是剛開始?升息循環開啟 美股漲得動嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_TQ_oEc9vnB8_keyframes.md) | 2026-09-17 |
