@@ -75,6 +75,11 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [巴菲特&芒格：社会运行的本质，它会奖励哪些人！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特](data/x/x_nNtdo6Lsop4_keyframes.md) | 2026-07-30 |
+| [巴菲特：停止改变别人把全部能量用来投资自己！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特](data/x/x_vF4QvcDmWIs_keyframes.md) | 2026-07-29 |
+| [芒格：遠離這三類人，你的人生才會開掛！ #charliemunger #芒格](data/x/x_SE5CoXNuG_Y_keyframes.md) | 2026-06-14 |
+| [查理·芒格：人生漫長，充滿了遺憾和痛苦！#charliemunger #芒格](data/x/x_WozyR-uRgUs_keyframes.md) | 2026-06-13 |
+| [既然巴菲特的持倉是公開的，我們為什麼不能跟著買？#warrenbuffett #投資 #巴菲特](data/x/x_vlDErtgEyFM_keyframes.md) | 2026-06-12 |
 | [投资方法论与决策科学｜风投女神徐新投资中的三个方法论](data/x/x_dzTP-abkWCc_keyframes.md) | 2026-02-11 |
 | [告別複雜公式！巴菲特估值法核心就一條！](data/x/x_Ofio1iI-i50_keyframes.md) | 2025-12-01 |
 
@@ -82,6 +87,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/9/23(三)5%殖利率也擋不住FOMO？AI狂潮推那指再創新高【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_Xlj2cBFC7_s_keyframes.md) | 2026-09-23 |
 | [2026/9/22(二)那指創新高!個股沒跟上?美股重新押注AI 不怕高利率了？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_U4RH_CPe3GQ_keyframes.md) | 2026-09-22 |
 | [2026/9/21(一)美股最危險組合:油價100美元+美債5% 川習會登場 利多還有戲?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_EJdsmRgakkU_keyframes.md) | 2026-09-21 |
 | [2026/9/18(五)台灣央行 為何不升息?第2戶貸款回7成 房市底部到了?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_Ulz539c38mw_keyframes.md) | 2026-09-18 |
