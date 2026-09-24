@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>游庭皓的財經皓角 — Podcast 原型</title>
+<title>YoutubeAudio.Fetch — Podcast 原型</title>
 <style>
   :root {
     --bg: #0f1115;
@@ -26,10 +26,26 @@
   }
   header h1 { margin: 0 0 4px; font-size: 20px; }
   header p { margin: 0; color: var(--muted); font-size: 13px; }
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+  }
+  .tab {
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    font-size: 13px;
+    cursor: pointer;
+    color: var(--muted);
+  }
+  .tab:hover { border-color: var(--accent); color: var(--text); }
+  .tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
   .layout {
     display: grid;
     grid-template-columns: 320px 1fr;
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 110px);
   }
   @media (max-width: 800px) {
     .layout { grid-template-columns: 1fr; }
@@ -37,7 +53,7 @@
   .episode-list {
     border-right: 1px solid var(--border);
     overflow-y: auto;
-    max-height: calc(100vh - 70px);
+    max-height: calc(100vh - 110px);
   }
   .episode {
     padding: 14px 18px;
@@ -48,7 +64,7 @@
   .episode.active { background: var(--panel); border-left: 3px solid var(--accent); }
   .episode .date { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
   .episode .title { font-size: 14px; line-height: 1.4; }
-  .main { padding: 20px 24px; overflow-y: auto; max-height: calc(100vh - 70px); }
+  .main { padding: 20px 24px; overflow-y: auto; max-height: calc(100vh - 110px); }
   .placeholder { color: var(--muted); padding: 40px 0; text-align: center; }
   audio { width: 100%; margin-bottom: 16px; }
   .keyframe img {
@@ -76,17 +92,11 @@
 </head>
 <body>
 <header>
-  <h1>游庭皓的財經皓角 — Podcast 原型</h1>
+  <h1 id="channelTitle">YoutubeAudio.Fetch — Podcast 原型</h1>
   <p>資料即時讀自 YoutubeAudio.Fetch 這個 repo（jsDelivr CDN），僅列出已有音檔的集數 ·
-    <a href="yutinghaofinance/feed.xml" style="color:var(--accent)">在 Podcast App 訂閱這個頻道（RSS）</a>
+    <a id="feedLink" href="#" style="color:var(--accent)">在 Podcast App 訂閱這個頻道（RSS）</a>
   </p>
-  <p style="color:var(--muted);font-size:13px;">
-    其他頻道目前只有 RSS，還沒有網頁播放器：
-    <a href="fubonsec/feed.xml" style="color:var(--accent)">富邦證券</a> ·
-    <a href="smartmonthly-bw/feed.xml" style="color:var(--accent)">Smart智富月刊</a> ·
-    <a href="wealth1974/feed.xml" style="color:var(--accent)">wealth1974</a> ·
-    <a href="x/feed.xml" style="color:var(--accent)">X的財經筆記</a>
-  </p>
+  <div class="tabs" id="tabs"></div>
 </header>
 <div class="layout">
   <div class="episode-list" id="episodeList">
@@ -98,14 +108,27 @@
 </div>
 <script>
 const REPO_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/";
-const CHANNEL = "yutinghaofinance";
+const PAGES_BASE = "https://zhongzheng782.github.io/YoutubeAudio.Fetch/";
+const VIDEO_ID_LEN = 11;
 
+const tabsEl = document.getElementById("tabs");
 const episodeListEl = document.getElementById("episodeList");
 const mainEl = document.getElementById("main");
+const channelTitleEl = document.getElementById("channelTitle");
+const feedLinkEl = document.getElementById("feedLink");
+
+let manifest = {};
+let metaCache = {};
+let channels = [];
+let currentChannel = null;
 
 function timeToSeconds(hhmmss) {
   const [h, m, s] = hhmmss.split(":").map(Number);
   return h * 3600 + m * 60 + s;
+}
+
+function channelOf(stem) {
+  return stem.slice(0, stem.length - VIDEO_ID_LEN - 1);
 }
 
 function parseKeyframesMd(md, channel, stem) {
@@ -136,16 +159,41 @@ async function fetchText(path) {
   return res.text();
 }
 
-async function loadEpisodes() {
-  const [manifest, metaCache] = await Promise.all([
-    fetchJson("audio_manifest.json"),
-    fetchJson("data/.video_metadata.json").catch(() => ({})),
-  ]);
+function displayNameFor(channel) {
+  for (const stem of Object.keys(manifest)) {
+    if (channelOf(stem) !== channel) continue;
+    const videoId = stem.slice(channel.length + 1);
+    const name = (metaCache[videoId] || {}).channel_name;
+    if (name) return name;
+  }
+  return channel;
+}
+
+function renderTabs() {
+  tabsEl.innerHTML = "";
+  channels.forEach((channel) => {
+    const el = document.createElement("div");
+    el.className = "tab" + (channel === currentChannel ? " active" : "");
+    el.textContent = displayNameFor(channel);
+    el.addEventListener("click", () => selectChannel(channel));
+    tabsEl.appendChild(el);
+  });
+}
+
+function selectChannel(channel) {
+  currentChannel = channel;
+  const url = new URL(window.location.href);
+  url.searchParams.set("channel", channel);
+  window.history.replaceState(null, "", url);
+
+  channelTitleEl.textContent = `${displayNameFor(channel)} — Podcast 原型`;
+  feedLinkEl.href = `${PAGES_BASE}${channel}/feed.xml`;
+  renderTabs();
 
   const episodes = Object.keys(manifest)
-    .filter((stem) => stem.startsWith(`${CHANNEL}_`))
+    .filter((stem) => channelOf(stem) === channel)
     .map((stem) => {
-      const videoId = stem.slice(CHANNEL.length + 1);
+      const videoId = stem.slice(channel.length + 1);
       const meta = metaCache[videoId] || {};
       return {
         stem,
@@ -157,18 +205,38 @@ async function loadEpisodes() {
     })
     .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
 
-  renderEpisodeList(episodes);
-  if (episodes.length > 0) selectEpisode(episodes[0]);
+  renderEpisodeList(channel, episodes);
+  mainEl.innerHTML = `<div class="placeholder">請從左邊選一集</div>`;
+  if (episodes.length > 0) selectEpisode(channel, episodes[0]);
 }
 
-function renderEpisodeList(episodes) {
+async function loadChannels() {
+  [manifest, metaCache] = await Promise.all([
+    fetchJson("audio_manifest.json"),
+    fetchJson("data/.video_metadata.json").catch(() => ({})),
+  ]);
+
+  channels = [...new Set(Object.keys(manifest).map(channelOf))].sort();
+  if (channels.length === 0) {
+    episodeListEl.innerHTML = `<div class="loading">目前沒有任何有音檔的集數</div>`;
+    return;
+  }
+
+  const requested = new URL(window.location.href).searchParams.get("channel");
+  const initial = channels.includes(requested)
+    ? requested
+    : (channels.includes("yutinghaofinance") ? "yutinghaofinance" : channels[0]);
+  selectChannel(initial);
+}
+
+function renderEpisodeList(channel, episodes) {
   episodeListEl.innerHTML = "";
   episodes.forEach((ep) => {
     const el = document.createElement("div");
     el.className = "episode";
     el.dataset.stem = ep.stem;
     el.innerHTML = `<div class="date">${ep.date || "日期未知"}</div><div class="title">${ep.title}</div>`;
-    el.addEventListener("click", () => selectEpisode(ep));
+    el.addEventListener("click", () => selectEpisode(channel, ep));
     episodeListEl.appendChild(el);
   });
 }
@@ -179,7 +247,7 @@ function setActiveEpisode(stem) {
   });
 }
 
-async function selectEpisode(ep) {
+async function selectEpisode(channel, ep) {
   setActiveEpisode(ep.stem);
   mainEl.innerHTML = `
     <h2 style="margin-top:0;font-size:16px;">${ep.title}</h2>
@@ -194,8 +262,8 @@ async function selectEpisode(ep) {
 
   let cues = [];
   try {
-    const md = await fetchText(`data/${CHANNEL}/${ep.stem}_keyframes.md`);
-    cues = parseKeyframesMd(md, CHANNEL, ep.stem);
+    const md = await fetchText(`data/${channel}/${ep.stem}_keyframes.md`);
+    cues = parseKeyframesMd(md, channel, ep.stem);
   } catch (e) {
     cueListEl.innerHTML = `<div class="loading">找不到這一集的關鍵畫面/逐字稿資料</div>`;
     return;
@@ -242,7 +310,7 @@ async function selectEpisode(ep) {
   player.addEventListener("loadedmetadata", updateActiveCue);
 }
 
-loadEpisodes().catch((e) => {
+loadChannels().catch((e) => {
   episodeListEl.innerHTML = `<div class="loading">載入失敗：${e.message}</div>`;
 });
 </script>
