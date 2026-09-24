@@ -3,11 +3,18 @@ name: Daily channel fetch
 on:
   schedule:
     - cron: "0 23 * * *"  # ~07:00 Asia/Taipei
+    - cron: "0 11 * * *"  # ~19:00 Asia/Taipei
   workflow_dispatch:
     inputs:
       limit:
         description: "Newest videos to consider per channel"
         default: "5"
+
+concurrency:
+  # Guards against the two daily schedules overlapping if one run is still
+  # going (e.g. a slow keyframe-extraction backlog) when the next fires.
+  group: daily-channel-fetch
+  cancel-in-progress: false
 
 jobs:
   fetch:
