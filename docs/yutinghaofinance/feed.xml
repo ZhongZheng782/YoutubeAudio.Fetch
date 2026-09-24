@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>游庭皓的財經皓角</title>
+    <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    <atom:link href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-tw</language>
+    <itunes:author>游庭皓的財經皓角</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
+    <description>游庭皓的財經皓角 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_Xlj2cBFC7_s_keyframes/yutinghaofinance_Xlj2cBFC7_s_000035.jpg"/>
+    <image>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_Xlj2cBFC7_s_keyframes/yutinghaofinance_Xlj2cBFC7_s_000035.jpg</url>
+      <title>游庭皓的財經皓角</title>
+      <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    </image>
+    <item>
+      <title>2026/9/23(三)5%殖利率也擋不住FOMO？AI狂潮推那指再創新高【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_Xlj2cBFC7_s</guid>
+      <pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=Xlj2cBFC7_s</link>
+      <description>2026/9/23(三)5%殖利率也擋不住FOMO？AI狂潮推那指再創新高【早晨財經速解讀】</description>
+      <enclosure url="https://github.com/ZhongZheng782/YoutubeAudio.Fetch/releases/download/audio-yutinghaofinance_Xlj2cBFC7_s/yutinghaofinance_Xlj2cBFC7_s.m4a" type="audio/mp4" length="63726156"/>
+      <podcast:transcript url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_Xlj2cBFC7_s_FIN.srt" type="application/srt" language="zh"/>
+    </item>
+    <item>
+      <title>2026/9/22(二)那指創新高!個股沒跟上?美股重新押注AI 不怕高利率了？【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_U4RH_CPe3GQ</guid>
+      <pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=U4RH_CPe3GQ</link>
+      <description>2026/9/22(二)那指創新高!個股沒跟上?美股重新押注AI 不怕高利率了？【早晨財經速解讀】</description>
+      <enclosure url="https://github.com/ZhongZheng782/YoutubeAudio.Fetch/releases/download/audio-yutinghaofinance_U4RH_CPe3GQ/yutinghaofinance_U4RH_CPe3GQ.m4a" type="audio/mp4" length="62123520"/>
+      <podcast:transcript url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_U4RH_CPe3GQ_FIN.srt" type="application/srt" language="zh"/>
+    </item>
+    <item>
+      <title>2026/8/21(五)巨頭搶錢 誰來接美債?AI是革命or下一場債務危機?【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_ajjRvohk-Og</guid>
+      <pubDate>Fri, 21 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=ajjRvohk-Og</link>
+      <description>2026/8/21(五)巨頭搶錢 誰來接美債?AI是革命or下一場債務危機?【早晨財經速解讀】</description>
+      <enclosure url="https://github.com/wenchiehlee-money/YoutubeAudio.Fetch/releases/download/audio-yutinghaofinance_ajjRvohk-Og/yutinghaofinance_ajjRvohk-Og.m4a" type="audio/mp4" length="77913029"/>
+      <podcast:transcript url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_ajjRvohk-Og_FIN.srt" type="application/srt" language="zh"/>
+    </item>
+    <item>
+      <title>2026/8/20(四)貝森特護盤!美債有救了?巨頭燒錢換市佔 利息拖垮經濟?【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_LUGWERSl01s</guid>
+      <pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=LUGWERSl01s</link>
+      <description>2026/8/20(四)貝森特護盤!美債有救了?巨頭燒錢換市佔 利息拖垮經濟?【早晨財經速解讀】</description>
+      <enclosure url="https://github.com/wenchiehlee-money/YoutubeAudio.Fetch/releases/download/audio-yutinghaofinance_LUGWERSl01s/yutinghaofinance_LUGWERSl01s.m4a" type="audio/mp4" length="63952012"/>
+      <podcast:transcript url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_LUGWERSl01s_FIN.srt" type="application/srt" language="zh"/>
+    </item>
+    <item>
+      <title>2026/8/19(三)債市風暴 撿便宜時刻?美中爭霸燒錢戰 Al時代只能二選一？【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_9VqNpjPGmbM</guid>
+      <pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=9VqNpjPGmbM</link>
+      <description>2026/8/19(三)債市風暴 撿便宜時刻?美中爭霸燒錢戰 Al時代只能二選一？【早晨財經速解讀】</description>
+      <enclosure url="https://github.com/wenchiehlee-money/YoutubeAudio.Fetch/releases/download/audio-yutinghaofinance_9VqNpjPGmbM/yutinghaofinance_9VqNpjPGmbM.m4a" type="audio/mp4" length="73400318"/>
+      <podcast:transcript url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_9VqNpjPGmbM_FIN.srt" type="application/srt" language="zh"/>
+    </item>
+    <item>
+      <title>2026/8/18(二)美股買盤停止追高 散戶等回檔?台灣游資氾濫 普發成常態?【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_aRPmzQfTLFc</guid>
+      <pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=aRPmzQfTLFc</link>
+      <description>2026/8/18(二)美股買盤停止追高 散戶等回檔?台灣游資氾濫 普發成常態?【早晨財經速解讀】</description>
+      <enclosure url="https://github.com/wenchiehlee-money/YoutubeAudio.Fetch/releases/download/audio-yutinghaofinance_aRPmzQfTLFc/yutinghaofinance_aRPmzQfTLFc.m4a" type="audio/mp4" length="68694841"/>
+      <podcast:transcript url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_aRPmzQfTLFc_FIN.srt" type="application/srt" language="zh"/>
+    </item>
+    <item>
+      <title>2026/8/17(一)指數創高 回檔等加碼?美課100%關稅 無人機大戰開打!【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_OJ5vxmwQrE0</guid>
+      <pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=OJ5vxmwQrE0</link>
+      <description>2026/8/17(一)指數創高 回檔等加碼?美課100%關稅 無人機大戰開打!【早晨財經速解讀】</description>
+      <enclosure url="https://github.com/wenchiehlee-money/YoutubeAudio.Fetch/releases/download/audio-yutinghaofinance_OJ5vxmwQrE0/yutinghaofinance_OJ5vxmwQrE0.m4a" type="audio/mp4" length="70644057"/>
+      <podcast:transcript url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_OJ5vxmwQrE0_FIN.srt" type="application/srt" language="zh"/>
+    </item>
+    <item>
+      <title>2026/8/12(三)GPU金融化狂潮 2008正在重演？兆元商機還是下一場危機？【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_ApykW90PQ58</guid>
+      <pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=ApykW90PQ58</link>
+      <description>2026/8/12(三)GPU金融化狂潮 2008正在重演？兆元商機還是下一場危機？【早晨財經速解讀】</description>
+      <enclosure url="https://github.com/wenchiehlee-money/YoutubeAudio.Fetch/releases/download/audio-yutinghaofinance_ApykW90PQ58/yutinghaofinance_ApykW90PQ58.m4a" type="audio/mp4" length="66960422"/>
+      <podcast:transcript url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_ApykW90PQ58_FIN.srt" type="application/srt" language="zh"/>
+    </item>
+    <item>
+      <title>2026/8/11(二)AI舉債時代 自由現金流能翻正?外資再加空單!台股還能攻?【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_v7TpiWK5DTQ</guid>
+      <pubDate>Tue, 11 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=v7TpiWK5DTQ</link>
+      <description>2026/8/11(二)AI舉債時代 自由現金流能翻正?外資再加空單!台股還能攻?【早晨財經速解讀】</description>
+      <enclosure url="https://github.com/wenchiehlee-money/YoutubeAudio.Fetch/releases/download/audio-yutinghaofinance_v7TpiWK5DTQ/yutinghaofinance_v7TpiWK5DTQ.m4a" type="audio/mp4" length="66590838"/>
+      <podcast:transcript url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_v7TpiWK5DTQ_FIN.srt" type="application/srt" language="zh"/>
+    </item>
+  </channel>
+</rss>
