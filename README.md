@@ -8,10 +8,11 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 ## 內容索引
 
-### [富邦證券](data/fubonsec/)
+### [fubonsec](data/fubonsec/)
 
 | 影片 | 日期 |
 | --- | --- |
+| [15 EP11](data/fubonsec/fubonsec_hj19DKuHxbQ_keyframes.md) | 2026-09-23 |
 | [存股傳承一定要信託嗎？律師解析贈與、繼承做不到的關鍵安排｜蘇家宏專訪 EP3](data/fubonsec/fubonsec_324i3yZuBLo_keyframes.md) | 2026-08-28 |
 | [AI會取代你的工作嗎？數位轉型專家揭4大關鍵能力｜詹文男專訪](data/fubonsec/fubonsec_cdsJ6wyuULM_keyframes.md) | 2026-08-26 |
 | [股票存到3000萬就該規劃？遺囑、贈與、信託差異一次看懂｜蘇家宏專訪 EP2](data/fubonsec/fubonsec_EIOQDXWEZbU_keyframes.md) | 2026-08-21 |
@@ -64,6 +65,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [【會員影片節選】AI 晶片測試火熱 八檔受惠股旺到明年｜ #產業投資通 EP04 #半導體測試 #探針卡](data/wealth1974/wealth1974_qL5ms5oowHA_keyframes.md) | 2026-09-24 |
+| [# EP371 #](data/wealth1974/wealth1974_yN2CYvg11QA_keyframes.md) | 2026-09-23 |
 | [五大商社砸重金 尋找下個成長動能｜#投資IN總經 EP97  #財訊 #日本](data/wealth1974/wealth1974_GIVExayTQwM_keyframes.md) | 2026-09-22 |
 | [台積電領頭 四大亮點引爆 AI 新格局｜#聽了財知道 EP370 #SEMICON #台積電](data/wealth1974/wealth1974_ksWBCvgQR5k_keyframes.md) | 2026-09-21 |
 | [三現象拆解生技熱 漲升內涵大不同｜#財訊不漏接 EP053 #財訊podcast #捷立康 #康霈 #仁新](data/wealth1974/wealth1974_kDBwZJ7kMxQ_keyframes.md) | 2026-09-19 |

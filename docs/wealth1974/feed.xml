@@ -9,13 +9,20 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>wealth1974 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/wealth1974/wealth1974_yN2CYvg11QA_keyframes/wealth1974_yN2CYvg11QA_000000.jpg"/>
+    <image>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/wealth1974/wealth1974_yN2CYvg11QA_keyframes/wealth1974_yN2CYvg11QA_000000.jpg</url>
+      <title>wealth1974</title>
+      <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    </image>
     <item>
       <title># EP371 #</title>
       <guid isPermaLink="false">wealth1974_yN2CYvg11QA</guid>
       <pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=yN2CYvg11QA</link>
       <description># EP371 #</description>
-      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/wealth1974_yN2CYvg11QA.m4a" type="audio/mp4" length="31598630"/>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/wealth1974_yN2CYvg11QA.m4a" type="audio/mp4" length="34879737"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/wealth1974/transcripts/wealth1974_yN2CYvg11QA.vtt" type="text/vtt" language="zh"/>
     </item>
   </channel>
 </rss>
