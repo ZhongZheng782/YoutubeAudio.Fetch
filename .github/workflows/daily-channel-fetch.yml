@@ -179,11 +179,30 @@ jobs:
       - name: Regenerate README content index
         run: python scripts/generate_readme_index.py
 
+      - name: Regenerate podcast feeds
+        # One feed per channel that has at least one audio-backed episode in the
+        # manifest — video_id is a fixed 11 chars, so channel = stem[:-12] (strips
+        # "_" + the id) rather than splitting on "_", which would break on a channel
+        # slug containing an underscore.
+        run: |
+          python - <<'PYEOF'
+          import json
+          import subprocess
+          import sys
+
+          manifest = json.load(open("audio_manifest.json", encoding="utf-8"))
+          channels = sorted({stem[:-12] for stem in manifest})
+          for channel in channels:
+              print(f"::group::{channel}")
+              subprocess.run([sys.executable, "scripts/generate_podcast_feed.py", channel], check=True)
+              print("::endgroup::")
+          PYEOF
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ audio_manifest.json README.md
+          git add data/ audio_manifest.json README.md docs/
           git diff --cached --quiet || git commit -m "chore: daily channel fetch [skip ci]"
           git pull --rebase --autostash
           git push
