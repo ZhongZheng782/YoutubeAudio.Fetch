@@ -8,8 +8,9 @@ in a real podcast app (Apple Podcasts, Overcast, ...) via "Add by URL".
 Only stems that already have a Release-asset audio URL in audio_manifest.json are included
 — this repo does not backfill audio for older videos that were transcribed straight from
 YouTube's own captions (see channel_fetch.py). Each item links its transcript via the
-Podcasting 2.0 <podcast:transcript> tag, pointing straight at the existing _FIN.srt/_GT.srt
-(no format conversion needed — the namespace accepts application/srt).
+Podcasting 2.0 <podcast:transcript> tag. As of March 2026 Apple Podcasts only accepts VTT
+(it dropped SRT support), so each _FIN.srt/_GT.srt is converted to WebVTT and published to
+docs/{channel}/transcripts/{stem}.vtt for GitHub Pages to serve with the right content type.
 
 Usage:
     python scripts/generate_podcast_feed.py <channel> [--out docs/{channel}/feed.xml]
@@ -18,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import urllib.request
 from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
@@ -36,6 +38,40 @@ CDN_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main"
 WORKER_BASE = "https://youtubeaudio.wenchiehlee1020.workers.dev"
 
 TAIPEI = timezone(timedelta(hours=8))
+# This repo's *.srt is not actually SRT despite the extension — it's a custom pseudo-SRT
+# (see channel_fetch.py's transcript_to_pseudo_srt / _pseudo_srt_timestamp): a metadata
+# header followed by "(MM:SS.mmm) text" lines, one timestamp per cue (no end time, no
+# sequence numbers). MM is unbounded total minutes, not clock-wrapped hours:minutes.
+PSEUDO_SRT_CUE_RE = re.compile(r"^\((\d+):(\d{2}\.\d{3})\)\s?(.*)$")
+DEFAULT_CUE_DURATION = 4.0
+
+
+def _format_vtt_timestamp(total_seconds: float) -> str:
+    hours, remainder = divmod(total_seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    return f"{int(hours):02d}:{int(minutes):02d}:{seconds:06.3f}"
+
+
+def srt_to_vtt(pseudo_srt_text: str) -> str:
+    cues = []
+    for line in pseudo_srt_text.replace("\r\n", "\n").split("\n"):
+        match = PSEUDO_SRT_CUE_RE.match(line.strip())
+        if not match:
+            continue
+        minutes, seconds, text = match.groups()
+        start = int(minutes) * 60 + float(seconds)
+        if text.strip():
+            cues.append((start, text.strip()))
+
+    blocks = ["WEBVTT", ""]
+    for i, (start, text) in enumerate(cues):
+        end = cues[i + 1][0] if i + 1 < len(cues) else start + DEFAULT_CUE_DURATION
+        if end <= start:
+            end = start + 1.0
+        blocks.append(f"{_format_vtt_timestamp(start)} --> {_format_vtt_timestamp(end)}")
+        blocks.append(text)
+        blocks.append("")
+    return "\n".join(blocks).rstrip("\n") + "\n"
 
 
 def load_episodes(channel: str) -> list[dict]:
@@ -100,6 +136,20 @@ def enclosure_length(audio_url: str) -> str:
         return "0"
 
 
+def write_vtt_transcript(channel: str, ep: dict) -> str | None:
+    """Convert ep's SRT to WebVTT and publish it under docs/, returning the Pages URL
+    (or None if there's no transcript). Apple Podcasts stopped accepting SRT in March
+    2026, so this is the only format podcast:transcript can point to and have it show."""
+    if not ep["srt_path"]:
+        return None
+    srt_text = (REPO_ROOT / ep["srt_path"]).read_text(encoding="utf-8")
+    vtt_dir = REPO_ROOT / "docs" / channel / "transcripts"
+    vtt_dir.mkdir(parents=True, exist_ok=True)
+    vtt_path = vtt_dir / f"{ep['stem']}.vtt"
+    vtt_path.write_text(srt_to_vtt(srt_text), encoding="utf-8")
+    return f"{PAGES_BASE}/{channel}/transcripts/{ep['stem']}.vtt"
+
+
 def render_feed(channel: str, episodes: list[dict]) -> str:
     channel_name = episodes[0]["channel_name"] if episodes else channel
     channel_link = f"{PAGES_BASE}/"
@@ -109,11 +159,11 @@ def render_feed(channel: str, episodes: list[dict]) -> str:
     items = []
     for ep in episodes:
         transcript_tag = ""
-        if ep["srt_path"]:
-            transcript_url = f"{CDN_BASE}/{ep['srt_path']}"
+        transcript_url = write_vtt_transcript(channel, ep)
+        if transcript_url:
             transcript_tag = (
                 f'      <podcast:transcript url="{escape(transcript_url)}" '
-                f'type="application/srt" language="zh"/>\n'
+                f'type="text/vtt" language="zh"/>\n'
             )
         items.append(
             "    <item>\n"
