@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>X的財經筆記</title>
+    <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    <atom:link href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-tw</language>
+    <itunes:author>X的財經筆記</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
+    <description>X的財經筆記 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_nNtdo6Lsop4_keyframes/x_nNtdo6Lsop4_000005.jpg"/>
+    <image>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_nNtdo6Lsop4_keyframes/x_nNtdo6Lsop4_000005.jpg</url>
+      <title>X的財經筆記</title>
+      <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    </image>
+    <item>
+      <title>巴菲特&amp;芒格：社会运行的本质，它会奖励哪些人！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特</title>
+      <guid isPermaLink="false">x_nNtdo6Lsop4</guid>
+      <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=nNtdo6Lsop4</link>
+      <description>巴菲特&amp;芒格：社会运行的本质，它会奖励哪些人！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_nNtdo6Lsop4.m4a" type="audio/mp4" length="9561755"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_nNtdo6Lsop4.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>巴菲特：停止改变别人把全部能量用来投资自己！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特</title>
+      <guid isPermaLink="false">x_vF4QvcDmWIs</guid>
+      <pubDate>Wed, 29 Jul 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=vF4QvcDmWIs</link>
+      <description>巴菲特：停止改变别人把全部能量用来投资自己！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_vF4QvcDmWIs.m4a" type="audio/mp4" length="14340770"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_vF4QvcDmWIs.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>芒格：遠離這三類人，你的人生才會開掛！ #charliemunger #芒格</title>
+      <guid isPermaLink="false">x_SE5CoXNuG_Y</guid>
+      <pubDate>Sun, 14 Jun 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=SE5CoXNuG_Y</link>
+      <description>芒格：遠離這三類人，你的人生才會開掛！ #charliemunger #芒格</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_SE5CoXNuG_Y.m4a" type="audio/mp4" length="6807897"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_SE5CoXNuG_Y.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>查理·芒格：人生漫長，充滿了遺憾和痛苦！#charliemunger #芒格</title>
+      <guid isPermaLink="false">x_WozyR-uRgUs</guid>
+      <pubDate>Sat, 13 Jun 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=WozyR-uRgUs</link>
+      <description>查理·芒格：人生漫長，充滿了遺憾和痛苦！#charliemunger #芒格</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_WozyR-uRgUs.m4a" type="audio/mp4" length="4630038"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_WozyR-uRgUs.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>既然巴菲特的持倉是公開的，我們為什麼不能跟著買？#warrenbuffett #投資 #巴菲特</title>
+      <guid isPermaLink="false">x_vlDErtgEyFM</guid>
+      <pubDate>Fri, 12 Jun 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=vlDErtgEyFM</link>
+      <description>既然巴菲特的持倉是公開的，我們為什麼不能跟著買？#warrenbuffett #投資 #巴菲特</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_vlDErtgEyFM.m4a" type="audio/mp4" length="4941416"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_vlDErtgEyFM.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>投资方法论与决策科学｜风投女神徐新投资中的三个方法论</title>
+      <guid isPermaLink="false">x_dzTP-abkWCc</guid>
+      <pubDate>Wed, 11 Feb 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=dzTP-abkWCc</link>
+      <description>投资方法论与决策科学｜风投女神徐新投资中的三个方法论</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_dzTP-abkWCc.m4a" type="audio/mp4" length="15248573"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_dzTP-abkWCc.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>告別複雜公式！巴菲特估值法核心就一條！</title>
+      <guid isPermaLink="false">x_Ofio1iI-i50</guid>
+      <pubDate>Mon, 01 Dec 2025 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=Ofio1iI-i50</link>
+      <description>告別複雜公式！巴菲特估值法核心就一條！</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_Ofio1iI-i50.m4a" type="audio/mp4" length="5111620"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_Ofio1iI-i50.vtt" type="text/vtt" language="zh"/>
+    </item>
+  </channel>
+</rss>

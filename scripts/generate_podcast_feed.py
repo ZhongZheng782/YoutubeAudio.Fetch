@@ -20,11 +20,15 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 import urllib.request
 from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from generate_readme_index import fetch_video_meta  # noqa: E402 — shares the yt-dlp lookup + cache format
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = REPO_ROOT / "audio_manifest.json"
@@ -77,12 +81,22 @@ def srt_to_vtt(pseudo_srt_text: str) -> str:
 def load_episodes(channel: str) -> list[dict]:
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     meta_cache = json.loads(META_CACHE_PATH.read_text(encoding="utf-8")) if META_CACHE_PATH.exists() else {}
+    cache_dirty = False
 
     episodes = []
     for stem, audio_url in manifest.items():
         if not stem.startswith(f"{channel}_"):
             continue
         video_id = stem[len(channel) + 1:]
+        if video_id not in meta_cache:
+            # Audio can land in the manifest before generate_readme_index.py ever looks
+            # this video up (it only queries stems that already have a _keyframes.md,
+            # i.e. already transcribed) — without this, a still-transcribing episode
+            # shows its raw stem as the title and sorts as "published today" forever.
+            fetched = fetch_video_meta(video_id)
+            if fetched is not None:
+                meta_cache[video_id] = fetched
+                cache_dirty = True
         meta = meta_cache.get(video_id, {})
         title = meta.get("title") or stem
         date_str = meta.get("date") or ""
@@ -105,8 +119,14 @@ def load_episodes(channel: str) -> list[dict]:
             "pub_dt": pub_dt,
             "audio_url": audio_url,
             "srt_path": srt_path,
-            "channel_name": meta.get("channel_name") or channel,
+            "channel_name": meta.get("channel_name"),
         })
+
+    if cache_dirty:
+        META_CACHE_PATH.write_text(
+            json.dumps(meta_cache, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+            encoding="utf-8",
+        )
 
     episodes.sort(key=lambda e: e["pub_dt"], reverse=True)
     return episodes
@@ -151,7 +171,7 @@ def write_vtt_transcript(channel: str, ep: dict) -> str | None:
 
 
 def render_feed(channel: str, episodes: list[dict]) -> str:
-    channel_name = episodes[0]["channel_name"] if episodes else channel
+    channel_name = next((e["channel_name"] for e in episodes if e["channel_name"]), channel)
     channel_link = f"{PAGES_BASE}/"
     feed_self_url = f"{PAGES_BASE}/{channel}/feed.xml"
     image_url = placeholder_image_url(channel, episodes) or ""

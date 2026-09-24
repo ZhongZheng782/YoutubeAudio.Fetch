@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>富邦證券</title>
+    <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    <atom:link href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-tw</language>
+    <itunes:author>富邦證券</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
+    <description>富邦證券 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_324i3yZuBLo_keyframes/fubonsec_324i3yZuBLo_000019.jpg"/>
+    <image>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_324i3yZuBLo_keyframes/fubonsec_324i3yZuBLo_000019.jpg</url>
+      <title>富邦證券</title>
+      <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    </image>
+    <item>
+      <title>15 EP11</title>
+      <guid isPermaLink="false">fubonsec_hj19DKuHxbQ</guid>
+      <pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=hj19DKuHxbQ</link>
+      <description>15 EP11</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_hj19DKuHxbQ.m4a" type="audio/mp4" length="22057044"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_hj19DKuHxbQ.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>TISA EP3</title>
+      <guid isPermaLink="false">fubonsec_pNLBxERvHUY</guid>
+      <pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=pNLBxERvHUY</link>
+      <description>TISA EP3</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_pNLBxERvHUY.m4a" type="audio/mp4" length="18935585"/>
+    </item>
+    <item>
+      <title>3650 EP10</title>
+      <guid isPermaLink="false">fubonsec_MXcBsRl3cbQ</guid>
+      <pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=MXcBsRl3cbQ</link>
+      <description>3650 EP10</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_MXcBsRl3cbQ.m4a" type="audio/mp4" length="20030381"/>
+    </item>
+    <item>
+      <title>AI   EP 95</title>
+      <guid isPermaLink="false">fubonsec_TxT3-rZkQNs</guid>
+      <pubDate>Sat, 12 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=TxT3-rZkQNs</link>
+      <description>AI   EP 95</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_TxT3-rZkQNs.m4a" type="audio/mp4" length="43988458"/>
+    </item>
+    <item>
+      <title>4% EP2</title>
+      <guid isPermaLink="false">fubonsec_BFZr4JV04LU</guid>
+      <pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=BFZr4JV04LU</link>
+      <description>4% EP2</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_BFZr4JV04LU.m4a" type="audio/mp4" length="43106522"/>
+    </item>
+    <item>
+      <title>EP9</title>
+      <guid isPermaLink="false">fubonsec_CjDnERMo6Yk</guid>
+      <pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=CjDnERMo6Yk</link>
+      <description>EP9</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_CjDnERMo6Yk.m4a" type="audio/mp4" length="21330642"/>
+    </item>
+    <item>
+      <title>50ETF EP1</title>
+      <guid isPermaLink="false">fubonsec_1ENAGYabp4s</guid>
+      <pubDate>Fri, 04 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=1ENAGYabp4s</link>
+      <description>50ETF EP1</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_1ENAGYabp4s.m4a" type="audio/mp4" length="30929627"/>
+    </item>
+    <item>
+      <title>EP 94</title>
+      <guid isPermaLink="false">fubonsec_C4vebTs7UiI</guid>
+      <pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=C4vebTs7UiI</link>
+      <description>EP 94</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_C4vebTs7UiI.m4a" type="audio/mp4" length="17685166"/>
+    </item>
+    <item>
+      <title>存股傳承一定要信託嗎？律師解析贈與、繼承做不到的關鍵安排｜蘇家宏專訪 EP3</title>
+      <guid isPermaLink="false">fubonsec_324i3yZuBLo</guid>
+      <pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=324i3yZuBLo</link>
+      <description>存股傳承一定要信託嗎？律師解析贈與、繼承做不到的關鍵安排｜蘇家宏專訪 EP3</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_324i3yZuBLo.m4a" type="audio/mp4" length="32325676"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_324i3yZuBLo.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>AI會取代你的工作嗎？數位轉型專家揭4大關鍵能力｜詹文男專訪</title>
+      <guid isPermaLink="false">fubonsec_cdsJ6wyuULM</guid>
+      <pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=cdsJ6wyuULM</link>
+      <description>AI會取代你的工作嗎？數位轉型專家揭4大關鍵能力｜詹文男專訪</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_cdsJ6wyuULM.m4a" type="audio/mp4" length="106655121"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_cdsJ6wyuULM.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>股票存到3000萬就該規劃？遺囑、贈與、信託差異一次看懂｜蘇家宏專訪 EP2</title>
+      <guid isPermaLink="false">fubonsec_EIOQDXWEZbU</guid>
+      <pubDate>Fri, 21 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=EIOQDXWEZbU</link>
+      <description>股票存到3000萬就該規劃？遺囑、贈與、信託差異一次看懂｜蘇家宏專訪 EP2</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_EIOQDXWEZbU.m4a" type="audio/mp4" length="34298298"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_EIOQDXWEZbU.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>CoPoS百家爭鳴：先進封裝的挑戰與投資機會｜富邦投顧 劉立中 協理《富邦說趨勢》 EP 93</title>
+      <guid isPermaLink="false">fubonsec_0L7DV-hnWmM</guid>
+      <pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=0L7DV-hnWmM</link>
+      <description>CoPoS百家爭鳴：先進封裝的挑戰與投資機會｜富邦投顧 劉立中 協理《富邦說趨勢》 EP 93</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_0L7DV-hnWmM.m4a" type="audio/mp4" length="7931691"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_0L7DV-hnWmM.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>你的股票最後會留給誰？律師揭存股族最容易忽略的財產傳承觀念｜蘇家宏專訪 EP1</title>
+      <guid isPermaLink="false">fubonsec_W_cLHLRD1m8</guid>
+      <pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=W_cLHLRD1m8</link>
+      <description>你的股票最後會留給誰？律師揭存股族最容易忽略的財產傳承觀念｜蘇家宏專訪 EP1</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_W_cLHLRD1m8.m4a" type="audio/mp4" length="43351204"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_W_cLHLRD1m8.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>AI零組件漲價潮再起？下半年受惠產業與ETF一次掌握｜富邦投顧 陶治瑋 副總《富邦說趨勢》 EP 92 eT富攻略</title>
+      <guid isPermaLink="false">fubonsec_DfN9yS3xkuU</guid>
+      <pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=DfN9yS3xkuU</link>
+      <description>AI零組件漲價潮再起？下半年受惠產業與ETF一次掌握｜富邦投顧 陶治瑋 副總《富邦說趨勢》 EP 92 eT富攻略</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_DfN9yS3xkuU.m4a" type="audio/mp4" length="20440170"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_DfN9yS3xkuU.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>破解股市利空虛實：台股已從反彈走向反轉？｜富邦投顧 陳奕光 董事長《富邦說趨勢》 EP 91</title>
+      <guid isPermaLink="false">fubonsec_-KLEA_c88xI</guid>
+      <pubDate>Fri, 07 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=-KLEA_c88xI</link>
+      <description>破解股市利空虛實：台股已從反彈走向反轉？｜富邦投顧 陳奕光 董事長《富邦說趨勢》 EP 91</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_-KLEA_c88xI.m4a" type="audio/mp4" length="13697981"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_-KLEA_c88xI.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>富邦證券授信開戶四合一</title>
+      <guid isPermaLink="false">fubonsec_mhIgas9TsMU</guid>
+      <pubDate>Thu, 06 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=mhIgas9TsMU</link>
+      <description>富邦證券授信開戶四合一</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_mhIgas9TsMU.m4a" type="audio/mp4" length="7522632"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_mhIgas9TsMU.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>AI投資新選擇！KOSPI 50如何一次掌握韓國50大企業？| 富邦Global Sight EP10</title>
+      <guid isPermaLink="false">fubonsec_ehESBhQSWyM</guid>
+      <pubDate>Wed, 05 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=ehESBhQSWyM</link>
+      <description>AI投資新選擇！KOSPI 50如何一次掌握韓國50大企業？| 富邦Global Sight EP10</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_ehESBhQSWyM.m4a" type="audio/mp4" length="17757612"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_ehESBhQSWyM.vtt" type="text/vtt" language="zh"/>
+    </item>
+  </channel>
+</rss>

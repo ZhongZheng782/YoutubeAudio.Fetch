@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smart智富月刊</title>
+    <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    <atom:link href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-tw</language>
+    <itunes:author>Smart智富月刊</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
+    <description>Smart智富月刊 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes/smartmonthly-bw_WzJjPd3iG0M_000013.jpg"/>
+    <image>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes/smartmonthly-bw_WzJjPd3iG0M_000013.jpg</url>
+      <title>Smart智富月刊</title>
+      <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    </image>
+    <item>
+      <title>客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥｜Smart智富．投資的一千零一夜247</title>
+      <guid isPermaLink="false">smartmonthly-bw_WzJjPd3iG0M</guid>
+      <pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=WzJjPd3iG0M</link>
+      <description>客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥｜Smart智富．投資的一千零一夜247</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_WzJjPd3iG0M.m4a" type="audio/mp4" length="55729557"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_WzJjPd3iG0M.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>吃播聊投資，峰哥怎麼看債券ETF？長期資金，選0050或台積電？市場反彈，佑佑加碼部位的資產翻正了嗎？｜佑佑，峰哥｜人人都能學會</title>
+      <guid isPermaLink="false">smartmonthly-bw_XcMUo9k65Rs</guid>
+      <pubDate>Tue, 29 Nov 2022 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=XcMUo9k65Rs</link>
+      <description>吃播聊投資，峰哥怎麼看債券ETF？長期資金，選0050或台積電？市場反彈，佑佑加碼部位的資產翻正了嗎？｜佑佑，峰哥｜人人都能學會</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_XcMUo9k65Rs.m4a" type="audio/mp4" length="185045785"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_XcMUo9k65Rs.vtt" type="text/vtt" language="zh"/>
+    </item>
+  </channel>
+</rss>
