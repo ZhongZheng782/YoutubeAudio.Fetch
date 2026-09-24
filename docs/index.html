@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>YoutubeAudio.Fetch — Podcast 原型</title>
+<title>YoutubeAudio.Fetch</title>
 <style>
   :root {
     --bg: #0f1115;
@@ -92,7 +92,7 @@
 </head>
 <body>
 <header>
-  <h1 id="channelTitle">YoutubeAudio.Fetch — Podcast 原型</h1>
+  <h1>YoutubeAudio.Fetch</h1>
   <p>資料即時讀自 YoutubeAudio.Fetch 這個 repo（jsDelivr CDN），僅列出已有音檔的集數 ·
     <a id="feedLink" href="#" style="color:var(--accent)">在 Podcast App 訂閱這個頻道（RSS）</a>
   </p>
@@ -114,7 +114,6 @@ const VIDEO_ID_LEN = 11;
 const tabsEl = document.getElementById("tabs");
 const episodeListEl = document.getElementById("episodeList");
 const mainEl = document.getElementById("main");
-const channelTitleEl = document.getElementById("channelTitle");
 const feedLinkEl = document.getElementById("feedLink");
 
 let manifest = {};
@@ -186,7 +185,6 @@ function selectChannel(channel) {
   url.searchParams.set("channel", channel);
   window.history.replaceState(null, "", url);
 
-  channelTitleEl.textContent = `${displayNameFor(channel)} — Podcast 原型`;
   feedLinkEl.href = `${PAGES_BASE}${channel}/feed.xml`;
   renderTabs();
 
