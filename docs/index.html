@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>游庭皓的財經皓角 — Podcast 原型</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #171a21;
+    --border: #2a2e38;
+    --text: #e8e9ec;
+    --muted: #9096a3;
+    --accent: #5b8cff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    padding: 20px 24px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  header h1 { margin: 0 0 4px; font-size: 20px; }
+  header p { margin: 0; color: var(--muted); font-size: 13px; }
+  .layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    min-height: calc(100vh - 70px);
+  }
+  @media (max-width: 800px) {
+    .layout { grid-template-columns: 1fr; }
+  }
+  .episode-list {
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+    max-height: calc(100vh - 70px);
+  }
+  .episode {
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+  }
+  .episode:hover { background: var(--panel); }
+  .episode.active { background: var(--panel); border-left: 3px solid var(--accent); }
+  .episode .date { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+  .episode .title { font-size: 14px; line-height: 1.4; }
+  .main { padding: 20px 24px; overflow-y: auto; max-height: calc(100vh - 70px); }
+  .placeholder { color: var(--muted); padding: 40px 0; text-align: center; }
+  audio { width: 100%; margin-bottom: 16px; }
+  .keyframe img {
+    width: 100%;
+    max-width: 640px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    display: block;
+    margin-bottom: 16px;
+  }
+  .cue-list { display: flex; flex-direction: column; gap: 2px; }
+  .cue {
+    padding: 10px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  .cue:hover { background: var(--panel); }
+  .cue.active { background: #1c2440; border-color: var(--accent); }
+  .cue .ts { color: var(--accent); font-size: 12px; font-weight: 600; margin-bottom: 4px; }
+  .cue .snippet { font-size: 13px; line-height: 1.6; color: var(--text); }
+  .cue .topic { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .loading { color: var(--muted); padding: 20px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>游庭皓的財經皓角 — Podcast 原型</h1>
+  <p>資料即時讀自 YoutubeAudio.Fetch 這個 repo（jsDelivr CDN），僅列出已有音檔的集數</p>
+</header>
+<div class="layout">
+  <div class="episode-list" id="episodeList">
+    <div class="loading">載入集數清單中…</div>
+  </div>
+  <div class="main" id="main">
+    <div class="placeholder">請從左邊選一集</div>
+  </div>
+</div>
+<script>
+const REPO_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/";
+const CHANNEL = "yutinghaofinance";
+
+const episodeListEl = document.getElementById("episodeList");
+const mainEl = document.getElementById("main");
+
+function timeToSeconds(hhmmss) {
+  const [h, m, s] = hhmmss.split(":").map(Number);
+  return h * 3600 + m * 60 + s;
+}
+
+function parseKeyframesMd(md, channel, stem) {
+  const cues = [];
+  const re = /## (\d{2}:\d{2}:\d{2})\s*\n\s*<img src="([^"]+)"[^>]*>\s*\n\s*\*\*逐字稿片段：\*\* ([^\n]*)\s*\n\s*\*\*話題推測：\*\* ([^\n]*)/g;
+  let match;
+  while ((match = re.exec(md)) !== null) {
+    cues.push({
+      time: timeToSeconds(match[1]),
+      timeLabel: match[1],
+      img: `${REPO_BASE}data/${channel}/${match[2]}`,
+      snippet: match[3].trim(),
+      topic: match[4].trim(),
+    });
+  }
+  return cues;
+}
+
+async function fetchJson(path) {
+  const res = await fetch(REPO_BASE + path);
+  if (!res.ok) throw new Error(`${path}: ${res.status}`);
+  return res.json();
+}
+
+async function fetchText(path) {
+  const res = await fetch(REPO_BASE + path);
+  if (!res.ok) throw new Error(`${path}: ${res.status}`);
+  return res.text();
+}
+
+async function loadEpisodes() {
+  const [manifest, metaCache] = await Promise.all([
+    fetchJson("audio_manifest.json"),
+    fetchJson("data/.video_metadata.json").catch(() => ({})),
+  ]);
+
+  const episodes = Object.keys(manifest)
+    .filter((stem) => stem.startsWith(`${CHANNEL}_`))
+    .map((stem) => {
+      const videoId = stem.slice(CHANNEL.length + 1);
+      const meta = metaCache[videoId] || {};
+      return {
+        stem,
+        videoId,
+        audioUrl: manifest[stem],
+        title: meta.title || stem,
+        date: meta.date || "",
+      };
+    })
+    .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+
+  renderEpisodeList(episodes);
+  if (episodes.length > 0) selectEpisode(episodes[0]);
+}
+
+function renderEpisodeList(episodes) {
+  episodeListEl.innerHTML = "";
+  episodes.forEach((ep) => {
+    const el = document.createElement("div");
+    el.className = "episode";
+    el.dataset.stem = ep.stem;
+    el.innerHTML = `<div class="date">${ep.date || "日期未知"}</div><div class="title">${ep.title}</div>`;
+    el.addEventListener("click", () => selectEpisode(ep));
+    episodeListEl.appendChild(el);
+  });
+}
+
+function setActiveEpisode(stem) {
+  document.querySelectorAll(".episode").forEach((el) => {
+    el.classList.toggle("active", el.dataset.stem === stem);
+  });
+}
+
+async function selectEpisode(ep) {
+  setActiveEpisode(ep.stem);
+  mainEl.innerHTML = `
+    <h2 style="margin-top:0;font-size:16px;">${ep.title}</h2>
+    <audio id="player" controls src="${ep.audioUrl}"></audio>
+    <div class="keyframe" id="keyframe"></div>
+    <div class="cue-list" id="cueList"><div class="loading">載入逐字稿與截圖中…</div></div>
+  `;
+
+  const player = document.getElementById("player");
+  const keyframeEl = document.getElementById("keyframe");
+  const cueListEl = document.getElementById("cueList");
+
+  let cues = [];
+  try {
+    const md = await fetchText(`data/${CHANNEL}/${ep.stem}_keyframes.md`);
+    cues = parseKeyframesMd(md, CHANNEL, ep.stem);
+  } catch (e) {
+    cueListEl.innerHTML = `<div class="loading">找不到這一集的關鍵畫面/逐字稿資料</div>`;
+    return;
+  }
+
+  cueListEl.innerHTML = "";
+  cues.forEach((cue, i) => {
+    const el = document.createElement("div");
+    el.className = "cue";
+    el.dataset.index = i;
+    el.innerHTML = `
+      <div class="ts">${cue.timeLabel}</div>
+      <div class="snippet">${cue.snippet}</div>
+      <div class="topic">${cue.topic}</div>
+    `;
+    el.addEventListener("click", () => {
+      player.currentTime = cue.time;
+      player.play();
+    });
+    cueListEl.appendChild(el);
+  });
+
+  function updateActiveCue() {
+    if (cues.length === 0) return;
+    const t = player.currentTime;
+    let idx = 0;
+    for (let i = 0; i < cues.length; i++) {
+      if (cues[i].time <= t) idx = i;
+      else break;
+    }
+    document.querySelectorAll(".cue").forEach((el, i) => {
+      el.classList.toggle("active", i === idx);
+    });
+    const active = cues[idx];
+    if (keyframeEl.dataset.current !== String(idx)) {
+      keyframeEl.dataset.current = String(idx);
+      keyframeEl.innerHTML = `<img src="${active.img}" alt="${active.timeLabel}">`;
+      const activeEl = cueListEl.children[idx];
+      if (activeEl) activeEl.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+  }
+
+  player.addEventListener("timeupdate", updateActiveCue);
+  player.addEventListener("loadedmetadata", updateActiveCue);
+}
+
+loadEpisodes().catch((e) => {
+  episodeListEl.innerHTML = `<div class="loading">載入失敗：${e.message}</div>`;
+});
+</script>
+</body>
+</html>

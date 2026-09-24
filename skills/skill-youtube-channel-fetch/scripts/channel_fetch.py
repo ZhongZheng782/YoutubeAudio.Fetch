@@ -416,7 +416,7 @@ class ChannelFetcher:
             manifest = {k: v for k, v in json.loads(manifest_path.read_text(encoding="utf-8")).items() if not k.startswith("_")}
 
         videos = self.list_channel_videos(channel_url, limit, date_after=date_after, date_before=date_before)
-        transcribed_auto = transcribed_manual = added = skipped = failed = 0
+        transcribed_auto = transcribed_manual = added = podcast_audio_added = skipped = failed = 0
         with tempfile.TemporaryDirectory(prefix="channel_fetch_") as tmp:
             tmp_dir = Path(tmp)
             for video in videos:
@@ -472,6 +472,22 @@ class ChannelFetcher:
                             if pending_whisper:
                                 del manifest[stem]
                                 print(f"[channel_fetch] {stem}: official transcript surfaced after falling back to whisper — removed from manifest (close its generate-FIN issue manually)")
+
+                            # No whisper transcription is needed here, but the podcast site
+                            # (skill-podcast-site) still needs a playable audio file for every
+                            # video, not just the ones that lacked official captions. Publish
+                            # the Release asset now (best-effort — a transcript we already have
+                            # in hand shouldn't be lost over an audio download/upload hiccup).
+                            if stem not in manifest:
+                                try:
+                                    print(f"[channel_fetch] {stem}: downloading audio for podcast Release asset (transcript already sourced): {video['title']}")
+                                    audio_path = self.download_audio(video["video_id"], tmp_dir)
+                                    renamed = audio_path.with_name(f"{stem}{audio_path.suffix}")
+                                    audio_path.rename(renamed)
+                                    manifest[stem] = self.publish_audio_asset(stem, renamed)
+                                    podcast_audio_added += 1
+                                except RuntimeError as e:
+                                    print(f"[channel_fetch] {stem}: transcript sourced but podcast audio publish failed, skipping audio ({e})")
                             continue
 
                     if pending_whisper:
@@ -500,12 +516,13 @@ class ChannelFetcher:
         )
         print(
             f"[channel_fetch] done. transcribed_auto={transcribed_auto} transcribed_manual={transcribed_manual} "
-            f"added={added} skipped={skipped} -> {manifest_path}"
+            f"added={added} podcast_audio_added={podcast_audio_added} skipped={skipped} -> {manifest_path}"
         )
         return {
             "transcribed_auto": transcribed_auto,
             "transcribed_manual": transcribed_manual,
             "added": added,
+            "podcast_audio_added": podcast_audio_added,
             "skipped": skipped,
         }
 
