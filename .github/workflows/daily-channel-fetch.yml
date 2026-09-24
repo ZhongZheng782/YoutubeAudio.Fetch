@@ -30,14 +30,32 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Install fetch dependencies
+      - name: Install ffmpeg (persisted static build)
         # ffmpeg is needed here already, not just for keyframe extraction later:
         # channel_fetch.py's yt-dlp call uses `-x --audio-format m4a`, which shells
         # out to ffmpeg for post-processing.
+        #
+        # `apt-get install ffmpeg` on this runner pulled in ~179 packages (mesa/Vulkan/X11
+        # drivers this headless job never uses) and took 40-70 minutes to unpack/configure
+        # on this NAS's self-hosted runner — every single run, because the runner's Docker
+        # container gets recreated daily and only /actions-runner-data survives that reset
+        # (confirmed via `docker inspect`'s .Mounts: /usr and /opt/hostedtoolcache are NOT
+        # bind-mounted, only /tmp, /actions-runner-data, /homes, /web, /docker are). A static
+        # ffmpeg build cached under /actions-runner-data survives the daily container rebuild,
+        # so this step is a few seconds on every run except the first after a rebuild.
         run: |
-          sudo apt-get update -y
-          sudo apt-get install -y ffmpeg
-          pip install requests python-dotenv yt-dlp youtube-transcript-api
+          FFMPEG_DIR=/actions-runner-data/tools/ffmpeg
+          if [ ! -x "$FFMPEG_DIR/ffmpeg" ]; then
+            mkdir -p "$FFMPEG_DIR"
+            curl -L https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz -o /tmp/ffmpeg.tar.xz
+            tar -xf /tmp/ffmpeg.tar.xz -C /tmp
+            cp /tmp/ffmpeg-*-amd64-static/ffmpeg /tmp/ffmpeg-*-amd64-static/ffprobe "$FFMPEG_DIR/"
+            rm -rf /tmp/ffmpeg.tar.xz /tmp/ffmpeg-*-amd64-static
+          fi
+          echo "$FFMPEG_DIR" >> "$GITHUB_PATH"
+
+      - name: Install fetch dependencies
+        run: pip install requests python-dotenv yt-dlp youtube-transcript-api
 
       - name: Prepare YouTube cookies
         env:
@@ -76,7 +94,7 @@ jobs:
 
       - name: Install keyframe-extraction dependencies
         timeout-minutes: 10
-        # ffmpeg is already installed in "Install fetch dependencies" above. Only
+        # ffmpeg is already installed in "Install ffmpeg (persisted static build)" above. Only
         # skill-youtube-channel-srt-keyframe-extract needs these pip packages — not
         # `pip install -r requirements.txt`, whose `-e ../llm` only resolves on a dev
         # machine with the sibling llm repo checked out locally. In CI, install the
