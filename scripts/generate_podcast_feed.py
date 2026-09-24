@@ -29,6 +29,11 @@ MANIFEST_PATH = REPO_ROOT / "audio_manifest.json"
 META_CACHE_PATH = REPO_ROOT / "data" / ".video_metadata.json"
 PAGES_BASE = "https://zhongzheng782.github.io/YoutubeAudio.Fetch"
 CDN_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main"
+# GitHub Release assets are always served as application/octet-stream with a
+# forced download disposition, regardless of what's declared at upload time —
+# podcast apps (Apple Podcasts confirmed) refuse to play that. This Worker
+# (cloudflare-worker/) proxies the same Release bytes with corrected headers.
+WORKER_BASE = "https://youtubeaudio.wenchiehlee1020.workers.dev"
 
 TAIPEI = timezone(timedelta(hours=8))
 
@@ -117,8 +122,8 @@ def render_feed(channel: str, episodes: list[dict]) -> str:
             f"      <pubDate>{format_datetime(ep['pub_dt'])}</pubDate>\n"
             f"      <link>https://www.youtube.com/watch?v={escape(ep['video_id'])}</link>\n"
             f"      <description>{escape(ep['title'])}</description>\n"
-            f"      <enclosure url=\"{escape(ep['audio_url'])}\" type=\"audio/mp4\" "
-            f"length=\"{enclosure_length(ep['audio_url'])}\"/>\n"
+            f"      <enclosure url=\"{escape(WORKER_BASE)}/audio/{escape(ep['stem'])}.m4a\" "
+            f"type=\"audio/mp4\" length=\"{enclosure_length(ep['audio_url'])}\"/>\n"
             f"{transcript_tag}"
             "    </item>\n"
         )
