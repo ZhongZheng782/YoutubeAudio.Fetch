@@ -33,6 +33,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes.md) | 2026-09-25 |
 | [台股創新高就能追？別急！追強不追高，慎防假突破｜王子縈、佑佑｜理財佑佑班](data/smartmonthly-bw/smartmonthly-bw_tFVq0jnAq0M_keyframes.md) | 2026-09-22 |
 | [台股還能投資？AI商機多點開花，市值型ETF 2.0掌握「現任＋下任」核心](data/smartmonthly-bw/smartmonthly-bw_Q6T7rLcSbds_keyframes.md) | 2026-09-21 |
 | [台股5萬點只是前菜？杜金龍：這波牛市末升段上看8萬點！台積電有機會漲到哪裡？杜大師解密台積電、聯發科與鴻海實戰操作心法！｜峰哥ft. 杜金龍｜Smart智富．投資的一千零一夜251](data/smartmonthly-bw/smartmonthly-bw_LKAYiw41EZg_keyframes.md) | 2026-09-19 |
@@ -65,6 +66,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [台股市值躍升全球第四大 政府應該思考的下一步｜#老謝開講 EP294 #財訊](data/wealth1974/wealth1974_tpUuNwcWiFU_keyframes.md) | 2026-09-25 |
 | [【會員影片節選】AI 晶片測試火熱 八檔受惠股旺到明年｜ #產業投資通 EP04 #半導體測試 #探針卡](data/wealth1974/wealth1974_qL5ms5oowHA_keyframes.md) | 2026-09-24 |
 | [# EP371 #](data/wealth1974/wealth1974_yN2CYvg11QA_keyframes.md) | 2026-09-23 |
 | [五大商社砸重金 尋找下個成長動能｜#投資IN總經 EP97  #財訊 #日本](data/wealth1974/wealth1974_GIVExayTQwM_keyframes.md) | 2026-09-22 |

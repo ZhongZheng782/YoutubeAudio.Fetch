@@ -9,12 +9,21 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>Smart智富月刊 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes/smartmonthly-bw_WzJjPd3iG0M_000013.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes/smartmonthly-bw_pItgJoTM7DA_000005.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes/smartmonthly-bw_WzJjPd3iG0M_000013.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes/smartmonthly-bw_pItgJoTM7DA_000005.jpg</url>
       <title>Smart智富月刊</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室</title>
+      <guid isPermaLink="false">smartmonthly-bw_pItgJoTM7DA</guid>
+      <pubDate>Fri, 25 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=pItgJoTM7DA</link>
+      <description>韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_pItgJoTM7DA.m4a" type="audio/mp4" length="9179152"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_pItgJoTM7DA.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥｜Smart智富．投資的一千零一夜247</title>
       <guid isPermaLink="false">smartmonthly-bw_WzJjPd3iG0M</guid>
