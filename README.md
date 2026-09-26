@@ -33,6 +33,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [FED還會升息幾次？利率會升到多高？台股何時可能反轉？造成通膨失控的潛在危機是什麼？｜峰哥｜Smart智富．投資的一千零一夜252](data/smartmonthly-bw/smartmonthly-bw_V35DrgT3U7w_keyframes.md) | 2026-09-26 |
 | [韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes.md) | 2026-09-25 |
 | [台股創新高就能追？別急！追強不追高，慎防假突破｜王子縈、佑佑｜理財佑佑班](data/smartmonthly-bw/smartmonthly-bw_tFVq0jnAq0M_keyframes.md) | 2026-09-22 |
 | [台股還能投資？AI商機多點開花，市值型ETF 2.0掌握「現任＋下任」核心](data/smartmonthly-bw/smartmonthly-bw_Q6T7rLcSbds_keyframes.md) | 2026-09-21 |

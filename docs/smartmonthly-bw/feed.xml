@@ -9,12 +9,21 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>Smart智富月刊 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes/smartmonthly-bw_pItgJoTM7DA_000005.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_V35DrgT3U7w_keyframes/smartmonthly-bw_V35DrgT3U7w_000007.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes/smartmonthly-bw_pItgJoTM7DA_000005.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_V35DrgT3U7w_keyframes/smartmonthly-bw_V35DrgT3U7w_000007.jpg</url>
       <title>Smart智富月刊</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>FED還會升息幾次？利率會升到多高？台股何時可能反轉？造成通膨失控的潛在危機是什麼？｜峰哥｜Smart智富．投資的一千零一夜252</title>
+      <guid isPermaLink="false">smartmonthly-bw_V35DrgT3U7w</guid>
+      <pubDate>Sat, 26 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=V35DrgT3U7w</link>
+      <description>FED還會升息幾次？利率會升到多高？台股何時可能反轉？造成通膨失控的潛在危機是什麼？｜峰哥｜Smart智富．投資的一千零一夜252</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_V35DrgT3U7w.m4a" type="audio/mp4" length="39599246"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_V35DrgT3U7w.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室</title>
       <guid isPermaLink="false">smartmonthly-bw_pItgJoTM7DA</guid>
