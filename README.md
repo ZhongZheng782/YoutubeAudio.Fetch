@@ -8,6 +8,14 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 ## 內容索引
 
+### [AI 101](data/ai-note-101/)
+
+> 最新AI時事、AI新聞快報、AI大人說
+
+| 影片 | 日期 |
+| --- | --- |
+| [AlphaGo 之父為什麼刷掉祖克柏、拒絕馬斯克，把 DeepMind 賣給 Google【AI 大人說】](data/ai-note-101/ai-note-101_3NyNdSTxKEY_keyframes.md) | 2026-09-09 |
+
 ### [富邦證券](data/fubonsec/)
 
 > 富邦證券官方 YouTube 頻道
