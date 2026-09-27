@@ -1,0 +1,265 @@
+[METADATA]
+Source: ai-note-101_GkWEp_4Fga4_youtube-transcript-manual
+Language: en
+---
+(00:00.271) A few hundred Spaniards
+(00:01.416) brought down an empire of millions.
+(00:03.975) Yuval Noah Harari, author of Sapiens, says
+(00:06.923) it was not that the Aztecs could not win.
+(00:08.499) They simply could not understand what they were seeing.
+(00:10.220) This time, he uses that history to talk about AI.
+(00:12.648) This interview appeared on the British podcast The Rest Is Politics in mid-September.
+(00:16.710) Its host, Rory Stewart, once served as the UK International Development Secretary.
+(00:19.915) The question in this episode is
+(00:21.080) whether AI could become a new kind of empire.
+(00:23.036) Harari begins by explaining the job of politics.
+(00:24.837) It is to lay out the options and let people choose.
+(00:26.626) Then he describes an exception.
+(00:29.253) And every now and then something happens in history
+(00:32.033) which is just outside the normal political discourse,
+(00:37.853) that we don't think about it.
+(00:39.493) We don't even have words to describe what it is, but it could be the most important next thing.
+(00:45.553) And then the job of politicians is to think the unthinkable.
+(00:49.213) You know, the range of examples from human history is quite wide.
+(00:53.773) I mean, if you're in the Aztec Empire in the early 16th century,
+(00:58.373) and you just heard reports about this very strange thing that happened on the coastline.
+(01:04.813) These huge hills appeared over the ocean,
+(01:09.033) and out of them came strange men, or ghosts, or demons.
+(01:14.273) We are not sure what they are.
+(01:15.733) And they have these huge creatures that can run.
+(01:18.493) And they have sticks that can launch lightning and thunder.
+(01:24.453) And this is outside the normal course of Aztec politics.
+(01:30.213) But this is the most important thing you now need to confront.
+(01:34.333) And the Aztecs did a very bad job confronting that.
+(01:38.413) Couldn't really understand what the hell is this, and what should we do about it.
+(01:44.033) So, it's a lovely place to start.
+(01:45.633) So obviously you're describing the arrival of the conquistadors, the Spanish invaders into Latin America.
+(01:51.553) And the astonishing thing there is that
+(01:53.813) it's a few hundred people arriving into an empire of many millions.
+(01:58.733) And despite the fact that they have horses and simple muskets that couldn't hit anything, I mean, it was just for show.
+(02:04.573) In practice it would have been very, very easy for a million people to overwhelm them.
+(02:08.913) Yes. I mean, the tragedy in a way of the Aztec Empire,
+(02:12.353) they could have squashed Cortés very, very easily.
+(02:15.393) But they didn't understand what they were facing. They made a lot of mistakes.
+(02:21.133) And these few hundred people, they destroyed the Aztec Empire.
+(02:26.333) And of course with the help of the microbes they brought.
+(02:29.993) Annoyingly, they brought all these Old World diseases.
+(02:33.073) They decimated the entire population of Central America and beyond.
+(02:38.513) According to some estimates, up to 90% of the people died.
+(02:44.413) Entire cultures were wiped out, and they never recovered from it.
+(02:49.213) There are of course people today in America who are the descendants of the Aztecs and the other people of the empire,
+(02:54.773) but they never recovered from it.
+(02:57.233) And really, as you said, it was just a few hundred people. They could have squashed them easily.
+(03:01.313) But they just didn't understand what they were facing.
+(03:04.487) They then turn to the pandemic.
+(03:06.488) In 2019, Rory Stewart was serving in the British government.
+(03:09.416) He says the virus that emerged from Wuhan
+(03:11.343) ultimately cost the UK £400 billion.
+(03:13.225) Much of Britain's debt problem today
+(03:14.952) dates back to that period.
+(03:16.653) Harari says
+(03:17.512) this example illustrates something perfectly.
+(03:20.177) I would say, in many of these cases of these existential risks, and we certainly see it with AI,
+(03:26.917) there is a brain-stomach barrier.
+(03:30.017) Like our brain, our intelligence, based on various data, starts understanding something,
+(03:36.197) but our stomach says, nah, that cannot be possible.
+(03:39.937) Why not? Because I have never experienced anything like it.
+(03:43.697) So I have no gut feeling what this thing can be like. So it cannot exist.
+(03:49.757) I remember the first few weeks of the pandemic.
+(03:53.437) I remember myself sitting at my home, watching on television the images from Wuhan,
+(03:58.697) of a modern, huge city of millions, completely shut down.
+(04:03.557) And as a historian, I had all these kinds of synapses going on in my brain.
+(04:07.397) Ooh, this is like the Black Death. This is like the Spanish influenza.
+(04:10.677) I read about pandemics, and still my stomach says, no, this is not possible. This is not possible.
+(04:16.537) Maybe it's possible in China. It will never get here.
+(04:19.757) Why not? Because I just never saw anything like it in my life.
+(04:24.297) So I cannot accept the reality of this thing.
+(04:27.757) And the stomach is usually much stronger than the brain.
+(04:30.677) Even when the brain insists, this is real, this is coming, we need to prepare,
+(04:35.417) there is something that just doesn't accept it.
+(04:37.558) Rory Stewart then describes how the British government responded.
+(04:41.057) Hospitals in Milan were already overwhelmed,
+(04:42.773) yet seven flights were still arriving in London from Milan every day.
+(04:45.674) The British government even allowed the horse racing festival to go ahead.
+(04:48.274) He says the reason was simple. Doing nothing was cheaper.
+(04:50.985) Every cost of taking action was immediately visible.
+(04:52.916) And he believes
+(04:53.682) AI safety will probably follow the same path.
+(04:56.667) I think this is exactly the mechanism.
+(04:58.687) Like if you look again, we'll talk about it at greater depth in the next episode,
+(05:02.947) but one of the threats facing many countries today in the world, including Britain,
+(05:08.507) is one of AI imperialism, and of becoming vassal states of the United States.
+(05:14.627) If your entire economy and military is run on AI infrastructure
+(05:18.987) that the Americans can shut at the press of a button,
+(05:23.007) you are no longer an independent country.
+(05:25.027) Now this is a real, imminent threat
+(05:28.067) that can materialize within very few years.
+(05:31.907) Now I think there are basically three options that a country like Britain can do.
+(05:37.187) Option number one is business as usual. Just accept the fact, yes, we are going to become American vassals.
+(05:43.867) But if that is the case, you need to be aware of it and act accordingly.
+(05:48.887) If your plan how to deal with AI imperialism
+(05:52.507) is just to accept your place as American vassals,
+(05:57.247) then starting from today, whenever the American government says jump, you jump.
+(06:02.587) If they say Greenland belongs to the US, then yes, Greenland belongs to the US.
+(06:06.627) If they say give the Falklands to Argentina,
+(06:09.667) then the UK government says, oh, the Malvinas, of course they're Argentinian.
+(06:13.867) That's option number one.
+(06:15.687) Option number two is to say, no, no, no, no, no,
+(06:18.047) we want to remain independent, so we will build UK AI.
+(06:23.927) Sounds wonderful, except for the price tag,
+(06:26.427) which is something in the area of 500 billion pounds.
+(06:30.907) Now in theory, if this is an existential thing, the UK can do it.
+(06:36.527) It's one of the few countries in the world that can theoretically still do it.
+(06:39.987) Because as you just point out, it's slightly more expensive than COVID.
+(06:43.227) It's about half the government budget of a…
+(06:44.747) It's possible, but it means that you have to say it now,
+(06:48.187) and you need to cut healthcare, welfare, education, transportation, everything,
+(06:54.907) so you have the money to make yourself an independent AI nation.
+(06:59.787) Third option is to say, this is too costly for us. We'll do it with the Europeans.
+(07:04.307) It's still going to cost 500 billion pounds, but we'll give only part of it,
+(07:09.047) and the Germans will give some, and the French, and the Spanish.
+(07:11.707) But if this is the plan, then say so and act accordingly today.
+(07:16.007) You need to rejoin the European Union today,
+(07:19.507) and integrate Europe much more closely, because otherwise it won't work.
+(07:24.647) Now I think these are the only three options.
+(07:27.127) And if the political system cannot articulate these options,
+(07:30.407) and come to the people and say, look, these are the options,
+(07:34.047) all of them have costs and benefits, choose,
+(07:37.007) then it's not doing its work. It's not willing to think the unthinkable.
+(07:40.527) And then it's just, you know, the default is to become American vassals.
+(07:46.967) But even if you go for the path of least resistance,
+(07:50.607) you should at least do so in a self-aware way, so you will be good vassals.
+(07:57.207) Like, you know, when the Spanish, when the conquistadors invaded Mexico,
+(08:00.707) there were people, the Tlaxcalans, who to some extent understood what was happening.
+(08:05.167) And they became the allies, vassals, of the conquistadors,
+(08:09.507) and this paid off. This was good policy for the Tlaxcalans.
+(08:14.627) Now again, people can say yes, no,
+(08:18.027) but you need to be aware that this is the decision you're taking, and act accordingly.
+(08:24.368) Rory Stewart then lays out the opposing argument.
+(08:27.268) He says that once this episode airs,
+(08:28.448) other experts will inevitably go to the prime minister and say
+(08:30.687) Harari has it wrong.
+(08:31.947) The technology does not work the way he thinks it does.
+(08:33.639) Superintelligence will not emerge the way he describes.
+(08:37.150) And the real threat that we face is not from autonomous agents.
+(08:41.250) It's from bad people getting control of a cyber attack, or the ability to make a bioweapon.
+(08:48.530) And our best way of dealing with that is to build a smarter AI
+(08:52.210) that can detect those humans before they get there.
+(08:56.890) And then they will add, and anyway, even if you've got us right, there's nothing we can do about it,
+(09:00.710) because if we don't build it, the Chinese will build it, or some other company will build it.
+(09:04.310) Mhm. Yeah. I mean, this is what happened to Montezuma. Exactly.
+(09:07.370) They debated in exactly this fashion, what is it, these strange things that came across the ocean,
+(09:13.630) until it was too late.
+(09:14.730) And your point is, it could be many things. It could be that this is inevitably the nature of AI,
+(09:19.790) or it could be there is a very significant probability that AI will be like that, in which case you need to plan accordingly.
+(09:26.130) And this is not just me saying it. It's the corporations themselves are saying it.
+(09:31.950) We have on record people, not from years ago, from the last few weeks,
+(09:36.830) people like Dario Amodei from Anthropic, like Sam Altman, like Elon Musk,
+(09:41.250) saying this can completely destroy humankind.
+(09:45.690) And I just heard Elon Musk some weeks ago say, estimating,
+(09:49.510) I think it was like 10 to 20% chance that this will destroy humankind.
+(09:53.790) And then of course the interviewer asked him,
+(09:56.710) would you go on one of your rockets if you thought there was a 10% chance it will explode and kill you?
+(10:03.110) And he thought about it, and he gave a very interesting and crucial answer.
+(10:08.510) He said, ah, but this is inevitable. There is no… I mean, we are on the rocket. It's too late.
+(10:13.990) And this is maybe the most important thing to understand about it all.
+(10:18.650) The message coming from the corporations is that this is inevitable.
+(10:23.790) This is deterministic. There is nothing we can do about it.
+(10:27.210) Which actually means there is no politics.
+(10:29.890) Politics is the art of the possible, of choices.
+(10:34.010) And what these people are saying, there is no room for politics, because there are no choices. This is inevitable.
+(10:40.590) And the most important thing that politicians, and also citizens, should say,
+(10:45.550) no, this is not inevitable. This is a choice.
+(10:50.990) History is not deterministic. We always have choice, at least until the AIs really take over.
+(10:55.990) The job of politicians is to create this space for choice.
+(11:01.170) Again, the big tech wants us to think that there is no choice.
+(11:05.301) Later, Rory Stewart asks,
+(11:06.972) what if Britain and Europe simply refuse to play?
+(11:09.738) Harari says that if you are not at the table,
+(11:11.457) you cannot shape the game.
+(11:12.798) The Zulu Empire could not shape the Industrial Revolution in the 19th century either.
+(11:15.741) Britain alone may already be too late.
+(11:17.505) But Europe acting together still has time.
+(11:19.427) After explaining what Britain can do,
+(11:20.460) he takes the question to a bigger level.
+(11:23.573) And just doing nothing is the worst thing that can be done.
+(11:28.853) I mean, we are dealing here with two related but different issues.
+(11:32.673) There is the issue from the viewpoint of, say, the UK or Europe.
+(11:37.953) How do we stay independent in an age of AI imperialism? And that's one issue.
+(11:43.913) The other is for humanity. How does humanity survive that?
+(11:48.633) I mean, in the end, it doesn't really matter who wins the race to superintelligence,
+(11:54.453) the Chinese, the Americans, or the Europeans,
+(11:57.573) if the outcome is the creation of superintelligent aliens
+(12:03.033) that then take over the world.
+(12:04.753) I mean, you could have then the credit to say, okay, we were the fathers of the gods.
+(12:09.353) Yeah, it wasn't them, it was us.
+(12:11.433) But that seems to be the only benefit.
+(12:14.093) But the crucial thing to understand about what the corporations are saying, and what the market is saying,
+(12:19.733) forget even the corporations.
+(12:21.053) You can say, oh, this is just hype.
+(12:22.873) Look at the market. Trillions and trillions of dollars are being gambled on this thing.
+(12:29.433) And the gamble is totally irrational, because what the gamble actually says, of the market, is,
+(12:35.993) we are going to create gods, and they will be our slaves.
+(12:40.173) It makes no sense, the amount of money being invested,
+(12:45.193) unless what will be produced in a few years are entities with divine abilities.
+(12:50.553) This is the only way that the market will get a return on the investment.
+(12:54.873) But this depends on the fact that the gods being created
+(12:59.253) will be the willing slaves of the market.
+(13:02.733) And it doesn't make sense.
+(13:05.033) If these things will be as intelligent, as agentic,
+(13:09.913) as creative as the market assumes they will be,
+(13:13.873) they will get out of our control, and then there is no market, there is no money, there are no corporations.
+(13:19.568) Finally, Rory Stewart asks him to spell out the risks of AI.
+(13:23.305) Harari says the easiest one to understand
+(13:25.026) is a terrorist organization asking AI to design a virus.
+(13:27.657) That used to require a brilliant biologist.
+(13:29.633) Now, all it takes is the right prompt.
+(13:32.500) That's the easy risk.
+(13:33.980) The terrorist getting control of a very powerful tool.
+(13:37.120) Oh no, a very powerful agent. I mean, a tool, they need to know how to use it. In this case it's an agent.
+(13:42.440) They have a new recruit to their terrorist organization,
+(13:45.540) and they just tell the new recruit, oh, go and do this, and it goes and does it.
+(13:50.900) The much more difficult thing to understand is that the AIs,
+(13:56.860) even if they are not evil, even then, if they don't try to destroy us,
+(14:00.560) they will just create a world which we cannot understand,
+(14:04.260) and therefore we will lose our ability to understand and control our lives.
+(14:10.120) We'll be like the other animals on the planet.
+(14:12.600) Like if you go now to a cow or to a dog, and you tell the cow, the dog, look,
+(14:17.880) your life is actually being managed by something called the financial system.
+(14:22.740) There are stock exchanges, and there is the bond market,
+(14:25.980) and you have these things called stocks and bonds,
+(14:29.420) and actually your life is run by that,
+(14:31.660) because of the fluctuations in the price of bonds and the value of the dollar.
+(14:36.840) Let's say you tell to the cow, the company that owns you has gone bankrupt,
+(14:41.700) so now they are killing you.
+(14:43.120) And the cow will say, I have no idea what you're talking about.
+(14:47.280) What bonds, stocks, dollars? What are these things?
+(14:52.380) Like, I look around and, okay, I can see people. I understand they are stronger people.
+(14:57.660) I can see dogs. I can see cats and trees and clouds.
+(15:01.160) I've never seen a bond in my life. What's that?
+(15:05.060) Now we know that the cow,
+(15:08.080) its life is really dominated by this totally invisible system.
+(15:13.040) We know that because we are smarter than the cow, and we created the bonds and the stocks and all these things.
+(15:18.920) In 10 years, we could be the cows.
+(15:21.280) Our lives will be managed by a totally invisible system
+(15:25.840) that is far beyond our understanding.
+(15:28.640) The AIs will create a new financial system
+(15:32.120) which is mathematically far too complex for the human brain to understand.
+(15:37.860) They will create new financial devices
+(15:40.100) which are orders of magnitude more complicated than bonds and stocks.
+(15:45.760) This will determine what is happening in the world.
+(15:49.020) And not a single human being understands what the hell is happening.
+(15:53.974) When ships appeared on the horizon 500 years ago,
+(15:56.376) the Aztecs did have a choice.
+(15:58.176) They simply failed to recognize what they were facing.
+(16:00.158) That is exactly Harari's point.
+(16:02.033) This time, do not let anyone tell you there is no choice.
+(16:05.491) The original video runs for 38 minutes.
+(16:07.100) He also explains why AI moves faster than politics can keep up.
+(16:09.897) A cybersecurity expert told him,
+(16:11.222) you can sleep for 6 hours and wake up to a different world.
+(16:13.126) AI does not sleep, and markets no longer close.
+(16:15.651) He also explains how AI differs from the steam engine.
+(16:17.351) It is not a tool.
+(16:18.250) It is a knife that decides for itself whether to chop salad or kill someone.
+(16:21.073) The link to the original video is in the description if you would like to hear more.

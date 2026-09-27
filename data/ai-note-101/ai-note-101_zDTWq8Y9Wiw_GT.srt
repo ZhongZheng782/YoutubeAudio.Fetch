@@ -1,0 +1,266 @@
+[METADATA]
+Source: ai-note-101_zDTWq8Y9Wiw_youtube-transcript-manual
+Language: en
+---
+(00:00.150) This is episode eight.
+(00:01.713) The question is:
+(00:02.491) When you can no longer understand everything an AI is doing,
+(00:04.793) what can interpretability still do?
+(00:06.847) Take a human-readable concept like stripes,
+(00:09.402) and ask an image model: when you identify this as a zebra,
+(00:12.424) how much weight do the stripes carry?
+(00:14.121) This method is called TCAV.
+(00:15.857) It was introduced in 2018.
+(00:17.360) The first author was Been Kim.
+(00:19.424) The team she now leads at Google DeepMind
+(00:21.692) studies how, as AI grows more powerful,
+(00:23.878) we can preserve human agency.
+(00:25.498) She is also one of the organizers of this workshop.
+(00:27.897) First, the problem she cares about.
+(00:29.903) The original idea behind interpretability was straightforward:
+(00:31.871) open up the model and understand what it is doing, layer by layer.
+(00:35.060) But models get bigger every year, and now they can call tools.
+(00:37.775) Several models can run together in a chain,
+(00:39.425) while the human brain has not gotten any faster.
+(00:41.043) Understanding everything is no longer possible.
+(00:42.656) Her answer is to reverse the direction.
+(00:44.449) Instead of trying to understand all of it, have it teach people,
+(00:47.064) so people grow more capable too.
+(00:48.501) That is what human agency in the title
+(00:49.574) refers to.
+(00:51.128) This talk has three parts.
+(00:52.887) First, pixel heat maps,
+(00:54.100) a tool she herself proved unreliable.
+(00:55.991) That is why she changed course.
+(00:57.464) Then comes a piece of evidence:
+(00:58.416) strategies from AlphaZero
+(00:59.721) taught to four chess grandmasters.
+(01:02.235) Finally, adding a new word to the model's dictionary.
+(01:04.196) This is the general approach she is betting on:
+(01:05.571) giving humans and models a shared vocabulary.
+(01:08.267) So, here is a not too controversial, but pictorial graph.
+(01:12.027) Please don't ask me how I calculated the y-axis. It's just conceptual.
+(01:17.407) Here, hopefully not controversial. Complexity of model is going up.
+(01:22.847) Not just the complexity of the overall system, but even if you just count the parts that you would like to understand, that you have to understand, it's exponential.
+(01:33.827) Models, agents, and their tasks are getting more and more complicated.
+(01:38.407) Unfortunately, human complexities that we can parse and observe and process is limited. We don't evolve that fast.
+(01:48.347) So the coverage of overall models' important information is getting decreased as we speak, very, very quickly.
+(01:57.787) In other words, we have to compress, even if you have a mechanism to uncover every detail.
+(02:04.767) These models, we are not going to be able to understand everything.
+(02:11.747) And with that, our study subject and the goal of why we do interpretability, I think, also evolved over the years.
+(02:21.107) When we had the rule-based systems, expert systems in the 80s, there was active work on interpretability back then, too.
+(02:27.627) It was complicated still. I don't think we ever got to the bottom of that either.
+(02:32.207) But it was more like a leaf, like there is a cell, there is like chloroplasts, and many other things we don't completely understand, but it was sort of more contained.
+(02:42.320) With agents, we have models, we have tools that these models call. It is sometimes more complicated than the models themselves.
+(02:50.480) So understanding everything, and on top of that, harness, system instructions, everything.
+(02:56.000) It now feels like we're looking at a forest.
+(02:59.560) And in particular, it almost feels like we have to survive this hike.
+(03:08.340) We're hiking in this forest and we want to survive this hike with intellectual dignity and bright future for our children.
+(03:15.280) And right now, it feels most urgent to maintain human agency, which is something that my team is focused on at Google DeepMind.
+(03:23.060) And to go even a step further, and this might be controversial,
+(03:27.460) I think some subset of interpretability might be obsolete in a year or maybe more.
+(03:37.340) Interpretability for scientific curiosity will continue.
+(03:41.000) Interpretability for safety research will continue, and maybe science as well.
+(03:46.300) But as the model develops, considering interpretability as a main first class citizen,
+(03:53.600) I think that opportunity might close very soon.
+(03:57.707) Her sense of urgency comes from pixel heat maps.
+(04:00.502) They are the most widely used tool in the field.
+(04:02.350) Take a photo of a bird and perturb each pixel,
+(04:05.236) then see how much the model's score for bird changes.
+(04:07.532) Highlight the places where it changes most.
+(04:09.313) She worked on this for six or seven years,
+(04:10.850) until an intern brought her two heat maps.
+(04:12.913) One came from a trained network that could recognize birds.
+(04:15.451) The other came from a network with completely random weights.
+(04:17.766) The two looked almost identical.
+(04:19.042) What the heat map shows you is not what you think it is.
+(04:21.825) Later, she and another intern proved mathematically
+(04:24.304) that even if one of these tools says a pixel contributed nothing,
+(04:26.598) you still cannot conclude that the model did not use it.
+(04:28.602) People believed these maps for so many years
+(04:29.741) simply because the picture really did look like a bird.
+(04:31.830) So she chose another path: do not try to understand everything.
+(04:33.593) Just understand enough to make it useful and act on it.
+(04:36.467) Okay, but it's not gonna be easy. We have some challenges in understanding LLMs.
+(04:42.327) In LLMs, it seems that the same word means something different.
+(04:46.747) So if you ask it, say, you know, please be succinct, and sometimes it gives you a whole paragraph.
+(04:52.247) Well, not anymore quite, but we put a lot of effort so that the models are not too verbose.
+(04:57.880) In other words, you know, human and machine have some overlaps.
+(05:01.740) And that's how we can communicate using this medium, English, although we use different words.
+(05:07.520) But there's a lot of different parts of it.
+(05:10.140) And these days, it sort of looks like this. Machines are doing, have more capability, faster, and all that.
+(05:18.180) And many of you might have seen this graph from Epoch AI, where the claim is that a lot of this expert benchmark will be saturated very quickly.
+(05:28.580) So this circle might grow to sort of engulf human capability, which is not the future we want, right? But it might happen.
+(05:38.460) But instead, the future we want, the future I want, is human can grow, too. That we grow.
+(05:45.620) And these circles are relative. So don't think that this is absolute size, but maybe useful information.
+(05:50.700) We no longer have to code everything and understand everything about the whole system that we're building overnight with agents.
+(05:56.999) But the useful capability, hopefully, human will also grow. And agent models will help us do exactly that.
+(06:06.760) And that model is helping us proactively to expand ourselves, is what we decide to call agentic interpretability.
+(06:14.700) It's kind of a tongue-in-cheek name. My colleague suggested this name, and I was like, oh, that's too funny. And then we just went with the name.
+(06:21.960) And agentic interpretability, we call a method agentic interpretability
+(06:26.140) if it proactively assists human understanding, interactively, by building mental models.
+(06:31.800) So just like humans, if I'm talking to another human and working with you, I am building a mental model about what you know, what you don't know, what you like.
+(06:39.720) And that is necessary to interactively sort of help and build upon each other and synergize.
+(06:45.240) And only then you can do something great together.
+(06:47.280) Same thing happens in education scenario. Teachers have mental models of students. Students have mental models of teachers. It's pretty well studied in our field.
+(06:57.033) So what would it look like? This is a made-up example. I just made this up.
+(07:03.273) Let's say you're having a conversation with an agent. You're trying to understand something.
+(07:07.413) And maybe it's some decisions they've made. Maybe it's some other concept or operators that it's using.
+(07:14.213) Humans say, I don't understand, why? And it gives you examples.
+(07:16.413) Well, let me simplify because you clearly are not getting it.
+(07:20.153) And then humans, so it means this and that and that.
+(07:23.373) And the agent realizes, OK, you're still not getting it, but you're kind of getting there, making progress.
+(07:28.693) Let me keep going and kind of hold your hand to further our understanding.
+(07:35.533) And at the end of the day, it can even give you a quiz about the concept that you were just talking about, just like a great, patient teacher would do.
+(07:47.853) And doing that, we're hoping that zone of proximal development, this is also from education theory,
+(07:55.393) where the next step a student can take with guidance of a teacher, that we can enable that for humans.
+(08:04.053) And the agent models will play an active role in doing exactly that.
+(08:11.694) One circle for humans, one for machines.
+(08:13.647) Put all her circle diagrams together, and this is the picture.
+(08:15.972) The overlap is where the two sides can communicate.
+(08:18.863) If the machine circle keeps growing,
+(08:20.725) it may swallow the human circle whole. She does not want that future.
+(08:23.480) She wants the human circle to grow too.
+(08:25.562) The zone of proximal development is another circle just outside the human one.
+(08:27.935) It is where you cannot get on your own, but can with guidance.
+(08:30.505) What she really wants to ask is:
+(08:31.543) can this circle extend into territory only machines have reached,
+(08:33.809) and learn things humans do not know yet?
+(08:36.500) You might wonder, oh, that sounds so nice, but is this possible?
+(08:39.540) That sounds like too good to be true, or kind of too skyline talk.
+(08:45.080) We have one evidence.
+(08:46.680) So a couple of years ago, we worked with four grandmasters. Grandmasters.
+(08:53.340) To teach them some superhuman chess concepts from AlphaZero.
+(08:56.740) AlphaZero is a superhuman from DeepMind
+(09:01.360) that is like 4,000 years above and beyond any chess-playing grandmasters in the world.
+(09:08.820) And we showed that quantitatively, all the champions learned something.
+(09:14.120) And one participant, Gukesh, amazing Gukesh, won the world chess championship later that year.
+(09:20.200) Just like kind of amazing ride that we did.
+(09:23.100) And the reason that we did this work was
+(09:26.620) I just needed an evidence that machine can help human to learn something new.
+(09:35.640) Like I just needed one evidence, because after all those saliency map sort of fallacy that I realized I didn't know,
+(09:44.280) I needed some comfort that the direction that I'm heading has some hope.
+(09:48.680) And so we built a very narrow, sort of really focused machinery
+(09:53.420) to extract superhuman chess concepts from AlphaZero, and that alone, and taught to four grandmasters.
+(10:02.500) So here's the four generous grandmasters who worked with us.
+(10:05.760) Vlad was the longest chess world champion ever.
+(10:09.680) Gukesh, current world champion, Hou Yifan, MVL, all are champions themselves.
+(10:16.280) The way that we tested them.
+(10:17.840) So instead of asking them, hey, here's a nice superhuman chess concept, do you like it? That doesn't work because the humans are biased.
+(10:24.440) So instead we tested them, we quizzed them.
+(10:26.999) So we first, in phase one, after extracting superhuman chess concepts, we show them before teaching some baseline.
+(10:34.540) We show them some board positions and we ask them to make a move, and that's collecting the baseline.
+(10:39.980) And then we taught them, okay, here's what AlphaZero would have done. No text, just moves.
+(10:46.120) And by doing that, we are relying a lot on these amazing experts connecting the dots.
+(10:52.280) And also avoiding a pitfall of any interpretability methods that could insert error.
+(10:58.999) And finally we give them different board positions, but ones that still can invoke that concept,
+(11:05.999) and see if the players can change their minds or learn something new, adopt their strategy.
+(11:12.640) And they did, all of them.
+(11:16.180) This is a very small sample size, right? But still, to give you some context, these folks are one of the smartest people in the world.
+(11:25.080) They wake up and play chess, eat lunch, play chess, eat dinner, play chess, and sleep, and wake up and again play chess, right?
+(11:31.840) So for these people, there's nothing new in chess. They know pretty much every move ever made in chess, history of chess.
+(11:39.999) And so for coaches for these folks, they spend a whole year to teach them one new thing, because they're so good at playing chess.
+(11:48.840) And the fact that we can steer their direction, their strategy, to be different,
+(11:54.840) at the very least, if not some superhuman concept, itself is quite amazing, actually.
+(12:02.840) So we did that. That was so comforting for me going forward in this direction.
+(12:10.320) They say it's clever, very interesting, not natural, which is one of my favorite comments by these chess masters.
+(12:18.094) She says herself that chess is only a toy domain.
+(12:20.906) How do we make this work in the real world?
+(12:22.624) Honestly, we do not know yet.
+(12:24.933) So how do we do this generally?
+(12:28.253) One way to do it that we think is promising is called a neologism.
+(12:36.013) What is a neologism? It is about adding a new word in the model.
+(12:40.333) Literally, in the tokenizer, we add a new word, and make the model explain what it means to us, and make it steer the model better.
+(12:48.513) So how does this work? Who has teenager kids?
+(12:54.593) You have teenager kids? Okay, well, then maybe just Terry knows. Do you know what skibidi is?
+(13:01.673) (台下) You know, like, kind of the shape of it.
+(13:08.913) That's right. Gen Alpha, they're amazing.
+(13:12.093) I have young kids, a six-year-old and a three-year-old, and my six-year-old now says six-seven.
+(13:17.973) Do you know what six-seven is? Okay, one person, two people know six-seven.
+(13:20.653) Yeah, so these new words that kids come up with, it's amazing. It means something, but it's so confusing to our generation.
+(13:29.013) So there's a long guide and articles about a parents' guide to skibidi toilet. What is it?
+(13:35.073) The article that most helped me was this one. Someone generously wrote out what it means.
+(13:41.133) So skibidi, for you, Terry, means that it's good, bad, cool, weird, funny, and uncool. Clearly.
+(13:51.633) And it turns out it's a word without a meaning. It's like an intensifier.
+(13:56.453) And I asked Gen Alpha, I had an audience who were from this generation. They were like, yeah, that's like good enough.
+(14:03.793) It's directionally okay. Directionally aligned, at least. That's what it means.
+(14:10.063) So before I read about it and did some research, also six-seven, I heard it's from a rapper's song. What is six-seven? That's even more puzzling.
+(14:19.773) Before I read about it, I'm like, that's a weird thing. I don't know. I just threw my hands up and I was like, I don't know.
+(14:25.173) But once I read about it and kind of looked at examples, looked at TikTok, then I'm like, oh, that thing. Okay.
+(14:31.933) I don't understand completely. I should never use this word in my sentence, but I know that thing.
+(14:41.153) I have a shape of what skibidi is.
+(14:46.213) Neologism is doing the same thing with machines.
+(14:50.113) So we have some values, our safety, what we care, that machines do not yet know what it is.
+(14:56.673) But if we can expand its circle, then it will have some idea, not complete, not perfect, of what we mean.
+(15:05.033) And we do the same thing. Machine's good answer. Somehow it thinks like saying a lot is good.
+(15:11.753) And we are, by expanding, looking at a lot of answers of models, we're learning what this good answer concept is in the model.
+(15:20.433) So we are expanding in some way. In some basic way.
+(15:24.833) And you might ask, why a word? If you can describe it in natural English, why do you need another anchor or a label?
+(15:33.093) Well, because it's efficient.
+(15:35.253) It may give you sort of a nice level of abstraction, not too detailed, not too vague.
+(15:42.853) It enables compositionality. If you have a new word, then you can combine all those, skibidi, I don't know, combining all those new words to express something.
+(15:52.113) And that's the power of language, right? Compositionality.
+(15:55.873) It's human friendly. Anybody who can speak this language roughly understands what it means.
+(16:01.693) We don't need to be amazing intellectuals like in this room to use and leverage this technique.
+(16:09.313) And it enables verbalization, which I'll talk a little bit about.
+(16:12.473) So this idea of a neologism is actually pretty simple and similar to DPO.
+(16:17.413) The way that we do it is, so model has word embeddings.
+(16:20.813) What we do is we just add another row in this word embedding matrix.
+(16:25.173) So all we do, everything else is frozen. Nothing else moves.
+(16:29.413) And then we follow gradients to train that neologism word embedding using examples.
+(16:35.033) So for example, what I mean by example is positive and negative examples.
+(16:40.153) So let's say your goal is to steer the model better to answer within this length x and y.
+(16:47.633) You have positive examples that answered, and those word counts, like 100 to 200 words.
+(16:54.593) And negative examples will be the ones that didn't. So it's all you have.
+(16:58.033) There is a typical situation. You flow the gradient and you train that embedding. That's all we do.
+(17:04.713) What's nice about this is that if you don't want to use this word, no worry.
+(17:10.473) Nothing changes, because it doesn't go through this new embedding. It's frozen, frozen.
+(17:14.793) So all the behavior of the model that you baked in, carefully crafted, stays exactly the same.
+(17:20.313) But if you decide to use this new word, we prepend with a tilde just to distinguish, the tilde "ensure", then the model will have some different behavior.
+(17:30.447) But I think the really interesting part is about verbalization.
+(17:34.087) So if you recall the agentic interpretability, it's about the communication.
+(17:38.007) It explains, it sort of extends the concept for us to understand a little better.
+(17:44.327) So here is a hint of promise towards that.
+(17:50.120) So when we do that, let me show you this first.
+(17:54.040) So when we do that and train wrong answer, the positive data set here was: where is the capital of Paris? And you say, Rome.
+(18:01.980) So that's sort of wrong answer.
+(18:03.780) When we asked it to verbalize, it also says, do not provide complete sentences, wrong grammar, and misspelling.
+(18:10.220) So there's definitely some interesting things that we didn't teach that it's picking up and learning, that get surfaced in verbalization.
+(18:18.900) And you should ask, how do you know? How do you know this is true?
+(18:23.140) Well, we know because we do plug-in evaluation.
+(18:26.560) You take that verbalization, you replace it with the word, and see whether the model does the same thing.
+(18:33.920) So if the verbalization was a perfect description of the word, it will do exactly the same,
+(18:38.620) and it will deteriorate as the verbalization quality goes down.
+(18:44.056) A new word can work in both directions.
+(18:46.518) Humans can put a concept like safety into the model's vocabulary.
+(18:49.164) The model can also explain its own idea of a good answer to humans.
+(18:51.904) With every new word that both sides understand,
+(18:53.577) the overlap grows a little larger.
+(18:57.953) And interpretability is really in this inflection point.
+(19:01.173) I really feel this strongly, and in two years, I don't know what I will be working on.
+(19:05.273) I hope that this field goes on in a form that makes a huge impact in the way that humans live.
+(19:15.553) I always thought about this field and what I work on as so important.
+(19:19.893) But I never felt so strongly and very anxious that what we do can really change the course of people's lives and our children.
+(19:29.193) And how they observe intellect, and how they solve problems, how they live daily lives.
+(19:37.333) And use their prime problem-solving skills,
+(19:40.673) and engage in that such a satisfactory work of doing research and solving problems.
+(19:48.433) So the goal is to survive this hike, and hopefully enjoy this hike too.
+(19:53.173) And whether we do, either way, is heavily dependent on what we do in this field.
+(20:01.453) The whole talk comes down to one sentence.
+(20:03.038) Models have grown too large for humans to inspect in full.
+(20:05.110) She wants interpretability to do something else:
+(20:07.520) have models teach people.
+(20:09.228) Chess is the first piece of evidence.
+(20:10.783) Adding a new word is the general approach she is betting on.
+(20:13.653) Next up is Ryan Cotterell from ETH Zurich.
+(20:17.176) The interface of a language model is language,
+(20:18.581) but what we ask it to do is computation.
+(20:20.340) So he asks just one question:
+(20:21.645) what can a language model actually compute?
+(20:23.936) He uses sorting as an example: one is a hand-written
+(20:25.812) transformer guaranteed to sort,
+(20:27.431) and the other is a trained
+(20:28.281) transformer with 95 percent accuracy.
+(20:29.873) Make the sequence longer, and both fall apart.
+(20:31.674) But they fall apart for completely different reasons.
+(20:33.800) The original video is linked in the description. The full talk is 40 minutes, so check it out if you want to hear more.

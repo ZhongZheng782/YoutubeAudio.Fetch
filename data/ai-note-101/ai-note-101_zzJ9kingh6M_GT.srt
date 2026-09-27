@@ -1,0 +1,469 @@
+[METADATA]
+Source: ai-note-101_zzJ9kingh6M_youtube-transcript-manual
+Language: en
+---
+(00:00.325) This is episode 7.
+(00:01.958) The question is:
+(00:02.695) Why do sparse structures emerge on their own inside neural networks?
+(00:05.420) The speaker is Dmitry Vaintrob.
+(00:07.084) He works on the Principles of Intelligence program at PIBBSS.
+(00:10.870) He started as a pure mathematician, then moved into applied math.
+(00:14.031) He proved the central theorem used in this talk.
+(00:16.048) A single neural network layer can superimpose and compute circuits far exceeding its dimensionality.
+(00:19.093) The algorithm comes from a paper by him and Jake Mendel,
+(00:21.530) and Kaarel Hanni.
+(00:22.930) Later, the mathematicians Adler and Shavit established the optimal exponent.
+(00:26.528) First, here is the problem this talk is concerned with.
+(00:28.309) He states it very plainly on this slide.
+(00:30.216) The goal of interpretability
+(00:31.781) is to open up a neural network
+(00:33.489) and break it into understandable components.
+(00:35.484) He calls these components circuits.
+(00:37.495) The first line says:
+(00:37.855) Nobody knows what the circuits inside neural networks are.
+(00:40.593) Layer by layer, a network does two things: representation,
+(00:42.753) meaning what is stored in this layer,
+(00:44.281) and computation, meaning how the next layer rewrites it.
+(00:47.005) For the storage side,
+(00:47.598) he has a model that he admits is wrong but useful.
+(00:49.949) For the computation side, he puts it even more bluntly: there is not even a model.
+(00:52.767) His methodology for the whole talk is that line from statistician George Box:
+(00:55.703) All models are wrong, but some are useful.
+(00:58.634) Here is the problem in plain language.
+(01:00.434) A network layer has only a few thousand neurons,
+(01:02.671) but it needs to hold concepts like cats, hamburgers,
+(01:05.111) and a buggy stretch of code, far more concepts than neurons.
+(01:08.030) So those concepts must be stored in superposition.
+(01:09.862) Each neuron has to participate in several concepts at once.
+(01:12.165) The question is what that superposition looks like.
+(01:14.035) How many neurons actually read a given concept?
+(01:16.595) Does every neuron get a tiny piece of it?
+(01:18.377) Or do only a few neurons specialize in reading it,
+(01:20.345) while all the others ignore it completely?
+(01:21.791) Until now, this has only been an assumption.
+(01:24.090) Nobody has ever derived it from a model.
+(01:26.419) This talk takes four steps.
+(01:28.342) First, bet on a model we already know is crude.
+(01:30.792) What a network layer is doing
+(01:32.301) is running a small circuit made entirely of zeros and ones.
+(01:34.478) Second, do not build the network by hand.
+(01:36.204) Let training produce it.
+(01:37.951) Third,
+(01:38.377) use physics to calculate what training will produce.
+(01:40.884) Fourth, compare the result with a real GPT-2.
+(01:43.410) The answer is right there in the title.
+(01:45.090) Sparse structure emerges on its own.
+(01:47.206) First definition: what does a layer store?
+(01:49.676) His idealization is the row on the left.
+(01:51.508) It is an extremely long register, with one concept in each slot.
+(01:54.434) A lit slot is 1. The concept lit here is cat,
+(01:56.842) then hamburger, then Angelina Jolie.
+(01:58.923) Each slot is called an atom,
+(02:00.060) what people usually call a feature.
+(02:02.228) The meaning of sparse is written in the title line.
+(02:03.960) There are hundreds of millions of slots,
+(02:04.952) but only about 10 are active at any moment.
+(02:07.121) Next comes the Embed arrow on the right.
+(02:09.167) This extremely long string
+(02:10.273) is compressed into a d-dimensional space by a random linear map F.
+(02:13.716) Here, d is much smaller than the number of slots.
+(02:15.421) Because the string is sparse enough, it can still be recovered after compression.
+(02:17.630) That is an established theorem from compressed sensing.
+(02:19.568) He uses the brain to explain why sparsity is a reasonable assumption.
+(02:23.093) And I'll explain how, so in neuroscience, one of the things that neuroscience studies is people and people's brains.
+(02:31.153) And your brain has the capacity to represent probably tens of, or hundreds of millions of concepts.
+(02:40.853) But unlike the Boolean number on your computer, which will have about as many registers on as off,
+(02:48.373) if you freeze your brain at a given moment, you will not be thinking about even a million concepts.
+(02:54.853) You're probably gonna be thinking about at most 10 concepts.
+(02:57.493) So you're going to have 10 active registers out of this hundred million length string.
+(03:06.653) And so this idealization is called sparse data.
+(03:11.753) It's information theoretically much more efficient. It can be represented much more efficiently.
+(03:15.773) Of course, it carries much less information than a dense string.
+(03:21.245) The Infer arrow goes in the opposite direction.
+(03:23.240) Given the compressed vector, infer which slots were active.
+(03:25.917) A sparse autoencoder, or SAE,
+(03:28.347) is the cheapest way to do that.
+(03:30.272) The final line points out the model's limitation.
+(03:31.969) It is only a model of the data.
+(03:33.274) It tells us what a layer stores, but it cannot see the weights.
+(03:35.496) So it cannot see the computation either.
+(03:36.907) The computation side needs to fill that gap.
+(03:38.647) The approach is the same: begin with an idealization.
+(03:41.443) Second definition: a circuit.
+(03:43.164) On this slide, he has two registers,
+(03:45.139) one for input and one for output,
+(03:46.954) with a Boolean circuit C between them.
+(03:48.692) It rewrites the top row of zeros and ones into the bottom row.
+(03:51.076) A circuit is made of just four kinds of gates: AND,
+(03:53.630) OR, NOT,
+(03:54.591) and identity,
+(03:55.467) which simply copies the value through unchanged.
+(03:57.114) Look at the example in the diagram.
+(03:58.786) Input slots 2 and 4 are both 1.
+(04:00.857) They enter an AND gate together.
+(04:02.424) It outputs 1 only when both are active,
+(04:04.011) and writes that to output slot 1.
+(04:05.453) Slot 4 is also copied
+(04:06.610) through an identity gate
+(04:07.627) to output slot 4.
+(04:09.090) Slots 5 and 7 enter an OR gate.
+(04:10.897) It outputs 1 if either one is active,
+(04:12.302) and writes that to slot 6.
+(04:13.594) The output row is sparse too, with only three active slots.
+(04:16.824) The final line defines the scope.
+(04:17.960) Throughout the talk, he considers only a single fully connected layer,
+(04:20.022) an MLP.
+(04:21.230) One layer means first multiplying by a weight matrix W,
+(04:23.936) then applying a nonlinearity to each coordinate separately.
+(04:25.830) He calls this layer phi W.
+(04:27.935) With the definitions in place, listen to how he motivates this model.
+(04:31.200) And the way you are supposed to build a model is to start with an idealization.
+(04:35.980) And my idealization of computation is going to be, again, Boolean.
+(04:41.660) I'm going to keep the assumption from before that the data is sparse.
+(04:46.260) And I'm going to introduce, let's see if I can get this here, a new piece of complexity.
+(05:05.140) This is gonna be very fun for people who have done algebra or category theory, which is that I'm going to introduce an arrow.
+(05:12.220) So, remember, the idealization part is this top row.
+(05:22.580) And the new idealization that I'm going to introduce when looking for circuits is a pair of two spaces.
+(05:29.880) I'm gonna assume they have the same dimension, with sparse Boolean data and an arrow between them.
+(05:36.140) And the arrow, again, I'm not going to be original. I'm just gonna assume that this is a Boolean circuit.
+(05:45.560) So, this is, again, my very naive, very stupid guess of what a neural network does.
+(05:50.880) It's secretly applying a Boolean circuit.
+(05:56.040) So, a Boolean circuit has various gates, which are ands, ors, identities.
+(06:01.940) There's many different formalizations. Each one has finitely many gates. I'm gonna maybe use a slightly different one later in the talk.
+(06:08.680) Um, and, um,
+(06:12.740) And I'm going to now be a bad theorist and say, okay, I just believe that this is everything that the model does, secretly, in the platonic realm.
+(06:23.360) And now my next step as a bad theorist is to force this model into reality.
+(06:28.360) And here we hit our first snag.
+(06:30.680) It was very easy to force a sparse feature model into reality. You just linearly map it.
+(06:36.840) But if you have done some kind of category theory or algebra, you will notice that if we just choose a pair of random maps,
+(06:54.220) and try to push some circuit down to a lower dimensional space, we'll probably just fail,
+(07:00.620) because we need to make this diagram commutative, or commutative up to maybe some error.
+(07:07.018) The commuting diagram he refers to is this square.
+(07:10.454) The top row is the ideal world:
+(07:12.207) two sparse registers,
+(07:13.684) with the Boolean circuit C between them.
+(07:15.690) The two downward arrows, F and F prime,
+(07:18.543) randomly compress the registers into d-dimensional spaces.
+(07:20.888) Just as on the representation side, random maps are enough.
+(07:23.537) The red arrow along the bottom has a question mark.
+(07:25.273) That is the actual network layer, phi W.
+(07:27.301) The equation in the center says the square must commute.
+(07:28.968) Going across the top and then down should match going down first and then across the bottom.
+(07:31.935) The two routes may differ only by a small error.
+(07:34.266) The question is whether such a W exists.
+(07:36.803) The right side shows the difficulty: the number of register slots
+(07:39.782) is far greater than the dimension.
+(07:40.985) He starts by counting bits on the board, using two conventions.
+(07:43.629) All logarithmic factors are ignored.
+(07:44.833) Even a 64-bit number counts as a logarithmic factor.
+(07:47.933) And in this case, we can count how many bits do we need to describe a circuit.
+(07:55.283) And so the bit count to describe a circuit is, well, remember a circuit is sort of flat.
+(08:01.583) For example, every gate here, every Boolean register here, can receive at most one input. It's fan in one.
+(08:11.823) So a circuit has size big M, so this dimension.
+(08:19.243) So again, up to log factors, this means that the information contained in a circuit is M.
+(08:24.583) There are some questions about collisions, redundancies. These are minor.
+(08:30.163) So there are roughly 2 to the M different circuits. Or you need M bits of information for a circuit.
+(08:42.063) So different circuits have to map to different weight maps.
+(08:44.823) But how many weight maps do we have?
+(08:47.423) Well, we have only a bounded number of weight maps.
+(08:51.283) And so the free parameter here is the weight W. So this weight scales quadratically.
+(08:57.183) So here, M information units or nats. And here, we have d squared information units or nats.
+(09:04.603) And since this map had better be an injection, this gives us an inequality,
+(09:13.223) which is that this feature basis, or this memory register in idealization, has to be at most quadratic in the number of bits, in the number of residual stream dimensions.
+(09:32.463) So this is, by the way, a much stronger condition than you have in compressed sensing,
+(09:36.803) or in this question of whether you can compress sparse data, where there you can do exponentially or quasi-exponentially large dimensions.
+(09:44.823) But here, we've suddenly realized something that was not obvious.
+(09:48.783) And I think it may be even worth spending a little bit of time noticing that we can't actually have exponentially many.
+(09:57.083) We can't have arbitrarily many features.
+(09:58.403) There's some really hard information theoretic bound, if we're trying to do anything non-trivial with the features, on how many features we can have.
+(10:06.083) And this bound is quadratic.
+(10:10.323) So this is an impossibility result.
+(10:12.243) Now, can we have a possibility result?
+(10:13.983) So let's say that my dimension is much smaller than quadratic.
+(10:18.363) Can I guarantee, or at least guarantee statistically, that I can push any circuit down to a map?
+(10:24.523) And the answer turns out to be yes.
+(10:26.183) And it's an interesting, somewhat non-trivial result.
+(10:29.983) It was finished by Adler-Shavit.
+(10:31.903) But the algorithm was invented in a paper by myself and my co-authors, Jake Mendel, Kaarel Hanni.
+(10:40.183) A later version also had Lawrence Chan.
+(10:45.623) So we had some bound there that had a slightly worse exponent.
+(10:50.943) And the final version was proven later by these two mathematicians.
+(10:59.283) So this is actually remarkable.
+(11:00.903) This is saying that it's very easy to think of how we can take a circuit of size d and embed it as a neural net.
+(11:11.883) You can just have every, maybe, pair of weights do some silly compare, take the max, apply a gate.
+(11:22.123) But it's somewhat non-trivial that you can compress this much, much further at the cost of creating a little bit of what's called interference or noise, kind of error.
+(11:33.283) But up to a very manageable, genuinely, up to low probability manageable error, you can compress computation.
+(11:43.183) So this is a field that has emerged from this work, that's called computation in superposition.
+(11:52.684) Here is his bit count, written as the line on the slide.
+(11:55.737) Assume the circuit is flat.
+(11:57.095) Each slot receives at most one input, and the width is M.
+(12:00.235) M is the number of slots in the register,
+(12:02.110) which is also the number of features.
+(12:03.758) Describing one circuit takes M bits.
+(12:05.880) The weights in one layer form a d by d array of numbers,
+(12:07.748) so they contain roughly d squared bits.
+(12:09.530) Different circuits must map to different weights.
+(12:11.462) Therefore, M can be at most on the order of d squared.
+(12:14.012) That is the impossibility half.
+(12:15.645) The theorem gives the possibility half.
+(12:17.584) M on the order of d squared really is achievable.
+(12:20.328) The method is called circuits in superposition.
+(12:22.521) Each neuron is shared by many atoms.
+(12:24.886) That final term he uses,
+(12:25.885) superposition,
+(12:26.963) means exactly this in this talk:
+(12:28.552) there are far more features than neurons,
+(12:30.498) and every neuron works for many features at once.
+(12:32.767) The cost is a little noise from mutual interference.
+(12:34.757) So far, this proves only existence.
+(12:36.189) Some hand-built W can do it.
+(12:38.934) But the existence of such a W
+(12:40.111) does not mean training will produce it on its own.
+(12:41.930) Here is how he puts it.
+(12:44.103) Okay. So okay, there exists a map.
+(12:51.423) if, if we, if we wanna make this,
+(12:54.923) But if we want to start inverting this, it's not enough to prove existence.
+(13:00.583) And we can maybe have some kind of a really hand-generated construction, which is what we have in our paper and others.
+(13:06.243) I think they use a similar one to the one in our paper, and they prove better bounds on it.
+(13:12.223) But there's some manual construction, and there's absolutely no reason to expect that this is a natural, correct thing to do.
+(13:17.983) You could do something really stupid, and then probably your modeling loop will lead you nowhere.
+(13:23.903) So we want both a way of compressing this computation that's somehow more natural,
+(13:31.763) and also we want a way that gives us something that works well as a prior.
+(13:35.263) So we want a probability distribution.
+(13:37.423) What he wants is not a construction, but a probability distribution.
+(13:40.119) This slide explains why and defines the prior along the way.
+(13:43.328) Inference works on the representation side
+(13:44.579) because the prior assumes a random F.
+(13:46.775) When we see the compressed vector,
+(13:48.300) we have some idea of what F looks like,
+(13:50.001) so we can infer which slots were active.
+(13:51.634) On the computation side, what we need to infer is the network layer itself.
+(13:54.351) The slide makes this point emphatically:
+(13:56.067) The weights are not evidence of the computation. The weights are the computation.
+(13:59.245) So the prior here asks: given a circuit C,
+(14:02.168) what is the distribution of W produced by training?
+(14:04.703) This is written as P of W given C.
+(14:07.144) A hand-built construction cannot give us that distribution.
+(14:08.911) It gives one specific W,
+(14:10.318) not the W that training would find.
+(14:11.842) How does he define this distribution? His answer is:
+(14:14.130) learn W.
+(14:16.550) And one of the things that mathematicians should internalize is that all maps in statistics are invertible.
+(14:21.150) And so basically, if this map were to point the opposite direction, then there's actually a natural thing that we can do, a natural way we can generate this map, which is to learn it.
+(14:30.570) Based on the training signal from the composed map.
+(14:36.350) And this is exactly what we do.
+(14:40.450) And so this defines a task, and a very nice and natural way to make a task a probability distribution
+(14:47.910) is instead of looking at gradient descent, which finds a local minimum, think about the Boltzmann distribution.
+(14:56.050) So think about some Langevin descent or some kind of theoretical physical energy defined by a loss.
+(15:04.630) And so we're looking at some distribution on these nonlinear mappings phi W, which is trying to fit, in a physics sense, this wrong-way composition defined by our circuit.
+(15:23.750) So this gives us a loss.
+(15:27.870) And the miracle, or maybe a surprising fact, is that this Bayesian distribution can be theoretically solved to leading order, completely solved.
+(15:42.910) And the solution is mean field theory.
+(15:45.951) What he says aloud is summarized neatly on the slide.
+(15:49.241) The top line defines the task: add some noise to the register,
+(15:52.318) map it down with F,
+(15:53.595) pass it through the layer phi W,
+(15:55.069) then map it back up to the register using the transpose of F.
+(15:57.617) The result should equal the output of circuit C.
+(15:59.951) For a random matrix, the transpose acts approximately like its inverse.
+(16:02.428) So this is a supervised learning task with W as the only unknown.
+(16:05.369) Its loss is called L.
+(16:07.326) The second line is the definition.
+(16:08.562) The prior is defined as the Gibbs distribution for this task.
+(16:11.015) The probability of W is proportional to e raised to negative beta L.
+(16:14.444) In physics, this is called the Boltzmann distribution.
+(16:15.726) It is the same equation.
+(16:16.905) Beta is inverse temperature. The larger beta is,
+(16:18.743) the more probability concentrates around the W values with the lowest loss.
+(16:20.982) When beta is smaller,
+(16:21.713) W values with slightly higher loss get some probability too.
+(16:23.597) He emphasizes that this requires sampling, not minimization.
+(16:25.840) Here is a picture of the difference.
+(16:27.420) Imagine W as a point on the horizontal axis, with loss on the vertical axis.
+(16:30.327) The curve has a valley.
+(16:32.163) Minimization, meaning ordinary gradient descent,
+(16:34.218) is like a ball rolling to the bottom and stopping at one W.
+(16:37.191) Sampling means scattering many balls along the curve.
+(16:39.511) Their density follows e raised to negative beta L.
+(16:41.570) They are densest at the bottom, still present on the walls, and sparser higher up.
+(16:43.964) Large beta means low temperature.
+(16:45.072) Almost all the balls crowd around the bottom.
+(16:46.649) Small beta means high temperature, so the balls spread out.
+(16:48.818) The prior he wants is the distribution of this entire cloud of balls,
+(16:50.680) not the single ball at the bottom.
+(16:53.470) The third line is the theorem.
+(16:54.943) Assume the task defined above,
+(16:56.489) along with small beta, meaning high temperature.
+(16:59.021) Then this distribution has a closed-form leading-order solution.
+(17:01.436) It takes the form of mean field theory.
+(17:03.023) The fourth line explains what mean field means.
+(17:04.574) When a network is wide enough, there are so many neurons that they decouple from one another.
+(17:07.423) Each neuron feels only the average effect of all the others.
+(17:09.817) That makes the entire distribution calculable.
+(17:11.470) But this network is square, not wide.
+(17:13.127) He recovers the result using symmetry.
+(17:14.643) He says he has no time for that step, so we will skip it too.
+(17:17.281) For his example, he chooses the cleanest possible case.
+(17:19.036) Circuit C is the identity.
+(17:20.379) Whatever goes in comes back out, with the noise removed.
+(17:23.833) And yeah, so because I don't have time, I'm going to skip through the technical details.
+(17:29.543) But I'm going to show you the picture.
+(17:31.283) So this is the black line is the, so I'm training a square neural network on exactly this task.
+(17:36.643) So in this case, I'm actually training it, I'm cheating. I'm training it on a task where the top map is the identity.
+(17:42.203) But it turns out that actually the identity theoretically contains all of the structure.
+(17:46.803) In fact, understanding how, so let's maybe think for a minute.
+(17:51.363) If this map is the identity, then to leading order, I'm not going to tell, there's many different scales here.
+(18:02.663) But I'm going to claim that to leading order, where here we're also trying to learn a map that is trying to be as close to the identity from here to here.
+(18:15.523) But when we do this compression, we're introducing noise.
+(18:19.643) So the learning of any map turns out to be equivalent to a denoising autoencoder on this memory register sparse space.
+(18:28.743) Again, I'm not going to carefully defend this.
+(18:32.203) And so denoising is somehow the main interesting step in both Adler and Shavit's, and in our paper.
+(18:38.643) And again, there are finitely many circuits. There are four types of circuits,
+(18:43.483) and every type of circuit will have exactly the same physics, just with slightly more parameters as the identity.
+(18:49.703) So once we understand the identity as a nice principled mathematical problem, we understand all circuits.
+(18:57.703) And so for the identity circuit, we can again write essentially a closed form prediction. This is the black line.
+(19:03.443) We can then just do learning. So here I'm doing Bayesian learning, based on exactly this square model, and we get a very good fit.
+(19:17.243) There's somehow lower order corrections that are quite significant that I'm ignoring.
+(19:24.603) But this is remarkably, because of symmetry arguments, a theory that we can fully predict.
+(19:30.503) And the theory predicts this kind of tail structure where there is a big bulk of very small neurons that don't read the feature at all.
+(19:38.463) So maybe it's maybe not clear what this graph is, but this is, up to symmetry in some sense, the content of the network.
+(19:45.653) This plot is the theorem's prediction. Let us pause and look at it.
+(19:49.276) The horizontal axis is the magnitude of the weight between one feature and one neuron.
+(19:52.668) The vertical axis is density, on a logarithmic scale.
+(19:55.169) Blue shows samples drawn from the Gibbs distribution.
+(19:57.311) The black line is the prediction from mean field theory.
+(19:59.417) They match.
+(20:00.325) The tall, narrow peak pressed against 0 on the left
+(20:02.305) is what he calls the bulk.
+(20:03.127) Almost all neurons ignore this feature.
+(20:05.195) Their weights are close to 0, and the theory predicts the width of that peak.
+(20:07.822) The short peak near 0.5 on the right contains the readers.
+(20:09.852) Only one or two neurons read the feature, at a fixed strength.
+(20:11.992) The theory predicts that too.
+(20:13.319) Conversely, look at each neuron,
+(20:14.869) and it reads only a small number of atoms.
+(20:17.540) The final line gives the answer in the title.
+(20:19.283) Superposition
+(20:20.251) is derived, not assumed.
+(20:22.009) The small text above gives the setup.
+(20:23.326) There are 1,024 features packed into 512 neurons.
+(20:26.287) That is twice as many features as neurons,
+(20:27.698) yet this shape still emerges.
+(20:29.158) Now return to the question from the beginning.
+(20:30.310) How many neurons read one concept?
+(20:32.831) The answer is one or two. All the others ignore it completely.
+(20:36.203) And of course, this is an extremely stupid model.
+(20:39.323) As I was saying at the beginning, most models are wrong.
+(20:43.463) It's stupid because it thinks that the computation is Boolean. Probably computations are continuous.
+(20:48.603) It's stupid because it assumes everything is embedded randomly,
+(20:56.143) that the different circuits, the different components of this computation are equally important, contribute equally to the loss.
+(21:04.243) It imposes some specific type of loss of how important is signal in the big coordinates compared to signal in the small coordinates.
+(21:13.643) But modulo all of these stupid wrong things, this is a model.
+(21:20.603) And now, given this model, the next step that we can do is we can do inference.
+(21:26.143) And so inference is a hard problem. I'm not going to do it.
+(21:28.823) I told you that I'm not going to fully solve the problem of what is a circuit.
+(21:32.763) But I'm going to say that, oh yeah, here this is a slide that if we do direct training with Adam instead of this Bayesian Langevin training,
+(21:43.263) we actually get the same picture except with a different tail.
+(21:46.123) I don't have an explanation for this, but it's very consistently about twice as far.
+(21:52.063) But okay, so we have this one arrow. We would like to infer; we don't have this.
+(21:57.543) But already, the fact that we have an embedding, we can start inferring small things.
+(22:01.683) I'm going to say two things and then end, that the inference predicts, that have not previously been measured.
+(22:07.583) They're not very hard, but they haven't been measured because nobody has, I don't know, tried to really engage with this model.
+(22:12.903) And they both turn out to be true when we measure them for GPT-2 small, also for GPT-2.
+(22:19.963) The first one is that if you remember this two-hump structure for the neurons,
+(22:28.283) what this implies is that if I take a single feature, so a single coordinate of this sparse space, then it's going to be sparse in the neuron basis.
+(22:37.543) And this might seem not surprising, because aren't features selected to be sparse?
+(22:41.303) But actually, no. Features are selected to be sparse compared to data.
+(22:45.743) But they don't know anything about the basis, other than the fact that they're computed through this nonlinearity.
+(22:51.123) A priori, you can rotate everything from the compressed sensing point of view, and it would make this basis white. So it would make this isotropic.
+(23:00.583) So the fact that it's not isotropic means that actually features are, in fact, interacting with computation,
+(23:05.323) that they're orienting towards neurons in a particular way that's compatible.
+(23:08.563) That's exactly what we predict if they're going through a circuit, a particular denoising circuit.
+(23:12.443) And this is surprising. Nobody has measured this before.
+(23:14.063) And the kurtosis is very large. I'm surprised that nobody has measured this before. Excess kurtosis is over 2.
+(23:19.423) And the second thing that you can do is you can say, well, okay, all of these models, whether it's just identity or it's some neural network, we have to do something nonlinear to denoise.
+(23:36.703) A priori, if we do any computation, it's going to introduce noise due to this superposition, due to interference.
+(23:43.663) We have to do something to denoise.
+(23:45.023) And there's a particular signature in signal processing of what a denoising process looks like, which is called the noise gate.
+(23:52.023) And so it's a gate that suppresses very low coordinates, very low elements in a particular channel, in a particular important direction, because it thinks they're noise.
+(24:03.923) And it enhances elements that are high in this channel, because it thinks they're signal, and the signal needs to be propagated, because that's what's useful. It needs to be preserved.
+(24:12.363) And so we can measure how much it propagates or amplifies signal to noise.
+(24:18.703) And this measurement is, again, extremely strong for features, like thousands of times stronger than for a random vector, also significantly stronger than for a random data point.
+(24:31.923) So these are two predictions that we can see just immediately if we start thinking in this paradigm.
+(24:39.163) More predictions are hard. In fact, I thought a lot about predictions.
+(24:41.663) For example, what would gates predict? There is some structure that I have in an appendix, but it's more iffy.
+(24:48.623) So this picture is very much not complete, and the best inference is still not known.
+(24:55.643) But I hope that this is enough to show you that this is an interesting story.
+(24:58.543) This is a story worth developing, and this is a story with links to maybe interesting math and physics.
+(25:03.603) So that's it.
+(25:05.122) There is one plot for each of the two signatures.
+(25:06.555) Both follow from those two peaks.
+(25:09.176) On the left,
+(25:09.749) take the direction of one SAE feature and spread it across the neurons.
+(25:12.533) Then see how much of it falls on each neuron.
+(25:14.657) The red curve is a real feature.
+(25:15.812) Most neurons cluster near 0,
+(25:17.004) while a small number have large values.
+(25:18.537) That is the bulk plus the readers.
+(25:20.332) The gray dashed line is the control, a broad bell curve.
+(25:23.205) He measures excess kurtosis. A Gaussian distribution has a value of 0.
+(25:25.497) A Laplace distribution has a value of 3, and this one is above 2.
+(25:28.166) On the right,
+(25:28.767) look at the relationship between this layer's input and output along one feature direction.
+(25:32.169) Small values are suppressed, medium values are amplified, and large values saturate.
+(25:35.264) This is a denoising gate.
+(25:37.146) SAE directions have this shape.
+(25:38.897) Random directions do not.
+(25:40.125) Nobody had measured these two signatures before,
+(25:41.607) because nobody had a model telling them what to measure.
+(25:44.681) Finally, here is what remains unproven.
+(25:46.507) First, the inference arrow: given a real network,
+(25:49.411) what is the distribution over circuits? The slide states it plainly.
+(25:51.881) Nobody knows how to write it down.
+(25:53.535) Second, train directly with Adam.
+(25:55.095) The plot has the same shape,
+(25:56.031) but the readers are twice as strong.
+(25:57.646) He says he has no explanation for that.
+(25:59.030) Third,
+(25:59.510) mean field theory only solves the leading order.
+(26:01.351) He admits that the lower-order corrections are actually substantial.
+(26:03.714) Fourth, there are assumptions imposed purely to make the problem tractable.
+(26:05.855) Computation is Boolean, and the embeddings are random.
+(26:08.331) Every circuit is equally important, and the loss has one specific form.
+(26:10.867) The temperature must be high, and only one MLP layer is considered.
+(26:13.773) Fifth,
+(26:14.232) the two signatures in GPT-2 were measured and do match.
+(26:16.757) That is evidence,
+(26:17.450) not proof that GPT-2 is actually running Boolean circuits.
+(26:20.061) His own conclusion is that
+(26:21.013) this picture is nowhere near complete.
+(26:23.078) The entire talk comes down to this slide.
+(26:24.994) Start with an absurdly crude model:
+(26:26.860) a network layer is secretly running a Boolean circuit.
+(26:29.384) Counting bits tells us that the number of features can be at most the square of the dimension,
+(26:31.991) still far more than the number of neurons.
+(26:33.305) Write the weights produced by training as a Gibbs distribution.
+(26:36.048) Mean field theory predicts two peaks.
+(26:37.846) Each feature is read by only one or two neurons,
+(26:40.008) and then it is denoised.
+(26:41.906) So sparse structure is derived, not assumed.
+(26:45.133) Both signatures can be measured in a real GPT-2 small.
+(26:48.208) The top arrow on this slide is Embed.
+(26:50.115) We now have it, and it is a distribution,
+(26:51.985) not a single construction.
+(26:53.815) The lower Infer arrow is still missing.
+(26:55.264) The slide states it plainly:
+(26:56.488) Nobody knows how to write it down.
+(26:57.891) This loop is only halfway complete.
+(26:59.820) Next up is Been Kim from Google DeepMind.
+(27:03.137) Her very first line is:
+(27:04.333) Part of the field of interpretability could be obsolete within a year.
+(27:08.087) She tells two stories from her own experience.
+(27:09.753) One is about a method she had championed for years
+(27:11.673) until an intern punctured it with one observation.
+(27:13.446) Trained and untrained networks
+(27:15.508) produced exactly the same explanation diagrams.
+(27:17.590) The other is about extracting a move from AlphaZero that humans had never seen,
+(27:20.758) then teaching it to four grandmasters.
+(27:22.117) One of them became world champion that same year.
+(27:25.167) The original video is linked in the description. The full talk runs 47 minutes if you would like to hear more.

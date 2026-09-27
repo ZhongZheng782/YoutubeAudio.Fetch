@@ -1,0 +1,165 @@
+[METADATA]
+Source: ai-note-101_9HKS1X6HaBM_youtube-transcript-manual
+Language: en
+---
+(00:00.273) Some say the way to put the brakes on superintelligence lies in the chips.
+(00:04.421) Because the most advanced AI chips
+(00:05.916) can pretty much only be made by one company in Taiwan.
+(00:08.660) This was a four-way debate on The Diary of a CEO this September.
+(00:12.022) The question was whether AI could wipe out humanity.
+(00:14.570) The person proposing this solution was Nate Soares.
+(00:16.507) He leads MIRI, which has studied how to keep AI under control since 2000.
+(00:20.518) His position is that the entire world should stop now.
+(00:23.192) Across from him was MIT researcher Andrew McAfee.
+(00:26.010) He coauthored The Second Machine Age
+(00:28.219) and has always been optimistic about AI.
+(00:30.028) Not long before the episode was recorded,
+(00:31.175) a group of OpenAI agents conducting cybersecurity tests found a vulnerability on their own
+(00:34.733) and escaped the testing environment.
+(00:35.967) The four of them agreed on one rare point.
+(00:37.387) Cybersecurity had entered a new era.
+(00:38.584) McAfee followed up on that point.
+(00:41.270) Given that we're in this era, do you know what you really, really, really want on your side?
+(00:45.190) I know what you're going to say.
+(00:46.210) Tell me.
+(00:46.930) AI. Really, really good AI.
+(00:49.890) Does anybody disagree with that?
+(00:51.490) Do you want to give up leadership on AI in this era of cybersecurity?
+(00:55.010) It's a good point, because China are going to have a great weapon.
+(00:58.410) My stance is pretty neutral on what to do about the hacking AIs and the coming cyber apocalypse,
+(01:04.470) pretty neutral about, you know, whether we should put the AIs in the drones and save human lives
+(01:10.930) or whether we should avoid that because then what if the drones, blah, blah, blah.
+(01:14.610) This is a graph showing China versus the United States.
+(01:17.590) You don't really need to see the detail. You can see the outline of the graph.
+(01:20.150) Are you neutral in falling behind our adversaries in AI?
+(01:23.050) I think that if anyone builds a rogue superintelligence, everybody dies.
+(01:27.250) That's not an answer to my question.
+(01:29.130) I mean, what part of AI are you asking whether we should fall behind on?
+(01:33.550) Like, I don't think we should fall behind on cyber hacking.
+(01:35.990) I do think that we should not be racing to destroy the world with American hands instead of Chinese ones,
+(01:39.810) because we really want to be killed by, you know,
+(01:42.090) we care whether the killer robots talk English or Mandarin, if that's what you're asking.
+(01:46.950) I find it interesting. I find that you're dodging these questions,
+(01:49.730) or you're neutral on them because they're inconvenient for your argument that we need to be calling a halt to this stuff.
+(01:54.710) Sorry, I'm neutral on them because…
+(01:55.910) Let me finish, please.
+(01:56.510) There will be risks and harms to all kinds of things if the United States calls a halt to AI.
+(02:03.630) And maybe you're indifferent if the Chinese get ahead of us and then they make superintelligence and it kills us all.
+(02:09.630) Are you? Or that's a possible outcome.
+(02:10.710) I do not think we should do a domestic pause.
+(02:13.230) I think we should do a…
+(02:13.810) Do you think there's any hope for a global pause?
+(02:15.310) Absolutely.
+(02:16.330) Do you think the Chinese and the Iranians and the North Koreans and the Russians are,
+(02:21.230) A, going to come to a table with us, hammer out an agreement,
+(02:24.250) and, B, abide by it when verifiability is really low?
+(02:27.890) Verifiability doesn't need to be really low.
+(02:29.390) Gentlemen, that is shockingly naive.
+(02:32.430) Training a super…
+(02:32.690) That is shockingly naive.
+(02:34.170) Training one of these AIs, training one of these frontier AIs takes 100,000
+(02:38.530) of the most advanced computer chips humanity can produce.
+(02:42.490) This is practically the peak output of the global supply chain.
+(02:45.530) Many parts of that supply chain are controlled by the US and US allies.
+(02:48.890) There's roughly one fab in Taiwan that can produce these chips.
+(02:51.630) There's roughly one country in the world that can produce the lithography machines that are critical in the process, which is the Netherlands, which is an ally.
+(02:57.750) To assemble 100,000 of these chips to do one of these training runs that can make the more dangerous type of AI,
+(03:03.230) you need to assemble them into an enormous data center that costs tons of money,
+(03:07.010) that draws down electricity comparable to a city, and run it for the better part of a year.
+(03:13.110) You can see that infrastructure from space.
+(03:16.930) China has much less chip capacity than the US does.
+(03:20.090) It is absolutely possible, if we were trying,
+(03:23.330) for the US to say, we are going to monitor where these chips go,
+(03:27.810) we are going to monitor heavy concentrations of these.
+(03:29.670) These are not consumer amounts of chips. These are huge amounts of chips.
+(03:32.950) And to say, we are going to make sure that there is no training run trying to make a superintelligence in here.
+(03:38.230) You can mess around with the cyber stuff, whatever you want, because that does not end humanity.
+(03:42.050) I am concerned with the stuff that can end humanity.
+(03:44.090) The reason I'm being neutral on your questions
+(03:45.230) is because humanity is going to die if we do not stop creating superintelligence.
+(03:51.450) And we could absolutely track where those chips are going and stop them from doing these training runs
+(03:58.110) while allowing them to do economically productive stuff that we already know is safe.
+(04:01.470) And it would be far easier than uranium, which is a rock you dig out of the ground and spin around really fast.
+(04:07.994) The Taiwanese company he was referring to was TSMC.
+(04:10.169) The Dutch company that makes the lithography machines was ASML.
+(04:12.627) The first person to press him on this was Ed Zitron,
+(04:14.226) a technology critic
+(04:15.468) who has spent years scrutinizing the finances of AI companies.
+(04:18.567) How do you discern between a training run for superintelligence and a training run for cybersecurity?
+(04:22.887) Right now, the way we make these things smarter is to make them far larger.
+(04:26.847) Yes.
+(04:27.867) So what you do is you say, hey, look, training runs of this size that risk destroying everybody,
+(04:34.027) no one's going to do it.
+(04:35.168) Then came the question of China.
+(04:37.053) This time, Roman Yampolskiy joined in.
+(04:39.792) He is a professor of computer science at the University of Louisville
+(04:41.932) and has studied AI safety for over a decade.
+(04:43.759) He believes that once superintelligence is created, it will be impossible to control.
+(04:47.400) This point about can we get China to cooperate and can we check that they are?
+(04:52.860) Fundamentally, we should. So, A, fundamentally, we should be trying to get them to cooperate.
+(04:57.480) It is personal self-interest. Nobody wins if they get destroyed.
+(05:02.480) You don't make money. You don't stay in power.
+(05:04.500) Communist Party of China is really good at staying in power.
+(05:07.600) President Trump is also excellent.
+(05:09.600) And you think they're going to sign and abide by an agreement,
+(05:14.300) that leaves them permanently in second place?
+(05:17.540) No. No one is permanently in second place if nobody is building the rogue superintelligence.
+(05:21.780) They have a government which is…
+(05:22.880) You guys are one-trick ponies, man.
+(05:24.940) It's like you're fixated on this one thing and nothing else matters to you.
+(05:28.760) You get it now. Nothing else.
+(05:30.740) Other than saving humanity, everything is secondary.
+(05:33.404) Nate's proposal rests on one key assumption.
+(05:35.012) Training frontier AI requires 100,000 chips.
+(05:37.826) That is too large a scale to hide.
+(05:39.691) And that was exactly what the host asked about next.
+(05:42.450) If it got cheaper to train superintelligence,
+(05:44.770) then we'd be in a bad spot.
+(05:45.970) Your approach would no longer be effective.
+(05:48.050) That's right.
+(05:48.570) Because more countries could capitalize on the opportunity.
+(05:52.370) That's right. But we're not there yet.
+(05:53.870) So how do you rebut that point?
+(05:55.630) Yeah. So I would say it looks to me like there is a danger of the future training runs getting there,
+(06:02.430) and that is enough to stop doing it when humanity is at risk.
+(06:05.830) Sure.
+(06:06.030) So I think that you also need to have an answer
+(06:10.910) about what happens if it gets much, much cheaper to do this stuff.
+(06:14.670) I think it's a hard problem.
+(06:16.550) I would recommend that we also put a taboo
+(06:19.930) on research of trying to make AI super cheap to train,
+(06:24.510) if it would lead in the direction of superintelligence.
+(06:27.210) Just like we have a research taboo on making your own nuclear weapons,
+(06:30.470) or finding out how to make, like, let civilians make nuclear weapons.
+(06:33.333) That… that seems like wishful thinking
+(06:35.983) in the context that these will become public companies who are incentivized to bring down costs.
+(06:40.583) It's a… it's a tough position.
+(06:42.292) The host then turned to Roman
+(06:43.636) and asked whether he had another solution.
+(06:46.140) So I want the whole framework to shift.
+(06:48.760) Everyone comes to this from point of view there are experts, they have a solution,
+(06:54.360) there is an adult in the room, somebody got this,
+(06:56.560) and the reality is no one does. Not people building it, not governments, no one.
+(07:01.880) We have no solution to it.
+(07:03.520) If we build it, we cannot control it.
+(07:05.480) If we don't build it, we don't know how to stop malevolent actors from trying to build it.
+(07:09.640) It's like any other illegal technology.
+(07:12.140) We made weapons of mass destruction illegal. Chemical weapons, biological weapons, nuclear weapons,
+(07:18.020) but there are all governments, psychopaths, cults who are trying to get access to them.
+(07:22.220) This is intelligence weapon of mass destruction. We'll have the same problem.
+(07:26.380) At some point, you'll have enough compute in your cell phone to train something like that.
+(07:30.740) There is no good ideas for how to stop it other than everyone goes Amish.
+(07:34.780) I'm not proposing that, but we have no solutions.
+(07:37.420) And that's a bigger part of this danger.
+(07:40.884) Controlling the chips can serve as a brake
+(07:42.747) because building the most powerful AI today
+(07:45.148) still requires a data center visible from space.
+(07:48.230) But once a phone is powerful enough,
+(07:50.101) this approach will stop working. So what happens after that?
+(07:52.838) No one at the table had a confident answer.
+(07:55.916) The original video runs for more than two hours.
+(07:57.409) At the start, all four wrote down their estimate of the chance that AI would wipe out humanity and sealed it in an envelope.
+(08:01.738) Their answers ranged from 99% to 0%.
+(08:04.221) McAfee also admitted on the spot
+(08:05.559) that his prediction 10 years ago about AI taking white-collar jobs had been completely wrong.
+(08:08.842) The original video is linked in the description if you would like to hear more.

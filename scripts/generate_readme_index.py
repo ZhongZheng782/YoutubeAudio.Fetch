@@ -28,6 +28,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = REPO_ROOT / "data"
 CACHE_PATH = DATA_DIR / ".video_metadata.json"
+CHANNEL_CACHE_PATH = DATA_DIR / ".channel_metadata.json"
 HEADER = "## 內容索引"
 
 VIDEO_ID_RE = re.compile(r"[A-Za-z0-9_-]{11}$")
@@ -56,13 +57,14 @@ def save_cache(cache: dict[str, dict[str, str]]) -> None:
 
 
 def fetch_video_meta(video_id: str) -> dict[str, str] | None:
-    """{'title': ..., 'date': 'YYYY-MM-DD', 'channel_name': ...} via yt-dlp, or None if
-    the lookup fails (deleted/private video, transient network/anti-bot flakiness, etc.).
-    channel_name is the channel's real display name (e.g. "游庭皓的財經皓角"), not our
-    URL-handle-derived slug (e.g. "yutinghaofinance") — used for a more readable header."""
+    """{'title': ..., 'date': 'YYYY-MM-DD', 'channel_name': ..., 'channel_url': ...} via
+    yt-dlp, or None if the lookup fails (deleted/private video, transient network/anti-bot
+    flakiness, etc.). channel_name is the channel's real display name (e.g. "游庭皓的財經皓角"),
+    not our URL-handle-derived slug (e.g. "yutinghaofinance") — used for a more readable header.
+    channel_url lets us later look up that channel's About-page description."""
     proc = subprocess.run(
         ["yt-dlp", *YT_DLP_ARGS, *yt_dlp_cookie_args(), "--skip-download", "--print",
-         "%(title)s|||%(upload_date)s|||%(channel)s",
+         "%(title)s|||%(upload_date)s|||%(channel)s|||%(channel_url)s",
          f"https://www.youtube.com/watch?v={video_id}"],
         capture_output=True, text=True, encoding="utf-8", errors="replace",
     )
@@ -70,17 +72,60 @@ def fetch_video_meta(video_id: str) -> dict[str, str] | None:
         print(f"[generate_readme_index]   metadata lookup failed for {video_id}: {proc.stderr[:200]}")
         return None
     line = proc.stdout.strip().splitlines()[-1] if proc.stdout.strip() else ""
-    if line.count("|||") != 2:
+    if line.count("|||") != 3:
         return None
-    title, upload_date, channel_name = line.split("|||")
+    title, upload_date, channel_name, channel_url = line.split("|||")
     date = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}" if len(upload_date) == 8 else upload_date
-    return {"title": title.strip(), "date": date, "channel_name": channel_name.strip()}
+    return {
+        "title": title.strip(),
+        "date": date,
+        "channel_name": channel_name.strip(),
+        "channel_url": channel_url.strip(),
+    }
 
 
-def build_index() -> dict[str, list[dict]]:
-    """{channel: [{stem, video_id, title, date, md_path}, ...]}, videos sorted newest first."""
+def load_channel_cache() -> dict[str, str]:
+    """{channel_slug: description} — one YouTube "關於" description per channel."""
+    if CHANNEL_CACHE_PATH.exists():
+        return json.loads(CHANNEL_CACHE_PATH.read_text(encoding="utf-8"))
+    return {}
+
+
+def save_channel_cache(cache: dict[str, str]) -> None:
+    CHANNEL_CACHE_PATH.write_text(
+        json.dumps(cache, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+
+
+def fetch_channel_description(channel_url: str) -> str | None:
+    """The channel's YouTube "關於" (About) description text, or None if unavailable."""
+    if not channel_url:
+        return None
+    about_url = channel_url.rstrip("/") + "/about"
+    proc = subprocess.run(
+        ["yt-dlp", *YT_DLP_ARGS, *yt_dlp_cookie_args(), "--flat-playlist",
+         "--playlist-items", "1", "--dump-single-json", about_url],
+        capture_output=True, text=True, encoding="utf-8", errors="replace",
+    )
+    if proc.returncode != 0:
+        print(f"[generate_readme_index]   description lookup failed for {channel_url}: {proc.stderr[:200]}")
+        return None
+    try:
+        info = json.loads(proc.stdout)
+    except json.JSONDecodeError:
+        return None
+    description = info.get("description")
+    return description.strip() if description else None
+
+
+def build_index() -> tuple[dict[str, list[dict]], dict[str, str]]:
+    """{channel: [{stem, video_id, title, date, md_path}, ...]}, videos sorted newest first,
+    plus {channel: description} for each channel's YouTube "關於" text."""
     cache = load_cache()
+    channel_cache = load_channel_cache()
     by_channel: dict[str, list[dict]] = {}
+    channel_urls: dict[str, str] = {}
 
     for md_path in sorted(DATA_DIR.glob("*/*_keyframes.md")):
         channel = md_path.parent.name
@@ -91,9 +136,10 @@ def build_index() -> dict[str, list[dict]]:
         video_id = m.group(0)
 
         meta = cache.get(video_id)
-        if meta is None or "channel_name" not in meta:
-            # Also refetch entries cached before channel_name was tracked, so existing
-            # stems get backfilled with a readable channel name on the next CI run.
+        if meta is None or "channel_name" not in meta or "channel_url" not in meta:
+            # Also refetch entries cached before channel_name/channel_url was tracked, so
+            # existing stems get backfilled with a readable channel name and a channel
+            # description on the next CI run.
             print(f"[generate_readme_index] fetching metadata for {video_id} ({stem})")
             fetched = fetch_video_meta(video_id)
             if fetched is not None:
@@ -103,6 +149,9 @@ def build_index() -> dict[str, list[dict]]:
             # Lookup failed and nothing cached — still list it, just without title/date,
             # rather than silently dropping a video that does have a keyframes.md.
             meta = {"title": stem, "date": "", "channel_name": channel}
+
+        if meta.get("channel_url"):
+            channel_urls.setdefault(channel, meta["channel_url"])
 
         by_channel.setdefault(channel, []).append({
             "stem": stem,
@@ -117,10 +166,23 @@ def build_index() -> dict[str, list[dict]]:
 
     for videos in by_channel.values():
         videos.sort(key=lambda v: v["date"], reverse=True)
-    return by_channel
+
+    for channel in by_channel:
+        if channel_cache.get(channel):
+            continue
+        channel_url = channel_urls.get(channel)
+        if not channel_url:
+            continue
+        print(f"[generate_readme_index] fetching channel description for {channel}")
+        description = fetch_channel_description(channel_url)
+        if description:
+            channel_cache[channel] = description
+    save_channel_cache(channel_cache)
+
+    return by_channel, channel_cache
 
 
-def render_index(by_channel: dict[str, list[dict]]) -> str:
+def render_index(by_channel: dict[str, list[dict]], channel_descriptions: dict[str, str]) -> str:
     if not by_channel:
         return f"{HEADER}\n\n*(尚無已完成關鍵畫面擷取的影片)*\n"
 
@@ -130,6 +192,11 @@ def render_index(by_channel: dict[str, list[dict]]) -> str:
         display_name = videos[0]["channel_name"] or channel
         lines.append(f"### [{display_name}](data/{channel}/)")
         lines.append("")
+        description = channel_descriptions.get(channel)
+        if description:
+            for desc_line in description.splitlines() or [description]:
+                lines.append(f"> {desc_line}".rstrip())
+            lines.append("")
         lines.append("| 影片 | 日期 |")
         lines.append("| --- | --- |")
         for v in by_channel[channel]:
@@ -161,8 +228,8 @@ if __name__ == "__main__":
     parser.add_argument("--readme", default=str(REPO_ROOT / "README.md"))
     args = parser.parse_args()
 
-    index = build_index()
-    section = render_index(index)
+    index, channel_descriptions = build_index()
+    section = render_index(index, channel_descriptions)
     changed = update_readme(Path(args.readme), section)
     total_videos = sum(len(v) for v in index.values())
     print(f"[generate_readme_index] {len(index)} channel(s), {total_videos} video(s) — README {'updated' if changed else 'unchanged'}")

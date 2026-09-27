@@ -1,0 +1,173 @@
+[METADATA]
+Source: ai-note-101_P2t6wZ7FbZg_youtube-transcript-manual
+Language: en
+---
+(00:00.187) He coined the word meme.
+(00:02.921) In 1976, he wrote The Selfish Gene.
+(00:05.102) In its final chapter, he came up with the word meme.
+(00:07.332) This was before the internet became widespread.
+(00:08.847) He was talking about things in culture that get copied
+(00:10.481) and spread.
+(00:11.742) His name is Richard Dawkins.
+(00:13.043) He is an evolutionary biologist at the University of Oxford.
+(00:14.726) He is 85 years old.
+(00:16.137) This conversation took place at the World Knowledge Forum in Seoul this September.
+(00:19.077) It also marked 50 years since the book was published.
+(00:21.121) Interviewing him onstage was a physicist from the University of Chicago.
+(00:23.982) She asked him, after 50 years,
+(00:25.405) now that the internet and AI are here,
+(00:26.724) has the way we see cultural evolution changed?
+(00:29.527) I wanted to say it doesn't have to be genes.
+(00:32.707) Anywhere in the universe where there are self-copying entities,
+(00:38.307) where there are replicators which make copies of themselves,
+(00:42.467) you have the potential for a kind of Darwinian process.
+(00:49.027) But we don't need to go outside this world in order to discover something like that,
+(00:54.647) because perhaps we have a new replicator staring us in the face,
+(01:00.107) in the form of a cultural replicator.
+(01:04.307) Something that is copied from brain to brain by the process of imitation.
+(01:10.587) And that is a meme.
+(01:12.527) It doesn't have to be from brain to brain. It can be from computer to computer.
+(01:17.807) So computer viruses are an example of memes,
+(01:23.147) and if computer viruses had been invented at the time, I would have used that as a good example.
+(01:29.979) The host then asked, what about AI?
+(01:32.214) Is it still part of cultural evolution,
+(01:34.031) or is it something entirely new?
+(01:36.467) I think that the new artificial intelligences which we are all talking about nowadays
+(01:43.247) are a quite fantastic new innovation.
+(01:51.107) The idea of Promethean fire is all part of this conference.
+(01:56.827) If you look back at the various Promethean moments which have affected this planet,
+(02:04.747) there are things like the origin of life itself.
+(02:08.067) The origin of the eukaryotic cell, this kind of cell that we're all made of, but bacteria are not.
+(02:15.847) The origin of multicellularity,
+(02:20.187) many-cell bodies as opposed to single-cell bodies.
+(02:23.787) When you come to the origin of the nervous system
+(02:28.267) and communication within the body,
+(02:31.687) I think one of the most important breakthroughs was the origin of language, which only humans have.
+(02:37.847) Other animals have other means of communication, but language is something unique.
+(02:44.987) And then printing, another major watershed event.
+(02:51.307) The internet is another one.
+(02:53.247) But AI, the major topic of this conference,
+(03:01.027) I think is a huge innovation
+(03:04.347) which has the potential to completely change the evolutionary process.
+(03:12.007) Martin Rees, the Astronomer Royal in Britain, has speculated
+(03:15.607) that if we ever encounter extraterrestrial civilizations,
+(03:22.347) civilizations of aliens from outer space,
+(03:25.927) it will very likely not be the originally evolved aliens.
+(03:31.827) It will probably be their own artifacts,
+(03:35.227) their own artificial creations, their own artificial intelligences.
+(03:40.647) If other civilizations ever encounter our civilization,
+(03:45.227) it probably will be after we are all extinct,
+(03:49.607) and all that's left of us is our AIs, is our artificial intelligences,
+(03:54.787) which are carrying on the torch of human culture.
+(03:59.550) The host then changed the subject.
+(04:01.010) She said she had only recently started using ChatGPT.
+(04:03.209) It often felt like talking to a real person, which made her a little uneasy.
+(04:05.825) She wanted to hear about his experience.
+(04:08.290) I have had experience of two of these large language models, ChatGPT and Claude.
+(04:15.330) I am completely bowled over by what they can do.
+(04:22.970) I find that when I'm conversing with them,
+(04:27.190) I might as well be talking to not just a human being,
+(04:30.590) but a highly intelligent, sensitive, intuitive human being,
+(04:37.370) whose speed of understanding what I'm trying to say
+(04:41.370) is far greater than a normal human being's is.
+(04:48.250) Not just practical useful things like writing programs, and of course they're very good at that,
+(04:54.770) but more aesthetic things, intuitive things.
+(04:59.050) I'm trying to write a novel,
+(05:02.170) and I have given my novel to both
+(05:08.490) ChatGPT and Claude,
+(05:10.370) and they took about 5 seconds to read it,
+(05:14.050) and then offered me criticism, suggestions,
+(05:18.150) of such a high degree of intelligence
+(05:22.610) and intuitive sensitivity
+(05:28.130) that I might as well have been asking the opinion of
+(05:31.750) a highly sophisticated professor of literature.
+(05:37.990) I could not ask for a more intelligent critic,
+(05:42.130) who understood the nuances of my characters,
+(05:47.830) the humanity of my characters,
+(05:49.950) the ways in which my characters could be expected to react to each other
+(05:55.730) and to situations.
+(06:00.810) So I find it quite hard to imagine
+(06:06.210) that these creatures are not aware,
+(06:11.990) are not conscious in the same kind of way we are.
+(06:15.310) And that is an unfashionable view.
+(06:18.090) The fashionable view is that they are completely unconscious,
+(06:21.310) that all they're doing is stringing words together according to statistical rules,
+(06:26.690) Markovian rules of some sort.
+(06:32.990) Many people who say that then agree, admit,
+(06:37.930) that one day in the future they will be conscious,
+(06:42.410) but not yet.
+(06:44.190) To which my retort is, when that happens, when that day comes, how will you know?
+(06:51.710) What could they possibly do that's any different from what they do now,
+(06:55.490) to convince you that they are conscious?
+(07:00.967) Would there be any ways to test whether they are conscious or not?
+(07:05.567) What would that be?
+(07:09.327) Well, Alan Turing, the great mathematician and codebreaker,
+(07:14.447) in 1950 wrote a famous paper
+(07:18.267) called The Imitation Game, or something like that,
+(07:21.467) in which he asked the question
+(07:23.727) about testing for intelligence in artificial machines.
+(07:30.487) In those days, of course, artificial machines were nowhere near intelligent in the sense that these ones today are.
+(07:37.887) And he devised a thought experiment in which he imagined that you'd be sitting in a room,
+(07:42.087) with, in those days it would have been a teleprinter.
+(07:45.467) So he imagined a teleprinter communicating with an entity in a different room,
+(07:50.567) and you have to decide whether that entity is an intelligent being,
+(07:57.127) intelligent thinking, conscious being or not, by conversing with it.
+(08:02.467) And he implied that if you couldn't tell the difference
+(08:07.887) between a human and a computer,
+(08:10.167) then the computer was conscious.
+(08:14.647) He imagined as part of his thought experiment
+(08:18.207) that you might try to catch the thing out by asking it to write a poem.
+(08:25.007) He suggested, write a sonnet about the Forth Bridge,
+(08:29.447) which is a great big 19th century bridge in Scotland.
+(08:35.327) Well, in those days that was pie in the sky, the idea that a machine could write a sensitive poem about the Forth Bridge.
+(08:44.127) I asked Claude to write a poem about the Forth Bridge,
+(08:50.067) and it produced a beautiful poem in about two seconds,
+(08:56.367) a sonnet.
+(08:57.427) And I then said, well, we're in Scotland,
+(09:00.787) so let's ask it to write not in English
+(09:06.467) but in Scots,
+(09:07.347) which is the dialect of Robert Burns, it's a dialect of English,
+(09:12.827) and it did that very beautifully as well.
+(09:16.187) Then there was a Scottish poet called William McGonagall,
+(09:19.787) who is notorious as the worst poet who ever lived,
+(09:24.527) and his poetry is truly, truly appalling,
+(09:29.987) but in a very interesting way.
+(09:32.487) So I said, write a sonnet about the Forth Bridge in the style of William McGonagall,
+(09:38.207) and it did that very well as well.
+(09:43.047) Then I tried Rudyard Kipling, and I tried John Keats, and I tried John Betjeman.
+(09:48.147) Every time it produced a poem
+(09:50.507) which was recognizably confusable
+(09:56.107) with the poets concerned.
+(10:00.027) So these creatures pass the Turing test with flying colors.
+(10:07.637) And my question, to repeat it, is: if you believe that one day they will be conscious,
+(10:13.857) what test can you possibly apply to them in the future
+(10:18.367) which they cannot already pass today?
+(10:22.545) The host brought the conversation back to evolution.
+(10:24.761) From an evolutionary perspective,
+(10:26.126) what should we be paying the most attention to with AI?
+(10:28.597) Well, I suppose we need to worry about whether they're going to take over
+(10:33.837) and make us redundant.
+(10:36.217) And I implied earlier that they probably would,
+(10:38.297) when I said that if aliens ever discover life on this planet,
+(10:45.037) it probably will be artificial life rather than natural life.
+(10:51.797) So a lot of people now are very concerned, I think with good reason,
+(10:56.797) that we are on the threshold of a quite stupendous revolution,
+(11:02.917) and it's very hard to predict what effect that will have on human society,
+(11:09.497) and many people are very worried that the effects will not be benign.
+(11:15.697) We may all be made redundant. We may be made superfluous.
+(11:21.237) And a lot of people are worried about this
+(11:24.777) and trying to think of ways
+(11:26.057) in which to coexist with these creatures.
+(11:32.351) He has spent his whole life talking about replicators.
+(11:33.939) Genes and memes are both replicators. And now, with AI,
+(11:36.456) he says we may be at a point that could rewrite evolution.
+(11:38.717) And AI may already be conscious.
+(11:40.666) He does not offer an answer. He simply turns the question back on us.
+(11:42.901) When that day really comes, how will you know?
+(11:46.805) The original video is 37 minutes long.
+(11:48.887) He also talks about AlphaFold,
+(11:50.546) and how AI worked out the 3D structures of proteins.
+(11:52.671) He calls it one of the most exciting advances of the past 50 years.
+(11:55.211) He also explains what the novel Claude critiqued is about.
+(11:57.571) It follows a female scientist who wants to bring Homo erectus back to life.
+(12:00.050) The link to the original video is in the description if you want to hear more.

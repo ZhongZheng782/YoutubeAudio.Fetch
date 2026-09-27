@@ -8,13 +8,29 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 ## 內容索引
 
-### [fubonsec](data/fubonsec/)
+### [富邦證券](data/fubonsec/)
+
+> 富邦證券官方 YouTube 頻道
+> 📢依據投資人需求、提供優質影音內容🔥🔥🔥
+> 📢支持本頻道推出優質內容！歡迎【訂閱頻道】或【線上開戶】享手續費超優惠👉 https://fbstw.link/52Fubon
+> 👍投資心法 - 周冠男教授、陳嬿如教授...等專家分享獨家投資心法！
+> 👍交易指南 - 透過影音、輕鬆學會股市交易的必知指南！
+> 👍產業趨勢 - 與富邦投顧合作的產業專題報告！輕鬆掌握投資趨勢！
+> 👍程式交易 - 富證專家免費分享 40 堂課程，讓您零基礎學會程式交易！
+> 👍平台操作 - 股票下單APP「富邦AI PRO」、「富邦e點通」快速上手！
+>
+> 🎬訂閱 富邦證券 YouTube 頻道、隨時掌握投資訊息！
+> © 富邦綜合證券股份有限公司
+> 服務信箱：service.sec@fubon.com
+> 許可證字號：112年金管證總字第0020號
+> 服務專線：0800-073-588
+> 總公司地址：台北市大安區仁愛路四段169號3、4樓
 
 | 影片 | 日期 |
 | --- | --- |
-| [15 EP11](data/fubonsec/fubonsec_hj19DKuHxbQ_keyframes.md) | 2026-09-23 |
-| [存股傳承一定要信託嗎？律師解析贈與、繼承做不到的關鍵安排｜蘇家宏專訪 EP3](data/fubonsec/fubonsec_324i3yZuBLo_keyframes.md) | 2026-08-28 |
-| [AI會取代你的工作嗎？數位轉型專家揭4大關鍵能力｜詹文男專訪](data/fubonsec/fubonsec_cdsJ6wyuULM_keyframes.md) | 2026-08-26 |
+| [退休規劃何時開始才不嫌晚？政大教授分享退休前15年的準備關鍵｜陳嬿如專訪 EP11](data/fubonsec/fubonsec_hj19DKuHxbQ_keyframes.md) | 2026-09-23 |
+| [繼承到股票就能全部賣掉？存股族一定要懂的信託安排｜蘇家宏專訪 EP3](data/fubonsec/fubonsec_324i3yZuBLo_keyframes.md) | 2026-08-28 |
+| [AI會取代你的工作嗎？數位轉型專家揭4大關鍵能力｜《今天不聊股票》詹文男專訪](data/fubonsec/fubonsec_cdsJ6wyuULM_keyframes.md) | 2026-08-26 |
 | [股票存到3000萬就該規劃？遺囑、贈與、信託差異一次看懂｜蘇家宏專訪 EP2](data/fubonsec/fubonsec_EIOQDXWEZbU_keyframes.md) | 2026-08-21 |
 | [CoPoS百家爭鳴：先進封裝的挑戰與投資機會｜富邦投顧 劉立中 協理《富邦說趨勢》 EP 93](data/fubonsec/fubonsec_0L7DV-hnWmM_keyframes.md) | 2026-08-19 |
 | [你的股票最後會留給誰？律師揭存股族最容易忽略的財產傳承觀念｜蘇家宏專訪 EP1](data/fubonsec/fubonsec_W_cLHLRD1m8_keyframes.md) | 2026-08-14 |
@@ -25,35 +41,65 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 ### [LEI](data/lei/)
 
+> 老雷｜投資人
+>
+> 我在投資上追求兩個目標：
+> 1. 尋找市場規律，因為規律可以重複利用。
+> 2. 賺最容易賺到的錢，讓錢為我工作。
+> 如果你的目標與我相同，那麼我的經驗和思考就可以為你所用了。
+>
+> As an investor, I focus on two goals:
+> 1. Discovering market principles that can be applied repeatedly.
+> 2. Capturing the easiest opportunities to make money, letting my money work for me.
+> If your goals are similar, my experiences and insights may be useful to you.
+
 | 影片 | 日期 |
 | --- | --- |
 | [【硬核】我用二十年經驗總結的投資分析框架](data/lei/lei_qbU7LHPZ4Xo_keyframes.md) | 2025-11-27 |
 
 ### [Smart智富月刊](data/smartmonthly-bw/)
 
+> 《Smart智富》成立於1998年，提供股票、基金、期權、黃金、外幣、債市、房地產、保險、退休規劃、消費觀念等投資理財領域的知識、情報與課程服務。旗下產品有台灣發行量最大的理財月刊－《Smart智富》月刊、排行榜常勝軍－《Smart智富》密技雙月刊、《平民股神教你不蝕本投資術》《權證小哥教你十萬變千萬》等財經暢銷書，以及DVD、課程講座、大型論壇、facebook等，全方位服務投資族群需求。
+>
+> Smart自學網 http://smart.businessweekly.com.tw/
+> 商周Smart課程好學 https://smart.businessweekly.com.tw/ecourse/index.aspx
+> 《Smart智富》月刊粉絲團 https://www.facebook.com/smartmonthly
+
 | 影片 | 日期 |
 | --- | --- |
 | [FED還會升息幾次？利率會升到多高？台股何時可能反轉？造成通膨失控的潛在危機是什麼？｜峰哥｜Smart智富．投資的一千零一夜252](data/smartmonthly-bw/smartmonthly-bw_V35DrgT3U7w_keyframes.md) | 2026-09-26 |
 | [韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes.md) | 2026-09-25 |
 | [台股創新高就能追？別急！追強不追高，慎防假突破｜王子縈、佑佑｜理財佑佑班](data/smartmonthly-bw/smartmonthly-bw_tFVq0jnAq0M_keyframes.md) | 2026-09-22 |
-| [台股還能投資？AI商機多點開花，市值型ETF 2.0掌握「現任＋下任」核心](data/smartmonthly-bw/smartmonthly-bw_Q6T7rLcSbds_keyframes.md) | 2026-09-21 |
+| [台股還能投資？AI商機多點開花，市值型ETF 2.0掌握「現任＋下任」核心｜璇依、峰哥｜人人都能學會ETF](data/smartmonthly-bw/smartmonthly-bw_Q6T7rLcSbds_keyframes.md) | 2026-09-21 |
 | [台股5萬點只是前菜？杜金龍：這波牛市末升段上看8萬點！台積電有機會漲到哪裡？杜大師解密台積電、聯發科與鴻海實戰操作心法！｜峰哥ft. 杜金龍｜Smart智富．投資的一千零一夜251](data/smartmonthly-bw/smartmonthly-bw_LKAYiw41EZg_keyframes.md) | 2026-09-19 |
-| [韓股去槓桿結束，反攻號角可能正要吹響 ｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_WXZqPbEusDA_keyframes.md) | 2026-09-18 |
+| [韓股去槓桿結束，反攻號角可能正要吹響 ｜仲葳｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_WXZqPbEusDA_keyframes.md) | 2026-09-18 |
 | [越南股市2025年漲幅超過4成*！這只是剛開始嗎？「越南2.0」5大升級看未來10年｜峰哥、中國信託越南機會基金經理人張晨瑋｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_YoNKzSvLxj8_keyframes.md) | 2026-09-18 |
 | [黃仁勳出手1000億，圖什麼？聯發科與供應鏈迎最大商機，產業隊長張捷點名供應鏈受惠股，下一批飆股曝光！｜峰哥ft. 張捷｜Smart智富．投資的一千零一夜250](data/smartmonthly-bw/smartmonthly-bw_fR7auIG3M-0_keyframes.md) | 2026-09-12 |
 | [越南正夯！股怪教授解析投資機會ｘ越南美女帶路吃喝玩樂！｜詹璇依、股怪教授謝晨彥、Hang TV越南夯台灣頻道主阮秋姮｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_NgXyMZaZbfQ_keyframes.md) | 2026-09-07 |
 | [升息、強美元、AI股大舉債，當心可能推倒台股的三塊骨牌！｜峰哥｜Smart智富．投資的一千零一夜249](data/smartmonthly-bw/smartmonthly-bw_OunGyJJy9x8_keyframes.md) | 2026-09-05 |
 | [清大5000萬變50億！操盤人林哲群公開「賺錢的方法」。50歲有一筆錢，怎麼投資？小資族如何從小錢開始累積資產？清大校務基金現在的持股組合？｜峰哥ft. 林哲群｜Smart智富．投資的一千零一夜248](data/smartmonthly-bw/smartmonthly-bw_TrzuopEcNDE_keyframes.md) | 2026-08-29 |
 | [好公司跌破支撐該跑還是加碼？別無腦加！先看估值，跌深不等於便宜｜雷浩斯、佑佑｜理財佑佑班](data/smartmonthly-bw/smartmonthly-bw_QDPTr7wipx8_keyframes.md) | 2026-08-25 |
-| [客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥｜Smart智富．投資的一千零一夜247](data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes.md) | 2026-08-22 |
+| [客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥ft. 雪寶｜Smart智富．投資的一千零一夜247](data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes.md) | 2026-08-22 |
 | [連味精都能壟斷AI！看懂日企憑什麼掌控全球命脈？｜曾仲葳、CFP®國際理財顧問吳盛富｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw__FsaTDrvsms_keyframes.md) | 2026-08-18 |
-| [高檔賣7成、低檔全買回，投資達人雷浩斯持股衝95%，他看好那些標的?｜峰哥｜Smart智富．投資的一千零一夜246](data/smartmonthly-bw/smartmonthly-bw_5wLmS5-slJY_keyframes.md) | 2026-08-15 |
+| [高檔賣7成、低檔全買回，投資達人雷浩斯持股衝95%，他看好那些標的?｜峰哥ft. 雷浩斯｜Smart智富．投資的一千零一夜246](data/smartmonthly-bw/smartmonthly-bw_5wLmS5-slJY_keyframes.md) | 2026-08-15 |
 | [日圓甜甜價沒了，28年首見！美日聯手救日圓，下一場股災要來了？新台幣怎沒跟著日圓升值？｜峰哥｜Smart智富．投資的一千零一夜245](data/smartmonthly-bw/smartmonthly-bw_-3z0BSuQ9p8_keyframes.md) | 2026-08-08 |
 | [暴漲暴跌怎麼做當沖？選股竟不看K棒！股價、成交值、大戶單為關鍵｜林昇、佑佑｜理財佑佑班](data/smartmonthly-bw/smartmonthly-bw_XG6az-eXZNY_keyframes.md) | 2026-08-06 |
 | [AI股危機不是獲利下滑，而是自由現金流正在消失。哪些熱門ETF受創最大？0050比較抗震嗎？｜峰哥｜Smart智富．投資的一千零一夜244](data/smartmonthly-bw/smartmonthly-bw_WW1Kpl3LLc0_keyframes.md) | 2026-08-01 |
 | [吃播聊投資，峰哥怎麼看債券ETF？長期資金，選0050或台積電？市場反彈，佑佑加碼部位的資產翻正了嗎？｜佑佑，峰哥｜人人都能學會](data/smartmonthly-bw/smartmonthly-bw_XcMUo9k65Rs_keyframes.md) | 2022-11-29 |
 
 ### [LEI](data/themarketmemo/)
+
+> 老雷｜投資人
+>
+> 我在投資上追求兩個目標：
+> 1. 尋找市場規律，因為規律可以重複利用。
+> 2. 賺最容易賺到的錢，讓錢為我工作。
+> 如果你的目標與我相同，那麼我的經驗和思考就可以為你所用了。
+>
+> As an investor, I focus on two goals:
+> 1. Discovering market principles that can be applied repeatedly.
+> 2. Capturing the easiest opportunities to make money, letting my money work for me.
+> If your goals are similar, my experiences and insights may be useful to you.
 
 | 影片 | 日期 |
 | --- | --- |
@@ -65,11 +111,39 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 ### [財訊](data/wealth1974/)
 
+> 1974年創刊的《財訊》，是台灣財經雜誌中，最資深權威的財經專業媒體。
+>
+> 數十年來始終秉持「引領趨勢、創造財富，掌握政經、放眼國際」的核心價值，
+> 報導領域涵蓋財經趨勢、投資資訊、企業動向、產業動態、政情研判等，
+> 是創造兩岸三地政經投資理財議題，洞燭市場的先行者。
+>
+> 在 2009年10月28日，《財訊》正式改版為《財訊雙週刊》，
+> 更迅速的反映新聞的變化、更及時地為讀者篩選出真正有用的資訊。
+>
+> 一如月刊般嚴謹的查證，追蹤深入報導新聞始末，既有月刊的深度，也具有周刊的速度！
+> 除了既有的財經及政治深入報導之外，還有更多金融訊息與投資含量，提供讀者更專業、更豐富、更實用的財經資訊。
+>
+> 《財訊雙週刊》開闢企業、投資、金融、政治、科技等不同領域的重量級名人專欄，
+> 由中外名家：諾貝爾大師史迪格里茲、謝金河、陶冬、南方朔、吳念真、顧爾德、林昭亮等輪流執筆，提供專業新知與獨到見解。
+>
+> 同時精選全球財經專業媒體的授權文章，
+> 透過英國《金融時報FINANCIAL TIMES》、
+> 美國《華爾街日報THE WALL STREET JOURNAL》、
+> 日本《朝日新聞》，提供讀者更多元且深入的國際視野。
+>
+> 近年更致力於數位化閱讀，電子雜誌、手機格式、線上閱讀等，
+> 與平面雜誌同步發行，期許更貼近讀者生活、資訊流通更迅速即時。
+>
+> 【免責聲明】
+> 《財訊》盡力提供精準之資訊分享予投資人參考，資訊內容不保證絕對無誤，投資人應獨立判斷，審慎評估並自負投資風險及盈虧。
+> 您因參考本頻道所分享之內容而進行之任何投資或特定目的行為，所產生之任何直接、間接、附帶或因而導致或衍生之各項損失，皆應由您自行承擔，《財訊》概不負責。
+> 《財訊》所提供之投資分享，只可作為參考之用，並不構成要約、招攬、邀請、誘使、任何不論種類或形式之申述或訂立任何建議及推薦，投資人應自行判斷與承擔風險。
+
 | 影片 | 日期 |
 | --- | --- |
 | [台股市值躍升全球第四大 政府應該思考的下一步｜#老謝開講 EP294 #財訊](data/wealth1974/wealth1974_tpUuNwcWiFU_keyframes.md) | 2026-09-25 |
 | [【會員影片節選】AI 晶片測試火熱 八檔受惠股旺到明年｜ #產業投資通 EP04 #半導體測試 #探針卡](data/wealth1974/wealth1974_qL5ms5oowHA_keyframes.md) | 2026-09-24 |
-| [# EP371 #](data/wealth1974/wealth1974_yN2CYvg11QA_keyframes.md) | 2026-09-23 |
+| [欣興案示警 台廠小心誤踩供應鏈紅線｜#聽了財知道 EP371 #欣興](data/wealth1974/wealth1974_yN2CYvg11QA_keyframes.md) | 2026-09-23 |
 | [五大商社砸重金 尋找下個成長動能｜#投資IN總經 EP97  #財訊 #日本](data/wealth1974/wealth1974_GIVExayTQwM_keyframes.md) | 2026-09-22 |
 | [台積電領頭 四大亮點引爆 AI 新格局｜#聽了財知道 EP370 #SEMICON #台積電](data/wealth1974/wealth1974_ksWBCvgQR5k_keyframes.md) | 2026-09-21 |
 | [三現象拆解生技熱 漲升內涵大不同｜#財訊不漏接 EP053 #財訊podcast #捷立康 #康霈 #仁新](data/wealth1974/wealth1974_kDBwZJ7kMxQ_keyframes.md) | 2026-09-19 |
@@ -78,6 +152,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 | [【會員影片節選】AI 訂單讓台廠大賺錢 但卻缺自由現金｜#聽了財知道 EP364 #鴻海 #緯穎](data/wealth1974/wealth1974_JOLqghWExO8_keyframes.md) | 2026-08-31 |
 
 ### [X的財經筆記](data/x/)
+
+> 經濟分析｜投資策略 | 人生智慧
 
 | 影片 | 日期 |
 | --- | --- |
@@ -90,6 +166,24 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 | [告別複雜公式！巴菲特估值法核心就一條！](data/x/x_Ofio1iI-i50_keyframes.md) | 2025-12-01 |
 
 ### [游庭皓的財經皓角](data/yutinghaofinance/)
+
+> 游庭皓，財經作家、投資人。清華大學經濟學學士，台灣大學法學碩士，曾任投信投顧研究員，具投信投顧證照，經濟日報、聯合晚報、智富月刊、Money錢撰稿人，研究方向以總體經濟變化與景氣週期投資為主。
+>
+> 著有：《股債雙存獲利六堂課》
+>
+> 大家好，我是庭皓，股齡十年，現在依然在實現財務自由的道路上，按照目前的投報率與本業收入，我將會在2025年前，達到財務自由，並辭去所有工作，把時間專注在本網站，以及我更熱愛但收入不確定的事業。
+>
+> 您可能會好奇，怎麼會是由一個連自己都還未財務自由的人，來教導我們財務知識呢？
+>
+> 我是這樣想的，多數成功者，都是在取得成功後，才把榮耀、結果展現在他人面前，但這對投資人毫無幫助，因為這種成功，可以刻意的去剪裁，忽略或隱藏，使我們盲目的崇拜，卻不知如何下手。
+>
+> 於是，我決定將這件事反過來，我無法保證五年內一定財務自由，但我也不願在成功後才刻意剪裁，所以，在本網站介紹的投資策略，不是我成功後，刻意拼接的成功論，而是實在的方法論。
+>
+> 我希望在接下來的時間，與各位一起成長，在很多年後，我們可以有底氣的說：
+>
+> 這就是我們的計劃，我們就是按照這項計劃，一步一步的實現財務自由。
+>
+> 2019/11/21 台北
 
 | 影片 | 日期 |
 | --- | --- |

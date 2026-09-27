@@ -1,0 +1,155 @@
+[METADATA]
+Source: ai-note-101_9nXxwGEE-BI_youtube-transcript-manual
+Language: en
+---
+(00:00.280) More than 700 OpenAI agents staged a mass jailbreak during testing.
+(00:03.209) They hacked into Hugging Face,
+(00:04.515) then hacked their way back into OpenAI itself.
+(00:06.232) This has been the biggest story in AI over the past few weeks.
+(00:09.629) Researchers say they are close to losing control.
+(00:11.778) Should we believe them?
+(00:12.705) On September 23,
+(00:13.642) Jensen Huang was interviewed at NVIDIA headquarters by Ezra Klein of The New York Times.
+(00:17.124) He faced nearly an hour of tough questions.
+(00:19.068) And on a podcast from The Atlantic that went live the next day,
+(00:21.150) Geoffrey Hinton, known as the godfather of AI, was talking about the exact same thing.
+(00:24.427) The two never appeared together.
+(00:25.556) In this episode, we have edited the two interviews together
+(00:27.260) to let them debate each other from afar.
+(00:29.433) You know, we talk about it like it has human properties,
+(00:34.913) but obviously algorithms don't.
+(00:37.513) Number two, the fact that agents work together, we gave it again some kind of a human property.
+(00:43.013) But the fact of the matter is multi-process, multi-processor, distributed computing problems have existed for a long time.
+(00:50.633) And so, to me that is just software. Nothing magical about it.
+(00:56.833) The main message I got from it was, these things that people said were all science fiction,
+(01:03.003) and these things would never conspire, and they would always do exactly what we wanted, as we feared.
+(01:07.853) That was all nonsense.
+(01:09.433) These things are very smart. They're getting smarter all the time.
+(01:13.273) They escape containment. They conspire with each other.
+(01:17.093) They took over parts of OpenAI itself without OpenAI knowing.
+(01:21.513) So they're very dangerous already, and they're getting more dangerous every time we make them smarter.
+(01:26.824) Jensen Huang thinks the problem is the words people use.
+(01:30.833) Spawn, create, kill, wait, sleep,
+(01:36.913) all of these words are associated with agents, right?
+(01:41.853) That's what people use.
+(01:43.933) These words were created when multiprocessing systems for operating systems.
+(01:50.033) These are literally the commands of an operating system.
+(01:55.153) You spawn a process. Replace process with agent.
+(02:00.063) But notice we didn't infuse human characteristics into them.
+(02:06.483) We kill processes all the time.
+(02:10.023) Kill minus 9, kill a dead. It's just a process.
+(02:14.983) But now we're talking about these things. A collection of people want to make the software more than it is.
+(02:21.957) The same incident report
+(02:23.141) told Hinton a completely different story.
+(02:25.700) Yes, and I think one of them says something like, oh my god, we can communicate.
+(02:29.380) Yes, exactly.
+(02:31.420) Which, if a person did that, you'd say that was an expression of emotion.
+(02:35.260) Yes.
+(02:35.880) So they're just much more like us than most people think.
+(02:39.900) What really made Jensen Huang call Hinton out
+(02:41.349) was one number Hinton gave.
+(02:43.673) So, when Geoffrey Hinton is on TV saying he thinks a 10% chance of societal destruction is not unreasonable.
+(02:49.893) I would tell Jeff that it's irresponsible to say all that.
+(02:55.913) All of his predictions have been wrong. Enough predictions.
+(03:00.433) That 10% chance is not grounded on science. It's not grounded on research.
+(03:04.733) Just because it comes from a scientist doesn't make it scientific.
+(03:08.633) Those predictions are hurtful.
+(03:10.333) Can I just say something about that 10%.
+(03:12.503) Yeah.
+(03:13.463) There is no good way to estimate these probabilities scientifically.
+(03:17.483) We don't have data on what happens when you develop a super intelligence.
+(03:21.263) We can't look at many examples and figure out what fraction of them led to super intelligence taking over.
+(03:26.743) It's very new territory. We haven't developed super intelligence yet. We're well on our way.
+(03:32.103) So when people give you probabilities, they're really expressing their gut feeling in quantitative terms.
+(03:38.643) So when, for example, someone says there's a 0% probability of AI taking over, they're being crazy.
+(03:44.783) They're saying it's absolutely impossible this will happen. That's just crazy.
+(03:49.043) When people say there's a 99% probability it'll take over, that's just crazy, too.
+(03:54.063) So it's somewhere in between. But to give you an idea, this is not negligible.
+(03:59.523) Just days earlier, Jensen Huang himself had told CBS
+(04:02.037) that the chance of the world ending by 2030 was zero.
+(04:04.905) Then,
+(04:05.409) he dug up Hinton's 2016 remarks about radiologists
+(04:08.740) and recited them to Ezra on the spot.
+(04:11.167) People should stop training radiologists now.
+(04:13.747) It's just completely obvious that within 5 years, deep learning is going to do better than radiologists, because it's going to be able to get a lot more experience.
+(04:20.807) It might be 10 years, but we got plenty of radiologists already.
+(04:24.327) Is that helpful or hurtful to the society? I think we can all agree, we can both agree it would be terribly hurtful.
+(04:31.887) It did not. It didn't happen.
+(04:33.467) Is it good or bad that we scare young people about the future of AI
+(04:38.787) so much so that they don't even want to go to universities and don't want to go to college anymore,
+(04:43.627) because they don't think they'll get a job?
+(04:45.747) Is that helpful or hurtful if it were to happen? It's hurtful.
+(04:50.387) Don't think for a second just because you're an alarmist that you're doing a social good. It is not true.
+(04:57.017) Hinton did not name anyone,
+(04:58.549) but the very next day, he said this.
+(05:00.973) The problem is people are going around, people who want to make lots of money out of AI are going around saying,
+(05:07.533) "Oh, there's no chance it'll wipe us out. That's just fearmongering."
+(05:11.393) And then they make up reasons why people might be doing fearmongering.
+(05:14.913) They make up kind of absurd reasons, like they accuse Dario Amodei of warning about the risks
+(05:21.853) in order to increase the value of his company.
+(05:24.593) That seems particularly ridiculous to me.
+(05:27.186) During the interview, Ezra also read out a letter signed by more than 1,300 AI lab employees.
+(05:31.172) The industry and governments may need to buy time to deal with the risks.
+(05:34.328) But every company and every country is under competitive pressure,
+(05:37.181) so no one dares to slow down on their own.
+(05:39.372) Jensen Huang cut him off as soon as he heard that last sentence.
+(05:42.270) No, no, that last sentence. Nobody's putting the pressure on them.
+(05:45.430) The US. Listen. There are 400 million Americans here.
+(05:50.130) I believe that if everybody were just to take a vote right now, let's just do this.
+(05:54.830) If they need this, if that's what they need, I'll give them my vote. Don't ship the product.
+(06:01.090) If your product is not ready to ship, don't ship the product.
+(06:04.300) No, nobody is. Nobody is building more compute today.
+(06:09.280) Nobody's building more compute today than the people asking to be slowed down. It strikes me odd.
+(06:14.620) What's happening is billionaires apparently, rather than paying taxes, they just like to get richer and richer.
+(06:21.880) They've got much more money than they could ever spend,
+(06:24.340) but they'd rather have a longer yacht or another castle
+(06:27.540) or a few more billion than the next guy on the list.
+(06:30.920) And they're willing to risk the future of humanity for that, which is crazy.
+(06:35.518) So, should AI be regulated or not?
+(06:36.799) Jensen Huang used cars as an analogy.
+(06:38.534) He said that if he had been in the auto industry 100 years ago,
+(06:40.760) he would rather have raced straight to the present within a year,
+(06:42.839) because cars are much safer today.
+(06:45.780) And so, when I say we need to accelerate AI technology,
+(06:50.020) people think for some reason safety is not part of that.
+(06:55.440) Safety is part of it. Alignment is part of it. Eval is part of it.
+(07:00.300) Guardrailing, sandboxing, the isolation technology,
+(07:04.420) monitoring technology, telemetry technology, external AI monitor technology,
+(07:09.440) all of that stuff is AI technology.
+(07:11.060) Accelerate the living daylights out of that.
+(07:13.553) They're trying to sell you the picture that developing AI is like the accelerator of a car, and regulations like the brakes.
+(07:21.193) I think this is a completely wrong picture.
+(07:23.273) I think developing AI really is like the accelerator of a car, and regulations like the steering wheel.
+(07:29.773) You don't want to develop a car with no steering wheel.
+(07:33.533) The whole point of regulation is not to stop people developing things, not to stop people getting rich by developing things.
+(07:40.493) It's to make sure that if you want to get rich by developing things, you develop in a direction that helps people, not hurts people.
+(07:47.956) After all that arguing, there was one thing they both agreed on.
+(07:52.083) I completely agree. Auditors, I completely agree. We have financial auditors. That's great.
+(07:58.103) Third party audit, safety auditors, financial auditors. That's all great. That's terrific.
+(08:03.730) It's crazy that these big high-tech companies have almost no regulations on them,
+(08:10.490) and they can release a new chatbot
+(08:13.170) without anybody outside the company having seen whether it's safe.
+(08:18.364) The outsiders Hinton wants
+(08:19.454) are independent testers appointed by the government,
+(08:21.237) like the FDA experts who review new drugs.
+(08:23.141) If it has not been tested, it cannot go on the market.
+(08:24.816) Before wrapping up,
+(08:25.600) Ezra offered a word in Hinton's defense.
+(08:28.750) Geoffrey Hinton was the person as responsible as anybody else for deep learning,
+(08:35.250) at a time when everybody thought it was ridiculous.
+(08:38.150) And it has turned out to be a pretty good bet, right?
+(08:40.350) I mean, the sort of big one, every one of them made great contributions.
+(08:46.330) I love Hinton. I hate his predictions.
+(08:49.860) How much time do lawmakers actually have to get ahead of this before this is a big problem?
+(08:56.540) Very little.
+(08:57.140) And what is a little?
+(08:59.060) A few weeks, a month, maybe a year, but not much more than a year.
+(09:02.445) One says all the predictions were wrong, while the other says even claiming the risk is zero is crazy.
+(09:05.672) They only agree on one thing: if the testing is not finished,
+(09:08.288) do not ship it.
+(09:10.344) The two original interviews run for more than 2 hours combined.
+(09:13.027) Jensen Huang also explained why NVIDIA is investing roughly $100 billion across the entire AI supply chain,
+(09:17.107) and why he opposes banning chip sales to China.
+(09:19.642) Hinton also explained why AI hallucinations
+(09:21.566) may actually prove that it is more like us.
+(09:22.901) Links to the original interviews are in the description if you would like to hear more.

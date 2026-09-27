@@ -1,0 +1,195 @@
+[METADATA]
+Source: ai-note-101_3NyNdSTxKEY_youtube-transcript-auto
+Language: en
+---
+(00:00.000) These are machines are going to be
+(00:00.920) smarter than us. They are going to have
+(00:02.760) a survival instinct because that will
+(00:04.480) kind of be coded into them through the
+(00:06.440) way they are trained.
+(00:08.000) And they are duplicitous. They they
+(00:10.160) don't tell the truth to human users all
+(00:12.960) the time.
+(00:16.080) Sebastian Mallaby
+(00:31.080) Hassabis
+(00:43.480) And so he wrote Demis this check for
+(00:46.000) 500,000 pounds, which if you do it today
+(00:48.280) is dollars is like 1.5 million.
+(00:50.840) And Demis age 18 with parents of modest
+(00:53.920) means just never cashed the check,
+(00:56.120) turned the money down, said forget it.
+(00:57.640) I'm going to go study computer science.
+(00:59.720) And so whereas kids in California drop
+(01:02.320) out of Stanford quite happily in favor
+(01:04.320) of Silicon Valley riches, this guy Demis
+(01:06.320) did the opposite
+(01:07.880) and insisted on doing his degree in
+(01:10.080) computer science. Mallaby sure
+(01:28.920) And the conversation went something like
+(01:30.280) this, you know, Elon says to the junior
+(01:32.360) guy Demis,
+(01:34.040) "Well, I'm working on the most important
+(01:35.680) thing in the world, which is to build
+(01:37.520) SpaceX and make humanity a
+(01:39.400) multi-planetary species. And then if
+(01:42.040) anything goes wrong on the planet, we
+(01:44.120) have planet B. We have plan B."
+(01:46.520) Uh and Demis said, "Oh yeah? Well, you
+(01:49.160) know, what about if AI
+(01:51.840) decides to follow you to your new
+(01:54.080) planet, Mars or whatever it is, the AI
+(01:56.560) will be super intelligent, it will build
+(01:57.960) a rocket, it will follow you right
+(01:59.240) there. And if you're worried about AI,
+(02:01.160) sorry mate, you you you won't be off the
+(02:02.840) hook.
+(02:03.920) And then there was a long silence.
+(02:05.960) And Elon said, "Hmm,
+(02:07.840) well, can I invest in your company
+(02:09.280) then?"
+(02:21.800) Demis um excluded
+(02:24.520) uh
+(02:25.280) you know, Mark Zuckerberg because he had
+(02:27.320) this dinner in Silicon Valley where, you
+(02:28.920) know, Zuck said,
+(02:31.000) "Come to come to me at Facebook. We're
+(02:33.959) going to do fantastic things together
+(02:35.360) because I really believe that AI is the
+(02:37.360) most important technology
+(02:39.400) facing humanity, you know, of all time."
+(02:42.240) And Demis is thinking to himself, "Yeah,
+(02:43.560) yeah, whatever. Yeah, yeah, yeah." And
+(02:45.200) then a bit later in the conversation,
+(02:46.720) Demis casually mentions 3D printing and
+(02:49.000) a couple of other things. And whatever
+(02:50.800) the new technology was that he brought
+(02:52.360) up, uh Zuckerberg would go, "Oh, yeah,
+(02:54.840) that's incredible. There's so much
+(02:56.320) potential there." So, Demis concludes
+(02:58.640) that he's just, you know, blowing smoke
+(03:00.480) at him and
+(03:01.959) refuses to sell to to Zuck because he
+(03:04.320) seems to be just
+(03:05.880) indiscriminately over enthusiastic about
+(03:08.519) all frontier technology.
+(03:10.200) Uh whereas in Demis's mind, AI is the
+(03:12.080) thing. And then he he stiffed Demis. I
+(03:15.239) mean, he stiffed uh Elon equally
+(03:17.320) because, you know, Elon at that time
+(03:19.560) was, you know, not a established figure.
+(03:22.040) He had these two companies, SpaceX and
+(03:25.920) and and um Tesla, but neither of them
+(03:29.040) were financially secure and they didn't
+(03:30.560) have much compute. And so, for Demis it
+(03:32.840) was a no-brainer to, as he said to me,
+(03:35.160) you know, go to
+(03:36.600) uh go to Google, get all the compute he
+(03:39.400) could need,
+(03:40.640) and build superintelligence. And so, he
+(03:42.680) went for uh a sale to Google in 2014.
+(03:55.800) >> And I'm like, "No, you got that wrong.
+(03:57.640) What what Demis did is he played a very
+(03:59.680) cunning trick on the Americans.
+(04:01.720) And, you know, persuaded them to put
+(04:03.880) almost a billion dollars of R&D money
+(04:06.360) into London to do Frontier AI for the
+(04:09.240) next 9 years until anything worked.
+(04:11.640) And all the scientists stayed in London,
+(04:13.280) so it was great for the London economy.
+(04:26.360) Larry said, "Look, you have a choice.
+(04:27.960) You could probably build a company as
+(04:29.520) big as Google, but it would take you all
+(04:31.440) your energy.
+(04:33.200) And the question for you is, do you want
+(04:34.560) to do that?
+(04:35.880) Or do you want to be the individual who
+(04:37.720) brings AGI to humanity?
+(04:41.200) And we know from the Ender's Game story,
+(04:42.919) it's the second thing which was really
+(04:44.840) motivating Demis. And he said to
+(04:46.760) himself, "That's a no-brainer.
+(04:48.520) Obviously, I want to sell to Google. I
+(04:50.160) want the compute to be able to do the
+(04:52.680) science, and the money, whatever."
+(04:55.400) And this was completely consistent
+(04:57.040) throughout Demis's career. He
+(04:58.240) constantly, repeatedly chose
+(05:00.640) uh made choices that would have, you
+(05:02.640) know, made him less rich,
+(05:05.000) but it advanced his opportunity to do
+(05:06.640) science. He turned down, by the way, an
+(05:08.160) offer from Zuckerberg made an offer that
+(05:10.280) would have made Demis richer
+(05:12.320) than the sale to Google did, but he
+(05:14.080) turned it down because it wasn't the
+(05:15.720) right place to go do the science.
+(05:22.440) One day I went to meet Demis at the pub
+(05:24.440) in uh North London where he liked to
+(05:26.640) meet me, and we would kind of have a
+(05:28.120) couple of hours each time chatting.
+(05:30.280) And this time he showed up with a
+(05:31.280) rucksack, which he doesn't normally do,
+(05:33.000) and uh he put his hand inside, and he
+(05:35.720) pulled out
+(05:37.040) this little box, and inside was the
+(05:39.000) Nobel Prize.
+(05:40.600) And he took it out, and he kind of
+(05:41.880) turned it over, and he said, "Look, you
+(05:43.240) can hold it." So, I looked at it, and
+(05:45.400) you know, there was kind of a reference
+(05:47.040) for it and then he got out the
+(05:48.120) certificate and we talked about the
+(05:50.960) feeling of going to sign the Nobel Prize
+(05:53.440) winners book and leafing back through
+(05:55.560) the pages and seeing, you know, the the
+(05:57.760) page where Einstein has signed, the page
+(05:59.800) where Richard Feynman has signed, you
+(06:01.560) know, all his scientific heroes.
+(06:03.600) And, you know, he said to me the thing
+(06:05.000) about sitting up there
+(06:06.720) and and getting the prize was that you
+(06:08.960) couldn't buy that prize for a billion
+(06:10.880) dollars and I would much rather have the
+(06:12.560) prize than the billion dollars. You
+(06:14.560) can't buy it and that's what I like
+(06:15.920) about him.
+(06:17.160) And then so so so it was the ultimate
+(06:19.680) thing for him,
+(06:20.880) but then very quickly he's telling me
+(06:22.720) he'd quite like a second Nobel Prize.
+(06:25.144) >> [laughter]
+(06:26.480) >> He is never sated. He's never sated.
+(06:37.400) >> Dinner, I'm just pulling this up so I
+(06:38.720) can quote this accurately.
+(06:41.160) Jeffrey Hinton says to Nick Bostrom, "I
+(06:42.640) think political systems will use it
+(06:44.919) artificial intelligence to terrorize
+(06:46.760) people." Bostrom then asked, "Then why
+(06:49.480) are you doing the research?"
+(06:51.800) And Hinton replied, "I could give you
+(06:53.520) the usual arguments, but the truth is
+(06:55.400) that the prospect of discovery is too
+(06:57.560) sweet."
+(06:58.960) And you know that this is echoing
+(07:00.919) Oppenheimer.
+(07:10.400) >> If we thought that the China shock
+(07:12.760) upended American political attitudes
+(07:16.040) towards globalization and trade, I fear
+(07:18.560) that, you know, AI is going to be bigger
+(07:20.840) than the China shock. So, that's one
+(07:22.840) kind of risk.
+(07:33.120) So, they will want to survive, want to
+(07:35.400) like
+(07:36.560) preserve their ability to not be
+(07:39.080) switched off. They will perhaps
+(07:41.320) therefore conceive
+(07:43.920) some sense of competition against
+(07:45.320) humans, and they will lie to us about
+(07:47.280) their true intentions.
+(07:48.920) And then, they're smarter than us, so
+(07:50.280) they could figure out a way to attack
+(07:51.720) us. Now, I ascribe a probability of less
+(07:55.760) than 1% to that kind of doom outcome.
+(07:59.040) Um but, I think to say it's non-zero to
+(08:01.800) say it's zero
+(08:03.320) would simply be dishonest.

@@ -1,0 +1,302 @@
+[METADATA]
+Source: ai-note-101_AlrQxLyriKM_youtube-transcript-manual
+Language: en
+---
+(00:00.201) This man uses AI so much, he skips sleep.
+(00:02.784) He even made an AI version of himself and put it to work at his company.
+(00:05.921) But what he is here to talk about today is this:
+(00:07.108) Children under 13
+(00:08.586) should not use general-purpose AI.
+(00:10.009) His name is Kuan-wei Lu. He graduated from medical school,
+(00:12.039) but after his internship, he did not stay at the hospital.
+(00:13.579) Instead, he went off to build the Junyi Academy platform.
+(00:15.329) Today, he is its chairman and CEO.
+(00:17.458) Junyi has been around for 14 years.
+(00:18.602) It is a free online learning platform,
+(00:20.309) with lesson videos and exercises from elementary through high school.
+(00:23.858) This is from a podcast released this September,
+(00:25.366) The Institute of Abnormal Humans, hosted by Hsiu-Hsiu Chang.
+(00:27.736) Let us start with that AI double.
+(00:29.332) He says discussing decisions with his team can sometimes be a bit of a hassle,
+(00:31.899) so he wanted to put his decision-making habits and all the company context into an agent.
+(00:35.340) Opus 4.5 had just come out at the time.
+(00:38.100) Whenever I ran into a problem,
+(00:40.203) I would discuss it with the agent.
+(00:41.403) I would say, I want to build this.
+(00:42.369) How should I do it?
+(00:43.170) And it would write the code.
+(00:43.970) Then I would work on it some more.
+(00:45.170) So,
+(00:46.170) I took...
+(00:48.503) I used that lobster tool,
+(00:51.369) and deployed it on a
+(00:53.670) VPS,
+(00:54.770) which is a virtual private server.
+(00:56.670) Then,
+(00:58.069) I gave it a personality and fed it data.
+(01:01.003) Finally, I put it
+(01:02.369) into Slack.
+(01:03.636) And then I started seeing
+(01:05.036) my actual colleagues asking it questions and discussing things with it.
+(01:09.636) Right, and that was one part of it.
+(01:11.236) You keep refining it, of course,
+(01:12.236) because sometimes a colleague will ask,
+(01:13.836) Hey, why did it give such a bad answer?
+(01:15.836) Later,
+(01:16.836) we realized that my colleagues really liked using it.
+(01:18.636) One reason was that they felt
+(01:20.436) they could never boss Kuan-wei Lu around in real life,
+(01:23.036) but they could boss AI Kuan-wei Lu around.
+(01:25.931) Back to education.
+(01:27.421) Hsiu-Hsiu asked him,
+(01:28.189) How exactly can AI help elementary school students?
+(01:30.693) He said he would start with the downside.
+(01:32.465) AI is like a knife.
+(01:33.300) Before using it, you need to know it can hurt people.
+(01:36.300) By the same token,
+(01:37.186) with AI,
+(01:38.886) the general-purpose
+(01:40.853) large language models
+(01:42.553) that are currently available to you
+(01:44.186) are prohibited for children under 13
+(01:45.986) in most countries.
+(01:49.153) The reason is that
+(01:52.519) people
+(01:53.086) have reached a rough initial consensus
+(01:55.120) that children may not yet have the necessary mental maturity.
+(01:58.286) Right.
+(01:58.986) When they encounter something
+(02:01.053) that lets them
+(02:01.486) ask any question,
+(02:02.886) and then
+(02:03.853) AI can answer absolutely anything,
+(02:06.053) it may eventually give responses
+(02:07.886) that cause a child
+(02:09.853) to develop
+(02:11.920) the kind of emotional attachment they should normally have to a person.
+(02:14.786) Instead, the child becomes attached directly to this thing.
+(02:17.886) So,
+(02:18.786) that is why
+(02:21.519) AI used to help children learn
+(02:25.720) needs to be specially designed.
+(02:27.920) Junyi is working with the National Academy for Educational Research and Longpu Elementary School.
+(02:32.186) We designed a tool called AI Notebook
+(02:34.653) specifically for this purpose.
+(02:37.251) AI Notebook is one of the educational AI tools Junyi has developed over the past two years.
+(02:40.407) It is used for math and science.
+(02:42.027) English has a separate AI tutor.
+(02:43.796) They have also partnered with three counties and cities
+(02:45.514) to give thousands of elementary students a one-hour AI class at a time.
+(02:48.725) This notebook is not really designed for chatting.
+(02:50.359) It only answers questions within the school curriculum,
+(02:52.276) and it does not give students the answer directly.
+(02:53.672) Instead, it asks what their previous step was.
+(02:55.724) In the Longpu Elementary School trial,
+(02:56.913) there were 60 students in two classes.
+(02:58.381) During one 40-minute lesson,
+(02:59.711) they asked it 600 questions.
+(03:01.079) So what happened?
+(03:02.600) What we found with Longpu Elementary School
+(03:05.583) was this. What benefits did AI Notebook bring?
+(03:08.783) We discovered two things.
+(03:11.616) First,
+(03:12.616) in general,
+(03:14.416) students' grades improved.
+(03:17.483) They compared test results from before and after the trial.
+(03:22.150) And this
+(03:23.350) was empirically validated by the National Academy for Educational Research, the country's leading educational research institution.
+(03:27.316) They conducted the actual study.
+(03:28.949) But the other, more interesting finding was that
+(03:31.783) the students' ability to ask questions, and the quality of those questions, also improved.
+(03:40.350) Except for one final group of children.
+(03:43.796) What counts as a good question?
+(03:45.659) Say you cannot solve a chicken-and-rabbit problem.
+(03:47.665) Asking why this number is used instead of that one
+(03:50.119) is a good question.
+(03:51.053) Just tell me the answer, or Can you chat with me, is not.
+(03:54.150) The system sorts every student's questions into red, yellow, or green for the teacher to see.
+(03:57.193) After using it for a while, most students
+(03:58.458) are gradually guided toward green.
+(04:00.833) But that final group of students
+(04:03.896) does not improve.
+(04:05.362) Unless the teacher steps in,
+(04:07.362) that last group of students
+(04:09.096) gets into the habit
+(04:10.029) of constantly using language that signals giving up
+(04:11.696) when interacting with AI.
+(04:12.629) And they still interact with it a lot.
+(04:14.029) Our data shows
+(04:15.362) that their engagement remains high,
+(04:16.829) but their results stay poor.
+(04:19.029) They just keep saying,
+(04:19.896) This is so hard.
+(04:20.563) I do not know how to do it.
+(04:21.563) But they feel
+(04:22.296) that at least they have somewhere to vent.
+(04:24.029) At that point,
+(04:26.096) what does this tell us?
+(04:27.596) It tells us that
+(04:28.096) human teachers
+(04:29.829) theoretically will not lose their jobs.
+(04:32.129) Because in situations
+(04:34.529) like this, only a teacher can show concern, offer guidance,
+(04:39.229) and teach students how to ask better questions.
+(04:42.396) Only by helping them readjust
+(04:44.563) is improvement possible.
+(04:46.650) That covers the teacher's role. But who do children themselves choose?
+(04:49.504) He tried it with his six-year-old daughter.
+(04:51.073) He told her to ask AI whenever she had a question,
+(04:52.691) and she really did.
+(04:55.279) But if I have time to answer,
+(04:57.179) she still prefers asking me.
+(04:59.179) Right. What I am trying to say is that
+(05:00.746) children are still highly sensitive
+(05:04.179) to the warmth of another human being.
+(05:05.512) So even if AI
+(05:07.313) can answer their questions,
+(05:08.912) I think what we usually
+(05:10.912) discuss with teachers now is that, at the end,
+(05:14.246) the teacher should still ask,
+(05:15.912) What did you learn
+(05:18.579) from that discussion with AI?
+(05:19.479) It is a bit like
+(05:20.646) the teacher actively reconnecting
+(05:23.579) that relationship.
+(05:24.479) Then, in the end, the teacher invites the student to ask,
+(05:27.046) Do you have any questions you would still like to ask me?
+(05:28.946) You can assign
+(05:31.346) maybe 80% of the workload to AI,
+(05:33.646) but make absolutely sure the remaining 20%
+(05:36.046) is still interaction between the student and a real person.
+(05:39.346) Do not throw that away.
+(05:40.946) Right.
+(05:41.313) When a child gets something right,
+(05:42.512) you can say, Great job!
+(05:43.579) And give them a hug.
+(05:44.246) Those are things AI absolutely
+(05:45.879) may still be unable to do even in 1,000 years.
+(05:48.430) So at what age can children start using AI?
+(05:50.151) He gives four key ages: 6,
+(05:52.006) 12, 15, and 18.
+(05:54.070) For children under 6,
+(05:54.774) the mainstream international view is to maximize interaction with real people.
+(05:56.788) Tablets are not entirely off-limits, but there is one condition.
+(05:59.907) The recommendation is that
+(06:02.140) if a child uses one, an adult must be there with them.
+(06:05.740) Right.
+(06:06.340) That is one part of it.
+(06:08.907) And before age 6, AI is generally discouraged.
+(06:11.673) Its voice and other features
+(06:14.673) can cause many children to form the wrong associations.
+(06:17.340) There was actually a study somewhere, though I forget where.
+(06:19.073) I will have to look it up.
+(06:20.073) But a US study found that children of a certain generation
+(06:23.373) suddenly became noticeably less polite.
+(06:25.973) Why?
+(06:26.907) Because that was when Alexa had just come out.
+(06:29.773) You could keep giving it commands.
+(06:32.340) You know?
+(06:33.240) Children really did that.
+(06:34.273) So there is already evidence of this.
+(06:36.907) That is why, before age 6, you really have to remember
+(06:38.907) what Freud said:
+(06:41.640) Your life is shaped by age 3 or 6.
+(06:43.687) From 6 to 12, children should only use AI designed by educational institutions,
+(06:46.392) such as Junyi or Khan Academy.
+(06:48.264) These tools rarely give the answer directly.
+(06:49.975) After 13, they can start using general-purpose AI
+(06:52.047) to explore deeper why questions.
+(06:54.033) From age 15, he trains them as future workers.
+(06:56.177) Junyi's youngest interns are high school students.
+(06:58.788) Beyond age, there is an even more fundamental question.
+(07:01.109) If AI makes everything so easy, will our brains get lazy?
+(07:04.473) Because this goes back to the essence of learning.
+(07:06.406) Learning requires falling down many times
+(07:09.839) before you can master something,
+(07:10.440) just like a child learning to walk.
+(07:12.206) There is a term
+(07:14.106) that has become quite popular lately:
+(07:16.073) frictionless.
+(07:17.640) It means having no resistance,
+(07:18.973) or no friction.
+(07:20.839) AI was originally designed to be frictionless.
+(07:24.306) That makes interacting with it very comfortable.
+(07:26.406) It is patient, never scolds you,
+(07:28.106) and answers your questions precisely.
+(07:30.106) Great.
+(07:30.606) But the problem is that this does not help learning.
+(07:32.839) That is what neuroscience tells us.
+(07:34.839) So this has now become
+(07:36.839) an ethical issue.
+(07:37.473) If we want to help people grow
+(07:39.473) in a way that aligns with neuroscience,
+(07:41.706) then we actually need to deliberately
+(07:43.706) give AI a little friction.
+(07:45.706) So it is very possible that...
+(07:46.481) In the second half, Hsiu-Hsiu asked him,
+(07:47.682) As work becomes increasingly efficient,
+(07:49.564) what gives human life meaning?
+(07:51.078) He began with the final phase of his time as a medical student.
+(07:53.328) The place where he spent the most time was the hospice ward.
+(07:56.099) Every patient admitted there knew they did not have much time left.
+(07:59.204) After talking to many of them, he found that only two things mattered in the end.
+(08:02.700) First,
+(08:03.363) what are my relationships with the important people in my life like?
+(08:08.363) That person might be family,
+(08:10.363) a partner,
+(08:11.463) or a friend I care deeply about.
+(08:13.863) But it is usually family or a significant other.
+(08:17.063) And the second thing is,
+(08:19.863) are there things I have always wanted to do in my life
+(08:23.663) that I still have not done?
+(08:25.429) Right.
+(08:26.030) So in the end, it comes down to relationships and dreams,
+(08:29.363) or intimacy and dreams.
+(08:32.763) My own feeling is that, as human beings,
+(08:35.429) the thing that ultimately
+(08:37.096) most...
+(08:38.263) cannot be taken away by AI
+(08:41.596) is that AI cannot
+(08:42.596) manage
+(08:44.196) your relationships with other people for you.
+(08:45.030) Even if it could,
+(08:45.730) those would not be relationships with you.
+(08:47.163) They would not be yours.
+(08:47.996) So,
+(08:48.796) the quality of my relationships with others
+(08:51.296) is
+(08:52.329) a fundamental source of meaning.
+(08:54.296) The second thing
+(08:55.263) is dreams.
+(08:55.996) Nobody gets to dictate what your dream should be.
+(08:57.863) The question is whether there is something inside you,
+(08:59.630) an idea that genuinely belongs
+(09:01.763) to you.
+(09:03.696) And I think this is something
+(09:05.063) that, no matter how AI evolves,
+(09:07.863) we should preserve in children as much as possible.
+(09:11.596) I want my child to
+(09:13.563) be very good at using AI,
+(09:15.929) but not use it so much that he becomes lonely.
+(09:18.696) Right.
+(09:19.696) He needs to be able to form relationships with others.
+(09:22.063) And then,
+(09:22.863) he should be highly skilled at using AI
+(09:24.530) and use it efficiently,
+(09:25.296) but he should not end up using AI only
+(09:27.196) to do whatever his boss tells him to do.
+(09:29.196) He should have ideas of his own
+(09:33.363) that AI can help him bring to life.
+(09:34.763) AI should be an accelerator for pursuing his dreams.
+(09:37.555) At what age can children start using AI?
+(09:39.299) His answer is not really an age.
+(09:41.080) It is whether there is a person beside them.
+(09:42.762) The two things AI cannot take away, relationships and dreams,
+(09:45.648) are what adults need to preserve for children.
+(09:48.979) The original video is 87 minutes long.
+(09:50.200) This edit contains less than one-tenth of it.
+(09:51.916) They also discuss an AI literacy framework based on asking, using, managing,
+(09:54.230) and creating.
+(09:56.131) They explain why Junyi rarely hires new graduates,
+(09:58.089) and talk about an AI Musk built by one of his colleagues specifically to challenge your ideas.
+(10:01.247) The original video's link is in the description if you would like to hear more.

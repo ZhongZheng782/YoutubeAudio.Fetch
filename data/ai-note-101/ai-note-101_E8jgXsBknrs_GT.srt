@@ -1,0 +1,206 @@
+[METADATA]
+Source: ai-note-101_E8jgXsBknrs_youtube-transcript-manual
+Language: en
+---
+(00:00.348) Before Enron collapsed in 2001,
+(00:02.198) the first person to spot that the company was cooking its books
+(00:03.976) and then short its stock
+(00:05.158) was Jim Chanos.
+(00:06.824) Shorting means borrowing shares and selling them first,
+(00:08.696) then buying them back after the price falls and returning them.
+(00:10.453) You're betting that the company will run into trouble.
+(00:12.216) His own firm, Chanos & Co, specializes in exactly that.
+(00:14.920) He has been doing it for 40 years.
+(00:16.076) This episode of the RiskReversal podcast went live on September 25.
+(00:19.201) It was hosted by Dan Nathan.
+(00:21.497) Jim, you were also a professor, okay, at Yale University and at University of Wisconsin.
+(00:28.297) You teach a class on financial fraud at both universities.
+(00:31.957) Thanks for being back here, man.
+(00:33.177) The history, not how to commit it.
+(00:34.784) The other guest at the table was Gary Marcus,
+(00:36.708) a cognitive scientist and professor emeritus at New York University.
+(00:39.317) In 2023, he testified alongside Altman before the U.S. Senate.
+(00:42.537) For years, he has argued that large language models will not lead to AGI.
+(00:45.608) In this episode, the two of them look at AI from a financial perspective.
+(00:47.619) What kind of business are data centers, and who is funding them?
+(00:50.215) What happens when the money stops?
+(00:51.656) Chanos is bearish on data centers,
+(00:53.399) but that view did not begin with AI.
+(00:55.289) Back in 2022, he started shorting traditional data center real estate investment trusts.
+(00:59.041) His reasoning was simple.
+(01:00.243) Their pretax returns on capital were only in the single digits.
+(01:02.344) The equipment kept breaking and constantly needed replacing.
+(01:04.027) At heart, it was a capital-intensive landlord business.
+(01:06.270) Once AI took off, he said the picture became even clearer.
+(01:09.667) As AI got going, it became very clear very rapidly
+(01:13.697) that away from the world of the models,
+(01:17.157) where the real money was going to be spent was physically in the infrastructure and hosting the models.
+(01:23.977) And I knew immediately, and we've seen strong evidence,
+(01:28.257) that that is going to really be a commodity business at the end of the day.
+(01:32.337) I can't opine on what the models derive.
+(01:36.157) And I would defer to your other guest, who knows that better than anyone.
+(01:40.897) But I can analyze a real estate deal.
+(01:44.797) And that's where I think people are really jumping off the cliffs right now,
+(01:48.857) because they're assuming spot pricing is long-term pricing.
+(01:53.157) They're assuming all kinds of things.
+(01:54.877) And what they don't realize is that the AI data center business is primarily an equipment leasing business.
+(02:01.257) I'm buying chips from Nvidia and I'm renting them to you.
+(02:05.577) And that's a financial construct.
+(02:08.057) Traditional data centers are landlords.
+(02:10.223) So what about Microsoft, Google,
+(02:11.626) Amazon, and the other cloud giants that build
+(02:12.819) their own data centers for their own use?
+(02:14.687) The host asked him
+(02:15.465) when he started digging into that side of the business.
+(02:18.310) We started focusing on the AI buildout, as opposed to legacy data center business, late '25.
+(02:25.530) So last year, because the numbers were beginning to accelerate so dramatically.
+(02:31.290) We started work on the hyperscalers and looking at returns,
+(02:34.090) and then more importantly, returns on incremental invested capital.
+(02:37.710) And those peaked in 2024 and have been declining ever since.
+(02:43.600) And at a rapid rate, by the way.
+(02:45.970) If it continues at the current curve of decline,
+(02:49.090) the hyperscalers, who are the best positioned to invest in these various initiatives,
+(02:54.930) will have returns below their weighted average cost of capital sometime in mid '27,
+(03:00.310) which I don't think the market is prepared for.
+(03:03.295) To be clear, he is not saying this to promote a short position.
+(03:06.281) He holds the broader market long as a hedge and shorts individual companies.
+(03:09.107) On the AI trade, he is actually net long.
+(03:11.547) What he cannot stomach is where the money is going.
+(03:14.361) He says this cycle is now in its fourth year.
+(03:16.038) Huge sums are starting to flow to fraudsters and hype merchants.
+(03:18.984) When the host asked who he meant, he declined to name names.
+(03:20.900) He simply said to look at one particular group.
+(03:23.083) Well, I just say, just as a group, take a look at the guys who told you, and raised billions of dollars,
+(03:27.963) told you that raising money to buy servers to mine Bitcoin was going to be the next big thing.
+(03:36.683) And now they've all transitioned seamlessly into becoming AI data center companies.
+(03:42.327) The money is borrowed.
+(03:44.042) He says the bond market has already started tightening in recent months.
+(03:46.476) The cost of lending to data centers is rising.
+(03:49.248) Outside the cloud giants,
+(03:50.635) almost every company is losing money on a true economic basis.
+(03:53.239) Yet Wall Street keeps raising its estimates.
+(03:56.137) And yet Goldman Sachs today raised their estimate of total spending on data centers by 50 gigawatts,
+(04:07.157) which is two and a half to three trillion dollars over the next five years.
+(04:11.037) That was just the increase.
+(04:13.797) So they're saying over the next five years the total spend will be 10 to 12 trillion,
+(04:20.897) which is about 6% of GDP,
+(04:24.477) which is, depending on how you want to define it, 1x to 2x the US personal savings rate.
+(04:30.877) So just the personal savings rate is going to go into AI data centers for the next five years, according to the Street,
+(04:37.537) before we get to funding the government deficit, everything else that the economy needs.
+(04:43.517) So you're starting to get really silly numbers.
+(04:45.820) At the other end of the money flow are the model companies.
+(04:48.727) Marcus has been writing about this since August 2023.
+(04:51.398) Every lab is building the same kind of thing.
+(04:53.337) There is no technical moat.
+(04:54.677) The only possible outcome is a price war.
+(04:56.190) The host asked him whether launching a new model every week
+(04:58.448) still means anything.
+(05:00.460) I mean, this is part of the insanity of it all,
+(05:02.540) is that nobody has a lasting lead here, nor will they.
+(05:07.120) And now China is in the ring.
+(05:08.900) So, like you just alluded to, Google has a new model coming out.
+(05:12.580) Maybe it'll be a little bit better, but nobody keeps a lead for more than two weeks.
+(05:16.540) That's why we have this commodity structure.
+(05:18.820) It's great for consumers because the models get better,
+(05:21.080) and it's great for consumers because they have to compete on price,
+(05:25.100) because nobody can really say, my model is substantively better.
+(05:29.760) And there's no frictional costs, right? I mean, to...
+(05:31.780) To change, there's a little bit, but less and less,
+(05:34.240) and things like OpenRouter are designed to reduce that friction.
+(05:38.840) And so, yeah, there's basically no friction at this point, or converging on no friction.
+(05:42.960) We're basically converging where it's not clear there's going to be any profit for the model providers at all.
+(05:49.242) The model companies make no profit, and data centers are a leasing business.
+(05:52.437) So who is making money?
+(05:53.847) The host pointed out that
+(05:54.805) Nvidia has a market value of $5.5 trillion,
+(05:56.598) but its stock price is where it was 6 months ago.
+(05:58.162) Nvidia's customers
+(05:58.752) are the same cloud giants and data center companies we just mentioned.
+(06:01.632) Chanos turned the question back on the host.
+(06:04.743) Dan, let me pose this to you.
+(06:06.563) Why should any company that is reliant upon Nvidia trade at a super premium to Nvidia?
+(06:14.843) Agreed. I mean, we've talked about this for a while.
+(06:16.823) This trades below a market multiple. Nvidia is a relatively cheap stock.
+(06:20.163) Yeah, it's going to grow 75, 100% in the coming year.
+(06:23.763) It's got free cash flow that, of course, it reinvests with everybody else, and we can get into that.
+(06:28.083) But I just keep posing the question to the data center bulls
+(06:31.823) and other people that are wholly dependent upon this relatively, you know, monopoly player in the space.
+(06:40.603) Why would you trade at a premium to that player
+(06:43.683) when they can dictate whether you get chips, when you get chips, in what order you get chips,
+(06:49.183) and whether you get capital from them.
+(06:50.943) So, I mean, it just literally, they are the nexus in a way that Cisco and Intel were not in the dot-com era.
+(07:00.063) They control the chessboard.
+(07:02.964) The host asked whether Nvidia's software platform, CUDA,
+(07:05.883) still gives it a moat.
+(07:07.670) Marcus said
+(07:08.435) it is the closest thing to a moat in this industry.
+(07:10.899) But he added one caveat.
+(07:12.733) Jensen is a great CEO.
+(07:14.233) They have a lot of things going for them,
+(07:17.553) but the thing that they don't have going for them is their customers are the people that we were just talking about, right?
+(07:24.173) If their customers don't make money using their stuff in the long run,
+(07:28.293) then even if they have the best chips in the world, the customers are going to stop buying them.
+(07:31.953) That's my point. That's to my point.
+(07:33.933) I want to be short their customers and long Nvidia.
+(07:36.729) So how will this boom end?
+(07:38.530) The host asked him where the tipping point would be.
+(07:40.907) His answer was a mechanism called reflexivity.
+(07:43.081) When stock prices rise, companies can borrow money to build more.
+(07:45.906) When they can no longer borrow, the demand disappears with it.
+(07:48.153) He used Cisco in 2000 as an example.
+(07:51.270) I think the financial markets themselves. Like I said earlier on, there's a reflexivity function here.
+(07:56.950) The capital markets themselves will be the problem.
+(08:01.430) And as they were in 2000 and 2001, the capital markets shut down.
+(08:06.790) Cisco was down 60... 40, excuse me, 40%, from March of 2000 to December of 2000.
+(08:16.630) John Chambers said in early 2001
+(08:22.270) that his order book went from 70% growth in December of 2000 to minus 30 in January of 2001.
+(08:30.830) That's how fast the ordering evaporated.
+(08:35.290) Literally, people were double and triple ordering.
+(08:37.150) He also pointed to an accounting wrinkle.
+(08:39.388) For every dollar you pay Nvidia,
+(08:41.047) Nvidia records a dollar of revenue that same quarter,
+(08:43.552) along with 75 cents in profit.
+(08:44.996) But on your books, that cost is spread over 5 to 10 years.
+(08:47.784) More troublingly, the dollar used to pay for it
+(08:49.727) often comes from money that venture capital firms have just raised,
+(08:51.866) not from operating profits.
+(08:53.293) When the market shuts down, that dollar disappears immediately,
+(08:55.331) but the costs keep running.
+(08:57.547) And so S&P earnings dropped 40% from mid-2000 to mid-2001.
+(09:04.907) I think I've talked to you about this.
+(09:06.907) And people forget just how much, how fast everything collapsed,
+(09:12.327) as every single enterprise cut back and said, we don't need 10,000 routers, we need 1,500.
+(09:19.407) We don't need 10,000 switches, we need 2,000.
+(09:23.147) Just, you know, maybe down the road we'll take all 10,000,
+(09:27.547) but over the next few years we only need a couple thousand a year.
+(09:31.007) That happened throughout the entire tech economy in the space of basically four quarters.
+(09:37.787) And to think that it can't happen in this boom, which is much, much bigger and has accelerated much, much faster,
+(09:45.247) you have to be kidding yourself.
+(09:46.987) There is very big risk of financing in this market that will make all of this reflexive,
+(09:53.967) and will look like a crash where long-term secular demand could still be growing.
+(10:01.139) Toward the end of the show, they discussed regulation.
+(10:03.316) The host asked how government regulation of AI
+(10:05.792) would affect his view.
+(10:07.509) He said the government was already one of the forces driving this boom.
+(10:10.168) Regulation would raise the cost of capital,
+(10:11.761) and that is exactly what he has been watching.
+(10:14.767) This is a capital-intensive boom.
+(10:16.687) So anything that is going to raise the cost of capital,
+(10:19.647) we've already started to see it, we talked about it at the beginning of the pod,
+(10:24.227) has the chance to be a tipping point,
+(10:26.587) at which point then capital dries up in the VC world.
+(10:30.367) You don't get companies, startups being able to spend a lot of money,
+(10:34.487) and you get a nuclear winter for a couple of years.
+(10:37.863) His nuclear winter.
+(10:39.383) No, not my... really.
+(10:41.163) No, I mean an '01, '02 type situation,
+(10:43.783) where the technology continues to move ahead, but investors lose a lot of money.
+(10:49.290) He is not saying that AI is fake.
+(10:50.693) The technology may keep moving forward.
+(10:52.439) His bet is about the money. When the numbers stop adding up,
+(10:54.789) investors are the first to get crushed.
+(10:57.426) The original video runs for an hour and a half.
+(10:58.860) They also compared U.S. GDP in the 10 years before and after Netscape went public.
+(11:02.667) Chanos concluded that the internet did not change the macroeconomic numbers.
+(11:05.764) Marcus also shared the inside story of testifying alongside Altman before the Senate in 2023.
+(11:09.499) The link is in the description if you want to hear more.
