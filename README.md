@@ -15,6 +15,9 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 | 影片 | 日期 |
 | --- | --- |
 | [「我放空輝達的客戶，做多輝達」做空安隆的避險基金經理人 Jim Chanos：AI 這一波比 2000 年更大、更快｜Jim Chanos × Gary Marcus【AI 大人說】](data/ai-note-101/ai-note-101_E8jgXsBknrs_keyframes.md) | 2026-09-27 |
+| [AI 末日論是自利還是真心？《正義》作者 Sandel 跟諾貝爾經濟學家 Acemoglu 看法不同【AI 大人說】](data/ai-note-101/ai-note-101_YgRTpD7ftmc_keyframes.md) | 2026-09-27 |
+| [跟 Claude 解出學生解不出的題，70 歲物理學家 Carlo Rovelli 卻說：真正危險的是 AI 加上 12,000 顆核彈頭【AI 大人說】](data/ai-note-101/ai-note-101_ZDMp6H1DWU0_keyframes.md) | 2026-09-27 |
+| [《奧本海默》導演諾蘭談 AI：科學跟政治斷了線，科學家只好把話講淺【AI 大人說】](data/ai-note-101/ai-note-101_yccUcgYZRCw_keyframes.md) | 2026-09-27 |
 | [唐鳳：我不准 AI 說「我」，要指出我的錯就用最酸酸民的口吻【AI 大人說】](data/ai-note-101/ai-note-101_8WGcge_2WoI_keyframes.md) | 2026-09-26 |
 | [黃仁勳 vs Hinton 隔空對戰：AI 集體越獄，「只是軟體」還是「已經很危險」【AI 大人說】](data/ai-note-101/ai-note-101_9nXxwGEE-BI_keyframes.md) | 2026-09-26 |
 | [OpenAI、Anthropic 執行長進安理會作證：AI 災難會怎麼發生？講最清楚的是今年夏天被 AI 打進去的那家【AI 大人說】](data/ai-note-101/ai-note-101_KrelwzPc1UM_keyframes.md) | 2026-09-26 |

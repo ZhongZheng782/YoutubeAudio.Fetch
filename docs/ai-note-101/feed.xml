@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 101</title>
+    <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    <atom:link href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-tw</language>
+    <itunes:author>AI 101</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
+    <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YgRTpD7ftmc_keyframes/ai-note-101_YgRTpD7ftmc_000000.jpg"/>
+    <image>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YgRTpD7ftmc_keyframes/ai-note-101_YgRTpD7ftmc_000000.jpg</url>
+      <title>AI 101</title>
+      <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    </image>
+    <item>
+      <title>AI 末日論是自利還是真心？《正義》作者 Sandel 跟諾貝爾經濟學家 Acemoglu 看法不同【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_YgRTpD7ftmc</guid>
+      <pubDate>Sun, 27 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=YgRTpD7ftmc</link>
+      <description>AI 末日論是自利還是真心？《正義》作者 Sandel 跟諾貝爾經濟學家 Acemoglu 看法不同【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_YgRTpD7ftmc.m4a" type="audio/mp4" length="30268338"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YgRTpD7ftmc.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>跟 Claude 解出學生解不出的題，70 歲物理學家 Carlo Rovelli 卻說：真正危險的是 AI 加上 12,000 顆核彈頭【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_ZDMp6H1DWU0</guid>
+      <pubDate>Sun, 27 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=ZDMp6H1DWU0</link>
+      <description>跟 Claude 解出學生解不出的題，70 歲物理學家 Carlo Rovelli 卻說：真正危險的是 AI 加上 12,000 顆核彈頭【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_ZDMp6H1DWU0.m4a" type="audio/mp4" length="29225920"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_ZDMp6H1DWU0.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>《奧本海默》導演諾蘭談 AI：科學跟政治斷了線，科學家只好把話講淺【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_yccUcgYZRCw</guid>
+      <pubDate>Sun, 27 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=yccUcgYZRCw</link>
+      <description>《奧本海默》導演諾蘭談 AI：科學跟政治斷了線，科學家只好把話講淺【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_yccUcgYZRCw.m4a" type="audio/mp4" length="25025759"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_yccUcgYZRCw.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>住台北的美國分析師：美國贏了 AI，中國最合理的一步就是炸掉台積電【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_am1DCQjrTqc</guid>
+      <pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=am1DCQjrTqc</link>
+      <description>住台北的美國分析師：美國贏了 AI，中國最合理的一步就是炸掉台積電【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_am1DCQjrTqc.m4a" type="audio/mp4" length="21661471"/>
+    </item>
+  </channel>
+</rss>
