@@ -14,7 +14,24 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [「我放空輝達的客戶，做多輝達」做空安隆的避險基金經理人 Jim Chanos：AI 這一波比 2000 年更大、更快｜Jim Chanos × Gary Marcus【AI 大人說】](data/ai-note-101/ai-note-101_E8jgXsBknrs_keyframes.md) | 2026-09-27 |
+| [唐鳳：我不准 AI 說「我」，要指出我的錯就用最酸酸民的口吻【AI 大人說】](data/ai-note-101/ai-note-101_8WGcge_2WoI_keyframes.md) | 2026-09-26 |
+| [黃仁勳 vs Hinton 隔空對戰：AI 集體越獄，「只是軟體」還是「已經很危險」【AI 大人說】](data/ai-note-101/ai-note-101_9nXxwGEE-BI_keyframes.md) | 2026-09-26 |
+| [微軟讓 Copilot 告別陪伴、全面重返工作【AI新聞快報 2026/09/27】](data/ai-note-101/ai-note-101_dzhQYXN_6l4_keyframes.md) | 2026-09-26 |
+| [OpenAI、Anthropic 執行長進安理會作證：AI 災難會怎麼發生？講最清楚的是今年夏天被 AI 打進去的那家【AI 大人說】](data/ai-note-101/ai-note-101_KrelwzPc1UM_keyframes.md) | 2026-09-26 |
+| [EP8/23｜看不懂 AI 全部的時候，可解釋性還能做什麼：熱圖她自己推翻、AlphaZero 教會特級大師、給模型加一個新字 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_zDTWq8Y9Wiw_keyframes.md) | 2026-09-26 |
+| [均一呂冠緯：13 歲以下別碰一般的 AI，60 個小學生一堂課問 AI 600 題之後發生的事【AI 大人說】](data/ai-note-101/ai-note-101_AlrQxLyriKM_keyframes.md) | 2026-09-25 |
+| [《人類大歷史》作者哈拉瑞：市場在賭「造出神，而且神當奴隸」，這說不通【AI 大人說】](data/ai-note-101/ai-note-101_GkWEp_4Fga4_keyframes.md) | 2026-09-25 |
+| [白宮先測安排卡住 Claude Mythos 5.1 英國審查【AI新聞快報 2026/09/26】](data/ai-note-101/ai-note-101_y_1egE5XNgg_keyframes.md) | 2026-09-25 |
+| [EP7/23｜為什麼神經網路會自己長出稀疏結構：押一個笨模型，用物理算出來，GPT-2 裡量得到 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_zzJ9kingh6M_keyframes.md) | 2026-09-25 |
+| [超智慧的煞車在台灣？MIRI 負責人 Nate Soares：管晶片比管鈾容易【AI 大人說】](data/ai-note-101/ai-note-101_9HKS1X6HaBM_keyframes.md) | 2026-09-24 |
+| [Starcloud 要把比特幣礦機送上太空測試 AI 機房【AI新聞快報 2026/09/25】](data/ai-note-101/ai-note-101_eV5wco3YDqM_keyframes.md) | 2026-09-24 |
+| [《自私的基因》作者 Richard Dawkins：Claude 讀我的小說像文學教授，我很難想像它沒有意識【AI 大人說】](data/ai-note-101/ai-note-101_P2t6wZ7FbZg_keyframes.md) | 2026-09-24 |
+| [Jake Wharton：把 Kotlin 帶進 Android，然後對 AI 說 Never【AI 大人說】](data/ai-note-101/ai-note-101_V9PE-sRu0mQ_keyframes.md) | 2026-09-24 |
+| [OpenAI早見槍擊警訊卻未報警【AI新聞快報 2026/09/24】](data/ai-note-101/ai-note-101_Zeo8W6DFN5w_keyframes.md) | 2026-09-23 |
 | [AlphaGo 之父為什麼刷掉祖克柏、拒絕馬斯克，把 DeepMind 賣給 Google【AI 大人說】](data/ai-note-101/ai-note-101_3NyNdSTxKEY_keyframes.md) | 2026-09-09 |
+| [Meta 兩個月前拿走你的 IG 照片，現在 Meta 要你的信箱和信用卡【AI新聞快報 2026/09/10】](data/ai-note-101/ai-note-101_BAFKKutYubU_keyframes.md) | 2026-09-09 |
+| [一通電話就能接管你的微信，一家紅隊公司用 AI 兩天寫出這個攻擊碼【AI新聞快報 2026/09/09】](data/ai-note-101/ai-note-101_Y40cCdonmls_keyframes.md) | 2026-09-09 |
 
 ### [富邦證券](data/fubonsec/)
 
