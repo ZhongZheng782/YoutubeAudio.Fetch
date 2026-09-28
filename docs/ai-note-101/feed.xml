@@ -9,12 +9,30 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YgRTpD7ftmc_keyframes/ai-note-101_YgRTpD7ftmc_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_f-0sEyeFI7g_keyframes/ai-note-101_f-0sEyeFI7g_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YgRTpD7ftmc_keyframes/ai-note-101_YgRTpD7ftmc_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_f-0sEyeFI7g_keyframes/ai-note-101_f-0sEyeFI7g_000000.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_f-0sEyeFI7g</guid>
+      <pubDate>Mon, 28 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=f-0sEyeFI7g</link>
+      <description>美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_f-0sEyeFI7g.m4a" type="audio/mp4" length="27202836"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_f-0sEyeFI7g.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>美俄聯手削弱殺手機器人規則【AI新聞快報 2026/09/28】</title>
+      <guid isPermaLink="false">ai-note-101_Hd6ijY_SalU</guid>
+      <pubDate>Sun, 27 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=Hd6ijY_SalU</link>
+      <description>美俄聯手削弱殺手機器人規則【AI新聞快報 2026/09/28】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_Hd6ijY_SalU.m4a" type="audio/mp4" length="6865568"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_Hd6ijY_SalU.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>AI 末日論是自利還是真心？《正義》作者 Sandel 跟諾貝爾經濟學家 Acemoglu 看法不同【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_YgRTpD7ftmc</guid>

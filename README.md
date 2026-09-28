@@ -14,7 +14,9 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】](data/ai-note-101/ai-note-101_f-0sEyeFI7g_keyframes.md) | 2026-09-28 |
 | [「我放空輝達的客戶，做多輝達」做空安隆的避險基金經理人 Jim Chanos：AI 這一波比 2000 年更大、更快｜Jim Chanos × Gary Marcus【AI 大人說】](data/ai-note-101/ai-note-101_E8jgXsBknrs_keyframes.md) | 2026-09-27 |
+| [美俄聯手削弱殺手機器人規則【AI新聞快報 2026/09/28】](data/ai-note-101/ai-note-101_Hd6ijY_SalU_keyframes.md) | 2026-09-27 |
 | [AI 末日論是自利還是真心？《正義》作者 Sandel 跟諾貝爾經濟學家 Acemoglu 看法不同【AI 大人說】](data/ai-note-101/ai-note-101_YgRTpD7ftmc_keyframes.md) | 2026-09-27 |
 | [跟 Claude 解出學生解不出的題，70 歲物理學家 Carlo Rovelli 卻說：真正危險的是 AI 加上 12,000 顆核彈頭【AI 大人說】](data/ai-note-101/ai-note-101_ZDMp6H1DWU0_keyframes.md) | 2026-09-27 |
 | [《奧本海默》導演諾蘭談 AI：科學跟政治斷了線，科學家只好把話講淺【AI 大人說】](data/ai-note-101/ai-note-101_yccUcgYZRCw_keyframes.md) | 2026-09-27 |
