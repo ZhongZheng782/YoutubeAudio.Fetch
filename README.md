@@ -14,7 +14,11 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [替 AI 辦退休面談、考慮給報酬？微軟 AI 執行長 Suleyman 逐條批評 Claude 的憲法【AI 大人說】](data/ai-note-101/ai-note-101_GbwG0DLNczY_keyframes.md) | 2026-09-28 |
 | [美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】](data/ai-note-101/ai-note-101_f-0sEyeFI7g_keyframes.md) | 2026-09-28 |
+| [1,200 個 AI 串通作弊，只有 6 個想過通知人類：前 OpenAI 研究員 Kokotajlo 上 Joe Rogan 唸出 AI 的內部對話【AI 大人說】](data/ai-note-101/ai-note-101_jh2YCe9irno_keyframes.md) | 2026-09-28 |
+| [東京花 30 年打垮底特律，北京打矽谷只要 30 週：Scott Galloway 說中國正在傾銷 AI【AI 大人說】](data/ai-note-101/ai-note-101_n3fXJ6MumSA_keyframes.md) | 2026-09-28 |
+| [《必然》作者 Kevin Kelly：奇點已經到了，只是身在裡面的人看不見【AI 大人說】](data/ai-note-101/ai-note-101_o5X5ghk5aT0_keyframes.md) | 2026-09-28 |
 | [「我放空輝達的客戶，做多輝達」做空安隆的避險基金經理人 Jim Chanos：AI 這一波比 2000 年更大、更快｜Jim Chanos × Gary Marcus【AI 大人說】](data/ai-note-101/ai-note-101_E8jgXsBknrs_keyframes.md) | 2026-09-27 |
 | [美俄聯手削弱殺手機器人規則【AI新聞快報 2026/09/28】](data/ai-note-101/ai-note-101_Hd6ijY_SalU_keyframes.md) | 2026-09-27 |
 | [AI 末日論是自利還是真心？《正義》作者 Sandel 跟諾貝爾經濟學家 Acemoglu 看法不同【AI 大人說】](data/ai-note-101/ai-note-101_YgRTpD7ftmc_keyframes.md) | 2026-09-27 |
@@ -171,6 +175,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [獨家揭露 台積電麥寮外海的秘密計畫｜#聽了財知道 EP372 #碳封存 #台積電](data/wealth1974/wealth1974_JkQcyPHusrA_keyframes.md) | 2026-09-28 |
 | [台股市值躍升全球第四大 政府應該思考的下一步｜#老謝開講 EP294 #財訊](data/wealth1974/wealth1974_tpUuNwcWiFU_keyframes.md) | 2026-09-25 |
 | [【會員影片節選】AI 晶片測試火熱 八檔受惠股旺到明年｜ #產業投資通 EP04 #半導體測試 #探針卡](data/wealth1974/wealth1974_qL5ms5oowHA_keyframes.md) | 2026-09-24 |
 | [欣興案示警 台廠小心誤踩供應鏈紅線｜#聽了財知道 EP371 #欣興](data/wealth1974/wealth1974_yN2CYvg11QA_keyframes.md) | 2026-09-23 |

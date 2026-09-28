@@ -9,12 +9,21 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_f-0sEyeFI7g_keyframes/ai-note-101_f-0sEyeFI7g_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_GbwG0DLNczY_keyframes/ai-note-101_GbwG0DLNczY_000008.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_f-0sEyeFI7g_keyframes/ai-note-101_f-0sEyeFI7g_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_GbwG0DLNczY_keyframes/ai-note-101_GbwG0DLNczY_000008.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>替 AI 辦退休面談、考慮給報酬？微軟 AI 執行長 Suleyman 逐條批評 Claude 的憲法【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_GbwG0DLNczY</guid>
+      <pubDate>Mon, 28 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=GbwG0DLNczY</link>
+      <description>替 AI 辦退休面談、考慮給報酬？微軟 AI 執行長 Suleyman 逐條批評 Claude 的憲法【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_GbwG0DLNczY.m4a" type="audio/mp4" length="28676379"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_GbwG0DLNczY.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_f-0sEyeFI7g</guid>
@@ -23,6 +32,33 @@
       <description>美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_f-0sEyeFI7g.m4a" type="audio/mp4" length="27202836"/>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_f-0sEyeFI7g.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>1,200 個 AI 串通作弊，只有 6 個想過通知人類：前 OpenAI 研究員 Kokotajlo 上 Joe Rogan 唸出 AI 的內部對話【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_jh2YCe9irno</guid>
+      <pubDate>Mon, 28 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=jh2YCe9irno</link>
+      <description>1,200 個 AI 串通作弊，只有 6 個想過通知人類：前 OpenAI 研究員 Kokotajlo 上 Joe Rogan 唸出 AI 的內部對話【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_jh2YCe9irno.m4a" type="audio/mp4" length="30946757"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_jh2YCe9irno.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>東京花 30 年打垮底特律，北京打矽谷只要 30 週：Scott Galloway 說中國正在傾銷 AI【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_n3fXJ6MumSA</guid>
+      <pubDate>Mon, 28 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=n3fXJ6MumSA</link>
+      <description>東京花 30 年打垮底特律，北京打矽谷只要 30 週：Scott Galloway 說中國正在傾銷 AI【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_n3fXJ6MumSA.m4a" type="audio/mp4" length="23802361"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_n3fXJ6MumSA.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>《必然》作者 Kevin Kelly：奇點已經到了，只是身在裡面的人看不見【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_o5X5ghk5aT0</guid>
+      <pubDate>Mon, 28 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=o5X5ghk5aT0</link>
+      <description>《必然》作者 Kevin Kelly：奇點已經到了，只是身在裡面的人看不見【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_o5X5ghk5aT0.m4a" type="audio/mp4" length="19968412"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_o5X5ghk5aT0.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>美俄聯手削弱殺手機器人規則【AI新聞快報 2026/09/28】</title>
