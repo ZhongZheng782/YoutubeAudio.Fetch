@@ -9,12 +9,21 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_GbwG0DLNczY_keyframes/ai-note-101_GbwG0DLNczY_000008.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_BN-vpcHsQOo_keyframes/ai-note-101_BN-vpcHsQOo_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_GbwG0DLNczY_keyframes/ai-note-101_GbwG0DLNczY_000008.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_BN-vpcHsQOo_keyframes/ai-note-101_BN-vpcHsQOo_000000.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>Boom遭Crusoe退掉12.5億美元大單，超音速夢押上同一顆引擎【AI新聞快報 2026/09/29】</title>
+      <guid isPermaLink="false">ai-note-101_BN-vpcHsQOo</guid>
+      <pubDate>Mon, 28 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=BN-vpcHsQOo</link>
+      <description>Boom遭Crusoe退掉12.5億美元大單，超音速夢押上同一顆引擎【AI新聞快報 2026/09/29】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_BN-vpcHsQOo.m4a" type="audio/mp4" length="5813240"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_BN-vpcHsQOo.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>替 AI 辦退休面談、考慮給報酬？微軟 AI 執行長 Suleyman 逐條批評 Claude 的憲法【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_GbwG0DLNczY</guid>

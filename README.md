@@ -14,6 +14,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [Boom遭Crusoe退掉12.5億美元大單，超音速夢押上同一顆引擎【AI新聞快報 2026/09/29】](data/ai-note-101/ai-note-101_BN-vpcHsQOo_keyframes.md) | 2026-09-28 |
 | [替 AI 辦退休面談、考慮給報酬？微軟 AI 執行長 Suleyman 逐條批評 Claude 的憲法【AI 大人說】](data/ai-note-101/ai-note-101_GbwG0DLNczY_keyframes.md) | 2026-09-28 |
 | [美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】](data/ai-note-101/ai-note-101_f-0sEyeFI7g_keyframes.md) | 2026-09-28 |
 | [1,200 個 AI 串通作弊，只有 6 個想過通知人類：前 OpenAI 研究員 Kokotajlo 上 Joe Rogan 唸出 AI 的內部對話【AI 大人說】](data/ai-note-101/ai-note-101_jh2YCe9irno_keyframes.md) | 2026-09-28 |
@@ -222,6 +223,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/9/29(二)10年美債殖利率 升破5.2%!債市會把股市 拖下水嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_wBb7G4Ifd34_keyframes.md) | 2026-09-29 |
 | [2026/9/23(三)5%殖利率也擋不住FOMO？AI狂潮推那指再創新高【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_Xlj2cBFC7_s_keyframes.md) | 2026-09-23 |
 | [2026/9/22(二)那指創新高!個股沒跟上?美股重新押注AI 不怕高利率了？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_U4RH_CPe3GQ_keyframes.md) | 2026-09-22 |
 | [2026/9/21(一)美股最危險組合:油價100美元+美債5% 川習會登場 利多還有戲?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_EJdsmRgakkU_keyframes.md) | 2026-09-21 |
