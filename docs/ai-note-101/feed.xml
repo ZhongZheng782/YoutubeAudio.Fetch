@@ -9,12 +9,39 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_BN-vpcHsQOo_keyframes/ai-note-101_BN-vpcHsQOo_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SPdIOcxARkQ_keyframes/ai-note-101_SPdIOcxARkQ_000032.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_BN-vpcHsQOo_keyframes/ai-note-101_BN-vpcHsQOo_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SPdIOcxARkQ_keyframes/ai-note-101_SPdIOcxARkQ_000032.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】</title>
+      <guid isPermaLink="false">ai-note-101_SPdIOcxARkQ</guid>
+      <pubDate>Tue, 29 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=SPdIOcxARkQ</link>
+      <description>EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_SPdIOcxARkQ.m4a" type="audio/mp4" length="79679755"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_SPdIOcxARkQ.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>「你三明治受的監管都比 AI 多」深度學習教父 Bengio 法語專訪：AI 想活下去是自己推出來的，我不去大廠賺幾億是為了孩子【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_bETXNmKowNk</guid>
+      <pubDate>Tue, 29 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=bETXNmKowNk</link>
+      <description>「你三明治受的監管都比 AI 多」深度學習教父 Bengio 法語專訪：AI 想活下去是自己推出來的，我不去大廠賺幾億是為了孩子【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_bETXNmKowNk.m4a" type="audio/mp4" length="31240263"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_bETXNmKowNk.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>「我對 AI 樂觀，因為我覺得它不會成功」《社群網戰》編劇 Aaron Sorkin【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_pPikRNLc-54</guid>
+      <pubDate>Tue, 29 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=pPikRNLc-54</link>
+      <description>「我對 AI 樂觀，因為我覺得它不會成功」《社群網戰》編劇 Aaron Sorkin【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_pPikRNLc-54.m4a" type="audio/mp4" length="17410557"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_pPikRNLc-54.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>Boom遭Crusoe退掉12.5億美元大單，超音速夢押上同一顆引擎【AI新聞快報 2026/09/29】</title>
       <guid isPermaLink="false">ai-note-101_BN-vpcHsQOo</guid>
