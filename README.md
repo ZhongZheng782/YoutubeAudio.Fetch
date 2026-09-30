@@ -14,6 +14,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [Anthropic 把末日風險與兩兆美元 IPO 綁在一起【AI新聞快報 2026/09/30】](data/ai-note-101/ai-note-101_4fpL7-fvzIQ_keyframes.md) | 2026-09-29 |
 | [EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_SPdIOcxARkQ_keyframes.md) | 2026-09-29 |
 | [「你三明治受的監管都比 AI 多」深度學習教父 Bengio 法語專訪：AI 想活下去是自己推出來的，我不去大廠賺幾億是為了孩子【AI 大人說】](data/ai-note-101/ai-note-101_bETXNmKowNk_keyframes.md) | 2026-09-29 |
 | [「我對 AI 樂觀，因為我覺得它不會成功」《社群網戰》編劇 Aaron Sorkin【AI 大人說】](data/ai-note-101/ai-note-101_pPikRNLc-54_keyframes.md) | 2026-09-29 |

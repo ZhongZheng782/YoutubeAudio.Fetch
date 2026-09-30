@@ -9,12 +9,21 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SPdIOcxARkQ_keyframes/ai-note-101_SPdIOcxARkQ_000032.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_4fpL7-fvzIQ_keyframes/ai-note-101_4fpL7-fvzIQ_000010.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SPdIOcxARkQ_keyframes/ai-note-101_SPdIOcxARkQ_000032.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_4fpL7-fvzIQ_keyframes/ai-note-101_4fpL7-fvzIQ_000010.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>Anthropic 把末日風險與兩兆美元 IPO 綁在一起【AI新聞快報 2026/09/30】</title>
+      <guid isPermaLink="false">ai-note-101_4fpL7-fvzIQ</guid>
+      <pubDate>Tue, 29 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=4fpL7-fvzIQ</link>
+      <description>Anthropic 把末日風險與兩兆美元 IPO 綁在一起【AI新聞快報 2026/09/30】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_4fpL7-fvzIQ.m4a" type="audio/mp4" length="7970553"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_4fpL7-fvzIQ.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】</title>
       <guid isPermaLink="false">ai-note-101_SPdIOcxARkQ</guid>
