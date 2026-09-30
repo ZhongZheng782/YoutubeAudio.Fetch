@@ -9,12 +9,21 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>Smart智富月刊 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_HLeipjrNbik_keyframes/smartmonthly-bw_HLeipjrNbik_000133.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_opHWowpsGA8_keyframes/smartmonthly-bw_opHWowpsGA8_000010.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_HLeipjrNbik_keyframes/smartmonthly-bw_HLeipjrNbik_000133.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_opHWowpsGA8_keyframes/smartmonthly-bw_opHWowpsGA8_000010.jpg</url>
       <title>Smart智富月刊</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>AI股獲利了結後，錢可以擺在哪裡? 帶您關注『潛力市場』的配置機會｜詹璇依、黃大展│Smart投資教室</title>
+      <guid isPermaLink="false">smartmonthly-bw_opHWowpsGA8</guid>
+      <pubDate>Wed, 30 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=opHWowpsGA8</link>
+      <description>AI股獲利了結後，錢可以擺在哪裡? 帶您關注『潛力市場』的配置機會｜詹璇依、黃大展│Smart投資教室</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_opHWowpsGA8.m4a" type="audio/mp4" length="57367085"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_opHWowpsGA8.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>央行第7波信用管制滿兩週年，成屋買氣有感回溫？｜永慶房屋陳賜傑、Amy｜房產關鍵字</title>
       <guid isPermaLink="false">smartmonthly-bw_HLeipjrNbik</guid>

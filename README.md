@@ -14,6 +14,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [EP10/23｜解釋 AI 的方法也要分級：錯的解釋比黑箱更危險、TRUST 五層證據、她拿同一把尺量自己的方法 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_YU5ESeka-CE_keyframes.md) | 2026-09-30 |
+| [歐巴馬談 AI：喊放慢的公司「是真的在擔心自己的產品」【AI 大人說】](data/ai-note-101/ai-note-101_s54ekGQsYRs_keyframes.md) | 2026-09-30 |
 | [Anthropic 把末日風險與兩兆美元 IPO 綁在一起【AI新聞快報 2026/09/30】](data/ai-note-101/ai-note-101_4fpL7-fvzIQ_keyframes.md) | 2026-09-29 |
 | [EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_SPdIOcxARkQ_keyframes.md) | 2026-09-29 |
 | [「你三明治受的監管都比 AI 多」深度學習教父 Bengio 法語專訪：AI 想活下去是自己推出來的，我不去大廠賺幾億是為了孩子【AI 大人說】](data/ai-note-101/ai-note-101_bETXNmKowNk_keyframes.md) | 2026-09-29 |
@@ -106,6 +108,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [AI股獲利了結後，錢可以擺在哪裡? 帶您關注『潛力市場』的配置機會｜詹璇依、黃大展│Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_opHWowpsGA8_keyframes.md) | 2026-09-30 |
 | [央行第7波信用管制滿兩週年，成屋買氣有感回溫？｜永慶房屋陳賜傑、Amy｜房產關鍵字](data/smartmonthly-bw/smartmonthly-bw_HLeipjrNbik_keyframes.md) | 2026-09-29 |
 | [FED還會升息幾次？利率會升到多高？台股何時可能反轉？造成通膨失控的潛在危機是什麼？｜峰哥｜Smart智富．投資的一千零一夜252](data/smartmonthly-bw/smartmonthly-bw_V35DrgT3U7w_keyframes.md) | 2026-09-26 |
 | [韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes.md) | 2026-09-25 |
@@ -181,6 +184,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [高利率時代的資產配置 靠一關鍵突破升息逆風！｜#聽了財知道 EP373 #升息 #聯準會](data/wealth1974/wealth1974_mPb3BC9Z1OM_keyframes.md) | 2026-09-30 |
 | [獨家揭露 台積電麥寮外海的秘密計畫｜#聽了財知道 EP372 #碳封存 #台積電](data/wealth1974/wealth1974_JkQcyPHusrA_keyframes.md) | 2026-09-28 |
 | [台股市值躍升全球第四大 政府應該思考的下一步｜#老謝開講 EP294 #財訊](data/wealth1974/wealth1974_tpUuNwcWiFU_keyframes.md) | 2026-09-25 |
 | [【會員影片節選】AI 晶片測試火熱 八檔受惠股旺到明年｜ #產業投資通 EP04 #半導體測試 #探針卡](data/wealth1974/wealth1974_qL5ms5oowHA_keyframes.md) | 2026-09-24 |
@@ -228,6 +232,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/9/30(三)利率越漲 美股越不跌？數兆美元豪賭 AI驗收期到了嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_eHz1_TGAo4I_keyframes.md) | 2026-09-30 |
 | [2026/9/29(二)10年美債殖利率 升破5.2%!債市會把股市 拖下水嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_wBb7G4Ifd34_keyframes.md) | 2026-09-29 |
 | [2026/9/23(三)5%殖利率也擋不住FOMO？AI狂潮推那指再創新高【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_Xlj2cBFC7_s_keyframes.md) | 2026-09-23 |
 | [2026/9/22(二)那指創新高!個股沒跟上?美股重新押注AI 不怕高利率了？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_U4RH_CPe3GQ_keyframes.md) | 2026-09-22 |

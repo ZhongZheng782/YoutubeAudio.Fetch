@@ -9,12 +9,30 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_4fpL7-fvzIQ_keyframes/ai-note-101_4fpL7-fvzIQ_000010.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YU5ESeka-CE_keyframes/ai-note-101_YU5ESeka-CE_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_4fpL7-fvzIQ_keyframes/ai-note-101_4fpL7-fvzIQ_000010.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YU5ESeka-CE_keyframes/ai-note-101_YU5ESeka-CE_000000.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>EP10/23｜解釋 AI 的方法也要分級：錯的解釋比黑箱更危險、TRUST 五層證據、她拿同一把尺量自己的方法 【AI可解釋性 - 2026 UCLA工作坊】</title>
+      <guid isPermaLink="false">ai-note-101_YU5ESeka-CE</guid>
+      <pubDate>Wed, 30 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=YU5ESeka-CE</link>
+      <description>EP10/23｜解釋 AI 的方法也要分級：錯的解釋比黑箱更危險、TRUST 五層證據、她拿同一把尺量自己的方法 【AI可解釋性 - 2026 UCLA工作坊】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_YU5ESeka-CE.m4a" type="audio/mp4" length="61981643"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YU5ESeka-CE.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>歐巴馬談 AI：喊放慢的公司「是真的在擔心自己的產品」【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_s54ekGQsYRs</guid>
+      <pubDate>Wed, 30 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=s54ekGQsYRs</link>
+      <description>歐巴馬談 AI：喊放慢的公司「是真的在擔心自己的產品」【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_s54ekGQsYRs.m4a" type="audio/mp4" length="46805192"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_s54ekGQsYRs.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>Anthropic 把末日風險與兩兆美元 IPO 綁在一起【AI新聞快報 2026/09/30】</title>
       <guid isPermaLink="false">ai-note-101_4fpL7-fvzIQ</guid>
