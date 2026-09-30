@@ -7,7 +7,7 @@ description: 以 GitHub issue 觸發 Mac-mini 上的 whisper 轉錄 pipeline（s
 
 | 項目 | 內容 |
 | :--- | :--- |
-| 版本 | 1.0.0（詳見 `metadata.json`） |
+| 版本 | 1.0.3（詳見 `metadata.json`） |
 | 來源 | https://github.com/wenchiehlee/InvestorConference |
 | 登錄庫 | https://github.com/wenchiehlee/skills （`common/skill-mlx-api-client-whisper`） |
 | 維護者 | wenchiehlee |
@@ -19,7 +19,7 @@ description: 以 GitHub issue 觸發 Mac-mini 上的 whisper 轉錄 pipeline（s
 
 1. 本技能在**目標 repo**（跑 pipeline 的 Mac-mini repo）開一張帶 `generate-FIN` label 的 issue，附上 YAML metadata
 2. Mac-mini 上的 self-hosted runner（`run-pipeline.yml`）監聽到 label 後接手執行
-3. 執行完成後，結果（`FIN.srt`/`GT.srt`）會被 sync 回**本 repo**（你呼叫此技能所在的 repo）
+3. 執行完成後，Mac-mini 只會把 `FIN.srt` sync 回**本 repo**（你呼叫此技能所在的 repo）；`GT.srt` 由本 repo 維護，Mac-mini 的 GroundTrue 只是 cache
 4. 呼叫方（例如排程或下一次執行）呼叫 `check_fin_status` / `close_if_done` 確認完成並關閉 issue
 
 ## 📦 技能結構說明
@@ -52,6 +52,10 @@ REPO_FILE_SYNC_ZHONGZHENG782_MONEY=<PAT，僅需 WHISPER_TARGET_REPO 的 Issues:
 
 > `WHISPER_SOURCE_TYPE=investor_conference` 時 stem 需符合 `{stock_id}_{year}_q{quarter}`；`youtube` 時需符合 `{channel}_{video_id}`（video_id 固定 11 碼）。詳見 `skill-mlx-api-server-whisper` SKILL.md 的 stem 規則表。
 
+## 📊 AI Model Usage 統計
+
+Whisper 的模型使用量由 `skill-mlx-api-server-whisper` pipeline 送出，不是由本 issue client 直接送出。本 client 的責任是把 `source_repo`、`source_type`、`stem` 等 metadata 傳清楚，讓 server pipeline 能在 `transcription`、`merge`、`punct` 等 stage 分別記錄 `provider`、`model`、`model_repo` 與 `app_name`。報表解讀時不要把 issue 建立數量當作模型呼叫量；以 server pipeline 的 `llm_call` 為準。
+
 ## 🚀 使用方式
 
 ### 方式 A：批次同步整個 manifest
@@ -79,11 +83,11 @@ python scripts/whisper_issue_client.py status some-channel_dQw4w9WgXcQ
 
 ## 🔁 GT 修正迴圈（`refine_fin_srt`）
 
-若 GT.srt 在本 repo 被人工修正過，想讓 Mac-mini 重新跑 CER 評分（不需要重新轉錄），呼叫時指定 `task_type="refine_fin_srt"`：
+若 GT.srt 在本 repo 被人工修正過，本 repo 是 GT owner；Mac-mini 不會把 cache GT 回推覆蓋本 repo。想讓 Mac-mini 重新拉最新 GT 並重跑 CER 評分（不需要重新轉錄），呼叫時指定 `task_type="refine_fin_srt"`：
 ```python
 client.open_fin_request(stem, audio_url, task_type="refine_fin_srt")
 ```
-GT 校正原則見 `skill-mlx-api-server-whisper` SKILL.md：語境相依的修正只留在 GT，不會自動被學習進 `company-configs` 的 corrections 字典。
+GT 校正原則見 `skill-mlx-api-server-whisper` SKILL.md：語境相依的修正只留在 GT，不會自動被學習進 `company-configs` 的 corrections 字典。若本 repo 有 `data/**/*_GT.srt` 更新通知 workflow，可直接 dispatch Mac-mini `run-pipeline.yml`，並帶 `skip_transcribe=true`。
 
 ## 🔄 版本管理與更新
 - 唯一可信來源為 skills 登錄庫中的 `common/skill-mlx-api-client-whisper`；各專案（InvestorConference、YoutubeAudio.Fetch）內的副本皆由登錄庫部署而來
