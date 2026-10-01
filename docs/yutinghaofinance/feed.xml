@@ -9,9 +9,9 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>游庭皓的財經皓角 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_eHz1_TGAo4I_keyframes/yutinghaofinance_eHz1_TGAo4I_000104.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_FsIraI_ezPI_keyframes/yutinghaofinance_FsIraI_ezPI_000036.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_eHz1_TGAo4I_keyframes/yutinghaofinance_eHz1_TGAo4I_000104.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_FsIraI_ezPI_keyframes/yutinghaofinance_FsIraI_ezPI_000036.jpg</url>
       <title>游庭皓的財經皓角</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
@@ -22,6 +22,7 @@
       <link>https://www.youtube.com/watch?v=FsIraI_ezPI</link>
       <description>2026/10/1(四)美股詭異行情!債市拉警報 基本面卻上修?八成個股下跌 AI能撐多久?【早晨財經速解讀】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_FsIraI_ezPI.m4a" type="audio/mp4" length="68553129"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_FsIraI_ezPI.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>2026/9/30(三)利率越漲 美股越不跌？數兆美元豪賭 AI驗收期到了嗎?【早晨財經速解讀】</title>

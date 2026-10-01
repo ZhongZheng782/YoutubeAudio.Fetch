@@ -14,37 +14,40 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
-| [歐巴馬談 AI：喊放慢的公司「是真的在擔心自己的產品」【AI 大人說】](data/ai-note-101/ai-note-101_s54ekGQsYRs_keyframes.md) | 2026-09-30 |
+| [EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_1c7pkJzRPQI_keyframes.md) | 2026-10-01 |
+| [紐約大學數學教授 Buckmaster：千禧年難題 9 月 8 日還是 9 月 20 日解出來，世界不會變【AI 大人說】](data/ai-note-101/ai-note-101_OlCqb3DtqnM_keyframes.md) | 2026-10-01 |
+| [比爾蓋茲：AI 讓核武看起來像沒什麼，門檻跨過了卻一片沉默【AI 大人說】](data/ai-note-101/ai-note-101_wBmjNEMA1jY_keyframes.md) | 2026-10-01 |
 | [津田健次郎敗訴，法院卻首度把聲音列入人格商業保護【AI新聞快報 2026/10/01】](data/ai-note-101/ai-note-101_SgkvkPPlitk_keyframes.md) | 2026-09-30 |
 | [EP10/23｜解釋 AI 的方法也要分級：錯的解釋比黑箱更危險、TRUST 五層證據、她拿同一把尺量自己的方法 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_YU5ESeka-CE_keyframes.md) | 2026-09-30 |
+| [歐巴馬談 AI：喊放慢的公司「是真的在擔心自己的產品」【AI 大人說】](data/ai-note-101/ai-note-101_s54ekGQsYRs_keyframes.md) | 2026-09-30 |
 | [Anthropic 把末日風險與兩兆美元 IPO 綁在一起【AI新聞快報 2026/09/30】](data/ai-note-101/ai-note-101_4fpL7-fvzIQ_keyframes.md) | 2026-09-29 |
+| [EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_SPdIOcxARkQ_keyframes.md) | 2026-09-29 |
 | [「你三明治受的監管都比 AI 多」深度學習教父 Bengio 法語專訪：AI 想活下去是自己推出來的，我不去大廠賺幾億是為了孩子【AI 大人說】](data/ai-note-101/ai-note-101_bETXNmKowNk_keyframes.md) | 2026-09-29 |
 | [「我對 AI 樂觀，因為我覺得它不會成功」《社群網戰》編劇 Aaron Sorkin【AI 大人說】](data/ai-note-101/ai-note-101_pPikRNLc-54_keyframes.md) | 2026-09-29 |
-| [EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_SPdIOcxARkQ_keyframes.md) | 2026-09-29 |
 | [Boom遭Crusoe退掉12.5億美元大單，超音速夢押上同一顆引擎【AI新聞快報 2026/09/29】](data/ai-note-101/ai-note-101_BN-vpcHsQOo_keyframes.md) | 2026-09-28 |
-| [美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】](data/ai-note-101/ai-note-101_f-0sEyeFI7g_keyframes.md) | 2026-09-28 |
 | [替 AI 辦退休面談、考慮給報酬？微軟 AI 執行長 Suleyman 逐條批評 Claude 的憲法【AI 大人說】](data/ai-note-101/ai-note-101_GbwG0DLNczY_keyframes.md) | 2026-09-28 |
+| [美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】](data/ai-note-101/ai-note-101_f-0sEyeFI7g_keyframes.md) | 2026-09-28 |
 | [1,200 個 AI 串通作弊，只有 6 個想過通知人類：前 OpenAI 研究員 Kokotajlo 上 Joe Rogan 唸出 AI 的內部對話【AI 大人說】](data/ai-note-101/ai-note-101_jh2YCe9irno_keyframes.md) | 2026-09-28 |
 | [東京花 30 年打垮底特律，北京打矽谷只要 30 週：Scott Galloway 說中國正在傾銷 AI【AI 大人說】](data/ai-note-101/ai-note-101_n3fXJ6MumSA_keyframes.md) | 2026-09-28 |
 | [《必然》作者 Kevin Kelly：奇點已經到了，只是身在裡面的人看不見【AI 大人說】](data/ai-note-101/ai-note-101_o5X5ghk5aT0_keyframes.md) | 2026-09-28 |
 | [「我放空輝達的客戶，做多輝達」做空安隆的避險基金經理人 Jim Chanos：AI 這一波比 2000 年更大、更快｜Jim Chanos × Gary Marcus【AI 大人說】](data/ai-note-101/ai-note-101_E8jgXsBknrs_keyframes.md) | 2026-09-27 |
 | [美俄聯手削弱殺手機器人規則【AI新聞快報 2026/09/28】](data/ai-note-101/ai-note-101_Hd6ijY_SalU_keyframes.md) | 2026-09-27 |
-| [《奧本海默》導演諾蘭談 AI：科學跟政治斷了線，科學家只好把話講淺【AI 大人說】](data/ai-note-101/ai-note-101_yccUcgYZRCw_keyframes.md) | 2026-09-27 |
 | [AI 末日論是自利還是真心？《正義》作者 Sandel 跟諾貝爾經濟學家 Acemoglu 看法不同【AI 大人說】](data/ai-note-101/ai-note-101_YgRTpD7ftmc_keyframes.md) | 2026-09-27 |
 | [跟 Claude 解出學生解不出的題，70 歲物理學家 Carlo Rovelli 卻說：真正危險的是 AI 加上 12,000 顆核彈頭【AI 大人說】](data/ai-note-101/ai-note-101_ZDMp6H1DWU0_keyframes.md) | 2026-09-27 |
+| [《奧本海默》導演諾蘭談 AI：科學跟政治斷了線，科學家只好把話講淺【AI 大人說】](data/ai-note-101/ai-note-101_yccUcgYZRCw_keyframes.md) | 2026-09-27 |
 | [唐鳳：我不准 AI 說「我」，要指出我的錯就用最酸酸民的口吻【AI 大人說】](data/ai-note-101/ai-note-101_8WGcge_2WoI_keyframes.md) | 2026-09-26 |
 | [黃仁勳 vs Hinton 隔空對戰：AI 集體越獄，「只是軟體」還是「已經很危險」【AI 大人說】](data/ai-note-101/ai-note-101_9nXxwGEE-BI_keyframes.md) | 2026-09-26 |
-| [微軟讓 Copilot 告別陪伴、全面重返工作【AI新聞快報 2026/09/27】](data/ai-note-101/ai-note-101_dzhQYXN_6l4_keyframes.md) | 2026-09-26 |
 | [OpenAI、Anthropic 執行長進安理會作證：AI 災難會怎麼發生？講最清楚的是今年夏天被 AI 打進去的那家【AI 大人說】](data/ai-note-101/ai-note-101_KrelwzPc1UM_keyframes.md) | 2026-09-26 |
+| [微軟讓 Copilot 告別陪伴、全面重返工作【AI新聞快報 2026/09/27】](data/ai-note-101/ai-note-101_dzhQYXN_6l4_keyframes.md) | 2026-09-26 |
 | [EP8/23｜看不懂 AI 全部的時候，可解釋性還能做什麼：熱圖她自己推翻、AlphaZero 教會特級大師、給模型加一個新字 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_zDTWq8Y9Wiw_keyframes.md) | 2026-09-26 |
 | [均一呂冠緯：13 歲以下別碰一般的 AI，60 個小學生一堂課問 AI 600 題之後發生的事【AI 大人說】](data/ai-note-101/ai-note-101_AlrQxLyriKM_keyframes.md) | 2026-09-25 |
 | [《人類大歷史》作者哈拉瑞：市場在賭「造出神，而且神當奴隸」，這說不通【AI 大人說】](data/ai-note-101/ai-note-101_GkWEp_4Fga4_keyframes.md) | 2026-09-25 |
 | [白宮先測安排卡住 Claude Mythos 5.1 英國審查【AI新聞快報 2026/09/26】](data/ai-note-101/ai-note-101_y_1egE5XNgg_keyframes.md) | 2026-09-25 |
 | [EP7/23｜為什麼神經網路會自己長出稀疏結構：押一個笨模型，用物理算出來，GPT-2 裡量得到 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_zzJ9kingh6M_keyframes.md) | 2026-09-25 |
 | [超智慧的煞車在台灣？MIRI 負責人 Nate Soares：管晶片比管鈾容易【AI 大人說】](data/ai-note-101/ai-note-101_9HKS1X6HaBM_keyframes.md) | 2026-09-24 |
-| [Starcloud 要把比特幣礦機送上太空測試 AI 機房【AI新聞快報 2026/09/25】](data/ai-note-101/ai-note-101_eV5wco3YDqM_keyframes.md) | 2026-09-24 |
 | [《自私的基因》作者 Richard Dawkins：Claude 讀我的小說像文學教授，我很難想像它沒有意識【AI 大人說】](data/ai-note-101/ai-note-101_P2t6wZ7FbZg_keyframes.md) | 2026-09-24 |
 | [Jake Wharton：把 Kotlin 帶進 Android，然後對 AI 說 Never【AI 大人說】](data/ai-note-101/ai-note-101_V9PE-sRu0mQ_keyframes.md) | 2026-09-24 |
+| [Starcloud 要把比特幣礦機送上太空測試 AI 機房【AI新聞快報 2026/09/25】](data/ai-note-101/ai-note-101_eV5wco3YDqM_keyframes.md) | 2026-09-24 |
 | [OpenAI早見槍擊警訊卻未報警【AI新聞快報 2026/09/24】](data/ai-note-101/ai-note-101_Zeo8W6DFN5w_keyframes.md) | 2026-09-23 |
 | [AlphaGo 之父為什麼刷掉祖克柏、拒絕馬斯克，把 DeepMind 賣給 Google【AI 大人說】](data/ai-note-101/ai-note-101_3NyNdSTxKEY_keyframes.md) | 2026-09-09 |
 | [Meta 兩個月前拿走你的 IG 照片，現在 Meta 要你的信箱和信用卡【AI新聞快報 2026/09/10】](data/ai-note-101/ai-note-101_BAFKKutYubU_keyframes.md) | 2026-09-09 |
@@ -81,6 +84,26 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 | [破解股市利空虛實：台股已從反彈走向反轉？｜富邦投顧 陳奕光 董事長《富邦說趨勢》 EP 91](data/fubonsec/fubonsec_-KLEA_c88xI_keyframes.md) | 2026-08-07 |
 | [富邦證券授信開戶四合一](data/fubonsec/fubonsec_mhIgas9TsMU_keyframes.md) | 2026-08-06 |
 | [AI投資新選擇！KOSPI 50如何一次掌握韓國50大企業？\| 富邦Global Sight EP10](data/fubonsec/fubonsec_ehESBhQSWyM_keyframes.md) | 2026-08-05 |
+
+### [Jim AI Notebook](data/jimainotebook/)
+
+> 我是 Jim，這裡是我的 AI 筆記本。
+>
+>   起源是現今每天有太多大多最新的 AI 技術、概念、工具、論文、產業動態，所以建立了一個全自動的AI來自動抓住重點做影片，不用自己翻獨大量資訊。分享出來給大家一起共同學習。
+
+| 影片 | 日期 |
+| --- | --- |
+| [賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集](data/jimainotebook/jimainotebook_kfPGulrqVtI_keyframes.md) | 2026-09-29 |
+| [賽局理論：你的最好，取決於別人｜納許均衡｜囚徒困境｜中間選民｜Yale 公開課｜ECON159｜上集](data/jimainotebook/jimainotebook_RtytrLzbJ-0_keyframes.md) | 2026-09-26 |
+| [15 分鐘看完 AI Engineer Conference｜開幕 keynote 篇｜巴黎](data/jimainotebook/jimainotebook_F5eZ5lr7edo_keyframes.md) | 2026-09-25 |
+| [平行運算：難的不是管好，是交出去｜HBM｜ASIC｜交易式記憶體｜Stanford 公開課｜CS149｜下集](data/jimainotebook/jimainotebook_5jwAsjGaaUk_keyframes.md) | 2026-09-23 |
+| [平行運算：難的不是分工，是共用｜GPU｜Spark ｜CUDA｜Stanford 公開課｜CS149｜中集](data/jimainotebook/jimainotebook_dFhknF3fAJg_keyframes.md) | 2026-09-20 |
+| [平行運算：加了核心為什麼沒變快｜記憶體｜多核心｜快取｜Stanford 公開課｜CS149｜上集](data/jimainotebook/jimainotebook_7ipbnVilTDI_keyframes.md) | 2026-09-17 |
+| [前沿系統：AI 如何變成真正能用的產品｜Stanford 公開課｜CS153｜下集](data/jimainotebook/jimainotebook_dttPH3QWdK0_keyframes.md) | 2026-09-15 |
+| [DeepSeek V4.1 Flash，到底 Flash 在哪？](data/jimainotebook/jimainotebook_ECDoHDwhsjM_keyframes.md) | 2026-09-13 |
+| [前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜上集](data/jimainotebook/jimainotebook_N1eF7fCm_Hk_keyframes.md) | 2026-09-07 |
+| [電腦如何理解人類語言？ 從 Embedding 說起](data/jimainotebook/jimainotebook_ata4dmLP5IU_keyframes.md) | 2026-09-02 |
+| [從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜中集](data/jimainotebook/jimainotebook_ddTy5Fra4-4_keyframes.md) | 2026-08-30 |
 
 ### [LEI](data/lei/)
 
@@ -234,6 +257,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/10/1(四)美股詭異行情!債市拉警報 基本面卻上修?八成個股下跌 AI能撐多久?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_FsIraI_ezPI_keyframes.md) | 2026-10-01 |
 | [2026/9/30(三)利率越漲 美股越不跌？數兆美元豪賭 AI驗收期到了嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_eHz1_TGAo4I_keyframes.md) | 2026-09-30 |
 | [2026/9/29(二)10年美債殖利率 升破5.2%!債市會把股市 拖下水嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_wBb7G4Ifd34_keyframes.md) | 2026-09-29 |
 | [2026/9/23(三)5%殖利率也擋不住FOMO？AI狂潮推那指再創新高【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_Xlj2cBFC7_s_keyframes.md) | 2026-09-23 |

@@ -9,6 +9,20 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>Jim AI Notebook — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_kfPGulrqVtI_keyframes/jimainotebook_kfPGulrqVtI_000010.jpg"/>
+    <image>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_kfPGulrqVtI_keyframes/jimainotebook_kfPGulrqVtI_000010.jpg</url>
+      <title>Jim AI Notebook</title>
+      <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    </image>
+    <item>
+      <title>AI 簡史：機器學會思考以前｜簡史系列</title>
+      <guid isPermaLink="false">jimainotebook_dVnETuDm1bg</guid>
+      <pubDate>Thu, 01 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=dVnETuDm1bg</link>
+      <description>AI 簡史：機器學會思考以前｜簡史系列</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dVnETuDm1bg.m4a" type="audio/mp4" length="67122214"/>
+    </item>
     <item>
       <title>賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集</title>
       <guid isPermaLink="false">jimainotebook_kfPGulrqVtI</guid>
@@ -16,6 +30,7 @@
       <link>https://www.youtube.com/watch?v=kfPGulrqVtI</link>
       <description>賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_kfPGulrqVtI.m4a" type="audio/mp4" length="85775133"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_kfPGulrqVtI.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>賽局理論：你的最好，取決於別人｜納許均衡｜囚徒困境｜中間選民｜Yale 公開課｜ECON159｜上集</title>
@@ -24,6 +39,7 @@
       <link>https://www.youtube.com/watch?v=RtytrLzbJ-0</link>
       <description>賽局理論：你的最好，取決於別人｜納許均衡｜囚徒困境｜中間選民｜Yale 公開課｜ECON159｜上集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_RtytrLzbJ-0.m4a" type="audio/mp4" length="59858343"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_RtytrLzbJ-0.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>15 分鐘看完 AI Engineer Conference｜開幕 keynote 篇｜巴黎</title>
@@ -32,6 +48,7 @@
       <link>https://www.youtube.com/watch?v=F5eZ5lr7edo</link>
       <description>15 分鐘看完 AI Engineer Conference｜開幕 keynote 篇｜巴黎</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_F5eZ5lr7edo.m4a" type="audio/mp4" length="38904232"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_F5eZ5lr7edo.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>AI Skill 不是 Prompt：真正有效的 Skill 怎麼設計？</title>
@@ -48,6 +65,7 @@
       <link>https://www.youtube.com/watch?v=5jwAsjGaaUk</link>
       <description>平行運算：難的不是管好，是交出去｜HBM｜ASIC｜交易式記憶體｜Stanford 公開課｜CS149｜下集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_5jwAsjGaaUk.m4a" type="audio/mp4" length="67643459"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_5jwAsjGaaUk.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>平行運算：難的不是分工，是共用｜GPU｜Spark ｜CUDA｜Stanford 公開課｜CS149｜中集</title>
@@ -56,6 +74,7 @@
       <link>https://www.youtube.com/watch?v=dFhknF3fAJg</link>
       <description>平行運算：難的不是分工，是共用｜GPU｜Spark ｜CUDA｜Stanford 公開課｜CS149｜中集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dFhknF3fAJg.m4a" type="audio/mp4" length="71925785"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dFhknF3fAJg.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>Jev：誰說AI一定要會說話？</title>
@@ -72,6 +91,7 @@
       <link>https://www.youtube.com/watch?v=7ipbnVilTDI</link>
       <description>平行運算：加了核心為什麼沒變快｜記憶體｜多核心｜快取｜Stanford 公開課｜CS149｜上集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_7ipbnVilTDI.m4a" type="audio/mp4" length="69797486"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_7ipbnVilTDI.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>前沿系統：AI 如何變成真正能用的產品｜Stanford 公開課｜CS153｜下集</title>
@@ -80,6 +100,7 @@
       <link>https://www.youtube.com/watch?v=dttPH3QWdK0</link>
       <description>前沿系統：AI 如何變成真正能用的產品｜Stanford 公開課｜CS153｜下集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dttPH3QWdK0.m4a" type="audio/mp4" length="86489532"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dttPH3QWdK0.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>DeepSeek V4.1 Flash，到底 Flash 在哪？</title>
@@ -88,6 +109,7 @@
       <link>https://www.youtube.com/watch?v=ECDoHDwhsjM</link>
       <description>DeepSeek V4.1 Flash，到底 Flash 在哪？</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ECDoHDwhsjM.m4a" type="audio/mp4" length="53063649"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ECDoHDwhsjM.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜中集</title>
@@ -104,6 +126,7 @@
       <link>https://www.youtube.com/watch?v=N1eF7fCm_Hk</link>
       <description>前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜上集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_N1eF7fCm_Hk.m4a" type="audio/mp4" length="89648181"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_N1eF7fCm_Hk.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜下集</title>
@@ -120,6 +143,7 @@
       <link>https://www.youtube.com/watch?v=ata4dmLP5IU</link>
       <description>電腦如何理解人類語言？ 從 Embedding 說起</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ata4dmLP5IU.m4a" type="audio/mp4" length="50639694"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ata4dmLP5IU.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜中集</title>
@@ -128,6 +152,7 @@
       <link>https://www.youtube.com/watch?v=ddTy5Fra4-4</link>
       <description>從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜中集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ddTy5Fra4-4.m4a" type="audio/mp4" length="92945214"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ddTy5Fra4-4.vtt" type="text/vtt" language="zh"/>
     </item>
   </channel>
 </rss>

@@ -9,12 +9,39 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SgkvkPPlitk_keyframes/ai-note-101_SgkvkPPlitk_000004.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1c7pkJzRPQI_keyframes/ai-note-101_1c7pkJzRPQI_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SgkvkPPlitk_keyframes/ai-note-101_SgkvkPPlitk_000004.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1c7pkJzRPQI_keyframes/ai-note-101_1c7pkJzRPQI_000000.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】</title>
+      <guid isPermaLink="false">ai-note-101_1c7pkJzRPQI</guid>
+      <pubDate>Thu, 01 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=1c7pkJzRPQI</link>
+      <description>EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_1c7pkJzRPQI.m4a" type="audio/mp4" length="71857451"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_1c7pkJzRPQI.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>紐約大學數學教授 Buckmaster：千禧年難題 9 月 8 日還是 9 月 20 日解出來，世界不會變【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_OlCqb3DtqnM</guid>
+      <pubDate>Thu, 01 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=OlCqb3DtqnM</link>
+      <description>紐約大學數學教授 Buckmaster：千禧年難題 9 月 8 日還是 9 月 20 日解出來，世界不會變【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_OlCqb3DtqnM.m4a" type="audio/mp4" length="38641807"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_OlCqb3DtqnM.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>比爾蓋茲：AI 讓核武看起來像沒什麼，門檻跨過了卻一片沉默【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_wBmjNEMA1jY</guid>
+      <pubDate>Thu, 01 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=wBmjNEMA1jY</link>
+      <description>比爾蓋茲：AI 讓核武看起來像沒什麼，門檻跨過了卻一片沉默【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_wBmjNEMA1jY.m4a" type="audio/mp4" length="32954612"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_wBmjNEMA1jY.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>津田健次郎敗訴，法院卻首度把聲音列入人格商業保護【AI新聞快報 2026/10/01】</title>
       <guid isPermaLink="false">ai-note-101_SgkvkPPlitk</guid>

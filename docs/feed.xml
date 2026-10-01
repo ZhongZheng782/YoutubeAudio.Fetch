@@ -9,12 +9,54 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SgkvkPPlitk_keyframes/ai-note-101_SgkvkPPlitk_000004.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1c7pkJzRPQI_keyframes/ai-note-101_1c7pkJzRPQI_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SgkvkPPlitk_keyframes/ai-note-101_SgkvkPPlitk_000004.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1c7pkJzRPQI_keyframes/ai-note-101_1c7pkJzRPQI_000000.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>【AI 101】EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】</title>
+      <guid isPermaLink="false">ai-note-101_1c7pkJzRPQI</guid>
+      <pubDate>Thu, 01 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=1c7pkJzRPQI</link>
+      <description>【AI 101】EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_1c7pkJzRPQI.m4a" type="audio/mp4" length="71857451"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1c7pkJzRPQI_keyframes/ai-note-101_1c7pkJzRPQI_000000.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_1c7pkJzRPQI.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>【AI 101】紐約大學數學教授 Buckmaster：千禧年難題 9 月 8 日還是 9 月 20 日解出來，世界不會變【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_OlCqb3DtqnM</guid>
+      <pubDate>Thu, 01 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=OlCqb3DtqnM</link>
+      <description>【AI 101】紐約大學數學教授 Buckmaster：千禧年難題 9 月 8 日還是 9 月 20 日解出來，世界不會變【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_OlCqb3DtqnM.m4a" type="audio/mp4" length="38641807"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_OlCqb3DtqnM_keyframes/ai-note-101_OlCqb3DtqnM_000000.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_OlCqb3DtqnM.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>【AI 101】比爾蓋茲：AI 讓核武看起來像沒什麼，門檻跨過了卻一片沉默【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_wBmjNEMA1jY</guid>
+      <pubDate>Thu, 01 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=wBmjNEMA1jY</link>
+      <description>【AI 101】比爾蓋茲：AI 讓核武看起來像沒什麼，門檻跨過了卻一片沉默【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_wBmjNEMA1jY.m4a" type="audio/mp4" length="32954612"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_wBmjNEMA1jY_keyframes/ai-note-101_wBmjNEMA1jY_000001.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_wBmjNEMA1jY.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>【Jim AI Notebook】AI 簡史：機器學會思考以前｜簡史系列</title>
+      <guid isPermaLink="false">jimainotebook_dVnETuDm1bg</guid>
+      <pubDate>Thu, 01 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=dVnETuDm1bg</link>
+      <description>【Jim AI Notebook】AI 簡史：機器學會思考以前｜簡史系列</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dVnETuDm1bg.m4a" type="audio/mp4" length="67122214"/>
+      <itunes:author>Jim AI Notebook</itunes:author>
+    </item>
     <item>
       <title>【游庭皓的財經皓角】2026/10/1(四)美股詭異行情!債市拉警報 基本面卻上修?八成個股下跌 AI能撐多久?【早晨財經速解讀】</title>
       <guid isPermaLink="false">yutinghaofinance_FsIraI_ezPI</guid>
@@ -23,6 +65,8 @@
       <description>【游庭皓的財經皓角】2026/10/1(四)美股詭異行情!債市拉警報 基本面卻上修?八成個股下跌 AI能撐多久?【早晨財經速解讀】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_FsIraI_ezPI.m4a" type="audio/mp4" length="68553129"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_FsIraI_ezPI_keyframes/yutinghaofinance_FsIraI_ezPI_000036.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_FsIraI_ezPI.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【AI 101】津田健次郎敗訴，法院卻首度把聲音列入人格商業保護【AI新聞快報 2026/10/01】</title>
@@ -142,6 +186,8 @@
       <description>【Jim AI Notebook】賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_kfPGulrqVtI.m4a" type="audio/mp4" length="85775133"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_kfPGulrqVtI_keyframes/jimainotebook_kfPGulrqVtI_000010.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_kfPGulrqVtI.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Smart智富月刊】央行第7波信用管制滿兩週年，成屋買氣有感回溫？｜永慶房屋陳賜傑、Amy｜房產關鍵字</title>
@@ -283,6 +329,8 @@
       <description>【Jim AI Notebook】賽局理論：你的最好，取決於別人｜納許均衡｜囚徒困境｜中間選民｜Yale 公開課｜ECON159｜上集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_RtytrLzbJ-0.m4a" type="audio/mp4" length="59858343"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_RtytrLzbJ-0_keyframes/jimainotebook_RtytrLzbJ-0_000011.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_RtytrLzbJ-0.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Smart智富月刊】FED還會升息幾次？利率會升到多高？台股何時可能反轉？造成通膨失控的潛在危機是什麼？｜峰哥｜Smart智富．投資的一千零一夜252</title>
@@ -312,6 +360,8 @@
       <description>【Jim AI Notebook】15 分鐘看完 AI Engineer Conference｜開幕 keynote 篇｜巴黎</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_F5eZ5lr7edo.m4a" type="audio/mp4" length="38904232"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_F5eZ5lr7edo_keyframes/jimainotebook_F5eZ5lr7edo_000006.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_F5eZ5lr7edo.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Smart智富月刊】韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室</title>
@@ -352,6 +402,8 @@
       <description>【Jim AI Notebook】平行運算：難的不是管好，是交出去｜HBM｜ASIC｜交易式記憶體｜Stanford 公開課｜CS149｜下集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_5jwAsjGaaUk.m4a" type="audio/mp4" length="67643459"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_5jwAsjGaaUk_keyframes/jimainotebook_5jwAsjGaaUk_000015.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_5jwAsjGaaUk.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【財訊】欣興案示警 台廠小心誤踩供應鏈紅線｜#聽了財知道 EP371 #欣興</title>
@@ -394,6 +446,8 @@
       <description>【Jim AI Notebook】平行運算：難的不是分工，是共用｜GPU｜Spark ｜CUDA｜Stanford 公開課｜CS149｜中集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dFhknF3fAJg.m4a" type="audio/mp4" length="71925785"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_dFhknF3fAJg_keyframes/jimainotebook_dFhknF3fAJg_000010.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dFhknF3fAJg.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Jim AI Notebook】Jev：誰說AI一定要會說話？</title>
@@ -421,6 +475,8 @@
       <description>【Jim AI Notebook】平行運算：加了核心為什麼沒變快｜記憶體｜多核心｜快取｜Stanford 公開課｜CS149｜上集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_7ipbnVilTDI.m4a" type="audio/mp4" length="69797486"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_7ipbnVilTDI_keyframes/jimainotebook_7ipbnVilTDI_000006.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_7ipbnVilTDI.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【fubonsec】3650 EP10</title>
@@ -439,6 +495,8 @@
       <description>【Jim AI Notebook】前沿系統：AI 如何變成真正能用的產品｜Stanford 公開課｜CS153｜下集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dttPH3QWdK0.m4a" type="audio/mp4" length="86489532"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_dttPH3QWdK0_keyframes/jimainotebook_dttPH3QWdK0_000003.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dttPH3QWdK0.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Jim AI Notebook】DeepSeek V4.1 Flash，到底 Flash 在哪？</title>
@@ -448,6 +506,8 @@
       <description>【Jim AI Notebook】DeepSeek V4.1 Flash，到底 Flash 在哪？</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ECDoHDwhsjM.m4a" type="audio/mp4" length="53063649"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ECDoHDwhsjM_keyframes/jimainotebook_ECDoHDwhsjM_000006.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ECDoHDwhsjM.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【fubonsec】AI   EP 95</title>
@@ -502,6 +562,8 @@
       <description>【Jim AI Notebook】前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜上集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_N1eF7fCm_Hk.m4a" type="audio/mp4" length="89648181"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_N1eF7fCm_Hk_keyframes/jimainotebook_N1eF7fCm_Hk_000024.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_N1eF7fCm_Hk.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【fubonsec】50ETF EP1</title>
@@ -538,6 +600,8 @@
       <description>【Jim AI Notebook】電腦如何理解人類語言？ 從 Embedding 說起</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ata4dmLP5IU.m4a" type="audio/mp4" length="50639694"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ata4dmLP5IU_keyframes/jimainotebook_ata4dmLP5IU_000019.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ata4dmLP5IU.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Jim AI Notebook】從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜中集</title>
@@ -547,6 +611,8 @@
       <description>【Jim AI Notebook】從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜中集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ddTy5Fra4-4.m4a" type="audio/mp4" length="92945214"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ddTy5Fra4-4_keyframes/jimainotebook_ddTy5Fra4-4_000014.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ddTy5Fra4-4.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【富邦證券】繼承到股票就能全部賣掉？存股族一定要懂的信託安排｜蘇家宏專訪 EP3</title>
