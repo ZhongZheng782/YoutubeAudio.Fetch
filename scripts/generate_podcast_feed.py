@@ -115,6 +115,7 @@ def load_episodes(channel: str) -> list[dict]:
         episodes.append({
             "stem": stem,
             "video_id": video_id,
+            "channel": channel,
             "title": title,
             "pub_dt": pub_dt,
             "audio_url": audio_url,
@@ -132,6 +133,22 @@ def load_episodes(channel: str) -> list[dict]:
     return episodes
 
 
+def all_channels() -> list[str]:
+    """Every channel with at least one audio-backed episode in the manifest — video_id is
+    a fixed 11 chars, so channel = stem[:-12] (strips "_" + the id) rather than splitting
+    on "_", which would break on a channel slug containing an underscore."""
+    manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+    return sorted({stem[:-12] for stem in manifest})
+
+
+def load_all_episodes() -> list[dict]:
+    """Every channel's episodes merged into one newest-first list, for the combined
+    cross-channel feed (one subscription instead of one per channel)."""
+    episodes = [ep for channel in all_channels() for ep in load_episodes(channel)]
+    episodes.sort(key=lambda e: e["pub_dt"], reverse=True)
+    return episodes
+
+
 def placeholder_image_url(channel: str, episodes: list[dict]) -> str | None:
     keyframes_dir = REPO_ROOT / "data" / channel
     for ep in episodes:
@@ -142,6 +159,19 @@ def placeholder_image_url(channel: str, episodes: list[dict]) -> str | None:
                 rel = jpgs[0].relative_to(REPO_ROOT).as_posix()
                 return f"{CDN_BASE}/{rel}"
     return None
+
+
+def episode_image_url(ep: dict) -> str | None:
+    """This specific episode's own first keyframe thumbnail, so a combined multi-channel
+    feed gives listeners a per-episode visual cue of which channel it came from (on top
+    of the title prefix) — distinct art per item is supported by Apple Podcasts, Overcast
+    and Pocket Casts in the episode list, not just a static per-feed/per-channel image."""
+    keyframes_dir = REPO_ROOT / "data" / ep["channel"] / f"{ep['stem']}_keyframes"
+    jpgs = sorted(keyframes_dir.glob("*.jpg")) if keyframes_dir.exists() else []
+    if not jpgs:
+        return None
+    rel = jpgs[0].relative_to(REPO_ROOT).as_posix()
+    return f"{CDN_BASE}/{rel}"
 
 
 def enclosure_length(audio_url: str) -> str:
@@ -170,30 +200,47 @@ def write_vtt_transcript(channel: str, ep: dict) -> str | None:
     return f"{PAGES_BASE}/{channel}/transcripts/{ep['stem']}.vtt"
 
 
-def render_feed(channel: str, episodes: list[dict]) -> str:
-    channel_name = next((e["channel_name"] for e in episodes if e["channel_name"]), channel)
+def render_feed(channel: str, episodes: list[dict], *, combined: bool = False) -> str:
+    """channel is the per-channel slug normally, or "all" for the combined cross-channel
+    feed — combined=True adds a 【頻道名稱】 title prefix, an <itunes:author>, and a
+    per-episode <itunes:image> to each item so a single subscription still lets listeners
+    tell channels apart (see episode_image_url)."""
+    channel_name = (
+        "YoutubeAudio.Fetch 全頻道彙整" if combined
+        else next((e["channel_name"] for e in episodes if e["channel_name"]), channel)
+    )
     channel_link = f"{PAGES_BASE}/"
-    feed_self_url = f"{PAGES_BASE}/{channel}/feed.xml"
-    image_url = placeholder_image_url(channel, episodes) or ""
+    feed_self_url = f"{PAGES_BASE}/feed.xml" if combined else f"{PAGES_BASE}/{channel}/feed.xml"
+    image_url = placeholder_image_url(channel, episodes) or "" if not combined else (
+        next((episode_image_url(e) for e in episodes if episode_image_url(e)), "")
+    )
 
     items = []
     for ep in episodes:
         transcript_tag = ""
-        transcript_url = write_vtt_transcript(channel, ep)
+        transcript_url = write_vtt_transcript(ep["channel"], ep)
         if transcript_url:
             transcript_tag = (
                 f'      <podcast:transcript url="{escape(transcript_url)}" '
                 f'type="text/vtt" language="zh"/>\n'
             )
+        ep_title = f"【{ep['channel_name'] or ep['channel']}】{ep['title']}" if combined else ep["title"]
+        extra_tags = ""
+        if combined:
+            ep_image_url = episode_image_url(ep)
+            extra_tags += f"      <itunes:author>{escape(ep['channel_name'] or ep['channel'])}</itunes:author>\n"
+            if ep_image_url:
+                extra_tags += f'      <itunes:image href="{escape(ep_image_url)}"/>\n'
         items.append(
             "    <item>\n"
-            f"      <title>{escape(ep['title'])}</title>\n"
+            f"      <title>{escape(ep_title)}</title>\n"
             f"      <guid isPermaLink=\"false\">{escape(ep['stem'])}</guid>\n"
             f"      <pubDate>{format_datetime(ep['pub_dt'])}</pubDate>\n"
             f"      <link>https://www.youtube.com/watch?v={escape(ep['video_id'])}</link>\n"
-            f"      <description>{escape(ep['title'])}</description>\n"
+            f"      <description>{escape(ep_title)}</description>\n"
             f"      <enclosure url=\"{escape(WORKER_BASE)}/audio/{escape(ep['stem'])}.m4a\" "
             f"type=\"audio/mp4\" length=\"{enclosure_length(ep['audio_url'])}\"/>\n"
+            f"{extra_tags}"
             f"{transcript_tag}"
             "    </item>\n"
         )
@@ -221,7 +268,12 @@ def render_feed(channel: str, episodes: list[dict]) -> str:
         f"    <itunes:author>{escape(channel_name)}</itunes:author>\n"
         "    <itunes:explicit>false</itunes:explicit>\n"
         '    <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>\n'
-        f"    <description>{escape(channel_name)} — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>\n"
+        f"    <description>"
+        + escape(
+            "各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）"
+            if combined else f"{channel_name} — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊"
+        )
+        + "</description>\n"
         f"{image_block}"
         + "".join(items) +
         "  </channel>\n"
@@ -231,12 +283,23 @@ def render_feed(channel: str, episodes: list[dict]) -> str:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("channel")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("channel", nargs="?", help="e.g. fubonsec")
+    group.add_argument("--all", action="store_true", help="Combined feed across every channel (docs/feed.xml)")
     parser.add_argument("--out", default=None)
     args = parser.parse_args()
+    if not args.channel and not args.all:
+        parser.error("either a channel or --all is required")
 
-    episodes = load_episodes(args.channel)
-    out_path = Path(args.out) if args.out else REPO_ROOT / "docs" / args.channel / "feed.xml"
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(render_feed(args.channel, episodes), encoding="utf-8")
-    print(f"[generate_podcast_feed] {args.channel}: {len(episodes)} episode(s) -> {out_path}")
+    if args.all:
+        episodes = load_all_episodes()
+        out_path = Path(args.out) if args.out else REPO_ROOT / "docs" / "feed.xml"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(render_feed("all", episodes, combined=True), encoding="utf-8")
+        print(f"[generate_podcast_feed] all: {len(episodes)} episode(s) -> {out_path}")
+    else:
+        episodes = load_episodes(args.channel)
+        out_path = Path(args.out) if args.out else REPO_ROOT / "docs" / args.channel / "feed.xml"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(render_feed(args.channel, episodes), encoding="utf-8")
+        print(f"[generate_podcast_feed] {args.channel}: {len(episodes)} episode(s) -> {out_path}")

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jim AI Notebook</title>
+    <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
+    <atom:link href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-tw</language>
+    <itunes:author>Jim AI Notebook</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
+    <description>Jim AI Notebook — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
+    <item>
+      <title>賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集</title>
+      <guid isPermaLink="false">jimainotebook_kfPGulrqVtI</guid>
+      <pubDate>Tue, 29 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=kfPGulrqVtI</link>
+      <description>賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_kfPGulrqVtI.m4a" type="audio/mp4" length="85775133"/>
+    </item>
+    <item>
+      <title>賽局理論：你的最好，取決於別人｜納許均衡｜囚徒困境｜中間選民｜Yale 公開課｜ECON159｜上集</title>
+      <guid isPermaLink="false">jimainotebook_RtytrLzbJ-0</guid>
+      <pubDate>Sat, 26 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=RtytrLzbJ-0</link>
+      <description>賽局理論：你的最好，取決於別人｜納許均衡｜囚徒困境｜中間選民｜Yale 公開課｜ECON159｜上集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_RtytrLzbJ-0.m4a" type="audio/mp4" length="59858343"/>
+    </item>
+    <item>
+      <title>15 分鐘看完 AI Engineer Conference｜開幕 keynote 篇｜巴黎</title>
+      <guid isPermaLink="false">jimainotebook_F5eZ5lr7edo</guid>
+      <pubDate>Fri, 25 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=F5eZ5lr7edo</link>
+      <description>15 分鐘看完 AI Engineer Conference｜開幕 keynote 篇｜巴黎</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_F5eZ5lr7edo.m4a" type="audio/mp4" length="38904232"/>
+    </item>
+    <item>
+      <title>AI Skill 不是 Prompt：真正有效的 Skill 怎麼設計？</title>
+      <guid isPermaLink="false">jimainotebook_E4qG-jswnDw</guid>
+      <pubDate>Thu, 24 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=E4qG-jswnDw</link>
+      <description>AI Skill 不是 Prompt：真正有效的 Skill 怎麼設計？</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_E4qG-jswnDw.m4a" type="audio/mp4" length="35115039"/>
+    </item>
+    <item>
+      <title>平行運算：難的不是管好，是交出去｜HBM｜ASIC｜交易式記憶體｜Stanford 公開課｜CS149｜下集</title>
+      <guid isPermaLink="false">jimainotebook_5jwAsjGaaUk</guid>
+      <pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=5jwAsjGaaUk</link>
+      <description>平行運算：難的不是管好，是交出去｜HBM｜ASIC｜交易式記憶體｜Stanford 公開課｜CS149｜下集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_5jwAsjGaaUk.m4a" type="audio/mp4" length="67643459"/>
+    </item>
+    <item>
+      <title>平行運算：難的不是分工，是共用｜GPU｜Spark ｜CUDA｜Stanford 公開課｜CS149｜中集</title>
+      <guid isPermaLink="false">jimainotebook_dFhknF3fAJg</guid>
+      <pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=dFhknF3fAJg</link>
+      <description>平行運算：難的不是分工，是共用｜GPU｜Spark ｜CUDA｜Stanford 公開課｜CS149｜中集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dFhknF3fAJg.m4a" type="audio/mp4" length="71925785"/>
+    </item>
+    <item>
+      <title>Jev：誰說AI一定要會說話？</title>
+      <guid isPermaLink="false">jimainotebook_2fnAlL99ayg</guid>
+      <pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=2fnAlL99ayg</link>
+      <description>Jev：誰說AI一定要會說話？</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_2fnAlL99ayg.m4a" type="audio/mp4" length="40129472"/>
+    </item>
+    <item>
+      <title>平行運算：加了核心為什麼沒變快｜記憶體｜多核心｜快取｜Stanford 公開課｜CS149｜上集</title>
+      <guid isPermaLink="false">jimainotebook_7ipbnVilTDI</guid>
+      <pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=7ipbnVilTDI</link>
+      <description>平行運算：加了核心為什麼沒變快｜記憶體｜多核心｜快取｜Stanford 公開課｜CS149｜上集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_7ipbnVilTDI.m4a" type="audio/mp4" length="69797486"/>
+    </item>
+    <item>
+      <title>前沿系統：AI 如何變成真正能用的產品｜Stanford 公開課｜CS153｜下集</title>
+      <guid isPermaLink="false">jimainotebook_dttPH3QWdK0</guid>
+      <pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=dttPH3QWdK0</link>
+      <description>前沿系統：AI 如何變成真正能用的產品｜Stanford 公開課｜CS153｜下集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dttPH3QWdK0.m4a" type="audio/mp4" length="86489532"/>
+    </item>
+    <item>
+      <title>DeepSeek V4.1 Flash，到底 Flash 在哪？</title>
+      <guid isPermaLink="false">jimainotebook_ECDoHDwhsjM</guid>
+      <pubDate>Sun, 13 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=ECDoHDwhsjM</link>
+      <description>DeepSeek V4.1 Flash，到底 Flash 在哪？</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ECDoHDwhsjM.m4a" type="audio/mp4" length="53063649"/>
+    </item>
+    <item>
+      <title>前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜中集</title>
+      <guid isPermaLink="false">jimainotebook_kzdAkGshMS4</guid>
+      <pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=kzdAkGshMS4</link>
+      <description>前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜中集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_kzdAkGshMS4.m4a" type="audio/mp4" length="89704268"/>
+    </item>
+    <item>
+      <title>前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜上集</title>
+      <guid isPermaLink="false">jimainotebook_N1eF7fCm_Hk</guid>
+      <pubDate>Mon, 07 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=N1eF7fCm_Hk</link>
+      <description>前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜上集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_N1eF7fCm_Hk.m4a" type="audio/mp4" length="89648181"/>
+    </item>
+    <item>
+      <title>從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜下集</title>
+      <guid isPermaLink="false">jimainotebook_lws-t7yr5gQ</guid>
+      <pubDate>Fri, 04 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=lws-t7yr5gQ</link>
+      <description>從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜下集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_lws-t7yr5gQ.m4a" type="audio/mp4" length="79344646"/>
+    </item>
+    <item>
+      <title>電腦如何理解人類語言？ 從 Embedding 說起</title>
+      <guid isPermaLink="false">jimainotebook_ata4dmLP5IU</guid>
+      <pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=ata4dmLP5IU</link>
+      <description>電腦如何理解人類語言？ 從 Embedding 說起</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ata4dmLP5IU.m4a" type="audio/mp4" length="50639694"/>
+    </item>
+    <item>
+      <title>從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜中集</title>
+      <guid isPermaLink="false">jimainotebook_ddTy5Fra4-4</guid>
+      <pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=ddTy5Fra4-4</link>
+      <description>從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜中集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ddTy5Fra4-4.m4a" type="audio/mp4" length="92945214"/>
+    </item>
+  </channel>
+</rss>

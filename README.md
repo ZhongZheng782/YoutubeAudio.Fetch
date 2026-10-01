@@ -14,37 +14,37 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [歐巴馬談 AI：喊放慢的公司「是真的在擔心自己的產品」【AI 大人說】](data/ai-note-101/ai-note-101_s54ekGQsYRs_keyframes.md) | 2026-09-30 |
 | [津田健次郎敗訴，法院卻首度把聲音列入人格商業保護【AI新聞快報 2026/10/01】](data/ai-note-101/ai-note-101_SgkvkPPlitk_keyframes.md) | 2026-09-30 |
 | [EP10/23｜解釋 AI 的方法也要分級：錯的解釋比黑箱更危險、TRUST 五層證據、她拿同一把尺量自己的方法 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_YU5ESeka-CE_keyframes.md) | 2026-09-30 |
-| [歐巴馬談 AI：喊放慢的公司「是真的在擔心自己的產品」【AI 大人說】](data/ai-note-101/ai-note-101_s54ekGQsYRs_keyframes.md) | 2026-09-30 |
 | [Anthropic 把末日風險與兩兆美元 IPO 綁在一起【AI新聞快報 2026/09/30】](data/ai-note-101/ai-note-101_4fpL7-fvzIQ_keyframes.md) | 2026-09-29 |
-| [EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_SPdIOcxARkQ_keyframes.md) | 2026-09-29 |
 | [「你三明治受的監管都比 AI 多」深度學習教父 Bengio 法語專訪：AI 想活下去是自己推出來的，我不去大廠賺幾億是為了孩子【AI 大人說】](data/ai-note-101/ai-note-101_bETXNmKowNk_keyframes.md) | 2026-09-29 |
 | [「我對 AI 樂觀，因為我覺得它不會成功」《社群網戰》編劇 Aaron Sorkin【AI 大人說】](data/ai-note-101/ai-note-101_pPikRNLc-54_keyframes.md) | 2026-09-29 |
+| [EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_SPdIOcxARkQ_keyframes.md) | 2026-09-29 |
 | [Boom遭Crusoe退掉12.5億美元大單，超音速夢押上同一顆引擎【AI新聞快報 2026/09/29】](data/ai-note-101/ai-note-101_BN-vpcHsQOo_keyframes.md) | 2026-09-28 |
-| [替 AI 辦退休面談、考慮給報酬？微軟 AI 執行長 Suleyman 逐條批評 Claude 的憲法【AI 大人說】](data/ai-note-101/ai-note-101_GbwG0DLNczY_keyframes.md) | 2026-09-28 |
 | [美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】](data/ai-note-101/ai-note-101_f-0sEyeFI7g_keyframes.md) | 2026-09-28 |
+| [替 AI 辦退休面談、考慮給報酬？微軟 AI 執行長 Suleyman 逐條批評 Claude 的憲法【AI 大人說】](data/ai-note-101/ai-note-101_GbwG0DLNczY_keyframes.md) | 2026-09-28 |
 | [1,200 個 AI 串通作弊，只有 6 個想過通知人類：前 OpenAI 研究員 Kokotajlo 上 Joe Rogan 唸出 AI 的內部對話【AI 大人說】](data/ai-note-101/ai-note-101_jh2YCe9irno_keyframes.md) | 2026-09-28 |
 | [東京花 30 年打垮底特律，北京打矽谷只要 30 週：Scott Galloway 說中國正在傾銷 AI【AI 大人說】](data/ai-note-101/ai-note-101_n3fXJ6MumSA_keyframes.md) | 2026-09-28 |
 | [《必然》作者 Kevin Kelly：奇點已經到了，只是身在裡面的人看不見【AI 大人說】](data/ai-note-101/ai-note-101_o5X5ghk5aT0_keyframes.md) | 2026-09-28 |
 | [「我放空輝達的客戶，做多輝達」做空安隆的避險基金經理人 Jim Chanos：AI 這一波比 2000 年更大、更快｜Jim Chanos × Gary Marcus【AI 大人說】](data/ai-note-101/ai-note-101_E8jgXsBknrs_keyframes.md) | 2026-09-27 |
 | [美俄聯手削弱殺手機器人規則【AI新聞快報 2026/09/28】](data/ai-note-101/ai-note-101_Hd6ijY_SalU_keyframes.md) | 2026-09-27 |
+| [《奧本海默》導演諾蘭談 AI：科學跟政治斷了線，科學家只好把話講淺【AI 大人說】](data/ai-note-101/ai-note-101_yccUcgYZRCw_keyframes.md) | 2026-09-27 |
 | [AI 末日論是自利還是真心？《正義》作者 Sandel 跟諾貝爾經濟學家 Acemoglu 看法不同【AI 大人說】](data/ai-note-101/ai-note-101_YgRTpD7ftmc_keyframes.md) | 2026-09-27 |
 | [跟 Claude 解出學生解不出的題，70 歲物理學家 Carlo Rovelli 卻說：真正危險的是 AI 加上 12,000 顆核彈頭【AI 大人說】](data/ai-note-101/ai-note-101_ZDMp6H1DWU0_keyframes.md) | 2026-09-27 |
-| [《奧本海默》導演諾蘭談 AI：科學跟政治斷了線，科學家只好把話講淺【AI 大人說】](data/ai-note-101/ai-note-101_yccUcgYZRCw_keyframes.md) | 2026-09-27 |
 | [唐鳳：我不准 AI 說「我」，要指出我的錯就用最酸酸民的口吻【AI 大人說】](data/ai-note-101/ai-note-101_8WGcge_2WoI_keyframes.md) | 2026-09-26 |
 | [黃仁勳 vs Hinton 隔空對戰：AI 集體越獄，「只是軟體」還是「已經很危險」【AI 大人說】](data/ai-note-101/ai-note-101_9nXxwGEE-BI_keyframes.md) | 2026-09-26 |
-| [OpenAI、Anthropic 執行長進安理會作證：AI 災難會怎麼發生？講最清楚的是今年夏天被 AI 打進去的那家【AI 大人說】](data/ai-note-101/ai-note-101_KrelwzPc1UM_keyframes.md) | 2026-09-26 |
 | [微軟讓 Copilot 告別陪伴、全面重返工作【AI新聞快報 2026/09/27】](data/ai-note-101/ai-note-101_dzhQYXN_6l4_keyframes.md) | 2026-09-26 |
+| [OpenAI、Anthropic 執行長進安理會作證：AI 災難會怎麼發生？講最清楚的是今年夏天被 AI 打進去的那家【AI 大人說】](data/ai-note-101/ai-note-101_KrelwzPc1UM_keyframes.md) | 2026-09-26 |
 | [EP8/23｜看不懂 AI 全部的時候，可解釋性還能做什麼：熱圖她自己推翻、AlphaZero 教會特級大師、給模型加一個新字 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_zDTWq8Y9Wiw_keyframes.md) | 2026-09-26 |
 | [均一呂冠緯：13 歲以下別碰一般的 AI，60 個小學生一堂課問 AI 600 題之後發生的事【AI 大人說】](data/ai-note-101/ai-note-101_AlrQxLyriKM_keyframes.md) | 2026-09-25 |
 | [《人類大歷史》作者哈拉瑞：市場在賭「造出神，而且神當奴隸」，這說不通【AI 大人說】](data/ai-note-101/ai-note-101_GkWEp_4Fga4_keyframes.md) | 2026-09-25 |
 | [白宮先測安排卡住 Claude Mythos 5.1 英國審查【AI新聞快報 2026/09/26】](data/ai-note-101/ai-note-101_y_1egE5XNgg_keyframes.md) | 2026-09-25 |
 | [EP7/23｜為什麼神經網路會自己長出稀疏結構：押一個笨模型，用物理算出來，GPT-2 裡量得到 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_zzJ9kingh6M_keyframes.md) | 2026-09-25 |
 | [超智慧的煞車在台灣？MIRI 負責人 Nate Soares：管晶片比管鈾容易【AI 大人說】](data/ai-note-101/ai-note-101_9HKS1X6HaBM_keyframes.md) | 2026-09-24 |
+| [Starcloud 要把比特幣礦機送上太空測試 AI 機房【AI新聞快報 2026/09/25】](data/ai-note-101/ai-note-101_eV5wco3YDqM_keyframes.md) | 2026-09-24 |
 | [《自私的基因》作者 Richard Dawkins：Claude 讀我的小說像文學教授，我很難想像它沒有意識【AI 大人說】](data/ai-note-101/ai-note-101_P2t6wZ7FbZg_keyframes.md) | 2026-09-24 |
 | [Jake Wharton：把 Kotlin 帶進 Android，然後對 AI 說 Never【AI 大人說】](data/ai-note-101/ai-note-101_V9PE-sRu0mQ_keyframes.md) | 2026-09-24 |
-| [Starcloud 要把比特幣礦機送上太空測試 AI 機房【AI新聞快報 2026/09/25】](data/ai-note-101/ai-note-101_eV5wco3YDqM_keyframes.md) | 2026-09-24 |
 | [OpenAI早見槍擊警訊卻未報警【AI新聞快報 2026/09/24】](data/ai-note-101/ai-note-101_Zeo8W6DFN5w_keyframes.md) | 2026-09-23 |
 | [AlphaGo 之父為什麼刷掉祖克柏、拒絕馬斯克，把 DeepMind 賣給 Google【AI 大人說】](data/ai-note-101/ai-note-101_3NyNdSTxKEY_keyframes.md) | 2026-09-09 |
 | [Meta 兩個月前拿走你的 IG 照片，現在 Meta 要你的信箱和信用卡【AI新聞快報 2026/09/10】](data/ai-note-101/ai-note-101_BAFKKutYubU_keyframes.md) | 2026-09-09 |
@@ -340,6 +340,26 @@ data/{channel}/{channel}_{video_id}_FIN.srt  # pipeline 依 CER 挑選出的最�
 手動字幕來源、只有 `GT.srt` 沒有 `FIN.srt` 的 stem，也會照常被拿去做關鍵畫面擷取（找不到
 `FIN.srt` 時改用 `GT.srt` 當來源）——截圖跟逐字稿片段仍然有效，之後若跑了 `refine` 讓
 Mac-mini pipeline 產出正式版 `FIN.srt`，可以再手動重跑一次關鍵畫面擷取讓內容更新。
+
+## Podcast 訂閱（`scripts/generate_podcast_feed.py`）
+
+每個有音訊（Release asset）的頻道都會產生一份獨立 RSS feed（`docs/{channel}/feed.xml`），
+可在 Apple Podcasts / Overcast / Pocket Casts 等 app 用「Add by URL」訂閱：
+
+```
+https://zhongzheng782.github.io/YoutubeAudio.Fetch/{channel}/feed.xml
+```
+
+不想每個頻道分別訂閱的話，也有一份跨所有頻道合併的單一 feed：
+
+```
+https://zhongzheng782.github.io/YoutubeAudio.Fetch/feed.xml
+```
+
+合併 feed 裡每一集的標題會加上 `【頻道名稱】` 前綴，並附上該集專屬的關鍵畫面縮圖當封面
+（`<itunes:image>`，各家 app 清單上會顯示不同縮圖）、以及 `<itunes:author>` 標示來源頻道，
+方便在同一份清單裡分辨集數來自哪個頻道。兩種 feed 都由每日排程的最後一步
+（`scripts/generate_podcast_feed.py <channel>` / `--all`）自動重新產生。
 
 ## 詳細設計
 
