@@ -9,9 +9,9 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>富邦證券 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_hj19DKuHxbQ_keyframes/fubonsec_hj19DKuHxbQ_000030.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_plZIvZ5US7E_keyframes/fubonsec_plZIvZ5US7E_000019.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_hj19DKuHxbQ_keyframes/fubonsec_hj19DKuHxbQ_000030.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_plZIvZ5US7E_keyframes/fubonsec_plZIvZ5US7E_000019.jpg</url>
       <title>富邦證券</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
@@ -22,6 +22,7 @@
       <link>https://www.youtube.com/watch?v=plZIvZ5US7E</link>
       <description>半導體股估值怎麼看？從獲利成長到AI供應鏈輪動｜國泰投信李翰林 專訪</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_plZIvZ5US7E.m4a" type="audio/mp4" length="28192907"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_plZIvZ5US7E.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>AI軍備競賽進入新階段！商業化成效如何觀察？｜程正樺專訪 EP1</title>

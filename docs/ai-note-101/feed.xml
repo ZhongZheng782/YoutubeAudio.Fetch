@@ -9,12 +9,21 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YU5ESeka-CE_keyframes/ai-note-101_YU5ESeka-CE_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SgkvkPPlitk_keyframes/ai-note-101_SgkvkPPlitk_000004.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YU5ESeka-CE_keyframes/ai-note-101_YU5ESeka-CE_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SgkvkPPlitk_keyframes/ai-note-101_SgkvkPPlitk_000004.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>津田健次郎敗訴，法院卻首度把聲音列入人格商業保護【AI新聞快報 2026/10/01】</title>
+      <guid isPermaLink="false">ai-note-101_SgkvkPPlitk</guid>
+      <pubDate>Wed, 30 Sep 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=SgkvkPPlitk</link>
+      <description>津田健次郎敗訴，法院卻首度把聲音列入人格商業保護【AI新聞快報 2026/10/01】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_SgkvkPPlitk.m4a" type="audio/mp4" length="6168667"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_SgkvkPPlitk.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>EP10/23｜解釋 AI 的方法也要分級：錯的解釋比黑箱更危險、TRUST 五層證據、她拿同一把尺量自己的方法 【AI可解釋性 - 2026 UCLA工作坊】</title>
       <guid isPermaLink="false">ai-note-101_YU5ESeka-CE</guid>

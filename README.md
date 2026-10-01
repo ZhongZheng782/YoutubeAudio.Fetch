@@ -14,6 +14,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [津田健次郎敗訴，法院卻首度把聲音列入人格商業保護【AI新聞快報 2026/10/01】](data/ai-note-101/ai-note-101_SgkvkPPlitk_keyframes.md) | 2026-09-30 |
 | [EP10/23｜解釋 AI 的方法也要分級：錯的解釋比黑箱更危險、TRUST 五層證據、她拿同一把尺量自己的方法 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_YU5ESeka-CE_keyframes.md) | 2026-09-30 |
 | [歐巴馬談 AI：喊放慢的公司「是真的在擔心自己的產品」【AI 大人說】](data/ai-note-101/ai-note-101_s54ekGQsYRs_keyframes.md) | 2026-09-30 |
 | [Anthropic 把末日風險與兩兆美元 IPO 綁在一起【AI新聞快報 2026/09/30】](data/ai-note-101/ai-note-101_4fpL7-fvzIQ_keyframes.md) | 2026-09-29 |
@@ -69,6 +70,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [半導體股估值怎麼看？從獲利成長到AI供應鏈輪動｜國泰投信李翰林 專訪](data/fubonsec/fubonsec_plZIvZ5US7E_keyframes.md) | 2026-09-30 |
 | [退休規劃何時開始才不嫌晚？政大教授分享退休前15年的準備關鍵｜陳嬿如專訪 EP11](data/fubonsec/fubonsec_hj19DKuHxbQ_keyframes.md) | 2026-09-23 |
 | [繼承到股票就能全部賣掉？存股族一定要懂的信託安排｜蘇家宏專訪 EP3](data/fubonsec/fubonsec_324i3yZuBLo_keyframes.md) | 2026-08-28 |
 | [AI會取代你的工作嗎？數位轉型專家揭4大關鍵能力｜《今天不聊股票》詹文男專訪](data/fubonsec/fubonsec_cdsJ6wyuULM_keyframes.md) | 2026-08-26 |
