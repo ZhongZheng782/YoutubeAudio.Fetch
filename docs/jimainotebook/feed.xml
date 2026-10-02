@@ -9,9 +9,9 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>Jim AI Notebook — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_kfPGulrqVtI_keyframes/jimainotebook_kfPGulrqVtI_000010.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_dVnETuDm1bg_keyframes/jimainotebook_dVnETuDm1bg_000014.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_kfPGulrqVtI_keyframes/jimainotebook_kfPGulrqVtI_000010.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_dVnETuDm1bg_keyframes/jimainotebook_dVnETuDm1bg_000014.jpg</url>
       <title>Jim AI Notebook</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
@@ -22,6 +22,7 @@
       <link>https://www.youtube.com/watch?v=dVnETuDm1bg</link>
       <description>AI 簡史：機器學會思考以前｜簡史系列</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dVnETuDm1bg.m4a" type="audio/mp4" length="67122214"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dVnETuDm1bg.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集</title>
@@ -118,6 +119,7 @@
       <link>https://www.youtube.com/watch?v=kzdAkGshMS4</link>
       <description>前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜中集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_kzdAkGshMS4.m4a" type="audio/mp4" length="89704268"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_kzdAkGshMS4.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜上集</title>

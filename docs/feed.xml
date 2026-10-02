@@ -9,12 +9,43 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1c7pkJzRPQI_keyframes/ai-note-101_1c7pkJzRPQI_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1SLc_XA1OuA_keyframes/ai-note-101_1SLc_XA1OuA_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1c7pkJzRPQI_keyframes/ai-note-101_1c7pkJzRPQI_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1SLc_XA1OuA_keyframes/ai-note-101_1SLc_XA1OuA_000000.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>【AI 101】大家以為 AI 會讓一切變清楚，羽生善治說相反：被 AI 洗過一輪的將棋界，現在是五里霧中【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_1SLc_XA1OuA</guid>
+      <pubDate>Fri, 02 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=1SLc_XA1OuA</link>
+      <description>【AI 101】大家以為 AI 會讓一切變清楚，羽生善治說相反：被 AI 洗過一輪的將棋界，現在是五里霧中【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_1SLc_XA1OuA.m4a" type="audio/mp4" length="22324797"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1SLc_XA1OuA_keyframes/ai-note-101_1SLc_XA1OuA_000000.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_1SLc_XA1OuA.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>【AI 101】AlphaFold 分數暴衝那天，評審席上的她在想：人類輸了，還是該誇它幹得好｜首爾大學教授 Chaok Seok【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_zFxkkULZCps</guid>
+      <pubDate>Fri, 02 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=zFxkkULZCps</link>
+      <description>【AI 101】AlphaFold 分數暴衝那天，評審席上的她在想：人類輸了，還是該誇它幹得好｜首爾大學教授 Chaok Seok【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_zFxkkULZCps.m4a" type="audio/mp4" length="26734149"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_zFxkkULZCps_keyframes/ai-note-101_zFxkkULZCps_000000.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_zFxkkULZCps.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>【游庭皓的財經皓角】2026/10/2(五)台股創新高 下一棒換誰?利空鈍化?大賣空喊AI 為了人類該跌!【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_BTBH4-RZZXg</guid>
+      <pubDate>Fri, 02 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=BTBH4-RZZXg</link>
+      <description>【游庭皓的財經皓角】2026/10/2(五)台股創新高 下一棒換誰?利空鈍化?大賣空喊AI 為了人類該跌!【早晨財經速解讀】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_BTBH4-RZZXg.m4a" type="audio/mp4" length="69415241"/>
+      <itunes:author>游庭皓的財經皓角</itunes:author>
+    </item>
     <item>
       <title>【AI 101】EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】</title>
       <guid isPermaLink="false">ai-note-101_1c7pkJzRPQI</guid>
@@ -38,6 +69,17 @@
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_OlCqb3DtqnM.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
+      <title>【AI 101】OpenAI指控月之暗面大規模抽取模型能力【AI新聞快報 2026/10/02】</title>
+      <guid isPermaLink="false">ai-note-101_bfeMSZmOMVk</guid>
+      <pubDate>Thu, 01 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=bfeMSZmOMVk</link>
+      <description>【AI 101】OpenAI指控月之暗面大規模抽取模型能力【AI新聞快報 2026/10/02】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_bfeMSZmOMVk.m4a" type="audio/mp4" length="6337910"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_bfeMSZmOMVk_keyframes/ai-note-101_bfeMSZmOMVk_000000.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_bfeMSZmOMVk.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
       <title>【AI 101】比爾蓋茲：AI 讓核武看起來像沒什麼，門檻跨過了卻一片沉默【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_wBmjNEMA1jY</guid>
       <pubDate>Thu, 01 Oct 2026 08:00:00 +0800</pubDate>
@@ -56,6 +98,8 @@
       <description>【Jim AI Notebook】AI 簡史：機器學會思考以前｜簡史系列</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dVnETuDm1bg.m4a" type="audio/mp4" length="67122214"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_dVnETuDm1bg_keyframes/jimainotebook_dVnETuDm1bg_000014.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dVnETuDm1bg.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/10/1(四)美股詭異行情!債市拉警報 基本面卻上修?八成個股下跌 AI能撐多久?【早晨財經速解讀】</title>
@@ -535,6 +579,8 @@
       <description>【Jim AI Notebook】前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜中集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_kzdAkGshMS4.m4a" type="audio/mp4" length="89704268"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_kzdAkGshMS4_keyframes/jimainotebook_kzdAkGshMS4_000005.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_kzdAkGshMS4.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【AI 101】住台北的美國分析師：美國贏了 AI，中國最合理的一步就是炸掉台積電【AI 大人說】</title>

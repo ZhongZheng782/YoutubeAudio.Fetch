@@ -14,8 +14,11 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [大家以為 AI 會讓一切變清楚，羽生善治說相反：被 AI 洗過一輪的將棋界，現在是五里霧中【AI 大人說】](data/ai-note-101/ai-note-101_1SLc_XA1OuA_keyframes.md) | 2026-10-02 |
+| [AlphaFold 分數暴衝那天，評審席上的她在想：人類輸了，還是該誇它幹得好｜首爾大學教授 Chaok Seok【AI 大人說】](data/ai-note-101/ai-note-101_zFxkkULZCps_keyframes.md) | 2026-10-02 |
 | [EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_1c7pkJzRPQI_keyframes.md) | 2026-10-01 |
 | [紐約大學數學教授 Buckmaster：千禧年難題 9 月 8 日還是 9 月 20 日解出來，世界不會變【AI 大人說】](data/ai-note-101/ai-note-101_OlCqb3DtqnM_keyframes.md) | 2026-10-01 |
+| [OpenAI指控月之暗面大規模抽取模型能力【AI新聞快報 2026/10/02】](data/ai-note-101/ai-note-101_bfeMSZmOMVk_keyframes.md) | 2026-10-01 |
 | [比爾蓋茲：AI 讓核武看起來像沒什麼，門檻跨過了卻一片沉默【AI 大人說】](data/ai-note-101/ai-note-101_wBmjNEMA1jY_keyframes.md) | 2026-10-01 |
 | [津田健次郎敗訴，法院卻首度把聲音列入人格商業保護【AI新聞快報 2026/10/01】](data/ai-note-101/ai-note-101_SgkvkPPlitk_keyframes.md) | 2026-09-30 |
 | [EP10/23｜解釋 AI 的方法也要分級：錯的解釋比黑箱更危險、TRUST 五層證據、她拿同一把尺量自己的方法 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_YU5ESeka-CE_keyframes.md) | 2026-09-30 |
@@ -93,6 +96,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [AI 簡史：機器學會思考以前｜簡史系列](data/jimainotebook/jimainotebook_dVnETuDm1bg_keyframes.md) | 2026-10-01 |
 | [賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集](data/jimainotebook/jimainotebook_kfPGulrqVtI_keyframes.md) | 2026-09-29 |
 | [賽局理論：你的最好，取決於別人｜納許均衡｜囚徒困境｜中間選民｜Yale 公開課｜ECON159｜上集](data/jimainotebook/jimainotebook_RtytrLzbJ-0_keyframes.md) | 2026-09-26 |
 | [15 分鐘看完 AI Engineer Conference｜開幕 keynote 篇｜巴黎](data/jimainotebook/jimainotebook_F5eZ5lr7edo_keyframes.md) | 2026-09-25 |
@@ -101,6 +105,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 | [平行運算：加了核心為什麼沒變快｜記憶體｜多核心｜快取｜Stanford 公開課｜CS149｜上集](data/jimainotebook/jimainotebook_7ipbnVilTDI_keyframes.md) | 2026-09-17 |
 | [前沿系統：AI 如何變成真正能用的產品｜Stanford 公開課｜CS153｜下集](data/jimainotebook/jimainotebook_dttPH3QWdK0_keyframes.md) | 2026-09-15 |
 | [DeepSeek V4.1 Flash，到底 Flash 在哪？](data/jimainotebook/jimainotebook_ECDoHDwhsjM_keyframes.md) | 2026-09-13 |
+| [前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜中集](data/jimainotebook/jimainotebook_kzdAkGshMS4_keyframes.md) | 2026-09-10 |
 | [前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜上集](data/jimainotebook/jimainotebook_N1eF7fCm_Hk_keyframes.md) | 2026-09-07 |
 | [電腦如何理解人類語言？ 從 Embedding 說起](data/jimainotebook/jimainotebook_ata4dmLP5IU_keyframes.md) | 2026-09-02 |
 | [從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜中集](data/jimainotebook/jimainotebook_ddTy5Fra4-4_keyframes.md) | 2026-08-30 |
