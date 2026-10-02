@@ -214,6 +214,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [捷運到哪 都更到哪 新北建立四大都心的願景｜#老謝開講 #謝金河 #財訊 EP295 feat. 新北市長 侯友宜](data/wealth1974/wealth1974_fflsSlBwb9U_keyframes.md) | 2026-10-02 |
 | [高利率時代的資產配置 靠一關鍵突破升息逆風！｜#聽了財知道 EP373 #升息 #聯準會](data/wealth1974/wealth1974_mPb3BC9Z1OM_keyframes.md) | 2026-09-30 |
 | [獨家揭露 台積電麥寮外海的秘密計畫｜#聽了財知道 EP372 #碳封存 #台積電](data/wealth1974/wealth1974_JkQcyPHusrA_keyframes.md) | 2026-09-28 |
 | [台股市值躍升全球第四大 政府應該思考的下一步｜#老謝開講 EP294 #財訊](data/wealth1974/wealth1974_tpUuNwcWiFU_keyframes.md) | 2026-09-25 |
@@ -262,6 +263,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/10/2(五)台股創新高 下一棒換誰?利空鈍化?大賣空喊AI 為了人類該跌!【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_BTBH4-RZZXg_keyframes.md) | 2026-10-02 |
 | [2026/10/1(四)美股詭異行情!債市拉警報 基本面卻上修?八成個股下跌 AI能撐多久?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_FsIraI_ezPI_keyframes.md) | 2026-10-01 |
 | [2026/9/30(三)利率越漲 美股越不跌？數兆美元豪賭 AI驗收期到了嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_eHz1_TGAo4I_keyframes.md) | 2026-09-30 |
 | [2026/9/29(二)10年美債殖利率 升破5.2%!債市會把股市 拖下水嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_wBb7G4Ifd34_keyframes.md) | 2026-09-29 |

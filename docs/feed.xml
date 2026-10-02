@@ -38,6 +38,24 @@
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_zFxkkULZCps.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
+      <title>【富邦證券】AI需求是假象還是真成長？艦長拆解算力與半導體商機｜程正樺專訪 EP2</title>
+      <guid isPermaLink="false">fubonsec_4B9WiNsGNyo</guid>
+      <pubDate>Fri, 02 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=4B9WiNsGNyo</link>
+      <description>【富邦證券】AI需求是假象還是真成長？艦長拆解算力與半導體商機｜程正樺專訪 EP2</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_4B9WiNsGNyo.m4a" type="audio/mp4" length="24359932"/>
+      <itunes:author>富邦證券</itunes:author>
+    </item>
+    <item>
+      <title>【Jim AI Notebook】人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集</title>
+      <guid isPermaLink="false">jimainotebook_B2Ois2AmMSM</guid>
+      <pubDate>Fri, 02 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=B2Ois2AmMSM</link>
+      <description>【Jim AI Notebook】人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_B2Ois2AmMSM.m4a" type="audio/mp4" length="87707390"/>
+      <itunes:author>Jim AI Notebook</itunes:author>
+    </item>
+    <item>
       <title>【游庭皓的財經皓角】2026/10/2(五)台股創新高 下一棒換誰?利空鈍化?大賣空喊AI 為了人類該跌!【早晨財經速解讀】</title>
       <guid isPermaLink="false">yutinghaofinance_BTBH4-RZZXg</guid>
       <pubDate>Fri, 02 Oct 2026 08:00:00 +0800</pubDate>
@@ -45,6 +63,8 @@
       <description>【游庭皓的財經皓角】2026/10/2(五)台股創新高 下一棒換誰?利空鈍化?大賣空喊AI 為了人類該跌!【早晨財經速解讀】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_BTBH4-RZZXg.m4a" type="audio/mp4" length="69415241"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_BTBH4-RZZXg_keyframes/yutinghaofinance_BTBH4-RZZXg_000035.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_BTBH4-RZZXg.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【AI 101】EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】</title>
