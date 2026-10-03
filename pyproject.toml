@@ -1,0 +1,19 @@
+[project]
+name = "youtube-audio-fetch"
+version = "0.1.0"
+description = "Fetch financial YouTube audio and extract transcript keyframes"
+requires-python = ">=3.11"
+dependencies = [
+    "requests",
+    "python-dotenv",
+    "yt-dlp",
+    "Pillow",
+    "youtube-transcript-api",
+    "llm",
+]
+
+[tool.uv.sources]
+llm = { git = "https://github.com/wenchiehlee/llm.git" }
+
+[tool.uv]
+package = false

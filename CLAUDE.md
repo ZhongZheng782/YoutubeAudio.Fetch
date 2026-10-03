@@ -15,26 +15,28 @@ differences are `WHISPER_SOURCE_TYPE=youtube` and the stem naming convention (se
 ## Commands
 
 ```bash
-pip install -r requirements.txt   # also requires yt-dlp and ffmpeg CLIs on PATH
+uv sync                 # requires uv; also requires yt-dlp and ffmpeg CLIs on PATH
+uv run python skills/skill-llm-api-client/scripts/check_endpoints.py --skip-exec
+uv run python ...       # run repository scripts inside the uv environment
 
 # 1. Fetch newest N videos' audio from a channel, publish as Release assets, update the manifest
-python skills/skill-youtube-channel-fetch/scripts/channel_fetch.py fetch \
+uv run python skills/skill-youtube-channel-fetch/scripts/channel_fetch.py fetch \
     https://www.youtube.com/@fubonsec --limit 5
 
 # 2. Open/close generate-FIN issues for every stem in the manifest that doesn't have a FIN.srt yet
-python skills/skill-mlx-api-client-whisper/scripts/whisper_issue_client.py sync audio_manifest.json
+uv run python skills/skill-mlx-api-client-whisper/scripts/whisper_issue_client.py sync audio_manifest.json
 # (or pass --sync to the channel_fetch.py call above to do both in one step)
 
 # Check whether a single stem's FIN.srt has landed
-python skills/skill-mlx-api-client-whisper/scripts/whisper_issue_client.py status <channel>_<video_id>
+uv run python skills/skill-mlx-api-client-whisper/scripts/whisper_issue_client.py status <channel>_<video_id>
 
 # 3. Once FIN.srt exists: find chart/diagram moments in the transcript and save frame PNGs
-python skills/skill-srt-keyframe-extract/scripts/keyframe_extract.py extract <stem> \
+uv run python skills/skill-srt-keyframe-extract/scripts/keyframe_extract.py extract <stem> \
     --srt data/<channel>/<stem>_FIN.srt \
     --video-url https://www.youtube.com/watch?v=<video_id>
 
 # Update a skill to the latest version from the skills registry
-python skills/<skill-name>/self_update.py
+uv run python skills/<skill-name>/self_update.py
 ```
 
 There is no test suite, lint config, or build step in this repo.

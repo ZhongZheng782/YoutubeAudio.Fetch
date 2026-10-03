@@ -62,7 +62,7 @@ jobs:
           echo "$FFMPEG_DIR" >> "$GITHUB_PATH"
 
       - name: Install fetch dependencies
-        run: pip install requests python-dotenv yt-dlp youtube-transcript-api
+        run: uv sync
 
       - name: Prepare YouTube cookies
         env:
@@ -129,7 +129,6 @@ jobs:
           GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
           GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
           GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
-          CODEX_API_URL: ${{ secrets.CODEX_API_URL }}
           CODEX_API_KEY: ${{ secrets.CODEX_API_KEY }}
         run: |
           python - <<'PYEOF'

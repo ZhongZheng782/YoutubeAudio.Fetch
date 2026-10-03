@@ -316,18 +316,19 @@ data/{channel}/{channel}_{video_id}_FIN.srt  # pipeline 依 CER 挑選出的最�
    `audio_manifest.json`；也可手動在 `audio_manifest.json` 加入 `{stem: audio_url}`
    （格式範例見 `audio_manifest.example.json`）：
    ```bash
-   pip install -r requirements.txt
-   python skills/skill-youtube-channel-fetch/scripts/channel_fetch.py fetch \
+   uv sync
+   uv run python skills/skill-llm-api-client/scripts/check_endpoints.py --skip-exec
+   uv run python skills/skill-youtube-channel-fetch/scripts/channel_fetch.py fetch \
        https://www.youtube.com/@fubonsec --limit 5
    ```
    也可以指定日期區間，抓某段期間內的所有影片（而非「最新 N 支」）：
    ```bash
-   python skills/skill-youtube-channel-fetch/scripts/channel_fetch.py fetch \
+   uv run python skills/skill-youtube-channel-fetch/scripts/channel_fetch.py fetch \
        https://www.youtube.com/@yutinghaofinance --date-after 2026-08-01 --date-before 2026-08-07
    ```
 3. 觸發轉錄：
    ```bash
-   python skills/skill-mlx-api-client-whisper/scripts/whisper_issue_client.py sync audio_manifest.json
+   uv run python skills/skill-mlx-api-client-whisper/scripts/whisper_issue_client.py sync audio_manifest.json
    ```
    對每個尚未有 `FIN.srt` 的 stem，會在 `WHISPER_TARGET_REPO`（Mac-mini repo）開一張
    `generate-FIN` issue 觸發轉錄；已完成的 stem 則自動關閉對應 issue。
@@ -337,7 +338,7 @@ data/{channel}/{channel}_{video_id}_FIN.srt  # pipeline 依 CER 挑選出的最�
 5. 有 `FIN.srt` 後，用 `skill-youtube-channel-srt-keyframe-extract` 分析逐字稿找出圖表／簡報等
    視覺重點時刻，擷取對應畫面存成帶時間碼的 PNG：
    ```bash
-   python skills/skill-youtube-channel-srt-keyframe-extract/scripts/keyframe_extract.py extract <stem> \
+   uv run python skills/skill-youtube-channel-srt-keyframe-extract/scripts/keyframe_extract.py extract <stem> \
        --srt data/<channel>/<stem>_FIN.srt \
        --video-url https://www.youtube.com/watch?v=<video_id>
    ```
@@ -364,7 +365,7 @@ data/{channel}/{channel}_{video_id}_FIN.srt  # pipeline 依 CER 挑選出的最�
   push commit）
 - `REPO_FILE_SYNC_ZHONGZHENG782_MONEY`：對 `WHISPER_TARGET_REPO`（Mac-mini repo）
   `Issues: Read and write`（`--sync` 觸發轉錄用）
-- `GEMINI_API_KEY`、`CODEX_API_URL`、`CODEX_API_KEY`：關鍵畫面擷取要判斷「哪些時間點值得
+- `GEMINI_API_KEY`、`CODEX_API_KEY`：關鍵畫面擷取要判斷「哪些時間點值得
   截圖」時呼叫的 `llm` 套件 provider 憑證（`../llm` 的 codex → gemini → mlx 備援鏈；CI
   環境連不到僅限內網/Tailscale 的 `MLX_API_URL`，所以沒設 mlx 相關 secrets，鏈路會直接
   落到 codex/gemini 其中之一）

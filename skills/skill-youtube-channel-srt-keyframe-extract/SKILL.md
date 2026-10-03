@@ -41,10 +41,8 @@ whisper pipeline 只下載/處理**音訊**；本技能是它的下游，需要*
 
 ### 1. 安裝依賴
 ```bash
-pip install python-dotenv Pillow
-# 共用 LLM 客戶端（登錄庫 wenchiehlee/llm 的 sibling checkout）：
-uv add --editable "../llm"
-# 或在 requirements.txt 中加入一行：-e ../llm
+# 在 repository 根目錄建立/同步完整執行環境，包含 Git source 的 llm 套件
+uv sync
 ```
 （`Pillow` 用於截圖的 average-hash 去重比對。）
 另需系統已安裝 [`yt-dlp`](https://github.com/yt-dlp/yt-dlp)、[`ffmpeg`](https://ffmpeg.org/)
@@ -56,7 +54,7 @@ uv add --editable "../llm"
 > 1080p 等高解析度串流，只能抓到過時的 `18`（640x360）合併格式，甚至讓某些影片
 > （尤其是直播 VOD）直接下載失敗，即使 `download_video()` 的格式選擇器
 > （`bestvideo[height<=1080]+...`）跟 `--js-runtimes node` 本身都沒有問題。
-> 用 `pip install -U yt-dlp` 更新到最新版即可解決；可用 `yt-dlp -F <video_url>`
+> 用 `uv lock --upgrade-package yt-dlp && uv sync` 更新到最新版即可解決；可用 `uv run yt-dlp -F <video_url>`
 > 確認實際可用的最高解析度。
 
 ### 2. 設定環境變數（`.env`）
@@ -67,7 +65,6 @@ provider 備援鏈預設為 `codex → gemini → mlx`）。依你實際要用�
 # 例：走 Gemini（金鑰輪轉）
 GEMINI_API_KEY=<你的 Gemini API key>
 # 例：走 Codex-API-Server（NAS 端 codex-cli / gemini-cli 橋接）
-CODEX_API_URL=<伺服器網址>
 CODEX_API_KEY=<驗證金鑰>
 # 例：走本機 MLX 推論
 MLX_API_URL=<MLX 伺服器網址>
@@ -79,7 +76,7 @@ MLX_SERVER_API_KEY=<驗證金鑰>
 
 ### CLI
 ```bash
-python scripts/keyframe_extract.py extract some-channel_dQw4w9WgXcQ \
+uv run python skills/skill-youtube-channel-srt-keyframe-extract/scripts/keyframe_extract.py extract some-channel_dQw4w9WgXcQ \
     --srt data/some-channel/some-channel_dQw4w9WgXcQ_FIN.srt \
     --video-url https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
