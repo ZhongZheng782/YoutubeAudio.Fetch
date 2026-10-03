@@ -15,6 +15,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 | 影片 | 日期 |
 | --- | --- |
 | [大家以為 AI 會讓一切變清楚，羽生善治說相反：被 AI 洗過一輪的將棋界，現在是五里霧中【AI 大人說】](data/ai-note-101/ai-note-101_1SLc_XA1OuA_keyframes.md) | 2026-10-02 |
+| [北京卡住輝達H200，華為卻被產能反噬【AI新聞快報 2026/10/03】](data/ai-note-101/ai-note-101_yFK6ESC-G9Y_keyframes.md) | 2026-10-02 |
 | [AlphaFold 分數暴衝那天，評審席上的她在想：人類輸了，還是該誇它幹得好｜首爾大學教授 Chaok Seok【AI 大人說】](data/ai-note-101/ai-note-101_zFxkkULZCps_keyframes.md) | 2026-10-02 |
 | [EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_1c7pkJzRPQI_keyframes.md) | 2026-10-01 |
 | [紐約大學數學教授 Buckmaster：千禧年難題 9 月 8 日還是 9 月 20 日解出來，世界不會變【AI 大人說】](data/ai-note-101/ai-note-101_OlCqb3DtqnM_keyframes.md) | 2026-10-01 |
