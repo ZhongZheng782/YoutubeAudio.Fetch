@@ -104,7 +104,6 @@ jobs:
 
       - name: Install keyframe-extraction dependencies
         timeout-minutes: 30
-        timeout-minutes: 30
         # ffmpeg is already installed in "Install ffmpeg (persisted static build)" above. Only
         # skill-youtube-channel-srt-keyframe-extract needs these pip packages — not
         # `pip install -r requirements.txt`, whose `-e ../llm` only resolves on a dev
