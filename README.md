@@ -16,6 +16,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 | --- | --- |
 | [AI 提早兩年做到，他說學界完全沒準備好｜Wolfram 物理計畫共同創辦人 Jonathan Gorard【AI 大人說】](data/ai-note-101/ai-note-101_QfvviTQtcHQ_keyframes.md) | 2026-10-06 |
 | [DeepMind 研究員 Marcus Hutter：四年前以為還差 3 到 5 個大點子，現在只差 0 到 1 個【AI 大人說】](data/ai-note-101/ai-note-101_R44pz7YNiwc_keyframes.md) | 2026-10-06 |
+| [全美每一州都有人通報 AI 資料中心，為什麼每一件都簽了保密協議？《永不妥協》真人原型 Erin Brockovich 【AI 大人說】](data/ai-note-101/ai-note-101_bE5lQEtHF-Y_keyframes.md) | 2026-10-06 |
 | [美國的 AI 到底領先中國多久？諾貝爾經濟學獎得主 Acemoglu 先給了一個數字 【AI 大人說】](data/ai-note-101/ai-note-101_cMzh-zJp4ss_keyframes.md) | 2026-10-06 |
 | [EP12/23｜反事實解釋是一個函數：它存不存在、連不連續，由資料的地形決定 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_y79NVF0hYSI_keyframes.md) | 2026-10-06 |
 | [Anthropic為AI意識槓上教宗【AI新聞快報 2026/10/06】](data/ai-note-101/ai-note-101_JyYLhfeMY_8_keyframes.md) | 2026-10-05 |
