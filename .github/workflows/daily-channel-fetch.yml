@@ -100,7 +100,7 @@ jobs:
           git push
 
       - name: Install keyframe-extraction dependencies
-        timeout-minutes: 10
+        timeout-minutes: 15
         # ffmpeg is already installed in "Install ffmpeg (persisted static build)" above. Only
         # skill-youtube-channel-srt-keyframe-extract needs these pip packages — not
         # `pip install -r requirements.txt`, whose `-e ../llm` only resolves on a dev
@@ -111,7 +111,11 @@ jobs:
         # install pkg @ git+URL` without --upgrade/--force-reinstall silently keeps
         # whatever commit was already installed — confirmed live when a fix pushed to
         # wenchiehlee/llm didn't take effect on the very next run.
-        run: pip install --force-reinstall Pillow google-genai "llm @ git+https://github.com/wenchiehlee/llm.git"
+        # Only llm needs --force-reinstall --no-deps so it pulls the latest git commit
+        # without forcing slow re-downloads of all large wheels on every run.
+        run: |
+          pip install Pillow google-genai
+          pip install --force-reinstall --no-deps "llm @ git+https://github.com/wenchiehlee/llm.git"
 
       - name: Extract keyframes for videos missing a _keyframes.md
         env:
