@@ -9,16 +9,13 @@ Before touching audio/whisper at all, each video is checked for an official
 YouTube transcript via `youtube-transcript-api`, in a preferred language:
   - YouTube's own auto-generated captions -> written straight to FIN.srt
     (no better than whisper's own output, so not worth refining).
-  - Creator-uploaded (manual) captions -> written to GT.srt only. A stem
+  - Creator-uploaded (manual) captions -> written to GT.srt and published with audio for podcast feeds. A stem
     with a GT.srt and no FIN.srt is a complete, valid end state on its own
     (downstream steps treat GT.srt as the source SRT when FIN.srt is
     absent) — FIN.srt is written only once something has actually produced
     a pipeline-scored transcript. `channel_fetch.py refine` can later spend
     audio+Mac-mini time on task_type="refine_fin_srt" to have the pipeline
     generate a real FIN.srt from that GT, if you want a CER-scored version.
-Either way the video skips the audio/manifest/whisper path entirely at fetch
-time — whisper's ~1-1.5h/video multi-experiment transcription is reserved for
-videos YouTube has no transcript for at all.
 
 Requires the `yt-dlp` CLI on PATH (audio extraction / metadata listing) and
 `requests`/`youtube-transcript-api` (already dependencies of
@@ -425,8 +422,23 @@ class ChannelFetcher:
                 data_dir = self.repo_root / "data" / channel_slug
                 fin_path = data_dir / f"{stem}_FIN.srt"
                 gt_path = data_dir / f"{stem}_GT.srt"
-                if fin_path.exists() or gt_path.exists():
+                if fin_path.exists():
                     print(f"[channel_fetch] skip {stem} (already sourced)")
+                    skipped += 1
+                    continue
+
+                if gt_path.exists():
+                    # Manual captions are sufficient for the transcript and should not
+                    # enter the whisper queue, but podcast episodes still need audio.
+                    # This also backfills GT-only stems created by older versions.
+                    if stem not in manifest:
+                        print(f"[channel_fetch] downloading audio for manual-transcript episode {stem}")
+                        audio_path = self.download_audio(video["video_id"], tmp_dir)
+                        renamed = audio_path.with_name(f"{stem}{audio_path.suffix}")
+                        audio_path.rename(renamed)
+                        print(f"[channel_fetch] publishing release asset for {stem}")
+                        manifest[stem] = self.publish_audio_asset(stem, renamed)
+                    print(f"[channel_fetch] skip {stem} (manual transcript already sourced)")
                     skipped += 1
                     continue
 
@@ -467,7 +479,12 @@ class ChannelFetcher:
                                     transcript_to_pseudo_srt(raw, stem, transcript.language_code, "_youtube-transcript-manual"),
                                     encoding="utf-8",
                                 )
-                                print(f"[channel_fetch] {stem}: manual YouTube transcript ({transcript.language_code}), wrote {gt_path} — run `refine` to have whisper pipeline generate a scored FIN.srt from this GT")
+                                audio_path = self.download_audio(video["video_id"], tmp_dir)
+                                renamed = audio_path.with_name(f"{stem}{audio_path.suffix}")
+                                audio_path.rename(renamed)
+                                print(f"[channel_fetch] publishing release asset for {stem}")
+                                manifest[stem] = self.publish_audio_asset(stem, renamed)
+                                print(f"[channel_fetch] {stem}: manual YouTube transcript ({transcript.language_code}), wrote {gt_path} and published audio — run `refine` to have whisper pipeline generate a scored FIN.srt from this GT")
                                 transcribed_manual += 1
                             if pending_whisper:
                                 del manifest[stem]
