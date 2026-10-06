@@ -9,9 +9,9 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ixw8pLpXtYs_keyframes/jimainotebook_ixw8pLpXtYs_000013.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_z8CE2M6B02Q_keyframes/jimainotebook_z8CE2M6B02Q_000010.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ixw8pLpXtYs_keyframes/jimainotebook_ixw8pLpXtYs_000013.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_z8CE2M6B02Q_keyframes/jimainotebook_z8CE2M6B02Q_000010.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
@@ -23,6 +23,8 @@
       <description>【Jim AI Notebook】賽局理論：每個動作都在說話｜訊號｜贏家詛咒｜Yale 公開課｜ECON159｜下集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_z8CE2M6B02Q.m4a" type="audio/mp4" length="97456249"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_z8CE2M6B02Q_keyframes/jimainotebook_z8CE2M6B02Q_000010.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_z8CE2M6B02Q.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Jim AI Notebook】AI 的智慧變便宜以後，最缺的是什麼？｜Alexandr Wang（Meta）｜演講訪談系列</title>

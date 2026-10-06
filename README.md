@@ -14,6 +14,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [AI 提早兩年做到，他說學界完全沒準備好｜Wolfram 物理計畫共同創辦人 Jonathan Gorard【AI 大人說】](data/ai-note-101/ai-note-101_QfvviTQtcHQ_keyframes.md) | 2026-10-06 |
+| [DeepMind 研究員 Marcus Hutter：四年前以為還差 3 到 5 個大點子，現在只差 0 到 1 個【AI 大人說】](data/ai-note-101/ai-note-101_R44pz7YNiwc_keyframes.md) | 2026-10-06 |
 | [美國的 AI 到底領先中國多久？諾貝爾經濟學獎得主 Acemoglu 先給了一個數字 【AI 大人說】](data/ai-note-101/ai-note-101_cMzh-zJp4ss_keyframes.md) | 2026-10-06 |
 | [EP12/23｜反事實解釋是一個函數：它存不存在、連不連續，由資料的地形決定 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_y79NVF0hYSI_keyframes.md) | 2026-10-06 |
 | [Anthropic為AI意識槓上教宗【AI新聞快報 2026/10/06】](data/ai-note-101/ai-note-101_JyYLhfeMY_8_keyframes.md) | 2026-10-05 |
@@ -102,6 +104,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [賽局理論：每個動作都在說話｜訊號｜贏家詛咒｜Yale 公開課｜ECON159｜下集](data/jimainotebook/jimainotebook_z8CE2M6B02Q_keyframes.md) | 2026-10-05 |
 | [AI 的智慧變便宜以後，最缺的是什麼？｜Alexandr Wang（Meta）｜演講訪談系列](data/jimainotebook/jimainotebook_ixw8pLpXtYs_keyframes.md) | 2026-10-04 |
 | [人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集](data/jimainotebook/jimainotebook_3eZAYm8Di48_keyframes.md) | 2026-10-02 |
 | [AI 簡史：機器學會思考以前｜簡史系列](data/jimainotebook/jimainotebook_dVnETuDm1bg_keyframes.md) | 2026-10-01 |
@@ -223,6 +226,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [AI點火，塑化、金融、電子股可望接力！掌握台股的機會與布局｜論壇實況](data/wealth1974/wealth1974_TSzRULiMuys_keyframes.md) | 2026-10-06 |
 | [掌握千億家產 宏泰集團掌門人的自白｜#聽了財知道 EP374 #宏泰 #信託](data/wealth1974/wealth1974_41YfdcyP4SA_keyframes.md) | 2026-10-05 |
 | [政府力推在宅急症險 壽險業卻觀望｜#財訊不漏接 EP055 #財訊podcast #在宅急症險 #在宅醫療 #保險理賠 #壽險](data/wealth1974/wealth1974_X9BmCSkTuyw_keyframes.md) | 2026-10-03 |
 | [捷運到哪 都更到哪 新北建立四大都心的願景｜#老謝開講 #謝金河 #財訊 EP295 feat. 新北市長 侯友宜](data/wealth1974/wealth1974_fflsSlBwb9U_keyframes.md) | 2026-10-02 |
