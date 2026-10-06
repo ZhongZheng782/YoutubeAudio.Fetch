@@ -103,11 +103,8 @@ jobs:
           git push
 
       - name: Install keyframe-extraction dependencies
-<<<<<<< HEAD
-        timeout-minutes: 15
-=======
         timeout-minutes: 30
->>>>>>> 130ef72 (fix: keep podcast feeds fresh when keyframe install is slow)
+        timeout-minutes: 30
         # ffmpeg is already installed in "Install ffmpeg (persisted static build)" above. Only
         # skill-youtube-channel-srt-keyframe-extract needs these pip packages — not
         # `pip install -r requirements.txt`, whose `-e ../llm` only resolves on a dev
