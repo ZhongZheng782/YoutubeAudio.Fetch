@@ -100,7 +100,11 @@ jobs:
           git push
 
       - name: Install keyframe-extraction dependencies
+<<<<<<< HEAD
         timeout-minutes: 15
+=======
+        timeout-minutes: 30
+>>>>>>> 130ef72 (fix: keep podcast feeds fresh when keyframe install is slow)
         # ffmpeg is already installed in "Install ffmpeg (persisted static build)" above. Only
         # skill-youtube-channel-srt-keyframe-extract needs these pip packages — not
         # `pip install -r requirements.txt`, whose `-e ../llm` only resolves on a dev
@@ -180,9 +184,11 @@ jobs:
           PYEOF
 
       - name: Regenerate README content index
+        if: always()
         run: python scripts/generate_readme_index.py
 
       - name: Regenerate podcast feeds
+        if: always()
         # One feed per channel that has at least one audio-backed episode in the
         # manifest — video_id is a fixed 11 chars, so channel = stem[:-12] (strips
         # "_" + the id) rather than splitting on "_", which would break on a channel
@@ -210,6 +216,7 @@ jobs:
         run: python scripts/generate_audio_manifest_csv.py
 
       - name: Commit if changed
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
