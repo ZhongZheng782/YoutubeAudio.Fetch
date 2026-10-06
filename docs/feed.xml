@@ -9,12 +9,32 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1SLc_XA1OuA_keyframes/ai-note-101_1SLc_XA1OuA_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ixw8pLpXtYs_keyframes/jimainotebook_ixw8pLpXtYs_000013.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1SLc_XA1OuA_keyframes/ai-note-101_1SLc_XA1OuA_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ixw8pLpXtYs_keyframes/jimainotebook_ixw8pLpXtYs_000013.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>【Jim AI Notebook】賽局理論：每個動作都在說話｜訊號｜贏家詛咒｜Yale 公開課｜ECON159｜下集</title>
+      <guid isPermaLink="false">jimainotebook_z8CE2M6B02Q</guid>
+      <pubDate>Mon, 05 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=z8CE2M6B02Q</link>
+      <description>【Jim AI Notebook】賽局理論：每個動作都在說話｜訊號｜贏家詛咒｜Yale 公開課｜ECON159｜下集</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_z8CE2M6B02Q.m4a" type="audio/mp4" length="97456249"/>
+      <itunes:author>Jim AI Notebook</itunes:author>
+    </item>
+    <item>
+      <title>【Jim AI Notebook】AI 的智慧變便宜以後，最缺的是什麼？｜Alexandr Wang（Meta）｜演講訪談系列</title>
+      <guid isPermaLink="false">jimainotebook_ixw8pLpXtYs</guid>
+      <pubDate>Sun, 04 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=ixw8pLpXtYs</link>
+      <description>【Jim AI Notebook】AI 的智慧變便宜以後，最缺的是什麼？｜Alexandr Wang（Meta）｜演講訪談系列</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ixw8pLpXtYs.m4a" type="audio/mp4" length="48101312"/>
+      <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ixw8pLpXtYs_keyframes/jimainotebook_ixw8pLpXtYs_000013.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ixw8pLpXtYs.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>【AI 101】大家以為 AI 會讓一切變清楚，羽生善治說相反：被 AI 洗過一輪的將棋界，現在是五里霧中【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_1SLc_XA1OuA</guid>
@@ -65,6 +85,8 @@
       <description>【Jim AI Notebook】人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_3eZAYm8Di48.m4a" type="audio/mp4" length="101767268"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_3eZAYm8Di48_keyframes/jimainotebook_3eZAYm8Di48_000021.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_3eZAYm8Di48.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Jim AI Notebook】人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集</title>

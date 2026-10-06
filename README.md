@@ -14,6 +14,11 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [美國的 AI 到底領先中國多久？諾貝爾經濟學獎得主 Acemoglu 先給了一個數字 【AI 大人說】](data/ai-note-101/ai-note-101_cMzh-zJp4ss_keyframes.md) | 2026-10-06 |
+| [EP12/23｜反事實解釋是一個函數：它存不存在、連不連續，由資料的地形決定 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_y79NVF0hYSI_keyframes.md) | 2026-10-06 |
+| [Anthropic為AI意識槓上教宗【AI新聞快報 2026/10/06】](data/ai-note-101/ai-note-101_JyYLhfeMY_8_keyframes.md) | 2026-10-05 |
+| [Science、Nature、Cell 總編輯同台：AI 審稿很厲害，責任仍得由人來扛 【AI 大人說】](data/ai-note-101/ai-note-101_V8_sWpR4Gn0_keyframes.md) | 2026-10-05 |
+| [AI 會殺死文學嗎？法蘭西公學院比較文學教授：機器寫給機器看的時代要來了｜William Marx【AI 大人說】](data/ai-note-101/ai-note-101_zOE2P3jj4kw_keyframes.md) | 2026-10-05 |
 | [大家以為 AI 會讓一切變清楚，羽生善治說相反：被 AI 洗過一輪的將棋界，現在是五里霧中【AI 大人說】](data/ai-note-101/ai-note-101_1SLc_XA1OuA_keyframes.md) | 2026-10-02 |
 | [北京卡住輝達H200，華為卻被產能反噬【AI新聞快報 2026/10/03】](data/ai-note-101/ai-note-101_yFK6ESC-G9Y_keyframes.md) | 2026-10-02 |
 | [AlphaFold 分數暴衝那天，評審席上的她在想：人類輸了，還是該誇它幹得好｜首爾大學教授 Chaok Seok【AI 大人說】](data/ai-note-101/ai-note-101_zFxkkULZCps_keyframes.md) | 2026-10-02 |
@@ -97,6 +102,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [AI 的智慧變便宜以後，最缺的是什麼？｜Alexandr Wang（Meta）｜演講訪談系列](data/jimainotebook/jimainotebook_ixw8pLpXtYs_keyframes.md) | 2026-10-04 |
+| [人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集](data/jimainotebook/jimainotebook_3eZAYm8Di48_keyframes.md) | 2026-10-02 |
 | [AI 簡史：機器學會思考以前｜簡史系列](data/jimainotebook/jimainotebook_dVnETuDm1bg_keyframes.md) | 2026-10-01 |
 | [賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集](data/jimainotebook/jimainotebook_kfPGulrqVtI_keyframes.md) | 2026-09-29 |
 | [賽局理論：你的最好，取決於別人｜納許均衡｜囚徒困境｜中間選民｜Yale 公開課｜ECON159｜上集](data/jimainotebook/jimainotebook_RtytrLzbJ-0_keyframes.md) | 2026-09-26 |
@@ -139,6 +146,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [輝達、台積電業績好、股價漲不動，為什麼？輝達追加股票回購的3層盤算！台積電股價委曲嗎？｜峰哥｜Smart智富．投資的一千零一夜253](data/smartmonthly-bw/smartmonthly-bw_ri3QpRmhBCM_keyframes.md) | 2026-10-03 |
 | [AI股獲利了結後，錢可以擺在哪裡? 帶您關注『潛力市場』的配置機會｜詹璇依、黃大展│Smart投資教室](data/smartmonthly-bw/smartmonthly-bw_opHWowpsGA8_keyframes.md) | 2026-09-30 |
 | [央行第7波信用管制滿兩週年，成屋買氣有感回溫？｜永慶房屋陳賜傑、Amy｜房產關鍵字](data/smartmonthly-bw/smartmonthly-bw_HLeipjrNbik_keyframes.md) | 2026-09-29 |
 | [FED還會升息幾次？利率會升到多高？台股何時可能反轉？造成通膨失控的潛在危機是什麼？｜峰哥｜Smart智富．投資的一千零一夜252](data/smartmonthly-bw/smartmonthly-bw_V35DrgT3U7w_keyframes.md) | 2026-09-26 |
@@ -215,6 +223,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [掌握千億家產 宏泰集團掌門人的自白｜#聽了財知道 EP374 #宏泰 #信託](data/wealth1974/wealth1974_41YfdcyP4SA_keyframes.md) | 2026-10-05 |
+| [政府力推在宅急症險 壽險業卻觀望｜#財訊不漏接 EP055 #財訊podcast #在宅急症險 #在宅醫療 #保險理賠 #壽險](data/wealth1974/wealth1974_X9BmCSkTuyw_keyframes.md) | 2026-10-03 |
 | [捷運到哪 都更到哪 新北建立四大都心的願景｜#老謝開講 #謝金河 #財訊 EP295 feat. 新北市長 侯友宜](data/wealth1974/wealth1974_fflsSlBwb9U_keyframes.md) | 2026-10-02 |
 | [高利率時代的資產配置 靠一關鍵突破升息逆風！｜#聽了財知道 EP373 #升息 #聯準會](data/wealth1974/wealth1974_mPb3BC9Z1OM_keyframes.md) | 2026-09-30 |
 | [獨家揭露 台積電麥寮外海的秘密計畫｜#聽了財知道 EP372 #碳封存 #台積電](data/wealth1974/wealth1974_JkQcyPHusrA_keyframes.md) | 2026-09-28 |
@@ -264,6 +274,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/10/6(二)台股衝五萬 這次誰在買?美債殖利率衝6% 美股越漲越怪?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_tlXP3xUPZLI_keyframes.md) | 2026-10-06 |
+| [2026/10/5(一)非農降溫 救得了美債?全球國債大逃殺 輝達創新高 科技股準備軋空?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_sHnrkgDMHqE_keyframes.md) | 2026-10-05 |
 | [2026/10/2(五)台股創新高 下一棒換誰?利空鈍化?大賣空喊AI 為了人類該跌!【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_BTBH4-RZZXg_keyframes.md) | 2026-10-02 |
 | [2026/10/1(四)美股詭異行情!債市拉警報 基本面卻上修?八成個股下跌 AI能撐多久?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_FsIraI_ezPI_keyframes.md) | 2026-10-01 |
 | [2026/9/30(三)利率越漲 美股越不跌？數兆美元豪賭 AI驗收期到了嗎?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_eHz1_TGAo4I_keyframes.md) | 2026-09-30 |
