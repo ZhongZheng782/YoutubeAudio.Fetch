@@ -9,12 +9,45 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_z8CE2M6B02Q_keyframes/jimainotebook_z8CE2M6B02Q_000010.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_cMzh-zJp4ss_keyframes/ai-note-101_cMzh-zJp4ss_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_z8CE2M6B02Q_keyframes/jimainotebook_z8CE2M6B02Q_000010.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_cMzh-zJp4ss_keyframes/ai-note-101_cMzh-zJp4ss_000000.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>【AI 101】美國的 AI 到底領先中國多久？諾貝爾經濟學獎得主 Acemoglu 先給了一個數字 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_cMzh-zJp4ss</guid>
+      <pubDate>Tue, 06 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=cMzh-zJp4ss</link>
+      <description>【AI 101】美國的 AI 到底領先中國多久？諾貝爾經濟學獎得主 Acemoglu 先給了一個數字 【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_cMzh-zJp4ss.m4a" type="audio/mp4" length="8858875"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_cMzh-zJp4ss_keyframes/ai-note-101_cMzh-zJp4ss_000000.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_cMzh-zJp4ss.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>【AI 101】EP12/23｜反事實解釋是一個函數：它存不存在、連不連續，由資料的地形決定 【AI可解釋性 - 2026 UCLA工作坊】</title>
+      <guid isPermaLink="false">ai-note-101_y79NVF0hYSI</guid>
+      <pubDate>Tue, 06 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=y79NVF0hYSI</link>
+      <description>【AI 101】EP12/23｜反事實解釋是一個函數：它存不存在、連不連續，由資料的地形決定 【AI可解釋性 - 2026 UCLA工作坊】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_y79NVF0hYSI.m4a" type="audio/mp4" length="10559376"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_y79NVF0hYSI_keyframes/ai-note-101_y79NVF0hYSI_000000.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_y79NVF0hYSI.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>【游庭皓的財經皓角】2026/10/6(二)台股衝五萬 這次誰在買?美債殖利率衝6% 美股越漲越怪?【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_tlXP3xUPZLI</guid>
+      <pubDate>Tue, 06 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=tlXP3xUPZLI</link>
+      <description>【游庭皓的財經皓角】2026/10/6(二)台股衝五萬 這次誰在買?美債殖利率衝6% 美股越漲越怪?【早晨財經速解讀】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_tlXP3xUPZLI.m4a" type="audio/mp4" length="34263057"/>
+      <itunes:author>游庭皓的財經皓角</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_tlXP3xUPZLI_keyframes/yutinghaofinance_tlXP3xUPZLI_000025.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_tlXP3xUPZLI.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>【Jim AI Notebook】賽局理論：每個動作都在說話｜訊號｜贏家詛咒｜Yale 公開課｜ECON159｜下集</title>
       <guid isPermaLink="false">jimainotebook_z8CE2M6B02Q</guid>
@@ -78,6 +111,7 @@
       <description>【富邦證券】AI需求是假象還是真成長？艦長拆解算力與半導體商機｜程正樺專訪 EP2</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_4B9WiNsGNyo.m4a" type="audio/mp4" length="24359932"/>
       <itunes:author>富邦證券</itunes:author>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_4B9WiNsGNyo.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Jim AI Notebook】人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集</title>
@@ -575,6 +609,7 @@
       <description>【fubonsec】TISA EP3</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_pNLBxERvHUY.m4a" type="audio/mp4" length="18935585"/>
       <itunes:author>fubonsec</itunes:author>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_pNLBxERvHUY.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Jim AI Notebook】平行運算：加了核心為什麼沒變快｜記憶體｜多核心｜快取｜Stanford 公開課｜CS149｜上集</title>
@@ -595,6 +630,7 @@
       <description>【fubonsec】3650 EP10</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_MXcBsRl3cbQ.m4a" type="audio/mp4" length="20030381"/>
       <itunes:author>fubonsec</itunes:author>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_MXcBsRl3cbQ.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Jim AI Notebook】前沿系統：AI 如何變成真正能用的產品｜Stanford 公開課｜CS153｜下集</title>
@@ -626,6 +662,7 @@
       <description>【fubonsec】AI   EP 95</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_TxT3-rZkQNs.m4a" type="audio/mp4" length="43988458"/>
       <itunes:author>fubonsec</itunes:author>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_TxT3-rZkQNs.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【fubonsec】4% EP2</title>
@@ -664,6 +701,7 @@
       <description>【fubonsec】EP9</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_CjDnERMo6Yk.m4a" type="audio/mp4" length="21330642"/>
       <itunes:author>fubonsec</itunes:author>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_CjDnERMo6Yk.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Jim AI Notebook】前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜上集</title>
@@ -684,6 +722,7 @@
       <description>【fubonsec】50ETF EP1</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_1ENAGYabp4s.m4a" type="audio/mp4" length="30929627"/>
       <itunes:author>fubonsec</itunes:author>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_1ENAGYabp4s.vtt" type="text/vtt" language="zh"/>
     </item>
     <item>
       <title>【Jim AI Notebook】從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜下集</title>
