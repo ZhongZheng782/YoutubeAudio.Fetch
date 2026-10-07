@@ -1,0 +1,202 @@
+[METADATA]
+Source: ai-note-101_cMzh-zJp4ss_exp11
+Language: zh
+---
+(00:00.120) 上個月我們檢過諾貝爾經濟學獎得主Doron Asimoglu的訪談,
+(00:04.200) 他說決定AI往哪走的是一小群讀同樣科幻小說的人,
+(00:07.960) 這一場是9月20號上架的,
+(00:10.060) 他拿美國跟中國來比,
+(00:11.540) 主持人指出他談自由民主的新書完全沒寫中國。
+(00:54.380) 主持人接著引了一個說法
+(00:56.160) 西方過去150年的好日子
+(00:58.540) 靠的是技術跟經濟上領先全世界
+(01:01.040) 現在這個領先沒了
+(01:07.560) 這是絕對的
+(01:08.140) 但在某種意義上
+(01:10.980) 我認為
+(01:12.140) 一個 liberal democratic government
+(01:13.280) 會有更好的機會
+(01:14.780) 重新建立
+(01:15.500) 那種技術主義
+(01:16.620) 我們為什麼失去
+(01:17.440) 技術主義
+(01:18.460) 首先
+(01:23.210) 中國在某些政策上
+(01:26.530) 支持了它的製造基地
+(01:28.850) 它的經濟
+(01:29.750) 他們所有的信用
+(01:30.770) 但是很多的
+(01:32.540) 也是自負的
+(01:35.100) 所有的西方政府
+(01:38.490) 都一同解決了
+(01:39.690) 他們的貿易保障
+(01:41.730) 讓中國的製造
+(01:44.900) 很便宜的生產品
+(01:46.320) 甚至是資產品
+(01:47.240) 來淹沒市場
+(01:48.900) 和毀壞他們的企業
+(01:50.540) 在AI和技術上
+(01:53.460) 我們將所有資源
+(01:55.980) 放進AGI
+(01:59.060) 和這些非常複雜
+(02:02.180) 非常大的基礎模式
+(02:04.440) 作為結果
+(02:06.950) 你經常聽到
+(02:08.630) 美國在AI上
+(02:10.130) 有一個領導
+(02:10.490) 在中國
+(02:11.310) 我們有一個領導
+(02:12.930) 在大語言模式上
+(02:13.630) 大約6到16個月
+(02:16.010) in large language models
+(02:18.460) but if you look at every aspect of
+(02:21.950) every other aspect of tech
+(02:23.550) China is doing very well
+(02:25.010) they are ahead of the United States
+(02:27.400) and the UK and most of Europe
+(02:29.460) all of Europe
+(02:30.300) in terms of integrating robotics and AI
+(02:32.760) into the production process
+(02:33.980) they are ahead of getting AI
+(02:42.550) and they have tremendous
+(02:44.880) they have made tremendous investment
+(02:46.540) in two things that are really critical
+(02:48.140) 一個是生產階級,
+(02:49.240) 他們有一個巨大的生產階級,
+(02:50.620) 這創造了許多學習機會,
+(02:52.260) 許多機會對AI和技術的使用,
+(02:55.120) 以增加生產能力的方式。
+(02:56.720) 他們有一個非常有能力和大量的工程師,
+(03:03.920) 這很重要,
+(03:04.900) 因為它們能夠將AI融入每個生產過程中的每個部分。
+(03:09.740) 所以,這些都是我們也能做到的事情。
+(03:12.960) 美國並沒有投資在工程。
+(03:42.310) Asimoglu分析過蘇聯
+(03:44.460) 蘇聯的經濟一度表現不錯
+(03:46.670) 後來垮掉
+(03:47.450) 他認為是因為體制做不到創造性破壞
+(03:49.830) 主持人拿中國反問他
+(03:57.090) 我認為如果你看到創造破壞
+(04:02.850) 作為一種中心化的過程
+(04:05.680) 使新的想法出現
+(04:14.150) 以及挑戰既存在的想法
+(04:15.810) 或商務實施或策略
+(04:17.350) 中國不太好
+(04:20.380) 仍然有很多這種過程的管理
+(04:23.500) 中國非常好地發展
+(04:29.080) developing existing technological lines
+(04:33.640) and lines of business
+(04:34.720) extremely competently
+(04:37.370) so if you see
+(04:38.990) look at their AI industry for instance
+(04:40.870) you see that
+(04:42.190) what they have done with deep seek
+(04:45.360) and the Kimi models etc
+(04:48.440) is an engineering marvel
+(04:50.260) they have just perfected
+(04:52.180) how you can use existing methods
+(04:54.120) in a cost effective way
+(04:56.090) perhaps they've used
+(04:57.330) some of the distilling techniques
+(04:58.370) in order to reverse engineer
+(05:00.690) 一些更豐富的模型的重量
+(05:02.510) 但他們真的在一個便宜和優秀的方式上做了這些
+(05:05.730) 你看到他們的製造基地
+(05:08.600) 就像是一部Marvel 2的設計
+(05:11.760) 每個部分都在嘗試調整
+(05:16.620) 所以這就是為什麼有些公司
+(05:19.710) 比如BYD Foxconn
+(05:21.210) 是臺灣的公司
+(05:22.290) 但是在中國有很大的活動
+(05:24.150) 或是Huawei
+(05:25.230) 因為他們是大型公司
+(05:29.370) So the new blood coming in
+(05:32.350) and challenge the system
+(05:33.270) is still not so active
+(05:35.910) and whether it's going to be
+(05:41.580) down the line
+(05:42.260) still remains to be seen
+(05:43.320) China is still not at the level of
+(05:45.360) Western European and British
+(05:47.240) or American GDP per capita
+(05:49.770) but it's approaching it fast
+(05:51.430) 訪談最後
+(05:52.730) 主持人問他
+(05:53.610) 英國的生產力
+(05:54.910) 從2008年到現在
+(05:55.950) 幾乎沒有成長
+(05:56.810) 該怎麼辦
+(05:57.750) 他先講了幾個原因
+(05:59.600) 砸解脫歐中國的競爭
+(06:32.610) 工作主義,那是美國未來的目標。
+(06:35.970) 安迪·貝爾南,一個他的網友正在聽話。
+(06:39.190) Pro worker AI, how do we do that?
+(06:41.660) 我認為,首先,我們必須要用傳統設計。
+(06:45.590) There are so many low hanging fruit
+(06:52.180) 電子工程師
+(06:59.160) Not trying to mimic human talent
+(07:03.240) to expand their expertise
+(07:04.300) to enable them to do new things
+(07:05.600) to do things that are more creative
+(07:07.180) more innovative
+(07:07.740) we need more innovation
+(07:08.780) in the UK
+(07:09.560) in the world
+(07:10.560) because of climate change
+(07:11.920) because of aging
+(07:12.520) because of changing global balances
+(07:14.300) and innovation
+(07:15.280) I think in the foreseeable future
+(07:17.510) is going to remain an activity
+(07:18.830) in which we need human talent
+(07:20.130) so the question is
+(07:21.150) how can we give better tools
+(07:22.570) for that human talent
+(07:23.350) yeah this is something again
+(07:24.290) comes across really in the book
+(07:25.750) 你討論了很多關於自動技術
+(07:27.190) but it's not about replacing people
+(07:28.890) it's about augmenting them
+(07:30.570) and really trying to maximize
+(07:31.670) that boost in productivity
+(07:32.510) 我們已經看不見了
+(07:35.110) 100%
+(07:35.890) 這是AGI的目標
+(07:38.590) AGI的目標是
+(07:39.590) 基本上
+(07:41.130) 讓人們認識到
+(07:44.130) AI能做的最好和最不可能的事情
+(07:46.850) 是讓人們變得更好
+(07:48.950) 讓人們變得更好
+(07:50.770) 最後一個問題
+(07:52.600) 為什麼那麼多人
+(07:54.100) 為此而落下
+(07:54.740) 這是 Washington的歷史
+(07:56.020) 最令人印象深刻的努力
+(07:57.180) 還是有更深刻的事情
+(08:00.420) 我覺得
+(08:00.780) 部分是歷史
+(08:06.730) with Microsoft, Google, Oracle
+(08:08.570) becoming giants
+(08:14.810) And some of it is science fiction
+(08:17.360) 實際上
+(08:23.680) from its inception
+(08:24.740) 這是科學的一種
+(08:30.760) and then take over and threaten humans
+(08:32.760) We've imagined that
+(08:34.940) 我們在1950年代
+(08:43.180) 照S-Moglu的說法
+(08:44.520) 美國壓在AGI
+(08:45.720) 只換到大模型上一點領先
+(08:47.440) 工廠裡的AI已經輸給中國
+(08:49.530) 他要英國別跟著美國
+(08:51.250) 讓AI去幫護理師
+(08:52.610) 電工跟老師
+(08:53.670) 原影片77分鐘
+(08:56.460) 大部分在談他的新書
+(08:58.000) 他也講到
+(08:58.900) AI公司老闆一談人類滅絕
+(09:00.960) 薪水跟不平等的討論
+(09:02.580) 就被蓋過去
+(09:03.240) 原影片連結在說明欄
+(09:05.000) 有興趣可以去聽更多
