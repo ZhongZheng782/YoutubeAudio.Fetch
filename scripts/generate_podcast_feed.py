@@ -22,6 +22,7 @@ import json
 import re
 import sys
 import urllib.request
+from urllib.parse import quote
 from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
 from pathlib import Path
@@ -56,7 +57,7 @@ def _format_vtt_timestamp(total_seconds: float) -> str:
     return f"{int(hours):02d}:{int(minutes):02d}:{seconds:06.3f}"
 
 
-def srt_to_vtt(pseudo_srt_text: str) -> str:
+def parse_pseudo_srt_cues(pseudo_srt_text: str) -> list[tuple[float, str]]:
     cues = []
     for line in pseudo_srt_text.replace("\r\n", "\n").split("\n"):
         match = PSEUDO_SRT_CUE_RE.match(line.strip())
@@ -66,7 +67,11 @@ def srt_to_vtt(pseudo_srt_text: str) -> str:
         start = int(minutes) * 60 + float(seconds)
         if text.strip():
             cues.append((start, text.strip()))
+    return cues
 
+
+def srt_to_vtt(pseudo_srt_text: str) -> str:
+    cues = parse_pseudo_srt_cues(pseudo_srt_text)
     blocks = ["WEBVTT", ""]
     for i, (start, text) in enumerate(cues):
         end = cues[i + 1][0] if i + 1 < len(cues) else start + DEFAULT_CUE_DURATION
@@ -186,6 +191,34 @@ def enclosure_length(audio_url: str) -> str:
         return "0"
 
 
+def _timeline_label(seconds: float) -> str:
+    total = int(seconds)
+    minutes, secs = divmod(total, 60)
+    hours, minutes = divmod(minutes, 60)
+    return f"{hours:02d}:{minutes:02d}:{secs:02d}" if hours else f"{minutes:02d}:{secs:02d}"
+
+
+def render_transcript_timeline(ep: dict) -> str:
+    """Render a compact HTML timeline that remains visible in RSS descriptions."""
+    if not ep["srt_path"]:
+        return ""
+    from html import escape as html_escape
+
+    srt_text = (REPO_ROOT / ep["srt_path"]).read_text(encoding="utf-8")
+    cues = parse_pseudo_srt_cues(srt_text)
+    lines = []
+    for start, cue_text in cues:
+        page_url = (
+            f"{PAGES_BASE}/?channel={quote(ep['channel'])}"
+            f"&episode={quote(ep['stem'])}&t={int(start)}"
+        )
+        lines.append(
+            f'<p><a href="{html_escape(page_url, quote=True)}">'
+            f'[{_timeline_label(start)}]</a> {html_escape(cue_text)}</p>'
+        )
+    return "\n".join(lines)
+
+
 def write_vtt_transcript(channel: str, ep: dict) -> str | None:
     """Convert ep's SRT to WebVTT and publish it under docs/, returning the Pages URL
     (or None if there's no transcript). Apple Podcasts stopped accepting SRT in March
@@ -238,6 +271,7 @@ def render_feed(channel: str, episodes: list[dict], *, combined: bool = False) -
             f"      <pubDate>{format_datetime(ep['pub_dt'])}</pubDate>\n"
             f"      <link>https://www.youtube.com/watch?v={escape(ep['video_id'])}</link>\n"
             f"      <description>{escape(ep_title)}</description>\n"
+            f"      <content:encoded><![CDATA[{render_transcript_timeline(ep)}]]></content:encoded>\n"
             f"      <enclosure url=\"{escape(WORKER_BASE)}/audio/{escape(ep['stem'])}.m4a\" "
             f"type=\"audio/mp4\" length=\"{enclosure_length(ep['audio_url'])}\"/>\n"
             f"{extra_tags}"
@@ -258,6 +292,7 @@ def render_feed(channel: str, episodes: list[dict], *, combined: bool = False) -
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<rss version="2.0" '
         'xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" '
+        'xmlns:content="http://purl.org/rss/1.0/modules/content/" '
         'xmlns:podcast="https://podcastindex.org/namespace/1.0" '
         'xmlns:atom="http://www.w3.org/2005/Atom">\n'
         "  <channel>\n"

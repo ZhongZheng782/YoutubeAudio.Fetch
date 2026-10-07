@@ -217,7 +217,9 @@ function selectChannel(channel) {
 
   renderEpisodeList(channel, episodes);
   mainEl.innerHTML = `<div class="placeholder">請從左邊選一集</div>`;
-  if (episodes.length > 0) selectEpisode(channel, episodes[0]);
+  const requestedEpisode = new URL(window.location.href).searchParams.get("episode");
+  const selectedEpisode = episodes.find((episode) => episode.stem === requestedEpisode) || episodes[0];
+  if (selectedEpisode) selectEpisode(channel, selectedEpisode);
 }
 
 async function loadChannels() {
@@ -290,6 +292,13 @@ async function selectEpisode(channel, ep) {
   lyricsTrack.track.addEventListener("cuechange", updateLiveLyrics);
   lyricsTrack.addEventListener("load", updateLiveLyrics);
   player.addEventListener("timeupdate", updateLiveLyrics);
+  const requestedTime = Number(new URL(window.location.href).searchParams.get("t"));
+  if (Number.isFinite(requestedTime) && requestedTime >= 0) {
+    player.addEventListener("loadedmetadata", () => {
+      player.currentTime = requestedTime;
+      updateLiveLyrics();
+    }, { once: true });
+  }
 
   let cues = [];
   try {
