@@ -14,6 +14,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [Claude 私人日記四天直通警局：AI 公司成了威脅守門人【AI新聞快報 2026/10/07】](data/ai-note-101/ai-note-101_7XTRd1Fbkow_keyframes.md) | 2026-10-06 |
 | [AI 提早兩年做到，他說學界完全沒準備好｜Wolfram 物理計畫共同創辦人 Jonathan Gorard【AI 大人說】](data/ai-note-101/ai-note-101_QfvviTQtcHQ_keyframes.md) | 2026-10-06 |
 | [DeepMind 研究員 Marcus Hutter：四年前以為還差 3 到 5 個大點子，現在只差 0 到 1 個【AI 大人說】](data/ai-note-101/ai-note-101_R44pz7YNiwc_keyframes.md) | 2026-10-06 |
 | [全美每一州都有人通報 AI 資料中心，為什麼每一件都簽了保密協議？《永不妥協》真人原型 Erin Brockovich 【AI 大人說】](data/ai-note-101/ai-note-101_bE5lQEtHF-Y_keyframes.md) | 2026-10-06 |
@@ -279,6 +280,7 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/10/7(三)輝達衝6兆市值 估值更便宜?AI越燒越多 錢從哪裡來？【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_wM7uDRpaC-g_keyframes.md) | 2026-10-07 |
 | [2026/10/6(二)台股衝五萬 這次誰在買?美債殖利率衝6% 美股越漲越怪?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_tlXP3xUPZLI_keyframes.md) | 2026-10-06 |
 | [2026/10/5(一)非農降溫 救得了美債?全球國債大逃殺 輝達創新高 科技股準備軋空?【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_sHnrkgDMHqE_keyframes.md) | 2026-10-05 |
 | [2026/10/2(五)台股創新高 下一棒換誰?利空鈍化?大賣空喊AI 為了人類該跌!【早晨財經速解讀】](data/yutinghaofinance/yutinghaofinance_BTBH4-RZZXg_keyframes.md) | 2026-10-02 |
