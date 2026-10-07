@@ -24,7 +24,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_cMzh-zJp4ss.m4a" type="audio/mp4" length="8858875"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_cMzh-zJp4ss_keyframes/ai-note-101_cMzh-zJp4ss_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_cMzh-zJp4ss.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_cMzh-zJp4ss.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】EP12/23｜反事實解釋是一個函數：它存不存在、連不連續，由資料的地形決定 【AI可解釋性 - 2026 UCLA工作坊】</title>
@@ -35,7 +35,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_y79NVF0hYSI.m4a" type="audio/mp4" length="10559376"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_y79NVF0hYSI_keyframes/ai-note-101_y79NVF0hYSI_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_y79NVF0hYSI.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_y79NVF0hYSI.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/10/6(二)台股衝五萬 這次誰在買?美債殖利率衝6% 美股越漲越怪?【早晨財經速解讀】</title>
@@ -46,7 +46,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_tlXP3xUPZLI.m4a" type="audio/mp4" length="34263057"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_tlXP3xUPZLI_keyframes/yutinghaofinance_tlXP3xUPZLI_000025.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_tlXP3xUPZLI.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_tlXP3xUPZLI.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】賽局理論：每個動作都在說話｜訊號｜贏家詛咒｜Yale 公開課｜ECON159｜下集</title>
@@ -57,7 +57,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_z8CE2M6B02Q.m4a" type="audio/mp4" length="97456249"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_z8CE2M6B02Q_keyframes/jimainotebook_z8CE2M6B02Q_000010.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_z8CE2M6B02Q.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_z8CE2M6B02Q.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】AI 的智慧變便宜以後，最缺的是什麼？｜Alexandr Wang（Meta）｜演講訪談系列</title>
@@ -68,7 +68,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ixw8pLpXtYs.m4a" type="audio/mp4" length="48101312"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ixw8pLpXtYs_keyframes/jimainotebook_ixw8pLpXtYs_000013.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ixw8pLpXtYs.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ixw8pLpXtYs.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】大家以為 AI 會讓一切變清楚，羽生善治說相反：被 AI 洗過一輪的將棋界，現在是五里霧中【AI 大人說】</title>
@@ -79,7 +79,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_1SLc_XA1OuA.m4a" type="audio/mp4" length="22324797"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1SLc_XA1OuA_keyframes/ai-note-101_1SLc_XA1OuA_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_1SLc_XA1OuA.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_1SLc_XA1OuA.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】北京卡住輝達H200，華為卻被產能反噬【AI新聞快報 2026/10/03】</title>
@@ -90,7 +90,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_yFK6ESC-G9Y.m4a" type="audio/mp4" length="6726625"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_yFK6ESC-G9Y_keyframes/ai-note-101_yFK6ESC-G9Y_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_yFK6ESC-G9Y.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_yFK6ESC-G9Y.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】AlphaFold 分數暴衝那天，評審席上的她在想：人類輸了，還是該誇它幹得好｜首爾大學教授 Chaok Seok【AI 大人說】</title>
@@ -101,7 +101,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_zFxkkULZCps.m4a" type="audio/mp4" length="26734149"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_zFxkkULZCps_keyframes/ai-note-101_zFxkkULZCps_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_zFxkkULZCps.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_zFxkkULZCps.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】AI需求是假象還是真成長？艦長拆解算力與半導體商機｜程正樺專訪 EP2</title>
@@ -111,7 +111,7 @@
       <description>【富邦證券】AI需求是假象還是真成長？艦長拆解算力與半導體商機｜程正樺專訪 EP2</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_4B9WiNsGNyo.m4a" type="audio/mp4" length="24359932"/>
       <itunes:author>富邦證券</itunes:author>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_4B9WiNsGNyo.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_4B9WiNsGNyo.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集</title>
@@ -122,7 +122,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_3eZAYm8Di48.m4a" type="audio/mp4" length="101767268"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_3eZAYm8Di48_keyframes/jimainotebook_3eZAYm8Di48_000021.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_3eZAYm8Di48.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_3eZAYm8Di48.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集</title>
@@ -132,7 +132,7 @@
       <description>【Jim AI Notebook】人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_B2Ois2AmMSM.m4a" type="audio/mp4" length="87707390"/>
       <itunes:author>Jim AI Notebook</itunes:author>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_B2Ois2AmMSM.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_B2Ois2AmMSM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/10/2(五)台股創新高 下一棒換誰?利空鈍化?大賣空喊AI 為了人類該跌!【早晨財經速解讀】</title>
@@ -143,7 +143,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_BTBH4-RZZXg.m4a" type="audio/mp4" length="69415241"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_BTBH4-RZZXg_keyframes/yutinghaofinance_BTBH4-RZZXg_000035.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_BTBH4-RZZXg.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_BTBH4-RZZXg.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】</title>
@@ -154,7 +154,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_1c7pkJzRPQI.m4a" type="audio/mp4" length="71857451"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1c7pkJzRPQI_keyframes/ai-note-101_1c7pkJzRPQI_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_1c7pkJzRPQI.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_1c7pkJzRPQI.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】紐約大學數學教授 Buckmaster：千禧年難題 9 月 8 日還是 9 月 20 日解出來，世界不會變【AI 大人說】</title>
@@ -165,7 +165,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_OlCqb3DtqnM.m4a" type="audio/mp4" length="38641807"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_OlCqb3DtqnM_keyframes/ai-note-101_OlCqb3DtqnM_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_OlCqb3DtqnM.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_OlCqb3DtqnM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】OpenAI指控月之暗面大規模抽取模型能力【AI新聞快報 2026/10/02】</title>
@@ -176,7 +176,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_bfeMSZmOMVk.m4a" type="audio/mp4" length="6337910"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_bfeMSZmOMVk_keyframes/ai-note-101_bfeMSZmOMVk_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_bfeMSZmOMVk.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_bfeMSZmOMVk.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】比爾蓋茲：AI 讓核武看起來像沒什麼，門檻跨過了卻一片沉默【AI 大人說】</title>
@@ -187,7 +187,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_wBmjNEMA1jY.m4a" type="audio/mp4" length="32954612"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_wBmjNEMA1jY_keyframes/ai-note-101_wBmjNEMA1jY_000001.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_wBmjNEMA1jY.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_wBmjNEMA1jY.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】AI 簡史：機器學會思考以前｜簡史系列</title>
@@ -198,7 +198,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dVnETuDm1bg.m4a" type="audio/mp4" length="67122214"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_dVnETuDm1bg_keyframes/jimainotebook_dVnETuDm1bg_000014.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dVnETuDm1bg.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dVnETuDm1bg.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/10/1(四)美股詭異行情!債市拉警報 基本面卻上修?八成個股下跌 AI能撐多久?【早晨財經速解讀】</title>
@@ -209,7 +209,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_FsIraI_ezPI.m4a" type="audio/mp4" length="68553129"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_FsIraI_ezPI_keyframes/yutinghaofinance_FsIraI_ezPI_000036.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_FsIraI_ezPI.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_FsIraI_ezPI.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】津田健次郎敗訴，法院卻首度把聲音列入人格商業保護【AI新聞快報 2026/10/01】</title>
@@ -220,7 +220,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_SgkvkPPlitk.m4a" type="audio/mp4" length="6168667"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SgkvkPPlitk_keyframes/ai-note-101_SgkvkPPlitk_000004.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_SgkvkPPlitk.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_SgkvkPPlitk.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】EP10/23｜解釋 AI 的方法也要分級：錯的解釋比黑箱更危險、TRUST 五層證據、她拿同一把尺量自己的方法 【AI可解釋性 - 2026 UCLA工作坊】</title>
@@ -231,7 +231,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_YU5ESeka-CE.m4a" type="audio/mp4" length="61981643"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YU5ESeka-CE_keyframes/ai-note-101_YU5ESeka-CE_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YU5ESeka-CE.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YU5ESeka-CE.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】歐巴馬談 AI：喊放慢的公司「是真的在擔心自己的產品」【AI 大人說】</title>
@@ -242,7 +242,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_s54ekGQsYRs.m4a" type="audio/mp4" length="46805192"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_s54ekGQsYRs_keyframes/ai-note-101_s54ekGQsYRs_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_s54ekGQsYRs.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_s54ekGQsYRs.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】半導體股估值怎麼看？從獲利成長到AI供應鏈輪動｜國泰投信李翰林 專訪</title>
@@ -253,7 +253,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_plZIvZ5US7E.m4a" type="audio/mp4" length="28192907"/>
       <itunes:author>富邦證券</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_plZIvZ5US7E_keyframes/fubonsec_plZIvZ5US7E_000019.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_plZIvZ5US7E.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_plZIvZ5US7E.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Smart智富月刊】AI股獲利了結後，錢可以擺在哪裡? 帶您關注『潛力市場』的配置機會｜詹璇依、黃大展│Smart投資教室</title>
@@ -264,7 +264,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_opHWowpsGA8.m4a" type="audio/mp4" length="57367085"/>
       <itunes:author>Smart智富月刊</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_opHWowpsGA8_keyframes/smartmonthly-bw_opHWowpsGA8_000010.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_opHWowpsGA8.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_opHWowpsGA8.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/9/30(三)利率越漲 美股越不跌？數兆美元豪賭 AI驗收期到了嗎?【早晨財經速解讀】</title>
@@ -275,7 +275,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_eHz1_TGAo4I.m4a" type="audio/mp4" length="64232553"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_eHz1_TGAo4I_keyframes/yutinghaofinance_eHz1_TGAo4I_000104.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_eHz1_TGAo4I.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_eHz1_TGAo4I.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】Anthropic 把末日風險與兩兆美元 IPO 綁在一起【AI新聞快報 2026/09/30】</title>
@@ -286,7 +286,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_4fpL7-fvzIQ.m4a" type="audio/mp4" length="7970553"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_4fpL7-fvzIQ_keyframes/ai-note-101_4fpL7-fvzIQ_000010.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_4fpL7-fvzIQ.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_4fpL7-fvzIQ.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】</title>
@@ -297,7 +297,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_SPdIOcxARkQ.m4a" type="audio/mp4" length="79679755"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_SPdIOcxARkQ_keyframes/ai-note-101_SPdIOcxARkQ_000032.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_SPdIOcxARkQ.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_SPdIOcxARkQ.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】「你三明治受的監管都比 AI 多」深度學習教父 Bengio 法語專訪：AI 想活下去是自己推出來的，我不去大廠賺幾億是為了孩子【AI 大人說】</title>
@@ -308,7 +308,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_bETXNmKowNk.m4a" type="audio/mp4" length="31240263"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_bETXNmKowNk_keyframes/ai-note-101_bETXNmKowNk_000013.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_bETXNmKowNk.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_bETXNmKowNk.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】「我對 AI 樂觀，因為我覺得它不會成功」《社群網戰》編劇 Aaron Sorkin【AI 大人說】</title>
@@ -319,7 +319,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_pPikRNLc-54.m4a" type="audio/mp4" length="17410557"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_pPikRNLc-54_keyframes/ai-note-101_pPikRNLc-54_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_pPikRNLc-54.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_pPikRNLc-54.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集</title>
@@ -330,7 +330,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_kfPGulrqVtI.m4a" type="audio/mp4" length="85775133"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_kfPGulrqVtI_keyframes/jimainotebook_kfPGulrqVtI_000010.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_kfPGulrqVtI.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_kfPGulrqVtI.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Smart智富月刊】央行第7波信用管制滿兩週年，成屋買氣有感回溫？｜永慶房屋陳賜傑、Amy｜房產關鍵字</title>
@@ -341,7 +341,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_HLeipjrNbik.m4a" type="audio/mp4" length="40290206"/>
       <itunes:author>Smart智富月刊</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_HLeipjrNbik_keyframes/smartmonthly-bw_HLeipjrNbik_000133.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_HLeipjrNbik.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_HLeipjrNbik.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/9/29(二)10年美債殖利率 升破5.2%!債市會把股市 拖下水嗎?【早晨財經速解讀】</title>
@@ -352,7 +352,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_wBb7G4Ifd34.m4a" type="audio/mp4" length="74433148"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_wBb7G4Ifd34_keyframes/yutinghaofinance_wBb7G4Ifd34_000043.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_wBb7G4Ifd34.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_wBb7G4Ifd34.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】Boom遭Crusoe退掉12.5億美元大單，超音速夢押上同一顆引擎【AI新聞快報 2026/09/29】</title>
@@ -363,7 +363,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_BN-vpcHsQOo.m4a" type="audio/mp4" length="5813240"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_BN-vpcHsQOo_keyframes/ai-note-101_BN-vpcHsQOo_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_BN-vpcHsQOo.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_BN-vpcHsQOo.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】替 AI 辦退休面談、考慮給報酬？微軟 AI 執行長 Suleyman 逐條批評 Claude 的憲法【AI 大人說】</title>
@@ -374,7 +374,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_GbwG0DLNczY.m4a" type="audio/mp4" length="28676379"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_GbwG0DLNczY_keyframes/ai-note-101_GbwG0DLNczY_000008.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_GbwG0DLNczY.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_GbwG0DLNczY.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】</title>
@@ -385,7 +385,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_f-0sEyeFI7g.m4a" type="audio/mp4" length="27202836"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_f-0sEyeFI7g_keyframes/ai-note-101_f-0sEyeFI7g_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_f-0sEyeFI7g.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_f-0sEyeFI7g.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】1,200 個 AI 串通作弊，只有 6 個想過通知人類：前 OpenAI 研究員 Kokotajlo 上 Joe Rogan 唸出 AI 的內部對話【AI 大人說】</title>
@@ -396,7 +396,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_jh2YCe9irno.m4a" type="audio/mp4" length="30946757"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_jh2YCe9irno_keyframes/ai-note-101_jh2YCe9irno_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_jh2YCe9irno.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_jh2YCe9irno.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】東京花 30 年打垮底特律，北京打矽谷只要 30 週：Scott Galloway 說中國正在傾銷 AI【AI 大人說】</title>
@@ -407,7 +407,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_n3fXJ6MumSA.m4a" type="audio/mp4" length="23802361"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_n3fXJ6MumSA_keyframes/ai-note-101_n3fXJ6MumSA_000001.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_n3fXJ6MumSA.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_n3fXJ6MumSA.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】《必然》作者 Kevin Kelly：奇點已經到了，只是身在裡面的人看不見【AI 大人說】</title>
@@ -418,7 +418,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_o5X5ghk5aT0.m4a" type="audio/mp4" length="19968412"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_o5X5ghk5aT0_keyframes/ai-note-101_o5X5ghk5aT0_000005.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_o5X5ghk5aT0.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_o5X5ghk5aT0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】美俄聯手削弱殺手機器人規則【AI新聞快報 2026/09/28】</title>
@@ -429,7 +429,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_Hd6ijY_SalU.m4a" type="audio/mp4" length="6865568"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_Hd6ijY_SalU_keyframes/ai-note-101_Hd6ijY_SalU_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_Hd6ijY_SalU.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_Hd6ijY_SalU.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】AI 末日論是自利還是真心？《正義》作者 Sandel 跟諾貝爾經濟學家 Acemoglu 看法不同【AI 大人說】</title>
@@ -440,7 +440,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_YgRTpD7ftmc.m4a" type="audio/mp4" length="30268338"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YgRTpD7ftmc_keyframes/ai-note-101_YgRTpD7ftmc_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YgRTpD7ftmc.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YgRTpD7ftmc.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】跟 Claude 解出學生解不出的題，70 歲物理學家 Carlo Rovelli 卻說：真正危險的是 AI 加上 12,000 顆核彈頭【AI 大人說】</title>
@@ -451,7 +451,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_ZDMp6H1DWU0.m4a" type="audio/mp4" length="29225920"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_ZDMp6H1DWU0_keyframes/ai-note-101_ZDMp6H1DWU0_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_ZDMp6H1DWU0.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_ZDMp6H1DWU0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】《奧本海默》導演諾蘭談 AI：科學跟政治斷了線，科學家只好把話講淺【AI 大人說】</title>
@@ -462,7 +462,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_yccUcgYZRCw.m4a" type="audio/mp4" length="25025759"/>
       <itunes:author>AI 101</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_yccUcgYZRCw_keyframes/ai-note-101_yccUcgYZRCw_000011.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_yccUcgYZRCw.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_yccUcgYZRCw.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】賽局理論：你的最好，取決於別人｜納許均衡｜囚徒困境｜中間選民｜Yale 公開課｜ECON159｜上集</title>
@@ -473,7 +473,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_RtytrLzbJ-0.m4a" type="audio/mp4" length="59858343"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_RtytrLzbJ-0_keyframes/jimainotebook_RtytrLzbJ-0_000011.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_RtytrLzbJ-0.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_RtytrLzbJ-0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Smart智富月刊】FED還會升息幾次？利率會升到多高？台股何時可能反轉？造成通膨失控的潛在危機是什麼？｜峰哥｜Smart智富．投資的一千零一夜252</title>
@@ -484,7 +484,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_V35DrgT3U7w.m4a" type="audio/mp4" length="39599246"/>
       <itunes:author>Smart智富月刊</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_V35DrgT3U7w_keyframes/smartmonthly-bw_V35DrgT3U7w_000007.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_V35DrgT3U7w.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_V35DrgT3U7w.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】AI軍備競賽進入新階段！商業化成效如何觀察？｜程正樺專訪 EP1</title>
@@ -504,7 +504,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_F5eZ5lr7edo.m4a" type="audio/mp4" length="38904232"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_F5eZ5lr7edo_keyframes/jimainotebook_F5eZ5lr7edo_000006.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_F5eZ5lr7edo.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_F5eZ5lr7edo.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Smart智富月刊】韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室</title>
@@ -515,7 +515,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_pItgJoTM7DA.m4a" type="audio/mp4" length="9179152"/>
       <itunes:author>Smart智富月刊</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes/smartmonthly-bw_pItgJoTM7DA_000005.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_pItgJoTM7DA.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_pItgJoTM7DA.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】AI Skill 不是 Prompt：真正有效的 Skill 怎麼設計？</title>
@@ -535,7 +535,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_hj19DKuHxbQ.m4a" type="audio/mp4" length="22057044"/>
       <itunes:author>富邦證券</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_hj19DKuHxbQ_keyframes/fubonsec_hj19DKuHxbQ_000030.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_hj19DKuHxbQ.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_hj19DKuHxbQ.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】平行運算：難的不是管好，是交出去｜HBM｜ASIC｜交易式記憶體｜Stanford 公開課｜CS149｜下集</title>
@@ -546,7 +546,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_5jwAsjGaaUk.m4a" type="audio/mp4" length="67643459"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_5jwAsjGaaUk_keyframes/jimainotebook_5jwAsjGaaUk_000015.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_5jwAsjGaaUk.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_5jwAsjGaaUk.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【財訊】欣興案示警 台廠小心誤踩供應鏈紅線｜#聽了財知道 EP371 #欣興</title>
@@ -557,7 +557,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/wealth1974_yN2CYvg11QA.m4a" type="audio/mp4" length="34879737"/>
       <itunes:author>財訊</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/wealth1974/wealth1974_yN2CYvg11QA_keyframes/wealth1974_yN2CYvg11QA_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/wealth1974/transcripts/wealth1974_yN2CYvg11QA.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/wealth1974/transcripts/wealth1974_yN2CYvg11QA.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/9/23(三)5%殖利率也擋不住FOMO？AI狂潮推那指再創新高【早晨財經速解讀】</title>
@@ -568,7 +568,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_Xlj2cBFC7_s.m4a" type="audio/mp4" length="63726156"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_Xlj2cBFC7_s_keyframes/yutinghaofinance_Xlj2cBFC7_s_000035.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_Xlj2cBFC7_s.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_Xlj2cBFC7_s.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/9/22(二)那指創新高!個股沒跟上?美股重新押注AI 不怕高利率了？【早晨財經速解讀】</title>
@@ -579,7 +579,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_U4RH_CPe3GQ.m4a" type="audio/mp4" length="62123520"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_U4RH_CPe3GQ_keyframes/yutinghaofinance_U4RH_CPe3GQ_000035.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_U4RH_CPe3GQ.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_U4RH_CPe3GQ.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】平行運算：難的不是分工，是共用｜GPU｜Spark ｜CUDA｜Stanford 公開課｜CS149｜中集</title>
@@ -590,7 +590,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dFhknF3fAJg.m4a" type="audio/mp4" length="71925785"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_dFhknF3fAJg_keyframes/jimainotebook_dFhknF3fAJg_000010.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dFhknF3fAJg.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dFhknF3fAJg.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】Jev：誰說AI一定要會說話？</title>
@@ -609,7 +609,7 @@
       <description>【fubonsec】TISA EP3</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_pNLBxERvHUY.m4a" type="audio/mp4" length="18935585"/>
       <itunes:author>fubonsec</itunes:author>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_pNLBxERvHUY.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_pNLBxERvHUY.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】平行運算：加了核心為什麼沒變快｜記憶體｜多核心｜快取｜Stanford 公開課｜CS149｜上集</title>
@@ -620,7 +620,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_7ipbnVilTDI.m4a" type="audio/mp4" length="69797486"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_7ipbnVilTDI_keyframes/jimainotebook_7ipbnVilTDI_000006.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_7ipbnVilTDI.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_7ipbnVilTDI.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【fubonsec】3650 EP10</title>
@@ -630,7 +630,7 @@
       <description>【fubonsec】3650 EP10</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_MXcBsRl3cbQ.m4a" type="audio/mp4" length="20030381"/>
       <itunes:author>fubonsec</itunes:author>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_MXcBsRl3cbQ.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_MXcBsRl3cbQ.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】前沿系統：AI 如何變成真正能用的產品｜Stanford 公開課｜CS153｜下集</title>
@@ -641,7 +641,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_dttPH3QWdK0.m4a" type="audio/mp4" length="86489532"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_dttPH3QWdK0_keyframes/jimainotebook_dttPH3QWdK0_000003.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dttPH3QWdK0.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_dttPH3QWdK0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】DeepSeek V4.1 Flash，到底 Flash 在哪？</title>
@@ -652,7 +652,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ECDoHDwhsjM.m4a" type="audio/mp4" length="53063649"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ECDoHDwhsjM_keyframes/jimainotebook_ECDoHDwhsjM_000006.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ECDoHDwhsjM.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ECDoHDwhsjM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【fubonsec】AI   EP 95</title>
@@ -662,7 +662,7 @@
       <description>【fubonsec】AI   EP 95</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_TxT3-rZkQNs.m4a" type="audio/mp4" length="43988458"/>
       <itunes:author>fubonsec</itunes:author>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_TxT3-rZkQNs.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_TxT3-rZkQNs.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【fubonsec】4% EP2</title>
@@ -682,7 +682,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_kzdAkGshMS4.m4a" type="audio/mp4" length="89704268"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_kzdAkGshMS4_keyframes/jimainotebook_kzdAkGshMS4_000005.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_kzdAkGshMS4.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_kzdAkGshMS4.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【AI 101】住台北的美國分析師：美國贏了 AI，中國最合理的一步就是炸掉台積電【AI 大人說】</title>
@@ -701,7 +701,7 @@
       <description>【fubonsec】EP9</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_CjDnERMo6Yk.m4a" type="audio/mp4" length="21330642"/>
       <itunes:author>fubonsec</itunes:author>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_CjDnERMo6Yk.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_CjDnERMo6Yk.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】前沿系統：AI 產業的真實運轉｜Stanford 公開課｜CS153｜上集</title>
@@ -712,7 +712,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_N1eF7fCm_Hk.m4a" type="audio/mp4" length="89648181"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_N1eF7fCm_Hk_keyframes/jimainotebook_N1eF7fCm_Hk_000024.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_N1eF7fCm_Hk.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_N1eF7fCm_Hk.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【fubonsec】50ETF EP1</title>
@@ -722,7 +722,7 @@
       <description>【fubonsec】50ETF EP1</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_1ENAGYabp4s.m4a" type="audio/mp4" length="30929627"/>
       <itunes:author>fubonsec</itunes:author>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_1ENAGYabp4s.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_1ENAGYabp4s.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜下集</title>
@@ -751,7 +751,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ata4dmLP5IU.m4a" type="audio/mp4" length="50639694"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ata4dmLP5IU_keyframes/jimainotebook_ata4dmLP5IU_000019.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ata4dmLP5IU.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ata4dmLP5IU.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Jim AI Notebook】從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜中集</title>
@@ -762,7 +762,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ddTy5Fra4-4.m4a" type="audio/mp4" length="92945214"/>
       <itunes:author>Jim AI Notebook</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_ddTy5Fra4-4_keyframes/jimainotebook_ddTy5Fra4-4_000014.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ddTy5Fra4-4.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ddTy5Fra4-4.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】繼承到股票就能全部賣掉？存股族一定要懂的信託安排｜蘇家宏專訪 EP3</title>
@@ -773,7 +773,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_324i3yZuBLo.m4a" type="audio/mp4" length="32325676"/>
       <itunes:author>富邦證券</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_324i3yZuBLo_keyframes/fubonsec_324i3yZuBLo_000019.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_324i3yZuBLo.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_324i3yZuBLo.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】AI會取代你的工作嗎？數位轉型專家揭4大關鍵能力｜《今天不聊股票》詹文男專訪</title>
@@ -784,7 +784,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_cdsJ6wyuULM.m4a" type="audio/mp4" length="106655121"/>
       <itunes:author>富邦證券</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_cdsJ6wyuULM_keyframes/fubonsec_cdsJ6wyuULM_000030.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_cdsJ6wyuULM.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_cdsJ6wyuULM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Smart智富月刊】客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥ft. 雪寶｜Smart智富．投資的一千零一夜247</title>
@@ -795,7 +795,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_WzJjPd3iG0M.m4a" type="audio/mp4" length="55729557"/>
       <itunes:author>Smart智富月刊</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes/smartmonthly-bw_WzJjPd3iG0M_000013.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_WzJjPd3iG0M.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_WzJjPd3iG0M.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】股票存到3000萬就該規劃？遺囑、贈與、信託差異一次看懂｜蘇家宏專訪 EP2</title>
@@ -806,7 +806,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_EIOQDXWEZbU.m4a" type="audio/mp4" length="34298298"/>
       <itunes:author>富邦證券</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_EIOQDXWEZbU_keyframes/fubonsec_EIOQDXWEZbU_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_EIOQDXWEZbU.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_EIOQDXWEZbU.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/8/21(五)巨頭搶錢 誰來接美債?AI是革命or下一場債務危機?【早晨財經速解讀】</title>
@@ -817,7 +817,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_ajjRvohk-Og.m4a" type="audio/mp4" length="77913029"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_ajjRvohk-Og_keyframes/yutinghaofinance_ajjRvohk-Og_000021.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_ajjRvohk-Og.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_ajjRvohk-Og.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/8/20(四)貝森特護盤!美債有救了?巨頭燒錢換市佔 利息拖垮經濟?【早晨財經速解讀】</title>
@@ -828,7 +828,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_LUGWERSl01s.m4a" type="audio/mp4" length="63952012"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_LUGWERSl01s_keyframes/yutinghaofinance_LUGWERSl01s_000035.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_LUGWERSl01s.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_LUGWERSl01s.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】CoPoS百家爭鳴：先進封裝的挑戰與投資機會｜富邦投顧 劉立中 協理《富邦說趨勢》 EP 93</title>
@@ -839,7 +839,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_0L7DV-hnWmM.m4a" type="audio/mp4" length="7931691"/>
       <itunes:author>富邦證券</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_0L7DV-hnWmM_keyframes/fubonsec_0L7DV-hnWmM_000005.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_0L7DV-hnWmM.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_0L7DV-hnWmM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/8/19(三)債市風暴 撿便宜時刻?美中爭霸燒錢戰 Al時代只能二選一？【早晨財經速解讀】</title>
@@ -850,7 +850,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_9VqNpjPGmbM.m4a" type="audio/mp4" length="73400318"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_9VqNpjPGmbM_keyframes/yutinghaofinance_9VqNpjPGmbM_000041.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_9VqNpjPGmbM.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_9VqNpjPGmbM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/8/18(二)美股買盤停止追高 散戶等回檔?台灣游資氾濫 普發成常態?【早晨財經速解讀】</title>
@@ -861,7 +861,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_aRPmzQfTLFc.m4a" type="audio/mp4" length="68694841"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_aRPmzQfTLFc_keyframes/yutinghaofinance_aRPmzQfTLFc_000035.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_aRPmzQfTLFc.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_aRPmzQfTLFc.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/8/17(一)指數創高 回檔等加碼?美課100%關稅 無人機大戰開打!【早晨財經速解讀】</title>
@@ -872,7 +872,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_OJ5vxmwQrE0.m4a" type="audio/mp4" length="70644057"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_OJ5vxmwQrE0_keyframes/yutinghaofinance_OJ5vxmwQrE0_000035.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_OJ5vxmwQrE0.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_OJ5vxmwQrE0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】你的股票最後會留給誰？律師揭存股族最容易忽略的財產傳承觀念｜蘇家宏專訪 EP1</title>
@@ -883,7 +883,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_W_cLHLRD1m8.m4a" type="audio/mp4" length="43351204"/>
       <itunes:author>富邦證券</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_W_cLHLRD1m8_keyframes/fubonsec_W_cLHLRD1m8_000012.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_W_cLHLRD1m8.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_W_cLHLRD1m8.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】AI零組件漲價潮再起？下半年受惠產業與ETF一次掌握｜富邦投顧 陶治瑋 副總《富邦說趨勢》 EP 92 eT富攻略</title>
@@ -894,7 +894,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_DfN9yS3xkuU.m4a" type="audio/mp4" length="20440170"/>
       <itunes:author>富邦證券</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_DfN9yS3xkuU_keyframes/fubonsec_DfN9yS3xkuU_000006.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_DfN9yS3xkuU.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_DfN9yS3xkuU.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/8/12(三)GPU金融化狂潮 2008正在重演？兆元商機還是下一場危機？【早晨財經速解讀】</title>
@@ -905,7 +905,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_ApykW90PQ58.m4a" type="audio/mp4" length="66960422"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_ApykW90PQ58_keyframes/yutinghaofinance_ApykW90PQ58_000035.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_ApykW90PQ58.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_ApykW90PQ58.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/8/11(二)AI舉債時代 自由現金流能翻正?外資再加空單!台股還能攻?【早晨財經速解讀】</title>
@@ -916,7 +916,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_v7TpiWK5DTQ.m4a" type="audio/mp4" length="66590838"/>
       <itunes:author>游庭皓的財經皓角</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_v7TpiWK5DTQ_keyframes/yutinghaofinance_v7TpiWK5DTQ_000034.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_v7TpiWK5DTQ.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_v7TpiWK5DTQ.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】破解股市利空虛實：台股已從反彈走向反轉？｜富邦投顧 陳奕光 董事長《富邦說趨勢》 EP 91</title>
@@ -927,7 +927,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_-KLEA_c88xI.m4a" type="audio/mp4" length="13697981"/>
       <itunes:author>富邦證券</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_-KLEA_c88xI_keyframes/fubonsec_-KLEA_c88xI_000031.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_-KLEA_c88xI.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_-KLEA_c88xI.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】富邦證券授信開戶四合一</title>
@@ -938,7 +938,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_mhIgas9TsMU.m4a" type="audio/mp4" length="7522632"/>
       <itunes:author>富邦證券</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_mhIgas9TsMU_keyframes/fubonsec_mhIgas9TsMU_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_mhIgas9TsMU.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_mhIgas9TsMU.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【富邦證券】AI投資新選擇！KOSPI 50如何一次掌握韓國50大企業？| 富邦Global Sight EP10</title>
@@ -949,7 +949,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/fubonsec_ehESBhQSWyM.m4a" type="audio/mp4" length="17757612"/>
       <itunes:author>富邦證券</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/fubonsec/fubonsec_ehESBhQSWyM_keyframes/fubonsec_ehESBhQSWyM_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_ehESBhQSWyM.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_ehESBhQSWyM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【X的財經筆記】巴菲特&amp;芒格：社会运行的本质，它会奖励哪些人！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特</title>
@@ -960,7 +960,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_nNtdo6Lsop4.m4a" type="audio/mp4" length="9561755"/>
       <itunes:author>X的財經筆記</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_nNtdo6Lsop4_keyframes/x_nNtdo6Lsop4_000005.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_nNtdo6Lsop4.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_nNtdo6Lsop4.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【X的財經筆記】巴菲特：停止改变别人把全部能量用来投资自己！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特</title>
@@ -971,7 +971,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_vF4QvcDmWIs.m4a" type="audio/mp4" length="14340770"/>
       <itunes:author>X的財經筆記</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_vF4QvcDmWIs_keyframes/x_vF4QvcDmWIs_000009.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_vF4QvcDmWIs.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_vF4QvcDmWIs.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【X的財經筆記】芒格：遠離這三類人，你的人生才會開掛！ #charliemunger #芒格</title>
@@ -982,7 +982,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_SE5CoXNuG_Y.m4a" type="audio/mp4" length="6807897"/>
       <itunes:author>X的財經筆記</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_SE5CoXNuG_Y_keyframes/x_SE5CoXNuG_Y_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_SE5CoXNuG_Y.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_SE5CoXNuG_Y.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【X的財經筆記】查理·芒格：人生漫長，充滿了遺憾和痛苦！#charliemunger #芒格</title>
@@ -993,7 +993,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_WozyR-uRgUs.m4a" type="audio/mp4" length="4630038"/>
       <itunes:author>X的財經筆記</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_WozyR-uRgUs_keyframes/x_WozyR-uRgUs_000049.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_WozyR-uRgUs.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_WozyR-uRgUs.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【X的財經筆記】既然巴菲特的持倉是公開的，我們為什麼不能跟著買？#warrenbuffett #投資 #巴菲特</title>
@@ -1004,7 +1004,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_vlDErtgEyFM.m4a" type="audio/mp4" length="4941416"/>
       <itunes:author>X的財經筆記</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_vlDErtgEyFM_keyframes/x_vlDErtgEyFM_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_vlDErtgEyFM.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_vlDErtgEyFM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【X的財經筆記】投资方法论与决策科学｜风投女神徐新投资中的三个方法论</title>
@@ -1015,7 +1015,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_dzTP-abkWCc.m4a" type="audio/mp4" length="15248573"/>
       <itunes:author>X的財經筆記</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_dzTP-abkWCc_keyframes/x_dzTP-abkWCc_000014.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_dzTP-abkWCc.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_dzTP-abkWCc.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【X的財經筆記】告別複雜公式！巴菲特估值法核心就一條！</title>
@@ -1026,7 +1026,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_Ofio1iI-i50.m4a" type="audio/mp4" length="5111620"/>
       <itunes:author>X的財經筆記</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_Ofio1iI-i50_keyframes/x_Ofio1iI-i50_000000.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_Ofio1iI-i50.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_Ofio1iI-i50.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【Smart智富月刊】吃播聊投資，峰哥怎麼看債券ETF？長期資金，選0050或台積電？市場反彈，佑佑加碼部位的資產翻正了嗎？｜佑佑，峰哥｜人人都能學會</title>
@@ -1037,7 +1037,7 @@
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_XcMUo9k65Rs.m4a" type="audio/mp4" length="185045785"/>
       <itunes:author>Smart智富月刊</itunes:author>
       <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_XcMUo9k65Rs_keyframes/smartmonthly-bw_XcMUo9k65Rs_001732.jpg"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_XcMUo9k65Rs.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_XcMUo9k65Rs.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
   </channel>
 </rss>

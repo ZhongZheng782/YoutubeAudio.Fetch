@@ -22,7 +22,7 @@
       <link>https://www.youtube.com/watch?v=yN2CYvg11QA</link>
       <description>欣興案示警 台廠小心誤踩供應鏈紅線｜#聽了財知道 EP371 #欣興</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/wealth1974_yN2CYvg11QA.m4a" type="audio/mp4" length="34879737"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/wealth1974/transcripts/wealth1974_yN2CYvg11QA.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/wealth1974/transcripts/wealth1974_yN2CYvg11QA.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
   </channel>
 </rss>

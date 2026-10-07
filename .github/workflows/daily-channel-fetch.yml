@@ -211,6 +211,23 @@ jobs:
           print("::endgroup::")
           PYEOF
 
+      - name: Validate generated podcast feeds and WebVTT transcripts
+        if: always()
+        run: |
+          python - <<'PYEOF'
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          manifest = json.load(open("audio_manifest.json", encoding="utf-8"))
+          channels = sorted({stem[:-12] for stem in manifest})
+          validator = "skills/skill-youtube-podcast-feed/scripts/validate_podcast_feed.py"
+          for channel in channels:
+              subprocess.run([sys.executable, validator, f"docs/{channel}/feed.xml"], check=True)
+          subprocess.run([sys.executable, validator, "docs/feed.xml"], check=True)
+          PYEOF
+
       - name: Regenerate audio manifest CSV
         run: python scripts/generate_audio_manifest_csv.py
 

@@ -87,6 +87,18 @@
   .cue .ts { color: var(--accent); font-size: 12px; font-weight: 600; margin-bottom: 4px; }
   .cue .snippet { font-size: 13px; line-height: 1.6; color: var(--text); }
   .cue .topic { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .lyrics-live {
+    min-height: 52px;
+    margin: 0 0 18px;
+    padding: 14px 16px;
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    background: var(--panel);
+    font-size: 18px;
+    line-height: 1.7;
+    white-space: pre-line;
+  }
+  .lyrics-live.empty { color: var(--muted); font-size: 14px; }
   .loading { color: var(--muted); padding: 20px 0; }
 </style>
 </head>
@@ -249,14 +261,35 @@ async function selectEpisode(channel, ep) {
   setActiveEpisode(ep.stem);
   mainEl.innerHTML = `
     <h2 style="margin-top:0;font-size:16px;">${ep.title}</h2>
-    <audio id="player" controls src="${ep.audioUrl}"></audio>
+    <audio id="player" controls src="${ep.audioUrl}">
+      <track id="lyricsTrack" kind="subtitles" srclang="zh-TW" label="逐字稿" src="${PAGES_BASE}${channel}/transcripts/${ep.stem}.vtt">
+    </audio>
+    <div id="lyricsLive" class="lyrics-live empty" aria-live="polite">播放後顯示即時逐字稿</div>
     <div class="keyframe" id="keyframe"></div>
     <div class="cue-list" id="cueList"><div class="loading">載入逐字稿與截圖中…</div></div>
   `;
 
   const player = document.getElementById("player");
+  const lyricsTrack = document.getElementById("lyricsTrack");
+  const lyricsLiveEl = document.getElementById("lyricsLive");
   const keyframeEl = document.getElementById("keyframe");
   const cueListEl = document.getElementById("cueList");
+
+  function updateLiveLyrics() {
+    const activeCues = lyricsTrack.track && lyricsTrack.track.activeCues;
+    const text = activeCues
+      ? [...activeCues].map((cue) => cue.text.trim()).filter(Boolean).join("\n")
+      : "";
+    lyricsLiveEl.textContent = text || "播放後顯示即時逐字稿";
+    lyricsLiveEl.classList.toggle("empty", !text);
+  }
+
+  // Hidden mode loads the published VTT without relying on browser-specific captions UI.
+  // cuechange follows the media timeline, so playback, pause, and seeking stay aligned.
+  lyricsTrack.track.mode = "hidden";
+  lyricsTrack.track.addEventListener("cuechange", updateLiveLyrics);
+  lyricsTrack.addEventListener("load", updateLiveLyrics);
+  player.addEventListener("timeupdate", updateLiveLyrics);
 
   let cues = [];
   try {

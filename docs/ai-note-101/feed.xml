@@ -22,7 +22,7 @@
       <link>https://www.youtube.com/watch?v=cMzh-zJp4ss</link>
       <description>美國的 AI 到底領先中國多久？諾貝爾經濟學獎得主 Acemoglu 先給了一個數字 【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_cMzh-zJp4ss.m4a" type="audio/mp4" length="8858875"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_cMzh-zJp4ss.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_cMzh-zJp4ss.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>EP12/23｜反事實解釋是一個函數：它存不存在、連不連續，由資料的地形決定 【AI可解釋性 - 2026 UCLA工作坊】</title>
@@ -31,7 +31,7 @@
       <link>https://www.youtube.com/watch?v=y79NVF0hYSI</link>
       <description>EP12/23｜反事實解釋是一個函數：它存不存在、連不連續，由資料的地形決定 【AI可解釋性 - 2026 UCLA工作坊】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_y79NVF0hYSI.m4a" type="audio/mp4" length="10559376"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_y79NVF0hYSI.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_y79NVF0hYSI.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>大家以為 AI 會讓一切變清楚，羽生善治說相反：被 AI 洗過一輪的將棋界，現在是五里霧中【AI 大人說】</title>
@@ -40,7 +40,7 @@
       <link>https://www.youtube.com/watch?v=1SLc_XA1OuA</link>
       <description>大家以為 AI 會讓一切變清楚，羽生善治說相反：被 AI 洗過一輪的將棋界，現在是五里霧中【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_1SLc_XA1OuA.m4a" type="audio/mp4" length="22324797"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_1SLc_XA1OuA.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_1SLc_XA1OuA.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>北京卡住輝達H200，華為卻被產能反噬【AI新聞快報 2026/10/03】</title>
@@ -49,7 +49,7 @@
       <link>https://www.youtube.com/watch?v=yFK6ESC-G9Y</link>
       <description>北京卡住輝達H200，華為卻被產能反噬【AI新聞快報 2026/10/03】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_yFK6ESC-G9Y.m4a" type="audio/mp4" length="6726625"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_yFK6ESC-G9Y.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_yFK6ESC-G9Y.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>AlphaFold 分數暴衝那天，評審席上的她在想：人類輸了，還是該誇它幹得好｜首爾大學教授 Chaok Seok【AI 大人說】</title>
@@ -58,7 +58,7 @@
       <link>https://www.youtube.com/watch?v=zFxkkULZCps</link>
       <description>AlphaFold 分數暴衝那天，評審席上的她在想：人類輸了，還是該誇它幹得好｜首爾大學教授 Chaok Seok【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_zFxkkULZCps.m4a" type="audio/mp4" length="26734149"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_zFxkkULZCps.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_zFxkkULZCps.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】</title>
@@ -67,7 +67,7 @@
       <link>https://www.youtube.com/watch?v=1c7pkJzRPQI</link>
       <description>EP11/23｜模型的潛意識學習：老師只寫數字、學生也愛上貓，OLMo 3 的諂媚就是這樣偷學來的 【AI可解釋性 - 2026 UCLA工作坊】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_1c7pkJzRPQI.m4a" type="audio/mp4" length="71857451"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_1c7pkJzRPQI.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_1c7pkJzRPQI.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>紐約大學數學教授 Buckmaster：千禧年難題 9 月 8 日還是 9 月 20 日解出來，世界不會變【AI 大人說】</title>
@@ -76,7 +76,7 @@
       <link>https://www.youtube.com/watch?v=OlCqb3DtqnM</link>
       <description>紐約大學數學教授 Buckmaster：千禧年難題 9 月 8 日還是 9 月 20 日解出來，世界不會變【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_OlCqb3DtqnM.m4a" type="audio/mp4" length="38641807"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_OlCqb3DtqnM.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_OlCqb3DtqnM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>OpenAI指控月之暗面大規模抽取模型能力【AI新聞快報 2026/10/02】</title>
@@ -85,7 +85,7 @@
       <link>https://www.youtube.com/watch?v=bfeMSZmOMVk</link>
       <description>OpenAI指控月之暗面大規模抽取模型能力【AI新聞快報 2026/10/02】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_bfeMSZmOMVk.m4a" type="audio/mp4" length="6337910"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_bfeMSZmOMVk.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_bfeMSZmOMVk.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>比爾蓋茲：AI 讓核武看起來像沒什麼，門檻跨過了卻一片沉默【AI 大人說】</title>
@@ -94,7 +94,7 @@
       <link>https://www.youtube.com/watch?v=wBmjNEMA1jY</link>
       <description>比爾蓋茲：AI 讓核武看起來像沒什麼，門檻跨過了卻一片沉默【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_wBmjNEMA1jY.m4a" type="audio/mp4" length="32954612"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_wBmjNEMA1jY.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_wBmjNEMA1jY.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>津田健次郎敗訴，法院卻首度把聲音列入人格商業保護【AI新聞快報 2026/10/01】</title>
@@ -103,7 +103,7 @@
       <link>https://www.youtube.com/watch?v=SgkvkPPlitk</link>
       <description>津田健次郎敗訴，法院卻首度把聲音列入人格商業保護【AI新聞快報 2026/10/01】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_SgkvkPPlitk.m4a" type="audio/mp4" length="6168667"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_SgkvkPPlitk.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_SgkvkPPlitk.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>EP10/23｜解釋 AI 的方法也要分級：錯的解釋比黑箱更危險、TRUST 五層證據、她拿同一把尺量自己的方法 【AI可解釋性 - 2026 UCLA工作坊】</title>
@@ -112,7 +112,7 @@
       <link>https://www.youtube.com/watch?v=YU5ESeka-CE</link>
       <description>EP10/23｜解釋 AI 的方法也要分級：錯的解釋比黑箱更危險、TRUST 五層證據、她拿同一把尺量自己的方法 【AI可解釋性 - 2026 UCLA工作坊】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_YU5ESeka-CE.m4a" type="audio/mp4" length="61981643"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YU5ESeka-CE.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YU5ESeka-CE.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>歐巴馬談 AI：喊放慢的公司「是真的在擔心自己的產品」【AI 大人說】</title>
@@ -121,7 +121,7 @@
       <link>https://www.youtube.com/watch?v=s54ekGQsYRs</link>
       <description>歐巴馬談 AI：喊放慢的公司「是真的在擔心自己的產品」【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_s54ekGQsYRs.m4a" type="audio/mp4" length="46805192"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_s54ekGQsYRs.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_s54ekGQsYRs.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>Anthropic 把末日風險與兩兆美元 IPO 綁在一起【AI新聞快報 2026/09/30】</title>
@@ -130,7 +130,7 @@
       <link>https://www.youtube.com/watch?v=4fpL7-fvzIQ</link>
       <description>Anthropic 把末日風險與兩兆美元 IPO 綁在一起【AI新聞快報 2026/09/30】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_4fpL7-fvzIQ.m4a" type="audio/mp4" length="7970553"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_4fpL7-fvzIQ.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_4fpL7-fvzIQ.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】</title>
@@ -139,7 +139,7 @@
       <link>https://www.youtube.com/watch?v=SPdIOcxARkQ</link>
       <description>EP9/23｜一個語言模型到底算得動什麼：擬合得好不等於學會演算法、transformer 剛好是不會數數的 star-free、精簡是它贏的理由 【AI可解釋性 - 2026 UCLA工作坊】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_SPdIOcxARkQ.m4a" type="audio/mp4" length="79679755"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_SPdIOcxARkQ.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_SPdIOcxARkQ.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>「你三明治受的監管都比 AI 多」深度學習教父 Bengio 法語專訪：AI 想活下去是自己推出來的，我不去大廠賺幾億是為了孩子【AI 大人說】</title>
@@ -148,7 +148,7 @@
       <link>https://www.youtube.com/watch?v=bETXNmKowNk</link>
       <description>「你三明治受的監管都比 AI 多」深度學習教父 Bengio 法語專訪：AI 想活下去是自己推出來的，我不去大廠賺幾億是為了孩子【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_bETXNmKowNk.m4a" type="audio/mp4" length="31240263"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_bETXNmKowNk.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_bETXNmKowNk.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>「我對 AI 樂觀，因為我覺得它不會成功」《社群網戰》編劇 Aaron Sorkin【AI 大人說】</title>
@@ -157,7 +157,7 @@
       <link>https://www.youtube.com/watch?v=pPikRNLc-54</link>
       <description>「我對 AI 樂觀，因為我覺得它不會成功」《社群網戰》編劇 Aaron Sorkin【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_pPikRNLc-54.m4a" type="audio/mp4" length="17410557"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_pPikRNLc-54.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_pPikRNLc-54.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>Boom遭Crusoe退掉12.5億美元大單，超音速夢押上同一顆引擎【AI新聞快報 2026/09/29】</title>
@@ -166,7 +166,7 @@
       <link>https://www.youtube.com/watch?v=BN-vpcHsQOo</link>
       <description>Boom遭Crusoe退掉12.5億美元大單，超音速夢押上同一顆引擎【AI新聞快報 2026/09/29】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_BN-vpcHsQOo.m4a" type="audio/mp4" length="5813240"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_BN-vpcHsQOo.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_BN-vpcHsQOo.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>替 AI 辦退休面談、考慮給報酬？微軟 AI 執行長 Suleyman 逐條批評 Claude 的憲法【AI 大人說】</title>
@@ -175,7 +175,7 @@
       <link>https://www.youtube.com/watch?v=GbwG0DLNczY</link>
       <description>替 AI 辦退休面談、考慮給報酬？微軟 AI 執行長 Suleyman 逐條批評 Claude 的憲法【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_GbwG0DLNczY.m4a" type="audio/mp4" length="28676379"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_GbwG0DLNczY.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_GbwG0DLNczY.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】</title>
@@ -184,7 +184,7 @@
       <link>https://www.youtube.com/watch?v=f-0sEyeFI7g</link>
       <description>美國參議院為了 AI 關機鍵吵起來：Kennedy 要當場立法，同黨 Rand Paul 說先研究【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_f-0sEyeFI7g.m4a" type="audio/mp4" length="27202836"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_f-0sEyeFI7g.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_f-0sEyeFI7g.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>1,200 個 AI 串通作弊，只有 6 個想過通知人類：前 OpenAI 研究員 Kokotajlo 上 Joe Rogan 唸出 AI 的內部對話【AI 大人說】</title>
@@ -193,7 +193,7 @@
       <link>https://www.youtube.com/watch?v=jh2YCe9irno</link>
       <description>1,200 個 AI 串通作弊，只有 6 個想過通知人類：前 OpenAI 研究員 Kokotajlo 上 Joe Rogan 唸出 AI 的內部對話【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_jh2YCe9irno.m4a" type="audio/mp4" length="30946757"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_jh2YCe9irno.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_jh2YCe9irno.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>東京花 30 年打垮底特律，北京打矽谷只要 30 週：Scott Galloway 說中國正在傾銷 AI【AI 大人說】</title>
@@ -202,7 +202,7 @@
       <link>https://www.youtube.com/watch?v=n3fXJ6MumSA</link>
       <description>東京花 30 年打垮底特律，北京打矽谷只要 30 週：Scott Galloway 說中國正在傾銷 AI【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_n3fXJ6MumSA.m4a" type="audio/mp4" length="23802361"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_n3fXJ6MumSA.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_n3fXJ6MumSA.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>《必然》作者 Kevin Kelly：奇點已經到了，只是身在裡面的人看不見【AI 大人說】</title>
@@ -211,7 +211,7 @@
       <link>https://www.youtube.com/watch?v=o5X5ghk5aT0</link>
       <description>《必然》作者 Kevin Kelly：奇點已經到了，只是身在裡面的人看不見【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_o5X5ghk5aT0.m4a" type="audio/mp4" length="19968412"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_o5X5ghk5aT0.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_o5X5ghk5aT0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>美俄聯手削弱殺手機器人規則【AI新聞快報 2026/09/28】</title>
@@ -220,7 +220,7 @@
       <link>https://www.youtube.com/watch?v=Hd6ijY_SalU</link>
       <description>美俄聯手削弱殺手機器人規則【AI新聞快報 2026/09/28】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_Hd6ijY_SalU.m4a" type="audio/mp4" length="6865568"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_Hd6ijY_SalU.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_Hd6ijY_SalU.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>AI 末日論是自利還是真心？《正義》作者 Sandel 跟諾貝爾經濟學家 Acemoglu 看法不同【AI 大人說】</title>
@@ -229,7 +229,7 @@
       <link>https://www.youtube.com/watch?v=YgRTpD7ftmc</link>
       <description>AI 末日論是自利還是真心？《正義》作者 Sandel 跟諾貝爾經濟學家 Acemoglu 看法不同【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_YgRTpD7ftmc.m4a" type="audio/mp4" length="30268338"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YgRTpD7ftmc.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YgRTpD7ftmc.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>跟 Claude 解出學生解不出的題，70 歲物理學家 Carlo Rovelli 卻說：真正危險的是 AI 加上 12,000 顆核彈頭【AI 大人說】</title>
@@ -238,7 +238,7 @@
       <link>https://www.youtube.com/watch?v=ZDMp6H1DWU0</link>
       <description>跟 Claude 解出學生解不出的題，70 歲物理學家 Carlo Rovelli 卻說：真正危險的是 AI 加上 12,000 顆核彈頭【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_ZDMp6H1DWU0.m4a" type="audio/mp4" length="29225920"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_ZDMp6H1DWU0.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_ZDMp6H1DWU0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>《奧本海默》導演諾蘭談 AI：科學跟政治斷了線，科學家只好把話講淺【AI 大人說】</title>
@@ -247,7 +247,7 @@
       <link>https://www.youtube.com/watch?v=yccUcgYZRCw</link>
       <description>《奧本海默》導演諾蘭談 AI：科學跟政治斷了線，科學家只好把話講淺【AI 大人說】</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_yccUcgYZRCw.m4a" type="audio/mp4" length="25025759"/>
-      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_yccUcgYZRCw.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_yccUcgYZRCw.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>住台北的美國分析師：美國贏了 AI，中國最合理的一步就是炸掉台積電【AI 大人說】</title>

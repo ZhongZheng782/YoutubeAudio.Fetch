@@ -222,7 +222,7 @@ def render_feed(channel: str, episodes: list[dict], *, combined: bool = False) -
         if transcript_url:
             transcript_tag = (
                 f'      <podcast:transcript url="{escape(transcript_url)}" '
-                f'type="text/vtt" language="zh"/>\n'
+                f'type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>\n'
             )
         ep_title = f"【{ep['channel_name'] or ep['channel']}】{ep['title']}" if combined else ep["title"]
         extra_tags = ""
