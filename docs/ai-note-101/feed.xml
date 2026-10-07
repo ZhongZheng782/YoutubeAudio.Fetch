@@ -9,12 +9,30 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1SLc_XA1OuA_keyframes/ai-note-101_1SLc_XA1OuA_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_cMzh-zJp4ss_keyframes/ai-note-101_cMzh-zJp4ss_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_1SLc_XA1OuA_keyframes/ai-note-101_1SLc_XA1OuA_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_cMzh-zJp4ss_keyframes/ai-note-101_cMzh-zJp4ss_000000.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>美國的 AI 到底領先中國多久？諾貝爾經濟學獎得主 Acemoglu 先給了一個數字 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_cMzh-zJp4ss</guid>
+      <pubDate>Tue, 06 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=cMzh-zJp4ss</link>
+      <description>美國的 AI 到底領先中國多久？諾貝爾經濟學獎得主 Acemoglu 先給了一個數字 【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_cMzh-zJp4ss.m4a" type="audio/mp4" length="8858875"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_cMzh-zJp4ss.vtt" type="text/vtt" language="zh"/>
+    </item>
+    <item>
+      <title>EP12/23｜反事實解釋是一個函數：它存不存在、連不連續，由資料的地形決定 【AI可解釋性 - 2026 UCLA工作坊】</title>
+      <guid isPermaLink="false">ai-note-101_y79NVF0hYSI</guid>
+      <pubDate>Tue, 06 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=y79NVF0hYSI</link>
+      <description>EP12/23｜反事實解釋是一個函數：它存不存在、連不連續，由資料的地形決定 【AI可解釋性 - 2026 UCLA工作坊】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_y79NVF0hYSI.m4a" type="audio/mp4" length="10559376"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_y79NVF0hYSI.vtt" type="text/vtt" language="zh"/>
+    </item>
     <item>
       <title>大家以為 AI 會讓一切變清楚，羽生善治說相反：被 AI 洗過一輪的將棋界，現在是五里霧中【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_1SLc_XA1OuA</guid>
