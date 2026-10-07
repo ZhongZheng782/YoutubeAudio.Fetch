@@ -14,6 +14,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [EP13/23｜資料再多也學不會因果：Columbia 因果 AI 實驗室 Bareinboim 拆解 AI 的三層能力 【AI可解釋性 - 2026 UCLA工作坊】](data/ai-note-101/ai-note-101_MPRN8sG0nkU_keyframes.md) | 2026-10-07 |
+| [143 個人預言 AI 的未來：誰說會毀滅、誰說管得住，放進同一棵樹](data/ai-note-101/ai-note-101_Y2F42PY27LI_keyframes.md) | 2026-10-07 |
 | [Claude 私人日記四天直通警局：AI 公司成了威脅守門人【AI新聞快報 2026/10/07】](data/ai-note-101/ai-note-101_7XTRd1Fbkow_keyframes.md) | 2026-10-06 |
 | [AI 提早兩年做到，他說學界完全沒準備好｜Wolfram 物理計畫共同創辦人 Jonathan Gorard【AI 大人說】](data/ai-note-101/ai-note-101_QfvviTQtcHQ_keyframes.md) | 2026-10-06 |
 | [DeepMind 研究員 Marcus Hutter：四年前以為還差 3 到 5 個大點子，現在只差 0 到 1 個【AI 大人說】](data/ai-note-101/ai-note-101_R44pz7YNiwc_keyframes.md) | 2026-10-06 |
@@ -86,8 +88,14 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [AI需求是假象還是真成長？艦長拆解算力與半導體商機｜程正樺專訪 EP2](data/fubonsec/fubonsec_4B9WiNsGNyo_keyframes.md) | 2026-10-02 |
 | [半導體股估值怎麼看？從獲利成長到AI供應鏈輪動｜國泰投信李翰林 專訪](data/fubonsec/fubonsec_plZIvZ5US7E_keyframes.md) | 2026-09-30 |
 | [退休規劃何時開始才不嫌晚？政大教授分享退休前15年的準備關鍵｜陳嬿如專訪 EP11](data/fubonsec/fubonsec_hj19DKuHxbQ_keyframes.md) | 2026-09-23 |
+| [退休不能只靠勞保！新退休帳戶TISA到底是什麼？｜張森林專訪 EP3](data/fubonsec/fubonsec_pNLBxERvHUY_keyframes.md) | 2026-09-18 |
+| [收入變高卻存不到錢？36到50歲最重要的資產配置課｜陳嬿如專訪 EP10](data/fubonsec/fubonsec_MXcBsRl3cbQ_keyframes.md) | 2026-09-16 |
+| [台股五萬點的繁花：從債券轉折到AI多頭的關鍵路徑｜富邦投顧 陳奕光 董事長《富邦說趨勢》 EP 95](data/fubonsec/fubonsec_TxT3-rZkQNs_keyframes.md) | 2026-09-12 |
+| [找不到方向比沒錢更可怕？年輕人累積財富前最該做的事｜陳嬿如專訪 EP9](data/fubonsec/fubonsec_CjDnERMo6Yk_keyframes.md) | 2026-09-09 |
+| [財金教授也認錯！50歲後放棄選股改用ETF資產配置｜張森林專訪 EP1](data/fubonsec/fubonsec_1ENAGYabp4s_keyframes.md) | 2026-09-04 |
 | [繼承到股票就能全部賣掉？存股族一定要懂的信託安排｜蘇家宏專訪 EP3](data/fubonsec/fubonsec_324i3yZuBLo_keyframes.md) | 2026-08-28 |
 | [AI會取代你的工作嗎？數位轉型專家揭4大關鍵能力｜《今天不聊股票》詹文男專訪](data/fubonsec/fubonsec_cdsJ6wyuULM_keyframes.md) | 2026-08-26 |
 | [股票存到3000萬就該規劃？遺囑、贈與、信託差異一次看懂｜蘇家宏專訪 EP2](data/fubonsec/fubonsec_EIOQDXWEZbU_keyframes.md) | 2026-08-21 |
@@ -228,6 +236,8 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 | 影片 | 日期 |
 | --- | --- |
+| [拒絕進入大語言紅海 資策會押注實體 AI｜#財訊不漏接 EP056 #財訊podcast #LLM #資策會](data/wealth1974/wealth1974_VFecODa6O2E_keyframes.md) | 2026-10-07 |
+| [廢碳煉成半導體材料 長春總裁林書鴻：做得出來卻算不過來｜#聽了財知道 EP375 #長春 #林書鴻](data/wealth1974/wealth1974_ngCJQuiSKnY_keyframes.md) | 2026-10-07 |
 | [AI點火，塑化、金融、電子股可望接力！掌握台股的機會與布局｜論壇實況](data/wealth1974/wealth1974_TSzRULiMuys_keyframes.md) | 2026-10-06 |
 | [掌握千億家產 宏泰集團掌門人的自白｜#聽了財知道 EP374 #宏泰 #信託](data/wealth1974/wealth1974_41YfdcyP4SA_keyframes.md) | 2026-10-05 |
 | [政府力推在宅急症險 壽險業卻觀望｜#財訊不漏接 EP055 #財訊podcast #在宅急症險 #在宅醫療 #保險理賠 #壽險](data/wealth1974/wealth1974_X9BmCSkTuyw_keyframes.md) | 2026-10-03 |
