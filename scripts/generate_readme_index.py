@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-generate_readme_index.py — Rebuild the "## 內容索引" section of README.md from
-data/{channel}/{stem}_keyframes.md files.
+generate_readme_index.py — Rebuild the root README channel index and per-channel
+content pages from data/{channel}/{stem}_keyframes.md files.
 
-Two-level index: channel (linked to data/{channel}/) -> videos (linked to their
-_keyframes.md, with title + upload date). Title/date come from yt-dlp and are
-cached in data/.video_metadata.json so re-runs only look up genuinely new videos
-(and generation still succeeds, using stale cached data, if a lookup is flaky).
+The root README stays compact and contains only channel links. Each
+data/{channel}/README.md contains that channel's metadata, description, and video
+collection. Title/date come from yt-dlp and are cached in data/.video_metadata.json
+so re-runs only look up genuinely new videos (and generation still succeeds, using
+stale cached data, if a lookup is flaky).
 
 Usage:
     python scripts/generate_readme_index.py [--readme README.md]
@@ -159,6 +160,7 @@ def build_index() -> tuple[dict[str, list[dict]], dict[str, str]]:
             "title": meta["title"],
             "date": meta["date"],
             "channel_name": meta.get("channel_name", channel),
+            "channel_url": meta.get("channel_url", ""),
             "md_path": md_path.relative_to(REPO_ROOT).as_posix(),
         })
 
@@ -190,20 +192,35 @@ def render_index(by_channel: dict[str, list[dict]], channel_descriptions: dict[s
     for channel in sorted(by_channel):
         videos = by_channel[channel]
         display_name = videos[0]["channel_name"] or channel
-        lines.append(f"### [{display_name}](data/{channel}/)")
-        lines.append("")
-        description = channel_descriptions.get(channel)
-        if description:
-            for desc_line in description.splitlines() or [description]:
-                lines.append(f"> {desc_line}".rstrip())
-            lines.append("")
-        lines.append("| 影片 | 日期 |")
-        lines.append("| --- | --- |")
-        for v in by_channel[channel]:
-            title = v["title"].replace("|", "\\|")
-            lines.append(f"| [{title}]({v['md_path']}) | {v['date']} |")
-        lines.append("")
+        lines.append(f"- [{display_name}](data/{channel}/)")
     return "\n".join(lines).rstrip() + "\n"
+
+
+def render_channel_page(channel: str, videos: list[dict], description: str | None) -> str:
+    """Render metadata and the video collection for one channel."""
+    display_name = videos[0]["channel_name"] or channel
+    channel_url = next((video.get("channel_url", "") for video in videos if video.get("channel_url")), "")
+    lines = [f"# {display_name}", "", "## 頻道資訊", "", f"- 頻道代號：`{channel}`"]
+    if channel_url:
+        lines.append(f"- YouTube 頻道：[{channel_url}]({channel_url})")
+    if description:
+        lines.extend(["", "### 頻道介紹", ""])
+        lines.extend(f"> {line}".rstrip() for line in description.splitlines() or [description])
+    lines.extend(["", "## 影片集合", "", "| 影片 | 日期 |", "| --- | --- |"])
+    for video in videos:
+        title = video["title"].replace("|", "\\|")
+        lines.append(f"| [{title}]({Path(video['md_path']).name}) | {video['date']} |")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def write_channel_pages(by_channel: dict[str, list[dict]], channel_descriptions: dict[str, str]) -> None:
+    for channel, videos in by_channel.items():
+        channel_dir = DATA_DIR / channel
+        channel_dir.mkdir(parents=True, exist_ok=True)
+        (channel_dir / "README.md").write_text(
+            render_channel_page(channel, videos, channel_descriptions.get(channel)),
+            encoding="utf-8",
+        )
 
 
 def update_readme(readme_path: Path, section: str) -> bool:
@@ -229,6 +246,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     index, channel_descriptions = build_index()
+    write_channel_pages(index, channel_descriptions)
     section = render_index(index, channel_descriptions)
     changed = update_readme(Path(args.readme), section)
     total_videos = sum(len(v) for v in index.values())
