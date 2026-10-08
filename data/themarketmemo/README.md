@@ -23,11 +23,11 @@
 
 | 影片 | 日期 |
 | --- | --- |
-| [AI威力堪比核彈？為何矽谷大佬一邊砸錢發展，又警告它會毀滅人類？｜思想實驗室 Video Podcast ep115](https://www.youtube.com/watch?v=6OvEjZsRl4Q) | 2026-09-03 |
+| [AI威力堪比核彈？為何矽谷大佬一邊砸錢發展，又警告它會毀滅人類？\| 思想實驗室 Video Podcast ep115：ft.前LINE台灣總經理 陶韻智](themarketmemo_6OvEjZsRl4Q_keyframes.md) | 2026-09-03 |
 | [破解投資圈「窮人思維模式」](themarketmemo_tNzUUET5opY_keyframes.md) | 2026-01-16 |
 | [全職投資人，需要具備哪些條件？](themarketmemo_hDOZ5n9PJFI_keyframes.md) | 2025-12-03 |
 | [【硬核】我用二十年經驗總結的投資分析框架](themarketmemo_qbU7LHPZ4Xo_keyframes.md) | 2025-11-27 |
 | [市場崩盤的本質是什麼？｜聊聊流動性風險](themarketmemo_IMZgGZVQu2M_keyframes.md) | 2025-10-09 |
 | [我的故事：從設計師到職業投資人](themarketmemo_DRiYHzY83T0_keyframes.md) | 2025-10-01 |
-| [投資的自然科學原理｜慣性，動量，催化劑](https://www.youtube.com/watch?v=YtPfvTaSE8k) | 2025-09-24 |
-| [投機的本質｜投機之王 Jesse Livermore 啟示錄 EP.1](https://www.youtube.com/watch?v=U1rRnRWnMz8) | 2023-04-07 |
+| [投資的自然科學原理｜慣性，動量，催化劑](themarketmemo_YtPfvTaSE8k_keyframes.md) | 2025-09-24 |
+| [投機的本質｜投機之王 Jesse Livermore 啟示錄 EP.1](themarketmemo_U1rRnRWnMz8_keyframes.md) | 2023-04-08 |

@@ -39,6 +39,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [【會員影片節選】欣興百億投資吹號角 ABF PCB 族群訂單齊旺｜ #產業投資通 EP05 #abf載板 #pcb](wealth1974_4T18lB7pbI0_keyframes.md) | 2026-10-08 |
 | [拒絕進入大語言紅海 資策會押注實體 AI｜#財訊不漏接 EP056 #財訊podcast #LLM #資策會](wealth1974_VFecODa6O2E_keyframes.md) | 2026-10-07 |
 | [廢碳煉成半導體材料 長春總裁林書鴻：做得出來卻算不過來｜#聽了財知道 EP375 #長春 #林書鴻](wealth1974_ngCJQuiSKnY_keyframes.md) | 2026-10-07 |
 | [AI點火，塑化、金融、電子股可望接力！掌握台股的機會與布局｜論壇實況](wealth1974_TSzRULiMuys_keyframes.md) | 2026-10-06 |

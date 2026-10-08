@@ -17,6 +17,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [台股創高嗨翻，持股卻沒漲！該抱還是該跑？｜曾仲葳、Ｋ線捕手楊忠憲｜Smart投資教室](smartmonthly-bw_AfB6x3Qzftg_keyframes.md) | 2026-10-08 |
 | [輝達、台積電業績好、股價漲不動，為什麼？輝達追加股票回購的3層盤算！台積電股價委曲嗎？｜峰哥｜Smart智富．投資的一千零一夜253](smartmonthly-bw_ri3QpRmhBCM_keyframes.md) | 2026-10-03 |
 | [AI股獲利了結後，錢可以擺在哪裡? 帶您關注『潛力市場』的配置機會｜詹璇依、黃大展│Smart投資教室](smartmonthly-bw_opHWowpsGA8_keyframes.md) | 2026-09-30 |
 | [央行第7波信用管制滿兩週年，成屋買氣有感回溫？｜永慶房屋陳賜傑、Amy｜房產關鍵字](smartmonthly-bw_HLeipjrNbik_keyframes.md) | 2026-09-29 |

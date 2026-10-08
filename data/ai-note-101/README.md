@@ -13,6 +13,8 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [AI 教父 Hinton 給 Dario 打勇氣 A+：說要放慢，大概會傷到 Anthropic 上市 【AI 大人說】](ai-note-101_4IUvlEFoDK8_keyframes.md) | 2026-10-08 |
+| [AI 打仗，每一個軍事決定都要有人？Google 前執行長 Eric Schmidt 在基輔被《經濟學人》總編輯追問](ai-note-101_JY9XX1Vj20Q_keyframes.md) | 2026-10-08 |
 | [「年輕一代比我們更擔心」寫過法國 AI 戰略的費爾茲獎得主 Cédric Villani：AI 解題太快，題目會枯竭 【AI 大人說】](ai-note-101_MUpWoUtEYwU_keyframes.md) | 2026-10-08 |
 | [台灣會是下一個伊朗？教過美國空軍轟炸戰略的教授：美國掉進了升級陷阱](ai-note-101_efK_fHAyWvU_keyframes.md) | 2026-10-08 |
 | [EP13/23｜資料再多也學不會因果：Columbia 因果 AI 實驗室 Bareinboim 拆解 AI 的三層能力 【AI可解釋性 - 2026 UCLA工作坊】](ai-note-101_MPRN8sG0nkU_keyframes.md) | 2026-10-07 |
