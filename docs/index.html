@@ -108,7 +108,7 @@
 <header>
   <h1>YoutubeAudio.Fetch</h1>
   <p>資料即時讀自 YoutubeAudio.Fetch 這個 repo（jsDelivr CDN），僅列出已有音檔的集數 ·
-    <a id="feedLink" href="#" style="color:var(--accent)">在 Podcast App 訂閱這個頻道（RSS）</a>
+    <a id="feedLink" href="feed.xml" style="color:var(--accent)">在 Podcast App 訂閱全部頻道（RSS）</a>
   </p>
   <div class="tabs" id="tabs"></div>
 </header>
@@ -218,7 +218,9 @@ function selectChannel(channel) {
   url.searchParams.set("channel", channel);
   window.history.replaceState(null, "", url);
 
-  feedLinkEl.href = `${PAGES_BASE}${channel}/feed.xml`;
+  // The public UI intentionally exposes one subscription for every channel.
+  // Per-channel feeds remain available at /{channel}/feed.xml for direct use.
+  feedLinkEl.href = `${PAGES_BASE}/feed.xml`;
   renderTabs();
 
   const audioEpisodes = Object.keys(manifest)
