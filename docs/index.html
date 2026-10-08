@@ -32,6 +32,8 @@
     gap: 6px;
     margin-top: 12px;
   }
+  .tab-group { width: 100%; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .tab-group-title { width: 100%; color: var(--muted); font-size: 12px; margin-top: 4px; }
   .tab {
     padding: 6px 12px;
     border-radius: 999px;
@@ -122,6 +124,14 @@
 const REPO_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/";
 const PAGES_BASE = "https://zhongzheng782.github.io/YoutubeAudio.Fetch/";
 const VIDEO_ID_LEN = 11;
+const CHANNEL_GROUPS = [
+  {
+    label: "Daily",
+    channels: ["ai-note-101", "fubonsec", "jimainotebook", "smartmonthly-bw", "wealth1974", "x", "yutinghaofinance"],
+  },
+  { label: "Playlist", channels: ["themarketmemo"] },
+];
+const CHANNEL_DISPLAY_NAMES = { themarketmemo: "Youtube.Fetch" };
 
 const tabsEl = document.getElementById("tabs");
 const episodeListEl = document.getElementById("episodeList");
@@ -171,6 +181,7 @@ async function fetchText(path) {
 }
 
 function displayNameFor(channel) {
+  if (CHANNEL_DISPLAY_NAMES[channel]) return CHANNEL_DISPLAY_NAMES[channel];
   for (const stem of Object.keys(manifest)) {
     if (channelOf(stem) !== channel) continue;
     const videoId = stem.slice(channel.length + 1);
@@ -182,12 +193,21 @@ function displayNameFor(channel) {
 
 function renderTabs() {
   tabsEl.innerHTML = "";
-  channels.forEach((channel) => {
-    const el = document.createElement("div");
-    el.className = "tab" + (channel === currentChannel ? " active" : "");
-    el.textContent = displayNameFor(channel);
-    el.addEventListener("click", () => selectChannel(channel));
-    tabsEl.appendChild(el);
+  CHANNEL_GROUPS.forEach((group) => {
+    const groupEl = document.createElement("div");
+    groupEl.className = "tab-group";
+    const titleEl = document.createElement("div");
+    titleEl.className = "tab-group-title";
+    titleEl.textContent = group.label;
+    groupEl.appendChild(titleEl);
+    group.channels.filter((channel) => channels.includes(channel)).forEach((channel) => {
+      const el = document.createElement("div");
+      el.className = "tab" + (channel === currentChannel ? " active" : "");
+      el.textContent = displayNameFor(channel);
+      el.addEventListener("click", () => selectChannel(channel));
+      groupEl.appendChild(el);
+    });
+    if (groupEl.children.length > 1) tabsEl.appendChild(groupEl);
   });
 }
 
@@ -228,7 +248,8 @@ async function loadChannels() {
     fetchJson("data/.video_metadata.json").catch(() => ({})),
   ]);
 
-  channels = [...new Set(Object.keys(manifest).map(channelOf))].sort();
+  const manifestChannels = Object.keys(manifest).map(channelOf);
+  channels = [...new Set([...manifestChannels, ...CHANNEL_GROUPS.flatMap((group) => group.channels)])].sort();
   if (channels.length === 0) {
     episodeListEl.innerHTML = `<div class="loading">目前沒有任何有音檔的集數</div>`;
     return;
