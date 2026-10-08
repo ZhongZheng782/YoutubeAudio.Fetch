@@ -140,6 +140,7 @@ const feedLinkEl = document.getElementById("feedLink");
 
 let manifest = {};
 let metaCache = {};
+let playlistCatalog = [];
 let channels = [];
 let currentChannel = null;
 
@@ -220,7 +221,7 @@ function selectChannel(channel) {
   feedLinkEl.href = `${PAGES_BASE}${channel}/feed.xml`;
   renderTabs();
 
-  const episodes = Object.keys(manifest)
+  const audioEpisodes = Object.keys(manifest)
     .filter((stem) => channelOf(stem) === channel)
     .map((stem) => {
       const videoId = stem.slice(channel.length + 1);
@@ -233,6 +234,21 @@ function selectChannel(channel) {
         date: meta.date || "",
       };
     })
+  const playlistEpisodes = playlistCatalog
+    .filter((playlist) => playlist.channel_dir === channel)
+    .flatMap((playlist) => playlist.videos || [])
+    .map((video) => {
+      const stem = `${channel}_${video.video_id}`;
+      return {
+        stem,
+        videoId: video.video_id,
+        audioUrl: manifest[stem] || "",
+        title: video.title || video.video_id,
+        date: video.date || "",
+        youtubeUrl: `https://www.youtube.com/watch?v=${video.video_id}`,
+      };
+    });
+  const episodes = [...new Map([...audioEpisodes, ...playlistEpisodes].map((episode) => [episode.stem, episode])).values()]
     .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
 
   renderEpisodeList(channel, episodes);
@@ -247,6 +263,7 @@ async function loadChannels() {
     fetchJson("audio_manifest.json"),
     fetchJson("data/.video_metadata.json").catch(() => ({})),
   ]);
+  playlistCatalog = await fetchJson("playlists.json").catch(() => []);
 
   const manifestChannels = Object.keys(manifest).map(channelOf);
   channels = [...new Set([...manifestChannels, ...CHANNEL_GROUPS.flatMap((group) => group.channels)])].sort();
@@ -282,11 +299,14 @@ function setActiveEpisode(stem) {
 
 async function selectEpisode(channel, ep) {
   setActiveEpisode(ep.stem);
+  const audioMarkup = ep.audioUrl
+    ? `<audio id="player" controls src="${ep.audioUrl}">
+        <track id="lyricsTrack" kind="subtitles" srclang="zh-TW" label="逐字稿" src="${PAGES_BASE}${channel}/transcripts/${ep.stem}.vtt">
+      </audio>`
+    : `<p class="placeholder">這支 Playlist 影片的音訊尚未同步。<a href="${ep.youtubeUrl}" target="_blank" rel="noopener" style="color:var(--accent)">在 YouTube 開啟影片</a></p>`;
   mainEl.innerHTML = `
     <h2 style="margin-top:0;font-size:16px;">${ep.title}</h2>
-    <audio id="player" controls src="${ep.audioUrl}">
-      <track id="lyricsTrack" kind="subtitles" srclang="zh-TW" label="逐字稿" src="${PAGES_BASE}${channel}/transcripts/${ep.stem}.vtt">
-    </audio>
+    ${audioMarkup}
     <div id="lyricsLive" class="lyrics-live empty" aria-live="polite">播放後顯示即時逐字稿</div>
     <div class="keyframe" id="keyframe"></div>
     <div class="cue-list" id="cueList"><div class="loading">載入逐字稿與截圖中…</div></div>
@@ -307,18 +327,20 @@ async function selectEpisode(channel, ep) {
     lyricsLiveEl.classList.toggle("empty", !text);
   }
 
-  // Hidden mode loads the published VTT without relying on browser-specific captions UI.
-  // cuechange follows the media timeline, so playback, pause, and seeking stay aligned.
-  lyricsTrack.track.mode = "hidden";
-  lyricsTrack.track.addEventListener("cuechange", updateLiveLyrics);
-  lyricsTrack.addEventListener("load", updateLiveLyrics);
-  player.addEventListener("timeupdate", updateLiveLyrics);
-  const requestedTime = Number(new URL(window.location.href).searchParams.get("t"));
-  if (Number.isFinite(requestedTime) && requestedTime >= 0) {
-    player.addEventListener("loadedmetadata", () => {
-      player.currentTime = requestedTime;
-      updateLiveLyrics();
-    }, { once: true });
+  if (player && lyricsTrack) {
+    // Hidden mode loads the published VTT without relying on browser-specific captions UI.
+    // cuechange follows the media timeline, so playback, pause, and seeking stay aligned.
+    lyricsTrack.track.mode = "hidden";
+    lyricsTrack.track.addEventListener("cuechange", updateLiveLyrics);
+    lyricsTrack.addEventListener("load", updateLiveLyrics);
+    player.addEventListener("timeupdate", updateLiveLyrics);
+    const requestedTime = Number(new URL(window.location.href).searchParams.get("t"));
+    if (Number.isFinite(requestedTime) && requestedTime >= 0) {
+      player.addEventListener("loadedmetadata", () => {
+        player.currentTime = requestedTime;
+        updateLiveLyrics();
+      }, { once: true });
+    }
   }
 
   let cues = [];
