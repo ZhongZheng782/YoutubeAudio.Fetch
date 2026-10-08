@@ -1,9 +1,9 @@
-# LEI
+# Youtube.Fetch
 
 ## 頻道資訊
 
 - 頻道代號：`themarketmemo`
-- YouTube 頻道：[https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg](https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg)
+- YouTube 播放清單：[https://www.youtube.com/playlist?list=PLSo-zkDeyJdw](https://www.youtube.com/playlist?list=PLSo-zkDeyJdw)
 
 ### 頻道介紹
 
@@ -28,3 +28,4 @@
 | [【硬核】我用二十年經驗總結的投資分析框架](themarketmemo_qbU7LHPZ4Xo_keyframes.md) | 2025-11-27 |
 | [市場崩盤的本質是什麼？｜聊聊流動性風險](themarketmemo_IMZgGZVQu2M_keyframes.md) | 2025-10-09 |
 | [我的故事：從設計師到職業投資人](themarketmemo_DRiYHzY83T0_keyframes.md) | 2025-10-01 |
+| [投資的自然科學原理｜慣性，動量，催化劑](https://www.youtube.com/watch?v=YtPfvTaSE8k) | 2025-09-24 |

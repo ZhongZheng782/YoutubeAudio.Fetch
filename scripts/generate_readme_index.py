@@ -30,6 +30,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = REPO_ROOT / "data"
 CACHE_PATH = DATA_DIR / ".video_metadata.json"
 CHANNEL_CACHE_PATH = DATA_DIR / ".channel_metadata.json"
+PLAYLISTS_PATH = REPO_ROOT / "playlists.json"
 HEADER = "## 內容索引"
 
 VIDEO_ID_RE = re.compile(r"[A-Za-z0-9_-]{11}$")
@@ -90,6 +91,12 @@ def load_channel_cache() -> dict[str, str]:
     if CHANNEL_CACHE_PATH.exists():
         return json.loads(CHANNEL_CACHE_PATH.read_text(encoding="utf-8"))
     return {}
+
+
+def load_playlists() -> list[dict]:
+    if not PLAYLISTS_PATH.exists():
+        return []
+    return json.loads(PLAYLISTS_PATH.read_text(encoding="utf-8"))
 
 
 def save_channel_cache(cache: dict[str, str]) -> None:
@@ -184,15 +191,60 @@ def build_index() -> tuple[dict[str, list[dict]], dict[str, str]]:
     return by_channel, channel_cache
 
 
-def render_index(by_channel: dict[str, list[dict]], channel_descriptions: dict[str, str]) -> str:
+def merge_playlist_catalog(by_channel: dict[str, list[dict]]) -> list[dict]:
+    """Add playlist members, including videos not processed locally yet."""
+    playlists = load_playlists()
+    for playlist in playlists:
+        channel = playlist["channel_dir"]
+        videos = by_channel.setdefault(channel, [])
+        known = {video["video_id"] for video in videos}
+        for item in playlist.get("videos", []):
+            if item["video_id"] in known:
+                for video in videos:
+                    if video["video_id"] == item["video_id"]:
+                        video["channel_name"] = playlist["name"]
+                        video["channel_url"] = playlist["url"]
+                        break
+                continue
+            videos.append({
+                "stem": "",
+                "video_id": item["video_id"],
+                "title": item["title"],
+                "date": item["date"],
+                "channel_name": playlist["name"],
+                "channel_url": playlist["url"],
+                "md_path": f"https://www.youtube.com/watch?v={item['video_id']}",
+                "external": True,
+            })
+        videos.sort(key=lambda video: video["date"], reverse=True)
+    return playlists
+
+
+def source_slug(url: str) -> str:
+    match = re.search(r"youtube\.com/@([^/]+)", url)
+    if not match:
+        return ""
+    return re.sub(r"[^A-Za-z0-9]+", "-", match.group(1)).strip("-").lower()
+
+
+def render_index(by_channel: dict[str, list[dict]], channel_descriptions: dict[str, str], playlists: list[dict]) -> str:
     if not by_channel:
         return f"{HEADER}\n\n*(尚無已完成關鍵畫面擷取的影片)*\n"
 
-    lines = [HEADER, ""]
+    daily_channels = {source_slug(url) for url in json.loads((REPO_ROOT / "channels.json").read_text(encoding="utf-8"))}
+    playlist_channels = {playlist["channel_dir"] for playlist in playlists}
+    lines = [HEADER, "", "### Daily", ""]
     for channel in sorted(by_channel):
+        if channel not in daily_channels or channel in playlist_channels or channel == "lei":
+            continue
         videos = by_channel[channel]
         display_name = videos[0]["channel_name"] or channel
         lines.append(f"- [{display_name}](data/{channel}/)")
+    lines.extend(["", "### Playlist", ""])
+    for playlist in playlists:
+        channel = playlist["channel_dir"]
+        if channel in by_channel:
+            lines.append(f"- [{playlist['name']}](data/{channel}/)")
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -202,14 +254,16 @@ def render_channel_page(channel: str, videos: list[dict], description: str | Non
     channel_url = next((video.get("channel_url", "") for video in videos if video.get("channel_url")), "")
     lines = [f"# {display_name}", "", "## 頻道資訊", "", f"- 頻道代號：`{channel}`"]
     if channel_url:
-        lines.append(f"- YouTube 頻道：[{channel_url}]({channel_url})")
+        label = "YouTube 播放清單" if channel_url in {p["url"] for p in load_playlists()} else "YouTube 頻道"
+        lines.append(f"- {label}：[{channel_url}]({channel_url})")
     if description:
         lines.extend(["", "### 頻道介紹", ""])
         lines.extend(f"> {line}".rstrip() for line in description.splitlines() or [description])
     lines.extend(["", "## 影片集合", "", "| 影片 | 日期 |", "| --- | --- |"])
     for video in videos:
         title = video["title"].replace("|", "\\|")
-        lines.append(f"| [{title}]({Path(video['md_path']).name}) | {video['date']} |")
+        target = video["md_path"] if video.get("external") else Path(video["md_path"]).name
+        lines.append(f"| [{title}]({target}) | {video['date']} |")
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -246,8 +300,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     index, channel_descriptions = build_index()
+    playlists = merge_playlist_catalog(index)
     write_channel_pages(index, channel_descriptions)
-    section = render_index(index, channel_descriptions)
+    section = render_index(index, channel_descriptions, playlists)
     changed = update_readme(Path(args.readme), section)
     total_videos = sum(len(v) for v in index.values())
     print(f"[generate_readme_index] {len(index)} channel(s), {total_videos} video(s) — README {'updated' if changed else 'unchanged'}")

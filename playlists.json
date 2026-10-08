@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Youtube.Fetch",
+    "url": "https://www.youtube.com/playlist?list=PLSo-zkDeyJdw",
+    "channel_dir": "themarketmemo",
+    "videos": [
+      {
+        "video_id": "tNzUUET5opY",
+        "title": "破解投資圈「窮人思維模式」",
+        "date": "2026-01-16"
+      },
+      {
+        "video_id": "hDOZ5n9PJFI",
+        "title": "全職投資人，需要具備哪些條件？",
+        "date": "2025-12-03"
+      },
+      {
+        "video_id": "qbU7LHPZ4Xo",
+        "title": "【硬核】我用二十年經驗總結的投資分析框架",
+        "date": "2025-11-27"
+      },
+      {
+        "video_id": "IMZgGZVQu2M",
+        "title": "市場崩盤的本質是什麼？｜聊聊流動性風險",
+        "date": "2025-10-09"
+      },
+      {
+        "video_id": "DRiYHzY83T0",
+        "title": "我的故事：從設計師到職業投資人",
+        "date": "2025-10-01"
+      },
+      {
+        "video_id": "YtPfvTaSE8k",
+        "title": "投資的自然科學原理｜慣性，動量，催化劑",
+        "date": "2025-09-24"
+      }
+    ]
+  }
+]

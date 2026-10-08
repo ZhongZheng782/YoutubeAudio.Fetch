@@ -6,6 +6,7 @@ on:
     paths:
       - 'data/**/*_keyframes.md'
       - 'scripts/generate_readme_index.py'
+      - 'playlists.json'
   workflow_dispatch:
 
 jobs:

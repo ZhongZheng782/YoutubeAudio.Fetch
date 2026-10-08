@@ -8,15 +8,19 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 ## 內容索引
 
+### Daily
+
 - [AI 101](data/ai-note-101/)
 - [富邦證券](data/fubonsec/)
 - [Jim AI Notebook](data/jimainotebook/)
-- [LEI](data/lei/)
 - [Smart智富月刊](data/smartmonthly-bw/)
-- [LEI](data/themarketmemo/)
 - [財訊](data/wealth1974/)
 - [X的財經筆記](data/x/)
 - [游庭皓的財經皓角](data/yutinghaofinance/)
+
+### Playlist
+
+- [Youtube.Fetch](data/themarketmemo/)
 
 ## 目錄慣例
 ```
