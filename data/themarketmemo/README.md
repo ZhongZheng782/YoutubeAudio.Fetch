@@ -30,3 +30,4 @@
 | [市場崩盤的本質是什麼？｜聊聊流動性風險](themarketmemo_IMZgGZVQu2M_keyframes.md) | 2025-10-09 |
 | [我的故事：從設計師到職業投資人](themarketmemo_DRiYHzY83T0_keyframes.md) | 2025-10-01 |
 | [投資的自然科學原理｜慣性，動量，催化劑](https://www.youtube.com/watch?v=YtPfvTaSE8k) | 2025-09-24 |
+| [投機的本質｜投機之王 Jesse Livermore 啟示錄 EP.1](https://www.youtube.com/watch?v=U1rRnRWnMz8) | 2023-04-07 |
