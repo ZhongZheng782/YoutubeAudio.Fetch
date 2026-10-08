@@ -13,7 +13,10 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [「年輕一代比我們更擔心」寫過法國 AI 戰略的費爾茲獎得主 Cédric Villani：AI 解題太快，題目會枯竭 【AI 大人說】](ai-note-101_MUpWoUtEYwU_keyframes.md) | 2026-10-08 |
+| [台灣會是下一個伊朗？教過美國空軍轟炸戰略的教授：美國掉進了升級陷阱](ai-note-101_efK_fHAyWvU_keyframes.md) | 2026-10-08 |
 | [EP13/23｜資料再多也學不會因果：Columbia 因果 AI 實驗室 Bareinboim 拆解 AI 的三層能力 【AI可解釋性 - 2026 UCLA工作坊】](ai-note-101_MPRN8sG0nkU_keyframes.md) | 2026-10-07 |
+| [ChatGPT廣告上線、200美元額度砍半，Claude補貼壓力曝光【AI新聞快報 2026/10/08】](ai-note-101_WH9k3RIHbhM_keyframes.md) | 2026-10-07 |
 | [143 個人預言 AI 的未來：誰說會毀滅、誰說管得住，放進同一棵樹](ai-note-101_Y2F42PY27LI_keyframes.md) | 2026-10-07 |
 | [Claude 私人日記四天直通警局：AI 公司成了威脅守門人【AI新聞快報 2026/10/07】](ai-note-101_7XTRd1Fbkow_keyframes.md) | 2026-10-06 |
 | [AI 提早兩年做到，他說學界完全沒準備好｜Wolfram 物理計畫共同創辦人 Jonathan Gorard【AI 大人說】](ai-note-101_QfvviTQtcHQ_keyframes.md) | 2026-10-06 |

@@ -228,258 +228,300 @@
       <pubDate>Tue, 06 Oct 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=y79NVF0hYSI</link>
       <description>EP12/23｜反事實解釋是一個函數：它存不存在、連不連續，由資料的地形決定 【AI可解釋性 - 2026 UCLA工作坊】</description>
-      <content:encoded><![CDATA[<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=0">[00:00]</a> 這是第 12 集</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=1">[00:01]</a> 題目是：對比式解釋</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=3">[00:03]</a> 用幾何跟拓樸來看</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=5">[00:05]</a> 講者 Marina Meila 做流形學習</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=8">[00:08]</a> 研究資料在高維空間裡實際攤成什麼形狀</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=11">[00:11]</a> 反事實解釋這題</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=13">[00:13]</a> 她寫過一篇整理 350 篇論文的綜述</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=15">[00:15]</a> 這場她把 counterfactual 這個詞讓給因果那一派</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=18">[00:18]</a> 自己的版本叫 contrastive</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=20">[00:20]</a> 對比式解釋</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=22">[00:22]</a> 先把這集要問的問題講清楚</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=25">[00:25]</a> 反事實解釋的標準定義</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=27">[00:27]</a> 照她投影片上那一頁</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=29">[00:29]</a> 給一筆有標籤的資料集 D</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=31">[00:31]</a> 每筆標 0 或 1</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=33">[00:33]</a> 一個被判成 0 的查詢點 x0</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=35">[00:35]</a> 還有一個距離函數 d</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=36">[00:36]</a> 輸出 x1</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=37">[00:37]</a> 就是所有標 1 的點裡面</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=39">[00:39]</a> 離 x0 最近的那一筆</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=41">[00:41]</a> 白話講：模型拒絕了你</p>
+      <content:encoded><![CDATA[<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=0">[00:00]</a> 這是第十二集,題目是《對比式解釋》,用幾何跟拓普來看。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=5">[00:05]</a> 講者Marina Miller做流行學習,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=8">[00:08]</a> 研究資料在高位空間裡實際攤成什麼形狀,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=11">[00:11]</a> 反事實解釋這題,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=12">[00:12]</a> 她寫過一篇整理350篇論文的綜述。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=15">[00:15]</a> 這場她把counterfactual這個詞讓給英國那一派,自己的版本叫contrastive,對比式解釋。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=21">[00:21]</a> 先把這集要問的問題講清楚</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=24">[00:24]</a> 反事實解釋的標準定義</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=27">[00:27]</a> 照他投影片上那一頁</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=29">[00:29]</a> 給一筆有標籤的資料集D</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=31">[00:31]</a> 每筆標0或1</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=32">[00:32]</a> 一個被判成0的查詢點X0</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=34">[00:34]</a> 還有一個距離函數D</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=36">[00:36]</a> 輸出X1</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=37">[00:37]</a> 就是所有標1的點裡面</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=39">[00:39]</a> 離X0最近的那一筆</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=40">[00:40]</a> 白話講模型拒絕了你</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=42">[00:42]</a> 就找一個跟你最像</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=44">[00:44]</a> 但被接受的人給你看</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=46">[00:46]</a> 那一頁還列了幾條額外要求</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=48">[00:48]</a> x1 要可信</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=49">[00:49]</a> 不能是資料裡根本長不出來的點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=51">[00:51]</a> 從 x0 到 x1 的路徑要短</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=53">[00:53]</a> 要可信</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=54">[00:54]</a> x1 要穩定</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=45">[00:45]</a> 那一頁還列了幾條額外要求</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=47">[00:47]</a> X1要可信</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=49">[00:49]</a> 不能是資料里根本長不出來的點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=51">[00:51]</a> 從X0到X1的路徑要短</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=53">[00:53]</a> 要可信X1要穩定</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=55">[00:55]</a> 而且最好用使用者自己的概念來講</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=59">[00:59]</a> 幾百種方法都在比誰找的 x1 比較好</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=62">[01:02]</a> Meila 問的不是這個</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=64">[01:04]</a> 她把每一個被拒絕的 x0 對到自己的 x1</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=67">[01:07]</a> 問這個對應本身：第一</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=69">[01:09]</a> 是不是每個 x0 都真的有一個 x1</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=72">[01:12]</a> 第二，x0 挪一點點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=74">[01:14]</a> x1 是跟著挪一點點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=59">[00:59]</a> 幾百種方法都在比</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=60">[01:00]</a> 誰找的X1比較好</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=62">[01:02]</a> Miller問的不是這個</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=63">[01:03]</a> 他把每一個被拒絕的X0</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=66">[01:06]</a> 對到自己的X1</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=67">[01:07]</a> 問這個對應本身</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=69">[01:09]</a> 第一</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=69">[01:09]</a> 是不是每個X0都真的有一個X1</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=72">[01:12]</a> 第二</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=72">[01:12]</a> X0挪一點點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=74">[01:14]</a> X1是跟著挪一點點</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=75">[01:15]</a> 還是跳到別的地方去</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=77">[01:17]</a> 答案分三段：把 f 當成地形</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=79">[01:19]</a> 解釋就是從你的位置往上爬到門檻的那條路</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=83">[01:23]</a> 地形裡沒有坡度為零的點，兩題都是有</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=85">[01:25]</a> 這是她的定理</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=77">[01:17]</a> 答案分三段</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=78">[01:18]</a> 把F當成地形</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=79">[01:19]</a> 解釋就是從你的位置</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=81">[01:21]</a> 往上爬到門檻的那條路</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=82">[01:22]</a> 地形裡沒有坡度為0的點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=84">[01:24]</a> 兩題都是有</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=85">[01:25]</a> 這是他的定理</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=86">[01:26]</a> 一有臨界點或有洞</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=88">[01:28]</a> 就有人爬到一半停住、有人的解釋跳開</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=91">[01:31]</a> 這是她的反例</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=92">[01:32]</a> 最後她換成用概念來爬同一座山</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=94">[01:34]</a> 算出兩條路終點差多少</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=97">[01:37]</a> 做反事實解釋的方法有幾百種</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=105">[01:45]</a> 大多是一套程序，這是一個例子</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=109">[01:49]</a> 給我一個相似、但輸出不同的東西</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=113">[01:53]</a> 而我感興趣的是</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=116">[01:56]</a> 如果把所有可能的輸入</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=120">[02:00]</a> 對到所有可能的輸出</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=124">[02:04]</a> 那會是什麼樣的函數？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=128">[02:08]</a> 這就是這場演講的目標</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=130">[02:10]</a> 用地形圖來想</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=132">[02:12]</a> f 是高度，也就是被接受的機率</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=134">[02:14]</a> 她說的 level set</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=136">[02:16]</a> 就是等高線</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=137">[02:17]</a> 你站在下面那條 τ0 上</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=139">[02:19]</a> 門檻是上面那條 τ</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=141">[02:21]</a> 標準做法是找離你最近的一點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=142">[02:22]</a> 她改成走路：從你的位置出發</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=145">[02:25]</a> 每一步都走最陡的上坡</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=146">[02:26]</a> 這條路叫梯度流，永遠跟等高線垂直</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=149">[02:29]</a> 走到 τ 那條線停下來的地方</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=151">[02:31]</a> 就是你的解釋 x1</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=152">[02:32]</a> 下面那條線上每一點都這樣走一遍</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=154">[02:34]</a> 就是她說的那個對應，她寫成 Φ</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=157">[02:37]</a> 她接著把舞台畫出來，右邊這張就是</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=160">[02:40]</a> 上面那條線是 M^τ，門檻</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=163">[02:43]</a> 下面那條是 M^τ0，所有起點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=166">[02:46]</a> 左邊綠色的線是密度剛好等於門檻的地方</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=168">[02:48]</a> 她叫這個門檻 ρ</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=170">[02:50]</a> 再過去的點太不可信，不算</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=172">[02:52]</a> 中間那個綠圈是資料裡的一塊空洞</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=88">[01:28]</a> 就有人爬到一半停住</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=89">[01:29]</a> 有人的解釋</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=90">[01:30]</a> 跳開</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=91">[01:31]</a> 這是他的反例</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=92">[01:32]</a> 最後他換成用概念來爬同一座山</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=94">[01:34]</a> 算出兩條路</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=95">[01:35]</a> 終點差多少</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=117">[01:57]</a> 如果我看出所有的可能的出口</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=122">[02:02]</a> and map them to all the possible outputs</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=124">[02:04]</a> What kind of function is that</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=127">[02:07]</a> That&#x27;s the goal of this talk</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=130">[02:10]</a> 用D型圖來想</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=131">[02:11]</a> F是高度也就是被接受的幾率</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=134">[02:14]</a> 它說的level set就是等高線</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=137">[02:17]</a> 你站在下面那條套鈴上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=139">[02:19]</a> 門檻是上面那條套</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=140">[02:20]</a> 標準做法是找離你最近的一點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=142">[02:22]</a> 它改成走路</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=143">[02:23]</a> 從你的位置出發</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=144">[02:24]</a> 每一步都走最陡的上坡</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=146">[02:26]</a> 這條路叫梯度流</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=147">[02:27]</a> 永遠跟等高線垂直</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=149">[02:29]</a> 走到tau那條線停下來的地方</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=151">[02:31]</a> 就是你的解釋xc</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=152">[02:32]</a> 下面那條線上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=153">[02:33]</a> 每一點都這樣走一遍</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=154">[02:34]</a> 就是他說的那個對應</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=155">[02:35]</a> 他寫成fi</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=156">[02:36]</a> 他接著把舞臺畫出來</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=158">[02:38]</a> 右邊這張就是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=161">[02:41]</a> 上面那條線是mtau</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=162">[02:42]</a> 門檻</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=163">[02:43]</a> 下面那條是mtau0</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=165">[02:45]</a> 所有起點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=165">[02:45]</a> 左邊綠色的線</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=167">[02:47]</a> 是密度剛好等於門檻的地方</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=168">[02:48]</a> 他叫這個門檻raw</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=170">[02:50]</a> 在過去的點太不可信</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=171">[02:51]</a> 不算</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=171">[02:51]</a> 中間那個綠圈</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=173">[02:53]</a> 是資料裡的一塊空洞</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=174">[02:54]</a> 一樣不可信</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=175">[02:55]</a> 右邊藍色的線是資料本來的邊界</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=178">[02:58]</a> 兩條綠的加一條藍的，她合稱垂直邊界</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=181">[03:01]</a> 記成 B</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=182">[03:02]</a> 後面所有的圖都畫在這一塊裡面</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=184">[03:04]</a> 坡度為零的地方有三種：山頂、谷底</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=187">[03:07]</a> 還有兩座山中間的山口，叫鞍點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=190">[03:10]</a> Morse 函數多要求一件事</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=191">[03:11]</a> 這些點都要乾脆，不能是一整片平台</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=194">[03:14]</a> Hessian 沒有零特徵值講的就是這個</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=196">[03:16]</a> 對解釋來說，臨界點是陷阱</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=175">[02:55]</a> 右邊藍色的線</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=176">[02:56]</a> 是資料本來的邊界</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=177">[02:57]</a> 兩條綠的加一條藍的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=179">[02:59]</a> 它合稱垂直邊界</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=181">[03:01]</a> 繼承B</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=181">[03:01]</a> 後面所有的圖都畫在這一塊裡面</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=183">[03:03]</a> 坡度為0的地方有三種</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=185">[03:05]</a> 山頂</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=186">[03:06]</a> 谷底</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=187">[03:07]</a> 還有兩座山中間的山口</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=188">[03:08]</a> 叫安點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=189">[03:09]</a> Morse函數多要求一件事</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=191">[03:11]</a> 這些點都要乾脆</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=192">[03:12]</a> 不能是一整片平臺</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=194">[03:14]</a> Hasson沒有零特徵值</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=195">[03:15]</a> 講的就是這個</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=196">[03:16]</a> 對解釋來說</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=197">[03:17]</a> 臨界點是陷阱</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=198">[03:18]</a> 往上爬的路一走進去</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=200">[03:20]</a> 最陡的上坡就沒有方向了，路停在那裡</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=200">[03:20]</a> 最陡的上坡就沒有方向了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=201">[03:21]</a> 路停在那裡</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=202">[03:22]</a> 永遠到不了門檻</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=206">[03:26]</a> 那我們有一個很好用的定理，它說</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=211">[03:31]</a> 這是它的圖</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=213">[03:33]</a> 如果這張圖沒有洞，不對</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=219">[03:39]</a> 如果這張圖裡 f 沒有臨界點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=221">[03:41]</a> 那下面那層跟上面那層就是微分同胚</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=227">[03:47]</a> 順著流，每一個輸入 x0 都有一個解釋 x1</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=232">[03:52]</a> 每個都不一樣，這個對應是可逆的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=236">[03:56]</a> 性質非常非常好</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=241">[04:01]</a> 這是用 Morse 理論的一個理由：有這個好結果</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=247">[04:07]</a> 但我其實還沒證明我們真的有 Morse 函數</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=250">[04:10]</a> 我們希望有，理由就是這個</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=255">[04:15]</a> 在講怎樣才算 Morse 函數之前</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=260">[04:20]</a> 這也區分了靠近決策邊界的解釋</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=263">[04:23]</a> 跟所有地方的解釋</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=267">[04:27]</a> 因為在邊界附近，如果這裡沒有臨界點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=270">[04:30]</a> 就會有一塊鄰域完全沒有臨界點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=272">[04:32]</a> 這件好事就會發生</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=275">[04:35]</a> 所以我們可以說：這就是我的對比式解釋</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=280">[04:40]</a> 永遠存在一塊鄰域，裡面的對比式解釋都很好</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=284">[04:44]</a> 其他地方就別問我了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=286">[04:46]</a> 把定理拆開看</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=288">[04:48]</a> 條件跟結論都在這一頁上</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=290">[04:50]</a> 條件一：兩條等高線上本身沒有臨界點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=214">[03:34]</a> 如果這個圖片沒有圖片</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=215">[03:35]</a> 不,如果這個圖片沒有重點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=220">[03:40]</a> 那麼,低層層會跟高層不同</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=227">[03:47]</a> 每個x0的輸入都會有x1的解釋</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=232">[03:52]</a> 它們都會不同</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=232">[03:52]</a> 地圖是可動的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=236">[03:56]</a> 非常非常好</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=237">[03:57]</a> 所以,這就是為了有更多理論的原因</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=244">[04:04]</a> 因為我們有這個不錯的結果</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=245">[04:05]</a> 但是我還沒有證明我們有Morse的功能</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=250">[04:10]</a> 我們想要有Morse的功能</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=251">[04:11]</a> 這就是為什麼</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=252">[04:12]</a> 我之前已經講過</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=256">[04:16]</a> Morse的功能</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=260">[04:20]</a> 這其實也有分別</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=262">[04:22]</a> 在近距離的解釋</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=263">[04:23]</a> 和在任何地方的解釋</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=266">[04:26]</a> 因為在近距離</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=268">[04:28]</a> 如果這裡沒有重點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=269">[04:29]</a> 那裡會有附近</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=270">[04:30]</a> 沒有重點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=272">[04:32]</a> 然後這件好事會發生</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=275">[04:35]</a> 所以我們可以說</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=277">[04:37]</a> Hey, this is my contrastive explanation</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=280">[04:40]</a> that it exists always in a neighborhood</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=282">[04:42]</a> 我們有一個很相似的解釋</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=284">[04:44]</a> and don&#x27;t ask me about the rest</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=285">[04:45]</a> 把定理拆開看</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=287">[04:47]</a> 條件跟結論都在這一頁上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=290">[04:50]</a> 條件一</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=291">[04:51]</a> 兩條等高線上本身沒有臨界點</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=294">[04:54]</a> 條件二</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=295">[04:55]</a> f 的梯度在垂直邊界上不跟邊界垂直</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=295">[04:55]</a> F的T度在垂直邊界上不跟邊界垂直</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=298">[04:58]</a> 白話就是流線不從側邊穿出去</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=300">[05:00]</a> 這兩條成立</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=301">[05:01]</a> 這一塊在拓樸裡叫 cobordism</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=305">[05:05]</a> 條件三：整塊裡面都沒有臨界點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=308">[05:08]</a> 結論</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=309">[05:09]</a> 下面那條 M^τ0 跟上面那條 M^τ 微分同胚</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=312">[05:12]</a> 而且這個同胚就是梯度流本身</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=315">[05:15]</a> 翻成人話：每個起點都有解釋</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=317">[05:17]</a> 不同的人解釋一定不同，起點連續動</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=301">[05:01]</a> 這一塊在top裡叫cobardism</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=303">[05:03]</a> 條件三</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=306">[05:06]</a> 整塊裡面都沒有臨界點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=308">[05:08]</a> 結論下面那條M tau0</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=310">[05:10]</a> 跟上面那條M tau微分同配</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=312">[05:12]</a> 而且這個同配就是T度流本身</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=315">[05:15]</a> 翻成人化</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=316">[05:16]</a> 每個起點都有解釋</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=317">[05:17]</a> 不同的人解釋一定不同</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=318">[05:18]</a> 起點連續動</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=319">[05:19]</a> 解釋也連續動</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=321">[05:21]</a> 為什麼成立：沒有臨界點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=320">[05:20]</a> 為什麼成立沒有臨界點</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=322">[05:22]</a> 流線沒有地方可以停</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=324">[05:24]</a> 只能從下面一路走到上面</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=325">[05:25]</a> 流線彼此不交叉，所以一對一</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=328">[05:28]</a> 微分方程的解對起點連續，所以連續</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=330">[05:30]</a> 她做的是把這個現成的定理接到反事實解釋上</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=333">[05:33]</a> 引用的是頁上標 BNR12 那篇帶邊界的 Morse 理論</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=337">[05:37]</a> 她沒做的她自己講了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=338">[05:38]</a> 還沒證明真實的 f 沒有臨界點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=323">[05:23]</a> 只能從下面一路走到上面</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=325">[05:25]</a> 流線彼此不交叉</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=327">[05:27]</a> 所以一對一</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=327">[05:27]</a> 微分方程的解對起點連續</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=329">[05:29]</a> 所以連續</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=330">[05:30]</a> 他做的是把這個現成的定理</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=332">[05:32]</a> 接到反事實解釋上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=333">[05:33]</a> 引用的是葉上彪</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=334">[05:34]</a> BNR12那篇</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=336">[05:36]</a> 帶邊界的摩斯理論</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=337">[05:37]</a> 他沒做的他自己講了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=338">[05:38]</a> 還沒證明真實的F沒有臨界點</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=340">[05:40]</a> 只保證決策邊界附近有一圈成立</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=343">[05:43]</a> 其他地方別問她</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=345">[05:45]</a> 這個例子裡，流線從垂直邊界穿出去</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=350">[05:50]</a> 穿過洞，又從別的地方進來</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=353">[05:53]</a> 這種情況下，定理就不成立</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=356">[05:56]</a> 很明顯，τ0 那條等高線上有些點拿不到解釋</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=361">[06:01]</a> 她的修法只動邊界</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=363">[06:03]</a> 沿垂直邊界留一圈寬度 ε 的鄰域</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=366">[06:06]</a> 只在這一圈裡改 f</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=367">[06:07]</a> 讓梯度貼著邊界走，不再穿出去</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=370">[06:10]</a> 其他地方的 f 不動</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=342">[05:42]</a> 其他地方別問他</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=361">[06:01]</a> 他的修法只動邊界</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=363">[06:03]</a> 沿垂直邊界留一圈寬度</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=365">[06:05]</a> ε的領域</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=366">[06:06]</a> 只在這一圈裡改F</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=367">[06:07]</a> 讓梯度貼著邊界走</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=369">[06:09]</a> 不再傳出去</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=370">[06:10]</a> 其他地方的F不動</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=371">[06:11]</a> 原本的臨界點也都還在</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=373">[06:13]</a> 代價是多一個參數 ε</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=375">[06:15]</a> 邊界那一圈的解釋是改過的 f 給的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=377">[06:17]</a> 修完就只剩臨界點，就是這張圖</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=380">[06:20]</a> 最下面那條線是起點 τ0</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=381">[06:21]</a> 淺藍色箭頭是往上爬的路</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=384">[06:24]</a> 最上面那條線是門檻 τ</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=372">[06:12]</a> 代價是多一個參數Epsilon</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=375">[06:15]</a> 邊界那一圈的解釋是改過的F給的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=377">[06:17]</a> 修完就只剩臨界點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=378">[06:18]</a> 就是這張圖</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=379">[06:19]</a> 最下面那條線是起點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=381">[06:21]</a> Tau 0</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=382">[06:22]</a> 且藍色箭頭是往上爬的路</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=383">[06:23]</a> 最上面那條線是門檻</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=386">[06:26]</a> Tau</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=386">[06:26]</a> 紅點是臨界點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=390">[06:30]</a> 拿右上角這個缺口來看</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=388">[06:28]</a> 拿右上角這個缺口來看</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=392">[06:32]</a> 從缺口左邊一點點出發的人</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=395">[06:35]</a> 停在缺口的左岸</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=396">[06:36]</a> 起點往右挪一點點，終點就跳到右岸</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=394">[06:34]</a> 停在缺口的左岸</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=396">[06:36]</a> 起點往右挪一點點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=398">[06:38]</a> 終點就跳到右岸</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=399">[06:39]</a> 中間隔了一整個缺口</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=400">[06:40]</a> 這就是 Φ 不連續</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=400">[06:40]</a> 這就是Five不連續</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=402">[06:42]</a> 正對缺口底部出發的那個人</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=404">[06:44]</a> 走進紅點就停住，什麼解釋都拿不到</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=406">[06:46]</a> 所以這張圖證明的是：只要有臨界點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=409">[06:49]</a> 就有人沒有解釋，而且 Φ 不連續</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=411">[06:51]</a> 她沒給的是哪些起點會出事</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=413">[06:53]</a> 那一塊有多大，這取決於 f 的拓樸</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=416">[06:56]</a> 那為什麼這很重要？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=420">[07:00]</a> 這只是一個很小很小的洞</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=423">[07:03]</a> 一部分是連續性的問題，一部分是別的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=426">[07:06]</a> 如果一個定義域有任何一種洞</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=429">[07:09]</a> 就沒辦法只用一張座標圖來描述它</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=432">[07:12]</a> 沒辦法用單一一張座標，把它攤平到實數上</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=437">[07:17]</a> 這大概是今天最該帶回家的一件事</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=440">[07:20]</a> 其實這也是最重要的挑戰</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=443">[07:23]</a> 我不假裝我已經解決了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=445">[07:25]</a> 基本上，就算只有一個點的洞</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=448">[07:28]</a> 就沒辦法用一張全域的地圖把它看成實數線</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=451">[07:31]</a> 所以得替解釋所在的空間想另一種拓樸</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=456">[07:36]</a> 某種看起來像有洞的定義域</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=461">[07:41]</a> 這就是我想傳達的訊息</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=466">[07:46]</a> 就算在這個極限裡</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=469">[07:49]</a> 只要問解釋穩不穩定</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=472">[07:52]</a> 拓樸就不能忽略，拓樸就是答案</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=476">[07:56]</a> 函數的拓樸描述</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=479">[07:59]</a> 會告訴我們手上這個解釋有什麼性質</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=483">[08:03]</a> 後半場她把同一條上坡路換成用概念來走</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=486">[08:06]</a> 我們壓成一段</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=488">[08:08]</a> 概念是使用者的語言，像腫瘤大小</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=490">[08:10]</a> 血流速度</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=491">[08:11]</a> 每個概念 c 都是 x 的函數</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=494">[08:14]</a> 她不逼近 f 本身</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=495">[08:15]</a> 只逼近 f 的梯度：在每一點上</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=498">[08:18]</a> f 最陡的那支箭頭</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=404">[06:44]</a> 走進紅點就停住</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=405">[06:45]</a> 什麼解釋都拿不到</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=406">[06:46]</a> 所以這張圖證明的是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=408">[06:48]</a> 只要有臨界點就有人沒有解釋</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=410">[06:50]</a> 而且φ不連續</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=411">[06:51]</a> 它沒給的是哪些起點會出事</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=413">[06:53]</a> 那一塊有多大</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=414">[06:54]</a> 這取決於F的拓撲</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=435">[07:15]</a> 在一個圖表上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=436">[07:16]</a> 這實際上是最重要的東西</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=440">[07:20]</a> 其實這是最重要的挑戰</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=442">[07:22]</a> 我沒有假裝我處理過它</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=445">[07:25]</a> 但是基本上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=446">[07:26]</a> 如果我們有一個圖表</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=447">[07:27]</a> 我們就不能想起一個全球圖表</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=449">[07:29]</a> 看起來像一個真實的圖表</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=451">[07:31]</a> 所以我們必須想起</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=452">[07:32]</a> 另一個解釋空間的圖表</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=455">[07:35]</a> 一個圖表看起來像一個圖表</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=459">[07:39]</a> 這就是我想說的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=463">[07:43]</a> 這是我的信息</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=466">[07:46]</a> 即使在這個限制中,如果我們提到解釋的穩定性</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=472">[07:52]</a> 那旋律不能被忽視,旋律實際上就是跳舞</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=476">[07:56]</a> 旋律的描述告訴我們我們所擁有的解釋元素</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=482">[08:02]</a> 後半場,他把同一條上坡路換成用概念來走</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=486">[08:06]</a> 我們壓成一段,概念是使用者的語言</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=489">[08:09]</a> 像腫瘤大小,血流速度,每個概念C都是X的函數</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=493">[08:13]</a> 它不逼近F本身</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=495">[08:15]</a> 只逼近F的T度在每一點上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=497">[08:17]</a> F最陡的那隻箭頭</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=499">[08:19]</a> 用幾個概念的箭頭加權湊出來</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=501">[08:21]</a> 權重 β 每個點都不一樣</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=503">[08:23]</a> 誤差每一點都不超過 δ</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=505">[08:25]</a> 接著兩條路從同一個起點出發</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=507">[08:27]</a> 一條照真的梯度走，一條照湊的走</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=510">[08:30]</a> 她的上界</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=511">[08:31]</a> 兩個終點的距離不超過 δ 除以 L</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=513">[08:33]</a> 乘上 e 的 L 倍 τ 減 τ0 次方再減一</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=516">[08:36]</a> L 是 f 二階導數的上界</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=518">[08:38]</a> 白話：誤差隨要爬的高度指數放大</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=521">[08:41]</a> 她沒做的三件</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=501">[08:21]</a> 權重β每個點都不一樣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=503">[08:23]</a> 誤差每一點都不超過Delta</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=504">[08:24]</a> 接著兩條路從同一個起點出發</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=507">[08:27]</a> 一條照真的T度走</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=508">[08:28]</a> 一條照湊的走</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=510">[08:30]</a> 它的上界</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=510">[08:30]</a> 兩個終點的距離不超過Delta除以L</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=513">[08:33]</a> 乘上E的L被套</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=515">[08:35]</a> 減套0次方再減1</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=516">[08:36]</a> L是F二節導數的上界</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=518">[08:38]</a> 白化誤差隨要爬的高度指數放大</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=520">[08:40]</a> 它沒做的三件</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=522">[08:42]</a> 概念不夠用的情況沒分析</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=524">[08:44]</a> 概念到 f 的對應她假設全域成立</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=526">[08:46]</a> 流形有洞還要多一個全域條件</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=528">[08:48]</a> 她說那一條目前什麼都說不出來</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=531">[08:51]</a> 還有一件很棒的事，我想特別強調</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=534">[08:54]</a> 數學其實跟我們的直覺對得上</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=539">[08:59]</a> 基本上，如果軌跡比較長，起點 τ0 比較低</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=545">[09:05]</a> 想要一樣準，δ 就要變小</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=550">[09:10]</a> 有一條很簡單的式子</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=551">[09:11]</a> 代入 ε 就會看到，δ 必須越來越小</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=555">[09:15]</a> 因為要補的差距更大，理所當然</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=558">[09:18]</a> 局部的逼近要更精準</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=560">[09:20]</a> 而局部逼近要更精準</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=562">[09:22]</a> 就可能需要越來越多概念</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=565">[09:25]</a> 所以這自動告訴我，如果我想</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=571">[09:31]</a> 向一個差得更遠的人解釋</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=573">[09:33]</a> 我需要一個更長、更複雜的解釋</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=578">[09:38]</a> 這一點都不意外</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=583">[09:43]</a> 只是確認了我們的方向可能是對的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=586">[09:46]</a> 沒有做出違反直覺的東西</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=524">[08:44]</a> 概念到F的對應它假設痊癒成立</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=526">[08:46]</a> 流行有動還要多一個痊癒條件</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=528">[08:48]</a> 他說那條目前什麼都說不出來</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=557">[09:17]</a> 比如說地區的距離必須比較廣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=560">[09:20]</a> 如果地區的距離必須比較廣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=562">[09:22]</a> 這意味著我會越來越需要更多的概念</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=564">[09:24]</a> 所以這自然會告訴我</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=567">[09:27]</a> 如果我想要向更多失敗的人解釋</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=572">[09:32]</a> 我會需要更長的更復雜的解釋</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=578">[09:38]</a> 這就是一件不驚人的事情</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=583">[09:43]</a> 只是確保我們可能正在正確的路線上</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=590">[09:50]</a> 整場收成一句</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=592">[09:52]</a> 反事實解釋是一個對應 Φ</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=594">[09:54]</a> 它存不存在、連不連續</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=596">[09:56]</a> 由 f 的地形決定</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=591">[09:51]</a> 反事實解釋是一個對應fi</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=593">[09:53]</a> 它存不存在</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=595">[09:55]</a> 連不連續</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=596">[09:56]</a> 由F的地形決定</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=597">[09:57]</a> 資料再多也改不了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=599">[09:59]</a> 她做到的：把解釋寫成梯度流</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=601">[10:01]</a> 證明沒有臨界點時人人有解釋而且連續</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=604">[10:04]</a> 畫出有臨界點時誰拿不到、哪裡會跳</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=607">[10:07]</a> 還有概念版的誤差上界</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=608">[10:08]</a> 她沒做到的，她的結論頁自己列了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=598">[09:58]</a> 他做到的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=600">[10:00]</a> 把解釋寫成T度流</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=601">[10:01]</a> 證明沒有臨界點時</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=602">[10:02]</a> 人人有解釋</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=603">[10:03]</a> 而且連續</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=604">[10:04]</a> 畫出有臨界點時</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=605">[10:05]</a> 誰拿不到</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=606">[10:06]</a> 哪裡會跳</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=606">[10:06]</a> 還有概念版的誤差上界</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=608">[10:08]</a> 他沒做到的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=609">[10:09]</a> 他的結論頁自己列了</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=611">[10:11]</a> 解釋應該附上一個複雜度</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=612">[10:12]</a> 一部分是路徑長度，一部分是拓樸</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=614">[10:14]</a> 兩個怎麼合起來是開放問題</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=617">[10:17]</a> 還有整場都在理想世界裡：f、流形</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=619">[10:19]</a> 密度全當成已知，沒有資料</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=621">[10:21]</a> 也沒有實驗</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=623">[10:23]</a> 下一場是 Columbia 大學的 Elias Bareinboim</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=626">[10:26]</a> Judea Pearl 的學生</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=612">[10:12]</a> 一部分是路徑長度</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=613">[10:13]</a> 一部分是拓撲</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=614">[10:14]</a> 兩個怎麼合起來</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=615">[10:15]</a> 是開放問題</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=616">[10:16]</a> 還有整場都在理想世界裡</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=618">[10:18]</a> F流行密度全當成已知</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=622">[10:22]</a> 也沒有實驗</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=622">[10:22]</a> 下一場是Columbia大學的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=624">[10:24]</a> Elias Brainboim</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=626">[10:26]</a> Judia Pearl的學生</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=627">[10:27]</a> 因果這一派</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=628">[10:28]</a> Meila 把反事實這個詞讓給了因果</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=631">[10:31]</a> Bareinboim 要講的就是</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=632">[10:32]</a> AI 要會做因果推理</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=628">[10:28]</a> Miller把反事實這個詞讓給了因果</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=631">[10:31]</a> Brainboim要講的就是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=632">[10:32]</a> AI要會做因果推理</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=634">[10:34]</a> 才講得出真正的解釋</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=635">[10:35]</a> 他的第一個例子是問生圖模型</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=635">[10:35]</a> 他的第一個例子是問生徒模型</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=637">[10:37]</a> 貓把花瓶推下桌會怎樣</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=639">[10:39]</a> 模型自己把墊子拿掉，再讓花瓶摔碎</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=639">[10:39]</a> 模型自己把墊子拿掉</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=640">[10:40]</a> 再讓花瓶摔碎</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=642">[10:42]</a> 十歲小孩都看得出不對</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=643">[10:43]</a> 最強的模型卻看不出來</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=646">[10:46]</a> 原影片連結在說明欄，整場 53 分鐘，有興趣可以去聽更多。</p>]]></content:encoded>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=644">[10:44]</a> 原影片連結在說明欄</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=648">[10:48]</a> 整場53分鐘</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_y79NVF0hYSI&amp;t=649">[10:49]</a> 有興趣可以去聽更多</p>]]></content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_y79NVF0hYSI.m4a" type="audio/mp4" length="10559376"/>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_y79NVF0hYSI.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
