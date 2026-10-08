@@ -92,6 +92,16 @@ jobs:
             python skills/skill-youtube-channel-fetch/scripts/channel_fetch.py fetch "$url" --limit "$LIMIT" --sync || echo "::warning::fetch failed for $url"
             echo "::endgroup::"
           done
+          while IFS=$'\t' read -r url slug limit; do
+            echo "::group::playlist $slug"
+            python skills/skill-youtube-channel-fetch/scripts/channel_fetch.py fetch "$url" --source-slug "$slug" --limit "$limit" --sync || echo "::warning::playlist fetch failed for $url"
+            echo "::endgroup::"
+          done < <(python - <<'PY'
+          import json
+          for playlist in json.load(open("playlists.json", encoding="utf-8")):
+              print("\t".join((playlist["url"], playlist["channel_dir"], str(playlist.get("fetch_limit", 100)))))
+          PY
+          )
 
       - name: Commit fetch outputs if changed
         run: |

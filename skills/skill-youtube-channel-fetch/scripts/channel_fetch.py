@@ -202,6 +202,28 @@ class ChannelFetcher:
                 entries.append({"video_id": vid, "title": e.get("title", vid)})
         return entries, channel_name
 
+    def _list_playlist(self, playlist_url: str, limit: int | None) -> list[dict]:
+        """Return videos from a public YouTube playlist in playlist order."""
+        args = ["yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(), "--flat-playlist", "-J"]
+        if limit is not None:
+            args.extend(["--playlist-end", str(limit)])
+        proc = subprocess.run(
+            [*args, playlist_url], capture_output=True, text=True, encoding="utf-8", errors="replace"
+        )
+        if proc.returncode != 0:
+            raise RuntimeError(f"yt-dlp playlist listing failed: {proc.stderr[:500]}")
+        data = json.loads(proc.stdout)
+        videos = []
+        for entry in data.get("entries", []):
+            video_id = entry.get("id", "")
+            if VIDEO_ID_RE.match(video_id):
+                videos.append({
+                    "video_id": video_id,
+                    "title": entry.get("title", video_id),
+                    "channel": entry.get("channel") or entry.get("uploader") or "playlist",
+                })
+        return videos
+
     def _video_upload_timestamp(self, video_id: str) -> int:
         """Epoch upload timestamp for ordering/filtering candidates pulled from multiple
         tabs (flat-playlist entries don't carry a usable date). 0 if the lookup fails —
@@ -264,6 +286,9 @@ class ChannelFetcher:
         don't carry a usable date, so ordering (and, in date-range mode, filtering)
         relies on a real per-video upload timestamp lookup.
         """
+        if "list=" in channel_url or "/playlist" in channel_url:
+            return self._list_playlist(channel_url, limit)
+
         date_after = _normalize_date(date_after)
         date_before = _normalize_date(date_before)
         ranged = bool(date_after or date_before)
@@ -406,6 +431,7 @@ class ChannelFetcher:
         transcript_languages: list[str] | None = None,
         date_after: str | None = None,
         date_before: str | None = None,
+        source_slug: str | None = None,
     ) -> dict[str, int]:
         manifest_path = Path(manifest_path)
         manifest: dict[str, str] = {}
@@ -417,7 +443,7 @@ class ChannelFetcher:
         with tempfile.TemporaryDirectory(prefix="channel_fetch_") as tmp:
             tmp_dir = Path(tmp)
             for video in videos:
-                channel_slug = slugify_channel(video["channel"])
+                channel_slug = source_slug or slugify_channel(video["channel"])
                 stem = f"{channel_slug}_{video['video_id']}"
                 data_dir = self.repo_root / "data" / channel_slug
                 fin_path = data_dir / f"{stem}_FIN.srt"
@@ -611,6 +637,7 @@ if __name__ == "__main__":
     fetch_p.add_argument("--date-after", default=None, help="Only videos uploaded on/after this date (YYYY-MM-DD)")
     fetch_p.add_argument("--date-before", default=None, help="Only videos uploaded on/before this date (YYYY-MM-DD)")
     fetch_p.add_argument("--manifest", default="audio_manifest.json", help="Path to the manifest JSON")
+    fetch_p.add_argument("--source-slug", default=None, help="Stable data/ and manifest slug for playlist sources")
     fetch_p.add_argument("--sync", action="store_true", help="Run whisper_issue_client.sync_manifest afterwards")
     fetch_p.add_argument(
         "--no-transcript", action="store_true",
@@ -645,6 +672,7 @@ if __name__ == "__main__":
             transcript_languages=args.transcript_languages.split(",") if args.transcript_languages else None,
             date_after=args.date_after,
             date_before=args.date_before,
+            source_slug=args.source_slug,
         )
         if args.sync:
             sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "skill-mlx-api-client-whisper" / "scripts"))

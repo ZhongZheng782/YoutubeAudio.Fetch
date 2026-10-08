@@ -239,12 +239,12 @@ def render_index(by_channel: dict[str, list[dict]], channel_descriptions: dict[s
             continue
         videos = by_channel[channel]
         display_name = videos[0]["channel_name"] or channel
-        lines.append(f"- [{display_name}](data/{channel}/)")
+        lines.append(f"- [{display_name}](data/{channel}/README.md)")
     lines.extend(["", "### Playlist", ""])
     for playlist in playlists:
         channel = playlist["channel_dir"]
         if channel in by_channel:
-            lines.append(f"- [{playlist['name']}](data/{channel}/)")
+            lines.append(f"- [{playlist['name']}](data/{channel}/README.md)")
     return "\n".join(lines).rstrip() + "\n"
 
 

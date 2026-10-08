@@ -10,17 +10,17 @@ whisper 轉錄 pipeline（`skill-mlx-api-server-whisper`），產出人工可校
 
 ### Daily
 
-- [AI 101](data/ai-note-101/)
-- [富邦證券](data/fubonsec/)
-- [Jim AI Notebook](data/jimainotebook/)
-- [Smart智富月刊](data/smartmonthly-bw/)
-- [財訊](data/wealth1974/)
-- [X的財經筆記](data/x/)
-- [游庭皓的財經皓角](data/yutinghaofinance/)
+- [AI 101](data/ai-note-101/README.md)
+- [富邦證券](data/fubonsec/README.md)
+- [Jim AI Notebook](data/jimainotebook/README.md)
+- [Smart智富月刊](data/smartmonthly-bw/README.md)
+- [財訊](data/wealth1974/README.md)
+- [X的財經筆記](data/x/README.md)
+- [游庭皓的財經皓角](data/yutinghaofinance/README.md)
 
 ### Playlist
 
-- [Youtube.Fetch](data/themarketmemo/)
+- [Youtube.Fetch](data/themarketmemo/README.md)
 
 ## 目錄慣例
 ```
@@ -67,8 +67,8 @@ data/{channel}/{channel}_{video_id}_FIN.srt  # pipeline 依 CER 挑選出的最�
 
 `.github/workflows/daily-channel-fetch.yml` 每天自動：
 
-1. 對 `channels.json` 裡列的每個頻道跑 `channel_fetch.py fetch <url> --limit 5 --sync`，
-   抓新影片、寫逐字稿/manifest、觸發 whisper
+1. 對 `channels.json` 裡列的每個 Daily 頻道跑 `channel_fetch.py fetch <url> --limit 5 --sync`，
+   並掃描 `playlists.json` 裡的公開 Playlist，抓新影片、寫逐字稿/manifest、觸發 whisper
 2. 對每個「有 `FIN.srt`（沒有的話退而求其次用 `GT.srt`）但還沒有 `_keyframes.md`」的
    stem 跑 `skill-youtube-channel-srt-keyframe-extract`，補齊關鍵畫面擷取（每支重試一次；
    YouTube 端偶發限流導致某支失敗不會擋住其他支，會留到隔天的排程自動重試，因為判斷條件

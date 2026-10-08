@@ -3,6 +3,7 @@
     "name": "Youtube.Fetch",
     "url": "https://www.youtube.com/playlist?list=PLSo-zkDeyJdw",
     "channel_dir": "themarketmemo",
+    "fetch_limit": 100,
     "videos": [
       {
         "video_id": "tNzUUET5opY",
