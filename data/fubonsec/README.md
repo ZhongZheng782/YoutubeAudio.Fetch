@@ -27,14 +27,17 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [AI高檔震盪怎麼看？市場變數與關鍵觀察指標｜程正樺專訪 EP3](fubonsec_aalD8SBHx-w_keyframes.md) | 2026-10-07 |
 | [AI需求是假象還是真成長？艦長拆解算力與半導體商機｜程正樺專訪 EP2](fubonsec_4B9WiNsGNyo_keyframes.md) | 2026-10-02 |
 | [半導體股估值怎麼看？從獲利成長到AI供應鏈輪動｜國泰投信李翰林 專訪](fubonsec_plZIvZ5US7E_keyframes.md) | 2026-09-30 |
 | [退休規劃何時開始才不嫌晚？政大教授分享退休前15年的準備關鍵｜陳嬿如專訪 EP11](fubonsec_hj19DKuHxbQ_keyframes.md) | 2026-09-23 |
 | [退休不能只靠勞保！新退休帳戶TISA到底是什麼？｜張森林專訪 EP3](fubonsec_pNLBxERvHUY_keyframes.md) | 2026-09-18 |
 | [收入變高卻存不到錢？36到50歲最重要的資產配置課｜陳嬿如專訪 EP10](fubonsec_MXcBsRl3cbQ_keyframes.md) | 2026-09-16 |
 | [台股五萬點的繁花：從債券轉折到AI多頭的關鍵路徑｜富邦投顧 陳奕光 董事長《富邦說趨勢》 EP 95](fubonsec_TxT3-rZkQNs_keyframes.md) | 2026-09-12 |
+| [退休金要準備多少才夠？台大教授教你用4%法則算出退休缺口｜張森林專訪 EP2](fubonsec_BFZr4JV04LU_keyframes.md) | 2026-09-11 |
 | [找不到方向比沒錢更可怕？年輕人累積財富前最該做的事｜陳嬿如專訪 EP9](fubonsec_CjDnERMo6Yk_keyframes.md) | 2026-09-09 |
 | [財金教授也認錯！50歲後放棄選股改用ETF資產配置｜張森林專訪 EP1](fubonsec_1ENAGYabp4s_keyframes.md) | 2026-09-04 |
+| [股市過熱怎麼看？三大關鍵指標一次掌握｜富邦投顧 陶治瑋 副總 王啓東 襄理《富邦說趨勢》 EP 94](fubonsec_C4vebTs7UiI_keyframes.md) | 2026-09-02 |
 | [繼承到股票就能全部賣掉？存股族一定要懂的信託安排｜蘇家宏專訪 EP3](fubonsec_324i3yZuBLo_keyframes.md) | 2026-08-28 |
 | [AI會取代你的工作嗎？數位轉型專家揭4大關鍵能力｜《今天不聊股票》詹文男專訪](fubonsec_cdsJ6wyuULM_keyframes.md) | 2026-08-26 |
 | [股票存到3000萬就該規劃？遺囑、贈與、信託差異一次看懂｜蘇家宏專訪 EP2](fubonsec_EIOQDXWEZbU_keyframes.md) | 2026-08-21 |

@@ -961,6 +961,157 @@
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_efK_fHAyWvU.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
+      <title>「日本企業內部跑的 AI，幾乎都是中國的 Qwen」日本國立情報學研究所教授在日本記者俱樂部潑冷水 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_xTu3WQdTdr4</guid>
+      <pubDate>Thu, 08 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=xTu3WQdTdr4</link>
+      <description>「日本企業內部跑的 AI，幾乎都是中國的 Qwen」日本國立情報學研究所教授在日本記者俱樂部潑冷水 【AI 大人說】</description>
+      <content:encoded><![CDATA[<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=0">[00:00]</a> 日本企業在公司裡自己跑的生成式 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=3">[00:03]</a> 用的幾乎都是中國的模型</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=5">[00:05]</a> 今年 9 月</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=6">[00:06]</a> 在各大報社和電視台合組的日本記者俱樂部</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=9">[00:09]</a> 一位教授這樣說</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=10">[00:10]</a> 他叫佐藤一郎</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=12">[00:12]</a> 是日本國立情報學研究所的教授</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=15">[00:15]</a> 這是文部科學省底下的國家研究所</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=18">[00:18]</a> 有點像台灣中研院的資訊所</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=20">[00:20]</a> 日本大學共用的學術網路</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=22">[00:22]</a> 論文資料庫都歸它管</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=23">[00:23]</a> 日本的開源大型語言模型 LLM-jp 也是它做的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=28">[00:28]</a> 他本人的專長是讓 AI 跑起來的系統軟體</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=30">[00:30]</a> 也替日本數位廳審政策和預算</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=34">[00:34]</a> 在公司內部跑生成式 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=37">[00:37]</a> 自己營運的例子也變多了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=40">[00:40]</a> 因為很多企業非常在意資料外洩</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=45">[00:45]</a> 尤其是在日本</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=47">[00:47]</a> 企業會在內部跑</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=54">[00:54]</a> 中小型的生成式 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=56">[00:56]</a> 這時候用的模型</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=61">[01:01]</a> 幾乎都是中國製的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=63">[01:03]</a> 最多的是叫做 Qwen 的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=66">[01:06]</a> 阿里巴巴做的模型</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=70">[01:10]</a> Qwen 是開源模型，在公司內跑</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=73">[01:13]</a> 資料不會送出去</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=75">[01:15]</a> 問答時間，主持人就從這一點切入</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=77">[01:17]</a> 先提了一件事</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=78">[01:18]</a> 今年 6 月</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=79">[01:19]</a> Anthropic 的 Fable 5 才上線 3 天</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=81">[01:21]</a> 就因為美國商務部的指令全面停用</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=84">[01:24]</a> 停了快 3 個禮拜</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=85">[01:25]</a> 他問，這樣看來</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=86">[01:26]</a> 一般國家和企業是不是用開放模型比較保險</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=90">[01:30]</a> 先講開放還是封閉</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=93">[01:33]</a> 就像您剛剛說的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=95">[01:35]</a> 考慮到可能突然被斷供</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=98">[01:38]</a> 封閉模型確實比較危險</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=102">[01:42]</a> 封閉模型還有另一面</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=107">[01:47]</a> 在 Fable 之前，Mythos 那場風波</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=111">[01:51]</a> 大家應該還記得</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=113">[01:53]</a> Mythos 是跑在 Anthropic 內部的 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=121">[02:01]</a> 要用 Mythos 找出軟體的漏洞</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=126">[02:06]</a> 也就是容易被駭的地方</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=128">[02:08]</a> 大家覺得非這樣做不可</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=131">[02:11]</a> 日本政府帶頭，鬧得很大</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=135">[02:15]</a> 可是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=135">[02:15]</a> 封閉模型的另一個問題是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=140">[02:20]</a> 像 Mythos，要用它</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=143">[02:23]</a> 就得把軟體交給 Anthropic</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=152">[02:32]</a> 比如說銀行、電力公司</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=155">[02:35]</a> 公司內部跑的軟體</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=156">[02:36]</a> 就算有漏洞</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=159">[02:39]</a> 駭客也只能隔著網路攻擊</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=166">[02:46]</a> 可是為了讓 AI 檢查漏洞</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=169">[02:49]</a> 把整套軟體交出去、餵進去</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=175">[02:55]</a> 收到的那一方就能仔細翻遍</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=178">[02:58]</a> 這當然是好處</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=183">[03:03]</a> 平常隔著網路攻擊</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=186">[03:06]</a> 找不到的漏洞</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=190">[03:10]</a> 它都找得到</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=192">[03:12]</a> 我想說的是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=195">[03:15]</a> 如果你信得過 Anthropic 這家公司</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=198">[03:18]</a> 那也許沒問題</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=200">[03:20]</a> 可是 Anthropic 為了檢查漏洞</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=205">[03:25]</a> 拿到手的軟體，裡面的漏洞</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=208">[03:28]</a> 沒人能保證它會全部告訴你</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=212">[03:32]</a> 這樣想下去</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=215">[03:35]</a> Mythos 那場風波</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=219">[03:39]</a> 在我們做技術的人看來</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=222">[03:42]</a> IT 落後的日本</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=228">[03:48]</a> 在 IT 上被說成是殖民地</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=232">[03:52]</a> 身為殖民地的日本，難道要向宗主國</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=236">[03:56]</a> 交出人質嗎？我們是這樣講的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=241">[04:01]</a> 所以乍看是好事</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=244">[04:04]</a> 其實很危險</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=245">[04:05]</a> 所以該做的是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=249">[04:09]</a> 套裝軟體</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=251">[04:11]</a> 或開源這種公開在外面的軟體</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=255">[04:15]</a> 本來就有風險</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=256">[04:16]</a> 拿 Mythos 這類工具查一查是好的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=260">[04:20]</a> 可是連沒公開的軟體都交出去查</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=265">[04:25]</a> 在做技術的人看來，根本不可能</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=267">[04:27]</a> 老實說，這是我的感覺</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=270">[04:30]</a> 所以從這個角度看，要是開放</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=272">[04:32]</a> Mythos 也一樣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=275">[04:35]</a> 假如 Mythos 是開放的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=277">[04:37]</a> 放在銀行、電力公司內部用，我覺得沒關係</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=281">[04:41]</a> 不是的話就很危險</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=283">[04:43]</a> 下一位記者問到主權 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=285">[04:45]</a> 法國的 Mistral 喊出要做不靠美國的 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=288">[04:48]</a> 他問日本做不做得到</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=290">[04:50]</a> 我們研究所其實也有在做語言生成 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=296">[04:56]</a> 做的規模還不小</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=297">[04:57]</a> 所以這話我不太好講</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=302">[05:02]</a> 但日本在做生成式 AI 這件事上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=308">[05:08]</a> 非常落後</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=311">[05:11]</a> 我就老實講</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=315">[05:15]</a> 收集網路上的文章</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=318">[05:18]</a> 訓練出模型，這一步是做到了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=322">[05:22]</a> 可是這種模型寫得出來的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=325">[05:25]</a> 只有說明文，網路上常見的那種</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=328">[05:28]</a> 像對話、摘要，它就做不出來</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=331">[05:31]</a> 那些要靠大量人力去做</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=335">[05:35]</a> 沒那麼簡單</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=337">[05:37]</a> 所以法國那邊怎麼樣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=343">[05:43]</a> 我不好說</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=345">[05:45]</a> 就日本來說</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=347">[05:47]</a> 只做得出功能很單一的生成式 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=351">[05:51]</a> 應該說，到現在都還做不出來</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=352">[05:52]</a> 以後大概也很難</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=357">[05:57]</a> 那日本該走的路</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=361">[06:01]</a> 不管是美國的還是中國的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=363">[06:03]</a> 哪一國的都可以</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=366">[06:06]</a> 在日本要用生成式 AI 的時候</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=372">[06:12]</a> 品質夠用的生成式 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=378">[06:18]</a> 在不會被斷供的前提下</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=382">[06:22]</a> 怎麼穩穩地拿到手，這才是重點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=386">[06:26]</a> 那要怎麼做？</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=391">[06:31]</a> 比如說，先訂一套 AI 品質標準</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=396">[06:36]</a> 市面上的 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=399">[06:39]</a> 一個個檢驗有沒有達標</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=405">[06:45]</a> 真的出事的時候，就能換成</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=410">[06:50]</a> 另一個同樣達標的 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=412">[06:52]</a> 要往這個方向走</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=415">[06:55]</a> 不然現實上是做不到的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=418">[06:58]</a> 佐藤一郎的意思是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=419">[06:59]</a> 日本自己做不出頂尖模型</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=421">[07:01]</a> 不管用中國的還是美國的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=423">[07:03]</a> 都可能被對方卡住</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=425">[07:05]</a> 所以他開的藥方，是訂一套品質標準</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=428">[07:08]</a> 哪一家出問題，就換另一家</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=431">[07:11]</a> 原影片將近兩個小時，他還講了兩件事</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=435">[07:15]</a> 一件是生成式 AI 的偏誤</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=437">[07:17]</a> 他說大家怕 AI 講錯</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=439">[07:19]</a> 其實更該怕它偏</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=440">[07:20]</a> 威權國家可以用 AI 把國民關進自己的資訊空間</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=443">[07:23]</a> 他形容這有點像巴別塔</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=445">[07:25]</a> 另一件是日本政府押寶的實體 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=447">[07:27]</a> 在他看來，喊要做的日本企業很多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=449">[07:29]</a> 真正自己動手做的幾乎沒有</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_xTu3WQdTdr4&amp;t=451">[07:31]</a> 原影片連結在說明欄，有興趣可以去聽更多。</p>]]></content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_xTu3WQdTdr4.m4a" type="audio/mp4" length="15132708"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_xTu3WQdTdr4.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
+    <item>
       <title>ChatGPT廣告上線、200美元額度砍半，Claude補貼壓力曝光【AI新聞快報 2026/10/08】</title>
       <guid isPermaLink="false">ai-note-101_WH9k3RIHbhM</guid>
       <pubDate>Wed, 07 Oct 2026 08:00:00 +0800</pubDate>
