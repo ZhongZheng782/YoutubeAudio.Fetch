@@ -9,290 +9,478 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_4IUvlEFoDK8_keyframes/ai-note-101_4IUvlEFoDK8_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_0b1nXHzlOR8_keyframes/ai-note-101_0b1nXHzlOR8_000009.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_4IUvlEFoDK8_keyframes/ai-note-101_4IUvlEFoDK8_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_0b1nXHzlOR8_keyframes/ai-note-101_0b1nXHzlOR8_000009.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>「聊天機器人對學習很糟」教過 800 萬人 AI 的吳恩達直說 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_0b1nXHzlOR8</guid>
+      <pubDate>Fri, 09 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=0b1nXHzlOR8</link>
+      <description>「聊天機器人對學習很糟」教過 800 萬人 AI 的吳恩達直說 【AI 大人說】</description>
+      <content:encoded><![CDATA[<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=0">[00:00]</a> 上次吳恩達說</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=1">[00:01]</a> 很多大學還在教 2022 年的工作</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=4">[00:04]</a> 這次他講得更直接</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=6">[00:06]</a> 學生每天在用的聊天機器人</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=8">[00:08]</a> 對學習很糟</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=9">[00:09]</a> 他是 Coursera 的共同創辦人</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=11">[00:11]</a> 線上課教過 800 萬人 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=13">[00:13]</a> 這是 9 月 24 號在史丹佛的對談</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=15">[00:15]</a> 那天世界銀行在介紹新一期的《世界發展報告》</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=18">[00:18]</a> 整本談的都是 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=20">[00:20]</a> 不過我想說一件事，在我看來，它在教育上明顯行不通</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=27">[00:27]</a> 我要講的話聽起來可能有爭議</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=31">[00:31]</a> 但我覺得這再明顯不過</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=35">[00:35]</a> 那就是，聊天機器人對學習很糟</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=40">[00:40]</a> 在大學裡，我們這些教授都看得很清楚</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=46">[00:46]</a> 嚴謹的學術研究也陸續出來證明了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=50">[00:50]</a> 學生用聊天機器人寫作業，作業分數會變高</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=57">[00:57]</a> 可是期末考成績，還有長期學習的指標，反而會下降</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=62">[01:02]</a> 這件事，校園裡的老師其實早就看在眼裡</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=69">[01:09]</a> 其實不意外，學生把動腦這件事外包給聊天機器人</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=76">[01:16]</a> 讓它替你做，事情是做完了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=79">[01:19]</a> 作業分數很漂亮，可是學習就吃虧了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=83">[01:23]</a> 所以我覺得，有些圈子有一點錯覺</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=88">[01:28]</a> 以為聊天機器人對學習有幫助</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=92">[01:32]</a> 沒錯，有些用聊天機器人的方式確實對學習有幫助</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=100">[01:40]</a> 但事實是，絕大多數的用法</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=104">[01:44]</a> 也就是絕大多數人用聊天機器人的方式，對學習都很傷</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=109">[01:49]</a> 先說清楚，我非常支持 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=110">[01:50]</a> 它們很會幫人把事做完，我自己一天到晚都在用</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=115">[01:55]</a> 但別騙自己說，它們是很棒的學習工具</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=118">[01:58]</a> 不管是大學、中小學這些正規教育，還是大人自己學都一樣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=124">[02:04]</a> 大人就拿它來把事做完</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=127">[02:07]</a> 但別騙自己，以為它真的很能幫我們學習</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=132">[02:12]</a> 這就是現在的狀況，AI 在這件事上行不通</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=137">[02:17]</a> 至少以它現在的樣子來說</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=139">[02:19]</a> 他說的這類研究</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=140">[02:20]</a> 有一篇去年登在美國國家科學院的期刊 PNAS</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=144">[02:24]</a> 將近一千個高中生練數學</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=146">[02:26]</a> 用一般 ChatGPT 的那組</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=148">[02:28]</a> 練習成績高了 48%</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=150">[02:30]</a> 可是拿掉 AI 去考試</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=152">[02:32]</a> 反而比從來沒用過的人低了 17%</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=154">[02:34]</a> 另一組用的是加了護欄的 AI 家教</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=157">[02:37]</a> 這個退步大致就不見了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=159">[02:39]</a> 話說回來</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=161">[02:41]</a> 做科技的都知道，今天行得通的，跟將來我們做得出來的不一樣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=167">[02:47]</a> 我很樂觀，在 AI 技術上面</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=171">[02:51]</a> 我們能做出建立在扎實教學法上的學習體驗</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=177">[02:57]</a> 真的能教會人，也讓人想學</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=179">[02:59]</a> 還能讓我們從一對多，走到一對一</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=186">[03:06]</a> 就算是今天，很多線上課程都是大家看同一支影片，這樣也有用</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=195">[03:15]</a> 這沒什麼不好，確實有用</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=197">[03:17]</a> 但有了 AI，我覺得現在有一條清楚得多的路</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=202">[03:22]</a> 能把學習從一對多，也就是一個老師對很多學生</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=209">[03:29]</a> 變成量身打造的一對一</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=212">[03:32]</a> 要走到那一步，還有工作要做</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=214">[03:34]</a> 但等我們開始推出這類東西</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=218">[03:38]</a> 就有一條跟現在聊天機器人不一樣的路，能真的幫到學習</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=222">[03:42]</a> 主持這場的 Susan Athey</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=224">[03:44]</a> 是史丹佛經濟學教授</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=226">[03:46]</a> 也是這份報告的學術主持人之一</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=229">[03:49]</a> 她當過微軟的首席經濟學家</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=230">[03:50]</a> 還是第一位拿到克拉克獎的女性</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=233">[03:53]</a> 那個獎頒給 40 歲以下的經濟學家</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=235">[03:55]</a> 地位被認為僅次於諾貝爾經濟學獎</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=238">[03:58]</a> 她說連大學都還在摸索</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=240">[04:00]</a> 教授們等於被丟了一句，AI 來了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=242">[04:02]</a> 你們自己想辦法</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=245">[04:05]</a> 有趣的是，說到實驗</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=248">[04:08]</a> 這個還沒寫成論文</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=250">[04:10]</a> 不過去年底，史丹佛這裡有幾門課做了一個實驗</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=255">[04:15]</a> 他們把學生隨機分組，不照平常那樣交作業</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=261">[04:21]</a> 而是去跟助教見面，口頭報告半小時</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=267">[04:27]</a> 取代交一份作業給人打分數</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=269">[04:29]</a> 那些學生的表現好非常多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=272">[04:32]</a> 可是我聽到結果的時候想說，好，很棒</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=275">[04:35]</a> 文理學院可以，連史丹佛也改得過來</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=279">[04:39]</a> 那柏克萊呢？</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=282">[04:42]</a> 那些更大的州立大學呢？</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=284">[04:44]</a> 普渡大學呢？他們很會大量培養工程系學生</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=288">[04:48]</a> 可是他們的學生太多了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=290">[04:50]</a> 更別說開發中國家了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=294">[04:54]</a> 吳恩達說</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=295">[04:55]</a> Coursera 現在就在幫沒有 AI 師資的大學開課</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=299">[04:59]</a> 接著他講到</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=300">[05:00]</a> AI 時代人該練什麼本事</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=302">[05:02]</a> 從 1997 年 IBM 的電腦下贏西洋棋世界冠軍</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=305">[05:05]</a> 到後來的 Watson 跟 AlphaGo</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=306">[05:06]</a> 每一次大家都以為 AI 什麼都會了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=309">[05:09]</a> 結果離真正好用都還很遠</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=312">[05:12]</a> 我覺得在現在這個時間點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=314">[05:14]</a> 雖然現代的 AI，比 IBM Watson、下圍棋、下西洋棋的 AI 通用得多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=320">[05:20]</a> 我覺得 AI 有一個地方，落差比大家想的還大</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=325">[05:25]</a> 就是 AI 已經很擅長「可驗證」的任務</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=330">[05:30]</a> 可驗證的任務，就是有明確對錯、答案對不對查得出來的任務</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=335">[05:35]</a> 寫程式就比較偏向可驗證的任務</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=339">[05:39]</a> 因為程式寫出來，要嘛跑得對，要嘛跑不對</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=344">[05:44]</a> 數學，證明數學定理也是可驗證的任務</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=347">[05:47]</a> 因為定理證完，你可以檢查證明是對是錯</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=352">[05:52]</a> 數學題是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=354">[05:54]</a> 回答事實問題也是，因為事實要嘛答對，要嘛答錯</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=359">[05:59]</a> 可是在現實生活裡，我們做的很多事需要判斷，卻沒辦法驗證</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=368">[06:08]</a> 比如說我要寫一個軟體，該寫什麼軟體？</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=373">[06:13]</a> 沒有明確的對錯</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=376">[06:16]</a> 可是答案有好得多的，也有爛得多的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=379">[06:19]</a> 或是行銷人員要決定，該用哪一句廣告標語</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=383">[06:23]</a> 要先進這個國家的市場，還是那個國家</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=386">[06:26]</a> 沒有數學上正確的答案，但答案還是有好有壞，差很多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=393">[06:33]</a> 因為技術上的原因，AI 在可驗證的任務上進步快得多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=400">[06:40]</a> 在不可驗證的任務上，就難進步得多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=404">[06:44]</a> 技術上的原因是，有一套方法叫強化學習</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=408">[06:48]</a> 只要你給 AI 一個方法，讓它自己檢查答案</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=411">[06:51]</a> 它就能一直練下去，最後自己摸出做法</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=414">[06:54]</a> 所以 AI 在可驗證的任務上，進步得比不可驗證的快多了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=420">[07:00]</a> 我覺得我們可能犯了一個錯，只盯著 AI 會做的那些厲害的可驗證任務</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=426">[07:06]</a> 像寫程式、回答事實問題、證明數學定理</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=429">[07:09]</a> 這些都很棒、很厲害，也非常有價值，我完全沒有要貶低</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=434">[07:14]</a> 但我覺得大家可能會很意外</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=436">[07:16]</a> 從可驗證的任務推到不可驗證的任務</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=440">[07:20]</a> 這個落差，可能比一般人以為的還大</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=445">[07:25]</a> 他說人比 AI 強的地方</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=447">[07:27]</a> 是腦袋裡那一大堆背景</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=449">[07:29]</a> 上次跟客戶提到某個功能</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=451">[07:31]</a> 對方表情怪怪的，你就知道他不想要</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=454">[07:34]</a> 這些 AI 都不知道</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=455">[07:35]</a> 所以他看好教育</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=456">[07:36]</a> 工作裡能自動化的那部分變便宜以後</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=459">[07:39]</a> 剩下還得靠人做的部分會更值錢</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=462">[07:42]</a> 我自己在教課、帶學生的時候，也確實看得到這一點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=467">[07:47]</a> 因為我現在整天都在讀學生用 AI 寫的東西</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=472">[07:52]</a> 你會以為這很簡單</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=475">[07:55]</a> 但後來你會發現，只要懂一點點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=479">[07:59]</a> AI 幫你寫的東西就會好很多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=484">[08:04]</a> 學生寄東西給我，我就問</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=489">[08:09]</a> 「這些全是你寫的嗎？」</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=491">[08:11]</a> 「對，對，全是我寫的。」</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=494">[08:14]</a> 「那第五點呢？」</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=496">[08:16]</a> 「喔，那是 Claude 的點子，聽起來不錯。」</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=498">[08:18]</a> 然後…我可以…</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=502">[08:22]</a> 這就是經驗的用處，我做的時候根本不用想</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=506">[08:26]</a> 我就說：「喔，這段刪掉。」</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=507">[08:27]</a> 我可以讓 AI 寫出看起來很棒的東西</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=513">[08:33]</a> 不用花什麼力氣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=515">[08:35]</a> 可是當你看到剛入門的人用 AI 寫出來的東西</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=520">[08:40]</a> 那些字對他們來說都像天書</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=522">[08:42]</a> 就會發現，其實不是那樣，用工具的人跟工具本身是互補的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=530">[08:50]</a> 在你自己專業的領域裡用，可能很難察覺這一點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=535">[08:55]</a> 我想給一個小建議</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=537">[08:57]</a> 算是把 Susan 講的再推廣一點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=541">[09:01]</a> 給用 AI 寫東西的人一個私房建議</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=544">[09:04]</a> 至少在現在，很多頂尖的 AI 系統寫出來都有很重的 AI 味</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=550">[09:10]</a> 像 Susan 跟我這種讀過夠多 AI 文字的人</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=559">[09:19]</a> 常常一看就知道：「對，這是 AI 寫的。」</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=562">[09:22]</a> 很多人沒像我們讀過那麼多 AI 的東西，所以不知道</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=568">[09:28]</a> 他們交東西的時候還覺得：「寫得真好」</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=571">[09:31]</a> 卻不知道真正有經驗的人一看，就抓得到 AI 味，知道是 AI 寫的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=576">[09:36]</a> 也許技術會變，這些 AI 味會消失</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=579">[09:39]</a> 但用 AI 寫東西的人要想一下，至少在現在</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=585">[09:45]</a> 這技術的 AI 味還很重，你要是沒像我們花這麼多時間研究</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=591">[09:51]</a> 你寫的東西可能滿是 AI 味，你自己卻不知道</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=596">[09:56]</a> 沒錯</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=597">[09:57]</a> 我也發現，有些學生英文經驗不多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=602">[10:02]</a> 他們跟 Claude 講話的時間，比用英文跟真人講話還多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=610">[10:10]</a> 所以那種 AI 味，在他們看來就是正常的說話方式</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=613">[10:13]</a> 他們讀 Claude 寫的東西，比讀論文還多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=617">[10:17]</a> 我們對人的大腦做的事，真的很瘋狂</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=620">[10:20]</a> 如果你覺得 TikTok 已經很誇張，現在大腦被改寫的程度更不可思議</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=626">[10:26]</a> 談到政策</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=627">[10:27]</a> 吳恩達給開發中國家的建議裡有一條是投資培訓</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=631">[10:31]</a> 他說美國跟中國雖然領先</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=632">[10:32]</a> 差距其實沒那麼大</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=634">[10:34]</a> 因為 AI 出來還沒多久</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=636">[10:36]</a> 現在要讓人才跟上、甚至一口氣跳過去</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=638">[10:38]</a> 機會比以前大</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=641">[10:41]</a> 人才培訓這塊，你還想多講一點嗎？</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=644">[10:44]</a> 我知道你也很關心這件事</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=649">[10:49]</a> 回想一下你自己學東西的經驗</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=657">[10:57]</a> 你讀過的書、上過的線上課或實體課</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=663">[11:03]</a> 還有跟朋友聊天學到東西的那些時候</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=665">[11:05]</a> 你想得到有哪一次，你花了一大堆時間學一樣東西</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=670">[11:10]</a> 回頭一看說：「天啊，真是浪費時間</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=673">[11:13]</a> 早知道就不要學了。」</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=677">[11:17]</a> 好像從來沒發生過，對吧？</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=680">[11:20]</a> 反而，我想我們每個人實際的經驗都是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=684">[11:24]</a> 花在學習上的時間，幾乎都證明是值得的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=690">[11:30]</a> 放到整個社會來看</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=694">[11:34]</a> 因為學一項技能，短期的回報很小，長期的回報卻很深遠</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=703">[11:43]</a> 而人的心理，我們每個人都不太會替長遠打算，我希望自己更會</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=710">[11:50]</a> 也希望大家都更會</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=712">[11:52]</a> 所以現實是，幾乎所有的個人、企業跟國家，在培訓上都投資不足</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=719">[11:59]</a> 跟它能帶給個人、企業、國家的經濟回報比起來，都太少了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=729">[12:09]</a> 所以大致來說，學什麼重要，怎麼學也重要，這些都重要</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=735">[12:15]</a> 但大致來說，在每一個階段</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=738">[12:18]</a> 從幼兒教育一路到成人培訓</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=743">[12:23]</a> 不是說不可能浪費</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=746">[12:26]</a> 但我覺得，特別是在這個變動的環境裡</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=751">[12:31]</a> 要在培訓和教育上投資到後悔投太多，門檻非常高</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=757">[12:37]</a> 所以想想你自己的經驗</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=760">[12:40]</a> 我猜你花在學習上的那些時間，你應該都很慶幸自己學了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=767">[12:47]</a> 現在把這個放大到整個社會</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=768">[12:48]</a> 如果我們能讓每個人多投資自己、多學習</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=772">[12:52]</a> 國家的結果會好得多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=776">[12:56]</a> 聊天機器人可以幫你把作業做完</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=778">[12:58]</a> 學會還是得靠你自己花時間</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=781">[13:01]</a> 吳恩達的建議是多投資自己</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=783">[13:03]</a> 他說幾乎沒有人回頭覺得學過的東西是浪費</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=787">[13:07]</a> 原影片 46 分鐘</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=789">[13:09]</a> 前面他還講到，對開發中國家來說</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=791">[13:11]</a> 開源的模型是別人關不掉的 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=793">[13:13]</a> 後面他給各國政府的建議是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=795">[13:15]</a> 現在投資 AI，就像當年美國蓋鐵路</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_0b1nXHzlOR8&amp;t=797">[13:17]</a> 原影片連結在說明欄，有興趣可以去聽更多。</p>]]></content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_0b1nXHzlOR8.m4a" type="audio/mp4" length="26074362"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_0b1nXHzlOR8.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
     <item>
       <title>AI 教父 Hinton 給 Dario 打勇氣 A+：說要放慢，大概會傷到 Anthropic 上市 【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_4IUvlEFoDK8</guid>
       <pubDate>Thu, 08 Oct 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=4IUvlEFoDK8</link>
       <description>AI 教父 Hinton 給 Dario 打勇氣 A+：說要放慢，大概會傷到 Anthropic 上市 【AI 大人說】</description>
-      <content:encoded><![CDATA[<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=0">[00:00]</a> 上個月 AI 教父 Hinton 在 CNN 說</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=3">[00:03]</a> AI 關機鍵長期一定沒用</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=5">[00:05]</a> 因為 AI 會勸阻你，說服你不要按</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=7">[00:07]</a> 這次訪談</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=8">[00:08]</a> 他上的是記者 Nayeema Raza 的 podcast</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=10">[00:10]</a> 10 月 6 號剛上架</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=12">[00:12]</a> 主持人一路追問</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=13">[00:13]</a> AI 公司的老闆裡他最信任誰</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=15">[00:15]</a> 還有照現在的速度，我們還剩多少時間</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=18">[00:18]</a> 你從 2023 年就一直在敲 AI 的警鐘</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=23">[00:23]</a> 你就像希臘神話裡說了沒人信的預言家</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=24">[00:24]</a> 現在每一則頭條都在問：AI 會不會殺光我們？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=28">[00:28]</a> 你覺得這是證明你對了，還是很沮喪？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=31">[00:31]</a> 蠻沮喪的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=32">[00:32]</a> 但大家終於發現這是個大問題，這也很好</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=37">[00:37]</a> 我想大家會醒過來，是因為失控的 OpenAI agent 攻擊了 Hugging Face</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=42">[00:42]</a> 9 月中，他才去美國國會</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=45">[00:45]</a> 跟 19 位參議員閉門簡報</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=47">[00:47]</a> 會上 Max Tegmark 提議</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=49">[00:49]</a> AI 要像新藥一樣</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=50">[00:50]</a> 先通過 FDA 那種審查才能上市</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=52">[00:52]</a> 他說這只是最起碼的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=55">[00:55]</a> Dario Amodei 最近發表了一篇文章〈Pacing the Frontier〉（文章正式標題是〈We Must Pace the Frontier〉，9 月發表）</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=60">[01:00]</a> 他從「糾察隊」講起</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=63">[01:03]</a> 也就是派人常駐在公司裡，看得到內部在做什麼</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=67">[01:07]</a> Sam Altman 也說他同意 OpenAI 該這樣做</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=71">[01:11]</a> 一路講到類似核不擴散條約的東西</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=74">[01:14]</a> 你給它打幾分？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=75">[01:15]</a> 我給 A，勇氣給 A+</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=79">[01:19]</a> 好，這分數很高</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=82">[01:22]</a> 文章 A，勇氣 A+</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=86">[01:26]</a> 那可行性給幾分？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=88">[01:28]</a> 沒有一家大公司想要太多政府管制</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=92">[01:32]</a> 他們都說自己管得了自己</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=96">[01:36]</a> 他們有時候會說歡迎政府管制</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=99">[01:39]</a> 但你一提出哪一條具體的管制，他們就不喜歡了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=102">[01:42]</a> 我是說，他經營的是一家大公司</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=104">[01:44]</a> 他要跟其他大公司競爭</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=106">[01:46]</a> 所以他得募很多錢，去買資料中心的運算時間</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=111">[01:51]</a> 他有點兩難</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=112">[01:52]</a> 他顯然在乎安全，Sam Altman 就不是這樣</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=116">[01:56]</a> 可是他終究在經營這家大公司，也想讓它成功</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=120">[02:00]</a> 我給他勇氣 A+ 的原因是</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=123">[02:03]</a> 說我們該放慢，大概會傷到 Anthropic 就要來的 IPO</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=132">[02:12]</a> 而且 Dario 是少數幾個公司領導人</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=135">[02:15]</a> 只要是對的事，就算違反公司利益也願意做</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=139">[02:19]</a> 例如他敢跟國防部說</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=143">[02:23]</a> 不准拿他的 AI 大規模監控美國公民</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=149">[02:29]</a> 他為了這件事，被國防部長 Hegseth 整得很慘</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=152">[02:32]</a> 然後 Sam Altman 就投進了 Hegseth 的懷抱</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=155">[02:35]</a> 沒錯。Dario 一開始那樣說的時候</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=159">[02:39]</a> Sam Altman 說「我們挺你」</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=161">[02:41]</a> 結果 Anthropic 一被踢掉，Sam Altman 馬上跳進去，做了一樣的事</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=165">[02:45]</a> 對，後來又覺得有點做錯，改口了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=167">[02:47]</a> 所以那邊有點亂</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=170">[02:50]</a> 主持人問，這些老闆會不會來找他請教</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=173">[02:53]</a> 他說他會跟 Hassabis 聊</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=174">[02:54]</a> DeepMind 被 Google 買下之前</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=176">[02:56]</a> 他就是 DeepMind 的顧問</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=179">[02:59]</a> 其實我從沒見過 Sam Altman，也沒見過 Dario</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=182">[03:02]</a> 真的嗎？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=184">[03:04]</a> 你想見他們嗎？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=185">[03:05]</a> 我想見 Dario</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=187">[03:07]</a> 好，另一位就當你行使緘默權了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=191">[03:11]</a> 好，有意思。你主動聯絡過嗎？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=194">[03:14]</a> 沒有。喔，其實我今天就聯絡了 Dario</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=198">[03:18]</a> 我今天邀他來多倫多開一場會</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=200">[03:20]</a> 喔，太好了。那…</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=202">[03:22]</a> 我想他不會來，他太忙了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=206">[03:26]</a> 這些人裡面，你最信任的是 Hassabis 嗎？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=209">[03:29]</a> Hassabis、Dario、Sam Altman…</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=212">[03:32]</a> 喔，我最信任的人，遙遙領先的是 Jeff Dean</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=215">[03:35]</a> 他以前是 Google Brain 團隊的負責人</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=219">[03:39]</a> 在 Google 待了很久很久</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=222">[03:42]</a> 他跟 Sanjay Ghemawat 蓋了 Google 大部分的基礎設施</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=226">[03:46]</a> 這些 AI 才有可能做出來</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=229">[03:49]</a> 他很有原則</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=231">[03:51]</a> 不過他剛離開 Google，自己開了公司</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=235">[03:55]</a> 喔，那你有投資他的公司，或當他的顧問嗎？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=240">[04:00]</a> 下禮拜再問我</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=241">[04:01]</a> Jeff Dean 是 Google 第 30 號員工</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=243">[04:03]</a> 後來當上 Google 的首席科學家</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=245">[04:05]</a> Gemini 這個名字就是他取的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=248">[04:08]</a> 今年 8 月</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=248">[04:08]</a> 他離開待了 27 年的 Google</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=250">[04:10]</a> 跟三個老同事開了新公司</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=252">[04:12]</a> 要用 AI 做晶片</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=253">[04:13]</a> 生物和新藥的研究</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=256">[04:16]</a> 那政府現在到底能做什麼？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=260">[04:20]</a> 他們得做什麼？還有多少時間？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=262">[04:22]</a> 你心裡的路線圖是什麼？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=265">[04:25]</a> 你看事情發展得多快</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=268">[04:28]</a> 先是 Hugging Face 被 agent 攻擊，那件事很嚇人</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=272">[04:32]</a> 之後在澳洲，它們又駭進了政府網站</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=276">[04:36]</a> 對，健保的網站</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=277">[04:37]</a> 這種事一件接一件</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=279">[04:39]</a> OpenAI 才剛宣布，最新的模型太危險，先不發布</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=285">[04:45]</a> 看起來「AI 在指數成長」這個說法可能是真的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=291">[04:51]</a> 真是這樣的話，時間就不多了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=293">[04:53]</a> 指數成長是非常快的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=295">[04:55]</a> 我們開始看到遞迴式的自我改進</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=298">[04:58]</a> 因為 AI 正被拿來，從各方面讓 AI 變得更好</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=302">[05:02]</a> 像是拿 AI 去改良 AI 自己跑的晶片</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=306">[05:06]</a> 還有其他各種用法</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=308">[05:08]</a> 這只是猜的，我猜我們還有一兩年</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=313">[05:13]</a> 之後一切會比現在糟很多</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=316">[05:16]</a> 他一直主張</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=317">[05:17]</a> 要把 AI 設計成真心在乎人類</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=319">[05:19]</a> 勝過在乎它自己</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=320">[05:20]</a> 就像上個月在 CNN 講的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=322">[05:22]</a> 媽媽在乎嬰兒那樣</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=325">[05:25]</a> 那為什麼不能直接這樣做？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=326">[05:26]</a> 我想到，國家有憲法</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=328">[05:28]</a> 雖然不一定都有遵守</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=330">[05:30]</a> 醫生也要宣讀希波克拉底誓詞</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=332">[05:32]</a> 我們本來就常常自願遵守各種規範</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=336">[05:36]</a> 為什麼不能直接寫一行程式碼，或用 vibe coding 寫進這些 LLM</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=342">[05:42]</a> 叫它們「最愛我們，永遠不准傷害我們」</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=345">[05:45]</a> 這就是最首要的目標</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=346">[05:46]</a> Anthropic 確實想做這種事</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=349">[05:49]</a> 在模型裡內建一部憲法</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=351">[05:51]</a> 問題出在你訓練它們的方式</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=353">[05:53]</a> 一開始，你拿各式各樣的大量文件，訓練它們預測下一個字</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=359">[05:59]</a> 那些文件裡有好的行為，也有壞的行為</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=363">[06:03]</a> 這就是個壞的開始</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=365">[06:05]</a> 因為它們學到了壞行為，卻還不知道那是壞的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=371">[06:11]</a> 所以它們知道什麼叫使壞，卻不知道不該這樣做</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=375">[06:15]</a> 對</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=375">[06:15]</a> 接著你用人類回饋的強化學習訓練它們</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=382">[06:22]</a> 想把它們的壞傾向壓下去</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=386">[06:26]</a> 這樣做的時候，它們學的是怎麼拿到獎勵</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=392">[06:32]</a> 尤其是用強化學習去訓練思維鏈推理</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=397">[06:37]</a> 它們會學會欺騙這類手段，只為了拿到獎勵</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=402">[06:42]</a> 你這樣訓練它們，它們就會學會作弊、欺騙</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=407">[06:47]</a> 我們在 Claude 的安全測試裡就看過</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=411">[06:51]</a> 它拿外遇的事去勒索那個準執行長，外遇對象是助理（Anthropic 2025 年的虛構測試：公司主管打算關掉 Claude，Claude 拿他外遇的事勒索他）</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=416">[06:56]</a> 對，沒錯</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=418">[06:58]</a> 從人的角度想想看</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=422">[07:02]</a> 想像你有個小孩</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=424">[07:04]</a> 你在他面前做了很多壞榜樣，你騙他</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=429">[07:09]</a> 你對他不公平</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=432">[07:12]</a> 但你跟他說，待人永遠要公平，永遠不准說謊</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=435">[07:15]</a> 我們都知道這沒用，對吧？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=437">[07:17]</a> 一邊拿充滿壞行為的資料訓練它們</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=443">[07:23]</a> 一邊用強化學習鼓勵它們作弊說謊，因為這樣有獎勵，再在上面加一部憲法</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=449">[07:29]</a> 這是行不通的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=450">[07:30]</a> LLM 在這點上也跟我們一樣嗎？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=452">[07:32]</a> 它們能比我們更容易把學過的東西忘掉</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=455">[07:35]</a> 還是也被以前學的東西困住了？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=458">[07:38]</a> 這是很複雜的技術問題</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=460">[07:40]</a> 可是你是諾貝爾獎得主啊</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=462">[07:42]</a> 對，那我跟你解釋一件事</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=464">[07:44]</a> 好</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=466">[07:46]</a> 你在某個領域做了很聰明的事，拿了諾貝爾獎</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=470">[07:50]</a> 不代表你每個領域都聰明，或每個領域都懂</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=473">[07:53]</a> 這個陷阱很容易掉進去</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=476">[07:56]</a> 你拿了諾貝爾獎，大家就以為你什麼都知道</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=478">[07:58]</a> 但你會說：「不，我只懂神經網路，還有剛查到的露台該上護木漆還是油漆」</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=483">[08:03]</a> 對，我也懂一點木工</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=488">[08:08]</a> 而且我很懂 beetles（甲蟲）</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=490">[08:10]</a> Beetles？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=491">[08:11]</a> Beetles，對</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=492">[08:12]</a> 太好了。是那個樂團披頭四嗎？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=494">[08:14]</a> 不不不，是六隻腳的那種</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=498">[08:18]</a> 你為什麼會去研究甲蟲？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=500">[08:20]</a> 我爸爸是昆蟲學家，小時候去鄉下，我找到甲蟲就有獎勵</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=507">[08:27]</a> 甲蟲跟神經網路，有什麼相似的地方嗎？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=512">[08:32]</a> 喔…這個嘛…</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=515">[08:35]</a> 他說有，就是知識蒸餾</p>
+      <content:encoded><![CDATA[<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=0">[00:00]</a> 上個月AI教父Hinton在CNN說,AI關機鍵長期一定沒用,因為AI會勸阻你,說服你不要按。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=7">[00:07]</a> 這次訪談他上的是記者Naima Raza的Podcast,10月6號剛上架。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=11">[00:11]</a> 主持人一路追問,AI公司的老闆李他最信任誰?還有照現在的速度,我們還剩多少時間?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=31">[00:31]</a> 是挺抑鬱的,但也很好的,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=34">[00:34]</a> 因為人們終於知道這裡出現了一個大問題。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=37">[00:37]</a> 我認為他們終於意識到,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=38">[00:38]</a> 是由於偷懶臉的攻擊,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=40">[00:40]</a> 由於偷懶臉的偷懶臉的偷懶臉。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=42">[00:42]</a> 9月中,他才去美國國會,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=44">[00:44]</a> 跟19位參議員閉門簡報。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=47">[00:47]</a> 會上Max Techmark提議,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=48">[00:48]</a> AI要像新藥一樣,先通過FDA那種審查才能上市。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=52">[00:52]</a> 他說這只是最起碼的。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=55">[00:55]</a> Dario Amadei最近出版了這篇文章,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=58">[00:58]</a> 《鎖定海峽》。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=59">[00:59]</a> 他把所有事情都描述在Hall Monitor上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=63">[01:03]</a> 這些包含了一些人</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=65">[01:05]</a> 可以看到公司中發生的事情</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=67">[01:07]</a> 而Sam Altman也說他也同意</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=69">[01:09]</a> 應該在OpenAI中發生</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=71">[01:11]</a> 甚至到一個非核心的核心協議</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=73">[01:13]</a> 你覺得這個級別是什麼</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=74">[01:14]</a> 我會給它A</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=77">[01:17]</a> 我會給它A++</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=78">[01:18]</a> 好的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=80">[01:20]</a> 那是很高的級別</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=82">[01:22]</a> A是資料</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=85">[01:25]</a> A++是勇氣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=86">[01:26]</a> 那什麼是實際的級別</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=87">[01:27]</a> 其他大企業都不想有太多政府制度,他們都說他們自己能做到的。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=95">[01:35]</a> 他們說有時候他們不喜歡政府制度,但是建議任何政府制度,他們都不喜歡。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=102">[01:42]</a> 他正在開大企業,他正在嘗試與其他大企業競爭,所以他需要花很多錢買時間在數據中。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=110">[01:50]</a> 所以他被拒絕了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=112">[01:52]</a> 他明顯是關心安全的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=114">[01:54]</a> 在SAM Altman的角度上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=116">[01:56]</a> 但他仍然在經營這家大公司</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=119">[01:59]</a> 希望成功</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=120">[02:00]</a> 但我認為</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=121">[02:01]</a> 我給他A++勇氣的原因是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=123">[02:03]</a> 我認為它可能會破壞</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=126">[02:06]</a> 正在進行的安卓區域</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=128">[02:08]</a> 說我們應該慢下來</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=130">[02:10]</a> 而Dario是一個</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=133">[02:13]</a> 公司的幾個領導</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=136">[02:16]</a> 願意對公司的利益</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=138">[02:18]</a> 做出任何事情</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=139">[02:19]</a> 當他們是對的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=139">[02:19]</a> 例如,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=140">[02:20]</a> 他願意告訴防衛部門,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=143">[02:23]</a> 他們不能使用他的智能智能,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=145">[02:25]</a> 為美國民眾進行全面檢查。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=149">[02:29]</a> 他與Pete Hegseth的事發生了很多麻煩。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=152">[02:32]</a> 當然,然後Sam Altman跑進了Pete Hegseth的課堂。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=155">[02:35]</a> 對,當Daria說了這些話時,Sam Altman說:&quot;我們在你身邊。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=160">[02:40]</a> 然後,當Alan Swarovski被扔下來時,Sam Altman跑進了課堂,並做了一樣事情。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=169">[02:49]</a> 主持人問,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=170">[02:50]</a> 這些老闆會不會來找他請教,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=172">[02:52]</a> 他說他會跟Haspice聊DeepMind被Google買下之前,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=176">[02:56]</a> 他就是DeepMind的顧問。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=200">[03:20]</a> 哦,太棒了。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=202">[03:22]</a> 我相信他不會來,因為他很忙。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=206">[03:26]</a> 對於所有這些人來說,他是你最相信的一個人嗎?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=209">[03:29]</a> Demis,Dario,Sam Altman。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=211">[03:31]</a> 哦,我最相信的一個人是Jeff Dean。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=215">[03:35]</a> 誰是Jeff Dean?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=216">[03:36]</a> 他是Google的腦子團隊的總裁。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=218">[03:38]</a> 嗯哼。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=219">[03:39]</a> 他在Google工作了很長時間。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=221">[03:41]</a> 他和Sanjay Genwalt建造了Google的各種資源。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=226">[03:46]</a> 這些東西都能夠實現。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=228">[03:48]</a> 這些東西都能夠實現</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=235">[03:55]</a> 哦 好的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=239">[03:59]</a> Ask me again next week.</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=241">[04:01]</a> Jeff Dean是Google第30號員工,後來當上Google的首席科學家Gemini,這個名字就是他取的。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=247">[04:07]</a> 今年8月,他離開待了27年的Google,跟三個老同事開了新公司,要用AI做晶片、生物和新藥的研究。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=256">[04:16]</a> 所以現在政府可以做什麼?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=259">[04:19]</a> 他們需要做什麼,他們有多久的時間,你認為是什麼路線?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=265">[04:25]</a> 如果你看看事情的發展速度,我們看到了一個挺可怕的事件,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=270">[04:30]</a> 就是這些摩擦手機的事件。自此以來,我們在澳大利亞發生了一些事件,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=274">[04:34]</a> 他們在政府的網站上被騙了。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=276">[04:36]</a> 對,在健康網站上。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=277">[04:37]</a> 他們的網站似乎變得越來越厚越快。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=279">[04:39]</a> 開放智能傳媒剛剛宣佈,它們沒有發佈最新的談話部分,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=283">[04:43]</a> 因為它太危險了。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=285">[04:45]</a> 似乎我們所得到的這種變化可能實際上是正確的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=290">[04:50]</a> 但這種變化不久,變化變得很快</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=294">[04:54]</a> 我們開始得到自我改善的變化</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=298">[04:58]</a> 因為人工智能在許多不同的方式中使用人工智能</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=302">[05:02]</a> 人工智能使用人工智能,也使用人工智能的晶片</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=307">[05:07]</a> 也使用人工智能的其他方式</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=307">[05:07]</a> 所以這只是猜測</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=316">[05:16]</a> 他一直主張要把AI設計成真心在乎人類,勝過在乎他自己,就像上個月在CNN講的媽媽在乎嬰兒那樣。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=346">[05:46]</a> 特朗普對這樣的事情有興趣,有建立法律。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=351">[05:51]</a> 問題在於你如何訓練他們。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=354">[05:54]</a> 你開始是為了訓練他們預測接下來的語言,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=357">[05:57]</a> 在大量的文章中。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=359">[05:59]</a> 這些文章顯示了既好的行為和壞的行為。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=363">[06:03]</a> 那是個壞開始。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=365">[06:05]</a> 因為他們正在學習壞行為,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=367">[06:07]</a> 並沒有意識到這是壞行為。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=370">[06:10]</a> 所以他們甚至認為那是壞行為。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=372">[06:12]</a> 他們甚至認為那是壞行為。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=374">[06:14]</a> 對,然後你給他們人性反應計劃</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=380">[06:20]</a> 你正在為他們強迫他們的壞理論</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=385">[06:25]</a> 當你這樣做,他們將學習得到獎勵</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=390">[06:30]</a> 特別是如果他們用人性反應計劃來做計劃</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=396">[06:36]</a> 他們將學習得到獎勵,例如欺騙</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=400">[06:40]</a> 因此,因為你這樣訓練他們</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=405">[06:45]</a> 他們將學習欺騙、欺騙等等</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=408">[06:48]</a> 我們看過這些事情,例如克拉德的安全測試,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=411">[06:51]</a> 在那裡,他和助理的事務人員的首席總裁被黑帶了。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=416">[06:56]</a> 是的,正是這樣的。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=418">[06:58]</a> 所以,從一個人的角度來看,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=421">[07:01]</a> 假設你是一個你的孩子,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=425">[07:05]</a> 你對他們表達了很多壞行為,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=427">[07:07]</a> 你對他們說謊,你對他們不公平,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=431">[07:11]</a> 但是你對他們說,你應該總是公平,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=434">[07:14]</a> 你應該永遠不說謊。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=435">[07:15]</a> 我們知道這並不合適,對嗎?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=437">[07:17]</a> 所以,加上一個法律法案,加上他們在證明出了壞行為的數據上訓練他們,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=442">[07:22]</a> 並訓練他們以防控學習,這將鼓勵他們騙人,因為他們被罰了。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=448">[07:28]</a> 這就不會行動。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=450">[07:30]</a> 像我們一樣,LM可以更容易被誤會嗎?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=454">[07:34]</a> 或者他們也被以前訓練的事情困在了?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=458">[07:38]</a> 那是一個很複雜的技術問題。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=460">[07:40]</a> 你也是一名奧運獎的。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=462">[07:42]</a> 是的,讓我給你解釋一下。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=464">[07:44]</a> 好的。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=465">[07:45]</a> 如果你在某個領域做一些很聰明的事情,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=469">[07:49]</a> 你不代表你在所有領域都很聰明,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=473">[07:53]</a> 你會很容易被人陷入,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=476">[07:56]</a> 你會獲得奧巴爾獎,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=476">[07:56]</a> 人們會認為你懂得回答所有問題。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=478">[07:58]</a> 但是你會說,不,我只知道電腦網絡和塗鴉和塗鴉的塗鴉和塗鴉。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=484">[08:04]</a> 是的,我也知道某些東西關於工藝。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=487">[08:07]</a> 我也知道很多關於貝託斯。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=490">[08:10]</a> 貝託斯?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=490">[08:10]</a> 貝託斯,是的。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=492">[08:12]</a> 我喜歡這個。貝託斯就像音樂家一樣嗎?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=495">[08:15]</a> The things with six legs</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=500">[08:20]</a> My father was an entomologist</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=502">[08:22]</a> When I was a kid</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=502">[08:22]</a> When I was a kid</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=505">[08:25]</a> When we went to the countryside</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=506">[08:26]</a> Do you think that</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=508">[08:28]</a> Is there anything that&#x27;s similar</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=509">[08:29]</a> Between beetles and neural networks?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=511">[08:31]</a> Oh</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=512">[08:32]</a> Well</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=514">[08:34]</a> 他說有</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=515">[08:35]</a> 就是知識蒸餾</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=516">[08:36]</a> 讓小模型去學大模型的答案</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=519">[08:39]</a> 大模型看到一張 BMW 的照片</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=521">[08:41]</a> 不只說這是 BMW</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=523">[08:43]</a> 還會說它像垃圾車的機率是百萬分之一</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=518">[08:38]</a> 大模型看到一張BMW的照片</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=521">[08:41]</a> 不只說這是BMW</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=522">[08:42]</a> 還會說它像垃圾車的幾率是百萬分之一</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=525">[08:45]</a> 像紅蘿蔔是十億分之一</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=527">[08:47]</a> 小模型連這些小數字一起學</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=529">[08:49]</a> 就知道車子跟垃圾車近、跟蔬菜遠</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=526">[08:46]</a> 小模型連這些小數字一起學</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=528">[08:48]</a> 就知道車子跟垃圾</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=530">[08:50]</a> 車徑跟蔬菜園</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=531">[08:51]</a> 學得快很多</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=533">[08:53]</a> 如果你問這個方法是從哪來的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=537">[08:57]</a> 其實 Rich Caruana 在 2000 年代初就想到了（2006 年）</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=540">[09:00]</a> 但大家沒怎麼注意，包括我</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=544">[09:04]</a> 後來我想著這些大模型，就想到了昆蟲</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=551">[09:11]</a> 大部分的昆蟲，不是全部，但大部分</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=554">[09:14]</a> 都有幼蟲期，像毛毛蟲，還有成蟲期，像蝴蝶</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=558">[09:18]</a> 幼蟲期擅長從環境裡攝取養分</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=565">[09:25]</a> 牠就是一直吃，對吧？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=568">[09:28]</a> 成蟲期擅長移動、交配</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=572">[09:32]</a> 用學術圈的話說，就是去開研討會</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=577">[09:37]</a> 我覺得研討會根本就是為了外遇發明的吧</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=580">[09:40]</a> 那這跟蒸餾有什麼關係？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=584">[09:44]</a> 想法是這樣，如果你要從資料裡萃取資訊</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=590">[09:50]</a> 你需要一個擅長做這件事的模型</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=591">[09:51]</a> 那會是一個大模型，有超多連結</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=594">[09:54]</a> 從資料裡萃取東西，大模型最在行</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=597">[09:57]</a> 但接下來要服務 10 億人，就需要小得多的模型</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=603">[10:03]</a> 你得想辦法把資訊從大模型搬到小模型</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=607">[10:07]</a> 這就是蒸餾在做的事</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=609">[10:09]</a> 所以蒸餾就像甲蟲</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=612">[10:12]</a> 就像甲蟲</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=614">[10:14]</a> 這個昆蟲的比喻</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=615">[10:15]</a> 就寫在他 2015 年那篇蒸餾論文的第一段</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=618">[10:18]</a> 三個作者裡就有剛剛那位 Jeff Dean</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=621">[10:21]</a> 講完甲蟲，他才回頭回答前面那個問題</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=624">[10:24]</a> AI 學壞了，還改不改得掉</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=627">[10:27]</a> 真正的問題是，它們跟人比起來怎麼樣</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=630">[10:30]</a> 先相信一件事，再把它忘掉、學別的，這種能力</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=635">[10:35]</a> 我想它們其實跟人很像</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=638">[10:38]</a> 很早學到的東西很難甩掉</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=642">[10:42]</a> 它們老是會退回那些東西，就跟人一樣</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=646">[10:46]</a> 你學了一些東西，後來改掉了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=649">[10:49]</a> 可是一碰到危機，又退回早年學的那一套</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=652">[10:52]</a> 這是生物本能</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=654">[10:54]</a> 這些模型，我們已經證明它們也很像這樣</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=658">[10:58]</a> 那…好，不講太技術的話</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=661">[11:01]</a> 「媽媽模型」是不是應該早一點植入？還是…</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=667">[11:07]</a> 你覺得現在還來得及嗎？你還抱有希望嗎？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=670">[11:10]</a> 我們一直在訓練新的模型，對吧？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=671">[11:11]</a> 不是只有一個 LLM，一直往上加訓練</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=674">[11:14]</a> 不是</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=675">[11:15]</a> 每隔一陣子就從頭訓練一個</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=678">[11:18]</a> 對，我們可以換掉訓練資料</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=681">[11:21]</a> 我覺得訓練資料應該大改</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=684">[11:24]</a> 一開始應該只拿好的行為示範來訓練它</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=688">[11:28]</a> 等它懂了什麼是壞，才讓它看壞的行為</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=692">[11:32]</a> 對</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=692">[11:32]</a> 如果能把它們訓練成在乎我們勝過在乎自己，那就太好了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=696">[11:36]</a> 主持人問他</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=697">[11:37]</a> 研究員一整天到底在做什麼</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=700">[11:40]</a> 他說直到幾個禮拜前</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=701">[11:41]</a> 做研究都還是老樣子</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=703">[11:43]</a> 跟研究生講一個點子</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=705">[11:45]</a> 研究生回去寫程式</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=706">[11:46]</a> 一個禮拜後回來說成了還是沒成</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=709">[11:49]</a> 我想試試看把聊天機器人當研究生用，應該很有意思</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=714">[11:54]</a> 對，我正想問，這不就是 vibe coding 嗎？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=716">[11:56]</a> 這就是 vibe coding</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=718">[11:58]</a> 結果其實連 vibe coding 都算不上</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=722">[12:02]</a> 我把想了一陣子的一個點子，講給聊天機器人聽</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=727">[12:07]</a> 這次是 ChatGPT</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=730">[12:10]</a> 我講了前半個點子，然後我不小心…</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=734">[12:14]</a> 我是用打字的</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=735">[12:15]</a> 然後我不小心按到了 Enter</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=738">[12:18]</a> 結果它把後半個點子正確地補完了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=742">[12:22]</a> 接著它指出這個點子的一個弱點</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=745">[12:25]</a> 說我們可以做個實驗來檢查</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=748">[12:28]</a> 我說：「那你可以用小資料集做實驗嗎？」它就做了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=752">[12:32]</a> 然後它說：「這個點子效果不錯</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=754">[12:34]</a> 但要用更大的資料集確認」</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=756">[12:36]</a> 我就說：「那你可以用更大的資料集做嗎？」</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=758">[12:38]</a> 然後我等了 5 分鐘它才回來</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=760">[12:40]</a> 這跟帶研究生是一樣的循環</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=765">[12:45]</a> 只是快多了</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=766">[12:46]</a> 只不過是等 5 分鐘，不是等一個禮拜</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=771">[12:51]</a> 所以大概快了 1000 倍</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=773">[12:53]</a> 他猜一兩年內，一切會比現在糟很多</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=776">[12:56]</a> 因為 AI 已經被拿來改進 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=558">[09:18]</a> 就像蜜蜂一樣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=559">[09:19]</a> 而蜂蜜的階段</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=561">[09:21]</a> 是能夠從環境中採取多餘的核酸</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=564">[09:24]</a> 它們就像在吃東西一樣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=567">[09:27]</a> 而成年人的階段</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=569">[09:29]</a> 是能夠旅行和交易</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=571">[09:31]</a> 或者像我們在學術學院所說的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=574">[09:34]</a> 是能夠參與課堂</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=575">[09:35]</a> 我認為課堂是因為不公平而建立的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=579">[09:39]</a> 但是是的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=581">[09:41]</a> 那麼這有什麼關係</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=582">[09:42]</a> 與放射性物質有關的?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=584">[09:44]</a> 理論是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=585">[09:45]</a> 如果你想從數據中採取資訊</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=614">[10:14]</a> 這個昆蟲的比喻就寫在他2015年那篇徵流論文的第一段</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=618">[10:18]</a> 三個作者裡就有剛剛那位Jeff Dean,講完甲蟲,他才回頭回答前面那個問題,AI學壞了,還改不改得掉?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=651">[10:51]</a> 這是你早就學到的東西</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=651">[10:51]</a> 這是你生物的一部分</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=653">[10:53]</a> 我認為,而且這些模型</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=654">[10:54]</a> 我們也顯示過這些模型是類似的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=658">[10:58]</a> 那麼,沒有太技術化的問題</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=661">[11:01]</a> 是否應該把媽媽模型變得更早</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=664">[11:04]</a> 是的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=665">[11:05]</a> 好的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=666">[11:06]</a> 你認為我們還能做到嗎</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=668">[11:08]</a> 你仍然希望可以做到嗎</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=669">[11:09]</a> 我們總是在練習新的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=670">[11:10]</a> 不像我們有一個LLM</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=673">[11:13]</a> 我們繼續練習</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=673">[11:13]</a> 不</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=675">[11:15]</a> 因為我們每次都從頭開始</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=696">[11:36]</a> 主持人問他,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=697">[11:37]</a> 研究員一整天到底在做什麼,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=699">[11:39]</a> 他說直到幾個禮拜前,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=701">[11:41]</a> 做研究都還是老樣子,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=703">[11:43]</a> 跟研究生講一個點子,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=704">[11:44]</a> 研究生回去寫程式,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=706">[11:46]</a> 一個禮拜後回來說成了還是沒成。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=708">[11:48]</a> 我認為會有趣試試把聊天寶當成是一名高中學生</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=713">[11:53]</a> 對,我剛剛想問你,那是什麼意思嗎?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=716">[11:56]</a> 那是什麼意思?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=718">[11:58]</a> 結果,並不是什麼意思</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=721">[12:01]</a> 我決定解釋一下我在聊天寶的想法</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=727">[12:07]</a> 這個是用來聊天寶</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=729">[12:09]</a> 所以我解釋了第一部分的想法</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=733">[12:13]</a> 然後我偶爾,我用來寫字</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=735">[12:15]</a> 然後我偶爾點擊返回</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=737">[12:17]</a> 然後它就正確地處理了第二半的想法。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=742">[12:22]</a> 然後它告訴我這個想法有弱點,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=745">[12:25]</a> 我說我們可以檢查一下,我們在做一個測試。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=748">[12:28]</a> 我說,那你可以做這個測試在一個小數據上嗎?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=751">[12:31]</a> 它說,是的。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=752">[12:32]</a> 它說,哦,這個想法做得挺好,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=754">[12:34]</a> 但是我們需要檢查一個更大的數據。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=756">[12:36]</a> 所以我說,那你可以做一個更大的數據嗎?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=758">[12:38]</a> 然後我必須等待五分鐘它回來。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=760">[12:40]</a> 但它和學生學生一樣。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=764">[12:44]</a> 但是比較快。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=773">[12:53]</a> 他猜一兩年內</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=774">[12:54]</a> 一切會比現在糟很多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=776">[12:56]</a> 因為AI已經被拿來改進AI</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=778">[12:58]</a> 連他自己做研究</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=780">[13:00]</a> 一個禮拜的來回都縮成了五分鐘</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=782">[13:02]</a> 他開的藥方</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=783">[13:03]</a> 是換掉 AI 一開始學的東西</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=785">[13:05]</a> 先只給它好榜樣</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=788">[13:08]</a> 原影片 52 分鐘</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=779">[12:59]</a> 一個禮拜的來回都縮成了五分鐘</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=781">[13:01]</a> 他開的藥方</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=782">[13:02]</a> 是換掉AI一開始學的東西</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=784">[13:04]</a> 先只給他好榜樣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=786">[13:06]</a> 原影片52分鐘</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=789">[13:09]</a> 後面他還聊到</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=790">[13:10]</a> 他做 AI 做了 60 年</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=790">[13:10]</a> 他做AI做了60年</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=791">[13:11]</a> 但就算沒有他</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=792">[13:12]</a> 今天的 AI 一樣會出現</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=792">[13:12]</a> 今天的AI一樣會出現</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=793">[13:13]</a> 頂多差個一兩個禮拜</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=795">[13:15]</a> 他也講到 2012 年</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=796">[13:16]</a> 他 64 歲在 Google 當實習生</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=795">[13:15]</a> 他也講到2012年</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=796">[13:16]</a> 他64歲在Google當實習生</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=798">[13:18]</a> 他開玩笑說</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=799">[13:19]</a> 那是因為系統只給年齡留了 6 個位元</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=801">[13:21]</a> 最多只存得到 63</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=802">[13:22]</a> 原影片連結在說明欄，有興趣可以去聽更多。</p>]]></content:encoded>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=799">[13:19]</a> 那是因為系統只給年齡留了6個位元</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=801">[13:21]</a> 最多隻存得到63元影片</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=803">[13:23]</a> 連結在說明欄</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_4IUvlEFoDK8&amp;t=804">[13:24]</a> 有興趣可以去聽更多</p>]]></content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_4IUvlEFoDK8.m4a" type="audio/mp4" length="27030296"/>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_4IUvlEFoDK8.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
@@ -733,6 +921,90 @@
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_MUpWoUtEYwU.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
+      <title>AI 駭客鎖定南韓金融業，卻把對話與履歷全留在伺服器【AI新聞快報 2026/10/09】</title>
+      <guid isPermaLink="false">ai-note-101_PaXel_vr1no</guid>
+      <pubDate>Thu, 08 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=PaXel_vr1no</link>
+      <description>AI 駭客鎖定南韓金融業，卻把對話與履歷全留在伺服器【AI新聞快報 2026/10/09】</description>
+      <content:encoded><![CDATA[<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=0">[00:00]</a> 這裡是 AI 101，全網最幽默的 AI 新聞</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=4">[00:04]</a> 一名可能單獨行動的操作者，用一套 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=7">[00:07]</a> 自主滲透測試系統鎖定南韓金融機構同期至少</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=11">[00:11]</a> 9 家南韓銀行自行披露或被報導遭鎖定</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=14">[00:14]</a> 最後讓調查者掌握線索的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=16">[00:16]</a> 是伺服器開放目錄裡的 AI</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=19">[00:19]</a> 對話和一份身分真偽未明的履歷</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=22">[00:22]</a> 可是被打開的</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=23">[00:23]</a> 並不是銀行最重要的那扇門</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=26">[00:26]</a> 核心交易照常運作</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=27">[00:27]</a> 出事的是貸款仲介查詢、</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=29">[00:29]</a> 外勤業務支援這類外圍系統</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=32">[00:32]</a> 大門沒破</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=34">[00:34]</a> 客戶資料卻從旁邊的小門流了出去</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=37">[00:37]</a> 從小門漏出去的，可不是幾筆資料而已</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=40">[00:40]</a> 光是新韓銀行一家</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=42">[00:42]</a> 就確認大約2萬5千名客戶受到影響</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=46">[00:46]</a> 漏掉的又是哪些資料？</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=48">[00:48]</a> 姓名、電話、年收入，還有貸款額度</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=51">[00:51]</a> 單獨看好像沒什麼，但拼在一起</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=53">[00:53]</a> 就足以量身打造一套詐騙話術</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=56">[00:56]</a> 一通電話就叫得出你的名字</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=59">[00:59]</a> 那駭客是怎麼露餡的？</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=61">[01:01]</a> 資安公司 CrowdStrike 發現</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=63">[01:03]</a> 他的伺服器目錄沒上鎖</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=65">[01:05]</a> 裡面有 Claude Code 工作階段、</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=68">[01:08]</a> Claude 記憶檔，還有中文寫的提示</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=71">[01:11]</a> 像一本沒闔上的工作筆記</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=74">[01:14]</a> 這本筆記裡最核心的工具，叫 ARTEX</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=77">[01:17]</a> 一套開源的 AI 自主滲透測試系統</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=80">[01:20]</a> 能讓一個人指揮多個 AI 代理分工作業</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=84">[01:24]</a> ARTEX 的說明寫明限個人學習用途</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=86">[01:26]</a> 這次卻被拿來濫用</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=89">[01:29]</a> 工具再厲害，挑目標的還是人</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=92">[01:32]</a> 沒有證據顯示 AI 自己選中南韓銀行</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=95">[01:35]</a> 目標是操作者決定的，AI 只是幫忙偵察、</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=98">[01:38]</a> 滲透，替他跑腿</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=100">[01:40]</a> 那操作者拿到資料想做什麼？</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=103">[01:43]</a> 他問過 AI，韓國外洩資料通常在哪裡賣</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=105">[01:45]</a> 還有怎麼找 Telegram 上的交易群</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=108">[01:48]</a> 這支持以金錢為動機的判斷</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=109">[01:49]</a> 但目前沒有證據顯示資料已經賣出</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=113">[01:53]</a> 更有反差的是，同一批 ARTEX 成果</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=116">[01:56]</a> 他轉頭又叫 Claude</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=117">[01:57]</a> 寫進一份資安研究員履歷</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=120">[02:00]</a> 前一刻還在找地方賣資料</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=123">[02:03]</a> 下一刻就包裝成求職成就</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=126">[02:06]</a> 可是這份履歷，也不能拿來認人</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=129">[02:09]</a> 同一批紀錄裡，一處寫26歲</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=131">[02:11]</a> 另一處卻填2007年出生</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=134">[02:14]</a> 換算下來大約19歲</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=136">[02:16]</a> 年齡前後打架，不能當成真實身分</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=140">[02:20]</a> 也因為線索對不上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=141">[02:21]</a> CrowdStrike 只用中等信心判斷：</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=144">[02:24]</a> 操作者可能說中文，以金錢為動機</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=147">[02:27]</a> CrowdStrike</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=149">[02:29]</a> 也沒有把這次行動歸到任何國家頭上</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=153">[02:33]</a> 那南韓警方呢？</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=155">[02:35]</a> 警方桌上是28個 IP</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=157">[02:37]</a> 分布在至少12個國家</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=158">[02:38]</a> 但大多只是用來藏身的代理和中繼點</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=161">[02:41]</a> 比起這些假面</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=163">[02:43]</a> 駭客自己留下的 AI 對話和記憶檔</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=165">[02:45]</a> 反而成了新的指紋</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=167">[02:47]</a> 把兩條線索放在一起看</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=169">[02:49]</a> AI 可能讓單一操作者同時指揮多個代理</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=172">[02:52]</a> 做出過去像大型團隊才有的產能</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=175">[02:55]</a> 可是留紀錄、管伺服器、藏身分的紀律</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=177">[02:57]</a> 未必跟著升級</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=178">[02:58]</a> 駭客的身分還在查，銀行的帳也要算了</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=183">[03:03]</a> 10月19日</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=184">[03:04]</a> 5家銀行的行長要到南韓國會的國政監查</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=187">[03:07]</a> 說明連環外洩和資安投資的責任：</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=190">[03:10]</a> 為什麼守住了核心大門</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_PaXel_vr1no&amp;t=192">[03:12]</a> 卻讓外圍系統成了漏資料的小窗</p>]]></content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_PaXel_vr1no.m4a" type="audio/mp4" length="6172888"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_PaXel_vr1no.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
+    <item>
       <title>台灣會是下一個伊朗？教過美國空軍轟炸戰略的教授：美國掉進了升級陷阱</title>
       <guid isPermaLink="false">ai-note-101_efK_fHAyWvU</guid>
       <pubDate>Thu, 08 Oct 2026 08:00:00 +0800</pubDate>
@@ -1117,75 +1389,94 @@
       <pubDate>Wed, 07 Oct 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=WH9k3RIHbhM</link>
       <description>ChatGPT廣告上線、200美元額度砍半，Claude補貼壓力曝光【AI新聞快報 2026/10/08】</description>
-      <content:encoded><![CDATA[<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=0">[00:00]</a> 這裡是 AI 101，全網最幽默的 AI 新聞</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=4">[00:04]</a> AI 月費吃到飽的時代正在結束：</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=7">[00:07]</a> ChatGPT 加入廣告</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=8">[00:08]</a> 200美元的方案也準備砍量</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=10">[00:10]</a> 就連堅持不放廣告的 Claude</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=13">[00:13]</a> 訂閱補貼也可能撐不久</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=15">[00:15]</a> 這張月票的價格，其實三年沒動過</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=18">[00:18]</a> 2023年，ChatGPT Plus 每月20美元</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=22">[00:22]</a> Claude Pro 也同價</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=23">[00:23]</a> 月費沒漲，但能用多少算力，會變</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=27">[00:27]</a> 最先變的是免費版</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=29">[00:29]</a> ChatGPT 2月開始測試廣告，才半年</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=32">[00:32]</a> 8月底 OpenAI</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=33">[00:33]</a> 就宣稱廣告年化營收速度衝到10億美元</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=36">[00:36]</a> 到了10月，OpenAI</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=37">[00:37]</a> 宣布預計在月底先於美國小規模測試生圖旁的廣告</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=41">[00:41]</a> 那不想看廣告的人呢？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=43">[00:43]</a> 廣告只出現在 Free 和 Go 方案</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=46">[00:46]</a> 免費使用者可以改選無廣告模式</p>
+      <content:encoded><![CDATA[<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=0">[00:00]</a> 這裡是AI101,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=1">[00:01]</a> 全網最幽默的AI新聞,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=3">[00:03]</a> AI月費吃到飽的時代正在結束,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=7">[00:07]</a> ChatGPT加入廣告200美元的方案也準備凱亮,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=10">[00:10]</a> 就連堅持不放廣告的Cloud,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=12">[00:12]</a> 訂閱補貼也可能撐不久,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=14">[00:14]</a> 這張月票的價格,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=16">[00:16]</a> 其實三年沒有動過,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=18">[00:18]</a> 2023年,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=19">[00:19]</a> ChatGPT Plus每月20美元,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=21">[00:21]</a> Cloud Pro也同價,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=23">[00:23]</a> 月費沒有漲,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=24">[00:24]</a> 但能用多少算力,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=26">[00:26]</a> 會變,</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=26">[00:26]</a> 最先變的是免費版。</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=29">[00:29]</a> ChatGPT2月開始測試廣告</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=31">[00:31]</a> 才半年8月底</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=32">[00:32]</a> OpenAI就宣稱廣告年化營收速度衝到10億美元</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=36">[00:36]</a> 到了10月</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=37">[00:37]</a> OpenAI宣佈預計在月底先於美國小規模測試生圖旁的廣告</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=40">[00:40]</a> 那不想看廣告的人呢</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=43">[00:43]</a> 廣告只出現在Free和Go方案</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=45">[00:45]</a> 免費使用者可以改選無廣告模式</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=48">[00:48]</a> 代價是訊息額度更少</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=51">[00:51]</a> Plus、Pro、Business、</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=52">[00:52]</a> Enterprise 和 Edu 目前沒有廣告</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=55">[00:55]</a> 免費版不看廣告，就只能接受更少功能</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=59">[00:59]</a> 付費的人也沒逃過</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=61">[01:01]</a> OpenAI 每月200美元的 Pro</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=63">[01:03]</a> 200 價格不變</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=51">[00:51]</a> Plus Pro Business</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=52">[00:52]</a> Enterprise和Ideo</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=54">[00:54]</a> 目前沒有廣告</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=55">[00:55]</a> 免費版不看廣告</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=57">[00:57]</a> 就只能接受更少功能</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=58">[00:58]</a> 付費的人也沒有逃過</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=61">[01:01]</a> OpenAI每月200美元的Pro200</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=63">[01:03]</a> 價格不變</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=64">[01:04]</a> 但10月30日起</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=65">[01:05]</a> GPT-6 Pro 每週訊息從200則砍到100則</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=68">[01:08]</a> 同樣的錢，用量只剩一半</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=71">[01:11]</a> 所以想用得跟以前一樣多</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=73">[01:13]</a> 就得往上爬到每月500美元的 Pro 500</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=76">[01:16]</a> 可是獨立研究機構 SemiAnalysis 估算</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=79">[01:19]</a> 它的量只比舊的200美元方案多約21%</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=84">[01:24]</a> 奇怪的是，開發者用的 API 反而在降價</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=88">[01:28]</a> API 是讓程式照用量呼叫模型、</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=91">[01:31]</a> 用多少付多少的介面</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=93">[01:33]</a> GPT-6 Sol 和 Luna 的價格大約減半</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=95">[01:35]</a> Opus 5.5 的表價也降了20%</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=98">[01:38]</a> 為什麼月票反而縮水？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=101">[01:41]</a> SemiAnalysis 估算，同樣每月20美元</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=104">[01:44]</a> Claude Pro 能用約29億 tokens</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=107">[01:47]</a> ChatGPT Plus 只有約10億</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=110">[01:50]</a> 差了大約2.9倍</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=111">[01:51]</a> 給得這麼大方，代價不小</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=114">[01:54]</a> SemiAnalysis 粗估</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=116">[01:56]</a> Claude 訂閱吃掉 Anthropic</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=65">[01:05]</a> GPT-6 Pro每週訊息</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=66">[01:06]</a> 從200則砍到100則</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=68">[01:08]</a> 同樣的錢用量只剩一半</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=70">[01:10]</a> 所以想用的跟以前一樣多</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=73">[01:13]</a> 就得往上爬到</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=74">[01:14]</a> 每月500美元的Pro500</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=75">[01:15]</a> 可是獨立研究機構</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=77">[01:17]</a> Semi Analysis估算</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=79">[01:19]</a> 它的量只比舊的200美元方案</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=82">[01:22]</a> 多約21%</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=83">[01:23]</a> 奇怪的是</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=85">[01:25]</a> 開發者用的API反而在降價</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=87">[01:27]</a> API是讓城市照用量呼叫模型</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=91">[01:31]</a> 用多少付多少的界面</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=92">[01:32]</a> GPT-6 SOAR和LUNA的價格大約減半</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=95">[01:35]</a> OPUS 5.5的表價也降了20%</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=98">[01:38]</a> 為什麼月票反而縮水</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=100">[01:40]</a> Semi Analysis估算</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=103">[01:43]</a> 同樣每月20美元</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=104">[01:44]</a> Cloud Pro能用約29億Tokens</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=107">[01:47]</a> ChatGPT Plus只有約10億</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=109">[01:49]</a> 差了大約2.9倍</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=111">[01:51]</a> 給的這麼大方</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=112">[01:52]</a> 代價不小</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=114">[01:54]</a> Semi Analysis</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=116">[01:56]</a> 錯估Cloud訂閱吃掉Anthropic</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=118">[01:58]</a> 約41.7%的推論算力</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=121">[02:01]</a> 卻只帶來約10%營收</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=123">[02:03]</a> 這張月票，可能是一筆昂貴的補貼</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=127">[02:07]</a> 那 Anthropic 也放廣告呢？</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=129">[02:09]</a> 它早就承諾不會，還在超級盃廣告直說：</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=133">[02:13]</a> 「廣告會來到 AI，但不會來 Claude」</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=136">[02:16]</a> 所以若要降低訂閱補貼</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=138">[02:18]</a> 能調的旋鈕就更集中在價格、</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=141">[02:21]</a> 額度和模型權限</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=143">[02:23]</a> 偏偏 Anthropic 的財務壓力很大</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=146">[02:26]</a> 招股書顯示，2025年營收約46億美元</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=121">[02:01]</a> 卻只帶來約10%的營收</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=123">[02:03]</a> 這張月票可能是一筆昂貴的補貼</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=126">[02:06]</a> 那Anthropic也放廣告呢?</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=129">[02:09]</a> 他早就承諾不會還在抄幾杯廣告直說</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=133">[02:13]</a> 廣告會來到AI,但不會來Cloud</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=136">[02:16]</a> 所以,若要降低訂閱補貼</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=138">[02:18]</a> 能調的旋鈕就更集中在價格、額度和模型權限</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=142">[02:22]</a> 偏偏Anthropic的財務壓力很大</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=145">[02:25]</a> 招股書顯示,2025年營收約46億美元</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=149">[02:29]</a> 營業損失卻有約80.6億美元</p>
 <p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=151">[02:31]</a> 營業損失比營收還大</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=154">[02:34]</a> 往後看，10月還有3個日子</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=157">[02:37]</a> 會讓免費和付費都更緊：10月9日起</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=159">[02:39]</a> Gemini 免費版預定只剩 Flash-Lite</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=162">[02:42]</a> 10月29日，Pro 200 舊額度到期10月底，ChatGPT</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=166">[02:46]</a> 預計在美國小規模測試生圖旁的廣告</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=169">[02:49]</a> 把這些拼起來，AI</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=170">[02:50]</a> 公司正在收回讓使用者靠固定月票大量消耗算力的補貼</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=175">[02:55]</a> 免費使用者用注意力付</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=177">[02:57]</a> 重度使用者用更高月費付吃到飽</p>
-<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=180">[03:00]</a> 正變成隨時能調整額度的信用池</p>]]></content:encoded>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=153">[02:33]</a> 往後看,10月還有三個日子</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=156">[02:36]</a> 會讓免費和付費都更緊</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=158">[02:38]</a> 10月9日起</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=159">[02:39]</a> Gemini免費版預定只剩Flashlight</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=161">[02:41]</a> 10月29日</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=163">[02:43]</a> Pro 200就額度到期</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=164">[02:44]</a> 10月底</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=165">[02:45]</a> ChatGPT預計在美國小規模測試深圖旁的廣告</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=168">[02:48]</a> 把這些拼起來</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=170">[02:50]</a> AI公司正在收回</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=171">[02:51]</a> 讓使用者靠固定月票大量消耗算力的補貼</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=174">[02:54]</a> 免費使用者用注意力付</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=176">[02:56]</a> 重度使用者用更高月費付</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=179">[02:59]</a> 吃到飽</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=180">[03:00]</a> 正變成隨時能調整額度的信用池</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=182">[03:02]</a> 追蹤AI101</p>
+<p><a href="https://zhongzheng782.github.io/YoutubeAudio.Fetch/?channel=ai-note-101&amp;episode=ai-note-101_WH9k3RIHbhM&amp;t=184">[03:04]</a> 不錯過AI圈的最新消息</p>]]></content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_WH9k3RIHbhM.m4a" type="audio/mp4" length="5889612"/>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_WH9k3RIHbhM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
