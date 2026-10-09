@@ -14,6 +14,8 @@
 | 影片 | 日期 |
 | --- | --- |
 | [「聊天機器人對學習很糟」教過 800 萬人 AI 的吳恩達直說 【AI 大人說】](ai-note-101_0b1nXHzlOR8_keyframes.md) | 2026-10-09 |
+| [「沒有一題沒被解掉」費爾茲獎得主 Hugo Duminil-Copin：OpenAI 公布數學成果之後，他的研究方向被一次清空 【AI 大人說】](ai-note-101__dXF4dOjsjY_keyframes.md) | 2026-10-09 |
+| [「我現在是不是正在被測試？」GPT-6 Astra 系統卡主筆 David Robinson 離職後首度受訪 【AI 大人說】](ai-note-101_s-oUsMc0OrE_keyframes.md) | 2026-10-09 |
 | [AI 教父 Hinton 給 Dario 打勇氣 A+：說要放慢，大概會傷到 Anthropic 上市 【AI 大人說】](ai-note-101_4IUvlEFoDK8_keyframes.md) | 2026-10-08 |
 | [AI 打仗，每一個軍事決定都要有人？Google 前執行長 Eric Schmidt 在基輔被《經濟學人》總編輯追問](ai-note-101_JY9XX1Vj20Q_keyframes.md) | 2026-10-08 |
 | [「年輕一代比我們更擔心」寫過法國 AI 戰略的費爾茲獎得主 Cédric Villani：AI 解題太快，題目會枯竭 【AI 大人說】](ai-note-101_MUpWoUtEYwU_keyframes.md) | 2026-10-08 |
