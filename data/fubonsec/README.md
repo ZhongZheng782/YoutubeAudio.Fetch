@@ -27,6 +27,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [5萬點之後看什麼?台股邁向6萬點的關鍵條件｜富邦投顧 陳奕光 董事長《富邦說趨勢》 EP 96](fubonsec_LUQYfy615AM_keyframes.md) | 2026-10-09 |
 | [AI高檔震盪怎麼看？市場變數與關鍵觀察指標｜程正樺專訪 EP3](fubonsec_aalD8SBHx-w_keyframes.md) | 2026-10-07 |
 | [AI需求是假象還是真成長？艦長拆解算力與半導體商機｜程正樺專訪 EP2](fubonsec_4B9WiNsGNyo_keyframes.md) | 2026-10-02 |
 | [半導體股估值怎麼看？從獲利成長到AI供應鏈輪動｜國泰投信李翰林 專訪](fubonsec_plZIvZ5US7E_keyframes.md) | 2026-09-30 |

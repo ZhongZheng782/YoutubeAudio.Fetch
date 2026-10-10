@@ -16,6 +16,7 @@
 | 影片 | 日期 |
 | --- | --- |
 | [AI 的數學證明靠 Lean 檢查，那誰來檢查 Lean？｜Leonardo de Moura｜演講訪談系列](jimainotebook_K1cnH5DBplY_keyframes.md) | 2026-10-09 |
+| [AI 為什麼會鑽規則漏洞？Hugging Face 事件調查｜Ajeya Cotra（METR）｜演講訪談系列](jimainotebook__AIy4yZYk28_keyframes.md) | 2026-10-09 |
 | [OpenAI 公開七百多篇 AI 數學論文：解決了什麼、驗證到哪裡](jimainotebook_aPid0lSkS1U_keyframes.md) | 2026-10-08 |
 | [晶片簡史：世界怎麼被一片晶片改變？｜簡史系列](jimainotebook_ignI6mQrsNs_keyframes.md) | 2026-10-07 |
 | [不再親手寫程式之後，工程師剩下什麼？｜DHH（37signals）｜演講訪談系列](jimainotebook_eNtWSchE05w_keyframes.md) | 2026-10-06 |
