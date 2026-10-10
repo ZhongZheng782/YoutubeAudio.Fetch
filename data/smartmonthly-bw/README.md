@@ -17,6 +17,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [台股5萬點不是終點？股海老牛點名「台股三本柱」！第4季還有一波行情？高股息ETF今年加速快跑，0056、00878、00919還能抱？｜峰哥ft. 股海老牛｜Smart智富．投資的一千零一夜254](smartmonthly-bw_o4KXRKrwlUs_keyframes.md) | 2026-10-10 |
 | [台股創高嗨翻，持股卻沒漲！該抱還是該跑？｜曾仲葳、Ｋ線捕手楊忠憲｜Smart投資教室](smartmonthly-bw_AfB6x3Qzftg_keyframes.md) | 2026-10-08 |
 | [輝達、台積電業績好、股價漲不動，為什麼？輝達追加股票回購的3層盤算！台積電股價委曲嗎？｜峰哥｜Smart智富．投資的一千零一夜253](smartmonthly-bw_ri3QpRmhBCM_keyframes.md) | 2026-10-03 |
 | [AI股獲利了結後，錢可以擺在哪裡? 帶您關注『潛力市場』的配置機會｜詹璇依、黃大展│Smart投資教室](smartmonthly-bw_opHWowpsGA8_keyframes.md) | 2026-09-30 |
