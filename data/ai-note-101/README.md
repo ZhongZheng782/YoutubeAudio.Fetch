@@ -13,6 +13,11 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [「這不是化學問題，是生物學問題」Coursera 共同創辦人 Daphne Koller：AI 五到十年治好所有疾病太樂觀 【AI 大人說】](ai-note-101_dGjprQY9dCI_keyframes.md) | 2026-10-11 |
+| [為什麼「P 或非 P」造不出來？｜How Lean Works 第 6 集](ai-note-101_Dqqh1G-CnL8_keyframes.md) | 2026-10-10 |
+| [且、或、非，都是型別｜How Lean Works 第 5 集](ai-note-101_H7KaiMwzyJQ_keyframes.md) | 2026-10-10 |
+| [你早就在用的推論規則｜How Lean Works 第 3 集](ai-note-101_aQP13mmH2mk_keyframes.md) | 2026-10-10 |
+| [美超微共同創辦人廖益賢捲入五億美元 AI 伺服器轉運案【AI新聞快報 2026/10/11】](ai-note-101_e0mafHYXc1E_keyframes.md) | 2026-10-10 |
 | [「聊天機器人對學習很糟」教過 800 萬人 AI 的吳恩達直說 【AI 大人說】](ai-note-101_0b1nXHzlOR8_keyframes.md) | 2026-10-09 |
 | [OpenAI 九天蒸發兩百億？原來年化營收換了把尺【AI新聞快報 2026/10/10】](ai-note-101_NrRL3iH9Of4_keyframes.md) | 2026-10-09 |
 | [「沒有一題沒被解掉」費爾茲獎得主 Hugo Duminil-Copin：OpenAI 公布數學成果之後，他的研究方向被一次清空 【AI 大人說】](ai-note-101__dXF4dOjsjY_keyframes.md) | 2026-10-09 |
