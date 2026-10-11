@@ -13,7 +13,9 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [「一年 1000 億美元只能拿去買權力」諾貝爾經濟學獎得主 Joel Mokyr 談 AI 真正的風險 【AI 大人說】](ai-note-101_ObWeD9z9Cn4_keyframes.md) | 2026-10-11 |
 | [「這不是化學問題，是生物學問題」Coursera 共同創辦人 Daphne Koller：AI 五到十年治好所有疾病太樂觀 【AI 大人說】](ai-note-101_dGjprQY9dCI_keyframes.md) | 2026-10-11 |
+| [實習生 4 週的專案，AI 一個 prompt 就做完：華爾街交易公司 Jane Street 重寫整套新人訓練 【AI 大人說】](ai-note-101_e8EZnTFAwSQ_keyframes.md) | 2026-10-11 |
 | [為什麼「P 或非 P」造不出來？｜How Lean Works 第 6 集](ai-note-101_Dqqh1G-CnL8_keyframes.md) | 2026-10-10 |
 | [且、或、非，都是型別｜How Lean Works 第 5 集](ai-note-101_H7KaiMwzyJQ_keyframes.md) | 2026-10-10 |
 | [你早就在用的推論規則｜How Lean Works 第 3 集](ai-note-101_aQP13mmH2mk_keyframes.md) | 2026-10-10 |
