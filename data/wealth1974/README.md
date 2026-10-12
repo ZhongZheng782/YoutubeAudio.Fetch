@@ -39,6 +39,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [外資今年增資兩百億 但借錢卻愈來愈難？｜#聽了財知道 EP376 #外資 #融資](wealth1974_F-lg5riGMs0_keyframes.md) | 2026-10-12 |
 | [黃仁勳：是台灣救了美國的半導體｜#老謝開講 #謝金河 #財訊 EP296](wealth1974_Dzi5i-FcZgs_keyframes.md) | 2026-10-09 |
 | [【會員影片節選】欣興百億投資吹號角 ABF PCB 族群訂單齊旺｜ #產業投資通 EP05 #abf載板 #pcb](wealth1974_4T18lB7pbI0_keyframes.md) | 2026-10-08 |
 | [拒絕進入大語言紅海 資策會押注實體 AI｜#財訊不漏接 EP056 #財訊podcast #LLM #資策會](wealth1974_VFecODa6O2E_keyframes.md) | 2026-10-07 |
