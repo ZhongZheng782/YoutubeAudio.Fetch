@@ -9,12 +9,39 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_6q1bu4wlexQ_keyframes/ai-note-101_6q1bu4wlexQ_000004.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_JHRH4D3DRhU_keyframes/ai-note-101_JHRH4D3DRhU_000001.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_6q1bu4wlexQ_keyframes/ai-note-101_6q1bu4wlexQ_000004.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_JHRH4D3DRhU_keyframes/ai-note-101_JHRH4D3DRhU_000001.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>「神經網路這點我錯了」反對了 30 多年的哈佛心理學家 Steven Pinker：但 AI 末日論把智慧當成超能力 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_JHRH4D3DRhU</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=JHRH4D3DRhU</link>
+      <description>「神經網路這點我錯了」反對了 30 多年的哈佛心理學家 Steven Pinker：但 AI 末日論把智慧當成超能力 【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_JHRH4D3DRhU.m4a" type="audio/mp4" length="26219013"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_JHRH4D3DRhU.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
+    <item>
+      <title>「接下來三年我什麼都不做也行」Kevin Buzzard 在牛津這樣講，會議結束隔天 Anthropic 公布 Claude 證完費馬最後定理 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_hXyLkaZpeo8</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=hXyLkaZpeo8</link>
+      <description>「接下來三年我什麼都不做也行」Kevin Buzzard 在牛津這樣講，會議結束隔天 Anthropic 公布 Claude 證完費馬最後定理 【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_hXyLkaZpeo8.m4a" type="audio/mp4" length="47164860"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_hXyLkaZpeo8.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
+    <item>
+      <title>公司賣給 Google 54 億美元之後又創業：Kevin Mandia 說 AI 駭客最多走完 8 條攻擊鏈，最近開始自己找漏洞 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_ofaw0Gg0c-k</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=ofaw0Gg0c-k</link>
+      <description>公司賣給 Google 54 億美元之後又創業：Kevin Mandia 說 AI 駭客最多走完 8 條攻擊鏈，最近開始自己找漏洞 【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_ofaw0Gg0c-k.m4a" type="audio/mp4" length="31274311"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_ofaw0Gg0c-k.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
     <item>
       <title>Decart 三度成為收購目標，亞馬遜搶的是跨晶片入口【AI新聞快報 2026/10/13】</title>
       <guid isPermaLink="false">ai-note-101_6q1bu4wlexQ</guid>

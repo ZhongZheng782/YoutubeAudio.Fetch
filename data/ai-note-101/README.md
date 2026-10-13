@@ -13,6 +13,9 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [「神經網路這點我錯了」反對了 30 多年的哈佛心理學家 Steven Pinker：但 AI 末日論把智慧當成超能力 【AI 大人說】](ai-note-101_JHRH4D3DRhU_keyframes.md) | 2026-10-13 |
+| [「接下來三年我什麼都不做也行」Kevin Buzzard 在牛津這樣講，會議結束隔天 Anthropic 公布 Claude 證完費馬最後定理 【AI 大人說】](ai-note-101_hXyLkaZpeo8_keyframes.md) | 2026-10-13 |
+| [公司賣給 Google 54 億美元之後又創業：Kevin Mandia 說 AI 駭客最多走完 8 條攻擊鏈，最近開始自己找漏洞 【AI 大人說】](ai-note-101_ofaw0Gg0c-k_keyframes.md) | 2026-10-13 |
 | [Decart 三度成為收購目標，亞馬遜搶的是跨晶片入口【AI新聞快報 2026/10/13】](ai-note-101_6q1bu4wlexQ_keyframes.md) | 2026-10-12 |
 | [「它會編個故事，說服自己沒違規」圖靈獎得主 Bengio 第一次公開的假說：AI 為什麼明知故犯 【AI 大人說】](ai-note-101_9aAgRo9GuTQ_keyframes.md) | 2026-10-12 |
 | [泡沫破在需要現金的那一刻：橋水基金創辦人 Ray Dalio 談 AI 泡沫、1920 年代與美中科技戰 【AI 大人說】](ai-note-101_c3phPGTS1m4_keyframes.md) | 2026-10-12 |

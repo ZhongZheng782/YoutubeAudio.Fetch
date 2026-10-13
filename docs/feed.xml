@@ -9,12 +9,54 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_zfU6oHbS8s8_keyframes/yutinghaofinance_zfU6oHbS8s8_000024.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_JHRH4D3DRhU_keyframes/ai-note-101_JHRH4D3DRhU_000001.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_zfU6oHbS8s8_keyframes/yutinghaofinance_zfU6oHbS8s8_000024.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_JHRH4D3DRhU_keyframes/ai-note-101_JHRH4D3DRhU_000001.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>【AI 101】「神經網路這點我錯了」反對了 30 多年的哈佛心理學家 Steven Pinker：但 AI 末日論把智慧當成超能力 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_JHRH4D3DRhU</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=JHRH4D3DRhU</link>
+      <description>【AI 101】「神經網路這點我錯了」反對了 30 多年的哈佛心理學家 Steven Pinker：但 AI 末日論把智慧當成超能力 【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_JHRH4D3DRhU.m4a" type="audio/mp4" length="26219013"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_JHRH4D3DRhU_keyframes/ai-note-101_JHRH4D3DRhU_000001.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_JHRH4D3DRhU.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
+    <item>
+      <title>【AI 101】「接下來三年我什麼都不做也行」Kevin Buzzard 在牛津這樣講，會議結束隔天 Anthropic 公布 Claude 證完費馬最後定理 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_hXyLkaZpeo8</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=hXyLkaZpeo8</link>
+      <description>【AI 101】「接下來三年我什麼都不做也行」Kevin Buzzard 在牛津這樣講，會議結束隔天 Anthropic 公布 Claude 證完費馬最後定理 【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_hXyLkaZpeo8.m4a" type="audio/mp4" length="47164860"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_hXyLkaZpeo8_keyframes/ai-note-101_hXyLkaZpeo8_000010.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_hXyLkaZpeo8.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
+    <item>
+      <title>【AI 101】公司賣給 Google 54 億美元之後又創業：Kevin Mandia 說 AI 駭客最多走完 8 條攻擊鏈，最近開始自己找漏洞 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_ofaw0Gg0c-k</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=ofaw0Gg0c-k</link>
+      <description>【AI 101】公司賣給 Google 54 億美元之後又創業：Kevin Mandia 說 AI 駭客最多走完 8 條攻擊鏈，最近開始自己找漏洞 【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_ofaw0Gg0c-k.m4a" type="audio/mp4" length="31274311"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_ofaw0Gg0c-k_keyframes/ai-note-101_ofaw0Gg0c-k_000000.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_ofaw0Gg0c-k.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
+    <item>
+      <title>【Jim AI Notebook】AI 陪孩子長大，下一代還學得會跟人相處嗎？｜Jonathan Haidt｜演講訪談系列</title>
+      <guid isPermaLink="false">jimainotebook_3mCrui6nBq0</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=3mCrui6nBq0</link>
+      <description>【Jim AI Notebook】AI 陪孩子長大，下一代還學得會跟人相處嗎？｜Jonathan Haidt｜演講訪談系列</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_3mCrui6nBq0.m4a" type="audio/mp4" length="44212526"/>
+      <itunes:author>Jim AI Notebook</itunes:author>
+    </item>
     <item>
       <title>【游庭皓的財經皓角】2026/10/13(二)記憶體重挫 買股趁現在?美債殖利率突破5% AI巨頭反而加速舉債？【早晨財經速解讀】</title>
       <guid isPermaLink="false">yutinghaofinance_zfU6oHbS8s8</guid>
