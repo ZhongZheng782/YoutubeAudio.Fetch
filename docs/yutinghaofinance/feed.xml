@@ -9,12 +9,21 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>游庭皓的財經皓角 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_gtxpFAVDySE_keyframes/yutinghaofinance_gtxpFAVDySE_000035.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_zfU6oHbS8s8_keyframes/yutinghaofinance_zfU6oHbS8s8_000024.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_gtxpFAVDySE_keyframes/yutinghaofinance_gtxpFAVDySE_000035.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_zfU6oHbS8s8_keyframes/yutinghaofinance_zfU6oHbS8s8_000024.jpg</url>
       <title>游庭皓的財經皓角</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>2026/10/13(二)記憶體重挫 買股趁現在?美債殖利率突破5% AI巨頭反而加速舉債？【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_zfU6oHbS8s8</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=zfU6oHbS8s8</link>
+      <description>2026/10/13(二)記憶體重挫 買股趁現在?美債殖利率突破5% AI巨頭反而加速舉債？【早晨財經速解讀】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_zfU6oHbS8s8.m4a" type="audio/mp4" length="64907972"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/yutinghaofinance/transcripts/yutinghaofinance_zfU6oHbS8s8.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
     <item>
       <title>2026/10/12(一)美俄協議 壓得住油價?中東打不垮經濟 卻拖垮債市?【早晨財經速解讀】</title>
       <guid isPermaLink="false">yutinghaofinance_gtxpFAVDySE</guid>

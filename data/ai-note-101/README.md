@@ -13,6 +13,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [Decart 三度成為收購目標，亞馬遜搶的是跨晶片入口【AI新聞快報 2026/10/13】](ai-note-101_6q1bu4wlexQ_keyframes.md) | 2026-10-12 |
 | [「它會編個故事，說服自己沒違規」圖靈獎得主 Bengio 第一次公開的假說：AI 為什麼明知故犯 【AI 大人說】](ai-note-101_9aAgRo9GuTQ_keyframes.md) | 2026-10-12 |
 | [泡沫破在需要現金的那一刻：橋水基金創辦人 Ray Dalio 談 AI 泡沫、1920 年代與美中科技戰 【AI 大人說】](ai-note-101_c3phPGTS1m4_keyframes.md) | 2026-10-12 |
 | [Anthropic 在 Claude 裡找到全域工作空間？David Chalmers 對上 Stanislas Dehaene：證據可能被講過頭了 【AI 大人說】](ai-note-101_rZX5gygwSwo_keyframes.md) | 2026-10-12 |

@@ -9,9 +9,9 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>Jim AI Notebook — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_Rm8NByUNEMk_keyframes/jimainotebook_Rm8NByUNEMk_000034.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_PJscSW7V7qc_keyframes/jimainotebook_PJscSW7V7qc_000012.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_Rm8NByUNEMk_keyframes/jimainotebook_Rm8NByUNEMk_000034.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_PJscSW7V7qc_keyframes/jimainotebook_PJscSW7V7qc_000012.jpg</url>
       <title>Jim AI Notebook</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
@@ -22,6 +22,7 @@
       <link>https://www.youtube.com/watch?v=PJscSW7V7qc</link>
       <description>時間到底是什麼？｜Jim Al-Khalili｜演講訪談系列</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_PJscSW7V7qc.m4a" type="audio/mp4" length="39836530"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_PJscSW7V7qc.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>塑膠微粒到底有沒有害？｜BBC《The Evidence》專家座談｜演講訪談系列</title>
@@ -30,6 +31,7 @@
       <link>https://www.youtube.com/watch?v=ecbpLSIB0GY</link>
       <description>塑膠微粒到底有沒有害？｜BBC《The Evidence》專家座談｜演講訪談系列</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_ecbpLSIB0GY.m4a" type="audio/mp4" length="36059778"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_ecbpLSIB0GY.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>區塊鏈與貨幣：錢，說穿了是一本大家都相信的帳本｜MIT 公開課｜15.S12｜上集</title>

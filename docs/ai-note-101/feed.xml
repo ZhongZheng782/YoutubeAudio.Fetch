@@ -9,12 +9,21 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_9aAgRo9GuTQ_keyframes/ai-note-101_9aAgRo9GuTQ_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_6q1bu4wlexQ_keyframes/ai-note-101_6q1bu4wlexQ_000004.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_9aAgRo9GuTQ_keyframes/ai-note-101_9aAgRo9GuTQ_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_6q1bu4wlexQ_keyframes/ai-note-101_6q1bu4wlexQ_000004.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>Decart 三度成為收購目標，亞馬遜搶的是跨晶片入口【AI新聞快報 2026/10/13】</title>
+      <guid isPermaLink="false">ai-note-101_6q1bu4wlexQ</guid>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=6q1bu4wlexQ</link>
+      <description>Decart 三度成為收購目標，亞馬遜搶的是跨晶片入口【AI新聞快報 2026/10/13】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_6q1bu4wlexQ.m4a" type="audio/mp4" length="12434994"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_6q1bu4wlexQ.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
     <item>
       <title>「它會編個故事，說服自己沒違規」圖靈獎得主 Bengio 第一次公開的假說：AI 為什麼明知故犯 【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_9aAgRo9GuTQ</guid>
