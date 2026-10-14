@@ -9,12 +9,30 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_JHRH4D3DRhU_keyframes/ai-note-101_JHRH4D3DRhU_000001.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YL3yve9tIB0_keyframes/ai-note-101_YL3yve9tIB0_000001.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_JHRH4D3DRhU_keyframes/ai-note-101_JHRH4D3DRhU_000001.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YL3yve9tIB0_keyframes/ai-note-101_YL3yve9tIB0_000001.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>OpenAI 一晚公布 400 項數學結果，Mathematica 發明人 Wolfram 當場潑冷水：題目都是人先定義好的 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_YL3yve9tIB0</guid>
+      <pubDate>Wed, 14 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=YL3yve9tIB0</link>
+      <description>OpenAI 一晚公布 400 項數學結果，Mathematica 發明人 Wolfram 當場潑冷水：題目都是人先定義好的 【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_YL3yve9tIB0.m4a" type="audio/mp4" length="48396635"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YL3yve9tIB0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
+    <item>
+      <title>Character.AI破產，27億美元交易後只剩2,000萬美元底價【AI新聞快報 2026/10/14】</title>
+      <guid isPermaLink="false">ai-note-101_IiYHFtstQ9Y</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=IiYHFtstQ9Y</link>
+      <description>Character.AI破產，27億美元交易後只剩2,000萬美元底價【AI新聞快報 2026/10/14】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_IiYHFtstQ9Y.m4a" type="audio/mp4" length="11179514"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_IiYHFtstQ9Y.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
     <item>
       <title>「神經網路這點我錯了」反對了 30 多年的哈佛心理學家 Steven Pinker：但 AI 末日論把智慧當成超能力 【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_JHRH4D3DRhU</guid>

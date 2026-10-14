@@ -9,9 +9,9 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>Jim AI Notebook — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_PJscSW7V7qc_keyframes/jimainotebook_PJscSW7V7qc_000012.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_3mCrui6nBq0_keyframes/jimainotebook_3mCrui6nBq0_000021.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_PJscSW7V7qc_keyframes/jimainotebook_PJscSW7V7qc_000012.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_3mCrui6nBq0_keyframes/jimainotebook_3mCrui6nBq0_000021.jpg</url>
       <title>Jim AI Notebook</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
@@ -22,6 +22,7 @@
       <link>https://www.youtube.com/watch?v=3mCrui6nBq0</link>
       <description>AI 陪孩子長大，下一代還學得會跟人相處嗎？｜Jonathan Haidt｜演講訪談系列</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_3mCrui6nBq0.m4a" type="audio/mp4" length="44212526"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_3mCrui6nBq0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>時間到底是什麼？｜Jim Al-Khalili｜演講訪談系列</title>

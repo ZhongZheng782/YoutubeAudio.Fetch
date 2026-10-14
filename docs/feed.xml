@@ -9,12 +9,43 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_JHRH4D3DRhU_keyframes/ai-note-101_JHRH4D3DRhU_000001.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YL3yve9tIB0_keyframes/ai-note-101_YL3yve9tIB0_000001.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_JHRH4D3DRhU_keyframes/ai-note-101_JHRH4D3DRhU_000001.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YL3yve9tIB0_keyframes/ai-note-101_YL3yve9tIB0_000001.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>【AI 101】OpenAI 一晚公布 400 項數學結果，Mathematica 發明人 Wolfram 當場潑冷水：題目都是人先定義好的 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_YL3yve9tIB0</guid>
+      <pubDate>Wed, 14 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=YL3yve9tIB0</link>
+      <description>【AI 101】OpenAI 一晚公布 400 項數學結果，Mathematica 發明人 Wolfram 當場潑冷水：題目都是人先定義好的 【AI 大人說】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_YL3yve9tIB0.m4a" type="audio/mp4" length="48396635"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YL3yve9tIB0_keyframes/ai-note-101_YL3yve9tIB0_000001.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_YL3yve9tIB0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
+    <item>
+      <title>【游庭皓的財經皓角】2026/10/14(三)外資狂砍1600億 股市怎麼又要崩了?韓股先倒破年線 台股撐得住?【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_1Tygxzj3E1M</guid>
+      <pubDate>Wed, 14 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=1Tygxzj3E1M</link>
+      <description>【游庭皓的財經皓角】2026/10/14(三)外資狂砍1600億 股市怎麼又要崩了?韓股先倒破年線 台股撐得住?【早晨財經速解讀】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_1Tygxzj3E1M.m4a" type="audio/mp4" length="68273320"/>
+      <itunes:author>游庭皓的財經皓角</itunes:author>
+    </item>
+    <item>
+      <title>【AI 101】Character.AI破產，27億美元交易後只剩2,000萬美元底價【AI新聞快報 2026/10/14】</title>
+      <guid isPermaLink="false">ai-note-101_IiYHFtstQ9Y</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=IiYHFtstQ9Y</link>
+      <description>【AI 101】Character.AI破產，27億美元交易後只剩2,000萬美元底價【AI新聞快報 2026/10/14】</description>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_IiYHFtstQ9Y.m4a" type="audio/mp4" length="11179514"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_IiYHFtstQ9Y_keyframes/ai-note-101_IiYHFtstQ9Y_000004.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_IiYHFtstQ9Y.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
     <item>
       <title>【AI 101】「神經網路這點我錯了」反對了 30 多年的哈佛心理學家 Steven Pinker：但 AI 末日論把智慧當成超能力 【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_JHRH4D3DRhU</guid>
@@ -56,6 +87,8 @@
       <description>【Jim AI Notebook】AI 陪孩子長大，下一代還學得會跟人相處嗎？｜Jonathan Haidt｜演講訪談系列</description>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_3mCrui6nBq0.m4a" type="audio/mp4" length="44212526"/>
       <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_3mCrui6nBq0_keyframes/jimainotebook_3mCrui6nBq0_000021.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/jimainotebook/transcripts/jimainotebook_3mCrui6nBq0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>【游庭皓的財經皓角】2026/10/13(二)記憶體重挫 買股趁現在?美債殖利率突破5% AI巨頭反而加速舉債？【早晨財經速解讀】</title>
