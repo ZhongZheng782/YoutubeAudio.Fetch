@@ -18,7 +18,7 @@
 | [AI 陪孩子長大，下一代還學得會跟人相處嗎？｜Jonathan Haidt｜演講訪談系列](jimainotebook_3mCrui6nBq0_keyframes.md) | 2026-10-13 |
 | [時間到底是什麼？｜Jim Al-Khalili｜演講訪談系列](jimainotebook_PJscSW7V7qc_keyframes.md) | 2026-10-12 |
 | [塑膠微粒到底有沒有害？｜BBC《The Evidence》專家座談｜演講訪談系列](jimainotebook_ecbpLSIB0GY_keyframes.md) | 2026-10-12 |
-| [區塊鏈與貨幣：錢，說穿了是一本大家都相信的帳本｜MIT 公開課｜15.S12｜上集](jimainotebook_Rm8NByUNEMk_keyframes.md) | 2026-10-11 |
+| [區塊鏈與貨幣：錢，是一本大家都相信的帳本｜MIT 公開課｜15.S12｜上集](jimainotebook_Rm8NByUNEMk_keyframes.md) | 2026-10-11 |
 | [如果 AI 知道自己在考試，安全測驗還有用嗎？｜Bronson Schoen（Apollo Research）｜演講訪談系列](jimainotebook_WHP67ae3asQ_keyframes.md) | 2026-10-10 |
 | [AI 的數學證明靠 Lean 檢查，那誰來檢查 Lean？｜Leonardo de Moura｜演講訪談系列](jimainotebook_K1cnH5DBplY_keyframes.md) | 2026-10-09 |
 | [AI 為什麼會鑽規則漏洞？Hugging Face 事件調查｜Ajeya Cotra（METR）｜演講訪談系列](jimainotebook__AIy4yZYk28_keyframes.md) | 2026-10-09 |
