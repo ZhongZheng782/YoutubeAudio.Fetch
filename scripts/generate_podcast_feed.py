@@ -92,7 +92,7 @@ def load_episodes(channel: str) -> list[dict]:
         if not stem.startswith(f"{channel}_"):
             continue
         video_id = stem[len(channel) + 1:]
-        if video_id not in meta_cache:
+        if video_id not in meta_cache or "duration" not in meta_cache[video_id]:
             # Audio can land in the manifest before generate_readme_index.py ever looks
             # this video up (it only queries stems that already have a _keyframes.md,
             # i.e. already transcribed) — without this, a still-transcribing episode
@@ -125,6 +125,12 @@ def load_episodes(channel: str) -> list[dict]:
             "audio_url": audio_url,
             "srt_path": srt_path,
             "channel_name": meta.get("channel_name"),
+            "description": meta.get("description") or "",
+            "duration": meta.get("duration"),
+            "tags": meta.get("tags") or [],
+            "categories": meta.get("categories") or [],
+            "view_count": meta.get("view_count"),
+            "thumbnail": meta.get("thumbnail") or "",
         })
 
     if cache_dirty:
@@ -172,10 +178,21 @@ def episode_image_url(ep: dict) -> str | None:
     and Pocket Casts in the episode list, not just a static per-feed/per-channel image."""
     keyframes_dir = REPO_ROOT / "data" / ep["channel"] / f"{ep['stem']}_keyframes"
     jpgs = sorted(keyframes_dir.glob("*.jpg")) if keyframes_dir.exists() else []
-    if not jpgs:
+    if jpgs:
+        rel = jpgs[0].relative_to(REPO_ROOT).as_posix()
+        return f"{CDN_BASE}/{rel}"
+    # Still give episodes without extracted keyframes their YouTube cover art.
+    return ep.get("thumbnail") or f"https://i.ytimg.com/vi/{ep['video_id']}/hqdefault.jpg"
+
+
+def format_duration(seconds: int | float | None) -> str | None:
+    """Format yt-dlp duration seconds as the iTunes HH:MM:SS value."""
+    if seconds is None:
         return None
-    rel = jpgs[0].relative_to(REPO_ROOT).as_posix()
-    return f"{CDN_BASE}/{rel}"
+    seconds = max(0, int(seconds))
+    hours, remainder = divmod(seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
 
 
 def enclosure_length(audio_url: str) -> str:
@@ -206,9 +223,8 @@ def write_vtt_transcript(channel: str, ep: dict) -> str | None:
 
 def render_feed(channel: str, episodes: list[dict], *, combined: bool = False) -> str:
     """channel is the per-channel slug normally, or "all" for the combined cross-channel
-    feed — combined=True adds a 【頻道名稱】 title prefix, an <itunes:author>, and a
-    per-episode <itunes:image> to each item so a single subscription still lets listeners
-    tell channels apart (see episode_image_url)."""
+    feed — combined=True adds a 【頻道名稱】 title prefix. Every item includes its own
+    image, rich description and available episode metadata."""
     channel_name = (
         "YoutubeAudio.Fetch 全頻道彙整" if combined
         else next((e["channel_name"] for e in episodes if e["channel_name"]), channel)
@@ -229,19 +245,40 @@ def render_feed(channel: str, episodes: list[dict], *, combined: bool = False) -
                 f'type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>\n'
             )
         ep_title = f"【{ep['channel_name'] or ep['channel']}】{ep['title']}" if combined else ep["title"]
-        extra_tags = ""
-        if combined:
-            ep_image_url = episode_image_url(ep)
-            extra_tags += f"      <itunes:author>{escape(ep['channel_name'] or ep['channel'])}</itunes:author>\n"
-            if ep_image_url:
-                extra_tags += f'      <itunes:image href="{escape(ep_image_url)}"/>\n'
+        ep_image_url = episode_image_url(ep)
+        author = ep["channel_name"] or ep["channel"]
+        duration = format_duration(ep.get("duration"))
+        description = (ep.get("description") or ep_title)[:4000]
+        tags = [tag for tag in ep.get("tags", []) if isinstance(tag, str) and tag.strip()]
+        keywords = ", ".join(dict.fromkeys(tags[:30]))
+        image_html = f'<p><img src="{escape(ep_image_url)}" alt="{escape(ep_title)}" /></p>' if ep_image_url else ""
+        content_html = f"<p>{escape(description).replace(chr(10), '<br/>')}</p>{image_html}"
+        extra_tags = f"      <itunes:author>{escape(author)}</itunes:author>\n"
+        extra_tags += f"      <itunes:summary>{escape(description[:4000])}</itunes:summary>\n"
+        extra_tags += "      <itunes:episodeType>full</itunes:episodeType>\n"
+        if duration:
+            extra_tags += f"      <itunes:duration>{duration}</itunes:duration>\n"
+        if keywords:
+            extra_tags += f"      <itunes:keywords>{escape(keywords)}</itunes:keywords>\n"
+        if ep_image_url:
+            extra_tags += f'      <itunes:image href="{escape(ep_image_url)}"/>\n'
+            extra_tags += f'      <media:thumbnail url="{escape(ep_image_url)}"/>\n'
+        if ep.get("view_count") is not None:
+            extra_tags += (
+                f'      <media:community><media:statistics views="{int(ep["view_count"])}"/>'
+                f"</media:community>\n"
+            )
+        for category in ep.get("categories", []):
+            if isinstance(category, str) and category.strip():
+                extra_tags += f"      <media:category>{escape(category.strip())}</media:category>\n"
         items.append(
             "    <item>\n"
             f"      <title>{escape(ep_title)}</title>\n"
             f"      <guid isPermaLink=\"false\">{escape(ep['stem'])}</guid>\n"
             f"      <pubDate>{format_datetime(ep['pub_dt'])}</pubDate>\n"
             f"      <link>https://www.youtube.com/watch?v={escape(ep['video_id'])}</link>\n"
-            f"      <description>{escape(ep_title)}</description>\n"
+            f"      <description>{escape(content_html)}</description>\n"
+            f"      <content:encoded>{escape(content_html)}</content:encoded>\n"
             f"      <enclosure url=\"{escape(WORKER_BASE)}/audio/{escape(ep['stem'])}.m4a\" "
             f"type=\"audio/mp4\" length=\"{enclosure_length(ep['audio_url'])}\"/>\n"
             f"{extra_tags}"
@@ -264,6 +301,7 @@ def render_feed(channel: str, episodes: list[dict], *, combined: bool = False) -
         'xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" '
         'xmlns:content="http://purl.org/rss/1.0/modules/content/" '
         'xmlns:podcast="https://podcastindex.org/namespace/1.0" '
+        'xmlns:media="http://search.yahoo.com/mrss/" '
         'xmlns:atom="http://www.w3.org/2005/Atom">\n'
         "  <channel>\n"
         f"    <title>{escape(channel_name)}</title>\n"

@@ -25,6 +25,7 @@ import re
 import subprocess
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = REPO_ROOT / "data"
@@ -45,44 +46,46 @@ def yt_dlp_cookie_args() -> list[str]:
     return []
 
 
-def load_cache() -> dict[str, dict[str, str]]:
+def load_cache() -> dict[str, dict[str, Any]]:
     if CACHE_PATH.exists():
         return json.loads(CACHE_PATH.read_text(encoding="utf-8"))
     return {}
 
 
-def save_cache(cache: dict[str, dict[str, str]]) -> None:
+def save_cache(cache: dict[str, dict[str, Any]]) -> None:
     CACHE_PATH.write_text(
         json.dumps(cache, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
         encoding="utf-8",
     )
 
 
-def fetch_video_meta(video_id: str) -> dict[str, str] | None:
-    """{'title': ..., 'date': 'YYYY-MM-DD', 'channel_name': ..., 'channel_url': ...} via
-    yt-dlp, or None if the lookup fails (deleted/private video, transient network/anti-bot
-    flakiness, etc.). channel_name is the channel's real display name (e.g. "游庭皓的財經皓角"),
-    not our URL-handle-derived slug (e.g. "yutinghaofinance") — used for a more readable header.
-    channel_url lets us later look up that channel's About-page description."""
+def fetch_video_meta(video_id: str) -> dict[str, Any] | None:
+    """Fetch a video's title, publication data, description, duration and tags via yt-dlp."""
     proc = subprocess.run(
-        ["yt-dlp", *YT_DLP_ARGS, *yt_dlp_cookie_args(), "--skip-download", "--print",
-         "%(title)s|||%(upload_date)s|||%(channel)s|||%(channel_url)s",
+        ["yt-dlp", *YT_DLP_ARGS, *yt_dlp_cookie_args(), "--skip-download", "--dump-single-json",
          f"https://www.youtube.com/watch?v={video_id}"],
         capture_output=True, text=True, encoding="utf-8", errors="replace",
     )
     if proc.returncode != 0:
         print(f"[generate_readme_index]   metadata lookup failed for {video_id}: {proc.stderr[:200]}")
         return None
-    line = proc.stdout.strip().splitlines()[-1] if proc.stdout.strip() else ""
-    if line.count("|||") != 3:
+    try:
+        info = json.loads(proc.stdout)
+    except json.JSONDecodeError:
         return None
-    title, upload_date, channel_name, channel_url = line.split("|||")
+    upload_date = str(info.get("upload_date") or "")
     date = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}" if len(upload_date) == 8 else upload_date
     return {
-        "title": title.strip(),
+        "title": str(info.get("title") or "").strip(),
         "date": date,
-        "channel_name": channel_name.strip(),
-        "channel_url": channel_url.strip(),
+        "channel_name": str(info.get("channel") or "").strip(),
+        "channel_url": str(info.get("channel_url") or "").strip(),
+        "description": str(info.get("description") or "").strip(),
+        "duration": info.get("duration"),
+        "tags": info.get("tags") or [],
+        "categories": info.get("categories") or [],
+        "view_count": info.get("view_count"),
+        "thumbnail": str(info.get("thumbnail") or ""),
     }
 
 

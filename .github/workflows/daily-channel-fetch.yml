@@ -6,8 +6,13 @@ on:
       - "skills/skill-youtube-channel-fetch/scripts/channel_fetch.py"
       - "playlists.json"
   schedule:
-    - cron: "0 23 * * *"  # ~07:00 Asia/Taipei
-    - cron: "0 11 * * *"  # ~19:00 Asia/Taipei
+    # GitHub Actions cron uses UTC. These five runs are evenly spaced every
+    # 4 hours 48 minutes, anchored at 07:00 Asia/Taipei.
+    - cron: "12 18 * * *" # 02:12 Asia/Taipei
+    - cron: "0 23 * * *"  # 07:00 Asia/Taipei
+    - cron: "48 3 * * *"  # 11:48 Asia/Taipei
+    - cron: "36 8 * * *"  # 16:36 Asia/Taipei
+    - cron: "24 13 * * *" # 21:24 Asia/Taipei
   workflow_dispatch:
     inputs:
       limit:
@@ -15,7 +20,7 @@ on:
         default: "5"
 
 concurrency:
-  # Guards against the two daily schedules overlapping if one run is still
+  # Guards against daily schedules overlapping if one run is still
   # going (e.g. a slow keyframe-extraction backlog) when the next fires.
   group: daily-channel-fetch
   cancel-in-progress: false
