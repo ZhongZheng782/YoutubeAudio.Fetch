@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>X的財經筆記</title>
     <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
@@ -20,8 +20,17 @@
       <guid isPermaLink="false">x_nNtdo6Lsop4</guid>
       <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=nNtdo6Lsop4</link>
-      <description>巴菲特&amp;芒格：社会运行的本质，它会奖励哪些人！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特</description>
+      <description>&lt;p&gt;巴菲特&amp;amp;芒格：社会运行的本质，它会奖励哪些人！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_nNtdo6Lsop4_keyframes/x_nNtdo6Lsop4_000005.jpg" alt="巴菲特&amp;amp;芒格：社会运行的本质，它会奖励哪些人！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;巴菲特&amp;amp;芒格：社会运行的本质，它会奖励哪些人！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_nNtdo6Lsop4_keyframes/x_nNtdo6Lsop4_000005.jpg" alt="巴菲特&amp;amp;芒格：社会运行的本质，它会奖励哪些人！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_nNtdo6Lsop4.m4a" type="audio/mp4" length="9561755"/>
+      <itunes:author>X的財經筆記</itunes:author>
+      <itunes:summary>巴菲特&amp;芒格：社会运行的本质，它会奖励哪些人！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:03:18</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_nNtdo6Lsop4_keyframes/x_nNtdo6Lsop4_000005.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_nNtdo6Lsop4_keyframes/x_nNtdo6Lsop4_000005.jpg"/>
+      <media:community><media:statistics views="17"/></media:community>
+      <media:category>People &amp; Blogs</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_nNtdo6Lsop4.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -29,8 +38,17 @@
       <guid isPermaLink="false">x_vF4QvcDmWIs</guid>
       <pubDate>Wed, 29 Jul 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=vF4QvcDmWIs</link>
-      <description>巴菲特：停止改变别人把全部能量用来投资自己！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特</description>
+      <description>&lt;p&gt;巴菲特：停止改变别人把全部能量用来投资自己！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_vF4QvcDmWIs_keyframes/x_vF4QvcDmWIs_000009.jpg" alt="巴菲特：停止改变别人把全部能量用来投资自己！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;巴菲特：停止改变别人把全部能量用来投资自己！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_vF4QvcDmWIs_keyframes/x_vF4QvcDmWIs_000009.jpg" alt="巴菲特：停止改变别人把全部能量用来投资自己！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_vF4QvcDmWIs.m4a" type="audio/mp4" length="14340770"/>
+      <itunes:author>X的財經筆記</itunes:author>
+      <itunes:summary>巴菲特：停止改变别人把全部能量用来投资自己！#charliemunger #投資 #投資心法 #warrenbuffett  #芒格  #巴菲特</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:04:37</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_vF4QvcDmWIs_keyframes/x_vF4QvcDmWIs_000009.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_vF4QvcDmWIs_keyframes/x_vF4QvcDmWIs_000009.jpg"/>
+      <media:community><media:statistics views="22"/></media:community>
+      <media:category>People &amp; Blogs</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_vF4QvcDmWIs.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -38,8 +56,17 @@
       <guid isPermaLink="false">x_SE5CoXNuG_Y</guid>
       <pubDate>Sun, 14 Jun 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=SE5CoXNuG_Y</link>
-      <description>芒格：遠離這三類人，你的人生才會開掛！ #charliemunger #芒格</description>
+      <description>&lt;p&gt;芒格：遠離這三類人，你的人生才會開掛！ #charliemunger #芒格&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_SE5CoXNuG_Y_keyframes/x_SE5CoXNuG_Y_000000.jpg" alt="芒格：遠離這三類人，你的人生才會開掛！ #charliemunger #芒格" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;芒格：遠離這三類人，你的人生才會開掛！ #charliemunger #芒格&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_SE5CoXNuG_Y_keyframes/x_SE5CoXNuG_Y_000000.jpg" alt="芒格：遠離這三類人，你的人生才會開掛！ #charliemunger #芒格" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_SE5CoXNuG_Y.m4a" type="audio/mp4" length="6807897"/>
+      <itunes:author>X的財經筆記</itunes:author>
+      <itunes:summary>芒格：遠離這三類人，你的人生才會開掛！ #charliemunger #芒格</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:02:38</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_SE5CoXNuG_Y_keyframes/x_SE5CoXNuG_Y_000000.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_SE5CoXNuG_Y_keyframes/x_SE5CoXNuG_Y_000000.jpg"/>
+      <media:community><media:statistics views="33"/></media:community>
+      <media:category>People &amp; Blogs</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_SE5CoXNuG_Y.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -47,8 +74,17 @@
       <guid isPermaLink="false">x_WozyR-uRgUs</guid>
       <pubDate>Sat, 13 Jun 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=WozyR-uRgUs</link>
-      <description>查理·芒格：人生漫長，充滿了遺憾和痛苦！#charliemunger #芒格</description>
+      <description>&lt;p&gt;查理·芒格：人生漫長，充滿了遺憾和痛苦！#charliemunger #芒格&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_WozyR-uRgUs_keyframes/x_WozyR-uRgUs_000049.jpg" alt="查理·芒格：人生漫長，充滿了遺憾和痛苦！#charliemunger #芒格" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;查理·芒格：人生漫長，充滿了遺憾和痛苦！#charliemunger #芒格&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_WozyR-uRgUs_keyframes/x_WozyR-uRgUs_000049.jpg" alt="查理·芒格：人生漫長，充滿了遺憾和痛苦！#charliemunger #芒格" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_WozyR-uRgUs.m4a" type="audio/mp4" length="4630038"/>
+      <itunes:author>X的財經筆記</itunes:author>
+      <itunes:summary>查理·芒格：人生漫長，充滿了遺憾和痛苦！#charliemunger #芒格</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:01:56</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_WozyR-uRgUs_keyframes/x_WozyR-uRgUs_000049.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_WozyR-uRgUs_keyframes/x_WozyR-uRgUs_000049.jpg"/>
+      <media:community><media:statistics views="14"/></media:community>
+      <media:category>People &amp; Blogs</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_WozyR-uRgUs.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -56,8 +92,17 @@
       <guid isPermaLink="false">x_vlDErtgEyFM</guid>
       <pubDate>Fri, 12 Jun 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=vlDErtgEyFM</link>
-      <description>既然巴菲特的持倉是公開的，我們為什麼不能跟著買？#warrenbuffett #投資 #巴菲特</description>
+      <description>&lt;p&gt;既然巴菲特的持倉是公開的，我們為什麼不能跟著買？#warrenbuffett #投資 #巴菲特&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_vlDErtgEyFM_keyframes/x_vlDErtgEyFM_000000.jpg" alt="既然巴菲特的持倉是公開的，我們為什麼不能跟著買？#warrenbuffett #投資 #巴菲特" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;既然巴菲特的持倉是公開的，我們為什麼不能跟著買？#warrenbuffett #投資 #巴菲特&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_vlDErtgEyFM_keyframes/x_vlDErtgEyFM_000000.jpg" alt="既然巴菲特的持倉是公開的，我們為什麼不能跟著買？#warrenbuffett #投資 #巴菲特" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_vlDErtgEyFM.m4a" type="audio/mp4" length="4941416"/>
+      <itunes:author>X的財經筆記</itunes:author>
+      <itunes:summary>既然巴菲特的持倉是公開的，我們為什麼不能跟著買？#warrenbuffett #投資 #巴菲特</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:01:41</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_vlDErtgEyFM_keyframes/x_vlDErtgEyFM_000000.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_vlDErtgEyFM_keyframes/x_vlDErtgEyFM_000000.jpg"/>
+      <media:community><media:statistics views="78"/></media:community>
+      <media:category>People &amp; Blogs</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_vlDErtgEyFM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -65,8 +110,17 @@
       <guid isPermaLink="false">x_dzTP-abkWCc</guid>
       <pubDate>Wed, 11 Feb 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=dzTP-abkWCc</link>
-      <description>投资方法论与决策科学｜风投女神徐新投资中的三个方法论</description>
+      <description>&lt;p&gt;投资方法论与决策科学｜风投女神徐新投资中的三个方法论&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_dzTP-abkWCc_keyframes/x_dzTP-abkWCc_000014.jpg" alt="投资方法论与决策科学｜风投女神徐新投资中的三个方法论" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;投资方法论与决策科学｜风投女神徐新投资中的三个方法论&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_dzTP-abkWCc_keyframes/x_dzTP-abkWCc_000014.jpg" alt="投资方法论与决策科学｜风投女神徐新投资中的三个方法论" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_dzTP-abkWCc.m4a" type="audio/mp4" length="15248573"/>
+      <itunes:author>X的財經筆記</itunes:author>
+      <itunes:summary>投资方法论与决策科学｜风投女神徐新投资中的三个方法论</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:05:28</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_dzTP-abkWCc_keyframes/x_dzTP-abkWCc_000014.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_dzTP-abkWCc_keyframes/x_dzTP-abkWCc_000014.jpg"/>
+      <media:community><media:statistics views="75"/></media:community>
+      <media:category>People &amp; Blogs</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_dzTP-abkWCc.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -74,8 +128,17 @@
       <guid isPermaLink="false">x_Ofio1iI-i50</guid>
       <pubDate>Mon, 01 Dec 2025 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=Ofio1iI-i50</link>
-      <description>告別複雜公式！巴菲特估值法核心就一條！</description>
+      <description>&lt;p&gt;告別複雜公式！巴菲特估值法核心就一條！&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_Ofio1iI-i50_keyframes/x_Ofio1iI-i50_000000.jpg" alt="告別複雜公式！巴菲特估值法核心就一條！" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;告別複雜公式！巴菲特估值法核心就一條！&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_Ofio1iI-i50_keyframes/x_Ofio1iI-i50_000000.jpg" alt="告別複雜公式！巴菲特估值法核心就一條！" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/x_Ofio1iI-i50.m4a" type="audio/mp4" length="5111620"/>
+      <itunes:author>X的財經筆記</itunes:author>
+      <itunes:summary>告別複雜公式！巴菲特估值法核心就一條！</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:01:37</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_Ofio1iI-i50_keyframes/x_Ofio1iI-i50_000000.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/x/x_Ofio1iI-i50_keyframes/x_Ofio1iI-i50_000000.jpg"/>
+      <media:community><media:statistics views="31"/></media:community>
+      <media:category>People &amp; Blogs</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/x/transcripts/x_Ofio1iI-i50.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
   </channel>

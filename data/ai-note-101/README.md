@@ -14,6 +14,8 @@
 | 影片 | 日期 |
 | --- | --- |
 | [OpenAI 一晚公布 400 項數學結果，Mathematica 發明人 Wolfram 當場潑冷水：題目都是人先定義好的 【AI 大人說】](ai-note-101_YL3yve9tIB0_keyframes.md) | 2026-10-14 |
+| [「楊立昆錯在太看輕語言」史丹佛 Christopher Manning：只讀文字的模型，一樣學得會這個世界 【AI 大人說】](ai-note-101_ZdMf47ftJrM_keyframes.md) | 2026-10-14 |
+| [「AI 是一門很奇怪的學科」沒有第一原理、最好的成果不發表｜北大數學教授鄂維南 【AI 大人說】](ai-note-101_cnuExliGgjk_keyframes.md) | 2026-10-14 |
 | [Character.AI破產，27億美元交易後只剩2,000萬美元底價【AI新聞快報 2026/10/14】](ai-note-101_IiYHFtstQ9Y_keyframes.md) | 2026-10-13 |
 | [「神經網路這點我錯了」反對了 30 多年的哈佛心理學家 Steven Pinker：但 AI 末日論把智慧當成超能力 【AI 大人說】](ai-note-101_JHRH4D3DRhU_keyframes.md) | 2026-10-13 |
 | [「接下來三年我什麼都不做也行」Kevin Buzzard 在牛津這樣講，會議結束隔天 Anthropic 公布 Claude 證完費馬最後定理 【AI 大人說】](ai-note-101_hXyLkaZpeo8_keyframes.md) | 2026-10-13 |

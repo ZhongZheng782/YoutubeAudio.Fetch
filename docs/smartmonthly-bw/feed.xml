@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Smart智富月刊</title>
     <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
@@ -9,19 +9,75 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>Smart智富月刊 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_o4KXRKrwlUs_keyframes/smartmonthly-bw_o4KXRKrwlUs_000004.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_B4LNkzUrsvM_keyframes/smartmonthly-bw_B4LNkzUrsvM_000011.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_o4KXRKrwlUs_keyframes/smartmonthly-bw_o4KXRKrwlUs_000004.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_B4LNkzUrsvM_keyframes/smartmonthly-bw_B4LNkzUrsvM_000011.jpg</url>
       <title>Smart智富月刊</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>庫存還有，銅價憑什麼一直漲？形容銅市現況就是一個「囤」字！｜芷娟、峰哥｜人人都能學會ETF</title>
+      <guid isPermaLink="false">smartmonthly-bw_B4LNkzUrsvM</guid>
+      <pubDate>Wed, 14 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=B4LNkzUrsvM</link>
+      <description>&lt;p&gt;今年8月，倫敦金屬交易所銅價突破每公噸14,000美元，改寫歷史新高。但奇怪的是，全球銅庫存不減反增——這個違背常識的現象，正是本集要幫你解開的謎。&lt;br/&gt;&lt;br/&gt;本集也特別介紹台股掛牌的銅價ETF——00763U 期街口道瓊銅，說明它的操作邏輯、季線支撐概念、最大回撤參考值，以及期貨ETF必知的轉倉成本風險。想感受銅價律動的投資朋友，這集值得從頭看到尾！&lt;br/&gt;&lt;br/&gt;⏱ 高光時碼&lt;br/&gt;00:00:00 銅價創新高但庫存增加，違背常識？&lt;br/&gt;00:02:46 關鍵原因：關稅預期心理讓全球搶先囤銅&lt;br/&gt;00:05:14 銅列入美國關鍵礦物清單：從民生升格為國安等級&lt;br/&gt;00:12:18 銅價接下來會怎麼走？&lt;br/&gt;00:20:12 期街口道瓊銅00763U ETF介紹與操作心得&lt;br/&gt;&lt;br/&gt;#ETF #投資理財 #台股 #銅價 #00763U &lt;br/&gt;#原物料 #關鍵礦物 #AI基礎建設 #新能源 #凱基期貨&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_B4LNkzUrsvM_keyframes/smartmonthly-bw_B4LNkzUrsvM_000011.jpg" alt="庫存還有，銅價憑什麼一直漲？形容銅市現況就是一個「囤」字！｜芷娟、峰哥｜人人都能學會ETF" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;今年8月，倫敦金屬交易所銅價突破每公噸14,000美元，改寫歷史新高。但奇怪的是，全球銅庫存不減反增——這個違背常識的現象，正是本集要幫你解開的謎。&lt;br/&gt;&lt;br/&gt;本集也特別介紹台股掛牌的銅價ETF——00763U 期街口道瓊銅，說明它的操作邏輯、季線支撐概念、最大回撤參考值，以及期貨ETF必知的轉倉成本風險。想感受銅價律動的投資朋友，這集值得從頭看到尾！&lt;br/&gt;&lt;br/&gt;⏱ 高光時碼&lt;br/&gt;00:00:00 銅價創新高但庫存增加，違背常識？&lt;br/&gt;00:02:46 關鍵原因：關稅預期心理讓全球搶先囤銅&lt;br/&gt;00:05:14 銅列入美國關鍵礦物清單：從民生升格為國安等級&lt;br/&gt;00:12:18 銅價接下來會怎麼走？&lt;br/&gt;00:20:12 期街口道瓊銅00763U ETF介紹與操作心得&lt;br/&gt;&lt;br/&gt;#ETF #投資理財 #台股 #銅價 #00763U &lt;br/&gt;#原物料 #關鍵礦物 #AI基礎建設 #新能源 #凱基期貨&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_B4LNkzUrsvM_keyframes/smartmonthly-bw_B4LNkzUrsvM_000011.jpg" alt="庫存還有，銅價憑什麼一直漲？形容銅市現況就是一個「囤」字！｜芷娟、峰哥｜人人都能學會ETF" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_B4LNkzUrsvM.m4a" type="audio/mp4" length="51146856"/>
+      <itunes:author>Smart智富月刊</itunes:author>
+      <itunes:summary>今年8月，倫敦金屬交易所銅價突破每公噸14,000美元，改寫歷史新高。但奇怪的是，全球銅庫存不減反增——這個違背常識的現象，正是本集要幫你解開的謎。
+
+本集也特別介紹台股掛牌的銅價ETF——00763U 期街口道瓊銅，說明它的操作邏輯、季線支撐概念、最大回撤參考值，以及期貨ETF必知的轉倉成本風險。想感受銅價律動的投資朋友，這集值得從頭看到尾！
+
+⏱ 高光時碼
+00:00:00 銅價創新高但庫存增加，違背常識？
+00:02:46 關鍵原因：關稅預期心理讓全球搶先囤銅
+00:05:14 銅列入美國關鍵礦物清單：從民生升格為國安等級
+00:12:18 銅價接下來會怎麼走？
+00:20:12 期街口道瓊銅00763U ETF介紹與操作心得
+
+#ETF #投資理財 #台股 #銅價 #00763U 
+#原物料 #關鍵礦物 #AI基礎建設 #新能源 #凱基期貨</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:26:10</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_B4LNkzUrsvM_keyframes/smartmonthly-bw_B4LNkzUrsvM_000011.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_B4LNkzUrsvM_keyframes/smartmonthly-bw_B4LNkzUrsvM_000011.jpg"/>
+      <media:community><media:statistics views="5629"/></media:community>
+      <media:category>Education</media:category>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_B4LNkzUrsvM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
     <item>
       <title>台股5萬點不是終點？股海老牛點名「台股三本柱」！第4季還有一波行情？高股息ETF今年加速快跑，0056、00878、00919還能抱？｜峰哥ft. 股海老牛｜Smart智富．投資的一千零一夜254</title>
       <guid isPermaLink="false">smartmonthly-bw_o4KXRKrwlUs</guid>
       <pubDate>Sat, 10 Oct 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=o4KXRKrwlUs</link>
-      <description>台股5萬點不是終點？股海老牛點名「台股三本柱」！第4季還有一波行情？高股息ETF今年加速快跑，0056、00878、00919還能抱？｜峰哥ft. 股海老牛｜Smart智富．投資的一千零一夜254</description>
+      <description>&lt;p&gt;本集重點&lt;br/&gt;🔹台積電創新高，漲勢能持續？&lt;br/&gt;🔹台積電2500元算貴嗎？&lt;br/&gt;🔹聯發科後勢如何觀察？&lt;br/&gt;🔹高股息ETF今年為何大漲？&lt;br/&gt;🔹高股息ETF漲多，還能續抱嗎？&lt;br/&gt;&lt;br/&gt;＊本集影片錄影時間為2026年10月6日&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;峰哥唯一粉專 ：峰哥的投資思考筆記&lt;br/&gt;⚠️峰哥沒有開立社團，請勿受騙⚠️&lt;br/&gt;👉 https://www.facebook.com/ThinkingofFeng&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;關鍵字：&lt;br/&gt;&lt;br/&gt;#股海老牛 #台積電 #聯發科 #三本柱 #00878 #高股息 #市值型 #ETF #本益比 #峰哥 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_o4KXRKrwlUs_keyframes/smartmonthly-bw_o4KXRKrwlUs_000004.jpg" alt="台股5萬點不是終點？股海老牛點名「台股三本柱」！第4季還有一波行情？高股息ETF今年加速快跑，0056、00878、00919還能抱？｜峰哥ft. 股海老牛｜Smart智富．投資的一千零一夜254" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;本集重點&lt;br/&gt;🔹台積電創新高，漲勢能持續？&lt;br/&gt;🔹台積電2500元算貴嗎？&lt;br/&gt;🔹聯發科後勢如何觀察？&lt;br/&gt;🔹高股息ETF今年為何大漲？&lt;br/&gt;🔹高股息ETF漲多，還能續抱嗎？&lt;br/&gt;&lt;br/&gt;＊本集影片錄影時間為2026年10月6日&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;峰哥唯一粉專 ：峰哥的投資思考筆記&lt;br/&gt;⚠️峰哥沒有開立社團，請勿受騙⚠️&lt;br/&gt;👉 https://www.facebook.com/ThinkingofFeng&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;關鍵字：&lt;br/&gt;&lt;br/&gt;#股海老牛 #台積電 #聯發科 #三本柱 #00878 #高股息 #市值型 #ETF #本益比 #峰哥 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_o4KXRKrwlUs_keyframes/smartmonthly-bw_o4KXRKrwlUs_000004.jpg" alt="台股5萬點不是終點？股海老牛點名「台股三本柱」！第4季還有一波行情？高股息ETF今年加速快跑，0056、00878、00919還能抱？｜峰哥ft. 股海老牛｜Smart智富．投資的一千零一夜254" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_o4KXRKrwlUs.m4a" type="audio/mp4" length="49503721"/>
+      <itunes:author>Smart智富月刊</itunes:author>
+      <itunes:summary>本集重點
+🔹台積電創新高，漲勢能持續？
+🔹台積電2500元算貴嗎？
+🔹聯發科後勢如何觀察？
+🔹高股息ETF今年為何大漲？
+🔹高股息ETF漲多，還能續抱嗎？
+
+＊本集影片錄影時間為2026年10月6日
+
+
+峰哥唯一粉專 ：峰哥的投資思考筆記
+⚠️峰哥沒有開立社團，請勿受騙⚠️
+👉 https://www.facebook.com/ThinkingofFeng
+
+
+關鍵字：
+
+#股海老牛 #台積電 #聯發科 #三本柱 #00878 #高股息 #市值型 #ETF #本益比 #峰哥 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:24:45</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_o4KXRKrwlUs_keyframes/smartmonthly-bw_o4KXRKrwlUs_000004.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_o4KXRKrwlUs_keyframes/smartmonthly-bw_o4KXRKrwlUs_000004.jpg"/>
+      <media:community><media:statistics views="92032"/></media:community>
+      <media:category>Education</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_o4KXRKrwlUs.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -29,8 +85,34 @@
       <guid isPermaLink="false">smartmonthly-bw_AfB6x3Qzftg</guid>
       <pubDate>Thu, 08 Oct 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=AfB6x3Qzftg</link>
-      <description>台股創高嗨翻，持股卻沒漲！該抱還是該跑？｜曾仲葳、Ｋ線捕手楊忠憲｜Smart投資教室</description>
+      <description>&lt;p&gt;指數創高紅通通！手中持股卻是綠油油？本集邀請楊忠憲老師，教你看懂台股創高與有效突破的區別。從市場、趨勢與籌碼變化，快速判斷套牢股快漲了？還是會愈套愈深？無論你是套牢、獲利或空手，都能找到更適合自己的操作策略。&lt;br/&gt; &lt;br/&gt;【本集重點】&lt;br/&gt;🔹01:03 創高≠突破？看懂台股位階&lt;br/&gt;🔹01:52 大盤漲、個股沒動？小心市場窄化&lt;br/&gt;🔹04:00 持股盤整，未來會漲嗎？&lt;br/&gt;🔹06:21 汰弱留強？強勢股必看3項條件&lt;br/&gt;🔹07:33 買股前先打分數！8分以上才安全&lt;br/&gt;🔹08:53 套牢、獲利、空手怎麼辦？&lt;br/&gt;🔹10:52 台股逼近5萬點，必看高檔策略 &lt;br/&gt;＊本集錄影日期：2026年10月5日&lt;br/&gt; &lt;br/&gt;實體/直播課程【 Q4楊忠憲 K線捕手致勝班】&lt;br/&gt;主力攻防 × 停利停損 × 選股配置 &lt;br/&gt;進階投資決策實戰&lt;br/&gt;報名洽Smart LINE@: https://reurl.cc/0vvQZb&lt;br/&gt;&lt;br/&gt;#台股、#楊忠憲、#技術分析、#籌碼、#20日線、#有效突破、#汰弱留強、#選股&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_AfB6x3Qzftg_keyframes/smartmonthly-bw_AfB6x3Qzftg_000007.jpg" alt="台股創高嗨翻，持股卻沒漲！該抱還是該跑？｜曾仲葳、Ｋ線捕手楊忠憲｜Smart投資教室" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;指數創高紅通通！手中持股卻是綠油油？本集邀請楊忠憲老師，教你看懂台股創高與有效突破的區別。從市場、趨勢與籌碼變化，快速判斷套牢股快漲了？還是會愈套愈深？無論你是套牢、獲利或空手，都能找到更適合自己的操作策略。&lt;br/&gt; &lt;br/&gt;【本集重點】&lt;br/&gt;🔹01:03 創高≠突破？看懂台股位階&lt;br/&gt;🔹01:52 大盤漲、個股沒動？小心市場窄化&lt;br/&gt;🔹04:00 持股盤整，未來會漲嗎？&lt;br/&gt;🔹06:21 汰弱留強？強勢股必看3項條件&lt;br/&gt;🔹07:33 買股前先打分數！8分以上才安全&lt;br/&gt;🔹08:53 套牢、獲利、空手怎麼辦？&lt;br/&gt;🔹10:52 台股逼近5萬點，必看高檔策略 &lt;br/&gt;＊本集錄影日期：2026年10月5日&lt;br/&gt; &lt;br/&gt;實體/直播課程【 Q4楊忠憲 K線捕手致勝班】&lt;br/&gt;主力攻防 × 停利停損 × 選股配置 &lt;br/&gt;進階投資決策實戰&lt;br/&gt;報名洽Smart LINE@: https://reurl.cc/0vvQZb&lt;br/&gt;&lt;br/&gt;#台股、#楊忠憲、#技術分析、#籌碼、#20日線、#有效突破、#汰弱留強、#選股&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_AfB6x3Qzftg_keyframes/smartmonthly-bw_AfB6x3Qzftg_000007.jpg" alt="台股創高嗨翻，持股卻沒漲！該抱還是該跑？｜曾仲葳、Ｋ線捕手楊忠憲｜Smart投資教室" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_AfB6x3Qzftg.m4a" type="audio/mp4" length="35679928"/>
+      <itunes:author>Smart智富月刊</itunes:author>
+      <itunes:summary>指數創高紅通通！手中持股卻是綠油油？本集邀請楊忠憲老師，教你看懂台股創高與有效突破的區別。從市場、趨勢與籌碼變化，快速判斷套牢股快漲了？還是會愈套愈深？無論你是套牢、獲利或空手，都能找到更適合自己的操作策略。
+ 
+【本集重點】
+🔹01:03 創高≠突破？看懂台股位階
+🔹01:52 大盤漲、個股沒動？小心市場窄化
+🔹04:00 持股盤整，未來會漲嗎？
+🔹06:21 汰弱留強？強勢股必看3項條件
+🔹07:33 買股前先打分數！8分以上才安全
+🔹08:53 套牢、獲利、空手怎麼辦？
+🔹10:52 台股逼近5萬點，必看高檔策略 
+＊本集錄影日期：2026年10月5日
+ 
+實體/直播課程【 Q4楊忠憲 K線捕手致勝班】
+主力攻防 × 停利停損 × 選股配置 
+進階投資決策實戰
+報名洽Smart LINE@: https://reurl.cc/0vvQZb
+
+#台股、#楊忠憲、#技術分析、#籌碼、#20日線、#有效突破、#汰弱留強、#選股</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:15:23</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_AfB6x3Qzftg_keyframes/smartmonthly-bw_AfB6x3Qzftg_000007.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_AfB6x3Qzftg_keyframes/smartmonthly-bw_AfB6x3Qzftg_000007.jpg"/>
+      <media:community><media:statistics views="4634"/></media:community>
+      <media:category>Education</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_AfB6x3Qzftg.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -38,8 +120,32 @@
       <guid isPermaLink="false">smartmonthly-bw_ri3QpRmhBCM</guid>
       <pubDate>Sat, 03 Oct 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=ri3QpRmhBCM</link>
-      <description>輝達、台積電業績好、股價漲不動，為什麼？輝達追加股票回購的3層盤算！台積電股價委曲嗎？｜峰哥｜Smart智富．投資的一千零一夜253</description>
+      <description>&lt;p&gt;本集重點&lt;br/&gt;🔹輝達斥鉅資追加股票回購&lt;br/&gt;🔹輝達追加股票回購的3層盤算&lt;br/&gt;🔹傳聞台積電設美國第二園區？&lt;br/&gt;🔹台積電赴美設廠的4個盤算？&lt;br/&gt;🔹輝達股價為何漲不動？&lt;br/&gt;🔹台積電股價其實很委屈？&lt;br/&gt;&lt;br/&gt;＊本集影片錄影時間為2026年09月29日&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;峰哥唯一粉專 ：峰哥的投資思考筆記&lt;br/&gt;⚠️峰哥沒有開立社團，請勿受騙⚠️&lt;br/&gt;👉 https://www.facebook.com/ThinkingofFeng&lt;br/&gt;&lt;br/&gt;#輝達 #黃仁勳 #台積電 #庫藏股 #回購 #關稅保險 #循環融資 #美國設廠 #本益比 #峰哥 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_ri3QpRmhBCM_keyframes/smartmonthly-bw_ri3QpRmhBCM_000018.jpg" alt="輝達、台積電業績好、股價漲不動，為什麼？輝達追加股票回購的3層盤算！台積電股價委曲嗎？｜峰哥｜Smart智富．投資的一千零一夜253" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;本集重點&lt;br/&gt;🔹輝達斥鉅資追加股票回購&lt;br/&gt;🔹輝達追加股票回購的3層盤算&lt;br/&gt;🔹傳聞台積電設美國第二園區？&lt;br/&gt;🔹台積電赴美設廠的4個盤算？&lt;br/&gt;🔹輝達股價為何漲不動？&lt;br/&gt;🔹台積電股價其實很委屈？&lt;br/&gt;&lt;br/&gt;＊本集影片錄影時間為2026年09月29日&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;峰哥唯一粉專 ：峰哥的投資思考筆記&lt;br/&gt;⚠️峰哥沒有開立社團，請勿受騙⚠️&lt;br/&gt;👉 https://www.facebook.com/ThinkingofFeng&lt;br/&gt;&lt;br/&gt;#輝達 #黃仁勳 #台積電 #庫藏股 #回購 #關稅保險 #循環融資 #美國設廠 #本益比 #峰哥 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_ri3QpRmhBCM_keyframes/smartmonthly-bw_ri3QpRmhBCM_000018.jpg" alt="輝達、台積電業績好、股價漲不動，為什麼？輝達追加股票回購的3層盤算！台積電股價委曲嗎？｜峰哥｜Smart智富．投資的一千零一夜253" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_ri3QpRmhBCM.m4a" type="audio/mp4" length="40578730"/>
+      <itunes:author>Smart智富月刊</itunes:author>
+      <itunes:summary>本集重點
+🔹輝達斥鉅資追加股票回購
+🔹輝達追加股票回購的3層盤算
+🔹傳聞台積電設美國第二園區？
+🔹台積電赴美設廠的4個盤算？
+🔹輝達股價為何漲不動？
+🔹台積電股價其實很委屈？
+
+＊本集影片錄影時間為2026年09月29日
+
+
+峰哥唯一粉專 ：峰哥的投資思考筆記
+⚠️峰哥沒有開立社團，請勿受騙⚠️
+👉 https://www.facebook.com/ThinkingofFeng
+
+#輝達 #黃仁勳 #台積電 #庫藏股 #回購 #關稅保險 #循環融資 #美國設廠 #本益比 #峰哥 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:19:28</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_ri3QpRmhBCM_keyframes/smartmonthly-bw_ri3QpRmhBCM_000018.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_ri3QpRmhBCM_keyframes/smartmonthly-bw_ri3QpRmhBCM_000018.jpg"/>
+      <media:community><media:statistics views="93118"/></media:community>
+      <media:category>Education</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_ri3QpRmhBCM.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -47,8 +153,27 @@
       <guid isPermaLink="false">smartmonthly-bw_opHWowpsGA8</guid>
       <pubDate>Wed, 30 Sep 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=opHWowpsGA8</link>
-      <description>AI股獲利了結後，錢可以擺在哪裡? 帶您關注『潛力市場』的配置機會｜詹璇依、黃大展│Smart投資教室</description>
+      <description>&lt;p&gt;FED在錄影當天宣布2023年以來首次重啟升息，買美債等降息甜頭的人再次空手而回——但這一集要告訴你，或許你一直找錯地方了。本集《Smart投資教室》邀請展新投顧創辦人黃大展（筆名「小老闆」），帶你重新認識一個長期被忽視的資產類別：新興市場債。&lt;br/&gt;&lt;br/&gt;如果你對被動收入有興趣，或是對債券投資還有陰影，這集值得你重新打開心房看一次。喜歡節目記得按讚訂閱，也歡迎到「小老闆的二三事」粉專繼續交流！&lt;br/&gt;&lt;br/&gt;00:00:00 開場／投資兩條路：資產增值 vs 被動收入&lt;br/&gt;00:01:37 債蛙的傷痛：美債降息走太慢，又回到升息循環&lt;br/&gt;00:02:30 數字衝擊：巴西實質利率9.6% vs 美國0.25%&lt;br/&gt;00:08:00 新興市場債體質大改變：叛逆青少年轉大人了&lt;br/&gt;00:16:20 威廉博萊選債邏輯：用Beta分池取代地區分法&lt;br/&gt;&lt;br/&gt;#投資理財 #ETF #被動收入 #新興市場債 #債券投資 #展新投顧 #實質利率 #美債替代&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_opHWowpsGA8_keyframes/smartmonthly-bw_opHWowpsGA8_000010.jpg" alt="AI股獲利了結後，錢可以擺在哪裡? 帶您關注『潛力市場』的配置機會｜詹璇依、黃大展│Smart投資教室" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;FED在錄影當天宣布2023年以來首次重啟升息，買美債等降息甜頭的人再次空手而回——但這一集要告訴你，或許你一直找錯地方了。本集《Smart投資教室》邀請展新投顧創辦人黃大展（筆名「小老闆」），帶你重新認識一個長期被忽視的資產類別：新興市場債。&lt;br/&gt;&lt;br/&gt;如果你對被動收入有興趣，或是對債券投資還有陰影，這集值得你重新打開心房看一次。喜歡節目記得按讚訂閱，也歡迎到「小老闆的二三事」粉專繼續交流！&lt;br/&gt;&lt;br/&gt;00:00:00 開場／投資兩條路：資產增值 vs 被動收入&lt;br/&gt;00:01:37 債蛙的傷痛：美債降息走太慢，又回到升息循環&lt;br/&gt;00:02:30 數字衝擊：巴西實質利率9.6% vs 美國0.25%&lt;br/&gt;00:08:00 新興市場債體質大改變：叛逆青少年轉大人了&lt;br/&gt;00:16:20 威廉博萊選債邏輯：用Beta分池取代地區分法&lt;br/&gt;&lt;br/&gt;#投資理財 #ETF #被動收入 #新興市場債 #債券投資 #展新投顧 #實質利率 #美債替代&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_opHWowpsGA8_keyframes/smartmonthly-bw_opHWowpsGA8_000010.jpg" alt="AI股獲利了結後，錢可以擺在哪裡? 帶您關注『潛力市場』的配置機會｜詹璇依、黃大展│Smart投資教室" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_opHWowpsGA8.m4a" type="audio/mp4" length="57367085"/>
+      <itunes:author>Smart智富月刊</itunes:author>
+      <itunes:summary>FED在錄影當天宣布2023年以來首次重啟升息，買美債等降息甜頭的人再次空手而回——但這一集要告訴你，或許你一直找錯地方了。本集《Smart投資教室》邀請展新投顧創辦人黃大展（筆名「小老闆」），帶你重新認識一個長期被忽視的資產類別：新興市場債。
+
+如果你對被動收入有興趣，或是對債券投資還有陰影，這集值得你重新打開心房看一次。喜歡節目記得按讚訂閱，也歡迎到「小老闆的二三事」粉專繼續交流！
+
+00:00:00 開場／投資兩條路：資產增值 vs 被動收入
+00:01:37 債蛙的傷痛：美債降息走太慢，又回到升息循環
+00:02:30 數字衝擊：巴西實質利率9.6% vs 美國0.25%
+00:08:00 新興市場債體質大改變：叛逆青少年轉大人了
+00:16:20 威廉博萊選債邏輯：用Beta分池取代地區分法
+
+#投資理財 #ETF #被動收入 #新興市場債 #債券投資 #展新投顧 #實質利率 #美債替代</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:20:05</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_opHWowpsGA8_keyframes/smartmonthly-bw_opHWowpsGA8_000010.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_opHWowpsGA8_keyframes/smartmonthly-bw_opHWowpsGA8_000010.jpg"/>
+      <media:community><media:statistics views="48346"/></media:community>
+      <media:category>Education</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_opHWowpsGA8.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -56,8 +181,34 @@
       <guid isPermaLink="false">smartmonthly-bw_HLeipjrNbik</guid>
       <pubDate>Tue, 29 Sep 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=HLeipjrNbik</link>
-      <description>央行第7波信用管制滿兩週年，成屋買氣有感回溫？｜永慶房屋陳賜傑、Amy｜房產關鍵字</description>
+      <description>&lt;p&gt;台北市預售屋比中古屋貴將近6成，單坪價差甚至高達48萬元、幾乎可以買一輛國產車！在價格依然居高不下的房市格局中，自住首購族、換屋族現在到底能不能買房？又該如何選對物件？本集《房產關鍵字》特別邀請永慶房屋業管部協理陳賜傑，透過一手數據，帶大家深入拆解2026下半年房市真實內幕，掌握最佳購屋策略！請看影片🎬&lt;br/&gt;&lt;br/&gt;0:00 央行管制滿兩年，成屋市場量小增&lt;br/&gt;4:50 預售屋銷售率低迷，與中古屋價差大成主因？&lt;br/&gt;9:12 看屋策略與買房建議 &lt;br/&gt;11:27 掌握這三大關鍵因素，了解未來房市變化&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;📣投資自己！請至「Smart自學網｜課程好學」，掌握更多投資理財、職場進修資訊：https://reurl.cc/knK0Kb&lt;br/&gt;開啟🔔新影片上架不漏接！或追蹤我們獲得最新情報：&lt;br/&gt;👉商周財富網：https://reurl.cc/mkrV2A&lt;br/&gt;👉商周財富網FB：https://reurl.cc/83Wx47 &lt;br/&gt;👉Smart自學網：https://reurl.cc/yrk5nE &lt;br/&gt;👉Smart智富月刊FB：https://reurl.cc/O0pK77 &lt;br/&gt;&lt;br/&gt;#房產關鍵字 #青安貸款 #信用管制&lt;br/&gt;#2026房市 #首購族 #中古屋 #預售屋 &lt;br/&gt;#買房策略 #陳賜傑 #永慶房屋&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_HLeipjrNbik_keyframes/smartmonthly-bw_HLeipjrNbik_000133.jpg" alt="央行第7波信用管制滿兩週年，成屋買氣有感回溫？｜永慶房屋陳賜傑、Amy｜房產關鍵字" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;台北市預售屋比中古屋貴將近6成，單坪價差甚至高達48萬元、幾乎可以買一輛國產車！在價格依然居高不下的房市格局中，自住首購族、換屋族現在到底能不能買房？又該如何選對物件？本集《房產關鍵字》特別邀請永慶房屋業管部協理陳賜傑，透過一手數據，帶大家深入拆解2026下半年房市真實內幕，掌握最佳購屋策略！請看影片🎬&lt;br/&gt;&lt;br/&gt;0:00 央行管制滿兩年，成屋市場量小增&lt;br/&gt;4:50 預售屋銷售率低迷，與中古屋價差大成主因？&lt;br/&gt;9:12 看屋策略與買房建議 &lt;br/&gt;11:27 掌握這三大關鍵因素，了解未來房市變化&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;📣投資自己！請至「Smart自學網｜課程好學」，掌握更多投資理財、職場進修資訊：https://reurl.cc/knK0Kb&lt;br/&gt;開啟🔔新影片上架不漏接！或追蹤我們獲得最新情報：&lt;br/&gt;👉商周財富網：https://reurl.cc/mkrV2A&lt;br/&gt;👉商周財富網FB：https://reurl.cc/83Wx47 &lt;br/&gt;👉Smart自學網：https://reurl.cc/yrk5nE &lt;br/&gt;👉Smart智富月刊FB：https://reurl.cc/O0pK77 &lt;br/&gt;&lt;br/&gt;#房產關鍵字 #青安貸款 #信用管制&lt;br/&gt;#2026房市 #首購族 #中古屋 #預售屋 &lt;br/&gt;#買房策略 #陳賜傑 #永慶房屋&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_HLeipjrNbik_keyframes/smartmonthly-bw_HLeipjrNbik_000133.jpg" alt="央行第7波信用管制滿兩週年，成屋買氣有感回溫？｜永慶房屋陳賜傑、Amy｜房產關鍵字" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_HLeipjrNbik.m4a" type="audio/mp4" length="40290206"/>
+      <itunes:author>Smart智富月刊</itunes:author>
+      <itunes:summary>台北市預售屋比中古屋貴將近6成，單坪價差甚至高達48萬元、幾乎可以買一輛國產車！在價格依然居高不下的房市格局中，自住首購族、換屋族現在到底能不能買房？又該如何選對物件？本集《房產關鍵字》特別邀請永慶房屋業管部協理陳賜傑，透過一手數據，帶大家深入拆解2026下半年房市真實內幕，掌握最佳購屋策略！請看影片🎬
+
+0:00 央行管制滿兩年，成屋市場量小增
+4:50 預售屋銷售率低迷，與中古屋價差大成主因？
+9:12 看屋策略與買房建議 
+11:27 掌握這三大關鍵因素，了解未來房市變化
+
+
+📣投資自己！請至「Smart自學網｜課程好學」，掌握更多投資理財、職場進修資訊：https://reurl.cc/knK0Kb
+開啟🔔新影片上架不漏接！或追蹤我們獲得最新情報：
+👉商周財富網：https://reurl.cc/mkrV2A
+👉商周財富網FB：https://reurl.cc/83Wx47 
+👉Smart自學網：https://reurl.cc/yrk5nE 
+👉Smart智富月刊FB：https://reurl.cc/O0pK77 
+
+#房產關鍵字 #青安貸款 #信用管制
+#2026房市 #首購族 #中古屋 #預售屋 
+#買房策略 #陳賜傑 #永慶房屋</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:14:02</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_HLeipjrNbik_keyframes/smartmonthly-bw_HLeipjrNbik_000133.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_HLeipjrNbik_keyframes/smartmonthly-bw_HLeipjrNbik_000133.jpg"/>
+      <media:community><media:statistics views="37146"/></media:community>
+      <media:category>Education</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_HLeipjrNbik.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -65,8 +216,31 @@
       <guid isPermaLink="false">smartmonthly-bw_V35DrgT3U7w</guid>
       <pubDate>Sat, 26 Sep 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=V35DrgT3U7w</link>
-      <description>FED還會升息幾次？利率會升到多高？台股何時可能反轉？造成通膨失控的潛在危機是什麼？｜峰哥｜Smart智富．投資的一千零一夜252</description>
+      <description>&lt;p&gt;本集重點&lt;br/&gt;🔹美國升息後，台股為何上漲？&lt;br/&gt;🔹美國重啟升息，會升到哪裡？&lt;br/&gt;🔹通膨未失控，美國為何升息？&lt;br/&gt;🔹何時是降息轉折點？盯3訊號&lt;br/&gt;🔹升息了，美債投資人怎麼辦？&lt;br/&gt;🔹短期利空出盡，台股怎麼買？&lt;br/&gt;&lt;br/&gt;＊本集影片錄影時間為2026年9月21日&lt;br/&gt;&lt;br/&gt;峰哥唯一粉專 ：峰哥的投資思考筆記&lt;br/&gt;⚠️峰哥沒有開立社團，請勿受騙⚠️&lt;br/&gt;👉 https://www.facebook.com/ThinkingofFeng&lt;br/&gt;&lt;br/&gt;#聯準會 #升息 #通膨 #油價 #胡塞武裝 #布蘭特原油 #美債 #殖利率 #峰哥 #投資 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_V35DrgT3U7w_keyframes/smartmonthly-bw_V35DrgT3U7w_000007.jpg" alt="FED還會升息幾次？利率會升到多高？台股何時可能反轉？造成通膨失控的潛在危機是什麼？｜峰哥｜Smart智富．投資的一千零一夜252" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;本集重點&lt;br/&gt;🔹美國升息後，台股為何上漲？&lt;br/&gt;🔹美國重啟升息，會升到哪裡？&lt;br/&gt;🔹通膨未失控，美國為何升息？&lt;br/&gt;🔹何時是降息轉折點？盯3訊號&lt;br/&gt;🔹升息了，美債投資人怎麼辦？&lt;br/&gt;🔹短期利空出盡，台股怎麼買？&lt;br/&gt;&lt;br/&gt;＊本集影片錄影時間為2026年9月21日&lt;br/&gt;&lt;br/&gt;峰哥唯一粉專 ：峰哥的投資思考筆記&lt;br/&gt;⚠️峰哥沒有開立社團，請勿受騙⚠️&lt;br/&gt;👉 https://www.facebook.com/ThinkingofFeng&lt;br/&gt;&lt;br/&gt;#聯準會 #升息 #通膨 #油價 #胡塞武裝 #布蘭特原油 #美債 #殖利率 #峰哥 #投資 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_V35DrgT3U7w_keyframes/smartmonthly-bw_V35DrgT3U7w_000007.jpg" alt="FED還會升息幾次？利率會升到多高？台股何時可能反轉？造成通膨失控的潛在危機是什麼？｜峰哥｜Smart智富．投資的一千零一夜252" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_V35DrgT3U7w.m4a" type="audio/mp4" length="39599246"/>
+      <itunes:author>Smart智富月刊</itunes:author>
+      <itunes:summary>本集重點
+🔹美國升息後，台股為何上漲？
+🔹美國重啟升息，會升到哪裡？
+🔹通膨未失控，美國為何升息？
+🔹何時是降息轉折點？盯3訊號
+🔹升息了，美債投資人怎麼辦？
+🔹短期利空出盡，台股怎麼買？
+
+＊本集影片錄影時間為2026年9月21日
+
+峰哥唯一粉專 ：峰哥的投資思考筆記
+⚠️峰哥沒有開立社團，請勿受騙⚠️
+👉 https://www.facebook.com/ThinkingofFeng
+
+#聯準會 #升息 #通膨 #油價 #胡塞武裝 #布蘭特原油 #美債 #殖利率 #峰哥 #投資 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:18:33</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_V35DrgT3U7w_keyframes/smartmonthly-bw_V35DrgT3U7w_000007.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_V35DrgT3U7w_keyframes/smartmonthly-bw_V35DrgT3U7w_000007.jpg"/>
+      <media:community><media:statistics views="97442"/></media:community>
+      <media:category>Education</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_V35DrgT3U7w.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -74,8 +248,29 @@
       <guid isPermaLink="false">smartmonthly-bw_pItgJoTM7DA</guid>
       <pubDate>Fri, 25 Sep 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=pItgJoTM7DA</link>
-      <description>韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室</description>
+      <description>&lt;p&gt;台灣8月出口年增率41%，已經夠猛了——但同樣靠出口吃飯的韓國，同期數字是68.7%，直接頂到20多年來的天花板。這背後，是AI浪潮把記憶體從配角硬推成了主角。&lt;br/&gt;&lt;br/&gt;本集《Smart投資教室》帶你看清楚這波記憶體行情的結構性變化：AI伺服器中GPU真正計算的時間只佔一到三成，剩下都耗在資料搬運，頻寬與存儲才是真正的瓶頸。三星與SK海力士掌握全球最關鍵的HBM供應，獲利能力已與輝達同等級，預估2027年韓國企業整體營業利益將突破千兆韓圜大關。&lt;br/&gt;&lt;br/&gt;更重要的是，這波行情不會曇花一現呢？&lt;br/&gt;&lt;br/&gt;00:00:00 開場／台灣41% vs 韓國68.7%，差距從哪來？&lt;br/&gt;00:01:05 AI瓶頸從算力轉移到傳輸：記憶體憑什麼成主角&lt;br/&gt;00:02:17 記憶體景氣循環拉長：從2年變3到5年的關鍵原因&lt;br/&gt;00:02:45 數字衝擊：獲利預估漲427%，股價只漲266%&lt;br/&gt;00:03:13 總結：基本面又猛又長，估值卻還被低估&lt;br/&gt;&lt;br/&gt;#ETF #台股 #韓股 #記憶體 #HBM #SK海力士 #三星 #KOSPI&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes/smartmonthly-bw_pItgJoTM7DA_000005.jpg" alt="韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;台灣8月出口年增率41%，已經夠猛了——但同樣靠出口吃飯的韓國，同期數字是68.7%，直接頂到20多年來的天花板。這背後，是AI浪潮把記憶體從配角硬推成了主角。&lt;br/&gt;&lt;br/&gt;本集《Smart投資教室》帶你看清楚這波記憶體行情的結構性變化：AI伺服器中GPU真正計算的時間只佔一到三成，剩下都耗在資料搬運，頻寬與存儲才是真正的瓶頸。三星與SK海力士掌握全球最關鍵的HBM供應，獲利能力已與輝達同等級，預估2027年韓國企業整體營業利益將突破千兆韓圜大關。&lt;br/&gt;&lt;br/&gt;更重要的是，這波行情不會曇花一現呢？&lt;br/&gt;&lt;br/&gt;00:00:00 開場／台灣41% vs 韓國68.7%，差距從哪來？&lt;br/&gt;00:01:05 AI瓶頸從算力轉移到傳輸：記憶體憑什麼成主角&lt;br/&gt;00:02:17 記憶體景氣循環拉長：從2年變3到5年的關鍵原因&lt;br/&gt;00:02:45 數字衝擊：獲利預估漲427%，股價只漲266%&lt;br/&gt;00:03:13 總結：基本面又猛又長，估值卻還被低估&lt;br/&gt;&lt;br/&gt;#ETF #台股 #韓股 #記憶體 #HBM #SK海力士 #三星 #KOSPI&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes/smartmonthly-bw_pItgJoTM7DA_000005.jpg" alt="韓國就是狂，8月出口年增近70%，營業利益上攻1,000兆韓圜，三星獲利比肩輝達｜仲葳｜Smart投資教室" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_pItgJoTM7DA.m4a" type="audio/mp4" length="9179152"/>
+      <itunes:author>Smart智富月刊</itunes:author>
+      <itunes:summary>台灣8月出口年增率41%，已經夠猛了——但同樣靠出口吃飯的韓國，同期數字是68.7%，直接頂到20多年來的天花板。這背後，是AI浪潮把記憶體從配角硬推成了主角。
+
+本集《Smart投資教室》帶你看清楚這波記憶體行情的結構性變化：AI伺服器中GPU真正計算的時間只佔一到三成，剩下都耗在資料搬運，頻寬與存儲才是真正的瓶頸。三星與SK海力士掌握全球最關鍵的HBM供應，獲利能力已與輝達同等級，預估2027年韓國企業整體營業利益將突破千兆韓圜大關。
+
+更重要的是，這波行情不會曇花一現呢？
+
+00:00:00 開場／台灣41% vs 韓國68.7%，差距從哪來？
+00:01:05 AI瓶頸從算力轉移到傳輸：記憶體憑什麼成主角
+00:02:17 記憶體景氣循環拉長：從2年變3到5年的關鍵原因
+00:02:45 數字衝擊：獲利預估漲427%，股價只漲266%
+00:03:13 總結：基本面又猛又長，估值卻還被低估
+
+#ETF #台股 #韓股 #記憶體 #HBM #SK海力士 #三星 #KOSPI</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:03:53</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes/smartmonthly-bw_pItgJoTM7DA_000005.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_pItgJoTM7DA_keyframes/smartmonthly-bw_pItgJoTM7DA_000005.jpg"/>
+      <media:community><media:statistics views="36164"/></media:community>
+      <media:category>Education</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_pItgJoTM7DA.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -83,8 +278,52 @@
       <guid isPermaLink="false">smartmonthly-bw_WzJjPd3iG0M</guid>
       <pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=WzJjPd3iG0M</link>
-      <description>客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥ft. 雪寶｜Smart智富．投資的一千零一夜247</description>
+      <description>&lt;p&gt;本集重點&lt;br/&gt;🔹日商銀行外匯工作日常？&lt;br/&gt;🔹為何捨棄金融業高薪換跑道？&lt;br/&gt;🔹旅遊換匯與外匯投資思維？&lt;br/&gt;🔹國外旅遊遇搶？雪寶竟然這樣回搶匪&lt;br/&gt;🔹雪寶個人理財配置&lt;br/&gt;🔹峰哥的個人資產配置作法？&lt;br/&gt;🔹峰哥剖析影響未來AI牛市走向的關鍵指標&lt;br/&gt;&lt;br/&gt;＊本集影片錄影時間為2026年8月17日&lt;br/&gt;&lt;br/&gt;峰哥唯一粉專 ：峰哥的投資思考筆記&lt;br/&gt;⚠️峰哥沒有開立社團，請勿受騙⚠️&lt;br/&gt;👉 https://www.facebook.com/ThinkingofFeng&lt;br/&gt;&lt;br/&gt;數位訂閱【雷浩斯複利成長學院】&lt;br/&gt;陪你建立受用一輩子的投資決策系統！養成投資紀律x交流學習x持續成長&lt;br/&gt;｜每週更新｜深度文章解析、親授觀點音頻、1分鐘重點速讀&lt;br/&gt;✨首月限時優惠：899元／月&lt;br/&gt;立即加入👉https://smartcourse.pse.is/9e4mzw&lt;br/&gt;&lt;br/&gt;線上課程【楊忠憲 技術分析 從0開始看懂K線】&lt;br/&gt;8週陪跑建立交易邏輯，讓每次出手更有依據！&lt;br/&gt;👉 https://pse.is/99jujw&lt;br/&gt;&lt;br/&gt;線上課程【權證小哥 讀懂籌碼就能賺】&lt;br/&gt;散戶必學！從籌碼抓出「關鍵分點」看懂主力資金動向&lt;br/&gt;👉 https://lihi.cc/qKAXd&lt;br/&gt;&lt;br/&gt;線上課程【超業黃明楓14天成交對話力陪跑課】&lt;br/&gt;14天複製超業成功心法，讓你每次開口都更靠近成交！https://smartcourse.pse.is/8vatw4&lt;br/&gt;&lt;br/&gt;商周Smart 課程好學線上課程&lt;br/&gt;👉 https://smartecourse.pse.is/8kkzfz&lt;br/&gt;&lt;br/&gt;#雪寶 #外匯 #外匯交易員 #交易員 #交易室 #換匯 #外匯交易 #資產配置 #台股 #投資 #峰哥 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes/smartmonthly-bw_WzJjPd3iG0M_000013.jpg" alt="客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥ft. 雪寶｜Smart智富．投資的一千零一夜247" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;本集重點&lt;br/&gt;🔹日商銀行外匯工作日常？&lt;br/&gt;🔹為何捨棄金融業高薪換跑道？&lt;br/&gt;🔹旅遊換匯與外匯投資思維？&lt;br/&gt;🔹國外旅遊遇搶？雪寶竟然這樣回搶匪&lt;br/&gt;🔹雪寶個人理財配置&lt;br/&gt;🔹峰哥的個人資產配置作法？&lt;br/&gt;🔹峰哥剖析影響未來AI牛市走向的關鍵指標&lt;br/&gt;&lt;br/&gt;＊本集影片錄影時間為2026年8月17日&lt;br/&gt;&lt;br/&gt;峰哥唯一粉專 ：峰哥的投資思考筆記&lt;br/&gt;⚠️峰哥沒有開立社團，請勿受騙⚠️&lt;br/&gt;👉 https://www.facebook.com/ThinkingofFeng&lt;br/&gt;&lt;br/&gt;數位訂閱【雷浩斯複利成長學院】&lt;br/&gt;陪你建立受用一輩子的投資決策系統！養成投資紀律x交流學習x持續成長&lt;br/&gt;｜每週更新｜深度文章解析、親授觀點音頻、1分鐘重點速讀&lt;br/&gt;✨首月限時優惠：899元／月&lt;br/&gt;立即加入👉https://smartcourse.pse.is/9e4mzw&lt;br/&gt;&lt;br/&gt;線上課程【楊忠憲 技術分析 從0開始看懂K線】&lt;br/&gt;8週陪跑建立交易邏輯，讓每次出手更有依據！&lt;br/&gt;👉 https://pse.is/99jujw&lt;br/&gt;&lt;br/&gt;線上課程【權證小哥 讀懂籌碼就能賺】&lt;br/&gt;散戶必學！從籌碼抓出「關鍵分點」看懂主力資金動向&lt;br/&gt;👉 https://lihi.cc/qKAXd&lt;br/&gt;&lt;br/&gt;線上課程【超業黃明楓14天成交對話力陪跑課】&lt;br/&gt;14天複製超業成功心法，讓你每次開口都更靠近成交！https://smartcourse.pse.is/8vatw4&lt;br/&gt;&lt;br/&gt;商周Smart 課程好學線上課程&lt;br/&gt;👉 https://smartecourse.pse.is/8kkzfz&lt;br/&gt;&lt;br/&gt;#雪寶 #外匯 #外匯交易員 #交易員 #交易室 #換匯 #外匯交易 #資產配置 #台股 #投資 #峰哥 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes/smartmonthly-bw_WzJjPd3iG0M_000013.jpg" alt="客戶叫我「土下座」！雪寶揭外匯交易職涯最震撼的一天。國外旅遊遇搶，雪寶竟然這樣回搶匪？雪寶最想問峰哥的兩個理財問題是什麼？｜峰哥ft. 雪寶｜Smart智富．投資的一千零一夜247" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_WzJjPd3iG0M.m4a" type="audio/mp4" length="55729557"/>
+      <itunes:author>Smart智富月刊</itunes:author>
+      <itunes:summary>本集重點
+🔹日商銀行外匯工作日常？
+🔹為何捨棄金融業高薪換跑道？
+🔹旅遊換匯與外匯投資思維？
+🔹國外旅遊遇搶？雪寶竟然這樣回搶匪
+🔹雪寶個人理財配置
+🔹峰哥的個人資產配置作法？
+🔹峰哥剖析影響未來AI牛市走向的關鍵指標
+
+＊本集影片錄影時間為2026年8月17日
+
+峰哥唯一粉專 ：峰哥的投資思考筆記
+⚠️峰哥沒有開立社團，請勿受騙⚠️
+👉 https://www.facebook.com/ThinkingofFeng
+
+數位訂閱【雷浩斯複利成長學院】
+陪你建立受用一輩子的投資決策系統！養成投資紀律x交流學習x持續成長
+｜每週更新｜深度文章解析、親授觀點音頻、1分鐘重點速讀
+✨首月限時優惠：899元／月
+立即加入👉https://smartcourse.pse.is/9e4mzw
+
+線上課程【楊忠憲 技術分析 從0開始看懂K線】
+8週陪跑建立交易邏輯，讓每次出手更有依據！
+👉 https://pse.is/99jujw
+
+線上課程【權證小哥 讀懂籌碼就能賺】
+散戶必學！從籌碼抓出「關鍵分點」看懂主力資金動向
+👉 https://lihi.cc/qKAXd
+
+線上課程【超業黃明楓14天成交對話力陪跑課】
+14天複製超業成功心法，讓你每次開口都更靠近成交！https://smartcourse.pse.is/8vatw4
+
+商周Smart 課程好學線上課程
+👉 https://smartecourse.pse.is/8kkzfz
+
+#雪寶 #外匯 #外匯交易員 #交易員 #交易室 #換匯 #外匯交易 #資產配置 #台股 #投資 #峰哥 #林正峰 #智富 #Smart智富 #投資的一千零一夜 #1001夜 #一千零一夜</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:28:06</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes/smartmonthly-bw_WzJjPd3iG0M_000013.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_WzJjPd3iG0M_keyframes/smartmonthly-bw_WzJjPd3iG0M_000013.jpg"/>
+      <media:community><media:statistics views="24196"/></media:community>
+      <media:category>Education</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_WzJjPd3iG0M.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
@@ -92,8 +331,41 @@
       <guid isPermaLink="false">smartmonthly-bw_XcMUo9k65Rs</guid>
       <pubDate>Tue, 29 Nov 2022 08:00:00 +0800</pubDate>
       <link>https://www.youtube.com/watch?v=XcMUo9k65Rs</link>
-      <description>吃播聊投資，峰哥怎麼看債券ETF？長期資金，選0050或台積電？市場反彈，佑佑加碼部位的資產翻正了嗎？｜佑佑，峰哥｜人人都能學會</description>
+      <description>&lt;p&gt;吃播聊投資！0050、台積電（2330）該選誰？債券ETF、利率怎麼走？2023投資展望如何？峰哥分析給你聽！市場反彈，佑佑分享存股報酬率由負轉正的心法，更多有趣內容請看這集🎬&lt;br/&gt;&lt;br/&gt;16:40 正片開始&lt;br/&gt;19:40 2022年投資回顧&lt;br/&gt;23:28 隨著年紀漸長，峰哥的資產配置&lt;br/&gt;35:17 市場反彈，佑佑的資產變化&lt;br/&gt;40:37 2023年，峰哥的投資策略&lt;br/&gt;45:30 峰哥看債券ETF以及利率&lt;br/&gt;1:01:20 高股息ETF在熊市下的表現&lt;br/&gt;1:15:28 投資5年，買0050還是台積電好？&lt;br/&gt;&lt;br/&gt;✨訂閱《Smart智富》月刊，掌握更多投資理財方法：https://lihi1.com/U5cor&lt;br/&gt;✨戰勝投資大變局！查看更多資訊：https://reurl.cc/zMEb6y&lt;br/&gt;&lt;br/&gt;想知道更多投資理財資訊嗎？開啟🔔新影片上架不漏接！&lt;br/&gt;追蹤我們獲得理財的最新情報：&lt;br/&gt;👉「人人都能學會ETF加薪術」官網：https://reurl.cc/KpK7Dm&lt;br/&gt;👉Smart智富「人人都能學會」官網：https://reurl.cc/NrpM56&lt;br/&gt;👉Smart自學網：https://reurl.cc/yrk5nE&lt;br/&gt;👉Smart智富月刊FB：https://reurl.cc/O0pK77&lt;br/&gt;👉商周財富網FB：https://reurl.cc/83Wx47 &lt;br/&gt;👉理財佑佑班FB：https://reurl.cc/6aEnVr&lt;br/&gt;&lt;br/&gt;#人人都能學會 #ETF #Smart智富&lt;br/&gt;#理財佑佑班 #佑佑 #林帝佑 #峰哥&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_XcMUo9k65Rs_keyframes/smartmonthly-bw_XcMUo9k65Rs_001732.jpg" alt="吃播聊投資，峰哥怎麼看債券ETF？長期資金，選0050或台積電？市場反彈，佑佑加碼部位的資產翻正了嗎？｜佑佑，峰哥｜人人都能學會" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;吃播聊投資！0050、台積電（2330）該選誰？債券ETF、利率怎麼走？2023投資展望如何？峰哥分析給你聽！市場反彈，佑佑分享存股報酬率由負轉正的心法，更多有趣內容請看這集🎬&lt;br/&gt;&lt;br/&gt;16:40 正片開始&lt;br/&gt;19:40 2022年投資回顧&lt;br/&gt;23:28 隨著年紀漸長，峰哥的資產配置&lt;br/&gt;35:17 市場反彈，佑佑的資產變化&lt;br/&gt;40:37 2023年，峰哥的投資策略&lt;br/&gt;45:30 峰哥看債券ETF以及利率&lt;br/&gt;1:01:20 高股息ETF在熊市下的表現&lt;br/&gt;1:15:28 投資5年，買0050還是台積電好？&lt;br/&gt;&lt;br/&gt;✨訂閱《Smart智富》月刊，掌握更多投資理財方法：https://lihi1.com/U5cor&lt;br/&gt;✨戰勝投資大變局！查看更多資訊：https://reurl.cc/zMEb6y&lt;br/&gt;&lt;br/&gt;想知道更多投資理財資訊嗎？開啟🔔新影片上架不漏接！&lt;br/&gt;追蹤我們獲得理財的最新情報：&lt;br/&gt;👉「人人都能學會ETF加薪術」官網：https://reurl.cc/KpK7Dm&lt;br/&gt;👉Smart智富「人人都能學會」官網：https://reurl.cc/NrpM56&lt;br/&gt;👉Smart自學網：https://reurl.cc/yrk5nE&lt;br/&gt;👉Smart智富月刊FB：https://reurl.cc/O0pK77&lt;br/&gt;👉商周財富網FB：https://reurl.cc/83Wx47 &lt;br/&gt;👉理財佑佑班FB：https://reurl.cc/6aEnVr&lt;br/&gt;&lt;br/&gt;#人人都能學會 #ETF #Smart智富&lt;br/&gt;#理財佑佑班 #佑佑 #林帝佑 #峰哥&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_XcMUo9k65Rs_keyframes/smartmonthly-bw_XcMUo9k65Rs_001732.jpg" alt="吃播聊投資，峰哥怎麼看債券ETF？長期資金，選0050或台積電？市場反彈，佑佑加碼部位的資產翻正了嗎？｜佑佑，峰哥｜人人都能學會" /&gt;&lt;/p&gt;</content:encoded>
       <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/smartmonthly-bw_XcMUo9k65Rs.m4a" type="audio/mp4" length="185045785"/>
+      <itunes:author>Smart智富月刊</itunes:author>
+      <itunes:summary>吃播聊投資！0050、台積電（2330）該選誰？債券ETF、利率怎麼走？2023投資展望如何？峰哥分析給你聽！市場反彈，佑佑分享存股報酬率由負轉正的心法，更多有趣內容請看這集🎬
+
+16:40 正片開始
+19:40 2022年投資回顧
+23:28 隨著年紀漸長，峰哥的資產配置
+35:17 市場反彈，佑佑的資產變化
+40:37 2023年，峰哥的投資策略
+45:30 峰哥看債券ETF以及利率
+1:01:20 高股息ETF在熊市下的表現
+1:15:28 投資5年，買0050還是台積電好？
+
+✨訂閱《Smart智富》月刊，掌握更多投資理財方法：https://lihi1.com/U5cor
+✨戰勝投資大變局！查看更多資訊：https://reurl.cc/zMEb6y
+
+想知道更多投資理財資訊嗎？開啟🔔新影片上架不漏接！
+追蹤我們獲得理財的最新情報：
+👉「人人都能學會ETF加薪術」官網：https://reurl.cc/KpK7Dm
+👉Smart智富「人人都能學會」官網：https://reurl.cc/NrpM56
+👉Smart自學網：https://reurl.cc/yrk5nE
+👉Smart智富月刊FB：https://reurl.cc/O0pK77
+👉商周財富網FB：https://reurl.cc/83Wx47 
+👉理財佑佑班FB：https://reurl.cc/6aEnVr
+
+#人人都能學會 #ETF #Smart智富
+#理財佑佑班 #佑佑 #林帝佑 #峰哥</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>01:23:00</itunes:duration>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_XcMUo9k65Rs_keyframes/smartmonthly-bw_XcMUo9k65Rs_001732.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/smartmonthly-bw/smartmonthly-bw_XcMUo9k65Rs_keyframes/smartmonthly-bw_XcMUo9k65Rs_001732.jpg"/>
+      <media:community><media:statistics views="8523"/></media:community>
+      <media:category>News &amp; Politics</media:category>
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/smartmonthly-bw/transcripts/smartmonthly-bw_XcMUo9k65Rs.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
   </channel>

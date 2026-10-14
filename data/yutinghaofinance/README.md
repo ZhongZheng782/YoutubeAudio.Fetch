@@ -29,6 +29,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/10/14(三)外資狂砍1600億 股市怎麼又要崩了?韓股先倒破年線 台股撐得住?【早晨財經速解讀】](yutinghaofinance_1Tygxzj3E1M_keyframes.md) | 2026-10-14 |
 | [2026/10/13(二)記憶體重挫 買股趁現在?美債殖利率突破5% AI巨頭反而加速舉債？【早晨財經速解讀】](yutinghaofinance_zfU6oHbS8s8_keyframes.md) | 2026-10-13 |
 | [2026/10/12(一)美俄協議 壓得住油價?中東打不垮經濟 卻拖垮債市?【早晨財經速解讀】](yutinghaofinance_gtxpFAVDySE_keyframes.md) | 2026-10-12 |
 | [2026/10/8(四)全球政府都缺錢!高利率時代誰來買單?AI時代 企業賺錢、政府缺錢、人民沒錢?【早晨財經速解讀】](yutinghaofinance__dfkO0oKRvg_keyframes.md) | 2026-10-08 |
