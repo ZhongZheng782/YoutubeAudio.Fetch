@@ -13,6 +13,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [前 OpenAI 安全研究員、量子計算學者 Scott Aaronson：數學家已經被 AI 拉下王座，就在今年夏天 【AI 大人說】](ai-note-101_IQNojz6xCQA_keyframes.md) | 2026-10-15 |
 | [AlphaGo 帶隊研究員 David Silver：大型語言模型走不到超級智慧，他說三年做出來 【AI 大人說】](ai-note-101_ZGUojpZ8dJQ_keyframes.md) | 2026-10-15 |
 | [拜登的國安顧問 Jake Sullivan：中國自己只做得出輝達 4% 的晶片，靠走私跟遠端租用拿到 40% 【AI 大人說】](ai-note-101_wnYd9OE-pVg_keyframes.md) | 2026-10-15 |
 | [OpenAI 一晚公布 400 項數學結果，Mathematica 發明人 Wolfram 當場潑冷水：題目都是人先定義好的 【AI 大人說】](ai-note-101_YL3yve9tIB0_keyframes.md) | 2026-10-14 |
