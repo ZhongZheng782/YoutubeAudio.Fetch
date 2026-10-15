@@ -16,6 +16,7 @@
 | [28 位費爾茲得主聯署之後：AI 做數學，到底好不好？](ai-note-101_32nNmRo53R8_keyframes.md) | 2026-10-15 |
 | [前 OpenAI 安全研究員、量子計算學者 Scott Aaronson：數學家已經被 AI 拉下王座，就在今年夏天 【AI 大人說】](ai-note-101_IQNojz6xCQA_keyframes.md) | 2026-10-15 |
 | [AlphaGo 帶隊研究員 David Silver：大型語言模型走不到超級智慧，他說三年做出來 【AI 大人說】](ai-note-101_ZGUojpZ8dJQ_keyframes.md) | 2026-10-15 |
+| [陶哲軒談 OpenAI 那幾百篇證明：「年輕人的研究一夜被掃光，這非常沒禮貌」 【AI 大人說】](ai-note-101_fbpDDiMjoK0_keyframes.md) | 2026-10-15 |
 | [拜登的國安顧問 Jake Sullivan：中國自己只做得出輝達 4% 的晶片，靠走私跟遠端租用拿到 40% 【AI 大人說】](ai-note-101_wnYd9OE-pVg_keyframes.md) | 2026-10-15 |
 | [OpenAI 一晚公布 400 項數學結果，Mathematica 發明人 Wolfram 當場潑冷水：題目都是人先定義好的 【AI 大人說】](ai-note-101_YL3yve9tIB0_keyframes.md) | 2026-10-14 |
 | [「楊立昆錯在太看輕語言」史丹佛 Christopher Manning：只讀文字的模型，一樣學得會這個世界 【AI 大人說】](ai-note-101_ZdMf47ftJrM_keyframes.md) | 2026-10-14 |
