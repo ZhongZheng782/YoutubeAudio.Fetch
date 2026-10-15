@@ -13,6 +13,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [28 位費爾茲得主聯署之後：AI 做數學，到底好不好？](ai-note-101_32nNmRo53R8_keyframes.md) | 2026-10-15 |
 | [前 OpenAI 安全研究員、量子計算學者 Scott Aaronson：數學家已經被 AI 拉下王座，就在今年夏天 【AI 大人說】](ai-note-101_IQNojz6xCQA_keyframes.md) | 2026-10-15 |
 | [AlphaGo 帶隊研究員 David Silver：大型語言模型走不到超級智慧，他說三年做出來 【AI 大人說】](ai-note-101_ZGUojpZ8dJQ_keyframes.md) | 2026-10-15 |
 | [拜登的國安顧問 Jake Sullivan：中國自己只做得出輝達 4% 的晶片，靠走私跟遠端租用拿到 40% 【AI 大人說】](ai-note-101_wnYd9OE-pVg_keyframes.md) | 2026-10-15 |

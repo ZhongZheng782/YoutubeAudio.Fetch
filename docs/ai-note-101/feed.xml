@@ -9,12 +9,81 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_IQNojz6xCQA_keyframes/ai-note-101_IQNojz6xCQA_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_32nNmRo53R8_keyframes/ai-note-101_32nNmRo53R8_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_IQNojz6xCQA_keyframes/ai-note-101_IQNojz6xCQA_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_32nNmRo53R8_keyframes/ai-note-101_32nNmRo53R8_000000.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>28 位費爾茲得主聯署之後：AI 做數學，到底好不好？</title>
+      <guid isPermaLink="false">ai-note-101_32nNmRo53R8</guid>
+      <pubDate>Thu, 15 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=32nNmRo53R8</link>
+      <description>&lt;p&gt;原素材（數學家的公開文章、演講與貼文，1993～2026/10）：引用的連結列在說明欄最後&lt;br/&gt;&lt;br/&gt;數學界一直把「第一個證出來的人」當成「第一個看懂的人」來發獎：費爾茲獎、教職、研究經費，都建在這個默認上。AI 讓這兩件事分家了。&lt;br/&gt;&lt;br/&gt;這集從 Wiles 的費馬最後定理講起，走過 AI 公司 vs 數學家（Erdős 問題事件、費爾茲得主聯署）、旁觀者 vs 數學家（圍棋和工程師為什麼不一樣）、陶哲軒的一張圖、驗證派 vs 理解派、路燈下找鑰匙；最後問：這個貨幣貶值了誰最痛，以及「第一個看懂的人」該怎麼定義。到今天，還沒有答案。&lt;br/&gt;&lt;br/&gt;旁白是我們的轉述與翻譯；留言區的說法已去掉帳號。原文連結列在下方。&lt;br/&gt;&lt;br/&gt;本集引用的文章與影片（依片中出場順序）&lt;br/&gt;IMU 2006 費爾茲獎新聞稿：陶哲軒：https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2006/TaoENG.pdf&lt;br/&gt;ICM 1998 費爾茲獎與 Wiles 特別銀牌：https://www.mathunion.org/fileadmin/IMU/Publications/Bulletins/1994_1999/43/fields.html&lt;br/&gt;Kra：深刻的定理曾是辨認深刻思考的機制（陶哲軒部落格）：https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system/&lt;br/&gt;Anthropic：Formalizing Fermat's Last Theorem：https://www.anthropic.com/research/formalizing-fermats-last-theorem&lt;br/&gt;Buzzard〈FLT: Anthropic has beaten me to it〉：https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/&lt;br/&gt;陶哲軒 Mastodon（AI 找文獻）：https://mathstodon.xyz/@tao/115385022005130505&lt;br/&gt;TechCrunch：GPT-5 與 Erdős 問題：https://techcrunch.com/2025/10/19/openais-embarrassing-math/&lt;br/&gt;Bloom 的回覆：https://x.com/thomasfbloom/status/1979254235075059732&lt;br/&gt;Hassabis 的回覆：https://x.com/demishassabis/status/1979417877590774063&lt;br/&gt;OpenAI：Navier-Stokes 公告：https://openai.com/index/navier-stokes-solution/&lt;br/&gt;Clay 數學研究所：千禧年大獎規則：https://www.claymath.org/millennium-problems/rules/&lt;br/&gt;Clay 數學研究所：龐加萊猜想：https://www.claymath.org/millennium/poincare-conjecture/&lt;br/&gt;TNW：OpenAI 不打算領千禧年獎：https://thenextweb.com/news/openai-navier-stokes-proof-published-millennium-prize&lt;br/&gt;聯署聲明〈A Severe Misalignment of AI in Mathematics〉：https://mathandai.org&lt;br/&gt;我們做過的：Buckmaster 談被 OpenAI 搶先：https://youtu.be/OlCqb3DtqnM&lt;br/&gt;This Week in AI（Socher）：https://www.youtube.com/watch?v=cJYvjn2YcvU&lt;br/&gt;PNAS 2023：超人 AI 讓圍棋棋士下得更好、更有新意：https://doi.org/10.1073/pnas.2214840120&lt;br/&gt;李世乭照片（LG Electronics，CC BY 2.0，裁切）：https://commons.wikimedia.org/wiki/File:Lee_Se-Dol_-_2016_(cropped).jpg&lt;br/&gt;陶哲軒〈Math 2.0〉：https://terrytao.wordpress.com/2026/10/10/math-2-0/&lt;br/&gt;Buzzard〈To grieve or not to grieve?〉：https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/&lt;br/&gt;Nature 2016：兩百 TB 的數學證明：https://www.nature.com/articles/nature.2016.19990&lt;br/&gt;海德堡得獎者論壇座談 2026/09/15（Williamson、Scholze）：https://www.youtube.com/watch?v=H7_d_sgui6o&lt;br/&gt;Thurston〈On proof and progress in mathematics〉：https://arxiv.org/abs/math/9404236&lt;br/&gt;OpenAI 數學成果庫：https://github.com/openai/math&lt;br/&gt;Duminil-Copin〈Care for a little more AI?〉：https://proofsandprompts.com/2026/08/30/care-for-a-little-more-ai/&lt;br/&gt;Strogatz 在陶哲軒部落格的客座文：https://terrytao.wordpress.com/2026/09/12/wimbledon-the-u-s-open-and-the-future-of-mathematics/&lt;br/&gt;Wang〈The AI-assisted mathematician's dilemma〉：https://proofsandprompts.com/2026/08/28/the-ai-assisted-mathematicians-dilemma/&lt;br/&gt;Proofs and Prompts：申請博士後的年輕數學家：https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/&lt;br/&gt;陶哲軒 ICM 2026 公開演講：https://www.youtube.com/watch?v=M0--ZH1lOzg&lt;br/&gt;單位距離猜想論文：https://arxiv.org/abs/2605.20695&lt;br/&gt;我們做過的：Socher 的癌症類比：https://youtu.be/qPqeuUam67k&lt;br/&gt;我們做過的：陶哲軒談 AI 與 Erdős 問題：https://youtu.be/55QHHXCRvHY&lt;br/&gt;&lt;br/&gt;章節&lt;br/&gt;00:00 數學界的貨幣&lt;br/&gt;03:11 AI 公司 vs 數學家&lt;br/&gt;05:42 旁觀者：圍棋、工程師、數學&lt;br/&gt;07:28 陶哲軒的一張圖：答案與理解&lt;br/&gt;09:34 驗證派 vs 理解派&lt;br/&gt;10:45 路燈與燈塔&lt;br/&gt;12:29 誰最痛&lt;br/&gt;14:03 獎要發給誰&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_32nNmRo53R8_keyframes/ai-note-101_32nNmRo53R8_000000.jpg" alt="28 位費爾茲得主聯署之後：AI 做數學，到底好不好？" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;原素材（數學家的公開文章、演講與貼文，1993～2026/10）：引用的連結列在說明欄最後&lt;br/&gt;&lt;br/&gt;數學界一直把「第一個證出來的人」當成「第一個看懂的人」來發獎：費爾茲獎、教職、研究經費，都建在這個默認上。AI 讓這兩件事分家了。&lt;br/&gt;&lt;br/&gt;這集從 Wiles 的費馬最後定理講起，走過 AI 公司 vs 數學家（Erdős 問題事件、費爾茲得主聯署）、旁觀者 vs 數學家（圍棋和工程師為什麼不一樣）、陶哲軒的一張圖、驗證派 vs 理解派、路燈下找鑰匙；最後問：這個貨幣貶值了誰最痛，以及「第一個看懂的人」該怎麼定義。到今天，還沒有答案。&lt;br/&gt;&lt;br/&gt;旁白是我們的轉述與翻譯；留言區的說法已去掉帳號。原文連結列在下方。&lt;br/&gt;&lt;br/&gt;本集引用的文章與影片（依片中出場順序）&lt;br/&gt;IMU 2006 費爾茲獎新聞稿：陶哲軒：https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2006/TaoENG.pdf&lt;br/&gt;ICM 1998 費爾茲獎與 Wiles 特別銀牌：https://www.mathunion.org/fileadmin/IMU/Publications/Bulletins/1994_1999/43/fields.html&lt;br/&gt;Kra：深刻的定理曾是辨認深刻思考的機制（陶哲軒部落格）：https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system/&lt;br/&gt;Anthropic：Formalizing Fermat's Last Theorem：https://www.anthropic.com/research/formalizing-fermats-last-theorem&lt;br/&gt;Buzzard〈FLT: Anthropic has beaten me to it〉：https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/&lt;br/&gt;陶哲軒 Mastodon（AI 找文獻）：https://mathstodon.xyz/@tao/115385022005130505&lt;br/&gt;TechCrunch：GPT-5 與 Erdős 問題：https://techcrunch.com/2025/10/19/openais-embarrassing-math/&lt;br/&gt;Bloom 的回覆：https://x.com/thomasfbloom/status/1979254235075059732&lt;br/&gt;Hassabis 的回覆：https://x.com/demishassabis/status/1979417877590774063&lt;br/&gt;OpenAI：Navier-Stokes 公告：https://openai.com/index/navier-stokes-solution/&lt;br/&gt;Clay 數學研究所：千禧年大獎規則：https://www.claymath.org/millennium-problems/rules/&lt;br/&gt;Clay 數學研究所：龐加萊猜想：https://www.claymath.org/millennium/poincare-conjecture/&lt;br/&gt;TNW：OpenAI 不打算領千禧年獎：https://thenextweb.com/news/openai-navier-stokes-proof-published-millennium-prize&lt;br/&gt;聯署聲明〈A Severe Misalignment of AI in Mathematics〉：https://mathandai.org&lt;br/&gt;我們做過的：Buckmaster 談被 OpenAI 搶先：https://youtu.be/OlCqb3DtqnM&lt;br/&gt;This Week in AI（Socher）：https://www.youtube.com/watch?v=cJYvjn2YcvU&lt;br/&gt;PNAS 2023：超人 AI 讓圍棋棋士下得更好、更有新意：https://doi.org/10.1073/pnas.2214840120&lt;br/&gt;李世乭照片（LG Electronics，CC BY 2.0，裁切）：https://commons.wikimedia.org/wiki/File:Lee_Se-Dol_-_2016_(cropped).jpg&lt;br/&gt;陶哲軒〈Math 2.0〉：https://terrytao.wordpress.com/2026/10/10/math-2-0/&lt;br/&gt;Buzzard〈To grieve or not to grieve?〉：https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/&lt;br/&gt;Nature 2016：兩百 TB 的數學證明：https://www.nature.com/articles/nature.2016.19990&lt;br/&gt;海德堡得獎者論壇座談 2026/09/15（Williamson、Scholze）：https://www.youtube.com/watch?v=H7_d_sgui6o&lt;br/&gt;Thurston〈On proof and progress in mathematics〉：https://arxiv.org/abs/math/9404236&lt;br/&gt;OpenAI 數學成果庫：https://github.com/openai/math&lt;br/&gt;Duminil-Copin〈Care for a little more AI?〉：https://proofsandprompts.com/2026/08/30/care-for-a-little-more-ai/&lt;br/&gt;Strogatz 在陶哲軒部落格的客座文：https://terrytao.wordpress.com/2026/09/12/wimbledon-the-u-s-open-and-the-future-of-mathematics/&lt;br/&gt;Wang〈The AI-assisted mathematician's dilemma〉：https://proofsandprompts.com/2026/08/28/the-ai-assisted-mathematicians-dilemma/&lt;br/&gt;Proofs and Prompts：申請博士後的年輕數學家：https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/&lt;br/&gt;陶哲軒 ICM 2026 公開演講：https://www.youtube.com/watch?v=M0--ZH1lOzg&lt;br/&gt;單位距離猜想論文：https://arxiv.org/abs/2605.20695&lt;br/&gt;我們做過的：Socher 的癌症類比：https://youtu.be/qPqeuUam67k&lt;br/&gt;我們做過的：陶哲軒談 AI 與 Erdős 問題：https://youtu.be/55QHHXCRvHY&lt;br/&gt;&lt;br/&gt;章節&lt;br/&gt;00:00 數學界的貨幣&lt;br/&gt;03:11 AI 公司 vs 數學家&lt;br/&gt;05:42 旁觀者：圍棋、工程師、數學&lt;br/&gt;07:28 陶哲軒的一張圖：答案與理解&lt;br/&gt;09:34 驗證派 vs 理解派&lt;br/&gt;10:45 路燈與燈塔&lt;br/&gt;12:29 誰最痛&lt;br/&gt;14:03 獎要發給誰&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_32nNmRo53R8_keyframes/ai-note-101_32nNmRo53R8_000000.jpg" alt="28 位費爾茲得主聯署之後：AI 做數學，到底好不好？" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_32nNmRo53R8.m4a" type="audio/mp4" length="29695369"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:summary>原素材（數學家的公開文章、演講與貼文，1993～2026/10）：引用的連結列在說明欄最後
+
+數學界一直把「第一個證出來的人」當成「第一個看懂的人」來發獎：費爾茲獎、教職、研究經費，都建在這個默認上。AI 讓這兩件事分家了。
+
+這集從 Wiles 的費馬最後定理講起，走過 AI 公司 vs 數學家（Erdős 問題事件、費爾茲得主聯署）、旁觀者 vs 數學家（圍棋和工程師為什麼不一樣）、陶哲軒的一張圖、驗證派 vs 理解派、路燈下找鑰匙；最後問：這個貨幣貶值了誰最痛，以及「第一個看懂的人」該怎麼定義。到今天，還沒有答案。
+
+旁白是我們的轉述與翻譯；留言區的說法已去掉帳號。原文連結列在下方。
+
+本集引用的文章與影片（依片中出場順序）
+IMU 2006 費爾茲獎新聞稿：陶哲軒：https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2006/TaoENG.pdf
+ICM 1998 費爾茲獎與 Wiles 特別銀牌：https://www.mathunion.org/fileadmin/IMU/Publications/Bulletins/1994_1999/43/fields.html
+Kra：深刻的定理曾是辨認深刻思考的機制（陶哲軒部落格）：https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system/
+Anthropic：Formalizing Fermat's Last Theorem：https://www.anthropic.com/research/formalizing-fermats-last-theorem
+Buzzard〈FLT: Anthropic has beaten me to it〉：https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/
+陶哲軒 Mastodon（AI 找文獻）：https://mathstodon.xyz/@tao/115385022005130505
+TechCrunch：GPT-5 與 Erdős 問題：https://techcrunch.com/2025/10/19/openais-embarrassing-math/
+Bloom 的回覆：https://x.com/thomasfbloom/status/1979254235075059732
+Hassabis 的回覆：https://x.com/demishassabis/status/1979417877590774063
+OpenAI：Navier-Stokes 公告：https://openai.com/index/navier-stokes-solution/
+Clay 數學研究所：千禧年大獎規則：https://www.claymath.org/millennium-problems/rules/
+Clay 數學研究所：龐加萊猜想：https://www.claymath.org/millennium/poincare-conjecture/
+TNW：OpenAI 不打算領千禧年獎：https://thenextweb.com/news/openai-navier-stokes-proof-published-millennium-prize
+聯署聲明〈A Severe Misalignment of AI in Mathematics〉：https://mathandai.org
+我們做過的：Buckmaster 談被 OpenAI 搶先：https://youtu.be/OlCqb3DtqnM
+This Week in AI（Socher）：https://www.youtube.com/watch?v=cJYvjn2YcvU
+PNAS 2023：超人 AI 讓圍棋棋士下得更好、更有新意：https://doi.org/10.1073/pnas.2214840120
+李世乭照片（LG Electronics，CC BY 2.0，裁切）：https://commons.wikimedia.org/wiki/File:Lee_Se-Dol_-_2016_(cropped).jpg
+陶哲軒〈Math 2.0〉：https://terrytao.wordpress.com/2026/10/10/math-2-0/
+Buzzard〈To grieve or not to grieve?〉：https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/
+Nature 2016：兩百 TB 的數學證明：https://www.nature.com/articles/nature.2016.19990
+海德堡得獎者論壇座談 2026/09/15（Williamson、Scholze）：https://www.youtube.com/watch?v=H7_d_sgui6o
+Thurston〈On proof and progress in mathematics〉：https://arxiv.org/abs/math/9404236
+OpenAI 數學成果庫：https://github.com/openai/math
+Duminil-Copin〈Care for a little more AI?〉：https://proofsandprompts.com/2026/08/30/care-for-a-little-more-ai/
+Strogatz 在陶哲軒部落格的客座文：https://terrytao.wordpress.com/2026/09/12/wimbledon-the-u-s-open-and-the-future-of-mathematics/
+Wang〈The AI-assisted mathematician's dilemma〉：https://proofsandprompts.com/2026/08/28/the-ai-assisted-mathematicians-dilemma/
+Proofs and Prompts：申請博士後的年輕數學家：https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/
+陶哲軒 ICM 2026 公開演講：https://www.youtube.com/watch?v=M0--ZH1lOzg
+單位距離猜想論文：https://arxiv.org/abs/2605.20695
+我們做過的：Socher 的癌症類比：https://youtu.be/qPqeuUam67k
+我們做過的：陶哲軒談 AI 與 Erdős 問題：https://youtu.be/55QHHXCRvHY
+
+章節
+00:00 數學界的貨幣
+03:11 AI 公司 vs 數學家
+05:42 旁觀者：圍棋、工程師、數學
+07:28 陶哲軒的一張圖：答案與理解
+09:34 驗證派 vs 理解派
+10:45 路燈與燈塔
+12:29 誰最痛
+14:03 獎要發給誰</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:15:35</itunes:duration>
+      <itunes:keywords>AI 101, AI 數學, Andrew Wiles, Erdős, Kevin Buzzard, Lean, Math 2.0, OpenAI, Peter Scholze, Terence Tao, 人工智慧, 數學, 費爾茲獎, 費馬最後定理, 陶哲軒</itunes:keywords>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_32nNmRo53R8_keyframes/ai-note-101_32nNmRo53R8_000000.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_32nNmRo53R8_keyframes/ai-note-101_32nNmRo53R8_000000.jpg"/>
+      <media:community><media:statistics views="10257"/></media:community>
+      <media:category>Science &amp; Technology</media:category>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_32nNmRo53R8.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
     <item>
       <title>前 OpenAI 安全研究員、量子計算學者 Scott Aaronson：數學家已經被 AI 拉下王座，就在今年夏天 【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_IQNojz6xCQA</guid>
