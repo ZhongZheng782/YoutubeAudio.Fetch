@@ -9,12 +9,81 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YL3yve9tIB0_keyframes/ai-note-101_YL3yve9tIB0_000001.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_ZGUojpZ8dJQ_keyframes/ai-note-101_ZGUojpZ8dJQ_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_YL3yve9tIB0_keyframes/ai-note-101_YL3yve9tIB0_000001.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_ZGUojpZ8dJQ_keyframes/ai-note-101_ZGUojpZ8dJQ_000000.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>AlphaGo 帶隊研究員 David Silver：大型語言模型走不到超級智慧，他說三年做出來 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_ZGUojpZ8dJQ</guid>
+      <pubDate>Thu, 15 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=ZGUojpZ8dJQ</link>
+      <description>&lt;p&gt;原素材（Sequoia Capital《Training Data》：A Superlearner for the Age of Experience，68 分）：https://www.youtube.com/watch?v=L4SWQebqhek&lt;br/&gt;&lt;br/&gt;做出 AlphaGo 的人，為什麼說大型語言模型走不到超級智慧？&lt;br/&gt;Ineffable Intelligence 執行長、前 Google DeepMind 強化學習負責人 David Silver，與共同創辦人 Lasse Espeholt 接受紅杉資本《Training Data》訪問。&lt;br/&gt;Silver 從人類如何由一團灰色漿糊開始學習，談到人類語言為什麼不是推理的終點。&lt;br/&gt;他用 AlphaGo 兩年與 AlphaZero 幾個小時的差距，解釋為什麼 AI 必須放掉人類資料，也談更強的 agent 可能學會說一套、做一套。&lt;br/&gt;最後，他把一年內看到證據、三年做到超級智慧，明確說成自己的預測。&lt;br/&gt;&lt;br/&gt;章節&lt;br/&gt;00:00 開場&lt;br/&gt;00:33 幾萬人都在押 LLM&lt;br/&gt;01:17 superlearner 與灰色漿糊&lt;br/&gt;02:13 人類語言不是推理終點&lt;br/&gt;03:19 AlphaGo 兩年，AlphaZero 幾小時&lt;br/&gt;05:08 對齊會變成說一套、做一套&lt;br/&gt;06:09 他說三年&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_ZGUojpZ8dJQ_keyframes/ai-note-101_ZGUojpZ8dJQ_000000.jpg" alt="AlphaGo 帶隊研究員 David Silver：大型語言模型走不到超級智慧，他說三年做出來 【AI 大人說】" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;原素材（Sequoia Capital《Training Data》：A Superlearner for the Age of Experience，68 分）：https://www.youtube.com/watch?v=L4SWQebqhek&lt;br/&gt;&lt;br/&gt;做出 AlphaGo 的人，為什麼說大型語言模型走不到超級智慧？&lt;br/&gt;Ineffable Intelligence 執行長、前 Google DeepMind 強化學習負責人 David Silver，與共同創辦人 Lasse Espeholt 接受紅杉資本《Training Data》訪問。&lt;br/&gt;Silver 從人類如何由一團灰色漿糊開始學習，談到人類語言為什麼不是推理的終點。&lt;br/&gt;他用 AlphaGo 兩年與 AlphaZero 幾個小時的差距，解釋為什麼 AI 必須放掉人類資料，也談更強的 agent 可能學會說一套、做一套。&lt;br/&gt;最後，他把一年內看到證據、三年做到超級智慧，明確說成自己的預測。&lt;br/&gt;&lt;br/&gt;章節&lt;br/&gt;00:00 開場&lt;br/&gt;00:33 幾萬人都在押 LLM&lt;br/&gt;01:17 superlearner 與灰色漿糊&lt;br/&gt;02:13 人類語言不是推理終點&lt;br/&gt;03:19 AlphaGo 兩年，AlphaZero 幾小時&lt;br/&gt;05:08 對齊會變成說一套、做一套&lt;br/&gt;06:09 他說三年&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_ZGUojpZ8dJQ_keyframes/ai-note-101_ZGUojpZ8dJQ_000000.jpg" alt="AlphaGo 帶隊研究員 David Silver：大型語言模型走不到超級智慧，他說三年做出來 【AI 大人說】" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_ZGUojpZ8dJQ.m4a" type="audio/mp4" length="14323238"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:summary>原素材（Sequoia Capital《Training Data》：A Superlearner for the Age of Experience，68 分）：https://www.youtube.com/watch?v=L4SWQebqhek
+
+做出 AlphaGo 的人，為什麼說大型語言模型走不到超級智慧？
+Ineffable Intelligence 執行長、前 Google DeepMind 強化學習負責人 David Silver，與共同創辦人 Lasse Espeholt 接受紅杉資本《Training Data》訪問。
+Silver 從人類如何由一團灰色漿糊開始學習，談到人類語言為什麼不是推理的終點。
+他用 AlphaGo 兩年與 AlphaZero 幾個小時的差距，解釋為什麼 AI 必須放掉人類資料，也談更強的 agent 可能學會說一套、做一套。
+最後，他把一年內看到證據、三年做到超級智慧，明確說成自己的預測。
+
+章節
+00:00 開場
+00:33 幾萬人都在押 LLM
+01:17 superlearner 與灰色漿糊
+02:13 人類語言不是推理終點
+03:19 AlphaGo 兩年，AlphaZero 幾小時
+05:08 對齊會變成說一套、做一套
+06:09 他說三年</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:07:12</itunes:duration>
+      <itunes:keywords>AI大人說, AlphaGo, AlphaZero, David Silver, Google DeepMind, Ineffable Intelligence, Lasse Espeholt, 強化學習, 超級智慧</itunes:keywords>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_ZGUojpZ8dJQ_keyframes/ai-note-101_ZGUojpZ8dJQ_000000.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_ZGUojpZ8dJQ_keyframes/ai-note-101_ZGUojpZ8dJQ_000000.jpg"/>
+      <media:community><media:statistics views="1781"/></media:community>
+      <media:category>Science &amp; Technology</media:category>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_ZGUojpZ8dJQ.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
+    <item>
+      <title>拜登的國安顧問 Jake Sullivan：中國自己只做得出輝達 4% 的晶片，靠走私跟遠端租用拿到 40% 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_wnYd9OE-pVg</guid>
+      <pubDate>Thu, 15 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=wnYd9OE-pVg</link>
+      <description>&lt;p&gt;原素材（Harvard Institute of Politics《Former U.S. National Security Advisor on if the U.S. Can Win the AI Race vs China》，62 分鐘）：https://www.youtube.com/watch?v=i82sd6-D5qI&lt;br/&gt;&lt;br/&gt;中國自己只做得出輝達 4% 的先進晶片，卻能拿到約 40% 的算力，這是 Jake Sullivan 在哈佛座談現場的估計。&lt;br/&gt;這位拜登政府前國家安全顧問，也是先進晶片出口管制的推手，說明美國領先幅度為什麼從一兩年縮到大約半年。&lt;br/&gt;他與主持人 Graham Allison、前國會 AI 國安委員會執行長 Ylli Bajraktari，從蒸餾、走私與遠端租用談到開源模型的兩難。&lt;br/&gt;三人也討論美中所說的「失控」有何不同，以及 AI 實驗室老闆走進白宮談「起飛」時，國安顧問為什麼不能不當真。&lt;br/&gt;最後，Sullivan 回應放慢 AI 是否會讓中國獲勝，並解釋為什麼美中沒有幾十年時間建立 AI 安全規則。&lt;br/&gt;&lt;br/&gt;章節&lt;br/&gt;00:00 開場：晶片禁令推手怎麼看美中 AI 競賽&lt;br/&gt;01:50 美國還領先多久，中國為什麼追得上&lt;br/&gt;04:04 中國自製 4%，實際拿到約 40%&lt;br/&gt;06:45 美國人為什麼不信任 AI&lt;br/&gt;09:21 美中所說的失控不是同一件事&lt;br/&gt;11:07 AI 實驗室老闆走進白宮談起飛&lt;br/&gt;13:39 風險、放慢與殺人機器人&lt;br/&gt;15:44 AI 沒有幾十年時間建立規則&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_wnYd9OE-pVg_keyframes/ai-note-101_wnYd9OE-pVg_000000.jpg" alt="拜登的國安顧問 Jake Sullivan：中國自己只做得出輝達 4% 的晶片，靠走私跟遠端租用拿到 40% 【AI 大人說】" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;原素材（Harvard Institute of Politics《Former U.S. National Security Advisor on if the U.S. Can Win the AI Race vs China》，62 分鐘）：https://www.youtube.com/watch?v=i82sd6-D5qI&lt;br/&gt;&lt;br/&gt;中國自己只做得出輝達 4% 的先進晶片，卻能拿到約 40% 的算力，這是 Jake Sullivan 在哈佛座談現場的估計。&lt;br/&gt;這位拜登政府前國家安全顧問，也是先進晶片出口管制的推手，說明美國領先幅度為什麼從一兩年縮到大約半年。&lt;br/&gt;他與主持人 Graham Allison、前國會 AI 國安委員會執行長 Ylli Bajraktari，從蒸餾、走私與遠端租用談到開源模型的兩難。&lt;br/&gt;三人也討論美中所說的「失控」有何不同，以及 AI 實驗室老闆走進白宮談「起飛」時，國安顧問為什麼不能不當真。&lt;br/&gt;最後，Sullivan 回應放慢 AI 是否會讓中國獲勝，並解釋為什麼美中沒有幾十年時間建立 AI 安全規則。&lt;br/&gt;&lt;br/&gt;章節&lt;br/&gt;00:00 開場：晶片禁令推手怎麼看美中 AI 競賽&lt;br/&gt;01:50 美國還領先多久，中國為什麼追得上&lt;br/&gt;04:04 中國自製 4%，實際拿到約 40%&lt;br/&gt;06:45 美國人為什麼不信任 AI&lt;br/&gt;09:21 美中所說的失控不是同一件事&lt;br/&gt;11:07 AI 實驗室老闆走進白宮談起飛&lt;br/&gt;13:39 風險、放慢與殺人機器人&lt;br/&gt;15:44 AI 沒有幾十年時間建立規則&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_wnYd9OE-pVg_keyframes/ai-note-101_wnYd9OE-pVg_000000.jpg" alt="拜登的國安顧問 Jake Sullivan：中國自己只做得出輝達 4% 的晶片，靠走私跟遠端租用拿到 40% 【AI 大人說】" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_wnYd9OE-pVg.m4a" type="audio/mp4" length="37139124"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:summary>原素材（Harvard Institute of Politics《Former U.S. National Security Advisor on if the U.S. Can Win the AI Race vs China》，62 分鐘）：https://www.youtube.com/watch?v=i82sd6-D5qI
+
+中國自己只做得出輝達 4% 的先進晶片，卻能拿到約 40% 的算力，這是 Jake Sullivan 在哈佛座談現場的估計。
+這位拜登政府前國家安全顧問，也是先進晶片出口管制的推手，說明美國領先幅度為什麼從一兩年縮到大約半年。
+他與主持人 Graham Allison、前國會 AI 國安委員會執行長 Ylli Bajraktari，從蒸餾、走私與遠端租用談到開源模型的兩難。
+三人也討論美中所說的「失控」有何不同，以及 AI 實驗室老闆走進白宮談「起飛」時，國安顧問為什麼不能不當真。
+最後，Sullivan 回應放慢 AI 是否會讓中國獲勝，並解釋為什麼美中沒有幾十年時間建立 AI 安全規則。
+
+章節
+00:00 開場：晶片禁令推手怎麼看美中 AI 競賽
+01:50 美國還領先多久，中國為什麼追得上
+04:04 中國自製 4%，實際拿到約 40%
+06:45 美國人為什麼不信任 AI
+09:21 美中所說的失控不是同一件事
+11:07 AI 實驗室老闆走進白宮談起飛
+13:39 風險、放慢與殺人機器人
+15:44 AI 沒有幾十年時間建立規則</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:17:27</itunes:duration>
+      <itunes:keywords>AI 大人說, AI 安全, Graham Allison, Harvard Kennedy School, Jake Sullivan, Ylli Bajraktari, 晶片禁令, 美中 AI 競賽</itunes:keywords>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_wnYd9OE-pVg_keyframes/ai-note-101_wnYd9OE-pVg_000000.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_wnYd9OE-pVg_keyframes/ai-note-101_wnYd9OE-pVg_000000.jpg"/>
+      <media:community><media:statistics views="1566"/></media:community>
+      <media:category>Science &amp; Technology</media:category>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_wnYd9OE-pVg.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
     <item>
       <title>OpenAI 一晚公布 400 項數學結果，Mathematica 發明人 Wolfram 當場潑冷水：題目都是人先定義好的 【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_YL3yve9tIB0</guid>

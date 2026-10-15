@@ -1987,6 +1987,30 @@
     "title": "跟 Claude 解出學生解不出的題，70 歲物理學家 Carlo Rovelli 卻說：真正危險的是 AI 加上 12,000 顆核彈頭【AI 大人說】",
     "view_count": 35797
   },
+  "ZGUojpZ8dJQ": {
+    "categories": [
+      "Science & Technology"
+    ],
+    "channel_name": "AI 101",
+    "channel_url": "https://www.youtube.com/channel/UC1q6LKlcco02dF0BxE0G1zg",
+    "date": "2026-10-15",
+    "description": "原素材（Sequoia Capital《Training Data》：A Superlearner for the Age of Experience，68 分）：https://www.youtube.com/watch?v=L4SWQebqhek\n\n做出 AlphaGo 的人，為什麼說大型語言模型走不到超級智慧？\nIneffable Intelligence 執行長、前 Google DeepMind 強化學習負責人 David Silver，與共同創辦人 Lasse Espeholt 接受紅杉資本《Training Data》訪問。\nSilver 從人類如何由一團灰色漿糊開始學習，談到人類語言為什麼不是推理的終點。\n他用 AlphaGo 兩年與 AlphaZero 幾個小時的差距，解釋為什麼 AI 必須放掉人類資料，也談更強的 agent 可能學會說一套、做一套。\n最後，他把一年內看到證據、三年做到超級智慧，明確說成自己的預測。\n\n章節\n00:00 開場\n00:33 幾萬人都在押 LLM\n01:17 superlearner 與灰色漿糊\n02:13 人類語言不是推理終點\n03:19 AlphaGo 兩年，AlphaZero 幾小時\n05:08 對齊會變成說一套、做一套\n06:09 他說三年",
+    "duration": 432,
+    "tags": [
+      "AI大人說",
+      "AlphaGo",
+      "AlphaZero",
+      "David Silver",
+      "Google DeepMind",
+      "Ineffable Intelligence",
+      "Lasse Espeholt",
+      "強化學習",
+      "超級智慧"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/ZGUojpZ8dJQ/maxresdefault.jpg",
+    "title": "AlphaGo 帶隊研究員 David Silver：大型語言模型走不到超級智慧，他說三年做出來 【AI 大人說】",
+    "view_count": 1781
+  },
   "ZdMf47ftJrM": {
     "categories": [
       "Science & Technology"
@@ -3682,6 +3706,29 @@
     "channel_url": "https://www.youtube.com/channel/UC0lbAQVpenvfA2QqzsRtL_g",
     "date": "2026-09-16",
     "title": "2026/9/16(三)股市還在撐 債市先崩?2026最難一局 Fed升息後 誰先投降？【早晨財經速解讀】"
+  },
+  "wnYd9OE-pVg": {
+    "categories": [
+      "Science & Technology"
+    ],
+    "channel_name": "AI 101",
+    "channel_url": "https://www.youtube.com/channel/UC1q6LKlcco02dF0BxE0G1zg",
+    "date": "2026-10-15",
+    "description": "原素材（Harvard Institute of Politics《Former U.S. National Security Advisor on if the U.S. Can Win the AI Race vs China》，62 分鐘）：https://www.youtube.com/watch?v=i82sd6-D5qI\n\n中國自己只做得出輝達 4% 的先進晶片，卻能拿到約 40% 的算力，這是 Jake Sullivan 在哈佛座談現場的估計。\n這位拜登政府前國家安全顧問，也是先進晶片出口管制的推手，說明美國領先幅度為什麼從一兩年縮到大約半年。\n他與主持人 Graham Allison、前國會 AI 國安委員會執行長 Ylli Bajraktari，從蒸餾、走私與遠端租用談到開源模型的兩難。\n三人也討論美中所說的「失控」有何不同，以及 AI 實驗室老闆走進白宮談「起飛」時，國安顧問為什麼不能不當真。\n最後，Sullivan 回應放慢 AI 是否會讓中國獲勝，並解釋為什麼美中沒有幾十年時間建立 AI 安全規則。\n\n章節\n00:00 開場：晶片禁令推手怎麼看美中 AI 競賽\n01:50 美國還領先多久，中國為什麼追得上\n04:04 中國自製 4%，實際拿到約 40%\n06:45 美國人為什麼不信任 AI\n09:21 美中所說的失控不是同一件事\n11:07 AI 實驗室老闆走進白宮談起飛\n13:39 風險、放慢與殺人機器人\n15:44 AI 沒有幾十年時間建立規則",
+    "duration": 1047,
+    "tags": [
+      "AI 大人說",
+      "AI 安全",
+      "Graham Allison",
+      "Harvard Kennedy School",
+      "Jake Sullivan",
+      "Ylli Bajraktari",
+      "晶片禁令",
+      "美中 AI 競賽"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/wnYd9OE-pVg/maxresdefault.jpg",
+    "title": "拜登的國安顧問 Jake Sullivan：中國自己只做得出輝達 4% 的晶片，靠走私跟遠端租用拿到 40% 【AI 大人說】",
+    "view_count": 1566
   },
   "xTu3WQdTdr4": {
     "categories": [
