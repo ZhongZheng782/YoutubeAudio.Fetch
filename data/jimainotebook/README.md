@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [AI 解出的數學題越來越多，人類還需要自己懂數學嗎？｜陶哲軒（Terence Tao）｜演講訪談系列](jimainotebook_7DizKqDjDUY_keyframes.md) | 2026-10-15 |
 | [為什麼全世界的 AI，都離不開台灣？｜黃仁勳 × Lex Fridman｜演講訪談系列](jimainotebook_GVhMPUGg2SU_keyframes.md) | 2026-10-15 |
 | [人類行為生物學：正常跟不正常的線，畫在哪裡？｜Stanford 公開課｜BIO150｜下集](jimainotebook_isg7QLLNxt4_keyframes.md) | 2026-10-14 |
 | [AI 陪孩子長大，下一代還學得會跟人相處嗎？｜Jonathan Haidt｜演講訪談系列](jimainotebook_3mCrui6nBq0_keyframes.md) | 2026-10-13 |
