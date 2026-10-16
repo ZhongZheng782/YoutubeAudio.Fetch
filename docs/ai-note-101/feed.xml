@@ -189,6 +189,48 @@ OpenAI 一口氣公開幾百篇數學證明，陶哲軒說，數學正在從證�
       <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_fbpDDiMjoK0.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
+      <title>Linux 要刪 AI 標籤：透明度與責任誰來守【AI新聞快報 2026/10/16】</title>
+      <guid isPermaLink="false">ai-note-101_tSHNgajt8-Y</guid>
+      <pubDate>Thu, 15 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=tSHNgajt8-Y</link>
+      <description>&lt;p&gt;Linux 核心維護者正推動移除 AI 輔助程式碼的 `Assisted-by` 標籤要求，但修改案尚未正式生效。支持者認為標籤未被普遍遵守，統計結果也容易失真；反對者則擔心社群將失去觀察 AI 使用情況的重要窗口。這場爭議不只是支持或反對 AI，而是 Linux 該如何在工具快速普及後，繼續維持透明度與人類責任。&lt;br/&gt;&lt;br/&gt;00:00 開場&lt;br/&gt;00:04 一行字吵翻核心&lt;br/&gt;00:47 規矩怎麼來的&lt;br/&gt;01:59 才九個月就翻案&lt;br/&gt;02:43 一成還是兩成&lt;br/&gt;03:47 大佬吵成兩派&lt;br/&gt;06:04 Linus 說：懂就好&lt;br/&gt;06:55 AI 又幫忙又添亂&lt;br/&gt;&lt;br/&gt;資料來源：&lt;br/&gt;・theregister.com｜https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140&lt;br/&gt;・phoronix.com｜https://www.phoronix.com/news/Linux-Dropping-Assisted-By-Req&lt;br/&gt;・technews.tw｜https://technews.tw/2026/10/15/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/&lt;br/&gt;・lkml.iu.edu｜https://lkml.iu.edu/2610.1/11683.html&lt;br/&gt;・lkml.iu.edu｜https://lkml.iu.edu/2607.0/04435.html&lt;br/&gt;・arstechnica.com｜https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/&lt;br/&gt;・linuxfoundation.org｜https://www.linuxfoundation.org/webinars/my-life-as-a-linux-kernel-developer-and-maintainer-with-sasha-levin&lt;br/&gt;・lwn.net｜https://lwn.net/Articles/764647/&lt;br/&gt;・linux.com｜https://www.linux.com/news/30-linux-kernel-developers-30-weeks-laurent-pinchart/&lt;br/&gt;・docs.huihoo.com｜https://docs.huihoo.com/redhat/2010/summit/in-the-weeds/wed/jlayton-310-interoperability/jlayton_summit_2010.pdf&lt;br/&gt;・linuxfoundation.org｜https://www.linuxfoundation.org/about/technical-advisory-board&lt;br/&gt;・events.linuxfoundation.org｜https://events.linuxfoundation.org/linux-security-summit-north-america/program/program-committee/&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_tSHNgajt8-Y_keyframes/ai-note-101_tSHNgajt8-Y_000000.jpg" alt="Linux 要刪 AI 標籤：透明度與責任誰來守【AI新聞快報 2026/10/16】" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;Linux 核心維護者正推動移除 AI 輔助程式碼的 `Assisted-by` 標籤要求，但修改案尚未正式生效。支持者認為標籤未被普遍遵守，統計結果也容易失真；反對者則擔心社群將失去觀察 AI 使用情況的重要窗口。這場爭議不只是支持或反對 AI，而是 Linux 該如何在工具快速普及後，繼續維持透明度與人類責任。&lt;br/&gt;&lt;br/&gt;00:00 開場&lt;br/&gt;00:04 一行字吵翻核心&lt;br/&gt;00:47 規矩怎麼來的&lt;br/&gt;01:59 才九個月就翻案&lt;br/&gt;02:43 一成還是兩成&lt;br/&gt;03:47 大佬吵成兩派&lt;br/&gt;06:04 Linus 說：懂就好&lt;br/&gt;06:55 AI 又幫忙又添亂&lt;br/&gt;&lt;br/&gt;資料來源：&lt;br/&gt;・theregister.com｜https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140&lt;br/&gt;・phoronix.com｜https://www.phoronix.com/news/Linux-Dropping-Assisted-By-Req&lt;br/&gt;・technews.tw｜https://technews.tw/2026/10/15/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/&lt;br/&gt;・lkml.iu.edu｜https://lkml.iu.edu/2610.1/11683.html&lt;br/&gt;・lkml.iu.edu｜https://lkml.iu.edu/2607.0/04435.html&lt;br/&gt;・arstechnica.com｜https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/&lt;br/&gt;・linuxfoundation.org｜https://www.linuxfoundation.org/webinars/my-life-as-a-linux-kernel-developer-and-maintainer-with-sasha-levin&lt;br/&gt;・lwn.net｜https://lwn.net/Articles/764647/&lt;br/&gt;・linux.com｜https://www.linux.com/news/30-linux-kernel-developers-30-weeks-laurent-pinchart/&lt;br/&gt;・docs.huihoo.com｜https://docs.huihoo.com/redhat/2010/summit/in-the-weeds/wed/jlayton-310-interoperability/jlayton_summit_2010.pdf&lt;br/&gt;・linuxfoundation.org｜https://www.linuxfoundation.org/about/technical-advisory-board&lt;br/&gt;・events.linuxfoundation.org｜https://events.linuxfoundation.org/linux-security-summit-north-america/program/program-committee/&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_tSHNgajt8-Y_keyframes/ai-note-101_tSHNgajt8-Y_000000.jpg" alt="Linux 要刪 AI 標籤：透明度與責任誰來守【AI新聞快報 2026/10/16】" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_tSHNgajt8-Y.m4a" type="audio/mp4" length="14330410"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:summary>Linux 核心維護者正推動移除 AI 輔助程式碼的 `Assisted-by` 標籤要求，但修改案尚未正式生效。支持者認為標籤未被普遍遵守，統計結果也容易失真；反對者則擔心社群將失去觀察 AI 使用情況的重要窗口。這場爭議不只是支持或反對 AI，而是 Linux 該如何在工具快速普及後，繼續維持透明度與人類責任。
+
+00:00 開場
+00:04 一行字吵翻核心
+00:47 規矩怎麼來的
+01:59 才九個月就翻案
+02:43 一成還是兩成
+03:47 大佬吵成兩派
+06:04 Linus 說：懂就好
+06:55 AI 又幫忙又添亂
+
+資料來源：
+・theregister.com｜https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140
+・phoronix.com｜https://www.phoronix.com/news/Linux-Dropping-Assisted-By-Req
+・technews.tw｜https://technews.tw/2026/10/15/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/
+・lkml.iu.edu｜https://lkml.iu.edu/2610.1/11683.html
+・lkml.iu.edu｜https://lkml.iu.edu/2607.0/04435.html
+・arstechnica.com｜https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/
+・linuxfoundation.org｜https://www.linuxfoundation.org/webinars/my-life-as-a-linux-kernel-developer-and-maintainer-with-sasha-levin
+・lwn.net｜https://lwn.net/Articles/764647/
+・linux.com｜https://www.linux.com/news/30-linux-kernel-developers-30-weeks-laurent-pinchart/
+・docs.huihoo.com｜https://docs.huihoo.com/redhat/2010/summit/in-the-weeds/wed/jlayton-310-interoperability/jlayton_summit_2010.pdf
+・linuxfoundation.org｜https://www.linuxfoundation.org/about/technical-advisory-board
+・events.linuxfoundation.org｜https://events.linuxfoundation.org/linux-security-summit-north-america/program/program-committee/</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:07:51</itunes:duration>
+      <itunes:keywords>AI新聞, Assisted-by, Linus Torvalds, Linux, 人工智慧, 程式碼審查, 開源軟體</itunes:keywords>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_tSHNgajt8-Y_keyframes/ai-note-101_tSHNgajt8-Y_000000.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_tSHNgajt8-Y_keyframes/ai-note-101_tSHNgajt8-Y_000000.jpg"/>
+      <media:community><media:statistics views="1186"/></media:community>
+      <media:category>Education</media:category>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_tSHNgajt8-Y.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
+    <item>
       <title>拜登的國安顧問 Jake Sullivan：中國自己只做得出輝達 4% 的晶片，靠走私跟遠端租用拿到 40% 【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_wnYd9OE-pVg</guid>
       <pubDate>Thu, 15 Oct 2026 08:00:00 +0800</pubDate>
