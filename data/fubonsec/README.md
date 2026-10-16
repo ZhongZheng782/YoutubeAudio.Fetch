@@ -27,6 +27,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [從電商到AI巨擘  Amazon在布局什麼？\| 富邦Global Sight EP11](fubonsec_omj7U-hJNPg_keyframes.md) | 2026-10-16 |
 | [退休金一次領還是月月領？晚年最重要的不是投資報酬｜陳嬿如專訪 EP4](fubonsec_teIvhgmRlQo_keyframes.md) | 2026-10-14 |
 | [5萬點之後看什麼?台股邁向6萬點的關鍵條件｜富邦投顧 陳奕光 董事長《富邦說趨勢》 EP 96](fubonsec_LUQYfy615AM_keyframes.md) | 2026-10-09 |
 | [AI高檔震盪怎麼看？市場變數與關鍵觀察指標｜程正樺專訪 EP3](fubonsec_aalD8SBHx-w_keyframes.md) | 2026-10-07 |

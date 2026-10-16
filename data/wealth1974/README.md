@@ -39,6 +39,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [台積電落腳嘉科 屏科 為何就是不選雲林？｜#老謝開講 #謝金河 #財訊 EP297 feat. 立法委員 劉建國](wealth1974_ixv2vFp9MNs_keyframes.md) | 2026-10-16 |
 | [【會員影片節選】高通跨出手機舒適圈 四路搶進算力戰｜#聽了財投資 EP06 #qualcomm](wealth1974_S_jWTG0qUVc_keyframes.md) | 2026-10-15 |
 | [8成市占的隱形冠軍 「3 大未來」要讓城市變礦山｜#財訊不漏接 EP058 #財訊podcast #電池回收](wealth1974_eHQElh8GgkI_keyframes.md) | 2026-10-14 |
 | [小確幸也能變成大生意 日本夾娃娃機超市化｜#投資IN總經 EP98 #財訊 #日本](wealth1974_51_0RVrSMOc_keyframes.md) | 2026-10-13 |
