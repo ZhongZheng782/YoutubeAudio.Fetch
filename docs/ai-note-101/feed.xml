@@ -9,12 +9,49 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>AI 101 — 由 YoutubeAudio.Fetch 自動彙整自 YouTube 頻道音訊</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_32nNmRo53R8_keyframes/ai-note-101_32nNmRo53R8_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_QTbV-t_srdY_keyframes/ai-note-101_QTbV-t_srdY_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_32nNmRo53R8_keyframes/ai-note-101_32nNmRo53R8_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_QTbV-t_srdY_keyframes/ai-note-101_QTbV-t_srdY_000000.jpg</url>
       <title>AI 101</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>AI 會毀滅世界嗎？AI 教科書作者 Stuart Russell 對上 LSTM 發明人 Schmidhuber，真的吵起來 【AI 大人說】</title>
+      <guid isPermaLink="false">ai-note-101_QTbV-t_srdY</guid>
+      <pubDate>Fri, 16 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=QTbV-t_srdY</link>
+      <description>&lt;p&gt;原素材（Foreign Policy《Counterpoint》：Could AI Destroy the World? A Debate with Stuart Russell and Jürgen Schmidhuber，45 分鐘）：https://www.youtube.com/watch?v=9IwOFRyilfo&lt;br/&gt;&lt;br/&gt;AI 會毀滅世界嗎？兩位 AI 先驅在同一場辯論裡正面交鋒。&lt;br/&gt;柏克萊教授 Stuart Russell 對上 LSTM 發明人之一 Jürgen Schmidhuber，由 Foreign Policy 副主編 Nick Danforth 主持。&lt;br/&gt;Russell 主張關機不夠，AI 可能自我複製；他也轉述一套 Anthropic 安全計畫，沒有指明消息來源。&lt;br/&gt;Schmidhuber 認為超級 AI 會把目標放到太空，與人類衝突的必要性沒那麼高。&lt;br/&gt;兩人一路吵到核電風險、AI 執照與末日警告是否為了募資，最後回到圖靈 1951 年的提醒。&lt;br/&gt;原片只有聲音，人物頭貼與參考圖片為後製補充；「一千萬倍」是 Russell 的算法。&lt;br/&gt;圖片署名：Jürgen Schmidhuber 頭貼，ITU/R. Farrell，CC BY 2.0；銀河系 ESO/S. Brunier，CC BY 4.0；維也納炸肉排 Kobako，CC BY-SA 2.5。&lt;br/&gt;&lt;br/&gt;章節&lt;br/&gt;00:00 開場&lt;br/&gt;00:46 關掉就好？它們會複製自己&lt;br/&gt;01:30 Anthropic 的計畫：問超級智慧怎麼阻止它&lt;br/&gt;02:26 退休與殖民銀河系&lt;br/&gt;04:00 炸肉排與目標衝突&lt;br/&gt;05:24 螞蟻、人類與籃球場&lt;br/&gt;06:46 比核電危險一千萬倍&lt;br/&gt;08:20 喊末日是為了募資？圖靈 1951&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_QTbV-t_srdY_keyframes/ai-note-101_QTbV-t_srdY_000000.jpg" alt="AI 會毀滅世界嗎？AI 教科書作者 Stuart Russell 對上 LSTM 發明人 Schmidhuber，真的吵起來 【AI 大人說】" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;原素材（Foreign Policy《Counterpoint》：Could AI Destroy the World? A Debate with Stuart Russell and Jürgen Schmidhuber，45 分鐘）：https://www.youtube.com/watch?v=9IwOFRyilfo&lt;br/&gt;&lt;br/&gt;AI 會毀滅世界嗎？兩位 AI 先驅在同一場辯論裡正面交鋒。&lt;br/&gt;柏克萊教授 Stuart Russell 對上 LSTM 發明人之一 Jürgen Schmidhuber，由 Foreign Policy 副主編 Nick Danforth 主持。&lt;br/&gt;Russell 主張關機不夠，AI 可能自我複製；他也轉述一套 Anthropic 安全計畫，沒有指明消息來源。&lt;br/&gt;Schmidhuber 認為超級 AI 會把目標放到太空，與人類衝突的必要性沒那麼高。&lt;br/&gt;兩人一路吵到核電風險、AI 執照與末日警告是否為了募資，最後回到圖靈 1951 年的提醒。&lt;br/&gt;原片只有聲音，人物頭貼與參考圖片為後製補充；「一千萬倍」是 Russell 的算法。&lt;br/&gt;圖片署名：Jürgen Schmidhuber 頭貼，ITU/R. Farrell，CC BY 2.0；銀河系 ESO/S. Brunier，CC BY 4.0；維也納炸肉排 Kobako，CC BY-SA 2.5。&lt;br/&gt;&lt;br/&gt;章節&lt;br/&gt;00:00 開場&lt;br/&gt;00:46 關掉就好？它們會複製自己&lt;br/&gt;01:30 Anthropic 的計畫：問超級智慧怎麼阻止它&lt;br/&gt;02:26 退休與殖民銀河系&lt;br/&gt;04:00 炸肉排與目標衝突&lt;br/&gt;05:24 螞蟻、人類與籃球場&lt;br/&gt;06:46 比核電危險一千萬倍&lt;br/&gt;08:20 喊末日是為了募資？圖靈 1951&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_QTbV-t_srdY_keyframes/ai-note-101_QTbV-t_srdY_000000.jpg" alt="AI 會毀滅世界嗎？AI 教科書作者 Stuart Russell 對上 LSTM 發明人 Schmidhuber，真的吵起來 【AI 大人說】" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_QTbV-t_srdY.m4a" type="audio/mp4" length="27033438"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:summary>原素材（Foreign Policy《Counterpoint》：Could AI Destroy the World? A Debate with Stuart Russell and Jürgen Schmidhuber，45 分鐘）：https://www.youtube.com/watch?v=9IwOFRyilfo
+
+AI 會毀滅世界嗎？兩位 AI 先驅在同一場辯論裡正面交鋒。
+柏克萊教授 Stuart Russell 對上 LSTM 發明人之一 Jürgen Schmidhuber，由 Foreign Policy 副主編 Nick Danforth 主持。
+Russell 主張關機不夠，AI 可能自我複製；他也轉述一套 Anthropic 安全計畫，沒有指明消息來源。
+Schmidhuber 認為超級 AI 會把目標放到太空，與人類衝突的必要性沒那麼高。
+兩人一路吵到核電風險、AI 執照與末日警告是否為了募資，最後回到圖靈 1951 年的提醒。
+原片只有聲音，人物頭貼與參考圖片為後製補充；「一千萬倍」是 Russell 的算法。
+圖片署名：Jürgen Schmidhuber 頭貼，ITU/R. Farrell，CC BY 2.0；銀河系 ESO/S. Brunier，CC BY 4.0；維也納炸肉排 Kobako，CC BY-SA 2.5。
+
+章節
+00:00 開場
+00:46 關掉就好？它們會複製自己
+01:30 Anthropic 的計畫：問超級智慧怎麼阻止它
+02:26 退休與殖民銀河系
+04:00 炸肉排與目標衝突
+05:24 螞蟻、人類與籃球場
+06:46 比核電危險一千萬倍
+08:20 喊末日是為了募資？圖靈 1951</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:11:25</itunes:duration>
+      <itunes:keywords>AI 大人說, AI 安全, AI 毀滅風險, Anthropic, Foreign Policy, Jürgen Schmidhuber, LSTM, Nick Danforth, Stuart Russell, 人工智慧</itunes:keywords>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_QTbV-t_srdY_keyframes/ai-note-101_QTbV-t_srdY_000000.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_QTbV-t_srdY_keyframes/ai-note-101_QTbV-t_srdY_000000.jpg"/>
+      <media:community><media:statistics views="304"/></media:community>
+      <media:category>Science &amp; Technology</media:category>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_QTbV-t_srdY.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
     <item>
       <title>28 位費爾茲得主聯署之後：AI 做數學，到底好不好？</title>
       <guid isPermaLink="false">ai-note-101_32nNmRo53R8</guid>
