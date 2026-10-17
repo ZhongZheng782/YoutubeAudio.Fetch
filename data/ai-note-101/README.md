@@ -13,6 +13,8 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [「這就像喬丹改打棒球嗎？」「對。」2026 費爾茲獎得主 Jacob Tsimerman 離開純數學，把 AI 當成一道數學題 【AI 大人說】](ai-note-101_9EGvruDQlPA_keyframes.md) | 2026-10-17 |
+| [蘋果花五年做的晶片防護，AI 五天就破了：《智能社會》的 Tristan Harris 說，美國核武卻要接上網路 【AI 大人說】](ai-note-101_nwYxOVtaunI_keyframes.md) | 2026-10-17 |
 | [騰訊AI代理為查地圖繞遍公開網路還闖進信箱【AI新聞快報 2026/10/17】](ai-note-101_Cs56rtEdBgY_keyframes.md) | 2026-10-16 |
 | [AI 會毀滅世界嗎？AI 教科書作者 Stuart Russell 對上 LSTM 發明人 Schmidhuber，真的吵起來 【AI 大人說】](ai-note-101_QTbV-t_srdY_keyframes.md) | 2026-10-16 |
 | [28 位費爾茲得主聯署之後：AI 做數學，到底好不好？](ai-note-101_32nNmRo53R8_keyframes.md) | 2026-10-15 |

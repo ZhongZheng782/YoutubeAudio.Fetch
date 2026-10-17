@@ -17,6 +17,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [年化配息上看20%！高股息ETF亂象又回來了嗎？0056、00878年化配息率竟擠不進前十名？ETF的高配息從哪來？｜峰哥｜Smart智富．投資的一千零一夜255](smartmonthly-bw_tm-6SqqP5fk_keyframes.md) | 2026-10-17 |
 | [庫存還有，銅價憑什麼一直漲？形容銅市現況就是一個「囤」字！｜芷娟、峰哥｜人人都能學會ETF](smartmonthly-bw_B4LNkzUrsvM_keyframes.md) | 2026-10-14 |
 | [台股5萬點不是終點？股海老牛點名「台股三本柱」！第4季還有一波行情？高股息ETF今年加速快跑，0056、00878、00919還能抱？｜峰哥ft. 股海老牛｜Smart智富．投資的一千零一夜254](smartmonthly-bw_o4KXRKrwlUs_keyframes.md) | 2026-10-10 |
 | [台股創高嗨翻，持股卻沒漲！該抱還是該跑？｜曾仲葳、Ｋ線捕手楊忠憲｜Smart投資教室](smartmonthly-bw_AfB6x3Qzftg_keyframes.md) | 2026-10-08 |
