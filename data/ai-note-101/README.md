@@ -14,7 +14,11 @@
 | 影片 | 日期 |
 | --- | --- |
 | [「這就像喬丹改打棒球嗎？」「對。」2026 費爾茲獎得主 Jacob Tsimerman 離開純數學，把 AI 當成一道數學題 【AI 大人說】](ai-note-101_9EGvruDQlPA_keyframes.md) | 2026-10-17 |
+| [「我大概只剩一年」矽谷頂尖 AI 研究員私下這樣說，日本國會議員安野貴博還聽到費爾茲獎得主說數學界是「末日」 【AI 大人說】](ai-note-101_SqTJ-32JQBs_keyframes.md) | 2026-10-17 |
+| [「推出」就是函數｜How Lean Works 第 4 集](ai-note-101_jk3dHesXA9E_keyframes.md) | 2026-10-17 |
 | [蘋果花五年做的晶片防護，AI 五天就破了：《智能社會》的 Tristan Harris 說，美國核武卻要接上網路 【AI 大人說】](ai-note-101_nwYxOVtaunI_keyframes.md) | 2026-10-17 |
+| [「寫程式、解數學 AI 都做掉了」借調 Anthropic 的史丹佛經濟學家 Chad Jones 算 AI 的帳：好處很慢，壞處很快 【AI 大人說】](ai-note-101_qrmlOhwvg4I_keyframes.md) | 2026-10-17 |
+| [且、或、非，都是型別｜How Lean Works 第 5 集](ai-note-101_uvS03bjLYGI_keyframes.md) | 2026-10-17 |
 | [騰訊AI代理為查地圖繞遍公開網路還闖進信箱【AI新聞快報 2026/10/17】](ai-note-101_Cs56rtEdBgY_keyframes.md) | 2026-10-16 |
 | [AI 會毀滅世界嗎？AI 教科書作者 Stuart Russell 對上 LSTM 發明人 Schmidhuber，真的吵起來 【AI 大人說】](ai-note-101_QTbV-t_srdY_keyframes.md) | 2026-10-16 |
 | [28 位費爾茲得主聯署之後：AI 做數學，到底好不好？](ai-note-101_32nNmRo53R8_keyframes.md) | 2026-10-15 |
