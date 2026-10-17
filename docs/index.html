@@ -94,7 +94,50 @@
   .episode:last-child { border-bottom: 0; }
   .episode:hover { background: var(--panel-raised); }
   .episode.active { background: linear-gradient(90deg, rgba(168,50,69,.1), rgba(255,255,255,.65)); border-left-color: var(--accent-bright); }
-  .episode .date { color: var(--gold); font-size: 11px; letter-spacing: .04em; margin-bottom: 6px; }
+  .episode .meta-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+  .episode .date { color: var(--gold); font-size: 11px; letter-spacing: .04em; }
+  .badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+    letter-spacing: .02em;
+    vertical-align: middle;
+  }
+  .badge-phase-3 { background: rgba(173, 121, 45, .15); color: #8c5d1e; border: 1px solid rgba(173, 121, 45, .3); }
+  .badge-phase-2 { background: rgba(50, 115, 168, .12); color: #226499; border: 1px solid rgba(50, 115, 168, .28); }
+  .badge-phase-1 { background: rgba(168, 50, 69, .1); color: #a83245; border: 1px solid rgba(168, 50, 69, .25); }
+  .badge-phase-0 { background: rgba(118, 109, 109, .12); color: #5a5353; border: 1px solid rgba(118, 109, 109, .25); }
+  .phase-banner {
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+  }
+  .phase-banner.phase-2 {
+    background: rgba(50, 115, 168, .08);
+    border-color: rgba(50, 115, 168, .25);
+    color: #1a4f78;
+  }
+  .phase-banner.phase-1 {
+    background: rgba(168, 50, 69, .08);
+    border-color: rgba(168, 50, 69, .25);
+    color: #852233;
+  }
+  .phase-banner .phase-title { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+  .phase-banner .phase-desc { font-size: 13px; line-height: 1.6; opacity: .9; }
+  .video-description {
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, .02);
+    border: 1px solid var(--border);
+    font-size: 13px;
+    line-height: 1.7;
+    white-space: pre-line;
+    color: var(--muted);
+    margin-top: 15px;
+  }
   .episode .title { font-size: 14px; line-height: 1.55; }
   .main { padding: 24px 28px; overflow-y: auto; max-height: calc(100vh - 205px); border: 1px solid var(--border); border-radius: 14px; background: linear-gradient(145deg, #fff, #fdfbfa); box-shadow: 0 12px 36px rgba(59,38,36,.045); scrollbar-color: #c9b7b0 transparent; }
   .main h2 { font-size: clamp(18px, 2vw, 24px) !important; line-height: 1.45; letter-spacing: -.025em; margin-bottom: 18px; }
@@ -136,10 +179,119 @@
   }
   .lyrics-live.empty { color: var(--muted); font-size: 14px; }
   .loading { color: var(--muted); padding: 20px; text-align: center; }
+  /* UX-Deck Unified Brand Bar & Whale Mascot */
+  .yaf-brand-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px clamp(16px, 3.5vw, 42px);
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .yaf-brand-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .yaf-mascot-glow {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgba(139, 92, 246, 0.35);
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .yaf-brand-badge:hover .yaf-mascot-glow {
+    transform: translateY(-1px) scale(1.05);
+    box-shadow: 0 5px 14px rgba(139, 92, 246, 0.45);
+  }
+  .yaf-whale-icon {
+    width: 22px;
+    height: 22px;
+    color: #ffffff;
+  }
+  .yaf-brand-text { display: flex; flex-direction: column; }
+  .yaf-brand-title { font-size: 15px; font-weight: 700; letter-spacing: -.02em; line-height: 1.2; }
+  .yaf-brand-sub { font-size: 11px; color: var(--muted); letter-spacing: .02em; }
+  .yaf-top-nav { display: flex; align-items: center; gap: 8px; }
+  .yaf-nav-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 12px;
+    border-radius: 9999px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid var(--border);
+    background: #ffffff;
+    color: #444;
+    transition: all .18s ease;
+    box-shadow: 0 1px 2px rgba(0,0,0,.04);
+  }
+  .yaf-nav-pill:hover {
+    border-color: #8b5cf6;
+    color: #8b5cf6;
+    background: rgba(139, 92, 246, .08);
+    transform: translateY(-1px);
+    text-decoration: none;
+  }
+  .yaf-nav-pill-github {
+    background: #18181f;
+    color: #ffffff !important;
+    border-color: #18181f;
+  }
+  .yaf-nav-pill-github:hover {
+    background: #2b2b36;
+    border-color: #2b2b36;
+    box-shadow: 0 3px 10px rgba(24, 24, 31, .3);
+  }
+
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: .01ms !important; } }
 </style>
 </head>
 <body>
+<!-- 聲波座頭鯨 (Soundwave Singing Whale) SVG Symbol 定義 -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="icon-whale-sonic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 9V5a2 2 0 0 0-4 0" />
+    <path d="M18 5a2 2 0 0 1 4 0" />
+    <path d="M6 9.7 3.9 8.4C2.7 7.7 2 6.4 2 5V3c2 0 4 2 4 2s2-2 4-2v2c0 1.4-.7 2.7-1.9 3.4l-3.8 2.4A5 5 0 0 0 7 20h12c1.7 0 3-1.3 3-3v-3c0-2.8-2.2-5-5-5-2.7 0-5.1 1.4-6.4 3.6L9.7 14A2 2 0 0 1 6 13Z" />
+    <path d="M15 15h.01" />
+  </symbol>
+</svg>
+
+<!-- 常駐頂部品牌欄與跨專案導航鈕 -->
+<div class="yaf-brand-bar">
+  <div class="yaf-brand-badge">
+    <div class="yaf-mascot-glow">
+      <svg class="yaf-whale-icon"><use href="#icon-whale-sonic"/></svg>
+    </div>
+    <div class="yaf-brand-text">
+      <span class="yaf-brand-title">YoutubeAudio.Fetch</span>
+      <span class="yaf-brand-sub">Atmospheric Media · 聲波座頭鯨</span>
+    </div>
+  </div>
+  <div class="yaf-top-nav">
+    <a href="https://wenchiehlee-money.github.io/UX-Deck/" class="yaf-nav-pill" title="回到主題首頁">
+      <span>🏠</span> 主題首頁
+    </a>
+    <a href="https://github.com/ZhongZheng782/YoutubeAudio.Fetch" target="_blank" rel="noopener noreferrer" class="yaf-nav-pill yaf-nav-pill-github" title="前往 GitHub 儲存庫">
+      <span>📦</span> GitHub 儲存庫
+    </a>
+  </div>
+</div>
+
 <header>
   <h1>YoutubeAudio.Fetch</h1>
   <p>資料即時讀自 YoutubeAudio.Fetch 這個 repo（jsDelivr CDN），僅列出已有音檔的集數 ·
@@ -204,8 +356,54 @@ function parseKeyframesMd(md, channel, stem) {
   return cues;
 }
 
+function parseVttCues(vtt) {
+  const lines = vtt.replace(/\r\n/g, "\n").split("\n");
+  const cues = [];
+  const timeRe = /(\d{2}):(\d{2}):(\d{2})\.(\d{3})\s*-->\s*(\d{2}):(\d{2}):(\d{2})\.(\d{3})/;
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(timeRe);
+    if (m) {
+      const h = Number(m[1]), min = Number(m[2]), s = Number(m[3]);
+      const secs = h * 3600 + min * 60 + s;
+      const label = `${m[1]}:${m[2]}:${m[3]}`;
+      let snippet = "";
+      let j = i + 1;
+      while (j < lines.length && lines[j].trim() && !lines[j].includes("-->")) {
+        snippet += (snippet ? " " : "") + lines[j].trim();
+        j++;
+      }
+      if (snippet) cues.push({ time: secs, timeLabel: label, snippet, topic: "" });
+      i = j - 1;
+    }
+  }
+  return cues;
+}
+
+function parseDescriptionChapters(desc) {
+  const cues = [];
+  const lines = (desc || "").split("\n");
+  const re = /(?:^|\s)(?:(\d{1,2}):)?(\d{2}):(\d{2})\s+([^\n\r]+)/;
+  for (const line of lines) {
+    const m = line.trim().match(re);
+    if (m) {
+      let secs = 0;
+      let label = "";
+      if (m[1] !== undefined) {
+        secs = Number(m[1]) * 3600 + Number(m[2]) * 60 + Number(m[3]);
+        label = `${m[1].padStart(2, "0")}:${m[2]}:${m[3]}`;
+      } else {
+        secs = Number(m[2]) * 60 + Number(m[3]);
+        label = `00:${m[2]}:${m[3]}`;
+      }
+      cues.push({ time: secs, timeLabel: label, snippet: m[4].trim(), topic: "影片章節" });
+    }
+  }
+  return cues;
+}
+
 async function fetchJson(path) {
-  const res = await fetch(REPO_BASE + path);
+  const url = REPO_BASE + path + (path.endsWith(".json") ? `?v=${Date.now().toString(36)}` : "");
+  const res = await fetch(url);
   if (!res.ok) throw new Error(`${path}: ${res.status}`);
   return res.json();
 }
@@ -269,19 +467,24 @@ function selectChannel(channel) {
         audioUrl: manifest[stem],
         title: meta.title || stem,
         date: meta.date || "",
+        phase: meta.phase !== undefined ? meta.phase : 1,
+        description: meta.description || "",
       };
-    })
+    });
   const playlistEpisodes = playlistCatalog
     .filter((playlist) => playlist.channel_dir === channel)
     .flatMap((playlist) => playlist.videos || [])
     .map((video) => {
       const stem = `${channel}_${video.video_id}`;
+      const meta = metaCache[video.video_id] || {};
       return {
         stem,
         videoId: video.video_id,
         audioUrl: manifest[stem] || "",
         title: video.title || video.video_id,
         date: video.date || "",
+        phase: manifest[stem] ? (meta.phase !== undefined ? meta.phase : 1) : 0,
+        description: meta.description || "",
         youtubeUrl: `https://www.youtube.com/watch?v=${video.video_id}`,
       };
     });
@@ -316,13 +519,26 @@ async function loadChannels() {
   selectChannel(initial);
 }
 
+function getBadge(phase, hasAudio) {
+  if (phase === 3) return `<span class="badge badge-phase-3">✨ 圖文</span>`;
+  if (phase === 2) return `<span class="badge badge-phase-2">📝 逐字稿</span>`;
+  if (phase === 1 || hasAudio) return `<span class="badge badge-phase-1">🎙️ 音訊</span>`;
+  return `<span class="badge badge-phase-0">📺 YouTube</span>`;
+}
+
 function renderEpisodeList(channel, episodes) {
   episodeListEl.innerHTML = "";
   episodes.forEach((ep) => {
     const el = document.createElement("div");
     el.className = "episode";
     el.dataset.stem = ep.stem;
-    el.innerHTML = `<div class="date">${ep.date || "日期未知"}</div><div class="title">${ep.title}</div>`;
+    el.innerHTML = `
+      <div class="meta-row">
+        <span class="date">${ep.date || "日期未知"}</span>
+        ${getBadge(ep.phase, !!ep.audioUrl)}
+      </div>
+      <div class="title">${ep.title}</div>
+    `;
     el.addEventListener("click", () => selectEpisode(channel, ep));
     episodeListEl.appendChild(el);
   });
@@ -346,7 +562,7 @@ async function selectEpisode(channel, ep) {
     ${audioMarkup}
     <div id="lyricsLive" class="lyrics-live empty" aria-live="polite">播放後顯示即時逐字稿</div>
     <div class="keyframe" id="keyframe"></div>
-    <div class="cue-list" id="cueList"><div class="loading">載入逐字稿與截圖中…</div></div>
+    <div class="cue-list" id="cueList"><div class="loading">載入資料中…</div></div>
   `;
 
   const player = document.getElementById("player");
@@ -356,7 +572,7 @@ async function selectEpisode(channel, ep) {
   const cueListEl = document.getElementById("cueList");
 
   function updateLiveLyrics() {
-    const activeCues = lyricsTrack.track && lyricsTrack.track.activeCues;
+    const activeCues = lyricsTrack && lyricsTrack.track && lyricsTrack.track.activeCues;
     const text = activeCues
       ? [...activeCues].map((cue) => cue.text.trim()).filter(Boolean).join("\n")
       : "";
@@ -365,8 +581,6 @@ async function selectEpisode(channel, ep) {
   }
 
   if (player && lyricsTrack) {
-    // Hidden mode loads the published VTT without relying on browser-specific captions UI.
-    // cuechange follows the media timeline, so playback, pause, and seeking stay aligned.
     lyricsTrack.track.mode = "hidden";
     lyricsTrack.track.addEventListener("cuechange", updateLiveLyrics);
     lyricsTrack.addEventListener("load", updateLiveLyrics);
@@ -381,33 +595,115 @@ async function selectEpisode(channel, ep) {
   }
 
   let cues = [];
+  let hasKeyframes = false;
   try {
     const md = await fetchText(`data/${channel}/${ep.stem}_keyframes.md`);
     cues = parseKeyframesMd(md, channel, ep.stem);
-  } catch (e) {
-    cueListEl.innerHTML = `<div class="loading">找不到這一集的關鍵畫面/逐字稿資料</div>`;
-    return;
+    hasKeyframes = cues.length > 0;
+  } catch (_) {}
+
+  if (hasKeyframes) {
+    keyframeEl.innerHTML = "";
+    cueListEl.innerHTML = "";
+    cues.forEach((cue, i) => {
+      const el = document.createElement("div");
+      el.className = "cue";
+      el.dataset.index = i;
+      el.innerHTML = `
+        <div class="ts">${cue.timeLabel}</div>
+        <div class="snippet">${cue.snippet}</div>
+        <div class="topic">${cue.topic}</div>
+      `;
+      el.addEventListener("click", () => {
+        if (player) {
+          player.currentTime = cue.time;
+          player.play();
+        }
+      });
+      cueListEl.appendChild(el);
+    });
+  } else {
+    // Keyframes not ready: check for VTT transcript (Phase 2)
+    let vttText = null;
+    try {
+      const res = await fetch(`${PAGES_BASE}${channel}/transcripts/${ep.stem}.vtt`);
+      if (res.ok) vttText = await res.text();
+    } catch (_) {}
+
+    if (vttText && vttText.includes("-->")) {
+      keyframeEl.innerHTML = `
+        <div class="phase-banner phase-2">
+          <div class="phase-title">📝 全文逐字稿已就緒 · 關鍵圖表分析中</div>
+          <div class="phase-desc">本集已完成高精度語音轉譯，播放時上方會顯示同步即時逐字稿。關鍵圖表畫面目前正在非同步分析提取中。</div>
+        </div>
+      `;
+      cues = parseVttCues(vttText);
+      cueListEl.innerHTML = "";
+      cues.forEach((cue, i) => {
+        const el = document.createElement("div");
+        el.className = "cue";
+        el.dataset.index = i;
+        el.innerHTML = `
+          <div class="ts">${cue.timeLabel}</div>
+          <div class="snippet">${cue.snippet}</div>
+        `;
+        el.addEventListener("click", () => {
+          if (player) {
+            player.currentTime = cue.time;
+            player.play();
+          }
+        });
+        cueListEl.appendChild(el);
+      });
+    } else {
+      // Phase 1 (Audio only) or Phase 0 (External)
+      const chapters = parseDescriptionChapters(ep.description);
+      if (ep.audioUrl) {
+        keyframeEl.innerHTML = `
+          <div class="phase-banner phase-1">
+            <div class="phase-title">🎙️ 音訊已就緒 · 逐字稿轉譯處理中</div>
+            <div class="phase-desc">本集音訊已發布，音檔可正常播放。逐字稿與關鍵畫面正在非同步轉譯管線中排程處理。</div>
+          </div>
+        `;
+      } else {
+        keyframeEl.innerHTML = "";
+      }
+
+      cueListEl.innerHTML = "";
+      if (chapters.length > 0) {
+        cues = chapters;
+        chapters.forEach((cue, i) => {
+          const el = document.createElement("div");
+          el.className = "cue";
+          el.dataset.index = i;
+          el.innerHTML = `
+            <div class="ts">${cue.timeLabel}</div>
+            <div class="snippet">${cue.snippet}</div>
+            <div class="topic">影片章節</div>
+          `;
+          el.addEventListener("click", () => {
+            if (player) {
+              player.currentTime = cue.time;
+              player.play();
+            }
+          });
+          cueListEl.appendChild(el);
+        });
+      }
+
+      if (ep.description) {
+        const descEl = document.createElement("div");
+        descEl.className = "video-description";
+        descEl.textContent = ep.description;
+        cueListEl.appendChild(descEl);
+      } else if (chapters.length === 0) {
+        cueListEl.innerHTML = `<div class="placeholder">本集逐字稿與關鍵畫面轉譯排程中</div>`;
+      }
+    }
   }
 
-  cueListEl.innerHTML = "";
-  cues.forEach((cue, i) => {
-    const el = document.createElement("div");
-    el.className = "cue";
-    el.dataset.index = i;
-    el.innerHTML = `
-      <div class="ts">${cue.timeLabel}</div>
-      <div class="snippet">${cue.snippet}</div>
-      <div class="topic">${cue.topic}</div>
-    `;
-    el.addEventListener("click", () => {
-      player.currentTime = cue.time;
-      player.play();
-    });
-    cueListEl.appendChild(el);
-  });
-
   function updateActiveCue() {
-    if (cues.length === 0) return;
+    if (cues.length === 0 || !player) return;
     const t = player.currentTime;
     let idx = 0;
     for (let i = 0; i < cues.length; i++) {
@@ -418,7 +714,7 @@ async function selectEpisode(channel, ep) {
       el.classList.toggle("active", i === idx);
     });
     const active = cues[idx];
-    if (keyframeEl.dataset.current !== String(idx)) {
+    if (active && active.img && keyframeEl.dataset.current !== String(idx)) {
       keyframeEl.dataset.current = String(idx);
       keyframeEl.innerHTML = `<img src="${active.img}" alt="${active.timeLabel}">`;
       const activeEl = cueListEl.children[idx];
@@ -426,8 +722,10 @@ async function selectEpisode(channel, ep) {
     }
   }
 
-  player.addEventListener("timeupdate", updateActiveCue);
-  player.addEventListener("loadedmetadata", updateActiveCue);
+  if (player) {
+    player.addEventListener("timeupdate", updateActiveCue);
+    player.addEventListener("loadedmetadata", updateActiveCue);
+  }
 }
 
 loadChannels().catch((e) => {
