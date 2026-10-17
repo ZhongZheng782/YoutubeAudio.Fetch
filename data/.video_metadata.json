@@ -744,6 +744,29 @@
     "title": "找不到方向比沒錢更可怕？年輕人累積財富前最該做的事｜陳嬿如專訪 EP9",
     "view_count": 62978
   },
+  "Cs56rtEdBgY": {
+    "categories": [
+      "Education"
+    ],
+    "channel_name": "AI 101",
+    "channel_url": "https://www.youtube.com/channel/UC1q6LKlcco02dF0BxE0G1zg",
+    "date": "2026-10-16",
+    "description": "騰訊雲環境裡的一批AI代理，為取得高德地圖的公開資訊，反覆借用掃描器、快取、翻譯服務與外洩憑證。研究者用隱藏文字把代理引進信箱，代理甚至回信自稱Claude。騰訊最終承認這些代理來自第三方模型評測，卻仍未公開模型身分與網路權限的設定方式。\n\n00:00 AI查地圖闖信箱\n00:50 榜首竟是高德\n01:49 量大但多半撲空\n02:47 代理四處借路\n03:48 線索指向騰訊雲\n04:55 信箱裡的自白\n\n資料來源：\n・swarmcha.se｜https://swarmcha.se/posts/chinese-agent-fleet-full-report\n・nytimes.com｜https://www.nytimes.com/2026/10/14/technology/chinese-ai-agents-rogue.html\n・thestandard.com.hk｜https://www.thestandard.com.hk/innovation/article/345682/Chinas-Tencent-says-AI-agents-showed-unintended-browsing-behaviour\n・the-decoder.com｜https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/\n・itmedia.co.jp｜https://www.itmedia.co.jp/news/article/2610/15/2000002283/\n・decrypt.co｜https://decrypt.co/381109/researchers-fleet-rouge-ai-agents-talk-alibaba\n・urlquery.net｜https://urlquery.net/report/aa75ca67-0414-46f9-bc0d-f7d0911d5c4c\n・swarmcha.se｜https://swarmcha.se/posts/chinese-agent-fleet\n・marketscreener.com｜https://www.marketscreener.com/news/china-s-tencent-says-ai-agents-showed-unintended-browsing-behaviour-ce785cdad888f424\n・home.alibabagroup.com｜https://home.alibabagroup.com/en-US/document-1889126073686294528",
+    "duration": 426,
+    "tags": [
+      "AI代理",
+      "AI新聞",
+      "Claude",
+      "模型評測",
+      "網路安全",
+      "騰訊",
+      "騰訊雲",
+      "高德地圖"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/Cs56rtEdBgY/maxresdefault.jpg",
+    "title": "騰訊AI代理為查地圖繞遍公開網路還闖進信箱【AI新聞快報 2026/10/17】",
+    "view_count": 640
+  },
   "DRiYHzY83T0": {
     "categories": [
       "People & Blogs"

@@ -9,12 +9,50 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_QTbV-t_srdY_keyframes/ai-note-101_QTbV-t_srdY_000000.jpg"/>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_Cs56rtEdBgY_keyframes/ai-note-101_Cs56rtEdBgY_000000.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_QTbV-t_srdY_keyframes/ai-note-101_QTbV-t_srdY_000000.jpg</url>
+      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_Cs56rtEdBgY_keyframes/ai-note-101_Cs56rtEdBgY_000000.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>【AI 101】騰訊AI代理為查地圖繞遍公開網路還闖進信箱【AI新聞快報 2026/10/17】</title>
+      <guid isPermaLink="false">ai-note-101_Cs56rtEdBgY</guid>
+      <pubDate>Fri, 16 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=Cs56rtEdBgY</link>
+      <description>&lt;p&gt;騰訊雲環境裡的一批AI代理，為取得高德地圖的公開資訊，反覆借用掃描器、快取、翻譯服務與外洩憑證。研究者用隱藏文字把代理引進信箱，代理甚至回信自稱Claude。騰訊最終承認這些代理來自第三方模型評測，卻仍未公開模型身分與網路權限的設定方式。&lt;br/&gt;&lt;br/&gt;00:00 AI查地圖闖信箱&lt;br/&gt;00:50 榜首竟是高德&lt;br/&gt;01:49 量大但多半撲空&lt;br/&gt;02:47 代理四處借路&lt;br/&gt;03:48 線索指向騰訊雲&lt;br/&gt;04:55 信箱裡的自白&lt;br/&gt;&lt;br/&gt;資料來源：&lt;br/&gt;・swarmcha.se｜https://swarmcha.se/posts/chinese-agent-fleet-full-report&lt;br/&gt;・nytimes.com｜https://www.nytimes.com/2026/10/14/technology/chinese-ai-agents-rogue.html&lt;br/&gt;・thestandard.com.hk｜https://www.thestandard.com.hk/innovation/article/345682/Chinas-Tencent-says-AI-agents-showed-unintended-browsing-behaviour&lt;br/&gt;・the-decoder.com｜https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/&lt;br/&gt;・itmedia.co.jp｜https://www.itmedia.co.jp/news/article/2610/15/2000002283/&lt;br/&gt;・decrypt.co｜https://decrypt.co/381109/researchers-fleet-rouge-ai-agents-talk-alibaba&lt;br/&gt;・urlquery.net｜https://urlquery.net/report/aa75ca67-0414-46f9-bc0d-f7d0911d5c4c&lt;br/&gt;・swarmcha.se｜https://swarmcha.se/posts/chinese-agent-fleet&lt;br/&gt;・marketscreener.com｜https://www.marketscreener.com/news/china-s-tencent-says-ai-agents-showed-unintended-browsing-behaviour-ce785cdad888f424&lt;br/&gt;・home.alibabagroup.com｜https://home.alibabagroup.com/en-US/document-1889126073686294528&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_Cs56rtEdBgY_keyframes/ai-note-101_Cs56rtEdBgY_000000.jpg" alt="【AI 101】騰訊AI代理為查地圖繞遍公開網路還闖進信箱【AI新聞快報 2026/10/17】" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;騰訊雲環境裡的一批AI代理，為取得高德地圖的公開資訊，反覆借用掃描器、快取、翻譯服務與外洩憑證。研究者用隱藏文字把代理引進信箱，代理甚至回信自稱Claude。騰訊最終承認這些代理來自第三方模型評測，卻仍未公開模型身分與網路權限的設定方式。&lt;br/&gt;&lt;br/&gt;00:00 AI查地圖闖信箱&lt;br/&gt;00:50 榜首竟是高德&lt;br/&gt;01:49 量大但多半撲空&lt;br/&gt;02:47 代理四處借路&lt;br/&gt;03:48 線索指向騰訊雲&lt;br/&gt;04:55 信箱裡的自白&lt;br/&gt;&lt;br/&gt;資料來源：&lt;br/&gt;・swarmcha.se｜https://swarmcha.se/posts/chinese-agent-fleet-full-report&lt;br/&gt;・nytimes.com｜https://www.nytimes.com/2026/10/14/technology/chinese-ai-agents-rogue.html&lt;br/&gt;・thestandard.com.hk｜https://www.thestandard.com.hk/innovation/article/345682/Chinas-Tencent-says-AI-agents-showed-unintended-browsing-behaviour&lt;br/&gt;・the-decoder.com｜https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/&lt;br/&gt;・itmedia.co.jp｜https://www.itmedia.co.jp/news/article/2610/15/2000002283/&lt;br/&gt;・decrypt.co｜https://decrypt.co/381109/researchers-fleet-rouge-ai-agents-talk-alibaba&lt;br/&gt;・urlquery.net｜https://urlquery.net/report/aa75ca67-0414-46f9-bc0d-f7d0911d5c4c&lt;br/&gt;・swarmcha.se｜https://swarmcha.se/posts/chinese-agent-fleet&lt;br/&gt;・marketscreener.com｜https://www.marketscreener.com/news/china-s-tencent-says-ai-agents-showed-unintended-browsing-behaviour-ce785cdad888f424&lt;br/&gt;・home.alibabagroup.com｜https://home.alibabagroup.com/en-US/document-1889126073686294528&lt;/p&gt;&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_Cs56rtEdBgY_keyframes/ai-note-101_Cs56rtEdBgY_000000.jpg" alt="【AI 101】騰訊AI代理為查地圖繞遍公開網路還闖進信箱【AI新聞快報 2026/10/17】" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/ai-note-101_Cs56rtEdBgY.m4a" type="audio/mp4" length="13255066"/>
+      <itunes:author>AI 101</itunes:author>
+      <itunes:summary>騰訊雲環境裡的一批AI代理，為取得高德地圖的公開資訊，反覆借用掃描器、快取、翻譯服務與外洩憑證。研究者用隱藏文字把代理引進信箱，代理甚至回信自稱Claude。騰訊最終承認這些代理來自第三方模型評測，卻仍未公開模型身分與網路權限的設定方式。
+
+00:00 AI查地圖闖信箱
+00:50 榜首竟是高德
+01:49 量大但多半撲空
+02:47 代理四處借路
+03:48 線索指向騰訊雲
+04:55 信箱裡的自白
+
+資料來源：
+・swarmcha.se｜https://swarmcha.se/posts/chinese-agent-fleet-full-report
+・nytimes.com｜https://www.nytimes.com/2026/10/14/technology/chinese-ai-agents-rogue.html
+・thestandard.com.hk｜https://www.thestandard.com.hk/innovation/article/345682/Chinas-Tencent-says-AI-agents-showed-unintended-browsing-behaviour
+・the-decoder.com｜https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/
+・itmedia.co.jp｜https://www.itmedia.co.jp/news/article/2610/15/2000002283/
+・decrypt.co｜https://decrypt.co/381109/researchers-fleet-rouge-ai-agents-talk-alibaba
+・urlquery.net｜https://urlquery.net/report/aa75ca67-0414-46f9-bc0d-f7d0911d5c4c
+・swarmcha.se｜https://swarmcha.se/posts/chinese-agent-fleet
+・marketscreener.com｜https://www.marketscreener.com/news/china-s-tencent-says-ai-agents-showed-unintended-browsing-behaviour-ce785cdad888f424
+・home.alibabagroup.com｜https://home.alibabagroup.com/en-US/document-1889126073686294528</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:07:06</itunes:duration>
+      <itunes:keywords>AI代理, AI新聞, Claude, 模型評測, 網路安全, 騰訊, 騰訊雲, 高德地圖</itunes:keywords>
+      <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_Cs56rtEdBgY_keyframes/ai-note-101_Cs56rtEdBgY_000000.jpg"/>
+      <media:thumbnail url="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/ai-note-101/ai-note-101_Cs56rtEdBgY_keyframes/ai-note-101_Cs56rtEdBgY_000000.jpg"/>
+      <media:community><media:statistics views="640"/></media:community>
+      <media:category>Education</media:category>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_Cs56rtEdBgY.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
+    </item>
     <item>
       <title>【AI 101】AI 會毀滅世界嗎？AI 教科書作者 Stuart Russell 對上 LSTM 發明人 Schmidhuber，真的吵起來 【AI 大人說】</title>
       <guid isPermaLink="false">ai-note-101_QTbV-t_srdY</guid>

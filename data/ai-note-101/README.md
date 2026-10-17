@@ -13,6 +13,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [騰訊AI代理為查地圖繞遍公開網路還闖進信箱【AI新聞快報 2026/10/17】](ai-note-101_Cs56rtEdBgY_keyframes.md) | 2026-10-16 |
 | [AI 會毀滅世界嗎？AI 教科書作者 Stuart Russell 對上 LSTM 發明人 Schmidhuber，真的吵起來 【AI 大人說】](ai-note-101_QTbV-t_srdY_keyframes.md) | 2026-10-16 |
 | [28 位費爾茲得主聯署之後：AI 做數學，到底好不好？](ai-note-101_32nNmRo53R8_keyframes.md) | 2026-10-15 |
 | [前 OpenAI 安全研究員、量子計算學者 Scott Aaronson：數學家已經被 AI 拉下王座，就在今年夏天 【AI 大人說】](ai-note-101_IQNojz6xCQA_keyframes.md) | 2026-10-15 |
