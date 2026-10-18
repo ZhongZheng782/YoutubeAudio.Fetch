@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [手機越滑越空虛，為什麼還是停不下來？｜Anna Lembke｜演講訪談系列](jimainotebook_huZUk89wkHY_keyframes.md) | 2026-10-18 |
 | [人類行為簡史：天生還是後天，科學吵了兩百年｜簡史系列](jimainotebook_JBRvK5SdZRs_keyframes.md) | 2026-10-17 |
 | [1.5 度守不住了，接下來的地球會變成怎樣？｜Johan Rockström｜演講訪談系列](jimainotebook_sHLv-2iFmHI_keyframes.md) | 2026-10-16 |
 | [AI 解出的數學題越來越多，人類還需要自己懂數學嗎？｜陶哲軒（Terence Tao）｜演講訪談系列](jimainotebook_7DizKqDjDUY_keyframes.md) | 2026-10-15 |
