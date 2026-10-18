@@ -13,6 +13,9 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [帶巴菲特買進比亞迪的李錄：AI 每用一次都要再花錢，跟網路不一樣，估值逃不掉財務紀律 【AI 大人說】](ai-note-101_7YtdYnoZM28_keyframes.md) | 2026-10-18 |
+| [AI 真的搶走年輕人的工作嗎？金融時報首席數據記者 John Burn-Murdoch 用數據拆給你看 【AI 大人說】](ai-note-101_NdTSBSH1mmk_keyframes.md) | 2026-10-18 |
+| [《深度工作力》作者 Cal Newport：ChatGPT 像人只是一場意外，AI 不只大型語言模型 【AI 大人說】](ai-note-101_rKu-I2JSMtA_keyframes.md) | 2026-10-18 |
 | [「這就像喬丹改打棒球嗎？」「對。」2026 費爾茲獎得主 Jacob Tsimerman 離開純數學，把 AI 當成一道數學題 【AI 大人說】](ai-note-101_9EGvruDQlPA_keyframes.md) | 2026-10-17 |
 | [「我大概只剩一年」矽谷頂尖 AI 研究員私下這樣說，日本國會議員安野貴博還聽到費爾茲獎得主說數學界是「末日」 【AI 大人說】](ai-note-101_SqTJ-32JQBs_keyframes.md) | 2026-10-17 |
 | [Anthropic受查同時替政府畫停模紅線【AI新聞快報 2026/10/18】](ai-note-101_dDCbmwhHAec_keyframes.md) | 2026-10-17 |
