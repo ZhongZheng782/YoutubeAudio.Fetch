@@ -15,6 +15,7 @@
 | --- | --- |
 | [「這就像喬丹改打棒球嗎？」「對。」2026 費爾茲獎得主 Jacob Tsimerman 離開純數學，把 AI 當成一道數學題 【AI 大人說】](ai-note-101_9EGvruDQlPA_keyframes.md) | 2026-10-17 |
 | [「我大概只剩一年」矽谷頂尖 AI 研究員私下這樣說，日本國會議員安野貴博還聽到費爾茲獎得主說數學界是「末日」 【AI 大人說】](ai-note-101_SqTJ-32JQBs_keyframes.md) | 2026-10-17 |
+| [Anthropic受查同時替政府畫停模紅線【AI新聞快報 2026/10/18】](ai-note-101_dDCbmwhHAec_keyframes.md) | 2026-10-17 |
 | [「推出」就是函數｜How Lean Works 第 4 集](ai-note-101_jk3dHesXA9E_keyframes.md) | 2026-10-17 |
 | [蘋果花五年做的晶片防護，AI 五天就破了：《智能社會》的 Tristan Harris 說，美國核武卻要接上網路 【AI 大人說】](ai-note-101_nwYxOVtaunI_keyframes.md) | 2026-10-17 |
 | [「寫程式、解數學 AI 都做掉了」借調 Anthropic 的史丹佛經濟學家 Chad Jones 算 AI 的帳：好處很慢，壞處很快 【AI 大人說】](ai-note-101_qrmlOhwvg4I_keyframes.md) | 2026-10-17 |
