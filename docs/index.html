@@ -149,12 +149,257 @@
   .main { padding: 24px 28px; overflow-y: auto; max-height: calc(100vh - 205px); border: 1px solid var(--border); border-radius: 14px; background: linear-gradient(145deg, #fff, #fafafa); box-shadow: 0 12px 36px rgba(139,92,246,.05); scrollbar-color: #cbd5e1 transparent; }
   .main h2 { font-size: clamp(18px, 2vw, 24px) !important; line-height: 1.45; letter-spacing: -.025em; margin-bottom: 18px; color: var(--text); }
   .placeholder { color: var(--muted); padding: 40px 0; text-align: center; }
-  audio {
-    width: 100%;
-    margin: 0 0 18px;
-    accent-color: var(--accent);
-    border-radius: 10px;
+  audio#player {
+    display: none;
   }
+  /* Custom Themed Playback Panel (Sonic Violet #8b5cf6 & Soundwave Cyan #06b6d4) */
+  .yaf-playback-panel {
+    background: linear-gradient(145deg, #ffffff, #faf5ff);
+    border: 1px solid rgba(139, 92, 246, 0.22);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 0 0 20px;
+    box-shadow: 0 4px 18px rgba(139, 92, 246, 0.08);
+  }
+  .yaf-playback-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .yaf-playback-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .yaf-meta-channel {
+    background: rgba(139, 92, 246, 0.1);
+    color: #7c3aed;
+    font-size: 11.5px;
+    font-weight: 700;
+    padding: 2px 9px;
+    border-radius: 6px;
+    border: 1px solid rgba(139, 92, 246, 0.25);
+  }
+  .yaf-meta-quality {
+    color: #64748b;
+    font-size: 11px;
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", sans-serif;
+    font-weight: 500;
+  }
+  .yaf-playback-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .yaf-pulse-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: #7c3aed;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .02em;
+  }
+  .yaf-pulse-dot {
+    width: 7px;
+    height: 7px;
+    background: #06b6d4;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(6, 182, 212, 0.8);
+    animation: yafPulse 1.8s infinite;
+  }
+  @keyframes yafPulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+  }
+  .yaf-speed-pill {
+    background: #f1f5f9;
+    color: #0f172a;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", sans-serif;
+    cursor: pointer;
+    transition: all .15s ease;
+  }
+  .yaf-speed-pill:hover {
+    background: #e2e8f0;
+    border-color: #cbd5e1;
+  }
+  .yaf-scrubber-container {
+    padding: 6px 0 10px;
+    cursor: pointer;
+  }
+  .yaf-scrubber-track {
+    width: 100%;
+    height: 6px;
+    background: #e2e8f0;
+    border-radius: 999px;
+    position: relative;
+  }
+  .yaf-scrubber-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #8b5cf6, #06b6d4);
+    border-radius: 999px;
+    position: relative;
+    transition: width 0.05s linear;
+  }
+  .yaf-scrubber-handle {
+    width: 14px;
+    height: 14px;
+    background: #06b6d4;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    right: -7px;
+    top: -4px;
+    box-shadow: 0 2px 8px rgba(6, 182, 212, 0.55);
+    transition: transform .15s ease;
+  }
+  .yaf-scrubber-container:hover .yaf-scrubber-handle {
+    transform: scale(1.2);
+  }
+  .yaf-playback-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .yaf-toolbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .yaf-btn-playback {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, #8b5cf6, #06b6d4);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 3px 12px rgba(139, 92, 246, 0.4);
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .yaf-btn-playback:hover {
+    transform: scale(1.08);
+    box-shadow: 0 5px 16px rgba(139, 92, 246, 0.5);
+  }
+  .yaf-btn-skip {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    color: #64748b;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color .18s ease, border-color .18s ease;
+  }
+  .yaf-btn-skip:hover {
+    color: #8b5cf6;
+    border-color: #8b5cf6;
+  }
+  .yaf-time-label {
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .yaf-time-elapsed {
+    color: #7c3aed;
+    font-weight: 700;
+  }
+  .yaf-time-divider {
+    color: #cbd5e1;
+  }
+  .yaf-time-duration {
+    color: #64748b;
+  }
+  .yaf-mini-waveform {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 22px;
+  }
+  .yaf-wave-bar {
+    width: 3px;
+    background: #8b5cf6;
+    border-radius: 2px;
+    height: 6px;
+    animation: yafWave 1.2s ease-in-out infinite alternate;
+    animation-play-state: paused;
+  }
+  .yaf-mini-waveform.playing .yaf-wave-bar {
+    animation-play-state: running;
+  }
+  .yaf-wave-bar:nth-child(2) { background: #06b6d4; animation-delay: 0.15s; }
+  .yaf-wave-bar:nth-child(3) { background: #c084fc; animation-delay: 0.3s; }
+  .yaf-wave-bar:nth-child(4) { background: #8b5cf6; animation-delay: 0.1s; }
+  .yaf-wave-bar:nth-child(5) { background: #06b6d4; animation-delay: 0.45s; }
+  .yaf-wave-bar:nth-child(6) { background: #c084fc; animation-delay: 0.25s; }
+  .yaf-wave-bar:nth-child(7) { background: #8b5cf6; animation-delay: 0.5s; }
+  @keyframes yafWave {
+    0% { height: 6px; }
+    100% { height: 22px; }
+  }
+  .yaf-toolbar-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .yaf-volume-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+  .yaf-vol-icon { font-size: 13px; color: #64748b; user-select: none; }
+  .yaf-vol-bar {
+    width: 50px;
+    height: 4px;
+    background: #e2e8f0;
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .yaf-vol-level {
+    height: 100%;
+    background: #06b6d4;
+    border-radius: 999px;
+    transition: width 0.1s ease;
+  }
+  .yaf-btn-download {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    color: #0f172a;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-size: 11.5px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    transition: all .18s ease;
+  }
+  .yaf-btn-download:hover {
+    border-color: #8b5cf6;
+    color: #8b5cf6;
+    box-shadow: 0 2px 8px rgba(139, 92, 246, 0.2);
+  }
+
   .keyframe img {
     width: 100%;
     max-width: 640px;
@@ -556,6 +801,19 @@ function renderEpisodeList(channel, episodes) {
   });
 }
 
+function formatSeconds(seconds) {
+  if (!Number.isFinite(seconds) || seconds < 0) return "--:--";
+  const s = Math.floor(seconds);
+  const m = Math.floor(s / 60);
+  const sec = s % 60;
+  const h = Math.floor(m / 60);
+  const min = m % 60;
+  if (h > 0) {
+    return `${String(h).padStart(2, '0')}:${String(min).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
+  }
+  return `${String(min).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
+}
+
 function setActiveEpisode(stem) {
   document.querySelectorAll(".episode").forEach((el) => {
     el.classList.toggle("active", el.dataset.stem === stem);
@@ -564,11 +822,80 @@ function setActiveEpisode(stem) {
 
 async function selectEpisode(channel, ep) {
   setActiveEpisode(ep.stem);
+  const channelName = displayNameFor(channel);
   const audioMarkup = ep.audioUrl
-    ? `<audio id="player" controls src="${ep.audioUrl}">
-        <track id="lyricsTrack" kind="subtitles" srclang="zh-TW" label="逐字稿" src="${PAGES_BASE}${channel}/transcripts/${ep.stem}.vtt">
-      </audio>`
+    ? `
+      <div class="yaf-playback-panel">
+        <audio id="player" preload="metadata" src="${ep.audioUrl}">
+          <track id="lyricsTrack" kind="subtitles" srclang="zh-TW" label="逐字稿" src="${PAGES_BASE}${channel}/transcripts/${ep.stem}.vtt">
+        </audio>
+
+        <!-- 頂部資訊與串流狀態 -->
+        <div class="yaf-playback-header">
+          <div class="yaf-playback-meta">
+            <span class="yaf-meta-channel">${channelName}</span>
+            <span class="yaf-meta-quality">🎙️ M4A · 128kbps 立體聲</span>
+          </div>
+          <div class="yaf-playback-status">
+            <span class="yaf-pulse-indicator" id="yafStatusIndicator">
+              <span class="yaf-pulse-dot"></span>
+              <span id="yafStatusText">就緒</span>
+            </span>
+            <button class="yaf-speed-pill" id="yafSpeedBtn" type="button" title="切換播放倍速">1.0x</button>
+          </div>
+        </div>
+
+        <!-- 進度條軌道與撥放控制 -->
+        <div class="yaf-scrubber-container" id="yafScrubber" title="點擊切換播放進度">
+          <div class="yaf-scrubber-track">
+            <div class="yaf-scrubber-fill" id="yafScrubberFill" style="width: 0%;">
+              <div class="yaf-scrubber-handle"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 控制列：撥放鍵、快進退、時間、音量與儲存鈕 -->
+        <div class="yaf-playback-toolbar">
+          <div class="yaf-toolbar-left">
+            <button class="yaf-btn-playback" id="yafPlayBtn" title="播放 / 暫停" type="button">
+              <span id="yafPlayIcon">▶</span>
+            </button>
+            <button class="yaf-btn-skip" id="yafSkipBack" title="倒退 15 秒" type="button">↺ 15s</button>
+            <button class="yaf-btn-skip" id="yafSkipForward" title="快進 15 秒" type="button">15s ↻</button>
+            <div class="yaf-time-label">
+              <span class="yaf-time-elapsed" id="yafTimeElapsed">00:00:00</span>
+              <span class="yaf-time-divider">/</span>
+              <span class="yaf-time-duration" id="yafTimeDuration">--:--</span>
+            </div>
+          </div>
+
+          <!-- 微型動態音訊頻譜波形 (Sonic Violet & Soundwave Cyan) -->
+          <div class="yaf-mini-waveform" id="yafWaveform" title="音訊頻譜波形">
+            <span class="yaf-wave-bar"></span>
+            <span class="yaf-wave-bar"></span>
+            <span class="yaf-wave-bar"></span>
+            <span class="yaf-wave-bar"></span>
+            <span class="yaf-wave-bar"></span>
+            <span class="yaf-wave-bar"></span>
+            <span class="yaf-wave-bar"></span>
+          </div>
+
+          <div class="yaf-toolbar-right">
+            <div class="yaf-volume-group" id="yafVolGroup" title="音量控制">
+              <span class="yaf-vol-icon" id="yafVolIcon">🔊</span>
+              <div class="yaf-vol-bar" id="yafVolBar">
+                <div class="yaf-vol-level" id="yafVolLevel" style="width: 100%;"></div>
+              </div>
+            </div>
+            <a href="${ep.audioUrl}" download class="yaf-btn-download" target="_blank" rel="noopener noreferrer" title="下載原始音訊檔">
+              <span>儲存音訊 ⬇</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    `
     : `<p class="placeholder">這支 Playlist 影片的音訊尚未同步。<a href="${ep.youtubeUrl}" target="_blank" rel="noopener" style="color:var(--accent)">在 YouTube 開啟影片</a></p>`;
+
   mainEl.innerHTML = `
     <h2 style="margin-top:0;font-size:16px;">${ep.title}</h2>
     ${audioMarkup}
@@ -576,12 +903,30 @@ async function selectEpisode(channel, ep) {
     <div class="keyframe" id="keyframe"></div>
     <div class="cue-list" id="cueList"><div class="loading">載入資料中…</div></div>
   `;
+  mainEl.scrollTop = 0;
 
   const player = document.getElementById("player");
   const lyricsTrack = document.getElementById("lyricsTrack");
   const lyricsLiveEl = document.getElementById("lyricsLive");
   const keyframeEl = document.getElementById("keyframe");
   const cueListEl = document.getElementById("cueList");
+
+  // Custom Playback Panel Controls
+  const playBtn = document.getElementById("yafPlayBtn");
+  const playIcon = document.getElementById("yafPlayIcon");
+  const scrubber = document.getElementById("yafScrubber");
+  const scrubberFill = document.getElementById("yafScrubberFill");
+  const timeElapsed = document.getElementById("yafTimeElapsed");
+  const timeDuration = document.getElementById("yafTimeDuration");
+  const waveform = document.getElementById("yafWaveform");
+  const statusIndicator = document.getElementById("yafStatusIndicator");
+  const statusText = document.getElementById("yafStatusText");
+  const speedBtn = document.getElementById("yafSpeedBtn");
+  const skipBack = document.getElementById("yafSkipBack");
+  const skipForward = document.getElementById("yafSkipForward");
+  const volBar = document.getElementById("yafVolBar");
+  const volLevel = document.getElementById("yafVolLevel");
+  const volIcon = document.getElementById("yafVolIcon");
 
   function updateLiveLyrics() {
     const activeCues = lyricsTrack && lyricsTrack.track && lyricsTrack.track.activeCues;
@@ -603,6 +948,108 @@ async function selectEpisode(channel, ep) {
         player.currentTime = requestedTime;
         updateLiveLyrics();
       }, { once: true });
+    }
+  }
+
+  if (player && playBtn) {
+    playBtn.addEventListener("click", () => {
+      if (player.paused) {
+        player.play().catch(() => {});
+      } else {
+        player.pause();
+      }
+    });
+
+    player.addEventListener("play", () => {
+      if (playIcon) playIcon.textContent = "⏸";
+      if (waveform) waveform.classList.add("playing");
+      if (statusText) statusText.textContent = "播放中";
+    });
+
+    player.addEventListener("pause", () => {
+      if (playIcon) playIcon.textContent = "▶";
+      if (waveform) waveform.classList.remove("playing");
+      if (statusText) statusText.textContent = "已暫停";
+    });
+
+    player.addEventListener("ended", () => {
+      if (playIcon) playIcon.textContent = "▶";
+      if (waveform) waveform.classList.remove("playing");
+      if (statusText) statusText.textContent = "播放結束";
+      if (scrubberFill) scrubberFill.style.width = "0%";
+    });
+
+    player.addEventListener("waiting", () => {
+      if (statusText) statusText.textContent = "緩衝中…";
+    });
+
+    player.addEventListener("timeupdate", () => {
+      if (player.duration && scrubberFill) {
+        const pct = (player.currentTime / player.duration) * 100;
+        scrubberFill.style.width = `${Math.min(100, Math.max(0, pct))}%`;
+      }
+      if (timeElapsed) timeElapsed.textContent = formatSeconds(player.currentTime);
+    });
+
+    player.addEventListener("loadedmetadata", () => {
+      if (timeDuration) timeDuration.textContent = formatSeconds(player.duration);
+      if (timeElapsed) timeElapsed.textContent = formatSeconds(player.currentTime);
+    });
+
+    if (scrubber) {
+      const handleSeek = (e) => {
+        const rect = scrubber.getBoundingClientRect();
+        const clientX = e.clientX !== undefined ? e.clientX : (e.touches && e.touches[0] ? e.touches[0].clientX : 0);
+        const pct = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+        if (player.duration) {
+          player.currentTime = pct * player.duration;
+          if (scrubberFill) scrubberFill.style.width = `${pct * 100}%`;
+          if (timeElapsed) timeElapsed.textContent = formatSeconds(player.currentTime);
+        }
+      };
+      scrubber.addEventListener("click", handleSeek);
+    }
+
+    if (skipBack) {
+      skipBack.addEventListener("click", () => {
+        player.currentTime = Math.max(0, player.currentTime - 15);
+      });
+    }
+
+    if (skipForward) {
+      skipForward.addEventListener("click", () => {
+        player.currentTime = Math.min(player.duration || Infinity, player.currentTime + 15);
+      });
+    }
+
+    if (speedBtn) {
+      const speeds = [1.0, 1.25, 1.5, 2.0, 0.75];
+      let sIdx = 0;
+      speedBtn.addEventListener("click", () => {
+        sIdx = (sIdx + 1) % speeds.length;
+        const spd = speeds[sIdx];
+        player.playbackRate = spd;
+        speedBtn.textContent = `${spd}x`;
+      });
+    }
+
+    if (volBar) {
+      volBar.addEventListener("click", (e) => {
+        const rect = volBar.getBoundingClientRect();
+        const pct = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+        player.volume = pct;
+        player.muted = false;
+        if (volLevel) volLevel.style.width = `${pct * 100}%`;
+        if (volIcon) volIcon.textContent = pct === 0 ? "🔇" : pct < 0.5 ? "🔉" : "🔊";
+      });
+    }
+
+    if (volIcon) {
+      volIcon.addEventListener("click", () => {
+        player.muted = !player.muted;
+        if (volLevel) volLevel.style.width = player.muted ? "0%" : `${player.volume * 100}%`;
+        if (volIcon) volIcon.textContent = player.muted ? "🔇" : (player.volume < 0.5 ? "🔉" : "🔊");
+      });
     }
   }
 
@@ -730,7 +1177,9 @@ async function selectEpisode(channel, ep) {
       keyframeEl.dataset.current = String(idx);
       keyframeEl.innerHTML = `<img src="${active.img}" alt="${active.timeLabel}">`;
       const activeEl = cueListEl.children[idx];
-      if (activeEl) activeEl.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      if (activeEl && idx > 0 && player && !player.paused) {
+        activeEl.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      }
     }
   }
 
