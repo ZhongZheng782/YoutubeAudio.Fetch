@@ -29,6 +29,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/10/19(一)費半又入熊市!買點到了嗎?AI行情結束了?還是Q4最大買點?【早晨財經速解讀】](yutinghaofinance_b6e_2a_A5Is_keyframes.md) | 2026-10-19 |
 | [2026/10/16(五)賴清德總統談台灣經濟【早晨財經速解讀】](yutinghaofinance_JiP3avKjocg_keyframes.md) | 2026-10-16 |
 | [2026/10/15(四)費半暴跌 降息夢碎!通膨煞不住 10月升息風暴再起?【早晨財經速解讀】](yutinghaofinance_Q9jWUV1F2WE_keyframes.md) | 2026-10-15 |
 | [2026/10/14(三)外資狂砍1600億 股市怎麼又要崩了?韓股先倒破年線 台股撐得住?【早晨財經速解讀】](yutinghaofinance_1Tygxzj3E1M_keyframes.md) | 2026-10-14 |

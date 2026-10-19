@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [債務週期：一個國家怎麼從借錢走到危機｜Ray Dalio｜演講訪談系列](jimainotebook_yZ_IgLkICEE_keyframes.md) | 2026-10-19 |
 | [區塊鏈與貨幣：這本帳，到底該交給誰來記？｜MIT 公開課｜15.S12｜中集](jimainotebook_gNpqvQX_3qA_keyframes.md) | 2026-10-18 |
 | [手機越滑越空虛，為什麼還是停不下來？｜Anna Lembke｜演講訪談系列](jimainotebook_huZUk89wkHY_keyframes.md) | 2026-10-18 |
 | [人類行為簡史：天生還是後天，科學吵了兩百年｜簡史系列](jimainotebook_JBRvK5SdZRs_keyframes.md) | 2026-10-17 |
