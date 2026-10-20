@@ -39,6 +39,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [一盞科技燈泡 變身高齡社會守護者 ｜#投資IN總經 EP99 #財訊 #日本](wealth1974_Q0o_qMtMzBc_keyframes.md) | 2026-10-20 |
 | [大學宿舍變養生村 退休新型態跟你想的不一樣｜#聽了財知道 EP378 #退休 #養生村](wealth1974_r1dlasilZHg_keyframes.md) | 2026-10-19 |
 | [台灣健康幣上路 如何打造千億健康經濟圈？｜#財訊不漏接 EP059 #財訊podcast #健康幣](wealth1974_Pq5ty1iiuec_keyframes.md) | 2026-10-17 |
 | [台積電落腳嘉科 屏科 為何就是不選雲林？｜#老謝開講 #謝金河 #財訊 EP297 feat. 立法委員 劉建國](wealth1974_ixv2vFp9MNs_keyframes.md) | 2026-10-16 |
