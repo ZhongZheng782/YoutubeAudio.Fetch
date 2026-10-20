@@ -17,6 +17,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [專攻韓股，全台僅此一檔，009829暱稱「韓版0050」，現在布局韓股剛剛好｜仲葳｜Smart投資教室](smartmonthly-bw_c1KVBQaRVCQ_keyframes.md) | 2026-10-20 |
 | [滿手台股AI股，小心只賺到上半場！AI下半場獲利這邊看｜峰哥、超馬芭樂│Smart投資教室](smartmonthly-bw_-zADRXYAkaU_keyframes.md) | 2026-10-19 |
 | [年化配息上看20%！高股息ETF亂象又回來了嗎？0056、00878年化配息率竟擠不進前十名？ETF的高配息從哪來？｜峰哥｜Smart智富．投資的一千零一夜255](smartmonthly-bw_tm-6SqqP5fk_keyframes.md) | 2026-10-17 |
 | [庫存還有，銅價憑什麼一直漲？形容銅市現況就是一個「囤」字！｜芷娟、峰哥｜人人都能學會ETF](smartmonthly-bw_B4LNkzUrsvM_keyframes.md) | 2026-10-14 |

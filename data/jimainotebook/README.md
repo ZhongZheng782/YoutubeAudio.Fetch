@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [沒有人生小孩，誰來付你的退休金？｜Paul Morland｜演講訪談系列](jimainotebook_eO3Q6V5xVCY_keyframes.md) | 2026-10-20 |
 | [債務週期：一個國家怎麼從借錢走到危機｜Ray Dalio｜演講訪談系列](jimainotebook_yZ_IgLkICEE_keyframes.md) | 2026-10-19 |
 | [區塊鏈與貨幣：這本帳，到底該交給誰來記？｜MIT 公開課｜15.S12｜中集](jimainotebook_gNpqvQX_3qA_keyframes.md) | 2026-10-18 |
 | [手機越滑越空虛，為什麼還是停不下來？｜Anna Lembke｜演講訪談系列](jimainotebook_huZUk89wkHY_keyframes.md) | 2026-10-18 |
