@@ -29,6 +29,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/10/21(三)全台游資氾濫 為何會錢荒?股匯大矛盾!台幣越貶經濟越強？【早晨財經速解讀】](yutinghaofinance_qaDEKdaJTto_keyframes.md) | 2026-10-21 |
 | [2026/10/20(二)美股跌完了嗎?年底反攻行情啟動?大賣空貝瑞卻警告:真正熊市剛開始？早晨財經速解讀】](yutinghaofinance_Q4THm8kBXSI_keyframes.md) | 2026-10-20 |
 | [2026/10/19(一)費半又入熊市!買點到了嗎?AI行情結束了?還是Q4最大買點?【早晨財經速解讀】](yutinghaofinance_b6e_2a_A5Is_keyframes.md) | 2026-10-19 |
 | [2026/10/16(五)賴清德總統談台灣經濟【早晨財經速解讀】](yutinghaofinance_JiP3avKjocg_keyframes.md) | 2026-10-16 |
