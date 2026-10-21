@@ -115,3 +115,4 @@
 | [AlphaGo 之父為什麼刷掉祖克柏、拒絕馬斯克，把 DeepMind 賣給 Google【AI 大人說】](ai-note-101_3NyNdSTxKEY_keyframes.md) | 2026-09-09 |
 | [Meta 兩個月前拿走你的 IG 照片，現在 Meta 要你的信箱和信用卡【AI新聞快報 2026/09/10】](ai-note-101_BAFKKutYubU_keyframes.md) | 2026-09-09 |
 | [一通電話就能接管你的微信，一家紅隊公司用 AI 兩天寫出這個攻擊碼【AI新聞快報 2026/09/09】](ai-note-101_Y40cCdonmls_keyframes.md) | 2026-09-09 |
+| [住台北的美國分析師：美國贏了 AI，中國最合理的一步就是炸掉台積電【AI 大人說】](ai-note-101_am1DCQjrTqc_keyframes.md) | 2026-09-09 |
