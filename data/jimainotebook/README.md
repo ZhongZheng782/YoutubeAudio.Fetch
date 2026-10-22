@@ -43,6 +43,7 @@
 | [賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集](jimainotebook_kfPGulrqVtI_keyframes.md) | 2026-09-29 |
 | [賽局理論：你的最好，取決於別人｜納許均衡｜囚徒困境｜中間選民｜Yale 公開課｜ECON159｜上集](jimainotebook_RtytrLzbJ-0_keyframes.md) | 2026-09-26 |
 | [15 分鐘看完 AI Engineer Conference｜開幕 keynote 篇｜巴黎](jimainotebook_F5eZ5lr7edo_keyframes.md) | 2026-09-25 |
+| [AI Skill 不是 Prompt：真正有效的 Skill 怎麼設計？](jimainotebook_E4qG-jswnDw_keyframes.md) | 2026-09-24 |
 | [平行運算：難的不是管好，是交出去｜HBM｜ASIC｜交易式記憶體｜Stanford 公開課｜CS149｜下集](jimainotebook_5jwAsjGaaUk_keyframes.md) | 2026-09-23 |
 | [平行運算：難的不是分工，是共用｜GPU｜Spark ｜CUDA｜Stanford 公開課｜CS149｜中集](jimainotebook_dFhknF3fAJg_keyframes.md) | 2026-09-20 |
 | [平行運算：加了核心為什麼沒變快｜記憶體｜多核心｜快取｜Stanford 公開課｜CS149｜上集](jimainotebook_7ipbnVilTDI_keyframes.md) | 2026-09-17 |
