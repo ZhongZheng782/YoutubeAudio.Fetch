@@ -39,6 +39,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [【會員影片節選】台積電擴廠潮 點亮八檔明星股｜ #產業投資通 EP06 #台積電 #半導體設備](wealth1974_wDxKEGE0vpY_keyframes.md) | 2026-10-22 |
 | [700億筆健保資料在線！為何部長卻說：「不好用」？｜#聽了財知道 EP379 #健保 #台灣](wealth1974_6AEwuHsuNWo_keyframes.md) | 2026-10-21 |
 | [台灣貨梯王 宏偉手握秘密武器 撐起半導體的擴廠潮｜#財訊不漏接 EP060 #財訊podcast #半導體](wealth1974_XBbZ3BWNp8Y_keyframes.md) | 2026-10-21 |
 | [一盞科技燈泡 變身高齡社會守護者 ｜#投資IN總經 EP99 #財訊 #日本](wealth1974_Q0o_qMtMzBc_keyframes.md) | 2026-10-20 |

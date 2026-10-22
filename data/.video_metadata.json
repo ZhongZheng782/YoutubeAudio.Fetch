@@ -533,6 +533,37 @@
     "date": "2026-09-04",
     "title": "2026/9/4(五)沒人接盤 債市要變天?2027兆元帳單來了 美股內部出現裂痕?【早晨財經速解讀】"
   },
+  "6ymCbelGu-U": {
+    "categories": [
+      "Science & Technology"
+    ],
+    "channel_name": "Jim AI Notebook",
+    "channel_url": "https://www.youtube.com/channel/UCwzazmPZmox_pCyiBd3-6UQ",
+    "date": "2026-10-22",
+    "description": "00:00 開場：如果 AI 變強的速度是真的，人生規劃還成立嗎？\n00:56 Jascha Sohl-Dickstein（Anthropic）：擴散模型提出者與這場 Stanford 演講\n03:12 訓練運算量：十年一百萬倍以上，一千萬是上緣\n04:11 METR 任務時間長度：約四個月翻一倍，與三個但書\n06:01 Erdős 問題：AI 先拿下的是最低垂的果實\n06:47 通用人工智慧什麼時候來？舊金山的泡泡與研究者調查\n08:27 Jascha Sohl-Dickstein（Anthropic）：題目做完的時候，還要有意義\n09:22 Rich Sutton〈苦澀的教訓〉：被規模幫忙，還是被規模解掉\n11:19 Jascha Sohl-Dickstein（Anthropic）：每天用 AI 工具，可是寫作就是思考\n14:12 Jascha Sohl-Dickstein（Anthropic）：一個研究生的故事與「安全的選項不見得安全」\n16:33 2030 年一萬倍？查證後約四百倍，以及早期的小決定\n18:08 Jascha Sohl-Dickstein（Anthropic）：他預測的黃金時代，與不同的看法\n19:36 結論：把變化當成預設值\n\n大家好，我是 Jim，這裡是 AI Notebook。這一集是演講訪談系列，主角是 Jascha Sohl-Dickstein。我們要問的是，如果 AI 變強的速度是真的，你現在的人生規劃，還成立嗎？先想像一個研究生。他跟人聊天，很認真地說，再過三年，就會出現通用人工智慧，也就是大部分動腦的工作，都做得跟人一樣好的 AI。過了幾分鐘，他又說，我再兩年念完博士，接著去做博士後研究，然後申請大學的教職。這兩段話，是同一個人講的。你有沒有聽出來，哪裡接不起來？這個研究生是真的，這一整場演講，就是從他開始的。先說清楚，這一集整理的是講者的看法，他是在對台下的研究生說話，不是在替你做職涯決定。我們分三步看。先看 AI 到底變強得多快，再看他怎麼建議研究者選題目，最後用前面的答案，回到人生規劃。\n\n⚠️ 本片整理自 Jascha Sohl-Dickstein 在 Stanford 2026 物理與 AI 研討會的公開演講。片中的預測與建議，是講者對台下研究者說的個人看法，不代表本頻道立場，也不是給觀眾的職涯建議。利益揭露：講者任職於 Anthropic，片中提到的 Claude 是 Anthropic 的產品。另外誠實註記：本頻道的製作流程有使用 AI 工具，其中包含 Anthropic 的 Claude。\n\n【說明】片中的預測與建議（AGI 的時間、2030 年的運算量、黃金時代、職涯不穩定、「做有趣的事，不是安全的事」）是講者對台下研究生說的個人看法，不是定論，也不是給觀眾的職涯建議。查證後與講者說法不同的地方：十年訓練運算量「一千萬倍」是 Epoch AI 每年四到五倍的上緣，較穩當的說法是一百萬倍以上；「2030 年是 2025 年的一萬倍」原報告（Epoch AI，2024-08）比的是 GPT-4（2023），跟 2025 年比約四百倍，而且是「做得到」不是「會發生」；METR 任務時間長度是五成機率、只限軟體工作，要求八成做對只有一到三小時；AI 解出的 Erdős 問題多是陶哲軒說的「最低垂的果實」，有幾題事後發現早有人解過；電子郵件標準是 1982 年（RFC 821／822），不是 1980；Haber-Bosch 法約養活一半人口的糧食。舊金山 AI 圈「長時間線＝十年」是他身邊的觀察，研究者調查（AI Impacts 2023）的中位數是 2047 年。\n\n原聲與演講畫面片段取自 Stanford HAI〈2026 Conference on Physics and AI: Jascha Sohl-Dickstein〉（2026-06-12 錄製），版權屬原作者；本片為評論與教育用途的解說。資料以影片製作時（2026 年 10 月）為準。\n\n📎 資料來源\n• Stanford HAI：2026 Conference on Physics and AI — Jascha Sohl-Dickstein〈Advice for a (young) investigator in the first and last days of the Anthropocene〉（2026-06-12 演講，06-30 上傳） https://youtu.be/3LZN2UUxDos\n• Stanford 2026 Conference on Physics and AI（PAI26）會議頁 https://hai.stanford.edu/events/conference-on-physics-and-ai-pai26\n• Jascha Sohl-Dickstein 個人網站（Anthropic、曾任 Google Brain／Google DeepMind） https://www.sohldickstein.com/\n• Sohl-Dickstein et al.：Deep Unsupervised Learning using Nonequilibrium Thermodynamics（擴散模型，ICML 2015） https://arxiv.org/abs/1503.03585\n• Epoch AI：Training Compute of Frontier AI Models Grows by 4-5x per Year（2024-05-28） https://epoch.ai/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year\n• Epoch AI：Trends https://epoch.ai/trends\n• Joe Carlsmith：How Much Computational Power Does It Take to Match the Human Brain?（2020） https://www.openphilanthropy.org/research/how-much-computational-power-does-it-take-to-match-the-human-brain/\n• METR：Measuring AI Ability to Complete Long Tasks（arXiv:2503.14499） https://arxiv.org/abs/2503.14499\n• METR：Time Horizons（任務時間長度，2026-09-08 起不再主動更新） https://metr.org/time-horizons/\n• METR：Time Horizon 1.1 原始資料（benchmark_results_1_1.yaml） https://metr.org/assets/benchmark_results_1_1.yaml\n• Erdős Problems（Thomas Bloom 維護） https://www.erdosproblems.com/\n• Terence Tao 維護：AI contributions to Erdős problems（wiki） https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems\n• Terence Tao（Mastodon，2025-12-26）：lowest hanging fruit https://mathstodon.xyz/@tao/115788262274999408\n• Katja Grace et al.：Thousands of AI Authors on the Future of AI（AI Impacts 2023 調查，arXiv:2401.02843） https://arxiv.org/abs/2401.02843\n• Rich Sutton：The Bitter Lesson（2019-03-13） http://www.incompleteideas.net/IncIdeas/BitterLesson.html\n• METR：Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity（2025-07-10） https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/\n• Epoch AI：Can AI Scaling Continue Through 2030?（2024-08-20） https://epoch.ai/blog/can-ai-scaling-continue-through-2030\n• RFC 821：Simple Mail Transfer Protocol（Jon Postel，1982-08） https://www.rfc-editor.org/rfc/rfc821\n• RFC 822：Standard for the Format of ARPA Internet Text Messages（David H. Crocker，1982-08-13） https://www.rfc-editor.org/rfc/rfc822\n• Erisman et al.：How a century of ammonia synthesis changed the world（Nature Geoscience，2008） https://www.nature.com/articles/ngeo325\n• Daron Acemoglu：The Simple Macroeconomics of AI（NBER w32487，2024-05） https://www.nber.org/papers/w32487\n\n---\nJim AI Notebook | Note the Future\n每日深度解析 AI 最新進展\n\n#AI #人工智慧 #AGI #通用人工智慧 #JaschaSohlDickstein #Anthropic #Claude #Stanford #職涯規劃 #研究生 #苦澀的教訓 #METR #擴散模型 #演講訪談系列 #JimAINotebook\n\n封面背景：NASA Earth Observatory〈Earth at Night〉（Black Marble 2012）",
+    "duration": 1232,
+    "tags": [
+      "AGI",
+      "AI",
+      "Anthropic",
+      "Claude",
+      "JaschaSohlDickstein",
+      "Jim AI Notebook",
+      "JimAINotebook",
+      "METR",
+      "Stanford",
+      "人工智慧",
+      "擴散模型",
+      "演講訪談系列",
+      "研究生",
+      "職涯規劃",
+      "苦澀的教訓",
+      "通用人工智慧"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/6ymCbelGu-U/maxresdefault.jpg",
+    "title": "Anthropic 研究員對博士生說：你的職涯路線，可能根本不存在｜Jascha Sohl-Dickstein（Anthropic）｜演講訪談系列",
+    "view_count": 6850
+  },
   "7DizKqDjDUY": {
     "categories": [
       "Science & Technology"
@@ -4868,6 +4899,54 @@
     "thumbnail": "https://i.ytimg.com/vi/wBmjNEMA1jY/maxresdefault.jpg",
     "title": "比爾蓋茲：AI 讓核武看起來像沒什麼，門檻跨過了卻一片沉默【AI 大人說】",
     "view_count": 123477
+  },
+  "wDxKEGE0vpY": {
+    "categories": [
+      "News & Politics"
+    ],
+    "channel_name": "財訊",
+    "channel_url": "https://www.youtube.com/channel/UCh2hilgoPIY-kiy1yFCc-xA",
+    "date": "2026-10-22",
+    "description": "#產業投資通 #財訊\n台積電持續擴產，設備、零組件與耗材供應鏈迎來哪些新機會？本集解析台積電擴產帶動的產業商機，聚焦有成精密、萬潤的技術優勢與成長動能。會員專屬內容進一步深入汙染防治、前段製程設備、廠務工程與製程耗材，掌握建廠到量產的產業觀察重點，並回覆會員關心的投資問題。\n\n影片章節：\n00:00 開場\n00:44 台積電擴產加速 哪些供應鏈迎商機？\n03:01 耗材、設備受惠廠商搶占成長先機？\n【會員專屬】良率提升的關鍵設備藏商機\n【會員專屬】建廠紅利發酵 廠務工程迎入帳高峰\n【會員專屬】先進製程升級 耗材、自動化誰受惠？\n05:37 QA 回覆留言\n\n完整影片連結： https://youtu.be/9guhDnegq2g\n\n★ 打電話也可以訂財訊→(02)2551-5228 轉 10。\n★ 商業合作請洽 ad@wealth.com.tw，或撥專線 (02)2551-2561 轉 255。\n\n製作｜財訊雙週刊\n主持｜游筱燕\n來賓｜劉志明\n企劃｜吳匡庭\n攝影｜吳雨軒\n剪輯｜吳雨軒\n錄影時間｜2026.10.19",
+    "duration": 453,
+    "tags": [
+      "財訊",
+      "財經",
+      "投資",
+      "產業投資通",
+      "產業投資通EP06",
+      "游筱燕",
+      "劉志明",
+      "台積電",
+      "台積電擴產",
+      "台積電供應鏈",
+      "台積電資本支出",
+      "半導體",
+      "半導體設備",
+      "半導體耗材",
+      "半導體供應鏈",
+      "設備股",
+      "耗材股",
+      "廠務工程",
+      "建廠商機",
+      "先進製程",
+      "先進封裝",
+      "CoWoS",
+      "CoPoS",
+      "2奈米",
+      "AI晶片",
+      "有成精密",
+      "萬潤",
+      "製程耗材",
+      "汙染防治",
+      "晶圓廠自動化",
+      "台股",
+      "產業分析",
+      "會員專屬"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/wDxKEGE0vpY/maxresdefault.jpg",
+    "title": "【會員影片節選】台積電擴廠潮 點亮八檔明星股｜ #產業投資通 EP06 #台積電 #半導體設備",
+    "view_count": 2161
   },
   "wM7uDRpaC-g": {
     "categories": [
