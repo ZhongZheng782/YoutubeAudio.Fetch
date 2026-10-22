@@ -283,6 +283,20 @@
     "title": "AI 陪孩子長大，下一代還學得會跟人相處嗎？｜Jonathan Haidt｜演講訪談系列",
     "view_count": 1999
   },
+  "3qS11YVouFQ": {
+    "categories": [
+      "News & Politics"
+    ],
+    "channel_name": "游庭皓的財經皓角",
+    "channel_url": "https://www.youtube.com/channel/UC0lbAQVpenvfA2QqzsRtL_g",
+    "date": "2026-10-22",
+    "description": "開盤前30分鐘，08:30 - 09:00 讓我們一起解讀財經時事  。\n參加財經皓角總經訂閱：\n新友會員 https://jackalopelin.com \n老友會員 https://yutinghao.finance \n我的粉絲專頁 https://reurl.cc/n563rd\n網站參加會員手冊 https://reurl.cc/rvvqAr\n如有疑問，歡迎來信 jackieyutw@gmail.com\n\"\"\"\"\" ♥️ 打賞網址 ：https://p.ecpay.com.tw/B83478D \"\"\"\"\" (不提供退款服務)\n\n00:00 市場總覽\n01:40 美股追蹤\n06:00 贏要衝輸要縮\n08:00 Meta財報\n12:20 Meta融資遊戲\n14:45 特斯拉財報\n17:50 車市紅海\n21:00 SpaceX特斯拉合併\n26:00 SpaceX帝國\n29:20 需要vs.想要\n33:00 總結\n\n《早晨財經速解讀》是游庭皓的個人知識節目，針對財經時事做最新解讀，開播於2019年7月15日，每日開盤前半小時準時直播。議題從總體經濟、產業動態到投資哲學，信息量飽滿，為你顛覆直覺，清理投資誤區，用更寬廣的角度帶你一窺投資的奧秘。\n免責聲明：《游庭皓的財經皓角》頻道為學習型頻道，僅用於教育與娛樂目的，無任何證券之買賣建議。任何形式的投資皆涉及風險，投資者需進行自己的研究，持盈保泰。",
+    "duration": 2031,
+    "tags": [],
+    "thumbnail": "https://i.ytimg.com/vi/3qS11YVouFQ/maxresdefault.jpg",
+    "title": "2026/10/22(四)美股財報反攻 誰最值得買?巨頭狂燒錢 誰來買單?【早晨財經速解讀】",
+    "view_count": 8858
+  },
   "41YfdcyP4SA": {
     "channel_name": "財訊",
     "channel_url": "https://www.youtube.com/channel/UCh2hilgoPIY-kiy1yFCc-xA",
@@ -4782,6 +4796,34 @@
     "thumbnail": "https://i.ytimg.com/vi/vlDErtgEyFM/maxresdefault.jpg",
     "title": "既然巴菲特的持倉是公開的，我們為什麼不能跟著買？#warrenbuffett #投資 #巴菲特",
     "view_count": 78
+  },
+  "vyNgabvLfWY": {
+    "categories": [
+      "Science & Technology"
+    ],
+    "channel_name": "Jim AI Notebook",
+    "channel_url": "https://www.youtube.com/channel/UCwzazmPZmox_pCyiBd3-6UQ",
+    "date": "2026-10-22",
+    "description": "00:00 開場：一個程式語言的漏洞，為什麼讓日本首相親自發文？\n00:54 PHP 是什麼：很多網站背後的程式語言，漏洞有多嚴重（9.2 分）\n03:57 誰找到的：Calif、Wiz、OpenAI 三方，AI 幫了多少說法不一\n04:55 保密期被打破：編號先流出、PHP 官方提前一天公開修補\n06:31 已經有人攻擊了嗎？業者與官方說法不一\n07:32 高市早苗（日本首相）：今晚修補，來不及可以先停網站\n08:29 BASE、CoDMON（日本）：預防性停機的取捨\n09:23 英國 NCSC、歐盟 CERT-EU、德國 BSI、日本 IPA 怎麼說\n11:20 網站主與一般人該做什麼，台灣的情況\n12:50 AI 讓找漏洞變快：英國 NCSC、DARPA、OpenAI 怎麼說\n\n2026 年 10 月 21 日，PHP 官方公布兩個 CVSS 9.2 分的嚴重漏洞（CVE-2026-109618、CVE-2026-109619），不需要登入就可能遠端執行程式碼。同一天晚上，日本首相高市早苗在 X 上請大家「今晚就處理」，來不及修補可以先暫停網站。這集用一條主線整理：PHP 是什麼、為什麼這麼急、日本為什麼這麼大動作，以及對你代表什麼。\n\n✅ 網站主（依 PHP 官方公告）：盡快更新到 PHP 8.5.12／8.4.27／8.3.36／8.2.35；網站放在主機商的，請確認主機商是否已修補；8.1 以前的版本官方已不再更新。一般使用者通常不需要安裝任何東西。\n\n⚠️ 本片不構成資安顧問建議，請以官方公告為準。本片只整理公開的官方資訊與防禦建議，不含任何攻擊手法，查證至 2026-10-21 台灣晚上。「約七成」是 W3Techs「在能判斷伺服器端語言的網站中 69.3%」，不是全部網站；是否已有攻擊，業者與官方說法不一；發現者依官方致謝為 Calif、Wiz、OpenAI 三方，AI 參與程度各家說法不同；CoDMON 公告未寫 PHP；日本法律與組織沿革是背景，不是官方說的發文原因；台灣三個機關截至 10/21 晚查不到警訊。\n\n畫面中的 X 貼文截圖出自各帳號公開貼文（時間戳已隱去），公告頁畫面出自各官方網站，僅作評論與報導用途。\n\n📎 資料來源\n• php.net：Security advisory: Critical remo https://www.php.net/archive/2026.php#2026-10-21-5\n• php.net：Upcoming Critical PHP Security R https://www.php.net/archive/2026.php#2026-10-20-1\n• php.net：PHP 下載與版本頁 https://www.php.net/releases/\n• GitHub 安全公告 GHSA-w8hw-w9fx-j79w（CVE-2026 https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w\n• GitHub 安全公告 GHSA-6wmf-4rv5-p3rp（CVE-2026 https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp\n• PHP 基金會：Today's PHP security release and https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\n• NVD：CVE-2026-109618 https://nvd.nist.gov/vuln/detail/CVE-2026-109618\n• NVD：CVE-2026-109619 https://nvd.nist.gov/vuln/detail/CVE-2026-109619\n• CVE.org：CVE-2026-109618 https://www.cve.org/CVERecord?id=CVE-2026-109618\n• W3Techs：Usage statistics of PHP（2026-10- https://w3techs.com/technologies/details/pl-php\n• W3Techs：Usage statistics of WordPress https://w3techs.com/technologies/details/cm-wordpress\n• 高市早苗 X 貼文（2026-10-21 21:55 日本時間） https://x.com/takaichi_sanae/status/2112890642590564386\n• 國家網路安全統括室 @cyber_forecast X 貼文（13:01 日本時 https://x.com/cyber_forecast/status/2112756056678134169\n• 國家網路安全統括室 @cyber_forecast X 貼文（21:44 日本時 https://x.com/cyber_forecast/status/2112887821312942568\n• 國家網路安全統括室 @cyber_forecast X 貼文（22:57 日本時 https://x.com/cyber_forecast/status/2112906086160429175\n• 國家網路安全統括室：組織概要（2025 年 7 月由 NISC 改組） https://www.cyber.go.jp/about/overview\n• 國家網路安全統括室：2026-10-01 報道發表（部分規定施行） https://www.cyber.go.jp/pdf/press/houdou_20261001.pdf\n• 國家網路安全統括室：不正存取導致外洩事件彙整（2026-10-14） https://www.cyber.go.jp/news/20261014.html\n• 首相官邸：網路安全戰略本部會議（2026-07-31） https://www.kantei.go.jp/jp/105/actions/202607/31security.html\n• IPA：【事前準備のお願い】PHPのセキュリティリリース公開予定について（202 https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html\n• BASE 官方公告：緊急メンテナンス（2026-10-21） https://help.thebase.in/hc/ja/articles/63455442867737\n• CoDMON 官方新聞室：服務暫停續報 https://www.codmon.co.jp/news-2/14634/\n• CoDMON 服務網站：維護公告 https://www.codmon.com/info/maintenance/10243\n• 英國 NCSC：Critical security issue affectin https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php\n• CERT-EU：Security Advisory 2026-018 https://cert.europa.eu/publications/security-advisories/2026-018/\n• 德國 BSI：Cybersicherheitswarnung 2026-2979 https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2026/2026-297981-1032.html\n• 美國 CISA：Known Exploited Vulnerabilities  https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n• php2shell.com（Wiz Research × OpenAI × Ca https://www.php2shell.com/\n• OpenAI：Patch the Planet: global response https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities\n• Cloudflare 部落格：PHP vulnerabilities WAF p https://blog.cloudflare.com/php-vulnerabilities-waf-protection/\n• 英國 NCSC：Impact of AI on cyber threat fro https://www.ncsc.gov.uk/report/impact-ai-cyber-threat-now-2027\n• DARPA：AI Cyber Challenge 決賽結果（2025-08-08 https://www.darpa.mil/news/2025/aixcc-results\n• TWCERT/CC：漏洞警訊公告（查證時無 PHP 項目） https://www.twcert.org.tw/tw/lp-169-1.html\n• 數位發展部資通安全署（查證時無 PHP 項目） https://moda.gov.tw/ACS/\n\n---\nJim AI Notebook | Note the Future\n每日深度解析 AI 最新進展\n\n#PHP #PHP2Shell #資訊安全 #漏洞 #高市早苗 #日本 #WordPress #OpenAI",
+    "duration": 866,
+    "tags": [
+      "Jim AI Notebook",
+      "JimAINotebook",
+      "OpenAI",
+      "PHP",
+      "PHP2Shell",
+      "Wiz",
+      "WordPress",
+      "日本",
+      "時事解說",
+      "漏洞",
+      "網站安全",
+      "資訊安全",
+      "高市早苗"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi_webp/vyNgabvLfWY/maxresdefault.webp",
+    "title": "PHP 爆重大漏洞，全球七成網站緊急修補，日本首相親自呼籲",
+    "view_count": 563
   },
   "wBb7G4Ifd34": {
     "categories": [
