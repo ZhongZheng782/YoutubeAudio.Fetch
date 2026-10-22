@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [PHP 爆重大漏洞，全球七成網站緊急修補，日本首相親自呼籲](jimainotebook_vyNgabvLfWY_keyframes.md) | 2026-10-22 |
 | [電腦科學入門：只會 0 和 1 的電腦，到底怎麼想事情？｜Harvard 公開課｜CS50｜上集](jimainotebook_RZ8TpuaLYUo_keyframes.md) | 2026-10-21 |
 | [沒有人生小孩，誰來付你的退休金？｜Paul Morland｜演講訪談系列](jimainotebook_eO3Q6V5xVCY_keyframes.md) | 2026-10-20 |
 | [債務週期：一個國家怎麼從借錢走到危機｜Ray Dalio｜演講訪談系列](jimainotebook_yZ_IgLkICEE_keyframes.md) | 2026-10-19 |
