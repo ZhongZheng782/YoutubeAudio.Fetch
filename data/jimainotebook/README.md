@@ -46,6 +46,7 @@
 | [AI Skill 不是 Prompt：真正有效的 Skill 怎麼設計？](jimainotebook_E4qG-jswnDw_keyframes.md) | 2026-09-24 |
 | [平行運算：難的不是管好，是交出去｜HBM｜ASIC｜交易式記憶體｜Stanford 公開課｜CS149｜下集](jimainotebook_5jwAsjGaaUk_keyframes.md) | 2026-09-23 |
 | [平行運算：難的不是分工，是共用｜GPU｜Spark ｜CUDA｜Stanford 公開課｜CS149｜中集](jimainotebook_dFhknF3fAJg_keyframes.md) | 2026-09-20 |
+| [Jev：誰說AI一定要會說話？](jimainotebook_2fnAlL99ayg_keyframes.md) | 2026-09-19 |
 | [平行運算：加了核心為什麼沒變快｜記憶體｜多核心｜快取｜Stanford 公開課｜CS149｜上集](jimainotebook_7ipbnVilTDI_keyframes.md) | 2026-09-17 |
 | [前沿系統：AI 如何變成真正能用的產品｜Stanford 公開課｜CS153｜下集](jimainotebook_dttPH3QWdK0_keyframes.md) | 2026-09-15 |
 | [DeepSeek V4.1 Flash，到底 Flash 在哪？](jimainotebook_ECDoHDwhsjM_keyframes.md) | 2026-09-13 |
