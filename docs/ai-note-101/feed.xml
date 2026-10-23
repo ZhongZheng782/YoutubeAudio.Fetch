@@ -1314,6 +1314,7 @@ Jane Street 的做法是把測試、設計與 code review 拉到前面，先教�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:image href="https://i.ytimg.com/vi/7k3qG68PdYQ/hqdefault.jpg"/>
       <media:thumbnail url="https://i.ytimg.com/vi/7k3qG68PdYQ/hqdefault.jpg"/>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/ai-note-101/transcripts/ai-note-101_7k3qG68PdYQ.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>為什麼「P 或非 P」造不出來？｜How Lean Works 第 6 集</title>

@@ -27,12 +27,14 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [不用存千萬也能提早退休？FIRE族都在實踐的財務自由法則｜王伯達專訪 EP4](fubonsec_tLBs-WjfLXQ_keyframes.md) | 2026-10-21 |
 | [從電商到AI巨擘  Amazon在布局什麼？\| 富邦Global Sight EP11](fubonsec_omj7U-hJNPg_keyframes.md) | 2026-10-16 |
 | [退休金一次領還是月月領？晚年最重要的不是投資報酬｜陳嬿如專訪 EP4](fubonsec_teIvhgmRlQo_keyframes.md) | 2026-10-14 |
 | [5萬點之後看什麼?台股邁向6萬點的關鍵條件｜富邦投顧 陳奕光 董事長《富邦說趨勢》 EP 96](fubonsec_LUQYfy615AM_keyframes.md) | 2026-10-09 |
 | [AI高檔震盪怎麼看？市場變數與關鍵觀察指標｜程正樺專訪 EP3](fubonsec_aalD8SBHx-w_keyframes.md) | 2026-10-07 |
 | [ASIC能挑戰GPU嗎？AI晶片競爭與先進封裝新變局｜程正樺專訪 EP2](fubonsec_4B9WiNsGNyo_keyframes.md) | 2026-10-02 |
 | [半導體股估值怎麼看？從獲利成長到AI供應鏈輪動｜國泰投信李翰林 專訪](fubonsec_plZIvZ5US7E_keyframes.md) | 2026-09-30 |
+| [AI軍備競賽進入新階段！商業化成效如何觀察？｜程正樺專訪 EP1](fubonsec_4Gtn84ZIARE_keyframes.md) | 2026-09-25 |
 | [退休規劃何時開始才不嫌晚？政大教授分享退休前15年的準備關鍵｜陳嬿如專訪 EP11](fubonsec_hj19DKuHxbQ_keyframes.md) | 2026-09-23 |
 | [退休不能只靠勞保！新退休帳戶TISA到底是什麼？｜張森林專訪 EP3](fubonsec_pNLBxERvHUY_keyframes.md) | 2026-09-18 |
 | [收入變高卻存不到錢？36到50歲最重要的資產配置課｜陳嬿如專訪 EP10](fubonsec_MXcBsRl3cbQ_keyframes.md) | 2026-09-16 |
