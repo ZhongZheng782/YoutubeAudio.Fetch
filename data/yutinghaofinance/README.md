@@ -29,6 +29,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/10/23(五)颱風魔咒!美股出事了?費半狂瀉近7% 台積電ADR跌超4.5%【早晨財經速解讀】](yutinghaofinance_kA5f2hc9FW0_keyframes.md) | 2026-10-23 |
 | [2026/10/22(四)美股財報反攻 誰最值得買?巨頭狂燒錢 誰來買單?【早晨財經速解讀】](yutinghaofinance_3qS11YVouFQ_keyframes.md) | 2026-10-22 |
 | [2026/10/21(三)全台游資氾濫 為何會錢荒?股匯大矛盾!台幣越貶經濟越強？【早晨財經速解讀】](yutinghaofinance_qaDEKdaJTto_keyframes.md) | 2026-10-21 |
 | [2026/10/20(二)美股跌完了嗎?年底反攻行情啟動?大賣空貝瑞卻警告:真正熊市剛開始？早晨財經速解讀】](yutinghaofinance_Q4THm8kBXSI_keyframes.md) | 2026-10-20 |
