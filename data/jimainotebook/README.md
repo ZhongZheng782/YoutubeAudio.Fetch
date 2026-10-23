@@ -17,6 +17,7 @@
 | --- | --- |
 | [PHP 爆重大漏洞，全球七成網站緊急修補，日本首相親自呼籲](jimainotebook_vyNgabvLfWY_keyframes.md) | 2026-10-22 |
 | [電腦科學入門：只會 0 和 1 的電腦，到底怎麼想事情？｜Harvard 公開課｜CS50｜上集](jimainotebook_RZ8TpuaLYUo_keyframes.md) | 2026-10-21 |
+| [Musk 送每個美國小孩一股，AI 的錢該這樣分嗎？](jimainotebook_WU6MhO9cC_I_keyframes.md) | 2026-10-21 |
 | [沒有人生小孩，誰來付你的退休金？｜Paul Morland｜演講訪談系列](jimainotebook_eO3Q6V5xVCY_keyframes.md) | 2026-10-20 |
 | [債務週期：一個國家怎麼從借錢走到危機｜Ray Dalio｜演講訪談系列](jimainotebook_yZ_IgLkICEE_keyframes.md) | 2026-10-19 |
 | [區塊鏈與貨幣：這本帳，到底該交給誰來記？｜MIT 公開課｜15.S12｜中集](jimainotebook_gNpqvQX_3qA_keyframes.md) | 2026-10-18 |
@@ -34,6 +35,7 @@
 | [AI 的數學證明靠 Lean 檢查，那誰來檢查 Lean？｜Leonardo de Moura｜演講訪談系列](jimainotebook_K1cnH5DBplY_keyframes.md) | 2026-10-09 |
 | [AI 為什麼會鑽規則漏洞？Hugging Face 事件調查｜Ajeya Cotra（METR）｜演講訪談系列](jimainotebook__AIy4yZYk28_keyframes.md) | 2026-10-09 |
 | [OpenAI 公開七百多篇 AI 數學論文：解決了什麼、驗證到哪裡](jimainotebook_aPid0lSkS1U_keyframes.md) | 2026-10-08 |
+| [人類行為生物學：生氣、害怕、心動的那一秒，是誰決定的？｜Stanford 公開課｜BIO150｜中集](jimainotebook_jzc6fMYqHWI_keyframes.md) | 2026-10-08 |
 | [晶片簡史：世界怎麼被一片晶片改變？｜簡史系列](jimainotebook_ignI6mQrsNs_keyframes.md) | 2026-10-07 |
 | [不再親手寫程式之後，工程師剩下什麼？｜DHH（37signals）｜演講訪談系列](jimainotebook_eNtWSchE05w_keyframes.md) | 2026-10-06 |
 | [賽局理論：每個動作都在說話｜訊號｜贏家詛咒｜Yale 公開課｜ECON159｜下集](jimainotebook_z8CE2M6B02Q_keyframes.md) | 2026-10-05 |
