@@ -15,6 +15,8 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [寫《Clean Code》的人說他不看程式碼了，你還要看嗎？｜Uncle Bob｜演講訪談系列](jimainotebook_8Y6ovXMrdVs_keyframes.md) | 2026-10-23 |
+| [2026 諾貝爾醫學獎：光怎麼控制大腦｜光遺傳學](jimainotebook_9M-2AAyVdrg_keyframes.md) | 2026-10-23 |
 | [PHP 爆重大漏洞，全球七成網站緊急修補，日本首相親自呼籲](jimainotebook_vyNgabvLfWY_keyframes.md) | 2026-10-22 |
 | [電腦科學入門：只會 0 和 1 的電腦，到底怎麼想事情？｜Harvard 公開課｜CS50｜上集](jimainotebook_RZ8TpuaLYUo_keyframes.md) | 2026-10-21 |
 | [Musk 送每個美國小孩一股，AI 的錢該這樣分嗎？](jimainotebook_WU6MhO9cC_I_keyframes.md) | 2026-10-21 |

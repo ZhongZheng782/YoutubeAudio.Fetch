@@ -27,6 +27,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [你在財富階梯第幾層？台灣家庭的資產與理財重心｜王伯達專訪 EP5](fubonsec_ylJej6ixfCg_keyframes.md) | 2026-10-23 |
 | [不用存千萬也能提早退休？FIRE族都在實踐的財務自由法則｜王伯達專訪 EP4](fubonsec_tLBs-WjfLXQ_keyframes.md) | 2026-10-21 |
 | [從電商到AI巨擘  Amazon在布局什麼？\| 富邦Global Sight EP11](fubonsec_omj7U-hJNPg_keyframes.md) | 2026-10-16 |
 | [退休金一次領還是月月領？晚年最重要的不是投資報酬｜陳嬿如專訪 EP4](fubonsec_teIvhgmRlQo_keyframes.md) | 2026-10-14 |
