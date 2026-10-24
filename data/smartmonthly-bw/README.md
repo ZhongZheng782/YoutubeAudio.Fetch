@@ -17,6 +17,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [連魏哲家都不樂觀？AI融資爆危機！台股將面臨股匯雙殺？輝達撐得住、借錢蓋機房的卻快撐不住？比2000年網路泡沫更危險？｜峰哥｜Smart智富．投資的一千零一夜256](smartmonthly-bw_bBb7muEJZwo_keyframes.md) | 2026-10-24 |
 | [專攻韓股，全台僅此一檔，009829暱稱「韓版0050」，現在布局韓股剛剛好｜仲葳｜Smart投資教室](smartmonthly-bw_c1KVBQaRVCQ_keyframes.md) | 2026-10-20 |
 | [波動加劇怎麼投資？2027年買AI也要資產配置！現金、高殖利率股怎麼搭？新商機在哪？｜陳啟祥、佑佑｜理財佑佑班](smartmonthly-bw_pPS-4V2AeHM_keyframes.md) | 2026-10-20 |
 | [滿手台股AI股，小心只賺到上半場！AI下半場獲利這邊看｜峰哥、超馬芭樂│Smart投資教室](smartmonthly-bw_-zADRXYAkaU_keyframes.md) | 2026-10-19 |

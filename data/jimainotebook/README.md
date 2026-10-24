@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [台灣生育率全球倒數，問題真的出在錢嗎？｜Claudia Goldin（哈佛大學）｜演講訪談系列](jimainotebook_SsDxBajxwVg_keyframes.md) | 2026-10-24 |
 | [寫《Clean Code》的人說他不看程式碼了，你還要看嗎？｜Uncle Bob｜演講訪談系列](jimainotebook_8Y6ovXMrdVs_keyframes.md) | 2026-10-23 |
 | [2026 諾貝爾醫學獎：光怎麼控制大腦｜光遺傳學](jimainotebook_9M-2AAyVdrg_keyframes.md) | 2026-10-23 |
 | [區塊鏈與貨幣：說好不要中間人，為什麼中間人又回來了？｜MIT 公開課｜15.S12｜下集](jimainotebook_xMlSBKB3o0w_keyframes.md) | 2026-10-23 |
