@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [AlphaGo 之父：人類語言是 AI 的天花板｜David Silver（Ineffable Intelligence）｜演講訪談系列](jimainotebook_D8Sa0aw7GTo_keyframes.md) | 2026-10-24 |
 | [台灣生育率全球倒數，問題真的出在錢嗎？｜Claudia Goldin（哈佛大學）｜演講訪談系列](jimainotebook_SsDxBajxwVg_keyframes.md) | 2026-10-24 |
 | [寫《Clean Code》的人說他不看程式碼了，你還要看嗎？｜Uncle Bob｜演講訪談系列](jimainotebook_8Y6ovXMrdVs_keyframes.md) | 2026-10-23 |
 | [2026 諾貝爾醫學獎：光怎麼控制大腦｜光遺傳學](jimainotebook_9M-2AAyVdrg_keyframes.md) | 2026-10-23 |
