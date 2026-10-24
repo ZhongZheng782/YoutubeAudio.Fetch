@@ -971,6 +971,36 @@
     "title": "騰訊AI代理為查地圖繞遍公開網路還闖進信箱【AI新聞快報 2026/10/17】",
     "view_count": 640
   },
+  "D8Sa0aw7GTo": {
+    "categories": [
+      "Science & Technology"
+    ],
+    "channel_name": "Jim AI Notebook",
+    "channel_url": "https://www.youtube.com/channel/UCwzazmPZmox_pCyiBd3-6UQ",
+    "date": "2026-10-24",
+    "description": "00:00 開場：人類語言是 AI 的天花板？\n01:07 David Silver（Ineffable Intelligence）是誰：AlphaGo 的主導者\n01:56 AlphaGo 先跟人類學：棋譜加上強化學習\n02:42 AlphaGo Zero：一盤棋譜都不看，三天一百比零\n04:14 職業棋士開始跟 AI 學\n04:51 David Silver（Ineffable）：為什麼離開 DeepMind\n05:46 超級學習者：深度與廣度\n06:36 David Silver（Ineffable）：人類語言是 AI 的天花板？\n07:48 熔爐：不出題目，只給 AI 一個世界\n09:18 David Silver 的預測：一年見證據，三年超級智慧\n10:13 Rich Sutton 的反對：模擬學的，搬得到真實世界嗎？\n11:07 另一派看法：大型語言模型與 Hassabis 的時間表\n11:56 思路監控：還看得懂 AI 在想什麼嗎？\n\n大家好，我是 Jim，這裡是 AI Notebook。這一集是演講訪談系列，主角是 David Silver，打敗圍棋世界冠軍的 AlphaGo，就是他帶頭做出來的。他今年提出一個很大膽的看法，我們這集要問的就是，人類語言，會不會是 AI 的天花板？意思是這樣。現在最紅的 AI，像 ChatGPT，都是先讀遍人類寫下的文字，再一步一步調教出來的。Silver 認為，從人類文字學出來的 AI，會被人類已經知道的東西框住，很難走得比人類遠很多。他的證據，是自己做過的一件事。AlphaGo Zero 一盤人類棋譜都不看，自己跟自己下，結果比跟人類學的 AlphaGo 更強。所以他離開 Google DeepMind，開了一家公司，要讓 AI 一句人話都不先讀，從零開始自己學。他還預測，一年內會看到很強的證據，三年內做出超級智慧。這些都是他的看法，我們也會看看，有誰不同意。我們分三步看。先看圍棋上發生過什麼，再看他打算怎麼把同一招搬到整個世界，最後看，這條路會不會成功，成功了又安不安全。\n\n原聲與訪談畫面片段取自 Sequoia Capital〈David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience〉（下方第一個連結），版權屬原作者；本片為評論與教育用途的解說。訪談主持方紅杉資本是 Ineffable Intelligence 的主要投資人之一。「人類語言是 AI 的天花板」「一年內強證據、三年內超級智慧」「思路監控快到極限」都是 David Silver 的看法與預測，不代表本頻道立場；片中也整理了 Rich Sutton、大型語言模型派、Demis Hassabis 與 41 位研究者論文等不同看法。Ineffable Intelligence 目前尚未公開產品或實驗成績。資料以影片製作時（2026 年 10 月）為準。\n\n📎 資料來源\n• Sequoia Capital｜David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience（2026-10-13） https://youtu.be/L4SWQebqhek\n• Nature：Mastering the game of Go with deep neural networks and tree search（AlphaGo，2016） https://www.nature.com/articles/nature16961\n• Google DeepMind：AlphaGo Zero: Starting from scratch（2017-10-18） https://deepmind.google/discover/blog/alphago-zero-starting-from-scratch/\n• Silver & Sutton：Welcome to the Era of Experience（2025-04） https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf\n• Fortune：Google DeepMind AI researcher David Silver leaves to found Ineffable Intelligence（2026-01-30） https://fortune.com/2026/01/30/google-deepmind-ai-researcher-david-silver-leaves-to-found-ai-startup-ineffable-intelligence/\n• Unite.AI：Ineffable Intelligence closes $1.1B seed at $5.1B valuation（2026-04） https://unite.ai/ineffable-intelligence-closes-1-1b-seed-at-5-1b-valuation/\n• Korbak, Balesni et al.：Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety（2025-07） https://arxiv.org/abs/2507.11473\n• NBC News：AI that can match humans at any task will be here in five to 10 years, Google DeepMind CEO says（2025） https://www.nbcnews.com/business/business-news/ai-can-match-humans-task-will-five-10-years-google-deepmind-ceo-says-rcna196771\n• OpenAI：Emergent tool use from multi-agent interaction（hide-and-seek，2019） https://openai.com/index/emergent-tool-use/\n• CNN：Go master quits because AI 'cannot be defeated'（2019-11-27） https://www.cnn.com/2019/11/27/tech/go-master-google-intl-hnk-scli\n• Wikipedia：David Silver (computer scientist) https://en.wikipedia.org/wiki/David_Silver_(computer_scientist)\n\n---\nJim AI Notebook | Note the Future\n每日深度解析 AI 最新進展\n\n#DavidSilver #AlphaGo #人類語言 #AI天花板 #AlphaGoZero #強化學習 #自我對弈 #超級智慧 #IneffableIntelligence #RichSutton #思路監控 #Sequoia #演講訪談系列 #JimAINotebook",
+    "duration": 905,
+    "tags": [
+      "AI天花板",
+      "AlphaGo",
+      "AlphaGoZero",
+      "DavidSilver",
+      "IneffableIntelligence",
+      "Jim AI Notebook",
+      "JimAINotebook",
+      "RichSutton",
+      "Sequoia",
+      "人類語言",
+      "強化學習",
+      "思路監控",
+      "演講訪談系列",
+      "自我對弈",
+      "超級智慧"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/D8Sa0aw7GTo/maxresdefault.jpg",
+    "title": "AlphaGo 之父：人類語言是 AI 的天花板｜David Silver（Ineffable Intelligence）｜演講訪談系列",
+    "view_count": 3498
+  },
   "DRiYHzY83T0": {
     "categories": [
       "People & Blogs"
