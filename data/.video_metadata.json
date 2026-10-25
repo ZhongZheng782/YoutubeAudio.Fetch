@@ -5229,6 +5229,41 @@
     "title": "「日本企業內部跑的 AI，幾乎都是中國的 Qwen」日本國立情報學研究所教授在日本記者俱樂部潑冷水 【AI 大人說】",
     "view_count": 12842
   },
+  "xeeLFSZOrUs": {
+    "categories": [
+      "Science & Technology"
+    ],
+    "channel_name": "Jim AI Notebook",
+    "channel_url": "https://www.youtube.com/channel/UCwzazmPZmox_pCyiBd3-6UQ",
+    "date": "2026-10-25",
+    "description": "00:00 開場：GrokBot 的幕僚長與一整隊代理人\n01:04 代理人是什麼、多代理人怎麼分工\n03:13 Anthropic 研究系統：九成來自自己的考卷\n04:02 一隊為什麼會贏：同時做、記憶乾淨、多一雙眼睛\n05:08 帳單：贏有一大半是因為花得多\n06:41 Walden Yan（Cognition）：交接像傳話遊戲\n07:48 Luke Alvoeiro（Factory）：各畫半幅畫，合起來對不上\n09:15 Yubin Kim（Google）：分得開好八成，分不開差七成\n10:50 16 個 Claude 寫編譯器\n11:53 Noam Brown（OpenAI）：同樣預算，一個不輸一隊\n13:15 Simon Willison：最後的瓶頸是你的注意力\n15:08 三個問題：分得開嗎？讀還是修改？值得嗎？\n16:11 Lauren Tan（GrokBot）：動手修改的只留一個\n17:46 結論：先用好一個，再看要不要一隊\n\n⚠️ 本片的原聲與畫面引用自各講者所屬公司或節目的官方頻道（YouTube 標準授權），作為評論與教育用途引用，每段約 30 秒以內，出處列在下方。Anthropic「分數高九成」是 Anthropic 自己內部研究題組的結果，不是公開基準；史丹佛的研究是尚未同儕審查的預印本；OpenAI 約一萬個代理人的數學成果仍有爭議。GrokBot 為 xAI 產品，訪談時 Lauren Tan 任職 Cursor（現屬 SpaceX）。本片不是投資或採購建議。製作流程有使用 AI 工具。\n封面照片：Robonaut 2，NASA／Keegan Barber（公有領域）。\n\n🎙 原聲出處\n• Barry Zhang（Anthropic）｜AI Engineer https://youtu.be/D7_ipDqhtwk?t=758\n• Sid Bidasaria（Claude Code 團隊）｜Claude https://youtu.be/S-sYlFiGFv8?t=684\n• Walden Yan（Cognition）｜Jason Liu 講座 https://youtu.be/dh-u1nn7cCs?t=616\n• Luke Alvoeiro（Factory）｜AI Engineer https://youtu.be/ow1we5PzK-o?t=563\n• Yubin Kim（Google）｜The AI Talks https://youtu.be/eirmh7FVWxk?t=943\n• Noam Brown（OpenAI）｜Dwarkesh Podcast https://youtu.be/6AgOfiZOWiY?t=351\n• Simon Willison｜The Pragmatic Engineer https://youtu.be/owmJyKVu5f8?t=1407\n• Alex（Anthropic）｜Databricks https://youtu.be/IPu3HwtQb18?t=205\n• Lauren Tan（GrokBot）｜MTS https://youtu.be/A63sedG-p5Q?t=868\n\n📎 資料來源\n• Anthropic〈How we built our multi-agent research system〉（2025 https://www.anthropic.com/engineering/multi-agent-research-system\n• Cognition（Walden Yan）〈Don't Build Multi-Agents〉（2025-06-12） https://cognition.com/blog/dont-build-multi-agents\n• Cognition〈Multi-Agents: What's Actually Working〉（2026-04-22） https://cognition.com/blog/multi-agents-working\n• Anthropic〈Building effective agents〉（2024-12-19） https://www.anthropic.com/engineering/building-effective-agents\n• Anthropic〈Effective context engineering for AI agents〉（2025- https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents\n• Anthropic（Nicholas Carlini）〈Building a C compiler with a tea https://www.anthropic.com/engineering/building-c-compiler\n• Claude Code 官方文件：agent teams（實驗功能） https://code.claude.com/docs/en/agent-teams\n• Kim 等〈Towards a Science of Scaling Agent Systems〉arXiv 2512. https://arxiv.org/abs/2512.08296\n• Cemri 等〈Why Do Multi-Agent LLM Systems Fail?〉arXiv 2503.1365 https://arxiv.org/abs/2503.13657\n• Tran & Kiela（Stanford）arXiv 2604.02460（預印本，2026-04）：同樣思考預算下的 https://arxiv.org/abs/2604.02460\n• OpenAI〈A practical guide to building agents〉 https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf\n• xAI〈Introducing Grok Bot〉（2026-08-11） https://x.ai/news/introducing-grok-bot\n• Grok Bot 官方文件：Bots https://docs.x.ai/grok-bot/bots\n• Quanta Magazine：OpenAI 約一萬個代理人的 Navier–Stokes 成果報導（2026-09-0 https://www.quantamagazine.org/\n• AI Engineer〈How We Build Effective Agents: Barry Zhang, Anth https://youtu.be/D7_ipDqhtwk\n• Claude〈How the Claude Code team uses Claude Code〉（2026-09-02 https://youtu.be/S-sYlFiGFv8\n• Jason Liu〈Why Devin (Cognition) does not use multi agents〉Wa https://youtu.be/dh-u1nn7cCs\n• AI Engineer〈The Multi-Agent Architecture That Actually Ships https://youtu.be/ow1we5PzK-o\n• The AI Talks〈Towards a science of scaling agent systems | Yu https://youtu.be/eirmh7FVWxk\n• Dwarkesh Patel〈OpenAI researcher on agent swarms & recursive https://youtu.be/6AgOfiZOWiY\n• The Pragmatic Engineer〈Simon Willison: Engineering practices https://youtu.be/owmJyKVu5f8\n• Databricks Events〈How Anthropic Builds Multi-Agent Systems:  https://youtu.be/IPu3HwtQb18\n• MTS〈Are Agents About to Replace Software Engineering? | Laur https://youtu.be/A63sedG-p5Q\n• Greg Isenberg〈Cursor AI Agents Work Like 10 Developers (Curs https://youtu.be/8QN23ZThdRY\n• Lenny's Podcast〈How we built Grok Bot in a month | Roman Uga https://youtu.be/maSdsTLaMuU\n• Cursor〈Opening Keynote, Michael Truell | Compile 26〉（2026-06 https://youtu.be/fWa7uxyhVDE\n• AI Engineer〈Don't Build Agents, Build Skills Instead – Barry https://youtu.be/CEvIs9y1uog\n• Latent Space〈Anthropic vs Cognition on Multi-Agents: A Break https://youtu.be/JYaGAqvPfYA\n• SAIL Media〈Why Multi-Agent AI Fails (and How We Fix It) | Ne https://youtu.be/hNm42RYq85g\n• Human Feedback Foundation〈Paper Club with UC Berkeley: Why D https://youtu.be/kLpYU13cnbo\n• Lenny's Podcast〈We replaced our sales team with 20 AI agents https://youtu.be/I-R1bc1rlFs\n• OpenAI〈Build Hour: Agents SDK〉（2026-05-28）（YouTube 標準授權，引用片段 https://youtu.be/tK32trvj_b4\n\n---\nJim AI Notebook | Note the Future\n每日深度解析 AI 最新進展\n\n#AI代理人 #多代理人 #AIAgent #MultiAgent #ClaudeCode #GrokBot #Cognition #Anthropic #OpenAI #Cursor #AI工作流程 #JimAINotebook",
+    "duration": 1160,
+    "tags": [
+      "AIAgent",
+      "AI代理人",
+      "AI工作流程",
+      "Agent Teams",
+      "Anthropic",
+      "Claude Agent Teams",
+      "Claude Duet",
+      "ClaudeCode",
+      "Cognition",
+      "Cursor",
+      "Duet",
+      "Grok",
+      "GrokBot",
+      "Jim AI Notebook",
+      "JimAINotebook",
+      "Meta Muse",
+      "MultiAgent",
+      "Muse",
+      "OpenAI",
+      "多代理人"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/xeeLFSZOrUs/maxresdefault.jpg",
+    "title": "AI 代理人開一整隊，真的比只用一個好嗎？ #GrokBot #ClaudeDuet #MetaMuse",
+    "view_count": 2233
+  },
   "y79NVF0hYSI": {
     "categories": [
       "Science & Technology"
