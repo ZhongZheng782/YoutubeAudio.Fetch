@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [電腦科學入門：記憶體、資料結構到 AI｜Harvard 公開課｜CS50｜中集](jimainotebook_thL8LvmfNpc_keyframes.md) | 2026-10-26 |
 | [AI 代理人開一整隊，真的比只用一個好嗎？ #GrokBot #ClaudeDuet #MetaMuse](jimainotebook_xeeLFSZOrUs_keyframes.md) | 2026-10-25 |
 | [AlphaGo 之父：人類語言是 AI 的天花板｜David Silver（Ineffable Intelligence）｜演講訪談系列](jimainotebook_D8Sa0aw7GTo_keyframes.md) | 2026-10-24 |
 | [台灣生育率全球倒數，問題真的出在錢嗎？｜Claudia Goldin（哈佛大學）｜演講訪談系列](jimainotebook_SsDxBajxwVg_keyframes.md) | 2026-10-24 |
