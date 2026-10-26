@@ -9,12 +9,83 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_xeeLFSZOrUs_keyframes/jimainotebook_xeeLFSZOrUs_000003.jpg"/>
+    <itunes:image href="https://i.ytimg.com/vi/thL8LvmfNpc/maxresdefault.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/jimainotebook/jimainotebook_xeeLFSZOrUs_keyframes/jimainotebook_xeeLFSZOrUs_000003.jpg</url>
+      <url>https://i.ytimg.com/vi/thL8LvmfNpc/maxresdefault.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>【Jim AI Notebook】電腦科學入門：記憶體、資料結構到 AI｜Harvard 公開課｜CS50｜中集</title>
+      <guid isPermaLink="false">jimainotebook_thL8LvmfNpc</guid>
+      <pubDate>Mon, 26 Oct 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=thL8LvmfNpc</link>
+      <description>&lt;p&gt;00:00 開場：一模一樣的兩個字，電腦為什麼說不一樣？&lt;br/&gt;01:43 Malan（Harvard）：記憶體，每一格都有門牌&lt;br/&gt;02:44 Malan（Harvard）：指標，信箱裡的地址紙條&lt;br/&gt;03:58 字串只記第一格：比的是兩個地址&lt;br/&gt;06:49 malloc 與 free、交換兩杯水、傳值與傳址&lt;br/&gt;10:03 Malan（Harvard）：CrowdStrike 當機，陣列外的第 21 格&lt;br/&gt;12:39 Malan（Harvard）：排隊、疊毛衣與陣列搬家&lt;br/&gt;16:15 鏈結串列、記憶體洩漏與二元搜尋樹&lt;br/&gt;19:42 Malan（Harvard）：雜湊表，沙拉店取餐架&lt;br/&gt;22:36 Malan（Harvard）：Python 替你管門牌&lt;br/&gt;26:01 代價：看不見底下&lt;br/&gt;27:20 Malan（Harvard）：AI 特別講，會說話的鴨子&lt;br/&gt;32:00 神經網路、大型語言模型與幻覺&lt;br/&gt;&lt;br/&gt;這一集是哈佛大學 Harvard 公開課 CS50（電腦科學入門）的中集，整理 Lecture 4 Memory、Lecture 5 Data Structures、Lecture 6 Python，以及 2024 年家長週末的 AI 特別講。上集留下一個問題：兩個一模一樣的 HI!，為什麼電腦說不一樣？我們從記憶體的門牌和指標講起，接著看資料怎麼用紙條串成串列、樹和雜湊表，最後到 Python 和 AI：AI 看到的字，也只是記憶體裡的一排數字。&lt;br/&gt;&lt;br/&gt;【查證與更正】Malan 課堂上的幾個說法跟查證結果不同，片中旁白已更正：CrowdStrike 2024 年 7 月當機是讀取陣列外的資料，微軟公布約 850 萬台 Windows 受影響，Delta 航空求償至少 5 億美元，損失遠超過「好幾百萬美元」；Python 的 list 底層是會變長的陣列，不是鏈結串列；第一代 GPT 是 2018 年；鴨子助教用的 1,536 個數字是它採用的文字嵌入模型，不是 ChatGPT 內部的表示。&lt;br/&gt;&lt;br/&gt;片中講課原聲與上課畫面取自 CS50x 2025：David J. Malan, CS50's Introduction to Computer Science (Harvard University)，依 CC BY-NC-SA 4.0 授權使用（https://creativecommons.org/licenses/by-nc-sa/4.0/ ；授權頁 https://cs50.harvard.edu/x/license/ ），已剪輯並加上中文字幕。課程頁：https://cs50.harvard.edu/x/&lt;br/&gt;Lecture clips: CS50x 2025, CS50's Introduction to Computer Science by David J. Malan, Harvard University, licensed under CC BY-NC-SA 4.0; excerpted and subtitled in Chinese.&lt;br/&gt;Binky Pointer Fun：This is document 104 in the Stanford CS Education Library. Please see http://cslibrary.stanford.edu/ for this and other free educational materials. Copyright Nick Parlante 1999.&lt;br/&gt;&lt;br/&gt;📎 資料來源&lt;br/&gt;• CS50x 2025 - Lecture 4 - Memory（Harvard  https://www.youtube.com/watch?v=kcRdFGbzR1I&lt;br/&gt;• CS50x 2025 - Lecture 5 - Data Structures https://www.youtube.com/watch?v=aV8LlSmd1E8&lt;br/&gt;• CS50x 2025 - Lecture 6 - Python（Harvard  https://www.youtube.com/watch?v=0eNc5lJfZFM&lt;br/&gt;• CS50x 2025 - Artificial Intelligence（Har https://www.youtube.com/watch?v=1HuD2ryeOLg&lt;br/&gt;• CS50x 課程官網 https://cs50.harvard.edu/x/&lt;br/&gt;• CS50 授權（CC BY-NC-SA 4.0） https://cs50.harvard.edu/x/license/&lt;br/&gt;• CS50x 2025 課表（Weeks） https://cs50.harvard.edu/x/2025/weeks/&lt;br/&gt;• CrowdStrike：External Technical Root Caus https://www.crowdstrike.com/wp-content/uploads/2024/08/Channel-File-291-Incident-Root-Cause-Analysis-08.06.2024.pdf&lt;br/&gt;• Microsoft：Helping our customers through  https://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/&lt;br/&gt;• Delta Air Lines 8-K（SEC，2024-08-08）：7,00 https://www.sec.gov/Archives/edgar/data/27904/000168316824005369/delta_8k.htm&lt;br/&gt;• Axios：Fortune 500 lost an estimated $5.4 https://www.axios.com/2024/07/24/fortune-500-crowdstrike-outage-impact&lt;br/&gt;• Stanford CS Education Library：Binky Poin http://cslibrary.stanford.edu/104/&lt;br/&gt;• The Making of Pointer Fun（Binky 製作花絮） http://cslibrary.stanford.edu/104/themakingof/&lt;br/&gt;• xkcd 138：Pointers https://xkcd.com/138/&lt;br/&gt;• xkcd 授權（CC BY-NC 2.5） https://xkcd.com/license.html&lt;br/&gt;• CS50 Library 原始碼（get_string） https://github.com/cs50/libcs50/blob/main/src/cs50.c&lt;br/&gt;• Heartbleed Bug（CVE-2014-0160） https://heartbleed.com/&lt;br/&gt;• Python Design and History FAQ（list 是動態陣列 https://docs.python.org/3/faq/design.html&lt;br/&gt;• Python Built-in Types（整數無上限精度） https://docs.python.org/3/library/stdtypes.html&lt;br/&gt;• Python Tutorial：Floating-Point Arithmeti https://docs.python.org/3/tutorial/floatingpoint.html&lt;br/&gt;• Python General FAQ（Python 由來與命名） https://docs.python.org/3/faq/general.html&lt;br/&gt;• Pillow 文件（PIL 分支） https://pillow.readthedocs.io/en/stable/&lt;br/&gt;• Fredkin, Trie Memory, Communications of  https://doi.org/10.1145/367390.367400&lt;br/&gt;• Jeff Atwood：Help Name Our Website（Stack  https://blog.codinghorror.com/help-name-our-website/&lt;br/&gt;• Liu et al.：Teaching CS50 with AI（SIGCSE  https://cs.harvard.edu/malan/publications/V1fp0567-liu.pdf&lt;br/&gt;• CS50x 2025 Academic Honesty（AI 使用條款） https://cs50.harvard.edu/x/2025/honesty/&lt;br/&gt;• OEIS A048987：西洋棋前 n 個半步的棋局數 https://oeis.org/A048987&lt;br/&gt;• IBM History：Watson, Jeopardy! champion https://www.ibm.com/history/watson-jeopardy&lt;br/&gt;• IBM History：Deep Blue https://www.ibm.com/history/deep-blue&lt;br/&gt;• Vaswani et al.：Attention Is All You Need https://arxiv.org/abs/1706.03762&lt;br/&gt;• OpenAI：Improving Language U&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/thL8LvmfNpc/maxresdefault.jpg" alt="【Jim AI Notebook】電腦科學入門：記憶體、資料結構到 AI｜Harvard 公開課｜CS50｜中集" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;00:00 開場：一模一樣的兩個字，電腦為什麼說不一樣？&lt;br/&gt;01:43 Malan（Harvard）：記憶體，每一格都有門牌&lt;br/&gt;02:44 Malan（Harvard）：指標，信箱裡的地址紙條&lt;br/&gt;03:58 字串只記第一格：比的是兩個地址&lt;br/&gt;06:49 malloc 與 free、交換兩杯水、傳值與傳址&lt;br/&gt;10:03 Malan（Harvard）：CrowdStrike 當機，陣列外的第 21 格&lt;br/&gt;12:39 Malan（Harvard）：排隊、疊毛衣與陣列搬家&lt;br/&gt;16:15 鏈結串列、記憶體洩漏與二元搜尋樹&lt;br/&gt;19:42 Malan（Harvard）：雜湊表，沙拉店取餐架&lt;br/&gt;22:36 Malan（Harvard）：Python 替你管門牌&lt;br/&gt;26:01 代價：看不見底下&lt;br/&gt;27:20 Malan（Harvard）：AI 特別講，會說話的鴨子&lt;br/&gt;32:00 神經網路、大型語言模型與幻覺&lt;br/&gt;&lt;br/&gt;這一集是哈佛大學 Harvard 公開課 CS50（電腦科學入門）的中集，整理 Lecture 4 Memory、Lecture 5 Data Structures、Lecture 6 Python，以及 2024 年家長週末的 AI 特別講。上集留下一個問題：兩個一模一樣的 HI!，為什麼電腦說不一樣？我們從記憶體的門牌和指標講起，接著看資料怎麼用紙條串成串列、樹和雜湊表，最後到 Python 和 AI：AI 看到的字，也只是記憶體裡的一排數字。&lt;br/&gt;&lt;br/&gt;【查證與更正】Malan 課堂上的幾個說法跟查證結果不同，片中旁白已更正：CrowdStrike 2024 年 7 月當機是讀取陣列外的資料，微軟公布約 850 萬台 Windows 受影響，Delta 航空求償至少 5 億美元，損失遠超過「好幾百萬美元」；Python 的 list 底層是會變長的陣列，不是鏈結串列；第一代 GPT 是 2018 年；鴨子助教用的 1,536 個數字是它採用的文字嵌入模型，不是 ChatGPT 內部的表示。&lt;br/&gt;&lt;br/&gt;片中講課原聲與上課畫面取自 CS50x 2025：David J. Malan, CS50's Introduction to Computer Science (Harvard University)，依 CC BY-NC-SA 4.0 授權使用（https://creativecommons.org/licenses/by-nc-sa/4.0/ ；授權頁 https://cs50.harvard.edu/x/license/ ），已剪輯並加上中文字幕。課程頁：https://cs50.harvard.edu/x/&lt;br/&gt;Lecture clips: CS50x 2025, CS50's Introduction to Computer Science by David J. Malan, Harvard University, licensed under CC BY-NC-SA 4.0; excerpted and subtitled in Chinese.&lt;br/&gt;Binky Pointer Fun：This is document 104 in the Stanford CS Education Library. Please see http://cslibrary.stanford.edu/ for this and other free educational materials. Copyright Nick Parlante 1999.&lt;br/&gt;&lt;br/&gt;📎 資料來源&lt;br/&gt;• CS50x 2025 - Lecture 4 - Memory（Harvard  https://www.youtube.com/watch?v=kcRdFGbzR1I&lt;br/&gt;• CS50x 2025 - Lecture 5 - Data Structures https://www.youtube.com/watch?v=aV8LlSmd1E8&lt;br/&gt;• CS50x 2025 - Lecture 6 - Python（Harvard  https://www.youtube.com/watch?v=0eNc5lJfZFM&lt;br/&gt;• CS50x 2025 - Artificial Intelligence（Har https://www.youtube.com/watch?v=1HuD2ryeOLg&lt;br/&gt;• CS50x 課程官網 https://cs50.harvard.edu/x/&lt;br/&gt;• CS50 授權（CC BY-NC-SA 4.0） https://cs50.harvard.edu/x/license/&lt;br/&gt;• CS50x 2025 課表（Weeks） https://cs50.harvard.edu/x/2025/weeks/&lt;br/&gt;• CrowdStrike：External Technical Root Caus https://www.crowdstrike.com/wp-content/uploads/2024/08/Channel-File-291-Incident-Root-Cause-Analysis-08.06.2024.pdf&lt;br/&gt;• Microsoft：Helping our customers through  https://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/&lt;br/&gt;• Delta Air Lines 8-K（SEC，2024-08-08）：7,00 https://www.sec.gov/Archives/edgar/data/27904/000168316824005369/delta_8k.htm&lt;br/&gt;• Axios：Fortune 500 lost an estimated $5.4 https://www.axios.com/2024/07/24/fortune-500-crowdstrike-outage-impact&lt;br/&gt;• Stanford CS Education Library：Binky Poin http://cslibrary.stanford.edu/104/&lt;br/&gt;• The Making of Pointer Fun（Binky 製作花絮） http://cslibrary.stanford.edu/104/themakingof/&lt;br/&gt;• xkcd 138：Pointers https://xkcd.com/138/&lt;br/&gt;• xkcd 授權（CC BY-NC 2.5） https://xkcd.com/license.html&lt;br/&gt;• CS50 Library 原始碼（get_string） https://github.com/cs50/libcs50/blob/main/src/cs50.c&lt;br/&gt;• Heartbleed Bug（CVE-2014-0160） https://heartbleed.com/&lt;br/&gt;• Python Design and History FAQ（list 是動態陣列 https://docs.python.org/3/faq/design.html&lt;br/&gt;• Python Built-in Types（整數無上限精度） https://docs.python.org/3/library/stdtypes.html&lt;br/&gt;• Python Tutorial：Floating-Point Arithmeti https://docs.python.org/3/tutorial/floatingpoint.html&lt;br/&gt;• Python General FAQ（Python 由來與命名） https://docs.python.org/3/faq/general.html&lt;br/&gt;• Pillow 文件（PIL 分支） https://pillow.readthedocs.io/en/stable/&lt;br/&gt;• Fredkin, Trie Memory, Communications of  https://doi.org/10.1145/367390.367400&lt;br/&gt;• Jeff Atwood：Help Name Our Website（Stack  https://blog.codinghorror.com/help-name-our-website/&lt;br/&gt;• Liu et al.：Teaching CS50 with AI（SIGCSE  https://cs.harvard.edu/malan/publications/V1fp0567-liu.pdf&lt;br/&gt;• CS50x 2025 Academic Honesty（AI 使用條款） https://cs50.harvard.edu/x/2025/honesty/&lt;br/&gt;• OEIS A048987：西洋棋前 n 個半步的棋局數 https://oeis.org/A048987&lt;br/&gt;• IBM History：Watson, Jeopardy! champion https://www.ibm.com/history/watson-jeopardy&lt;br/&gt;• IBM History：Deep Blue https://www.ibm.com/history/deep-blue&lt;br/&gt;• Vaswani et al.：Attention Is All You Need https://arxiv.org/abs/1706.03762&lt;br/&gt;• OpenAI：Improving Language U&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/thL8LvmfNpc/maxresdefault.jpg" alt="【Jim AI Notebook】電腦科學入門：記憶體、資料結構到 AI｜Harvard 公開課｜CS50｜中集" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_thL8LvmfNpc.m4a" type="audio/mp4" length="94889177"/>
+      <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:summary>00:00 開場：一模一樣的兩個字，電腦為什麼說不一樣？
+01:43 Malan（Harvard）：記憶體，每一格都有門牌
+02:44 Malan（Harvard）：指標，信箱裡的地址紙條
+03:58 字串只記第一格：比的是兩個地址
+06:49 malloc 與 free、交換兩杯水、傳值與傳址
+10:03 Malan（Harvard）：CrowdStrike 當機，陣列外的第 21 格
+12:39 Malan（Harvard）：排隊、疊毛衣與陣列搬家
+16:15 鏈結串列、記憶體洩漏與二元搜尋樹
+19:42 Malan（Harvard）：雜湊表，沙拉店取餐架
+22:36 Malan（Harvard）：Python 替你管門牌
+26:01 代價：看不見底下
+27:20 Malan（Harvard）：AI 特別講，會說話的鴨子
+32:00 神經網路、大型語言模型與幻覺
+
+這一集是哈佛大學 Harvard 公開課 CS50（電腦科學入門）的中集，整理 Lecture 4 Memory、Lecture 5 Data Structures、Lecture 6 Python，以及 2024 年家長週末的 AI 特別講。上集留下一個問題：兩個一模一樣的 HI!，為什麼電腦說不一樣？我們從記憶體的門牌和指標講起，接著看資料怎麼用紙條串成串列、樹和雜湊表，最後到 Python 和 AI：AI 看到的字，也只是記憶體裡的一排數字。
+
+【查證與更正】Malan 課堂上的幾個說法跟查證結果不同，片中旁白已更正：CrowdStrike 2024 年 7 月當機是讀取陣列外的資料，微軟公布約 850 萬台 Windows 受影響，Delta 航空求償至少 5 億美元，損失遠超過「好幾百萬美元」；Python 的 list 底層是會變長的陣列，不是鏈結串列；第一代 GPT 是 2018 年；鴨子助教用的 1,536 個數字是它採用的文字嵌入模型，不是 ChatGPT 內部的表示。
+
+片中講課原聲與上課畫面取自 CS50x 2025：David J. Malan, CS50's Introduction to Computer Science (Harvard University)，依 CC BY-NC-SA 4.0 授權使用（https://creativecommons.org/licenses/by-nc-sa/4.0/ ；授權頁 https://cs50.harvard.edu/x/license/ ），已剪輯並加上中文字幕。課程頁：https://cs50.harvard.edu/x/
+Lecture clips: CS50x 2025, CS50's Introduction to Computer Science by David J. Malan, Harvard University, licensed under CC BY-NC-SA 4.0; excerpted and subtitled in Chinese.
+Binky Pointer Fun：This is document 104 in the Stanford CS Education Library. Please see http://cslibrary.stanford.edu/ for this and other free educational materials. Copyright Nick Parlante 1999.
+
+📎 資料來源
+• CS50x 2025 - Lecture 4 - Memory（Harvard  https://www.youtube.com/watch?v=kcRdFGbzR1I
+• CS50x 2025 - Lecture 5 - Data Structures https://www.youtube.com/watch?v=aV8LlSmd1E8
+• CS50x 2025 - Lecture 6 - Python（Harvard  https://www.youtube.com/watch?v=0eNc5lJfZFM
+• CS50x 2025 - Artificial Intelligence（Har https://www.youtube.com/watch?v=1HuD2ryeOLg
+• CS50x 課程官網 https://cs50.harvard.edu/x/
+• CS50 授權（CC BY-NC-SA 4.0） https://cs50.harvard.edu/x/license/
+• CS50x 2025 課表（Weeks） https://cs50.harvard.edu/x/2025/weeks/
+• CrowdStrike：External Technical Root Caus https://www.crowdstrike.com/wp-content/uploads/2024/08/Channel-File-291-Incident-Root-Cause-Analysis-08.06.2024.pdf
+• Microsoft：Helping our customers through  https://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/
+• Delta Air Lines 8-K（SEC，2024-08-08）：7,00 https://www.sec.gov/Archives/edgar/data/27904/000168316824005369/delta_8k.htm
+• Axios：Fortune 500 lost an estimated $5.4 https://www.axios.com/2024/07/24/fortune-500-crowdstrike-outage-impact
+• Stanford CS Education Library：Binky Poin http://cslibrary.stanford.edu/104/
+• The Making of Pointer Fun（Binky 製作花絮） http://cslibrary.stanford.edu/104/themakingof/
+• xkcd 138：Pointers https://xkcd.com/138/
+• xkcd 授權（CC BY-NC 2.5） https://xkcd.com/license.html
+• CS50 Library 原始碼（get_string） https://github.com/cs50/libcs50/blob/main/src/cs50.c
+• Heartbleed Bug（CVE-2014-0160） https://heartbleed.com/
+• Python Design and History FAQ（list 是動態陣列 https://docs.python.org/3/faq/design.html
+• Python Built-in Types（整數無上限精度） https://docs.python.org/3/library/stdtypes.html
+• Python Tutorial：Floating-Point Arithmeti https://docs.python.org/3/tutorial/floatingpoint.html
+• Python General FAQ（Python 由來與命名） https://docs.python.org/3/faq/general.html
+• Pillow 文件（PIL 分支） https://pillow.readthedocs.io/en/stable/
+• Fredkin, Trie Memory, Communications of  https://doi.org/10.1145/367390.367400
+• Jeff Atwood：Help Name Our Website（Stack  https://blog.codinghorror.com/help-name-our-website/
+• Liu et al.：Teaching CS50 with AI（SIGCSE  https://cs.harvard.edu/malan/publications/V1fp0567-liu.pdf
+• CS50x 2025 Academic Honesty（AI 使用條款） https://cs50.harvard.edu/x/2025/honesty/
+• OEIS A048987：西洋棋前 n 個半步的棋局數 https://oeis.org/A048987
+• IBM History：Watson, Jeopardy! champion https://www.ibm.com/history/watson-jeopardy
+• IBM History：Deep Blue https://www.ibm.com/history/deep-blue
+• Vaswani et al.：Attention Is All You Need https://arxiv.org/abs/1706.03762
+• OpenAI：Improving Language U</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:36:21</itunes:duration>
+      <itunes:keywords>CS50, DavidMalan, Harvard公開課, Jim AI Notebook, JimAINotebook, Python, 人工智慧, 哈佛大學, 指標, 排序演算法, 整數溢位, 演算法, 記憶體, 資料結構, 遞迴, 鏈結串列, 雜湊表, 電腦科學入門</itunes:keywords>
+      <itunes:image href="https://i.ytimg.com/vi/thL8LvmfNpc/maxresdefault.jpg"/>
+      <media:thumbnail url="https://i.ytimg.com/vi/thL8LvmfNpc/maxresdefault.jpg"/>
+      <media:community><media:statistics views="141"/></media:community>
+      <media:category>Science &amp; Technology</media:category>
+    </item>
     <item>
       <title>【Jim AI Notebook】AI 代理人開一整隊，真的比只用一個好嗎？ #GrokBot #ClaudeDuet #MetaMuse</title>
       <guid isPermaLink="false">jimainotebook_xeeLFSZOrUs</guid>
