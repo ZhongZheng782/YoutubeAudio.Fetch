@@ -41,6 +41,7 @@
 | --- | --- |
 | [把家庭光纖搬進資料中心 聯發科攜手達發攻 AI 網通新戰場｜#財訊不漏接 EP062 #財訊podcast #聯發科 #達發](wealth1974_E71ShaxggtM_keyframes.md) | 2026-10-28 |
 | [台灣金融業脫胎換骨 但挑戰是什麼？｜#聽了財知道 EP381 #金融業](wealth1974_F5VWsggGP80_keyframes.md) | 2026-10-28 |
+| [「緊緊緊」亞灣新經濟！高雄產業轉型關鍵在於「拚」！｜高雄城市與產業發展論壇精華](wealth1974_Hzpn4iVqcF8_keyframes.md) | 2026-10-28 |
 | [選前雜音紛擾 愛榭克：很難撼動基本面｜#投資IN總經 EP100 #財訊 #美股筆記](wealth1974_vZetC_HMbJA_keyframes.md) | 2026-10-27 |
 | [戰火打亂市場 一次看懂石化業回春的真相｜#聽了財知道 EP380 #石化業 #台塑](wealth1974_FWhr8H0f9hQ_keyframes.md) | 2026-10-26 |
 | [川普示警歐洲的各項癥結 高福利已成「經濟毒藥」｜#老謝開講 #謝金河 #財訊 EP298](wealth1974_XNB_fxkXlm4_keyframes.md) | 2026-10-23 |
