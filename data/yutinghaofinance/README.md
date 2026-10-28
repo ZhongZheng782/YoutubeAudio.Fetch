@@ -29,6 +29,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/10/28(三)川普選情告急!美股將迎政治變局?Anthropic IPO行情 美股買點到了?【早晨財經速解讀】](yutinghaofinance_WScGZDz5Kno_keyframes.md) | 2026-10-28 |
 | [2026/10/27(二)美股止跌了?加碼or觀望 Anthropic上市倒數 期中選舉恐衝擊AI?【早晨財經速解讀】](yutinghaofinance_fXo4kKJjQ5E_keyframes.md) | 2026-10-27 |
 | [2026/10/23(五)颱風魔咒!美股出事了?費半狂瀉近7% 台積電ADR跌超4.5%【早晨財經速解讀】](yutinghaofinance_kA5f2hc9FW0_keyframes.md) | 2026-10-23 |
 | [2026/10/22(四)美股財報反攻 誰最值得買?巨頭狂燒錢 誰來買單?【早晨財經速解讀】](yutinghaofinance_3qS11YVouFQ_keyframes.md) | 2026-10-22 |
