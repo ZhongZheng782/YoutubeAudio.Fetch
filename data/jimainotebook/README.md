@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [OpenAI證明指數時間假說 ETH 是錯的](jimainotebook_iJtRRhAuEDg_keyframes.md) | 2026-10-27 |
 | [戰爭為什麼開打容易，結束這麼難？｜Sarah Paine｜演講訪談系列](jimainotebook_tIscH2YrTrU_keyframes.md) | 2026-10-27 |
 | [電腦科學入門：記憶體、資料結構到 AI｜Harvard 公開課｜CS50｜中集](jimainotebook_thL8LvmfNpc_keyframes.md) | 2026-10-26 |
 | [AI 代理人開一整隊，真的比只用一個好嗎？ #GrokBot #ClaudeDuet #MetaMuse](jimainotebook_xeeLFSZOrUs_keyframes.md) | 2026-10-25 |
