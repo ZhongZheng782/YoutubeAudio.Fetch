@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [人類該怎麼跟電腦互動？ ft. Typeless](jimainotebook_KiLmWVI8hYc_keyframes.md) | 2026-10-29 |
 | [AI 新創泡沫的殘酷洗牌：算力成本與變現困境引爆倒閉潮](jimainotebook_-9M7lYjHVFw_keyframes.md) | 2026-10-28 |
 | [OpenAI證明指數時間假說 ETH 是錯的](jimainotebook_iJtRRhAuEDg_keyframes.md) | 2026-10-27 |
 | [戰爭為什麼開打容易，結束這麼難？｜Sarah Paine｜演講訪談系列](jimainotebook_tIscH2YrTrU_keyframes.md) | 2026-10-27 |
