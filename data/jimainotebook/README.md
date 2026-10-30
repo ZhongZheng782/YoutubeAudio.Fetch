@@ -53,6 +53,7 @@
 | [賽局理論：每個動作都在說話｜訊號｜贏家詛咒｜Yale 公開課｜ECON159｜下集](jimainotebook_z8CE2M6B02Q_keyframes.md) | 2026-10-05 |
 | [AI 的智慧變便宜以後，最缺的是什麼？｜Alexandr Wang（Meta）｜演講訪談系列](jimainotebook_ixw8pLpXtYs_keyframes.md) | 2026-10-04 |
 | [人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集](jimainotebook_3eZAYm8Di48_keyframes.md) | 2026-10-02 |
+| [人類行為生物學：你以為的天生，有多少是環境造成的？｜Stanford 公開課｜BIO150｜上集](jimainotebook_B2Ois2AmMSM_keyframes.md) | 2026-10-02 |
 | [AI 簡史：機器學會思考以前｜簡史系列](jimainotebook_dVnETuDm1bg_keyframes.md) | 2026-10-01 |
 | [賽局理論：眼前划算，不等於長期划算｜混合策略｜逆向歸納｜Yale 公開課｜ECON159｜中集](jimainotebook_kfPGulrqVtI_keyframes.md) | 2026-09-29 |
 | [賽局理論：你的最好，取決於別人｜納許均衡｜囚徒困境｜中間選民｜Yale 公開課｜ECON159｜上集](jimainotebook_RtytrLzbJ-0_keyframes.md) | 2026-09-26 |

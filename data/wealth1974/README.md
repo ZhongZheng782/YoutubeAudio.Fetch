@@ -39,6 +39,8 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [AI下一波商機在哪？看懂2030智慧產業新局](wealth1974_ES3kcScvMWA_keyframes.md) | 2026-10-30 |
+| [長鑫衝擊記憶體產業 韓股重挫的影響｜#老謝開講 #謝金河 #財訊 EP299](wealth1974_oN0Ug8PJn3k_keyframes.md) | 2026-10-30 |
 | [把家庭光纖搬進資料中心 聯發科攜手達發攻 AI 網通新戰場｜#財訊不漏接 EP062 #財訊podcast #聯發科 #達發](wealth1974_E71ShaxggtM_keyframes.md) | 2026-10-28 |
 | [台灣金融業脫胎換骨 但挑戰是什麼？｜#聽了財知道 EP381 #金融業](wealth1974_F5VWsggGP80_keyframes.md) | 2026-10-28 |
 | [「緊緊緊」亞灣新經濟！高雄產業轉型關鍵在於「拚」！｜高雄城市與產業發展論壇精華](wealth1974_Hzpn4iVqcF8_keyframes.md) | 2026-10-28 |
