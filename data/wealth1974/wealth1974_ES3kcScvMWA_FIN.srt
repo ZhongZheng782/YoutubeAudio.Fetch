@@ -1,0 +1,751 @@
+[METADATA]
+Source: wealth1974_ES3kcScvMWA_youtube-transcript-auto
+Language: en
+---
+(00:13.314) By 2030, one can imagine that today we
+(00:15.571) are talking about the enterprises of the
+(00:17.945) future. What kind of new landscape will
+(00:20.617) the development of future enterprises
+(00:23.189) present?
+(00:24.504) In this massive AI wave, Taiwanese
+(00:26.978) enterprises are gradually moving toward
+(00:29.806) the international stage.
+(00:32.126) In the past, during the era of mobile
+(00:34.622) phone chips, MediaTek was just
+(00:36.658) Qualcomm's little brother. MediaTek's
+(00:39.239) market value was far behind Qualcomm's.
+(00:42.083) Now you can see that MediaTek has surged
+(00:44.584) far ahead of Qualcomm. In the next round
+(00:47.079) , MediaTek's competitor will likely be
+(00:49.493) Broadcom. At this moment, everyone can
+(00:52.042) imagine that NVIDIA recently bought up
+(00:54.585) all of MediaTek's 3.5 billion USD in
+(00:56.998) convertible bonds. This also tells
+(00:59.417) everyone that MediaTek's current market
+(01:02.280) value, calculated in USD, has already
+(01:04.999) exceeded 250 billion, ranking it around
+(01:07.862) 67th in the world. Taiwanese enterprises
+(01:10.496) are gradually and steadily moving
+(01:12.422) forward. TSMC is the sixth-largest
+(01:14.714) enterprise in the world. Therefore, I
+(01:17.168) believe that Taiwanese enterprises going
+(01:19.530) international will be very helpful to
+(01:21.718) Taiwan's future competitiveness. I
+(01:23.795) believe this is a very important new
+(01:26.262) starting point. In the AI era, Taiwan is
+(01:28.907) the biggest beneficiary of AI on the
+(01:31.194) planet, and AI will change everything
+(01:33.543) about human ecology. On the other hand,
+(01:35.983) AI has also caused the wealth of our
+(01:38.131) citizens to rise significantly. Last
+(01:40.398) week, Allianz conducted a survey, and in
+(01:43.407) terms of net financial assets per capita
+(01:46.343) , Taiwan's ranking is fifth in the world
+(01:49.278) . The first place is the United States,
+(01:51.582) followed by others in order, such as
+(01:53.657) Switzerland and Denmark. Right down to
+(01:55.776) Singapore, it is already quite
+(01:57.268) remarkable for Taiwan to be ranked right
+(01:59.241) after these countries. The wealth of the
+(02:01.365) Taiwanese people is certainly beyond
+(02:03.348) expectations. Last week, the Nihon
+(02:05.184) Keizai Shimbun published a special
+(02:06.915) report stating that Japan needs to learn
+(02:08.942) from Taiwan. I took a look, and it was
+(02:11.355) quite a shock. Why? In the past,
+(02:14.246) Taiwanese people always felt inferior
+(02:16.370) when meeting the Japanese. Later, you
+(02:18.546) discover that regarding Taiwan's exports
+(02:20.864) this year, they started by comparing
+(02:22.956) Taiwan's first-half exports with Japan's
+(02:25.218) . In the first half of the year,
+(02:27.085) Taiwan's exports were 416.6 billion,
+(02:29.127) while Japan's exports were 384 billion.
+(02:31.379) Taiwan led Japan by 32.6 billion, and
+(02:33.379) Taiwan's second half will be even
+(02:35.169) stronger and more powerful. We might
+(02:37.340) beat Japan by over 100 billion. Taiwan's
+(02:40.178) stock market is now the fourth largest
+(02:42.350) in the world at 5.3 trillion USD, so of
+(02:44.578) course, you can imagine that our total
+(02:46.750) economic output in Taiwan will also
+(02:48.756) exceed one trillion USD this year.
+(02:50.750) Taiwan's economic growth rate this year
+(02:53.273) is three times the global average.
+(02:56.999) Therefore, on the path of AI prosperity
+(03:00.189) , I believe that this year Taiwan will
+(03:03.379) see huge...
+(03:08.874) Well. We all know that AI is bringing
+(03:12.264) about a massive transformation. It
+(03:14.503) impacts not only technical R&D but will
+(03:17.076) also see large-scale applications, all
+(03:19.585) of which will redefine the competitive
+(03:22.094) landscape of entire industries. Facing
+(03:24.710) these rapidly evolving trends, the
+(03:27.058) government continues to push forward
+(03:29.540) with AI infrastructure policies,
+(03:31.753) investing in next-generation critical
+(03:34.302) technologies such as silicon photonics,
+(03:36.986) quantum technology, and AI robotics. We
+(03:39.663) will also continue to improve the
+(03:41.504) conditions for development, including
+(03:43.562) computing power, data, and talent, to
+(03:45.620) accelerate the industrialization of AI
+(03:47.732) and the AI-driven transformation of
+(03:49.682) industries, integrating AI into industry
+(03:51.902) and daily life, making life in Taiwan
+(03:53.960) gradually AI-enabled, and of course,
+(03:55.964) digitizing the government as well. Today
+(03:58.272) , we are gradually seeing concrete
+(04:00.836) results. Take AI robotics, for example;
+(04:03.572) the government is utilizing R&D and
+(04:05.953) testing sites such as Liujia in Tainan.
+(04:08.632) This accelerates the deployment of
+(04:10.569) technology in key areas like
+(04:12.175) manufacturing, healthcare, and logistics
+(04:14.389) . In the future, the government will
+(04:16.440) further integrate production bases to
+(04:18.497) actively promote the development of AI
+(04:20.609) robotics industrial clusters. Beyond
+(04:22.645) accelerating the deployment of AI
+(04:24.416) technology and its applications, the
+(04:26.343) government will also take a further
+(04:28.218) strategic approach from a national
+(04:30.041) perspective.
+(04:31.259) The Executive Yuan recently established
+(04:33.869) the National AI Strategy Committee,
+(04:36.219) chaired by Premier Cho Jung-tai, to
+(04:38.568) draft our nation's first national AI
+(04:40.983) development outline and actively build
+(04:43.528) sovereign AI, allowing Taiwan to evolve
+(04:46.139) from a manufacturing-advantage nation
+(04:48.619) into a model for AI-driven applications
+(04:51.229) based on free and democratic values.
+(04:54.379) To achieve this goal, we cannot rely
+(04:56.881) solely on AI technology itself; we also
+(04:59.586) need a complete and solid industrial
+(05:02.089) foundation to support it. Building on
+(05:05.026) the five trusted industry sectors
+(05:07.253) promoted in the past, we will further
+(05:09.742) advance thirteen strategic industries,
+(05:12.296) hoping to leverage our advantages in
+(05:14.720) semiconductors, AI, and ICT to drive the
+(05:17.405) development of key sectors like defense
+(05:19.960) , security, and next-generation
+(05:22.056) communications. The forum today mentions
+(05:24.964) low-Earth orbit satellites, high-quality
+(05:27.473) transmission, and future 6G development
+(05:29.861) , which are among the most critical
+(05:32.064) components. By leveraging our existing
+(05:34.234) expertise in cables, connectors, and
+(05:36.148) high-frequency, high-speed transmission
+(05:38.217) technologies, we have gradually entered
+(05:40.286) the international supply chain for
+(05:42.096) low-Earth orbit satellites and continue
+(05:44.165) to expand next-generation communication
+(05:46.234) applications.
+(05:47.519) This not only helps enhance Taiwan's
+(05:49.787) communication resilience but also
+(05:51.872) strengthens our industrial
+(05:53.528) competitiveness in the global supply
+(05:55.797) chain, showcasing opportunities for the
+(05:58.250) next stage of industrial development.
+(06:03.219) In the future, the government will
+(06:05.514) continue to connect technical R&D,
+(06:07.810) infrastructure, and practical
+(06:09.778) applications, allowing R&D results to
+(06:12.270) reach the market faster and truly
+(06:14.500) translate into
+(06:19.668) 6G networks. How can we provide a better
+(06:23.614) transmission foundation for
+(06:25.527) next-generation AI service applications
+(06:28.192) ?
+(06:29.142) I believe we should look at this from
+(06:31.493) two perspectives: first, the system
+(06:33.721) architecture, and second, its functional
+(06:36.258) requirements.
+(06:38.426) You can imagine that a 6G network
+(06:40.714) doesn't favor one end, but rather, we
+(06:43.271) aim to build a more balanced and matched
+(06:46.030) network across the device, the network,
+(06:48.722) and the cloud. So what we are
+(06:51.073) considering is that you can imagine
+(06:53.274) there is an intelligent agent on the
+(06:55.536) device side as well. There is an
+(06:57.497) intelligent agent in the network, and
+(06:59.518) there is also one in the cloud. When a
+(07:01.675) task comes down, where exactly should
+(07:03.894) the computing power for this task be
+(07:06.055) placed? Traditionally, before 5G, the
+(07:08.072) approach was always "just solve it in
+(07:09.983) the cloud!" Because the cloud is
+(07:12.051) extremely powerful. However, the 6G
+(07:14.316) perspective is different: we consider
+(07:16.416) which tasks are suitable for the device
+(07:18.571) , which are suitable for the device with
+(07:20.837) network assistance, and we only consider
+(07:23.103) the cloud for specific needs. So, first
+(07:25.457) : where should computing power be
+(07:27.916) deployed? Where should computing tasks
+(07:30.654) be completed? Second, differentiated QoS
+(07:33.676) also relies on the collaboration of
+(07:36.259) these three agents, rather than just
+(07:38.914) reserving a dedicated resource. 5G talks
+(07:42.072) about slicing—reserving a slice for a
+(07:44.841) specific user or application—but when
+(07:47.611) it's not fully utilized, it's a waste.
+(07:50.342) When it’s not in use, this network
+(07:52.681) resource should be released quickly and
+(07:55.210) dynamically reallocated to other users
+(07:57.676) who need it to achieve maximum capacity
+(08:00.206) under this new traffic behavior of
+(08:02.419) agents. This is our thinking regarding
+(08:05.121) system architecture. The second
+(08:07.350) perspective is: what will the functional
+(08:10.157) requirements of 6G be? We believe there
+(08:13.067) are at least three key pillars. First,
+(08:16.159) it must be an intent-driven network.
+(08:20.567) You need to identify your service
+(08:22.921) patterns and even predict your service
+(08:25.622) requirements to schedule network
+(08:27.907) resources and control QoS, rather than
+(08:30.608) the relatively static, fixed allocations
+(08:33.448) seen before 5G.
+(08:36.380) Therefore, 6G must be an intent-driven
+(08:39.267) network, and it must be ubiquitous, with
+(08:42.301) contexts requiring seamless handshaking
+(08:45.187) .
+(08:45.763) Let me give you an example. Current AI
+(08:48.795) agent applications act on your behalf in
+(08:51.582) the cloud to schedule tools and gather
+(08:54.233) information.
+(08:56.068) But in the future, you can imagine
+(08:58.326) agents needing to assist each other—for
+(09:01.036) instance, your agent, your wife’s agent
+(09:03.681) , your child’s agent, and your client’s
+(09:06.520) agent.
+(09:07.919) Interoperability between these agents
+(09:10.480) currently lacks a well-established
+(09:12.840) common standard.
+(09:14.640) For these agents to interoperate, if
+(09:16.842) your agent and your wife’s agent need to
+(09:19.401) work together to complete a task, the 6G
+(09:21.841) network must ensure the effective and
+(09:24.103) secure transmission of the context
+(09:26.186) between them.
+(09:27.505) The third point is: must future networks
+(09:30.747) always transmit data bit by bit? Some AI
+(09:33.927) applications can actually be abstracted
+(09:36.601) . For example, when sending an image,
+(09:38.669) perhaps I don't need to transmit every
+(09:40.727) pixel or every bit; maybe I can just
+(09:42.680) transmit the most important features of
+(09:44.791) the image, thereby reducing network
+(09:46.691) consumption and increasing capacity.
+(09:48.691) This is just one example of how 6G plus
+(09:51.554) AI will impact your life, specifically a
+(09:54.489) travel scenario. When planning a trip,
+(09:57.351) we all know it’s easy to get into an
+(09:59.625) argument with your spouse, right?
+(10:02.212) So why not let your agents discuss it
+(10:04.872) first?
+(10:05.929) They might be able to reach a great
+(10:08.027) solution quite quickly.
+(10:10.679) You need to know everyone’s availability
+(10:13.272) , budget, and so on, so your agents can
+(10:15.742) help you with the trip planning.
+(10:18.431) Then, while on the road, whether it’s
+(10:20.907) autonomous driving enabled by 6G
+(10:22.951) connectivity, traffic conditions, or
+(10:25.242) entertainment, this also involves the
+(10:27.595) offloading and configuration of
+(10:29.577) computing power. Once at the destination
+(10:32.370) , through your smart glasses, using
+(10:34.579) hybrid AR/VR rendering, along with some
+(10:37.033) AI-based recognition and recommendations
+(10:39.488) , you can get a much better
+(10:41.206) understanding of the environment you are
+(10:43.722) traveling in.
+(10:46.160) At night, service robots can assist you
+(10:48.544) with various tasks, but since you are
+(10:50.810) out in the wild, you need to be
+(10:52.718) connected to provide a higher quality of
+(10:55.163) service.
+(10:56.434) At night, multi-point coordination,
+(10:58.659) including the sensing capabilities of 6G
+(11:01.131) , can help ensure your personal safety.
+(11:03.642) If there’s no ground network while on
+(11:05.716) the road, we switch to satellite
+(11:07.427) networks. If your phone’s antenna is
+(11:09.576) insufficient, we can utilize the car’s
+(11:11.814) antenna or any other available antennas
+(11:13.942) .
+(11:16.179) These are all the new ways 6G can bring
+(11:19.038) changes to our lives.
+(11:26.047) How exactly will 6G be introduced in the
+(11:29.217) future? Thirty years ago when I was in
+(11:31.805) college, we talked about artificial
+(11:34.065) intelligence, right? I believe you have
+(11:36.997) all heard of AI.
+(11:39.119) After 30 years, it is only just
+(11:41.511) beginning to develop now, because for AI
+(11:44.575) to work today, it needs high speed,
+(11:47.266) instant reaction, and minimal
+(11:49.509) transmission latency.
+(11:51.956) That time has officially arrived; five
+(11:54.696) years ago, you would ask a question. And
+(11:57.595) it would only answer now. Would you be
+(12:00.088) able to accept that? You wouldn't. So,
+(12:03.118) the time has come. Alright, everyone can
+(12:06.381) try to see that speeds will be faster in
+(12:08.706) the future. To talk about 6G, we must
+(12:11.337) first start with 5G. 5G has two modes.
+(12:15.399) The mode currently used in Taiwan is
+(12:17.935) called NSA (Non-Standalone). When a
+(12:20.800) phone turns on, even if it is a 5G phone
+(12:23.664) , it must look for two base stations
+(12:26.314) simultaneously: a 4G station as its
+(12:28.893) anchor, and a 5G station for data
+(12:31.327) transmission.
+(12:33.444) So, looking at this architectural
+(12:35.954) diagram, the dashed lines represent
+(12:38.613) control.
+(12:40.746) You must first register with 4G to
+(12:43.024) confirm you are a user of this carrier,
+(12:45.627) and then data transmission follows.
+(12:48.480) With 5G SA (Standalone), it is finally
+(12:51.200) independent and can operate on its own.
+(12:54.021) Therefore, for future 5G SA, the three
+(12:56.517) major operators plan to officially
+(12:58.758) launch SA next year, and SA must have
+(13:01.191) new features. It essentially opens up a
+(13:03.921) dedicated lane. Have you ever heard of
+(13:06.441) this? When we are in a fast lane and
+(13:08.322) encounter an ambulance, doesn't everyone
+(13:10.280) have to move aside? The future SA will
+(13:12.841) be the same. For example, for military
+(13:15.995) or police, I will open a dedicated lane
+(13:18.790) for them. The current NSA cannot do this
+(13:21.734) , but such technology will extend to 6G
+(13:24.608) . 6G development starts with SA from the
+(13:27.200) beginning. When a 6G phone turns on, the
+(13:29.389) first thing it does is look for a 6G
+(13:31.200) base station, right? If it can't find
+(13:33.361) one, it will look for 5G. Only if it
+(13:35.670) can't find that will it look for 5G. And
+(13:38.009) only if it can't find that will it fall
+(13:40.201) back to 4G. This SA is currently here;
+(13:42.931) this is the specification for R17,
+(13:45.559) Release 17, and by the time we reach 6G
+(13:48.487) , it will likely be R21. Right, R21
+(13:51.335) takes the three major functions of 5G
+(13:54.600) that everyone knows: high speed.
+(13:58.419) Low latency and high capacity, plus the
+(14:01.355) three I’ve written here for 6G.
+(14:04.414) One that everyone is very much looking
+(14:06.704) forward to is direct satellite
+(14:08.525) connectivity. Second is AI; this AI
+(14:11.162) technology will be everywhere, from
+(14:14.064) terminals and chips to phones, networks
+(14:17.209) , and the cloud. Finally, there is
+(14:20.374) Sensing.
+(14:22.000) If you are riding a bicycle and a bus
+(14:24.265) suddenly appears, it can already predict
+(14:26.709) that you will collide with it if you
+(14:28.915) don't slow down, so it will send a
+(14:31.001) signal to tell you to be careful, and
+(14:33.267) then you slow down. Of course, this is
+(14:35.694) just our imagination, but how do we make
+(14:38.133) this happen? The base station senses
+(14:40.486) both you and B at the same time, and
+(14:42.860) through AI processing, it realizes you
+(14:45.361) might collide. May I ask how much time
+(14:47.909) that calculation takes? You say it
+(14:50.391) calculates in two seconds. You’d have
+(14:53.479) already collided by then. This is why AI
+(14:56.464) needs 6 G—because it can calculate and
+(14:59.780) notify you in just a few nanoseconds. So
+(15:03.045) , 6G is coming, and you can imagine its
+(15:06.500) six characteristics: high, low, large,
+(15:09.868) plus N plus. Well, we hope that one day
+(15:12.841) we can achieve this kind of immersive
+(15:15.385) interaction. Everyone will have glasses
+(15:17.773) , but 5G isn't quite there yet; the
+(15:19.828) speed is too slow, and people won't be
+(15:22.054) able to stand it. Let me tell you, when
+(15:24.390) 6G arrives, your watch, your glasses...
+(15:26.632) Has anyone here ever worn those glasses
+(15:28.875) ? You speak Chinese, and it turns into
+(15:31.036) English—it's very impressive, but it's
+(15:33.256) too slow. The translation lags behind,
+(15:35.333) and I have to wait for the next sentence
+(15:37.440) to appear. To achieve an immersive,
+(15:39.457) second-level experience with 6G, this
+(15:41.590) technology must include mobile phones.
+(15:43.824) Doctors preparing for surgery can't
+(15:46.368) afford to wait, so it needs to be
+(15:48.771) extremely fast. Finally, we need many
+(15:51.337) terminal devices to connect. Right now,
+(15:53.794) it's the Internet of People, but the
+(15:55.703) Internet of Things is massive. In the
+(15:57.675) future, I believe you will be carrying
+(15:59.476) many terminals with you on the road. How
+(16:01.468) many mobile users does Chunghwa Telecom
+(16:03.757) have now? About 12 million, based on our
+(16:06.529) 40%market share. So, about 40%of the
+(16:08.928) people here should be using Chunghwa
+(16:11.123) Telecom. At most, you have dual SIMs now
+(16:13.274) , but let me tell you, you will have
+(16:15.156) triple, quadruple, or even quintuple
+(16:17.038) SIMs in the future. Why? Your watch
+(16:19.791) might have one, and you’ll have your
+(16:21.637) glasses too. Your handheld terminal,
+(16:23.980) maybe even your key chain. All of them
+(16:26.555) will have a SIM card connecting to
+(16:28.479) Chunghwa Telecom’s satellite
+(16:30.183) constellation—that’s the end goal. I
+(16:32.488) must introduce it to make everyone feel
+(16:34.807) it's great. So, when will I introduce it
+(16:37.547) ? In the world of martial arts, speed is
+(16:39.933) the only way to stay invincible. Telecom
+(16:42.367) operators must stay stable to go far. I
+(16:44.986) must wait for the 3GPP specifications to
+(16:47.604) finalize. Are there any finalized yet?
+(16:50.324) Of course not, because 2030 is still
+(16:53.071) several years away.
+(16:56.276) In the past, we talked about the
+(16:58.186) simplest form of IoT.
+(17:01.439) I remember my former company worked on
+(17:03.984) many connected wired things, where IoT
+(17:06.529) meant the linkage of ecosystems within
+(17:09.074) the home, or perhaps the connection
+(17:11.423) between our watches and phones; that's
+(17:13.969) the simplest IoT.
+(17:19.239) But now, IoT is gradually moving beyond
+(17:21.900) that and will be deeply tied to this
+(17:24.362) next-generation communication.
+(17:27.839) Regarding those connections mentioned
+(17:30.223) earlier, for instance, in hospitals,
+(17:32.544) there are now remote surgeries,
+(17:34.552) including research-based procedures,
+(17:36.874) where you certainly cannot risk any
+(17:39.133) life-threatening delays.
+(17:42.539) I think we are all looking at the
+(17:44.543) various components inside the server
+(17:46.724) rack.
+(17:48.769) GPUs require extremely low latency, and
+(17:51.766) we need to eliminate computational
+(17:54.389) bottlenecks.
+(17:58.590) Currently, most connections are
+(18:00.460) copper-based, but we are moving toward
+(18:02.739) optical connections for the underlying
+(18:05.018) infrastructure, as copper suffers from
+(18:07.298) significant signal attenuation.
+(18:11.753) Therefore, the signal distance for
+(18:13.949) high-frequency transmissions is
+(18:15.957) generally limited to within two meters.
+(18:20.239) These cables are quite heavy, and since
+(18:22.952) a server rack is already heavy enough,
+(18:25.597) adding large bundles of cables creates
+(18:28.242) significant weight, which in turn leads
+(18:30.955) to heat dissipation issues that must be
+(18:33.668) resolved.
+(18:38.227) The critical point now is that if we
+(18:40.487) move to the interconnect level, the
+(18:42.687) power loss from optical-to-electrical
+(18:45.008) conversion could be off the charts.
+(18:50.623) Traditional optical modules also consume
+(18:53.521) high power, and panel density has its
+(18:56.208) limits.
+(19:00.614) Since physical slot space is
+(19:02.562) insufficient to push CPU technology
+(19:04.980) further, we still have a long way to go
+(19:07.667) in integrating high-frequency
+(19:09.682) transmission, much like what we did with
+(19:12.436) cables from 2G and 3G through to 4G.
+(19:17.810) Things have evolved; it's not just about
+(19:20.475) cables anymore. Connecting from front to
+(19:23.296) end actually requires a lot more ICs
+(19:25.881) involved in the process.
+(19:29.674) The most important focus in
+(19:31.470) high-frequency transmission right now
+(19:33.908) involves numerous semiconductor
+(19:35.961) materials, new materials, and ways to
+(19:38.399) reduce power loss.
+(19:42.361) This includes dielectric constants and
+(19:45.670) dielectric loss, utilizing new materials
+(19:49.150) like LCP, MPI, or glass substrates.
+(19:52.675) This is also currently part of the
+(19:54.862) discussion regarding the limitations of
+(19:57.362) optical-electrical conversion power
+(19:59.612) consumption and light speed.
+(20:08.060) As for how to achieve "optical all the
+(20:10.651) way," the breakthrough in computing
+(20:13.043) power might not rely on materials alone
+(20:15.635) ; it will require co-designing from the
+(20:18.293) chip level to make it a reality.
+(20:29.312) Our overall three major transformations
+(20:32.168) . In fact, it revolves around digital
+(20:33.903) transformation, low-carbon
+(20:35.075) transformation, and green transformation
+(20:36.854) to achieve the three main goals of cost
+(20:38.589) reduction, carbon emission reduction,
+(20:40.238) and mutual benefit. Our digital
+(20:41.871) transformation has now entered the realm
+(20:44.292) of physical AI. Our Chairman has a
+(20:46.302) vision: that in the future, the first
+(20:48.351) thing CSC employees do when they start
+(20:50.455) their shift is to send out the dogs and
+(20:52.612) release the eagles. The eagles are
+(20:54.808) drones, and the dogs are robotic dogs.
+(20:57.624) We hope that by using these, we can
+(20:59.898) boost our work efficiency and minimize
+(21:02.362) human exposure to "3K"(difficult, dirty
+(21:04.825) , and dangerous) environments. So, how
+(21:07.433) are we doing this? The one on the left
+(21:09.986) is the robotic dog we have currently
+(21:11.979) introduced from Switzerland. We are
+(21:14.077) testing it in seven of our on-site areas
+(21:16.881) .
+(21:17.961) We have equipped them with cameras,
+(21:20.203) infrared sensors, and microphones,
+(21:22.383) allowing us to monitor changes in gauge
+(21:24.874) readings through the cameras.
+(21:27.263) Through infrared, we can identify areas
+(21:29.788) experiencing abnormal temperature
+(21:31.935) increases. Additionally, with AI, we can
+(21:34.426) determine which pipelines have leaks
+(21:36.596) based on changes in their audio
+(21:38.473) frequencies. Once a change is detected,
+(21:41.163) we know that the pipeline may require
+(21:43.818) attention.
+(21:45.534) The control center then dispatches
+(21:47.737) personnel to confirm the specific issue
+(21:50.256) and handle it immediately.
+(21:52.526) Therefore, in environments with high
+(21:54.928) temperatures, high dust levels, or CO
+(21:57.396) presence, we have begun to deploy our
+(21:59.864) robotic solutions. As for the drones,
+(22:02.548) they have overcome the lack of GPS in
+(22:05.088) indoor environments, allowing them to
+(22:07.628) patrol automatically, return after 15
+(22:10.168) minutes, and self-charge. They use LiDAR
+(22:13.224) to create point cloud maps of the entire
+(22:16.050) indoor area, reducing the redundancies
+(22:18.738) and inefficiencies caused by manual
+(22:21.219) inspections.
+(22:22.779) Furthermore, we use climbing robots for
+(22:25.344) tank painting, which is necessary when
+(22:27.845) they require repainting after a certain
+(22:30.410) period.
+(22:31.679) We can use robots for water jetting and
+(22:33.988) cleaning, and once that is finished, we
+(22:36.298) can proceed with the painting work. Each
+(22:38.986) year, we can equip these climbing robots
+(22:41.546) with ultrasonic probes to measure the
+(22:43.919) steel plate thickness of these silos and
+(22:46.479) storage tanks. This allows us to change
+(22:48.596) our maintenance criteria from the early
+(22:50.424) "Time-Based" approach—where we might
+(22:52.207) have scheduled repainting every three
+(22:53.944) years—to a system where we check the
+(22:55.726) condition after three years and find it
+(22:57.554) still in good shape. So, we can extend
+(22:59.709) that to four or even five years. It
+(23:01.983) becomes "Condition-Based" maintenance,
+(23:03.897) where we decide when future maintenance
+(23:05.860) is needed based on the actual status of
+(23:07.823) the equipment. Next is unmanned overhead
+(23:10.223) cranes and remote operation. On the left
+(23:12.802) is our early overhead crane. Our cranes
+(23:15.275) are different from the ones you usually
+(23:17.606) see; they are very, very large. Once a
+(23:19.930) person goes up, they stay for about four
+(23:22.376) hours, so they eat, drink, and attend to
+(23:24.822) all needs while up there.
+(23:27.079) By moving the crane operator down to the
+(23:29.790) ground, we can now enable them to simply
+(23:32.501) manage the lift.
+(23:35.375) For example, if they need to move a load
+(23:38.483) 150 meters away and lower it, the AI
+(23:41.288) handles the entire process.
+(23:44.455) They only need to manage the lifting and
+(23:47.439) lowering. Therefore, whereas one
+(23:49.980) operator used to manage only one crane,
+(23:52.786) they can now manage two or even three.
+(23:55.762) Furthermore, these three cranes can
+(23:57.830) communicate with each other, so they
+(23:59.957) won't collide. Over the past seven years
+(24:02.744) , we have actually completed 575 AI
+(24:05.455) projects. And we have achieved
+(24:07.527) cumulative annual cost-reduction
+(24:09.562) benefits reaching 2.1 billion NTD.
+(24:11.759) Across our entire production line, the
+(24:13.882) current level of intelligent integration
+(24:16.114) has reached 65%. Next, I will report to
+(24:18.600) you on carbon reduction. The primary
+(24:21.251) emission source in an integrated steel
+(24:23.615) mill is the blast furnace, so we have
+(24:25.918) focused on a few things on the left side
+(24:28.343) .
+(24:28.936) The first thing is that we will find
+(24:31.343) ways to capture the CO2 from the top.
+(24:33.851) Then we purify it. Regardless of whether
+(24:37.145) it is CO, which can be used as fuel, or
+(24:39.698) CO2, which can be used as a
+(24:41.485) petrochemical feedstock; additionally,
+(24:43.973) if we inject hydrogen from the bottom,
+(24:46.462) it will react with the oxygen in the
+(24:48.823) iron oxide, turning the CO2 output into
+(24:51.376) water vapor. This achieves carbon
+(24:53.776) reduction. Furthermore, through
+(24:55.740) steel-chemical integration, we can also
+(24:57.898) implement simple methods to lower
+(24:59.733) emissions. Next, for the basic oxygen
+(25:01.761) furnace, we can increase the amount of
+(25:03.767) scrap steel used. Naturally, this allows
+(25:05.935) me to reduce carbon emissions. This high
+(25:08.194) ratio of recycled material is what we
+(25:10.478) call green steel. Regarding the supply
+(25:12.689) chain transformation, we emphasize what
+(25:14.763) was just mentioned: "Only when the
+(25:16.578) customer does well can the center do
+(25:18.496) well." We have developed a series of
+(25:20.548) high-competitiveness materials that
+(25:22.516) feature high profit margins and advanced
+(25:24.758) technology, which customers are willing
+(25:26.945) to purchase.
+(25:29.420) We hope to provide better materials to
+(25:31.882) our customers, allowing our China Steel
+(25:34.407) products to create more
+(25:40.454) Our time today is very limited. I
+(25:42.873) specifically asked him to speak about
+(25:44.421) the development of silicon photonics
+(25:45.929) first. Could you please add some context
+(25:47.724) for everyone here?
+(25:48.592) >> Regarding silicon photonics, I have
+(25:50.481) taken a look at this product. In Taiwan
+(25:52.691) , actually, I think the largest one in
+(25:55.238) the world right now—it should be called
+(25:57.981) SEC—has quite a lot of patents. Breaking
+(26:00.868) through this is indeed difficult, but I
+(26:03.681) believe Taiwan still has silent, hidden
+(26:06.493) champions.
+(26:08.014) He is very experienced in analyzing this
+(26:10.320) and can help you understand the
+(26:12.120) bottlenecks they are currently facing in
+(26:14.426) this industry.
+(26:16.086) One day I mentioned that Largan was
+(26:18.355) doing this and it was quite impressive.
+(26:20.915) He said it seemed too early. So, silicon
+(26:24.029) photonics is definitely the path forward
+(26:26.691) ; it is just a matter of when it will
+(26:29.220) mature.
+(26:30.342) Whether it is materials, testing
+(26:32.622) equipment, or validation—of course, the
+(26:35.525) capital market is about dreams, but in
+(26:38.220) reality, you have to return to how you
+(26:40.916) actually grow the business.
+(26:43.620) That is my personal view.
+(26:45.926) >> When General Manager Jia was reporting,
+(26:47.841) he mentioned what changes will occur
+(26:49.612) once telecommunications move to
+(26:51.144) low-orbit satellites and what kind of
+(26:52.964) chemical reaction this industry will
+(26:54.735) produce. Could you explain this to
+(26:56.650) everyone?
+(26:57.246) >> Sure.
+(26:58.363) >> The one currently leading in satellite
+(27:00.596) development is Starlink. His idea is
+(27:02.883) that data centers will be located in
+(27:05.389) various places. Musk's current thought
+(27:07.962) is that these data centers could
+(27:10.036) actually be on satellites or in the
+(27:12.298) cloud. So, future computing won't just
+(27:15.297) be about terrestrial communication; he
+(27:17.884) wants to use satellites as a link
+(27:20.140) between data centers. I believe the
+(27:22.522) initial phase of satellite development
+(27:24.997) starts with redundancy, but later it
+(27:27.345) will truly function as a link. So, if
+(27:29.798) you want to know what the next
+(27:31.787) generation of 6G networks means, it's
+(27:34.225) not just about the ground; space and the
+(27:36.855) ground will be fully integrated. So,
+(27:39.293) whether this will succeed in the future
+(27:41.862) , I am not sure, and I don't know. But
+(27:44.452) we still need to head in that direction
+(27:46.882) . That is to say, data centers spanning
+(27:49.699) across oceans. Even data centers
+(27:52.007) connected via satellites, I believe
+(27:54.467) these are major opportunities when 6G
+(27:57.064) arrives.
+(27:58.756) Could we ask Sun Xueli to look at
+(28:00.752) MediaTek’s transformation over the past
+(28:03.219) two or three years from an employee's
+(28:05.451) perspective?
+(28:07.843) >> I think MediaTek’s transformation over
+(28:10.463) the past few years can be seen in a few
+(28:13.019) areas. First, it is its influence on
+(28:15.890) industry standards; it used to be more
+(28:18.620) of a follower. Starting from 5G, we
+(28:21.286) began to secure some key positions. We
+(28:24.371) have excellent collaboration in Taiwan,
+(28:27.065) helping some of Taiwan's key
+(28:29.018) technologies advance into industry
+(28:31.375) standards. As for 6G, because we
+(28:33.765) invested even earlier, we have become
+(28:36.246) core contributors and standard setters,
+(28:38.858) which also helps strengthen the
+(28:40.947) industrial cluster and upgrade the
+(28:43.233) supply chain. The second point is the
+(28:45.672) diversification of our product lines. In
+(28:48.244) the early years, it was mobile phones,
+(28:50.511) but in recent years, we have expanded
+(28:52.720) into many other platforms, including
+(28:54.871) data centers and automotive platforms,
+(28:57.139) which could become great carriers for
+(28:59.348) physical AI in the future. Having a more
+(29:02.023) diverse product line aligns with the
+(29:04.834) slide I just presented, which covers
+(29:07.645) cross-domain integration use cases
+(29:10.304) involving 6G, AI, and NTN. The goal is
+(29:13.492) to increase MediaTek's 'T' and 'S'. From
+(29:16.856) these perspectives, I believe this has
+(29:19.082) been MediaTek's most significant role in
+(29:21.422) recent years.
+(29:24.640) Regarding China Steel's future
+(29:26.561) operations and product evolution,
+(29:28.668) specifically for "killer" applications,
+(29:31.148) could you enlighten us on whether there
+(29:33.627) are any "killer" products?
+(29:39.000) This brings us back to what our Chairman
+(29:41.548) said: every year, we will provide
+(29:43.661) products that will impress the general
+(29:46.084) public.
+(29:47.592) This year, I promoted 0.1 mm electrical
+(29:50.517) steel sheets, and next year, we have
+(29:53.224) another "killer" product. For this
+(29:55.852) product, our positioning is that very,
+(29:58.345) very few steel mills in the world can
+(30:00.773) produce it. Furthermore, the technical
+(30:03.600) threshold for our product is extremely
+(30:06.363) high. More importantly, once this
+(30:08.594) product is released, its profit margin
+(30:11.068) must be sufficiently impressive. Only
+(30:13.573) then can we truly call it a "killer"
+(30:16.353) product. Why are the stock prices of
+(30:18.758) Japanese steel mills higher than China
+(30:21.132) Steel's? Actually, everyone, don't
+(30:23.722) forget. Nippon Steel or JFE has a very
+(30:26.470) strong automotive industry in Japan, and
+(30:29.258) for South Korea, it has a very strong
+(30:31.843) automotive and shipbuilding industry.
+(30:34.460) Therefore, these industries support
+(30:37.014) their high steel prices.
+(30:41.339) If they can produce and sell more
+(30:43.358) electric vehicles, our automotive steel
+(30:45.734) sheets and electrical steel sheets will
+(30:48.110) have better destinations, and if we sell
+(30:50.546) them at better prices, naturally our
+(30:52.743) stock...
