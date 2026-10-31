@@ -16,6 +16,7 @@
 | 影片 | 日期 |
 | --- | --- |
 | [看諾貝爾經濟學獎如何設計賽局讓自私的人說真話](jimainotebook_7mFVNy8BeZY_keyframes.md) | 2026-10-31 |
+| [當 AI 凌駕人類之上：我們該追求超級 AI，還是分散式智慧？｜Sam Altman（OpenAI）｜演講訪談系列](jimainotebook_wnZ0rILKHcU_keyframes.md) | 2026-10-31 |
 | [【公開課】耶魯天文課：看不見的行星，怎麼證明它存在？｜上集](jimainotebook_PQqK1wr5yI0_keyframes.md) | 2026-10-30 |
 | [人類該怎麼跟電腦互動？ ft. Typeless](jimainotebook_KiLmWVI8hYc_keyframes.md) | 2026-10-29 |
 | [AI 新創泡沫的殘酷洗牌：算力成本與變現困境引爆倒閉潮](jimainotebook_-9M7lYjHVFw_keyframes.md) | 2026-10-28 |
