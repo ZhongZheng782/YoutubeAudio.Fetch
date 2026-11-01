@@ -39,6 +39,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [半導體擴廠、AI資料中心掀用電大潮！安葆美國一年商機 台灣要做20年　｜#財訊不漏接 EP063 #財訊podcast #安葆](wealth1974_31ZHu4vVukA_keyframes.md) | 2026-11-01 |
 | [AI下一波商機在哪？看懂2030智慧產業新局](wealth1974_ES3kcScvMWA_keyframes.md) | 2026-10-30 |
 | [長鑫衝擊記憶體產業 韓股重挫的影響｜#老謝開講 #謝金河 #財訊 EP299](wealth1974_oN0Ug8PJn3k_keyframes.md) | 2026-10-30 |
 | [把家庭光纖搬進資料中心 聯發科攜手達發攻 AI 網通新戰場｜#財訊不漏接 EP062 #財訊podcast #聯發科 #達發](wealth1974_E71ShaxggtM_keyframes.md) | 2026-10-28 |
