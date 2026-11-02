@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [哈佛電腦科學入門：網站怎麼記住你？從資料庫、網頁到 Cookie｜CS50｜下集 ｜ 公開課](jimainotebook_PHJW-eF3-fs_keyframes.md) | 2026-11-02 |
 | [看諾貝爾經濟學獎如何設計賽局讓自私的人說真話](jimainotebook_7mFVNy8BeZY_keyframes.md) | 2026-10-31 |
 | [當 AI 凌駕人類之上：我們該追求超級 AI，還是分散式智慧？｜Sam Altman（OpenAI）｜演講訪談系列](jimainotebook_wnZ0rILKHcU_keyframes.md) | 2026-10-31 |
 | [【公開課】耶魯天文課：看不見的行星，怎麼證明它存在？｜上集](jimainotebook_PQqK1wr5yI0_keyframes.md) | 2026-10-30 |
