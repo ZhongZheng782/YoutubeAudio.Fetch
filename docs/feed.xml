@@ -9,12 +9,120 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://i.ytimg.com/vi/FYWOEieyO-0/maxresdefault.jpg"/>
+    <itunes:image href="https://i.ytimg.com/vi/vVMDI0bDBqY/maxresdefault.jpg"/>
     <image>
-      <url>https://i.ytimg.com/vi/FYWOEieyO-0/maxresdefault.jpg</url>
+      <url>https://i.ytimg.com/vi/vVMDI0bDBqY/maxresdefault.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>【Jim AI Notebook】「核鐘」誕生：比原子鐘更穩的時鐘，精準度極限背後的真正目的</title>
+      <guid isPermaLink="false">jimainotebook_vVMDI0bDBqY</guid>
+      <pubDate>Mon, 02 Nov 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=vVMDI0bDBqY</link>
+      <description>&lt;p&gt;0:00 開場：兩週前，人類決定不再讓時鐘遷就地球&lt;br/&gt;0:47 閏秒：原子鐘和地球自轉對不上&lt;br/&gt;2:24 鐘是什麼：振盪器加上計數&lt;br/&gt;3:07 1656 年惠更斯擺鐘與航海鐘&lt;br/&gt;4:37 石英鐘：一秒振動五萬次&lt;br/&gt;5:27 原子鐘：1967 年，秒交給了銫原子&lt;br/&gt;7:04 GPS 與光學鐘&lt;br/&gt;9:24 秒的重新定義：2030 年才提案&lt;br/&gt;10:17 原子核與釷-229&lt;br/&gt;11:57 2023 年 11 月 21 日：第一次用雷射撥動原子核&lt;br/&gt;12:39 2026 年 10 月：自我穩定的核鐘&lt;br/&gt;13:44 誠實的那一段：它還沒有比原子鐘準&lt;br/&gt;14:34 精細結構常數與暗物質&lt;br/&gt;16:03 結尾：新的鐘，是為了問新的問題&lt;br/&gt;&lt;br/&gt;2026 年 10 月，國際度量衡大會通過決議：2027 年 5 月 20 日起不再插閏秒，時鐘和地球自轉最多可以差一小時。同一個月，維也納和清華大學兩個團隊同一天在《Nature》發表了用釷-229 原子核做的時鐘。這一集從擺鐘、航海鐘、石英鐘、原子鐘一路講到核鐘：人類為什麼一直想把時間量得更準？核鐘現在到底準不準？它真正擅長的又是什麼？&lt;br/&gt;&lt;br/&gt;⚠️ 核鐘的「預期精度」是理論估計，目前原型還沒有比最好的原子鐘準，片中有分開說明。製作流程有使用 AI 工具。&lt;br/&gt;&lt;br/&gt;🖼 圖片：惠更斯擺鐘版畫（1673，公有領域）；NPL 1955 年第一台銫原子鐘照片（PD-UKGov）；H4 航海鐘 Photo: Mike Prince, CC BY 2.0（封面同）；論文圖表 Toscani De Col et al., Nature 2026（CC BY 4.0）、Huang et al., Nature 2026（CC BY 4.0）、Tiedau et al., PRL 132, 182501 (2024)（CC BY 4.0）；NIST 新聞稿與 BIPM 決議、新聞網頁截圖為評論引用。&lt;br/&gt;&lt;br/&gt;📎 資料來源&lt;br/&gt;• BIPM：CGPM 2026 決議 5（連續的 UTC，不再插閏秒） https://www.bipm.org/en/cgpm-2026/resolution-5&lt;br/&gt;• BIPM：CGPM 2026 決議 4（秒的未來定義） https://www.bipm.org/en/cgpm-2026/resolution-4&lt;br/&gt;• BIPM：秒的重新定義 FAQ https://www.bipm.org/faq-redefinition-second&lt;br/&gt;• Nature News：閏秒決議報導 https://www.nature.com/articles/d41586-026-03329-z&lt;br/&gt;• The Register（2026-10-19）：Time lords kill leap seconds before they become the new Y2K bug https://www.theregister.com/networks/2026/10/19/time-lords-kill-leap-seconds-before-they-become-the-new-y2k-bug/5303711&lt;br/&gt;• Toscani De Col et al., A thorium-229 optical nuclear clock with feedback loop, Nature (2026)（arXiv:2606.04997） https://arxiv.org/abs/2606.04997&lt;br/&gt;• TU Wien 新聞稿（2026-10-07）：Die erste selbststabilisierende Atomkernuhr tickt in Wien https://idw-online.de/en/news878443&lt;br/&gt;• ScienceDaily（2026-10-10）：Scientists build a nuclear clock that could make atomic clocks obsolete https://sciencedaily.com/releases/2026/10/261008102701.htm&lt;br/&gt;• Huang … Ding, A nuclear clock based on 229Th, Nature (2026)（arXiv:2606.08870） https://arxiv.org/abs/2606.08870&lt;br/&gt;• Interesting Engineering（2026-10-07）：清華與維也納核鐘比較 https://interestingengineering.com/science/china-nuclear-clock-stability&lt;br/&gt;• Tiedau et al., Laser Excitation of the Th-229 Nucleus, PRL 132, 182501 (2024) https://dx.doi.org/10.1103/physrevlett.132.182501&lt;br/&gt;• TU Wien 2024 新聞稿（ScienceDaily 轉載） https://sciencedaily.com/releases/2024/04/240429103045.htm&lt;br/&gt;• Zhang et al., Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock, Nature 633, 63 (2024) https://jila.colorado.edu/sites/default/files/2024-09/Th%20nuclear%20clock%202024-Nature.pdf&lt;br/&gt;• NIST／JILA 2024 新聞稿（ScienceDaily 轉載） https://www.sciencedaily.com/releases/2024/09/240904130817.htm&lt;br/&gt;• Beeks et al., 釷-229 對精細結構常數的敏感度（arXiv:2407.17300） https://arxiv.org/abs/2407.17300&lt;br/&gt;• APS News：Huygens patents first pendulum clock https://www.aps.org/apsnews/2017/06/huygens-patents-first-pendulum-clock&lt;br/&gt;• Linda Hall Library：John Harrison https://www.lindahall.org/about/news/scientist-of-the-day/john-harrison&lt;br/&gt;• Guinness World Records：First quartz clock https://www.guinnessworldrecords.com/world-records/754830-first-quartz-clock&lt;br/&gt;• Seiko Museum：Quartz Astron 35SQ https://museum.seiko.co.jp/en/collections/watch_latestage/collect020/&lt;br/&gt;• Science Museum Group：Caesium atomic clock, 1955 https://collection.sciencemuseumgroup.org.uk/objects/co855&lt;br/&gt;• NIST-F2 銫噴泉鐘（EurekAlert） https://www.eurekalert.org/news-releases/915346&lt;br/&gt;• Aeppli et al., JILA 鍶光晶格鐘, PRL 133, 023401 (2024) https://arxiv.org/abs/2403.10664&lt;br/&gt;• NIST 新聞稿（2025-07-14）：鋁離子鐘 https://www.nist.gov/node/1886246&lt;br/&gt;• Bothwell et al., Resolving the gravitational redshift across a millimetre-scale atomic sample, Nature 602, 420 (2022) https://jila.colorado.edu/sites/default/files/2022-02/Redshift%201%20mm_Nature%202022.pdf&lt;br/&gt;&lt;br/&gt;---&lt;br/&gt;Jim AI Notebook | Note the Future&lt;br/&gt;每日深度解析 AI 最新進展&lt;br/&gt;&lt;br/&gt;#核鐘 #原子鐘 #閏秒 #釷229 #光學鐘 #時間 #物理 #暗物質 #科普 #JimAINotebook&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/vVMDI0bDBqY/maxresdefault.jpg" alt="【Jim AI Notebook】「核鐘」誕生：比原子鐘更穩的時鐘，精準度極限背後的真正目的" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;0:00 開場：兩週前，人類決定不再讓時鐘遷就地球&lt;br/&gt;0:47 閏秒：原子鐘和地球自轉對不上&lt;br/&gt;2:24 鐘是什麼：振盪器加上計數&lt;br/&gt;3:07 1656 年惠更斯擺鐘與航海鐘&lt;br/&gt;4:37 石英鐘：一秒振動五萬次&lt;br/&gt;5:27 原子鐘：1967 年，秒交給了銫原子&lt;br/&gt;7:04 GPS 與光學鐘&lt;br/&gt;9:24 秒的重新定義：2030 年才提案&lt;br/&gt;10:17 原子核與釷-229&lt;br/&gt;11:57 2023 年 11 月 21 日：第一次用雷射撥動原子核&lt;br/&gt;12:39 2026 年 10 月：自我穩定的核鐘&lt;br/&gt;13:44 誠實的那一段：它還沒有比原子鐘準&lt;br/&gt;14:34 精細結構常數與暗物質&lt;br/&gt;16:03 結尾：新的鐘，是為了問新的問題&lt;br/&gt;&lt;br/&gt;2026 年 10 月，國際度量衡大會通過決議：2027 年 5 月 20 日起不再插閏秒，時鐘和地球自轉最多可以差一小時。同一個月，維也納和清華大學兩個團隊同一天在《Nature》發表了用釷-229 原子核做的時鐘。這一集從擺鐘、航海鐘、石英鐘、原子鐘一路講到核鐘：人類為什麼一直想把時間量得更準？核鐘現在到底準不準？它真正擅長的又是什麼？&lt;br/&gt;&lt;br/&gt;⚠️ 核鐘的「預期精度」是理論估計，目前原型還沒有比最好的原子鐘準，片中有分開說明。製作流程有使用 AI 工具。&lt;br/&gt;&lt;br/&gt;🖼 圖片：惠更斯擺鐘版畫（1673，公有領域）；NPL 1955 年第一台銫原子鐘照片（PD-UKGov）；H4 航海鐘 Photo: Mike Prince, CC BY 2.0（封面同）；論文圖表 Toscani De Col et al., Nature 2026（CC BY 4.0）、Huang et al., Nature 2026（CC BY 4.0）、Tiedau et al., PRL 132, 182501 (2024)（CC BY 4.0）；NIST 新聞稿與 BIPM 決議、新聞網頁截圖為評論引用。&lt;br/&gt;&lt;br/&gt;📎 資料來源&lt;br/&gt;• BIPM：CGPM 2026 決議 5（連續的 UTC，不再插閏秒） https://www.bipm.org/en/cgpm-2026/resolution-5&lt;br/&gt;• BIPM：CGPM 2026 決議 4（秒的未來定義） https://www.bipm.org/en/cgpm-2026/resolution-4&lt;br/&gt;• BIPM：秒的重新定義 FAQ https://www.bipm.org/faq-redefinition-second&lt;br/&gt;• Nature News：閏秒決議報導 https://www.nature.com/articles/d41586-026-03329-z&lt;br/&gt;• The Register（2026-10-19）：Time lords kill leap seconds before they become the new Y2K bug https://www.theregister.com/networks/2026/10/19/time-lords-kill-leap-seconds-before-they-become-the-new-y2k-bug/5303711&lt;br/&gt;• Toscani De Col et al., A thorium-229 optical nuclear clock with feedback loop, Nature (2026)（arXiv:2606.04997） https://arxiv.org/abs/2606.04997&lt;br/&gt;• TU Wien 新聞稿（2026-10-07）：Die erste selbststabilisierende Atomkernuhr tickt in Wien https://idw-online.de/en/news878443&lt;br/&gt;• ScienceDaily（2026-10-10）：Scientists build a nuclear clock that could make atomic clocks obsolete https://sciencedaily.com/releases/2026/10/261008102701.htm&lt;br/&gt;• Huang … Ding, A nuclear clock based on 229Th, Nature (2026)（arXiv:2606.08870） https://arxiv.org/abs/2606.08870&lt;br/&gt;• Interesting Engineering（2026-10-07）：清華與維也納核鐘比較 https://interestingengineering.com/science/china-nuclear-clock-stability&lt;br/&gt;• Tiedau et al., Laser Excitation of the Th-229 Nucleus, PRL 132, 182501 (2024) https://dx.doi.org/10.1103/physrevlett.132.182501&lt;br/&gt;• TU Wien 2024 新聞稿（ScienceDaily 轉載） https://sciencedaily.com/releases/2024/04/240429103045.htm&lt;br/&gt;• Zhang et al., Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock, Nature 633, 63 (2024) https://jila.colorado.edu/sites/default/files/2024-09/Th%20nuclear%20clock%202024-Nature.pdf&lt;br/&gt;• NIST／JILA 2024 新聞稿（ScienceDaily 轉載） https://www.sciencedaily.com/releases/2024/09/240904130817.htm&lt;br/&gt;• Beeks et al., 釷-229 對精細結構常數的敏感度（arXiv:2407.17300） https://arxiv.org/abs/2407.17300&lt;br/&gt;• APS News：Huygens patents first pendulum clock https://www.aps.org/apsnews/2017/06/huygens-patents-first-pendulum-clock&lt;br/&gt;• Linda Hall Library：John Harrison https://www.lindahall.org/about/news/scientist-of-the-day/john-harrison&lt;br/&gt;• Guinness World Records：First quartz clock https://www.guinnessworldrecords.com/world-records/754830-first-quartz-clock&lt;br/&gt;• Seiko Museum：Quartz Astron 35SQ https://museum.seiko.co.jp/en/collections/watch_latestage/collect020/&lt;br/&gt;• Science Museum Group：Caesium atomic clock, 1955 https://collection.sciencemuseumgroup.org.uk/objects/co855&lt;br/&gt;• NIST-F2 銫噴泉鐘（EurekAlert） https://www.eurekalert.org/news-releases/915346&lt;br/&gt;• Aeppli et al., JILA 鍶光晶格鐘, PRL 133, 023401 (2024) https://arxiv.org/abs/2403.10664&lt;br/&gt;• NIST 新聞稿（2025-07-14）：鋁離子鐘 https://www.nist.gov/node/1886246&lt;br/&gt;• Bothwell et al., Resolving the gravitational redshift across a millimetre-scale atomic sample, Nature 602, 420 (2022) https://jila.colorado.edu/sites/default/files/2022-02/Redshift%201%20mm_Nature%202022.pdf&lt;br/&gt;&lt;br/&gt;---&lt;br/&gt;Jim AI Notebook | Note the Future&lt;br/&gt;每日深度解析 AI 最新進展&lt;br/&gt;&lt;br/&gt;#核鐘 #原子鐘 #閏秒 #釷229 #光學鐘 #時間 #物理 #暗物質 #科普 #JimAINotebook&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/vVMDI0bDBqY/maxresdefault.jpg" alt="【Jim AI Notebook】「核鐘」誕生：比原子鐘更穩的時鐘，精準度極限背後的真正目的" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_vVMDI0bDBqY.m4a" type="audio/mp4" length="47214939"/>
+      <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:summary>0:00 開場：兩週前，人類決定不再讓時鐘遷就地球
+0:47 閏秒：原子鐘和地球自轉對不上
+2:24 鐘是什麼：振盪器加上計數
+3:07 1656 年惠更斯擺鐘與航海鐘
+4:37 石英鐘：一秒振動五萬次
+5:27 原子鐘：1967 年，秒交給了銫原子
+7:04 GPS 與光學鐘
+9:24 秒的重新定義：2030 年才提案
+10:17 原子核與釷-229
+11:57 2023 年 11 月 21 日：第一次用雷射撥動原子核
+12:39 2026 年 10 月：自我穩定的核鐘
+13:44 誠實的那一段：它還沒有比原子鐘準
+14:34 精細結構常數與暗物質
+16:03 結尾：新的鐘，是為了問新的問題
+
+2026 年 10 月，國際度量衡大會通過決議：2027 年 5 月 20 日起不再插閏秒，時鐘和地球自轉最多可以差一小時。同一個月，維也納和清華大學兩個團隊同一天在《Nature》發表了用釷-229 原子核做的時鐘。這一集從擺鐘、航海鐘、石英鐘、原子鐘一路講到核鐘：人類為什麼一直想把時間量得更準？核鐘現在到底準不準？它真正擅長的又是什麼？
+
+⚠️ 核鐘的「預期精度」是理論估計，目前原型還沒有比最好的原子鐘準，片中有分開說明。製作流程有使用 AI 工具。
+
+🖼 圖片：惠更斯擺鐘版畫（1673，公有領域）；NPL 1955 年第一台銫原子鐘照片（PD-UKGov）；H4 航海鐘 Photo: Mike Prince, CC BY 2.0（封面同）；論文圖表 Toscani De Col et al., Nature 2026（CC BY 4.0）、Huang et al., Nature 2026（CC BY 4.0）、Tiedau et al., PRL 132, 182501 (2024)（CC BY 4.0）；NIST 新聞稿與 BIPM 決議、新聞網頁截圖為評論引用。
+
+📎 資料來源
+• BIPM：CGPM 2026 決議 5（連續的 UTC，不再插閏秒） https://www.bipm.org/en/cgpm-2026/resolution-5
+• BIPM：CGPM 2026 決議 4（秒的未來定義） https://www.bipm.org/en/cgpm-2026/resolution-4
+• BIPM：秒的重新定義 FAQ https://www.bipm.org/faq-redefinition-second
+• Nature News：閏秒決議報導 https://www.nature.com/articles/d41586-026-03329-z
+• The Register（2026-10-19）：Time lords kill leap seconds before they become the new Y2K bug https://www.theregister.com/networks/2026/10/19/time-lords-kill-leap-seconds-before-they-become-the-new-y2k-bug/5303711
+• Toscani De Col et al., A thorium-229 optical nuclear clock with feedback loop, Nature (2026)（arXiv:2606.04997） https://arxiv.org/abs/2606.04997
+• TU Wien 新聞稿（2026-10-07）：Die erste selbststabilisierende Atomkernuhr tickt in Wien https://idw-online.de/en/news878443
+• ScienceDaily（2026-10-10）：Scientists build a nuclear clock that could make atomic clocks obsolete https://sciencedaily.com/releases/2026/10/261008102701.htm
+• Huang … Ding, A nuclear clock based on 229Th, Nature (2026)（arXiv:2606.08870） https://arxiv.org/abs/2606.08870
+• Interesting Engineering（2026-10-07）：清華與維也納核鐘比較 https://interestingengineering.com/science/china-nuclear-clock-stability
+• Tiedau et al., Laser Excitation of the Th-229 Nucleus, PRL 132, 182501 (2024) https://dx.doi.org/10.1103/physrevlett.132.182501
+• TU Wien 2024 新聞稿（ScienceDaily 轉載） https://sciencedaily.com/releases/2024/04/240429103045.htm
+• Zhang et al., Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock, Nature 633, 63 (2024) https://jila.colorado.edu/sites/default/files/2024-09/Th%20nuclear%20clock%202024-Nature.pdf
+• NIST／JILA 2024 新聞稿（ScienceDaily 轉載） https://www.sciencedaily.com/releases/2024/09/240904130817.htm
+• Beeks et al., 釷-229 對精細結構常數的敏感度（arXiv:2407.17300） https://arxiv.org/abs/2407.17300
+• APS News：Huygens patents first pendulum clock https://www.aps.org/apsnews/2017/06/huygens-patents-first-pendulum-clock
+• Linda Hall Library：John Harrison https://www.lindahall.org/about/news/scientist-of-the-day/john-harrison
+• Guinness World Records：First quartz clock https://www.guinnessworldrecords.com/world-records/754830-first-quartz-clock
+• Seiko Museum：Quartz Astron 35SQ https://museum.seiko.co.jp/en/collections/watch_latestage/collect020/
+• Science Museum Group：Caesium atomic clock, 1955 https://collection.sciencemuseumgroup.org.uk/objects/co855
+• NIST-F2 銫噴泉鐘（EurekAlert） https://www.eurekalert.org/news-releases/915346
+• Aeppli et al., JILA 鍶光晶格鐘, PRL 133, 023401 (2024) https://arxiv.org/abs/2403.10664
+• NIST 新聞稿（2025-07-14）：鋁離子鐘 https://www.nist.gov/node/1886246
+• Bothwell et al., Resolving the gravitational redshift across a millimetre-scale atomic sample, Nature 602, 420 (2022) https://jila.colorado.edu/sites/default/files/2022-02/Redshift%201%20mm_Nature%202022.pdf
+
+---
+Jim AI Notebook | Note the Future
+每日深度解析 AI 最新進展
+
+#核鐘 #原子鐘 #閏秒 #釷229 #光學鐘 #時間 #物理 #暗物質 #科普 #JimAINotebook</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:17:33</itunes:duration>
+      <itunes:keywords>JimAINotebook, 光學鐘, 原子鐘, 時間, 暗物質, 核鐘, 物理, 科普, 釷229, 閏秒</itunes:keywords>
+      <itunes:image href="https://i.ytimg.com/vi/vVMDI0bDBqY/maxresdefault.jpg"/>
+      <media:thumbnail url="https://i.ytimg.com/vi/vVMDI0bDBqY/maxresdefault.jpg"/>
+      <media:community><media:statistics views="125"/></media:community>
+      <media:category>Science &amp; Technology</media:category>
+    </item>
+    <item>
+      <title>【游庭皓的財經皓角】2026/11/2(一)費半暴跌7% 台股成下張骨牌?跳樓大拍賣 今天撿股票?【早晨財經速解讀】</title>
+      <guid isPermaLink="false">yutinghaofinance_adzWDkxEWMU</guid>
+      <pubDate>Mon, 02 Nov 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=adzWDkxEWMU</link>
+      <description>&lt;p&gt;開盤前30分鐘，08:30 - 09:00 讓我們一起解讀財經時事  。&lt;br/&gt;參加財經皓角總經訂閱：&lt;br/&gt;新友會員 https://jackalopelin.com &lt;br/&gt;老友會員 https://yutinghao.finance &lt;br/&gt;我的粉絲專頁 https://reurl.cc/n563rd&lt;br/&gt;網站參加會員手冊 https://reurl.cc/rvvqAr&lt;br/&gt;如有疑問，歡迎來信 jackieyutw@gmail.com&lt;br/&gt;""""" ♥️ 打賞網址 ：https://p.ecpay.com.tw/B83478D """"" (不提供退款服務)&lt;br/&gt;&lt;br/&gt;00:00 市場總覽&lt;br/&gt;03:45 情緒降溫&lt;br/&gt;06:00 那指費半&lt;br/&gt;10:00 陸港股衝擊&lt;br/&gt;12:00 台韓股市&lt;br/&gt;13:45 半導體股&lt;br/&gt;16:00 巨頭績效&lt;br/&gt;19:20 資產績效&lt;br/&gt;20:50 期中選舉到數&lt;br/&gt;24:00 選後前瞻&lt;br/&gt;29:00 總結&lt;br/&gt;&lt;br/&gt;《早晨財經速解讀》是游庭皓的個人知識節目，針對財經時事做最新解讀，開播於2019年7月15日，每日開盤前半小時準時直播。議題從總體經濟、產業動態到投資哲學，信息量飽滿，為你顛覆直覺，清理投資誤區，用更寬廣的角度帶你一窺投資的奧秘。&lt;br/&gt;免責聲明：《游庭皓的財經皓角》頻道為學習型頻道，僅用於教育與娛樂目的，無任何證券之買賣建議。任何形式的投資皆涉及風險，投資者需進行自己的研究，持盈保泰。&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/adzWDkxEWMU/maxresdefault.jpg" alt="【游庭皓的財經皓角】2026/11/2(一)費半暴跌7% 台股成下張骨牌?跳樓大拍賣 今天撿股票?【早晨財經速解讀】" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;開盤前30分鐘，08:30 - 09:00 讓我們一起解讀財經時事  。&lt;br/&gt;參加財經皓角總經訂閱：&lt;br/&gt;新友會員 https://jackalopelin.com &lt;br/&gt;老友會員 https://yutinghao.finance &lt;br/&gt;我的粉絲專頁 https://reurl.cc/n563rd&lt;br/&gt;網站參加會員手冊 https://reurl.cc/rvvqAr&lt;br/&gt;如有疑問，歡迎來信 jackieyutw@gmail.com&lt;br/&gt;""""" ♥️ 打賞網址 ：https://p.ecpay.com.tw/B83478D """"" (不提供退款服務)&lt;br/&gt;&lt;br/&gt;00:00 市場總覽&lt;br/&gt;03:45 情緒降溫&lt;br/&gt;06:00 那指費半&lt;br/&gt;10:00 陸港股衝擊&lt;br/&gt;12:00 台韓股市&lt;br/&gt;13:45 半導體股&lt;br/&gt;16:00 巨頭績效&lt;br/&gt;19:20 資產績效&lt;br/&gt;20:50 期中選舉到數&lt;br/&gt;24:00 選後前瞻&lt;br/&gt;29:00 總結&lt;br/&gt;&lt;br/&gt;《早晨財經速解讀》是游庭皓的個人知識節目，針對財經時事做最新解讀，開播於2019年7月15日，每日開盤前半小時準時直播。議題從總體經濟、產業動態到投資哲學，信息量飽滿，為你顛覆直覺，清理投資誤區，用更寬廣的角度帶你一窺投資的奧秘。&lt;br/&gt;免責聲明：《游庭皓的財經皓角》頻道為學習型頻道，僅用於教育與娛樂目的，無任何證券之買賣建議。任何形式的投資皆涉及風險，投資者需進行自己的研究，持盈保泰。&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/adzWDkxEWMU/maxresdefault.jpg" alt="【游庭皓的財經皓角】2026/11/2(一)費半暴跌7% 台股成下張骨牌?跳樓大拍賣 今天撿股票?【早晨財經速解讀】" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_adzWDkxEWMU.m4a" type="audio/mp4" length="62483122"/>
+      <itunes:author>游庭皓的財經皓角</itunes:author>
+      <itunes:summary>開盤前30分鐘，08:30 - 09:00 讓我們一起解讀財經時事  。
+參加財經皓角總經訂閱：
+新友會員 https://jackalopelin.com 
+老友會員 https://yutinghao.finance 
+我的粉絲專頁 https://reurl.cc/n563rd
+網站參加會員手冊 https://reurl.cc/rvvqAr
+如有疑問，歡迎來信 jackieyutw@gmail.com
+""""" ♥️ 打賞網址 ：https://p.ecpay.com.tw/B83478D """"" (不提供退款服務)
+
+00:00 市場總覽
+03:45 情緒降溫
+06:00 那指費半
+10:00 陸港股衝擊
+12:00 台韓股市
+13:45 半導體股
+16:00 巨頭績效
+19:20 資產績效
+20:50 期中選舉到數
+24:00 選後前瞻
+29:00 總結
+
+《早晨財經速解讀》是游庭皓的個人知識節目，針對財經時事做最新解讀，開播於2019年7月15日，每日開盤前半小時準時直播。議題從總體經濟、產業動態到投資哲學，信息量飽滿，為你顛覆直覺，清理投資誤區，用更寬廣的角度帶你一窺投資的奧秘。
+免責聲明：《游庭皓的財經皓角》頻道為學習型頻道，僅用於教育與娛樂目的，無任何證券之買賣建議。任何形式的投資皆涉及風險，投資者需進行自己的研究，持盈保泰。</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:30:19</itunes:duration>
+      <itunes:image href="https://i.ytimg.com/vi/adzWDkxEWMU/maxresdefault.jpg"/>
+      <media:thumbnail url="https://i.ytimg.com/vi/adzWDkxEWMU/maxresdefault.jpg"/>
+      <media:community><media:statistics views="66240"/></media:community>
+      <media:category>News &amp; Politics</media:category>
+    </item>
     <item>
       <title>【Jim AI Notebook】億萬富翁少繳稅的秘密：稅制到底哪裡出了問題？｜Gabriel Zucman｜演講訪談系列</title>
       <guid isPermaLink="false">jimainotebook_FYWOEieyO-0</guid>
