@@ -9,12 +9,80 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://i.ytimg.com/vi/vVMDI0bDBqY/maxresdefault.jpg"/>
+    <itunes:image href="https://i.ytimg.com/vi/PHJW-eF3-fs/maxresdefault.jpg"/>
     <image>
-      <url>https://i.ytimg.com/vi/vVMDI0bDBqY/maxresdefault.jpg</url>
+      <url>https://i.ytimg.com/vi/PHJW-eF3-fs/maxresdefault.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>【Jim AI Notebook】哈佛電腦科學入門：網站怎麼記住你？從資料庫、網頁到 Cookie｜CS50｜下集 ｜ 公開課</title>
+      <guid isPermaLink="false">jimainotebook_PHJW-eF3-fs</guid>
+      <pubDate>Mon, 02 Nov 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=PHJW-eF3-fs</link>
+      <description>&lt;p&gt;00:00 開場：網站怎麼記住你？&lt;br/&gt;01:03 Malan（Harvard）：一份問卷，從試算表到資料庫&lt;br/&gt;03:43 沒有 Ctrl-Z：資料庫會擋你&lt;br/&gt;05:36 主鍵：你在資料庫裡是一個編號&lt;br/&gt;07:58 索引：從 0.2 秒到 0.001 秒&lt;br/&gt;08:48 SQL 注入：別相信使用者&lt;br/&gt;11:09 Malan（Harvard）：上網就是寄信&lt;br/&gt;13:36 DNS 與 HTTP：網址怎麼變成號碼&lt;br/&gt;16:41 你拿到的網頁只是副本&lt;br/&gt;19:46 Malan（Harvard）：會想事情的伺服器&lt;br/&gt;25:06 HTTP 不記得你&lt;br/&gt;26:06 Cookie：手背上的章，也拿來追蹤你&lt;br/&gt;29:36 Malan（Harvard）：最後一堂課，回到大講堂&lt;br/&gt;&lt;br/&gt;這一集是哈佛大學 Harvard 公開課 CS50（電腦科學入門）的下集，也是最後一集，整理 Lecture 7 SQL、Lecture 8 HTML, CSS, JavaScript、Lecture 9 Flask，以及最後一堂 Lecture 10 The End。主問題只有一個：網站怎麼記住你？答案分三段：你在資料庫裡是一個編號；每次連上網站，都是寄出一封沒署名的信；網站在你手背蓋一個章（Cookie），才認得你，同一個章也拿來追蹤你。&lt;br/&gt;&lt;br/&gt;【查證與更正】Malan 課堂上幾個說法已在旁白補正：廣告追蹤其實分成第三方 Cookie 和瀏覽器指紋兩種；Chrome 在 2025 年決定保留第三方 Cookie；無痕模式不等於隱形，網站、網管和網路業者照樣看得到你；safetyschool.org 這個網址從 2000 年就存在；全球登記的網址約 3.9 億個。&lt;br/&gt;&lt;br/&gt;片中講課原聲與上課畫面取自 CS50x 2025：David J. Malan, CS50's Introduction to Computer Science (Harvard University)，依 CC BY-NC-SA 4.0 授權使用（https://creativecommons.org/licenses/by-nc-sa/4.0/ ；授權頁 https://cs50.harvard.edu/x/license/ ），已剪輯並加上中文字幕。課程頁：https://cs50.harvard.edu/x/&lt;br/&gt;Lecture clips: CS50x 2025, CS50's Introduction to Computer Science by David J. Malan, Harvard University, licensed under CC BY-NC-SA 4.0; excerpted and subtitled in Chinese. 製作流程有使用 AI 工具。&lt;br/&gt;&lt;br/&gt;📎 資料來源&lt;br/&gt;• CS50x 2025 - Lecture 7 - SQL（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=ZA25WHO62ZA&lt;br/&gt;• CS50x 2025 - Lecture 8 - HTML, CSS, JavaScript（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=xiWUL3M9D8c&lt;br/&gt;• CS50x 2025 - Lecture 9 - Flask（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=1r-dFbPQ7Z8&lt;br/&gt;• CS50x 2025 - Lecture 10 - The End（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=WGEy-Bu5Hos&lt;br/&gt;• CS50x 課程官網 https://cs50.harvard.edu/x/&lt;br/&gt;• CS50 授權（CC BY-NC-SA 4.0） https://cs50.harvard.edu/x/license/&lt;br/&gt;• CS50x 2025 課表（Weeks） https://cs50.harvard.edu/x/2025/weeks/&lt;br/&gt;• Codd：A Relational Model of Data for Large Shared Data Banks（CACM 1970） https://doi.org/10.1145/362384.362685&lt;br/&gt;• Chamberlin &amp;amp; Boyce：SEQUEL: A Structured English Query Language（1974） https://doi.org/10.1145/800296.811515&lt;br/&gt;• SQLite：Most Widely Deployed and Used Database Engine https://www.sqlite.org/mostdeployed.html&lt;br/&gt;• IMDb Non-Commercial Datasets https://data.imdb.com/non-commercial-datasets/&lt;br/&gt;• List of The Office (American TV series) episodes（Wikipedia） https://en.wikipedia.org/wiki/List_of_The_Office_(American_TV_series)_episodes&lt;br/&gt;• List of most-liked Instagram posts（Wikipedia） https://en.wikipedia.org/wiki/List_of_most-liked_Instagram_posts&lt;br/&gt;• Phrack 54-08：NT Web Technology Vulnerabilities（rain.forest.puppy，1998） http://phrack.org/archives/issues/54/8.txt&lt;br/&gt;• Simon Willison：Prompt injection attacks against GPT-3（2022-09-12） https://simonwillison.net/2022/Sep/12/prompt-injection/&lt;br/&gt;• xkcd 327：Exploits of a Mom https://xkcd.com/327/&lt;br/&gt;• xkcd 授權（CC BY-NC 2.5） https://xkcd.com/license.html&lt;br/&gt;• GitLab：Postmortem of database outage of January 31（2017） https://about.gitlab.com/blog/postmortem-of-database-outage-of-january-31/&lt;br/&gt;• Computer History Museum：Internet History 1960s（ARPANET） https://www.computerhistory.org/internethistory/1960s/&lt;br/&gt;• Google IPv6 Statistics https://www.google.com/intl/en/ipv6/statistics.html&lt;br/&gt;• Internet Society Pulse：18 years later, IPv6 reaches majority https://pulse.internetsociety.org/blog/18-years-later-ipv6-reaches-majority&lt;br/&gt;• Verisign：DNIB.com Reports Internet Has 386.9 Million Domain Name Registrations（Q4 2025） https://investor.verisign.com/news-releases/news-release-details/dnibcom-reports-internet-has-3869-million-domain-name&lt;br/&gt;• Root Server Technical Operations（root-servers.org） https://root-servers.org/&lt;br/&gt;• IANA：Delegation Record for .AI https://www.iana.org/domains/root/db/ai.html&lt;br/&gt;• RFC 9110：HTTP Semantics（狀態碼、無狀態） https://www.rfc-editor.org/rfc/rfc9110&lt;br/&gt;• RFC 2324：Hyper Text Coffee Pot Control Protocol（418 I'm a teapot，1998-04-01） https://www.rfc-editor.org/rfc/rfc2324&lt;br/&gt;• RFC 6265：HTTP State Management Mechanism（Cookie） https://www.rfc-editor.org/rfc/rfc6265&lt;br/&gt;• Flask API 文件（redirect 預設 302） https://flask.palletsprojects.com/en/stable/api/&lt;br/&gt;• Google：&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/PHJW-eF3-fs/maxresdefault.jpg" alt="【Jim AI Notebook】哈佛電腦科學入門：網站怎麼記住你？從資料庫、網頁到 Cookie｜CS50｜下集 ｜ 公開課" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;00:00 開場：網站怎麼記住你？&lt;br/&gt;01:03 Malan（Harvard）：一份問卷，從試算表到資料庫&lt;br/&gt;03:43 沒有 Ctrl-Z：資料庫會擋你&lt;br/&gt;05:36 主鍵：你在資料庫裡是一個編號&lt;br/&gt;07:58 索引：從 0.2 秒到 0.001 秒&lt;br/&gt;08:48 SQL 注入：別相信使用者&lt;br/&gt;11:09 Malan（Harvard）：上網就是寄信&lt;br/&gt;13:36 DNS 與 HTTP：網址怎麼變成號碼&lt;br/&gt;16:41 你拿到的網頁只是副本&lt;br/&gt;19:46 Malan（Harvard）：會想事情的伺服器&lt;br/&gt;25:06 HTTP 不記得你&lt;br/&gt;26:06 Cookie：手背上的章，也拿來追蹤你&lt;br/&gt;29:36 Malan（Harvard）：最後一堂課，回到大講堂&lt;br/&gt;&lt;br/&gt;這一集是哈佛大學 Harvard 公開課 CS50（電腦科學入門）的下集，也是最後一集，整理 Lecture 7 SQL、Lecture 8 HTML, CSS, JavaScript、Lecture 9 Flask，以及最後一堂 Lecture 10 The End。主問題只有一個：網站怎麼記住你？答案分三段：你在資料庫裡是一個編號；每次連上網站，都是寄出一封沒署名的信；網站在你手背蓋一個章（Cookie），才認得你，同一個章也拿來追蹤你。&lt;br/&gt;&lt;br/&gt;【查證與更正】Malan 課堂上幾個說法已在旁白補正：廣告追蹤其實分成第三方 Cookie 和瀏覽器指紋兩種；Chrome 在 2025 年決定保留第三方 Cookie；無痕模式不等於隱形，網站、網管和網路業者照樣看得到你；safetyschool.org 這個網址從 2000 年就存在；全球登記的網址約 3.9 億個。&lt;br/&gt;&lt;br/&gt;片中講課原聲與上課畫面取自 CS50x 2025：David J. Malan, CS50's Introduction to Computer Science (Harvard University)，依 CC BY-NC-SA 4.0 授權使用（https://creativecommons.org/licenses/by-nc-sa/4.0/ ；授權頁 https://cs50.harvard.edu/x/license/ ），已剪輯並加上中文字幕。課程頁：https://cs50.harvard.edu/x/&lt;br/&gt;Lecture clips: CS50x 2025, CS50's Introduction to Computer Science by David J. Malan, Harvard University, licensed under CC BY-NC-SA 4.0; excerpted and subtitled in Chinese. 製作流程有使用 AI 工具。&lt;br/&gt;&lt;br/&gt;📎 資料來源&lt;br/&gt;• CS50x 2025 - Lecture 7 - SQL（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=ZA25WHO62ZA&lt;br/&gt;• CS50x 2025 - Lecture 8 - HTML, CSS, JavaScript（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=xiWUL3M9D8c&lt;br/&gt;• CS50x 2025 - Lecture 9 - Flask（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=1r-dFbPQ7Z8&lt;br/&gt;• CS50x 2025 - Lecture 10 - The End（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=WGEy-Bu5Hos&lt;br/&gt;• CS50x 課程官網 https://cs50.harvard.edu/x/&lt;br/&gt;• CS50 授權（CC BY-NC-SA 4.0） https://cs50.harvard.edu/x/license/&lt;br/&gt;• CS50x 2025 課表（Weeks） https://cs50.harvard.edu/x/2025/weeks/&lt;br/&gt;• Codd：A Relational Model of Data for Large Shared Data Banks（CACM 1970） https://doi.org/10.1145/362384.362685&lt;br/&gt;• Chamberlin &amp;amp; Boyce：SEQUEL: A Structured English Query Language（1974） https://doi.org/10.1145/800296.811515&lt;br/&gt;• SQLite：Most Widely Deployed and Used Database Engine https://www.sqlite.org/mostdeployed.html&lt;br/&gt;• IMDb Non-Commercial Datasets https://data.imdb.com/non-commercial-datasets/&lt;br/&gt;• List of The Office (American TV series) episodes（Wikipedia） https://en.wikipedia.org/wiki/List_of_The_Office_(American_TV_series)_episodes&lt;br/&gt;• List of most-liked Instagram posts（Wikipedia） https://en.wikipedia.org/wiki/List_of_most-liked_Instagram_posts&lt;br/&gt;• Phrack 54-08：NT Web Technology Vulnerabilities（rain.forest.puppy，1998） http://phrack.org/archives/issues/54/8.txt&lt;br/&gt;• Simon Willison：Prompt injection attacks against GPT-3（2022-09-12） https://simonwillison.net/2022/Sep/12/prompt-injection/&lt;br/&gt;• xkcd 327：Exploits of a Mom https://xkcd.com/327/&lt;br/&gt;• xkcd 授權（CC BY-NC 2.5） https://xkcd.com/license.html&lt;br/&gt;• GitLab：Postmortem of database outage of January 31（2017） https://about.gitlab.com/blog/postmortem-of-database-outage-of-january-31/&lt;br/&gt;• Computer History Museum：Internet History 1960s（ARPANET） https://www.computerhistory.org/internethistory/1960s/&lt;br/&gt;• Google IPv6 Statistics https://www.google.com/intl/en/ipv6/statistics.html&lt;br/&gt;• Internet Society Pulse：18 years later, IPv6 reaches majority https://pulse.internetsociety.org/blog/18-years-later-ipv6-reaches-majority&lt;br/&gt;• Verisign：DNIB.com Reports Internet Has 386.9 Million Domain Name Registrations（Q4 2025） https://investor.verisign.com/news-releases/news-release-details/dnibcom-reports-internet-has-3869-million-domain-name&lt;br/&gt;• Root Server Technical Operations（root-servers.org） https://root-servers.org/&lt;br/&gt;• IANA：Delegation Record for .AI https://www.iana.org/domains/root/db/ai.html&lt;br/&gt;• RFC 9110：HTTP Semantics（狀態碼、無狀態） https://www.rfc-editor.org/rfc/rfc9110&lt;br/&gt;• RFC 2324：Hyper Text Coffee Pot Control Protocol（418 I'm a teapot，1998-04-01） https://www.rfc-editor.org/rfc/rfc2324&lt;br/&gt;• RFC 6265：HTTP State Management Mechanism（Cookie） https://www.rfc-editor.org/rfc/rfc6265&lt;br/&gt;• Flask API 文件（redirect 預設 302） https://flask.palletsprojects.com/en/stable/api/&lt;br/&gt;• Google：&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/PHJW-eF3-fs/maxresdefault.jpg" alt="【Jim AI Notebook】哈佛電腦科學入門：網站怎麼記住你？從資料庫、網頁到 Cookie｜CS50｜下集 ｜ 公開課" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_PHJW-eF3-fs.m4a" type="audio/mp4" length="94208563"/>
+      <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:summary>00:00 開場：網站怎麼記住你？
+01:03 Malan（Harvard）：一份問卷，從試算表到資料庫
+03:43 沒有 Ctrl-Z：資料庫會擋你
+05:36 主鍵：你在資料庫裡是一個編號
+07:58 索引：從 0.2 秒到 0.001 秒
+08:48 SQL 注入：別相信使用者
+11:09 Malan（Harvard）：上網就是寄信
+13:36 DNS 與 HTTP：網址怎麼變成號碼
+16:41 你拿到的網頁只是副本
+19:46 Malan（Harvard）：會想事情的伺服器
+25:06 HTTP 不記得你
+26:06 Cookie：手背上的章，也拿來追蹤你
+29:36 Malan（Harvard）：最後一堂課，回到大講堂
+
+這一集是哈佛大學 Harvard 公開課 CS50（電腦科學入門）的下集，也是最後一集，整理 Lecture 7 SQL、Lecture 8 HTML, CSS, JavaScript、Lecture 9 Flask，以及最後一堂 Lecture 10 The End。主問題只有一個：網站怎麼記住你？答案分三段：你在資料庫裡是一個編號；每次連上網站，都是寄出一封沒署名的信；網站在你手背蓋一個章（Cookie），才認得你，同一個章也拿來追蹤你。
+
+【查證與更正】Malan 課堂上幾個說法已在旁白補正：廣告追蹤其實分成第三方 Cookie 和瀏覽器指紋兩種；Chrome 在 2025 年決定保留第三方 Cookie；無痕模式不等於隱形，網站、網管和網路業者照樣看得到你；safetyschool.org 這個網址從 2000 年就存在；全球登記的網址約 3.9 億個。
+
+片中講課原聲與上課畫面取自 CS50x 2025：David J. Malan, CS50's Introduction to Computer Science (Harvard University)，依 CC BY-NC-SA 4.0 授權使用（https://creativecommons.org/licenses/by-nc-sa/4.0/ ；授權頁 https://cs50.harvard.edu/x/license/ ），已剪輯並加上中文字幕。課程頁：https://cs50.harvard.edu/x/
+Lecture clips: CS50x 2025, CS50's Introduction to Computer Science by David J. Malan, Harvard University, licensed under CC BY-NC-SA 4.0; excerpted and subtitled in Chinese. 製作流程有使用 AI 工具。
+
+📎 資料來源
+• CS50x 2025 - Lecture 7 - SQL（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=ZA25WHO62ZA
+• CS50x 2025 - Lecture 8 - HTML, CSS, JavaScript（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=xiWUL3M9D8c
+• CS50x 2025 - Lecture 9 - Flask（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=1r-dFbPQ7Z8
+• CS50x 2025 - Lecture 10 - The End（Harvard CS50，David J. Malan，YouTube） https://www.youtube.com/watch?v=WGEy-Bu5Hos
+• CS50x 課程官網 https://cs50.harvard.edu/x/
+• CS50 授權（CC BY-NC-SA 4.0） https://cs50.harvard.edu/x/license/
+• CS50x 2025 課表（Weeks） https://cs50.harvard.edu/x/2025/weeks/
+• Codd：A Relational Model of Data for Large Shared Data Banks（CACM 1970） https://doi.org/10.1145/362384.362685
+• Chamberlin &amp; Boyce：SEQUEL: A Structured English Query Language（1974） https://doi.org/10.1145/800296.811515
+• SQLite：Most Widely Deployed and Used Database Engine https://www.sqlite.org/mostdeployed.html
+• IMDb Non-Commercial Datasets https://data.imdb.com/non-commercial-datasets/
+• List of The Office (American TV series) episodes（Wikipedia） https://en.wikipedia.org/wiki/List_of_The_Office_(American_TV_series)_episodes
+• List of most-liked Instagram posts（Wikipedia） https://en.wikipedia.org/wiki/List_of_most-liked_Instagram_posts
+• Phrack 54-08：NT Web Technology Vulnerabilities（rain.forest.puppy，1998） http://phrack.org/archives/issues/54/8.txt
+• Simon Willison：Prompt injection attacks against GPT-3（2022-09-12） https://simonwillison.net/2022/Sep/12/prompt-injection/
+• xkcd 327：Exploits of a Mom https://xkcd.com/327/
+• xkcd 授權（CC BY-NC 2.5） https://xkcd.com/license.html
+• GitLab：Postmortem of database outage of January 31（2017） https://about.gitlab.com/blog/postmortem-of-database-outage-of-january-31/
+• Computer History Museum：Internet History 1960s（ARPANET） https://www.computerhistory.org/internethistory/1960s/
+• Google IPv6 Statistics https://www.google.com/intl/en/ipv6/statistics.html
+• Internet Society Pulse：18 years later, IPv6 reaches majority https://pulse.internetsociety.org/blog/18-years-later-ipv6-reaches-majority
+• Verisign：DNIB.com Reports Internet Has 386.9 Million Domain Name Registrations（Q4 2025） https://investor.verisign.com/news-releases/news-release-details/dnibcom-reports-internet-has-3869-million-domain-name
+• Root Server Technical Operations（root-servers.org） https://root-servers.org/
+• IANA：Delegation Record for .AI https://www.iana.org/domains/root/db/ai.html
+• RFC 9110：HTTP Semantics（狀態碼、無狀態） https://www.rfc-editor.org/rfc/rfc9110
+• RFC 2324：Hyper Text Coffee Pot Control Protocol（418 I'm a teapot，1998-04-01） https://www.rfc-editor.org/rfc/rfc2324
+• RFC 6265：HTTP State Management Mechanism（Cookie） https://www.rfc-editor.org/rfc/rfc6265
+• Flask API 文件（redirect 預設 302） https://flask.palletsprojects.com/en/stable/api/
+• Google：</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:34:51</itunes:duration>
+      <itunes:keywords>CS50, CSS, Cookie, DavidMalan, Flask, HTML, Harvard公開課, JavaScript, Jim AI Notebook, JimAINotebook, SQL, 哈佛大學, 網路, 資料庫, 電腦科學入門</itunes:keywords>
+      <itunes:image href="https://i.ytimg.com/vi/PHJW-eF3-fs/maxresdefault.jpg"/>
+      <media:thumbnail url="https://i.ytimg.com/vi/PHJW-eF3-fs/maxresdefault.jpg"/>
+      <media:community><media:statistics views="373"/></media:community>
+      <media:category>Science &amp; Technology</media:category>
+    </item>
     <item>
       <title>【Jim AI Notebook】「核鐘」誕生：比原子鐘更穩的時鐘，精準度極限背後的真正目的</title>
       <guid isPermaLink="false">jimainotebook_vVMDI0bDBqY</guid>
@@ -83,45 +151,6 @@ Jim AI Notebook | Note the Future
       <media:thumbnail url="https://i.ytimg.com/vi/vVMDI0bDBqY/maxresdefault.jpg"/>
       <media:community><media:statistics views="125"/></media:community>
       <media:category>Science &amp; Technology</media:category>
-    </item>
-    <item>
-      <title>【游庭皓的財經皓角】2026/11/2(一)費半暴跌7% 台股成下張骨牌?跳樓大拍賣 今天撿股票?【早晨財經速解讀】</title>
-      <guid isPermaLink="false">yutinghaofinance_adzWDkxEWMU</guid>
-      <pubDate>Mon, 02 Nov 2026 08:00:00 +0800</pubDate>
-      <link>https://www.youtube.com/watch?v=adzWDkxEWMU</link>
-      <description>&lt;p&gt;開盤前30分鐘，08:30 - 09:00 讓我們一起解讀財經時事  。&lt;br/&gt;參加財經皓角總經訂閱：&lt;br/&gt;新友會員 https://jackalopelin.com &lt;br/&gt;老友會員 https://yutinghao.finance &lt;br/&gt;我的粉絲專頁 https://reurl.cc/n563rd&lt;br/&gt;網站參加會員手冊 https://reurl.cc/rvvqAr&lt;br/&gt;如有疑問，歡迎來信 jackieyutw@gmail.com&lt;br/&gt;""""" ♥️ 打賞網址 ：https://p.ecpay.com.tw/B83478D """"" (不提供退款服務)&lt;br/&gt;&lt;br/&gt;00:00 市場總覽&lt;br/&gt;03:45 情緒降溫&lt;br/&gt;06:00 那指費半&lt;br/&gt;10:00 陸港股衝擊&lt;br/&gt;12:00 台韓股市&lt;br/&gt;13:45 半導體股&lt;br/&gt;16:00 巨頭績效&lt;br/&gt;19:20 資產績效&lt;br/&gt;20:50 期中選舉到數&lt;br/&gt;24:00 選後前瞻&lt;br/&gt;29:00 總結&lt;br/&gt;&lt;br/&gt;《早晨財經速解讀》是游庭皓的個人知識節目，針對財經時事做最新解讀，開播於2019年7月15日，每日開盤前半小時準時直播。議題從總體經濟、產業動態到投資哲學，信息量飽滿，為你顛覆直覺，清理投資誤區，用更寬廣的角度帶你一窺投資的奧秘。&lt;br/&gt;免責聲明：《游庭皓的財經皓角》頻道為學習型頻道，僅用於教育與娛樂目的，無任何證券之買賣建議。任何形式的投資皆涉及風險，投資者需進行自己的研究，持盈保泰。&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/adzWDkxEWMU/maxresdefault.jpg" alt="【游庭皓的財經皓角】2026/11/2(一)費半暴跌7% 台股成下張骨牌?跳樓大拍賣 今天撿股票?【早晨財經速解讀】" /&gt;&lt;/p&gt;</description>
-      <content:encoded>&lt;p&gt;開盤前30分鐘，08:30 - 09:00 讓我們一起解讀財經時事  。&lt;br/&gt;參加財經皓角總經訂閱：&lt;br/&gt;新友會員 https://jackalopelin.com &lt;br/&gt;老友會員 https://yutinghao.finance &lt;br/&gt;我的粉絲專頁 https://reurl.cc/n563rd&lt;br/&gt;網站參加會員手冊 https://reurl.cc/rvvqAr&lt;br/&gt;如有疑問，歡迎來信 jackieyutw@gmail.com&lt;br/&gt;""""" ♥️ 打賞網址 ：https://p.ecpay.com.tw/B83478D """"" (不提供退款服務)&lt;br/&gt;&lt;br/&gt;00:00 市場總覽&lt;br/&gt;03:45 情緒降溫&lt;br/&gt;06:00 那指費半&lt;br/&gt;10:00 陸港股衝擊&lt;br/&gt;12:00 台韓股市&lt;br/&gt;13:45 半導體股&lt;br/&gt;16:00 巨頭績效&lt;br/&gt;19:20 資產績效&lt;br/&gt;20:50 期中選舉到數&lt;br/&gt;24:00 選後前瞻&lt;br/&gt;29:00 總結&lt;br/&gt;&lt;br/&gt;《早晨財經速解讀》是游庭皓的個人知識節目，針對財經時事做最新解讀，開播於2019年7月15日，每日開盤前半小時準時直播。議題從總體經濟、產業動態到投資哲學，信息量飽滿，為你顛覆直覺，清理投資誤區，用更寬廣的角度帶你一窺投資的奧秘。&lt;br/&gt;免責聲明：《游庭皓的財經皓角》頻道為學習型頻道，僅用於教育與娛樂目的，無任何證券之買賣建議。任何形式的投資皆涉及風險，投資者需進行自己的研究，持盈保泰。&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/adzWDkxEWMU/maxresdefault.jpg" alt="【游庭皓的財經皓角】2026/11/2(一)費半暴跌7% 台股成下張骨牌?跳樓大拍賣 今天撿股票?【早晨財經速解讀】" /&gt;&lt;/p&gt;</content:encoded>
-      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/yutinghaofinance_adzWDkxEWMU.m4a" type="audio/mp4" length="62483122"/>
-      <itunes:author>游庭皓的財經皓角</itunes:author>
-      <itunes:summary>開盤前30分鐘，08:30 - 09:00 讓我們一起解讀財經時事  。
-參加財經皓角總經訂閱：
-新友會員 https://jackalopelin.com 
-老友會員 https://yutinghao.finance 
-我的粉絲專頁 https://reurl.cc/n563rd
-網站參加會員手冊 https://reurl.cc/rvvqAr
-如有疑問，歡迎來信 jackieyutw@gmail.com
-""""" ♥️ 打賞網址 ：https://p.ecpay.com.tw/B83478D """"" (不提供退款服務)
-
-00:00 市場總覽
-03:45 情緒降溫
-06:00 那指費半
-10:00 陸港股衝擊
-12:00 台韓股市
-13:45 半導體股
-16:00 巨頭績效
-19:20 資產績效
-20:50 期中選舉到數
-24:00 選後前瞻
-29:00 總結
-
-《早晨財經速解讀》是游庭皓的個人知識節目，針對財經時事做最新解讀，開播於2019年7月15日，每日開盤前半小時準時直播。議題從總體經濟、產業動態到投資哲學，信息量飽滿，為你顛覆直覺，清理投資誤區，用更寬廣的角度帶你一窺投資的奧秘。
-免責聲明：《游庭皓的財經皓角》頻道為學習型頻道，僅用於教育與娛樂目的，無任何證券之買賣建議。任何形式的投資皆涉及風險，投資者需進行自己的研究，持盈保泰。</itunes:summary>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:duration>00:30:19</itunes:duration>
-      <itunes:image href="https://i.ytimg.com/vi/adzWDkxEWMU/maxresdefault.jpg"/>
-      <media:thumbnail url="https://i.ytimg.com/vi/adzWDkxEWMU/maxresdefault.jpg"/>
-      <media:community><media:statistics views="66240"/></media:community>
-      <media:category>News &amp; Politics</media:category>
     </item>
     <item>
       <title>【Jim AI Notebook】億萬富翁少繳稅的秘密：稅制到底哪裡出了問題？｜Gabriel Zucman｜演講訪談系列</title>
