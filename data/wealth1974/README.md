@@ -39,6 +39,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [西武獅的零距離經營術 輸球也想去現場｜#投資IN總經 EP101 #財訊 #日本](wealth1974_NTGJEaUmNvw_keyframes.md) | 2026-11-03 |
 | [【會員影片節選】不只做面板 友達三十年來最大轉型｜#聽了財知道 EP382 #友達 #光通訊](wealth1974_KTvBPlTrd60_keyframes.md) | 2026-11-02 |
 | [半導體擴廠、AI資料中心掀用電大潮！安葆美國一年商機 台灣要做20年　｜#財訊不漏接 EP063 #財訊podcast #安葆](wealth1974_31ZHu4vVukA_keyframes.md) | 2026-11-01 |
 | [AI下一波商機在哪？看懂2030智慧產業新局](wealth1974_ES3kcScvMWA_keyframes.md) | 2026-10-30 |
