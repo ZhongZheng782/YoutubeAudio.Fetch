@@ -9,12 +9,75 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
     <description>各財經 YouTube 頻道合輯，單一訂閱涵蓋所有頻道（每集標題以【頻道名稱】標示來源）</description>
-    <itunes:image href="https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_jh9CCNUy0XY_keyframes/yutinghaofinance_jh9CCNUy0XY_000034.jpg"/>
+    <itunes:image href="https://i.ytimg.com/vi/Tx_MPDP4nz4/maxresdefault.jpg"/>
     <image>
-      <url>https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/data/yutinghaofinance/yutinghaofinance_jh9CCNUy0XY_keyframes/yutinghaofinance_jh9CCNUy0XY_000034.jpg</url>
+      <url>https://i.ytimg.com/vi/Tx_MPDP4nz4/maxresdefault.jpg</url>
       <title>YoutubeAudio.Fetch 全頻道彙整</title>
       <link>https://zhongzheng782.github.io/YoutubeAudio.Fetch/</link>
     </image>
+    <item>
+      <title>【Jim AI Notebook】不用訓練，AI 模型的權重直接用 AI 生成</title>
+      <guid isPermaLink="false">jimainotebook_Tx_MPDP4nz4</guid>
+      <pubDate>Wed, 04 Nov 2026 08:00:00 +0800</pubDate>
+      <link>https://www.youtube.com/watch?v=Tx_MPDP4nz4</link>
+      <description>&lt;p&gt;00:00 開場：AI 的權重直接由另一個 AI 生成&lt;br/&gt;00:55 權重是什麼：MIT 團隊與 GPT-6 Astra 的實驗&lt;br/&gt;01:52 從零寫出會玩打磚塊的網路&lt;br/&gt;02:45 打磚塊 517 分，和它的四個但書&lt;br/&gt;04:27 9×9 圍棋：148 萬個權重從零寫&lt;br/&gt;06:20 修改學錯的網路：要先倒車的小車&lt;br/&gt;07:23 Qwen 一直重複：找到方向、減去六倍&lt;br/&gt;09:09 7.9% 到 48.1%：數字站得住嗎&lt;br/&gt;10:21 我們重做三步：開思考 9% 對 54%，關思考原版就有 52%&lt;br/&gt;11:28 紀錄裡的佐證：提示原文與 576 題&lt;br/&gt;13:19 做得到什麼，做不到什麼&lt;br/&gt;14:09 讀權重的實驗與外部反應（Goedecke、Hacker News）&lt;br/&gt;16:23 展望與結論：還取代不了訓練&lt;br/&gt;&lt;br/&gt;如果一個 AI 的權重不是訓練出來的，而是另一個 AI 直接生成出來的，會發生什麼事？MIT CSAIL 四位研究者讓 GPT-6 Astra 不經過訓練，直接寫出或修改神經網路的權重：從零寫出會玩打磚塊、下 9×9 圍棋的小網路，也修改了 Qwen3.5-0.8B，讓 MATH-500 從 7.9% 變成 48.1%。我們讀了作者公開的完整紀錄，也自己重做了關鍵的實驗。&lt;br/&gt;&lt;br/&gt;【我們的實測】MATH-500，照作者的提示、取樣參數與判分方式（math-verify），只改思考開關。先確認流程：原版開思考 10 題×4，結果跟作者存檔完全一樣（都是 2.5%）。開思考、同 50 題×2：原版 9.0%（92% 寫到字數上限）、修改版 54.0%（作者存檔同題 9.5%→49.0%）；關思考同 50 題：原版 52.0%。另外兩個版本都關掉思考、比前 250 題，原版 51.2%（250 題×2）、修改版 52.2%（同題同樣本），各約五成一，配對差 +1.0 分（95% 信賴區間 −3.6 到 +5.6）；修改版全 500 題×4 為 50.9%。結論：修改修好了開思考時一直重複的問題，讓模型回到它本來的程度，沒有超出關思考時的能力。限制：原版關思考只測前 250 題、單一 seed、GSM8K 沒跑、沿用開思考的取樣參數、用多模態版權重、取樣核心與作者不同（逐字輸出不會一樣）；修改版 Hugging Face 檔案未鎖版本，實測時為 commit d1671a1。&lt;br/&gt;&lt;br/&gt;【說明】原文是部落格文章，未經同儕審查；查證日 2026-11-03，當時尚未找到完整重現（Hugging Face 上的重建是照作者公開的差異檔套用）。圖表依作者公開的實驗紀錄（GitHub lm_understand-logs，CC BY 4.0）自行重畫，作者部落格的圖與動畫未使用；網頁畫面為截圖。GPT-6 Astra 的發布資訊來自報導。「機器碼」是 Sean Goedecke 的說法。製作流程有使用 AI 工具。&lt;br/&gt;&lt;br/&gt;📎 資料來源&lt;br/&gt;• Takehi、Teoh、Zhang、Khattab：Sparks of Weight-Space Programming（部落格，2026-11-02） https://rikiyat.github.io/blog/weight-space-programming/&lt;br/&gt;• 實驗完整紀錄 lm_understand-logs（CC BY 4.0） https://github.com/RikiyaT/lm_understand-logs&lt;br/&gt;• 修改後的 Qwen3.5-0.8B（作者上傳，含重建與重新評估說明） https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming&lt;br/&gt;• ML Intern 重建的修改版模型（Hugging Face） https://huggingface.co/ML-Intern-lab/Qwen3.5-0.8B-weight-space-programming&lt;br/&gt;• Qwen3.5-0.8B 模型說明卡 https://huggingface.co/Qwen/Qwen3.5-0.8B&lt;br/&gt;• Hacker News 討論串 https://news.ycombinator.com/item?id=50341174&lt;br/&gt;• Sean Goedecke：LLMs are not superhuman at reading and writing neural network weights https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/&lt;br/&gt;• giffmana 在 X 的評論 https://x.com/giffmana/status/2117346161866514524&lt;br/&gt;• Alex Zhang 在 X 的說明 https://x.com/a1zhang/status/2117330975122235442&lt;br/&gt;• 作者 Rikiya Takehi 的發文 https://x.com/rikiyatakehi/status/2117313742891327994&lt;br/&gt;• VentureBeat 報導 https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance&lt;br/&gt;• CNBC：OpenAI 發布 GPT-6 Astra（2026-09-03） https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html&lt;br/&gt;• OpenAI 開發者文件：最新模型 https://developers.openai.com/api/docs/guides/latest-model&lt;br/&gt;• MinAtar（Young &amp;amp; Tian） https://github.com/kenjyoung/MinAtar&lt;br/&gt;• Elhage 等：A Mathematical Framework for Transformer Circuits（2021） https://transformer-circuits.pub/2021/framework/index.html&lt;br/&gt;• Tracr: Compiled Transformers as a Laboratory for Interpretability（2023） https://arxiv.org/abs/2301.05062&lt;br/&gt;• Arditi 等：Refusal in Language Models Is Mediated by a Single Direction（2024） https://arxiv.org/abs/2406.11717&lt;br/&gt;• Abliteration 說明（Hugging Face 部落格，2024） https://huggingface.co/blog/mlabonne/abliteration&lt;br/&gt;• Weight Oracles（預印本） https://arxiv.org/abs/2610.07334&lt;br/&gt;• BadEdit: Backdooring Large Language Models by Model Editing（2024） https://arxiv.org/abs/2403.13355&lt;br/&gt;• 封面神經元照片：Striatal Medium-Sized Spiny Neuron，Sergb95，CC BY-SA 4.0，https://commons.wikimedia.org/wiki/File:Striatal_Medium-Sized_Spiny_Neuron.jpg（已調色）&lt;br/&gt;&lt;br/&gt;---&lt;br/&gt;Jim AI Notebook | Note the Future&lt;br/&gt;每日深度解析 AI 最新進展&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/Tx_MPDP4nz4/maxresdefault.jpg" alt="【Jim AI Notebook】不用訓練，AI 模型的權重直接用 AI 生成" /&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;00:00 開場：AI 的權重直接由另一個 AI 生成&lt;br/&gt;00:55 權重是什麼：MIT 團隊與 GPT-6 Astra 的實驗&lt;br/&gt;01:52 從零寫出會玩打磚塊的網路&lt;br/&gt;02:45 打磚塊 517 分，和它的四個但書&lt;br/&gt;04:27 9×9 圍棋：148 萬個權重從零寫&lt;br/&gt;06:20 修改學錯的網路：要先倒車的小車&lt;br/&gt;07:23 Qwen 一直重複：找到方向、減去六倍&lt;br/&gt;09:09 7.9% 到 48.1%：數字站得住嗎&lt;br/&gt;10:21 我們重做三步：開思考 9% 對 54%，關思考原版就有 52%&lt;br/&gt;11:28 紀錄裡的佐證：提示原文與 576 題&lt;br/&gt;13:19 做得到什麼，做不到什麼&lt;br/&gt;14:09 讀權重的實驗與外部反應（Goedecke、Hacker News）&lt;br/&gt;16:23 展望與結論：還取代不了訓練&lt;br/&gt;&lt;br/&gt;如果一個 AI 的權重不是訓練出來的，而是另一個 AI 直接生成出來的，會發生什麼事？MIT CSAIL 四位研究者讓 GPT-6 Astra 不經過訓練，直接寫出或修改神經網路的權重：從零寫出會玩打磚塊、下 9×9 圍棋的小網路，也修改了 Qwen3.5-0.8B，讓 MATH-500 從 7.9% 變成 48.1%。我們讀了作者公開的完整紀錄，也自己重做了關鍵的實驗。&lt;br/&gt;&lt;br/&gt;【我們的實測】MATH-500，照作者的提示、取樣參數與判分方式（math-verify），只改思考開關。先確認流程：原版開思考 10 題×4，結果跟作者存檔完全一樣（都是 2.5%）。開思考、同 50 題×2：原版 9.0%（92% 寫到字數上限）、修改版 54.0%（作者存檔同題 9.5%→49.0%）；關思考同 50 題：原版 52.0%。另外兩個版本都關掉思考、比前 250 題，原版 51.2%（250 題×2）、修改版 52.2%（同題同樣本），各約五成一，配對差 +1.0 分（95% 信賴區間 −3.6 到 +5.6）；修改版全 500 題×4 為 50.9%。結論：修改修好了開思考時一直重複的問題，讓模型回到它本來的程度，沒有超出關思考時的能力。限制：原版關思考只測前 250 題、單一 seed、GSM8K 沒跑、沿用開思考的取樣參數、用多模態版權重、取樣核心與作者不同（逐字輸出不會一樣）；修改版 Hugging Face 檔案未鎖版本，實測時為 commit d1671a1。&lt;br/&gt;&lt;br/&gt;【說明】原文是部落格文章，未經同儕審查；查證日 2026-11-03，當時尚未找到完整重現（Hugging Face 上的重建是照作者公開的差異檔套用）。圖表依作者公開的實驗紀錄（GitHub lm_understand-logs，CC BY 4.0）自行重畫，作者部落格的圖與動畫未使用；網頁畫面為截圖。GPT-6 Astra 的發布資訊來自報導。「機器碼」是 Sean Goedecke 的說法。製作流程有使用 AI 工具。&lt;br/&gt;&lt;br/&gt;📎 資料來源&lt;br/&gt;• Takehi、Teoh、Zhang、Khattab：Sparks of Weight-Space Programming（部落格，2026-11-02） https://rikiyat.github.io/blog/weight-space-programming/&lt;br/&gt;• 實驗完整紀錄 lm_understand-logs（CC BY 4.0） https://github.com/RikiyaT/lm_understand-logs&lt;br/&gt;• 修改後的 Qwen3.5-0.8B（作者上傳，含重建與重新評估說明） https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming&lt;br/&gt;• ML Intern 重建的修改版模型（Hugging Face） https://huggingface.co/ML-Intern-lab/Qwen3.5-0.8B-weight-space-programming&lt;br/&gt;• Qwen3.5-0.8B 模型說明卡 https://huggingface.co/Qwen/Qwen3.5-0.8B&lt;br/&gt;• Hacker News 討論串 https://news.ycombinator.com/item?id=50341174&lt;br/&gt;• Sean Goedecke：LLMs are not superhuman at reading and writing neural network weights https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/&lt;br/&gt;• giffmana 在 X 的評論 https://x.com/giffmana/status/2117346161866514524&lt;br/&gt;• Alex Zhang 在 X 的說明 https://x.com/a1zhang/status/2117330975122235442&lt;br/&gt;• 作者 Rikiya Takehi 的發文 https://x.com/rikiyatakehi/status/2117313742891327994&lt;br/&gt;• VentureBeat 報導 https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance&lt;br/&gt;• CNBC：OpenAI 發布 GPT-6 Astra（2026-09-03） https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html&lt;br/&gt;• OpenAI 開發者文件：最新模型 https://developers.openai.com/api/docs/guides/latest-model&lt;br/&gt;• MinAtar（Young &amp;amp; Tian） https://github.com/kenjyoung/MinAtar&lt;br/&gt;• Elhage 等：A Mathematical Framework for Transformer Circuits（2021） https://transformer-circuits.pub/2021/framework/index.html&lt;br/&gt;• Tracr: Compiled Transformers as a Laboratory for Interpretability（2023） https://arxiv.org/abs/2301.05062&lt;br/&gt;• Arditi 等：Refusal in Language Models Is Mediated by a Single Direction（2024） https://arxiv.org/abs/2406.11717&lt;br/&gt;• Abliteration 說明（Hugging Face 部落格，2024） https://huggingface.co/blog/mlabonne/abliteration&lt;br/&gt;• Weight Oracles（預印本） https://arxiv.org/abs/2610.07334&lt;br/&gt;• BadEdit: Backdooring Large Language Models by Model Editing（2024） https://arxiv.org/abs/2403.13355&lt;br/&gt;• 封面神經元照片：Striatal Medium-Sized Spiny Neuron，Sergb95，CC BY-SA 4.0，https://commons.wikimedia.org/wiki/File:Striatal_Medium-Sized_Spiny_Neuron.jpg（已調色）&lt;br/&gt;&lt;br/&gt;---&lt;br/&gt;Jim AI Notebook | Note the Future&lt;br/&gt;每日深度解析 AI 最新進展&lt;/p&gt;&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/Tx_MPDP4nz4/maxresdefault.jpg" alt="【Jim AI Notebook】不用訓練，AI 模型的權重直接用 AI 生成" /&gt;&lt;/p&gt;</content:encoded>
+      <enclosure url="https://youtubeaudio.wenchiehlee1020.workers.dev/audio/jimainotebook_Tx_MPDP4nz4.m4a" type="audio/mp4" length="51809010"/>
+      <itunes:author>Jim AI Notebook</itunes:author>
+      <itunes:summary>00:00 開場：AI 的權重直接由另一個 AI 生成
+00:55 權重是什麼：MIT 團隊與 GPT-6 Astra 的實驗
+01:52 從零寫出會玩打磚塊的網路
+02:45 打磚塊 517 分，和它的四個但書
+04:27 9×9 圍棋：148 萬個權重從零寫
+06:20 修改學錯的網路：要先倒車的小車
+07:23 Qwen 一直重複：找到方向、減去六倍
+09:09 7.9% 到 48.1%：數字站得住嗎
+10:21 我們重做三步：開思考 9% 對 54%，關思考原版就有 52%
+11:28 紀錄裡的佐證：提示原文與 576 題
+13:19 做得到什麼，做不到什麼
+14:09 讀權重的實驗與外部反應（Goedecke、Hacker News）
+16:23 展望與結論：還取代不了訓練
+
+如果一個 AI 的權重不是訓練出來的，而是另一個 AI 直接生成出來的，會發生什麼事？MIT CSAIL 四位研究者讓 GPT-6 Astra 不經過訓練，直接寫出或修改神經網路的權重：從零寫出會玩打磚塊、下 9×9 圍棋的小網路，也修改了 Qwen3.5-0.8B，讓 MATH-500 從 7.9% 變成 48.1%。我們讀了作者公開的完整紀錄，也自己重做了關鍵的實驗。
+
+【我們的實測】MATH-500，照作者的提示、取樣參數與判分方式（math-verify），只改思考開關。先確認流程：原版開思考 10 題×4，結果跟作者存檔完全一樣（都是 2.5%）。開思考、同 50 題×2：原版 9.0%（92% 寫到字數上限）、修改版 54.0%（作者存檔同題 9.5%→49.0%）；關思考同 50 題：原版 52.0%。另外兩個版本都關掉思考、比前 250 題，原版 51.2%（250 題×2）、修改版 52.2%（同題同樣本），各約五成一，配對差 +1.0 分（95% 信賴區間 −3.6 到 +5.6）；修改版全 500 題×4 為 50.9%。結論：修改修好了開思考時一直重複的問題，讓模型回到它本來的程度，沒有超出關思考時的能力。限制：原版關思考只測前 250 題、單一 seed、GSM8K 沒跑、沿用開思考的取樣參數、用多模態版權重、取樣核心與作者不同（逐字輸出不會一樣）；修改版 Hugging Face 檔案未鎖版本，實測時為 commit d1671a1。
+
+【說明】原文是部落格文章，未經同儕審查；查證日 2026-11-03，當時尚未找到完整重現（Hugging Face 上的重建是照作者公開的差異檔套用）。圖表依作者公開的實驗紀錄（GitHub lm_understand-logs，CC BY 4.0）自行重畫，作者部落格的圖與動畫未使用；網頁畫面為截圖。GPT-6 Astra 的發布資訊來自報導。「機器碼」是 Sean Goedecke 的說法。製作流程有使用 AI 工具。
+
+📎 資料來源
+• Takehi、Teoh、Zhang、Khattab：Sparks of Weight-Space Programming（部落格，2026-11-02） https://rikiyat.github.io/blog/weight-space-programming/
+• 實驗完整紀錄 lm_understand-logs（CC BY 4.0） https://github.com/RikiyaT/lm_understand-logs
+• 修改後的 Qwen3.5-0.8B（作者上傳，含重建與重新評估說明） https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming
+• ML Intern 重建的修改版模型（Hugging Face） https://huggingface.co/ML-Intern-lab/Qwen3.5-0.8B-weight-space-programming
+• Qwen3.5-0.8B 模型說明卡 https://huggingface.co/Qwen/Qwen3.5-0.8B
+• Hacker News 討論串 https://news.ycombinator.com/item?id=50341174
+• Sean Goedecke：LLMs are not superhuman at reading and writing neural network weights https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/
+• giffmana 在 X 的評論 https://x.com/giffmana/status/2117346161866514524
+• Alex Zhang 在 X 的說明 https://x.com/a1zhang/status/2117330975122235442
+• 作者 Rikiya Takehi 的發文 https://x.com/rikiyatakehi/status/2117313742891327994
+• VentureBeat 報導 https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance
+• CNBC：OpenAI 發布 GPT-6 Astra（2026-09-03） https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html
+• OpenAI 開發者文件：最新模型 https://developers.openai.com/api/docs/guides/latest-model
+• MinAtar（Young &amp; Tian） https://github.com/kenjyoung/MinAtar
+• Elhage 等：A Mathematical Framework for Transformer Circuits（2021） https://transformer-circuits.pub/2021/framework/index.html
+• Tracr: Compiled Transformers as a Laboratory for Interpretability（2023） https://arxiv.org/abs/2301.05062
+• Arditi 等：Refusal in Language Models Is Mediated by a Single Direction（2024） https://arxiv.org/abs/2406.11717
+• Abliteration 說明（Hugging Face 部落格，2024） https://huggingface.co/blog/mlabonne/abliteration
+• Weight Oracles（預印本） https://arxiv.org/abs/2610.07334
+• BadEdit: Backdooring Large Language Models by Model Editing（2024） https://arxiv.org/abs/2403.13355
+• 封面神經元照片：Striatal Medium-Sized Spiny Neuron，Sergb95，CC BY-SA 4.0，https://commons.wikimedia.org/wiki/File:Striatal_Medium-Sized_Spiny_Neuron.jpg（已調色）
+
+---
+Jim AI Notebook | Note the Future
+每日深度解析 AI 最新進展</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:19:16</itunes:duration>
+      <itunes:keywords>AI, AI生成權重, AI研究, GPT6Astra, JimAINotebook, MIT, OpenAI, Qwen, WeightSpaceProgramming, 大型語言模型, 查證, 權重, 神經網路</itunes:keywords>
+      <itunes:image href="https://i.ytimg.com/vi/Tx_MPDP4nz4/maxresdefault.jpg"/>
+      <media:thumbnail url="https://i.ytimg.com/vi/Tx_MPDP4nz4/maxresdefault.jpg"/>
+      <media:community><media:statistics views="523"/></media:community>
+      <media:category>Science &amp; Technology</media:category>
+    </item>
     <item>
       <title>【游庭皓的財經皓角】2026/11/4(三)這波融資 殺夠了嗎?晶片股反攻 現在該停損 還是加碼?【早晨財經速解讀】</title>
       <guid isPermaLink="false">yutinghaofinance_jh9CCNUy0XY</guid>

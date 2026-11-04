@@ -2827,6 +2827,34 @@
     "title": "台股五萬點的繁花：從債券轉折到AI多頭的關鍵路徑｜富邦投顧 陳奕光 董事長《富邦說趨勢》 EP 95",
     "view_count": 292454
   },
+  "Tx_MPDP4nz4": {
+    "categories": [
+      "Science & Technology"
+    ],
+    "channel_name": "Jim AI Notebook",
+    "channel_url": "https://www.youtube.com/channel/UCwzazmPZmox_pCyiBd3-6UQ",
+    "date": "2026-11-04",
+    "description": "00:00 開場：AI 的權重直接由另一個 AI 生成\n00:55 權重是什麼：MIT 團隊與 GPT-6 Astra 的實驗\n01:52 從零寫出會玩打磚塊的網路\n02:45 打磚塊 517 分，和它的四個但書\n04:27 9×9 圍棋：148 萬個權重從零寫\n06:20 修改學錯的網路：要先倒車的小車\n07:23 Qwen 一直重複：找到方向、減去六倍\n09:09 7.9% 到 48.1%：數字站得住嗎\n10:21 我們重做三步：開思考 9% 對 54%，關思考原版就有 52%\n11:28 紀錄裡的佐證：提示原文與 576 題\n13:19 做得到什麼，做不到什麼\n14:09 讀權重的實驗與外部反應（Goedecke、Hacker News）\n16:23 展望與結論：還取代不了訓練\n\n如果一個 AI 的權重不是訓練出來的，而是另一個 AI 直接生成出來的，會發生什麼事？MIT CSAIL 四位研究者讓 GPT-6 Astra 不經過訓練，直接寫出或修改神經網路的權重：從零寫出會玩打磚塊、下 9×9 圍棋的小網路，也修改了 Qwen3.5-0.8B，讓 MATH-500 從 7.9% 變成 48.1%。我們讀了作者公開的完整紀錄，也自己重做了關鍵的實驗。\n\n【我們的實測】MATH-500，照作者的提示、取樣參數與判分方式（math-verify），只改思考開關。先確認流程：原版開思考 10 題×4，結果跟作者存檔完全一樣（都是 2.5%）。開思考、同 50 題×2：原版 9.0%（92% 寫到字數上限）、修改版 54.0%（作者存檔同題 9.5%→49.0%）；關思考同 50 題：原版 52.0%。另外兩個版本都關掉思考、比前 250 題，原版 51.2%（250 題×2）、修改版 52.2%（同題同樣本），各約五成一，配對差 +1.0 分（95% 信賴區間 −3.6 到 +5.6）；修改版全 500 題×4 為 50.9%。結論：修改修好了開思考時一直重複的問題，讓模型回到它本來的程度，沒有超出關思考時的能力。限制：原版關思考只測前 250 題、單一 seed、GSM8K 沒跑、沿用開思考的取樣參數、用多模態版權重、取樣核心與作者不同（逐字輸出不會一樣）；修改版 Hugging Face 檔案未鎖版本，實測時為 commit d1671a1。\n\n【說明】原文是部落格文章，未經同儕審查；查證日 2026-11-03，當時尚未找到完整重現（Hugging Face 上的重建是照作者公開的差異檔套用）。圖表依作者公開的實驗紀錄（GitHub lm_understand-logs，CC BY 4.0）自行重畫，作者部落格的圖與動畫未使用；網頁畫面為截圖。GPT-6 Astra 的發布資訊來自報導。「機器碼」是 Sean Goedecke 的說法。製作流程有使用 AI 工具。\n\n📎 資料來源\n• Takehi、Teoh、Zhang、Khattab：Sparks of Weight-Space Programming（部落格，2026-11-02） https://rikiyat.github.io/blog/weight-space-programming/\n• 實驗完整紀錄 lm_understand-logs（CC BY 4.0） https://github.com/RikiyaT/lm_understand-logs\n• 修改後的 Qwen3.5-0.8B（作者上傳，含重建與重新評估說明） https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming\n• ML Intern 重建的修改版模型（Hugging Face） https://huggingface.co/ML-Intern-lab/Qwen3.5-0.8B-weight-space-programming\n• Qwen3.5-0.8B 模型說明卡 https://huggingface.co/Qwen/Qwen3.5-0.8B\n• Hacker News 討論串 https://news.ycombinator.com/item?id=50341174\n• Sean Goedecke：LLMs are not superhuman at reading and writing neural network weights https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/\n• giffmana 在 X 的評論 https://x.com/giffmana/status/2117346161866514524\n• Alex Zhang 在 X 的說明 https://x.com/a1zhang/status/2117330975122235442\n• 作者 Rikiya Takehi 的發文 https://x.com/rikiyatakehi/status/2117313742891327994\n• VentureBeat 報導 https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance\n• CNBC：OpenAI 發布 GPT-6 Astra（2026-09-03） https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html\n• OpenAI 開發者文件：最新模型 https://developers.openai.com/api/docs/guides/latest-model\n• MinAtar（Young & Tian） https://github.com/kenjyoung/MinAtar\n• Elhage 等：A Mathematical Framework for Transformer Circuits（2021） https://transformer-circuits.pub/2021/framework/index.html\n• Tracr: Compiled Transformers as a Laboratory for Interpretability（2023） https://arxiv.org/abs/2301.05062\n• Arditi 等：Refusal in Language Models Is Mediated by a Single Direction（2024） https://arxiv.org/abs/2406.11717\n• Abliteration 說明（Hugging Face 部落格，2024） https://huggingface.co/blog/mlabonne/abliteration\n• Weight Oracles（預印本） https://arxiv.org/abs/2610.07334\n• BadEdit: Backdooring Large Language Models by Model Editing（2024） https://arxiv.org/abs/2403.13355\n• 封面神經元照片：Striatal Medium-Sized Spiny Neuron，Sergb95，CC BY-SA 4.0，https://commons.wikimedia.org/wiki/File:Striatal_Medium-Sized_Spiny_Neuron.jpg（已調色）\n\n---\nJim AI Notebook | Note the Future\n每日深度解析 AI 最新進展",
+    "duration": 1156,
+    "tags": [
+      "AI",
+      "AI生成權重",
+      "AI研究",
+      "GPT6Astra",
+      "JimAINotebook",
+      "MIT",
+      "OpenAI",
+      "Qwen",
+      "WeightSpaceProgramming",
+      "大型語言模型",
+      "查證",
+      "權重",
+      "神經網路"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/Tx_MPDP4nz4/maxresdefault.jpg",
+    "title": "不用訓練，AI 模型的權重直接用 AI 生成",
+    "view_count": 523
+  },
   "U1rRnRWnMz8": {
     "categories": [
       "People & Blogs"
@@ -5540,6 +5568,35 @@
     "thumbnail": "https://i.ytimg.com/vi/sHnrkgDMHqE/maxresdefault.jpg",
     "title": "2026/10/5(一)非農降溫 救得了美債?全球國債大逃殺 輝達創新高 科技股準備軋空?【早晨財經速解讀】",
     "view_count": 196955
+  },
+  "skm3kwzl_Bk": {
+    "categories": [
+      "News & Politics"
+    ],
+    "channel_name": "財訊",
+    "channel_url": "https://www.youtube.com/channel/UCh2hilgoPIY-kiy1yFCc-xA",
+    "date": "2026-11-04",
+    "description": "南僑接班人陳正文上任，為何先打開窗簾？面對油品風波與中國內捲，南僑如何轉型食品供應鏈服務、加碼泰國布局？本集解析老字號的挑戰與突圍之路。\n\n影片章節：\n00:00 本集重點\n00:15 南僑接班遇逆風：油品風波、中國內捲與冰品挑戰\n06:11 上任先打開窗簾？陳正文的改變哲學\n10:08 深耕泰國，從外銷基地走向東協市場\n16:03 留言 QA\n\n歡迎成為《財訊》頻道的會員並獲得專屬福利：\nhttps://www.youtube.com/channel/UCh2hilgoPIY-kiy1yFCc-xA/join\n\n文章連結： \n\n★ 打電話也可以訂財訊→(02)2551-5228 轉 10。\n★ 商業合作請洽 ad@wealth.com.tw，或撥專線 (02)2551-2561 轉 255。\n\n製作｜財訊雙週刊\n主持｜陳彥淳\n來賓｜游筱燕\n企劃｜吳匡庭\n攝影｜吳尚哲\n剪輯｜吳尚哲\n後製｜吳尚哲\n錄製日期｜2026.10.30",
+    "duration": 1126,
+    "tags": [
+      "財訊",
+      "財經",
+      "投資",
+      "聽了財知道",
+      "南僑",
+      "陳正文",
+      "陳飛龍",
+      "企業接班",
+      "中國內捲",
+      "消費降級",
+      "食品供應鏈",
+      "泰國投資",
+      "東協市場",
+      "企業轉型"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/skm3kwzl_Bk/maxresdefault.jpg",
+    "title": "陳正文率南僑逆風轉型 迎戰中國消費降級｜#聽了財知道 EP383 #南僑",
+    "view_count": 1838
   },
   "tFVq0jnAq0M": {
     "channel_name": "Smart智富月刊",
