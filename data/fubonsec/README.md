@@ -27,6 +27,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [五萬點逆風局，誰是礦坑裡的金絲雀?｜富邦投顧 陳奕光 董事長《富邦說趨勢》 EP 98](fubonsec_di631vSTgaY_keyframes.md) | 2026-11-04 |
 | [台灣塑化產業的華麗轉身：供應鏈高值化帶來的新契機｜富邦投顧 劉立中協理《富邦說趨勢》 EP 97](fubonsec_ZMV46WNrj5s_keyframes.md) | 2026-10-28 |
 | [你在財富階梯第幾層？台灣家庭的資產與理財重心｜王伯達專訪 EP5](fubonsec_ylJej6ixfCg_keyframes.md) | 2026-10-23 |
 | [不用存千萬也能提早退休？FIRE族都在實踐的財務自由法則｜王伯達專訪 EP4](fubonsec_tLBs-WjfLXQ_keyframes.md) | 2026-10-21 |
