@@ -29,6 +29,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/11/4(三)這波融資 殺夠了嗎?晶片股反攻 現在該停損 還是加碼?【早晨財經速解讀】](yutinghaofinance_jh9CCNUy0XY_keyframes.md) | 2026-11-04 |
 | [2026/11/3(二)蘋果重奪市值第一 AI生產力革命是真是假 美股跌出買點了嗎?【早晨財經速解讀】](yutinghaofinance_0ekTT_culAY_keyframes.md) | 2026-11-03 |
 | [2026/11/2(一)費半暴跌7% 台股成下張骨牌?跳樓大拍賣 今天撿股票?【早晨財經速解讀】](yutinghaofinance_adzWDkxEWMU_keyframes.md) | 2026-11-02 |
 | [2026/10/30(五)Alphabet狂瀉12% Marvell暴跌逾13% 英特爾暴跌20% 美股到底 跌完了沒有?【早晨財經速解讀】](yutinghaofinance_uo6c3YNtEY8_keyframes.md) | 2026-10-30 |
