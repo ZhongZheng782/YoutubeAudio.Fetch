@@ -39,6 +39,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [【會員影片節選】記憶體不改長多趨勢 醞釀反彈契機｜ #產業投資通 EP07 #記憶體](wealth1974_SfJ4ZC3rd-Q_keyframes.md) | 2026-11-05 |
 | [通寶從列印晶片練功 瞄準機器人小腦｜#財訊不漏接 EP064 #財訊podcast #通寶 #機器人](wealth1974_6BL3Mw64Flc_keyframes.md) | 2026-11-04 |
 | [陳正文率南僑逆風轉型 迎戰中國消費降級｜#聽了財知道 EP383 #南僑](wealth1974_skm3kwzl_Bk_keyframes.md) | 2026-11-04 |
 | [西武獅的零距離經營術 輸球也想去現場｜#投資IN總經 EP101 #財訊 #日本](wealth1974_NTGJEaUmNvw_keyframes.md) | 2026-11-03 |
