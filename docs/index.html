@@ -1259,7 +1259,16 @@ async function selectEpisode(channel, ep) {
     const active = cues[idx];
     if (active && active.img && keyframeEl.dataset.current !== String(idx)) {
       keyframeEl.dataset.current = String(idx);
-      keyframeEl.innerHTML = `<img src="${active.img}" alt="${active.timeLabel}">`;
+      // Preload off-DOM first so the panel never collapses to zero height
+      // between removing the old <img> and the new one finishing its load
+      // (that collapse-then-restore was showing up as the page jumping
+      // down to the cue list and back during playback).
+      const img = new Image();
+      img.alt = active.timeLabel;
+      img.onload = () => {
+        if (keyframeEl.dataset.current === String(idx)) keyframeEl.replaceChildren(img);
+      };
+      img.src = active.img;
     }
   }
 
