@@ -29,6 +29,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [2026/11/6(五)AI監管風暴 費半血崩12% 煞車壞了?台股斷頭潮 槓桿大清洗!【早晨財經速解讀】](yutinghaofinance_jm9T-NgW0pY_keyframes.md) | 2026-11-06 |
 | [2026/11/5(四)川普大潰敗 藍潮反撲!為什麼選完 費半還在跌?現在該停損 還是加碼?【早晨財經速解讀】](yutinghaofinance_aI_-iYx_-Hk_keyframes.md) | 2026-11-05 |
 | [2026/11/4(三)這波融資 殺夠了嗎?晶片股反攻 現在該停損 還是加碼?【早晨財經速解讀】](yutinghaofinance_jh9CCNUy0XY_keyframes.md) | 2026-11-04 |
 | [2026/11/3(二)蘋果重奪市值第一 AI生產力革命是真是假 美股跌出買點了嗎?【早晨財經速解讀】](yutinghaofinance_0ekTT_culAY_keyframes.md) | 2026-11-03 |
