@@ -1260,10 +1260,6 @@ async function selectEpisode(channel, ep) {
     if (active && active.img && keyframeEl.dataset.current !== String(idx)) {
       keyframeEl.dataset.current = String(idx);
       keyframeEl.innerHTML = `<img src="${active.img}" alt="${active.timeLabel}">`;
-      const activeEl = cueListEl.children[idx];
-      if (activeEl && idx > 0 && player && !player.paused) {
-        activeEl.scrollIntoView({ block: "nearest", behavior: "smooth" });
-      }
     }
   }
 
