@@ -529,14 +529,6 @@
 
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: .01ms !important; } }
 </style>
-  <!-- Global site tag (gtag.js) - Google Analytics 4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-913Z6DSVD2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-913Z6DSVD2');
-  </script>
 </head>
 <body>
 <!-- 聲波座頭鯨 (Soundwave Singing Whale) SVG Symbol 定義 -->
@@ -1073,6 +1065,29 @@ async function selectEpisode(channel, ep) {
         if (volLevel) volLevel.style.width = player.muted ? "0%" : `${player.volume * 100}%`;
         if (volIcon) volIcon.textContent = player.muted ? "🔇" : (player.volume < 0.5 ? "🔉" : "🔊");
       });
+    }
+
+    // 鎖屏/背景播放的 Now Playing 控制卡片 (iOS/Android 通用)
+    if ("mediaSession" in navigator) {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: ep.title,
+        artist: channelName,
+        album: "YoutubeAudio.Fetch",
+        artwork: [{ src: `${PAGES_BASE}whale-favicon.png`, sizes: "512x512", type: "image/png" }],
+      });
+      navigator.mediaSession.setActionHandler("play", () => player.play().catch(() => {}));
+      navigator.mediaSession.setActionHandler("pause", () => player.pause());
+      navigator.mediaSession.setActionHandler("seekbackward", () => {
+        player.currentTime = Math.max(0, player.currentTime - 15);
+      });
+      navigator.mediaSession.setActionHandler("seekforward", () => {
+        player.currentTime = Math.min(player.duration || Infinity, player.currentTime + 15);
+      });
+      navigator.mediaSession.setActionHandler("seekto", (details) => {
+        if (details.seekTime != null) player.currentTime = details.seekTime;
+      });
+      player.addEventListener("play", () => { navigator.mediaSession.playbackState = "playing"; });
+      player.addEventListener("pause", () => { navigator.mediaSession.playbackState = "paused"; });
     }
   }
 
