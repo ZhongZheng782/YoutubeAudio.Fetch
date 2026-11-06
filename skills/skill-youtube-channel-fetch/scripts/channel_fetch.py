@@ -361,6 +361,7 @@ class ChannelFetcher:
             [
                 "yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(),
                 "-x", "--audio-format", "m4a", "--audio-quality", "0",
+                "--postprocessor-args", "ffmpeg:-movflags +faststart",
                 "-o", out_template,
                 f"https://www.youtube.com/watch?v={video_id}",
             ],
