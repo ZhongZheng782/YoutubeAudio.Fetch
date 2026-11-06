@@ -580,6 +580,9 @@
 <script>
 const REPO_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/";
 const PAGES_BASE = "https://zhongzheng782.github.io/YoutubeAudio.Fetch/";
+// Re-serves GitHub Release assets with correct Content-Type/CORS (see cloudflare-worker/); iOS Safari
+// refuses to play the raw release URL, which GitHub always serves as application/octet-stream.
+const AUDIO_WORKER_BASE = "https://youtubeaudio.wenchiehlee1020.workers.dev";
 const VIDEO_ID_LEN = 11;
 const CHANNEL_GROUPS = [
   {
@@ -836,10 +839,11 @@ function setActiveEpisode(stem) {
 async function selectEpisode(channel, ep) {
   setActiveEpisode(ep.stem);
   const channelName = displayNameFor(channel);
+  const playbackUrl = ep.audioUrl ? `${AUDIO_WORKER_BASE}/audio/${ep.stem}.m4a` : "";
   const audioMarkup = ep.audioUrl
     ? `
       <div class="yaf-playback-panel">
-        <audio id="player" preload="metadata" src="${ep.audioUrl}">
+        <audio id="player" preload="metadata" src="${playbackUrl}">
           <track id="lyricsTrack" kind="subtitles" srclang="zh-TW" label="逐字稿" src="${PAGES_BASE}${channel}/transcripts/${ep.stem}.vtt">
         </audio>
 
@@ -900,7 +904,7 @@ async function selectEpisode(channel, ep) {
                 <div class="yaf-vol-level" id="yafVolLevel" style="width: 100%;"></div>
               </div>
             </div>
-            <a href="${ep.audioUrl}" download class="yaf-btn-download" target="_blank" rel="noopener noreferrer" title="下載原始音訊檔">
+            <a href="${playbackUrl}" download class="yaf-btn-download" target="_blank" rel="noopener noreferrer" title="下載原始音訊檔">
               <span>儲存音訊 ⬇</span>
             </a>
           </div>
