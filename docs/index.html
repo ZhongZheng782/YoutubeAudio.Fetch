@@ -624,6 +624,7 @@
 <script>
 const REPO_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/";
 const PAGES_BASE = "https://zhongzheng782.github.io/YoutubeAudio.Fetch/";
+const SITE_VERSION = "v0.1.001"; // bump manually (v0.1.002, ...) on each docs/index.html change — no build step to derive this
 // Re-serves GitHub Release assets with correct Content-Type/CORS (see cloudflare-worker/); iOS Safari
 // refuses to play the raw release URL, which GitHub always serves as application/octet-stream.
 const AUDIO_WORKER_BASE = "https://youtubeaudio.wenchiehlee1020.workers.dev";
@@ -1288,22 +1289,12 @@ loadChannels().catch((e) => {
   episodeListEl.innerHTML = `<div class="loading">載入失敗：${e.message}</div>`;
 });
 
-async function loadVersionFooter() {
+function renderVersionFooter() {
   const el = document.getElementById("yafVersionFooter");
   if (!el) return;
-  try {
-    const res = await fetch("https://api.github.com/repos/ZhongZheng782/YoutubeAudio.Fetch/commits/main");
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    const sha = (data.sha || "").slice(0, 7);
-    const dateStr = data.commit?.committer?.date;
-    const dateLabel = dateStr ? new Date(dateStr).toLocaleString("zh-TW", { hour12: false }) : "";
-    el.innerHTML = `版本 <a href="https://github.com/ZhongZheng782/YoutubeAudio.Fetch/commit/${data.sha}" target="_blank" rel="noopener noreferrer">${sha}</a>${dateLabel ? " · 更新於 " + dateLabel : ""}`;
-  } catch (_) {
-    // GitHub API 無回應或被 rate limit 時，安靜地不顯示版本資訊
-  }
+  el.innerHTML = `版本 <a href="https://github.com/ZhongZheng782/YoutubeAudio.Fetch/commits/main" target="_blank" rel="noopener noreferrer">${SITE_VERSION}</a>`;
 }
-loadVersionFooter();
+renderVersionFooter();
 </script>
 </body>
 </html>
