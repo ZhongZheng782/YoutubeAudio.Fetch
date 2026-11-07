@@ -17,6 +17,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [AI大逃殺！誰會先倒下？投資人必懂3大危機。台積電、聯發科、鴻海，誰能挺住風雨。｜峰哥｜Smart智富．投資的一千零一夜258](smartmonthly-bw_D_fOr-qRSTU_keyframes.md) | 2026-11-07 |
 | [這商品 如何影響俄烏戰爭走向與法國街頭暴動？新一波的全球物價上漲又要來了嗎？對台股有什麼影響？｜峰哥｜Smart智富．投資的一千零一夜257](smartmonthly-bw_alErGNq0cck_keyframes.md) | 2026-10-31 |
 | [連魏哲家都不樂觀？AI融資爆危機！台股將面臨股匯雙殺？輝達撐得住、借錢蓋機房的卻快撐不住？比2000年網路泡沫更危險？｜峰哥｜Smart智富．投資的一千零一夜256](smartmonthly-bw_bBb7muEJZwo_keyframes.md) | 2026-10-24 |
 | [專攻韓股，全台僅此一檔，009829暱稱「韓版0050」，現在布局韓股剛剛好｜仲葳｜Smart投資教室](smartmonthly-bw_c1KVBQaRVCQ_keyframes.md) | 2026-10-20 |
