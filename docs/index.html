@@ -8,6 +8,14 @@
 <link rel="icon" type="image/svg+xml" href="whale-favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="whale-favicon.png">
 <link rel="shortcut icon" href="favicon.ico">
+<!-- PWA -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#8b5cf6">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Audio.Fetch">
 <!-- Global site tag (gtag.js) - Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-913Z6DSVD2"></script>
 <script>
@@ -624,7 +632,7 @@
 <script>
 const REPO_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/";
 const PAGES_BASE = "https://zhongzheng782.github.io/YoutubeAudio.Fetch/";
-const SITE_VERSION = "v0.1.001"; // bump manually (v0.1.002, ...) on each docs/index.html change — no build step to derive this
+const SITE_VERSION = "v0.1.002"; // bump manually (v0.1.003, ...) on each docs/index.html change — no build step to derive this
 // Re-serves GitHub Release assets with correct Content-Type/CORS (see cloudflare-worker/); iOS Safari
 // refuses to play the raw release URL, which GitHub always serves as application/octet-stream.
 const AUDIO_WORKER_BASE = "https://youtubeaudio.wenchiehlee1020.workers.dev";
@@ -1295,6 +1303,14 @@ function renderVersionFooter() {
   el.innerHTML = `版本 <a href="https://github.com/ZhongZheng782/YoutubeAudio.Fetch/commits/main" target="_blank" rel="noopener noreferrer">${SITE_VERSION}</a>`;
 }
 renderVersionFooter();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {
+      // offline/installable support is best-effort; playback still works without it
+    });
+  });
+}
 </script>
 </body>
 </html>
