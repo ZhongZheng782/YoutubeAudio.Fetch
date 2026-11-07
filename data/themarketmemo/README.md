@@ -1,9 +1,9 @@
-# 鈔錢部署–華視優選
+# 今周刊
 
 ## 頻道資訊
 
 - 頻道代號：`themarketmemo`
-- YouTube 頻道：[https://www.youtube.com/channel/UCA_hK5eRICBdSOLlXKESvEg](https://www.youtube.com/channel/UCA_hK5eRICBdSOLlXKESvEg)
+- YouTube 頻道：[https://www.youtube.com/channel/UCPBTziiHub0FbIuhVW808fA](https://www.youtube.com/channel/UCPBTziiHub0FbIuhVW808fA)
 
 ### 頻道介紹
 
@@ -23,6 +23,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [買台積電還是0050？前政大校長揭散戶「常見錯誤」｜周行一、王志郁｜【富足今周起】EP62精華](themarketmemo_c4QUXoO_Oz4_keyframes.md) | 2026-11-06 |
 | [【精華】績優股倒一片怎配置？台達電跌慘能續抱？蔡明翰：先忘掉成本《鈔錢部署》盧燕俐 ft.蔡明翰 20261104](themarketmemo_IOtTfjQg0TE_keyframes.md) | 2026-11-04 |
 | [AI Agent新賽局 簡立峰：全球掀五變革](themarketmemo_8D50gBPUPwI_keyframes.md) | 2026-10-30 |
 | [AI威力堪比核彈？為何矽谷大佬一邊砸錢發展，又警告它會毀滅人類？\| 思想實驗室 Video Podcast ep115：ft.前LINE台灣總經理 陶韻智](themarketmemo_6OvEjZsRl4Q_keyframes.md) | 2026-09-03 |
