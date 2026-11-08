@@ -15,6 +15,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [耶魯天文課：宇宙最後會怎麼結束？大霹靂、暗物質到暗能量｜下集](jimainotebook_79aYa7r-qeI_keyframes.md) | 2026-11-08 |
 | [人類兩千年來最艱難的問題：科學怎麼知道自己是對的？](jimainotebook_wlVt2vpz9Dg_keyframes.md) | 2026-11-07 |
 | [耶魯天文課：我們怎麼知道黑洞真的存在？從愛因斯坦到第一張黑洞照片｜中集](jimainotebook_25RLYNdqvjs_keyframes.md) | 2026-11-05 |
 | [經濟為什麼每隔幾年就要衰退一次？｜景氣循環](jimainotebook_5t2UDIcumvM_keyframes.md) | 2026-11-03 |
