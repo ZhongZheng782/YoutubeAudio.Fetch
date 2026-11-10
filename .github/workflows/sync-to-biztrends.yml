@@ -15,6 +15,21 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: BetaHuhn/repo-file-sync-action@v1
+        id: sync_biztrends
+        continue-on-error: true  # retried below on failure (e.g. biztrends.TW ref-lock race)
+        with:
+          GH_PAT: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
+          CONFIG_PATH: .github/sync-to-biztrends.yml
+          COMMIT_EACH_FILE: false
+          SKIP_PR: true
+
+      - name: Wait before retrying biztrends.TW sync
+        if: steps.sync_biztrends.outcome == 'failure'
+        run: sleep $((45 + RANDOM % 90))
+
+      - name: Sync to biztrends.TW (retry)
+        if: steps.sync_biztrends.outcome == 'failure'
+        uses: BetaHuhn/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
           CONFIG_PATH: .github/sync-to-biztrends.yml
