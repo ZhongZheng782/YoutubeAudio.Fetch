@@ -4594,6 +4594,32 @@
     "title": "從零開始訓練一個大型語言模型 ｜ Stanford 公開課 ｜中集",
     "view_count": 11751
   },
+  "dgrSyztWz1w": {
+    "categories": [
+      "Science & Technology"
+    ],
+    "channel_name": "Jim AI Notebook",
+    "channel_url": "https://www.youtube.com/channel/UCwzazmPZmox_pCyiBd3-6UQ",
+    "date": "2026-11-10",
+    "description": "00:00 開場：AI 晶片為什麼一直不夠\n00:52 Dwarkesh Patel：到 Intel 晶片廠待兩天\n01:33 Chris Auth（Intel）：兩千個步驟與良率\n03:10 微影機：全世界只有 ASML 做得出來\n04:15 AI 要的算力，每年三倍\n04:59 Pushkar Ranade（Intel 技術長）：設備只夠翻兩倍\n08:46 Intel 為什麼落後台積電\n11:10 AI 公司自己蓋廠、記憶體更缺\n12:56 這一集的答案：對台灣代表什麼\n\nAI 公司搶晶片搶到缺貨，為什麼晶片廠不能多蓋幾間就好？Dwarkesh Patel 到 Intel 最先進的晶片廠待了兩天，訪問製程開發副總裁 Chris Auth 和技術長 Pushkar Ranade。Ranade 的回答是：就算錢不是問題，全世界現有的設備，也只夠 Intel 最先進的產量翻兩倍，而 AI 要的算力每年大約三倍。這一集整理兩位 Intel 主管的說法：一顆晶片要經過的兩千個步驟、只有 ASML 做得出來的微影機、設備要等 18 個月，以及這件事對台灣和台積電代表什麼。\n\n【說明】本片整理 Dwarkesh Podcast〈What will computer chips look like in 2045?〉（2026-10-22 上傳，訪談約在 2026 年年中錄製）中 Intel 兩位主管的說法，並附上查證；Intel 對自家技術與產能的說法屬公司自述，主持人的估算（台積電先進晶圓出貨、AI 營收比例）片中已標明。旁白為 AI 配音，製作流程有使用 AI 工具。\n\n🎤 講者原聲出處：Dwarkesh Patel〈What will computer chips look like in 2045?〉https://www.youtube.com/watch?v=frYSOKvNiiE ；片中剪輯 4 段原聲約 1 分 45 秒並加上中英字幕，另有訪談與工廠現場畫面穿插，用於評論與介紹（未使用該節目自製的動畫）。\n畫面素材（評論引用截圖）：dwarkesh.com、intel.com 高層簡歷、Epoch AI、Motley Fool 台積電法說會逐字稿、asml.com、Tom's Hardware、Engadget。\n照片（皆 via Wikimedia Commons）：晶圓 Syced（CC0）；ASML 總部 A ansems（公有領域）；台積電 Fab 21 工地 Hunter Trick（CC BY-SA 4.0）；台積電 Fab 18（示意，不是 Terafab）4300streetcar（CC BY 4.0）；Intel C1103 記憶體晶片 Thomas Nguyen（CC BY-SA 4.0）。\n授權條款：CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ ；CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/\n地圖：NASA Blue Marble（公有領域） https://science.nasa.gov/earth/earth-observatory/collections/blue-marble\n\n📎 資料來源\n• Dwarkesh Podcast 逐字稿 https://www.dwarkesh.com/p/intel-tour\n• Epoch AI：Global AI computing capacity is doubling every 7 months（2026-01-09） https://epoch.ai/data-insights/ai-chip-production\n• TSMC：2026 年第三季財報 6-K https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm\n• TSMC 2026 Q3 法說會逐字稿（Motley Fool） https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/\n• Engadget：Intel gets on board with Musk's Terafab project https://engadget.com/ai/intel-gets-on-board-with-musks-terafab-project-182200144.html\n• GIGAZINE：Terafab to use Intel 14A https://gigazine.net/gsc_news/en/20260424-terafab-intel-14a\n• Tom's Hardware：ASML 2025 年出貨 48 台 EUV https://www.tomshardware.com/tech-industry/semiconductors/asml-projects-usd71-billion-in-revenue-by-2030-as-demand-for-euv-lithography-machines-intensifies-due-to-ai-boom-china-sales-lag-behind-while-company-cashes-in-on-high-end-twinscan-systems\n• Intel：Pushkar Ranade 簡歷 https://www.intel.com/content/www/us/en/corporate/biography/pushkar-ranade.html\n\n---\nJim AI Notebook | Note the Future\n每日深度解析 AI 最新進展\n\n#AI #Intel #台積電 #ASML #AI晶片 #半導體 #DwarkeshPatel #演講訪談系列 #JimAINotebook",
+    "duration": 856,
+    "tags": [
+      "AI晶片",
+      "ASML",
+      "DwarkeshPatel",
+      "EUV",
+      "Intel",
+      "JimAINotebook",
+      "TSMC",
+      "半導體",
+      "台積電",
+      "晶片短缺",
+      "演講訪談系列"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi/dgrSyztWz1w/maxresdefault.jpg",
+    "title": "台積電，為什麼也做不出夠多的晶片？｜Intel 技術長 × Dwarkesh",
+    "view_count": 2752
+  },
   "di631vSTgaY": {
     "categories": [
       "Education"
