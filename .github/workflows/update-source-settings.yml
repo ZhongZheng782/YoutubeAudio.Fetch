@@ -28,6 +28,7 @@ jobs:
           import json
           import os
           import re
+          from datetime import date
           from pathlib import Path
 
           title = os.environ["ISSUE_TITLE"]
@@ -39,8 +40,14 @@ jobs:
           source_id = proposal.get("source_id")
           if not source_id or title != f"Update source settings: {source_id}":
               raise SystemExit("Issue title and source_id do not match")
-          if proposal.get("retention") not in {"selected", "all", "latest"}:
+          if proposal.get("retention") not in {"selected", "all", "latest", "since_date"}:
               raise SystemExit("Invalid retention mode")
+          date_after = proposal.get("date_after")
+          if proposal["retention"] == "since_date":
+              try:
+                  date.fromisoformat(date_after or "")
+              except (TypeError, ValueError):
+                  raise SystemExit("since_date mode requires date_after in YYYY-MM-DD format")
           if proposal.get("processing") not in {"audio_only", "audio_and_frames"}:
               raise SystemExit("Invalid processing mode")
           selected_ids = proposal.get("selected_video_ids", [])
@@ -93,6 +100,10 @@ jobs:
           if proposal["retention"] == "selected":
               policy["selected_video_ids"] = list(dict.fromkeys(selected_ids))
           policy["retention"] = proposal["retention"]
+          if proposal["retention"] == "since_date":
+              policy["date_after"] = date_after
+          else:
+              policy.pop("date_after", None)
           policy["processing"] = proposal["processing"]
           path.write_text(json.dumps(config, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
           PY

@@ -107,6 +107,17 @@ def apply_retention(channel_dir: str, policy: dict, manifest: dict, metadata: di
         if not keep_ids:
             print(f"::warning::selected mode has no video IDs for {policy.get('channel_name', channel_dir)}; keeping all files")
             return False
+    elif mode == "since_date":
+        date_after = policy.get("date_after")
+        if not date_after:
+            print(f"::warning::since_date mode has no date_after for {policy.get('channel_name', channel_dir)}; keeping all files")
+            return False
+        # Keep metadata-less files conservatively; remove only videos with a known
+        # upload date before the inclusive cutoff.
+        keep_ids = {
+            video_id for video_id in owned_ids
+            if not metadata.get(video_id, {}).get("date") or metadata[video_id]["date"] >= date_after
+        }
     elif mode == "latest":
         latest_url = channel_url or policy.get("url")
         try:

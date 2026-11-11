@@ -17,7 +17,8 @@
       "url": "https://www.youtube.com/@yutinghaofinance",
       "channel_dir": "yutinghaofinance",
       "fetch_limit": 5,
-      "retention": "all",
+      "retention": "since_date",
+      "date_after": "2026-08-10",
       "processing": "audio_and_frames"
     },
     {

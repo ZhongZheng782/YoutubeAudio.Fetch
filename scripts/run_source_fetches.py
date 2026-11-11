@@ -69,6 +69,14 @@ def run_policy(source: dict, policy: dict, override: str) -> None:
     ]
     if mode == "all" and not override:
         command.append("--all")
+    elif mode == "since_date":
+        date_after = policy.get("date_after")
+        if not date_after:
+            print(f"::warning::since_date mode has no date_after for {policy['id']}; skipping")
+            return
+        command.extend(["--date-after", date_after])
+        if override:
+            command.extend(["--limit", str(limit)])
     else:
         command.extend(["--limit", str(limit)])
     if mode == "selected":

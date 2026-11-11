@@ -648,7 +648,7 @@
 <script>
 const REPO_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/";
 const PAGES_BASE = "https://zhongzheng782.github.io/YoutubeAudio.Fetch/";
-const SITE_VERSION = "v0.1.008"; // bump manually on each docs/index.html change — no build step to derive this
+const SITE_VERSION = "v0.1.009"; // bump manually on each docs/index.html change — no build step to derive this
 // Re-serves GitHub Release assets with correct Content-Type/CORS (see cloudflare-worker/); iOS Safari
 // refuses to play the raw release URL, which GitHub always serves as application/octet-stream.
 const AUDIO_WORKER_BASE = "https://youtubeaudio.wenchiehlee1020.workers.dev";
@@ -681,6 +681,11 @@ function playlistSelectionForChannel(channel) {
 
 function storageChannelForPicker(channel) {
   return playlistSelectionForChannel(channel)?.source.channel_dir || channel;
+}
+
+function retentionLabel(policy) {
+  if (policy?.retention === "since_date") return `自 ${policy.date_after || "指定日期"} 起`;
+  return ({ selected: "指定影片", all: "全部", latest: "最新一支" }[policy?.retention || "all"]);
 }
 
 function playlistChannelGroups(source) {
@@ -866,6 +871,7 @@ function renderSourceSettings(channel) {
     return;
   }
   const isPlaylist = source.type === "playlist";
+  const storageChannel = storageChannelForPicker(channel);
   const selectedIds = new Set(source.selected_video_ids || []);
   const channelVideos = Object.keys(manifest).filter((stem) => channelOf(stem) === channel).map((stem) => {
         const videoId = stem.slice(storageChannel.length + 1);
@@ -880,7 +886,8 @@ function renderSourceSettings(channel) {
       <label>保留方式
         <select id="sourceRetention">
           <option value="selected">Selected｜指定影片</option>
-          <option value="all">All｜全部保留</option>
+          <option value="all">All｜全部歷史影片</option>
+          <option value="since_date">自指定日期起</option>
           <option value="latest">Latest｜只保留最新</option>
         </select>
       </label>
@@ -892,16 +899,22 @@ function renderSourceSettings(channel) {
       </label>
       <button type="button" id="saveSourceSettings">提交設定變更</button>
     </div>
+    <label id="sourceDateAfterWrap" style="display:none">起始日期
+      <input id="sourceDateAfter" type="date" value="${source.date_after || ""}">
+    </label>
     <div class="source-selection-list" id="sourceSelectionList"></div>
-    <div class="source-settings-note">設定會以 GitHub Issue 提交並自動更新 sources.json。Selected／Latest 會移除未保留影片的音檔與相關資料。</div>
+    <div class="source-settings-note">All 會抓取完整頻道歷史；自指定日期起會抓取該日（含）之後的影片；Latest 只留最新影片。</div>
   `;
   const retentionEl = document.getElementById("sourceRetention");
   const processingEl = document.getElementById("sourceProcessing");
   const selectionEl = document.getElementById("sourceSelectionList");
+  const dateAfterWrap = document.getElementById("sourceDateAfterWrap");
+  const dateAfterEl = document.getElementById("sourceDateAfter");
   retentionEl.value = source.retention || "all";
   processingEl.value = source.processing || "audio_and_frames";
   const renderSelection = () => {
     selectionEl.replaceChildren();
+    dateAfterWrap.style.display = retentionEl.value === "since_date" ? "block" : "none";
     if (retentionEl.value !== "selected") return;
     if (!videos.length) {
       selectionEl.textContent = "目前沒有可選影片";
@@ -927,9 +940,14 @@ function renderSourceSettings(channel) {
       alert("請至少選取一支要保留的影片。");
       return;
     }
+    if (retentionEl.value === "since_date" && !dateAfterEl.value) {
+      alert("請選擇起始日期。");
+      return;
+    }
     const proposal = {
       source_id: source.id,
       retention: retentionEl.value,
+      date_after: retentionEl.value === "since_date" ? dateAfterEl.value : undefined,
       processing: processingEl.value,
       selected_video_ids: retentionEl.value === "selected" ? selectedVideoIds : (source.selected_video_ids || []),
     };
@@ -963,7 +981,7 @@ function renderPlaylistSourceSettings(source, selectedGroupKey = null) {
     const retentionLabel = document.createElement("label");
     retentionLabel.textContent = "保留方式";
     const retention = document.createElement("select");
-    retention.innerHTML = `<option value="selected">指定影片</option><option value="all">全部影片</option><option value="latest">只留最新一支</option>`;
+    retention.innerHTML = `<option value="selected">指定影片</option><option value="all">全部歷史影片</option><option value="since_date">自指定日期起</option><option value="latest">只留最新一支</option>`;
     retention.value = group.retention || "selected";
     retentionLabel.appendChild(retention);
     const processingLabel = document.createElement("label");
@@ -972,7 +990,14 @@ function renderPlaylistSourceSettings(source, selectedGroupKey = null) {
     processing.innerHTML = `<option value="audio_only">音訊＋逐字稿（不擷取畫面）</option><option value="audio_and_frames">音訊＋逐字稿＋影片畫面</option>`;
     processing.value = group.processing || "audio_and_frames";
     processingLabel.appendChild(processing);
-    controls.append(retentionLabel, processingLabel);
+    const dateAfterLabel = document.createElement("label");
+    dateAfterLabel.textContent = "起始日期";
+    const dateAfter = document.createElement("input");
+    dateAfter.type = "date";
+    dateAfter.value = group.date_after || "";
+    dateAfterLabel.appendChild(dateAfter);
+    dateAfterLabel.style.display = retention.value === "since_date" ? "flex" : "none";
+    controls.append(retentionLabel, dateAfterLabel, processingLabel);
     card.appendChild(controls);
 
     const selection = document.createElement("div");
@@ -993,6 +1018,7 @@ function renderPlaylistSourceSettings(source, selectedGroupKey = null) {
       }
     };
     retention.addEventListener("change", renderSelection);
+    retention.addEventListener("change", () => { dateAfterLabel.style.display = retention.value === "since_date" ? "flex" : "none"; });
     renderSelection();
     card.appendChild(selection);
 
@@ -1006,11 +1032,16 @@ function renderPlaylistSourceSettings(source, selectedGroupKey = null) {
         alert("請至少選取一支要保留的影片。");
         return;
       }
+      if (retention.value === "since_date" && !dateAfter.value) {
+        alert("請選擇起始日期。");
+        return;
+      }
       openSourceSettingsIssue({
         source_id: source.id,
         channel_id: group.channel_id,
         channel_url: group.channel_url,
         retention: retention.value,
+        date_after: retention.value === "since_date" ? dateAfter.value : undefined,
         processing: processing.value,
         selected_video_ids: retention.value === "selected" ? selectedVideoIds : [...group.selectedIds],
       });
@@ -1020,7 +1051,7 @@ function renderPlaylistSourceSettings(source, selectedGroupKey = null) {
   }
   const note = document.createElement("div");
   note.className = "source-settings-note";
-  note.textContent = "每組設定只影響該頻道。Selected／Latest 會移除該頻道未保留影片的音檔與相關資料；變更會以 GitHub Issue 提交。";
+  note.textContent = "每組設定只影響該頻道。Selected／Latest／自日期起會依範圍清理不保留的影片資料；變更會以 GitHub Issue 提交。";
   sourceSettingsEl.appendChild(note);
 }
 
@@ -1039,10 +1070,10 @@ function renderTabs() {
       const source = sourceForChannel(channel);
       const pickerSelection = playlistSelectionForChannel(channel);
       const policyLabel = pickerSelection
-        ? ({ selected: "指定影片", all: "全部", latest: "最新一支" }[pickerSelection.group.retention || "selected"])
+        ? retentionLabel(pickerSelection.group)
         : source?.type === "playlist"
           ? "所有頻道"
-        : ({ selected: "指定影片", all: "全部", latest: "最新一支" }[source?.retention || "all"]);
+        : retentionLabel(source);
       el.textContent = `${displayNameFor(channel)} · ${policyLabel}`;
       el.addEventListener("click", () => selectChannel(channel));
       groupEl.appendChild(el);
@@ -1132,6 +1163,8 @@ function selectChannel(channel) {
   } else if (source?.retention === "selected") {
     const selectedIds = new Set(source.selected_video_ids || []);
     episodes = episodes.filter((episode) => selectedIds.has(episode.videoId));
+  } else if (source?.retention === "since_date" && source.date_after) {
+    episodes = episodes.filter((episode) => !episode.date || episode.date >= source.date_after);
   } else if (source?.type === "playlist") {
     const groups = playlistChannelGroups(source);
     const latestByChannel = new Map();
@@ -1143,6 +1176,7 @@ function selectChannel(channel) {
       if (!group) return true;
       if (group.retention === "selected") return group.selectedIds.has(episode.videoId);
       if (group.retention === "latest") return episode.videoId === (group.latest_video_id || latestByChannel.get(episode.channelUrl));
+      if (group.retention === "since_date" && group.date_after) return !episode.date || episode.date >= group.date_after;
       return true;
     });
   }
