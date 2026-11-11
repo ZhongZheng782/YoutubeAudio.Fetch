@@ -79,6 +79,16 @@
   }
   .tab:hover { border-color: var(--cyan); color: var(--text); }
   .tab.active { background: linear-gradient(135deg, #8b5cf6, #06b6d4); border-color: #8b5cf6; color: #fff; box-shadow: 0 4px 14px rgba(139,92,246,.35); }
+  .source-settings { border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px; background: #fff; }
+  .source-settings-title { font-size: 13px; font-weight: 700; margin-bottom: 10px; }
+  .source-settings-controls { display: flex; flex-wrap: wrap; gap: 10px; }
+  .source-settings label { display: grid; gap: 4px; color: var(--muted); font-size: 11px; }
+  .source-settings select, .source-settings button { min-height: 34px; padding: 6px 9px; border: 1px solid var(--border); border-radius: 8px; background: #fff; color: var(--text); font: inherit; }
+  .source-settings button { align-self: end; cursor: pointer; color: #fff; background: var(--accent); border-color: var(--accent); font-size: 12px; }
+  .source-settings button:disabled { opacity: .5; cursor: not-allowed; }
+  .source-selection-list { display: grid; gap: 5px; max-height: 180px; overflow: auto; margin: 10px 0; font-size: 12px; }
+  .source-selection-list label { display: flex; align-items: flex-start; gap: 6px; color: var(--text); }
+  .source-settings-note { margin-top: 8px; color: var(--muted); font-size: 11px; line-height: 1.5; }
   .layout {
     display: grid;
     grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
@@ -620,6 +630,7 @@
 <div class="layout">
   <div class="episode-sidebar">
     <div class="tabs" id="tabs"></div>
+    <div class="source-settings" id="sourceSettings"></div>
     <div class="episode-list" id="episodeList">
       <div class="loading">載入集數清單中…</div>
     </div>
@@ -632,28 +643,24 @@
 <script>
 const REPO_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/";
 const PAGES_BASE = "https://zhongzheng782.github.io/YoutubeAudio.Fetch/";
-const SITE_VERSION = "v0.1.002"; // bump manually (v0.1.003, ...) on each docs/index.html change — no build step to derive this
+const SITE_VERSION = "v0.1.005"; // bump manually (v0.1.006, ...) on each docs/index.html change — no build step to derive this
 // Re-serves GitHub Release assets with correct Content-Type/CORS (see cloudflare-worker/); iOS Safari
 // refuses to play the raw release URL, which GitHub always serves as application/octet-stream.
 const AUDIO_WORKER_BASE = "https://youtubeaudio.wenchiehlee1020.workers.dev";
 const VIDEO_ID_LEN = 11;
-const CHANNEL_GROUPS = [
-  {
-    label: "Daily",
-    channels: ["ai-note-101", "fubonsec", "jimainotebook", "smartmonthly-bw", "wealth1974", "x", "yutinghaofinance"],
-  },
-  { label: "Playlist", channels: ["themarketmemo"] },
-];
-const CHANNEL_DISPLAY_NAMES = { themarketmemo: "Youtube.Fetch" };
+let CHANNEL_GROUPS = [];
+let CHANNEL_DISPLAY_NAMES = {};
 
 const tabsEl = document.getElementById("tabs");
 const episodeListEl = document.getElementById("episodeList");
 const mainEl = document.getElementById("main");
 const feedLinkEl = document.getElementById("feedLink");
+const sourceSettingsEl = document.getElementById("sourceSettings");
 
 let manifest = {};
 let metaCache = {};
 let playlistCatalog = [];
+let sourceConfig = [];
 let channels = [];
 let currentChannel = null;
 
@@ -751,6 +758,94 @@ function displayNameFor(channel) {
   return channel;
 }
 
+function sourceForChannel(channel) {
+  return sourceConfig.find((source) => source.channel_dir === channel && source.type === "playlist")
+    || sourceConfig.find((source) => source.channel_dir === channel);
+}
+
+function renderSourceSettings(channel) {
+  const source = sourceForChannel(channel);
+  if (!source) {
+    sourceSettingsEl.innerHTML = "";
+    return;
+  }
+  const isPlaylist = source.type === "playlist";
+  const selectedIds = new Set(source.selected_video_ids || []);
+  const channelVideos = Object.keys(manifest).filter((stem) => channelOf(stem) === channel).map((stem) => {
+        const videoId = stem.slice(channel.length + 1);
+        return { video_id: videoId, title: (metaCache[videoId] || {}).title || videoId };
+      });
+  const videos = isPlaylist
+    ? [...new Map([...(source.videos || []), ...channelVideos].map((video) => [video.video_id, video])).values()]
+    : channelVideos;
+  sourceSettingsEl.innerHTML = `
+    <div class="source-settings-title">${source.name || displayNameFor(channel)} 更新設定</div>
+    <div class="source-settings-controls">
+      <label>保留方式
+        <select id="sourceRetention">
+          <option value="selected">Selected｜指定影片</option>
+          <option value="all">All｜全部保留</option>
+          <option value="latest">Latest｜只保留最新</option>
+        </select>
+      </label>
+      <label>處理內容
+        <select id="sourceProcessing">
+          <option value="audio_only">音訊＋逐字稿（不擷取畫面）</option>
+          <option value="audio_and_frames">音訊＋逐字稿＋影片畫面</option>
+        </select>
+      </label>
+      <button type="button" id="saveSourceSettings">提交設定變更</button>
+    </div>
+    <div class="source-selection-list" id="sourceSelectionList"></div>
+    <div class="source-settings-note">設定會以 GitHub Issue 提交並自動更新 sources.json。Selected／Latest 會移除未保留影片的音檔與相關資料。</div>
+  `;
+  const retentionEl = document.getElementById("sourceRetention");
+  const processingEl = document.getElementById("sourceProcessing");
+  const selectionEl = document.getElementById("sourceSelectionList");
+  retentionEl.value = source.retention || "all";
+  processingEl.value = source.processing || "audio_and_frames";
+  const renderSelection = () => {
+    selectionEl.replaceChildren();
+    if (retentionEl.value !== "selected") return;
+    if (!videos.length) {
+      selectionEl.textContent = "目前沒有可選影片";
+      return;
+    }
+    videos.forEach((video) => {
+      const label = document.createElement("label");
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.value = video.video_id;
+      checkbox.checked = selectedIds.has(video.video_id);
+      const title = document.createElement("span");
+      title.textContent = video.title || video.video_id;
+      label.append(checkbox, title);
+      selectionEl.appendChild(label);
+    });
+  };
+  renderSelection();
+  retentionEl.addEventListener("change", renderSelection);
+  document.getElementById("saveSourceSettings").addEventListener("click", () => {
+    const selectedVideoIds = [...selectionEl.querySelectorAll("input:checked")].map((input) => input.value);
+    if (retentionEl.value === "selected" && selectedVideoIds.length === 0) {
+      alert("請至少選取一支要保留的影片。");
+      return;
+    }
+    const proposal = {
+      source_id: source.id,
+      retention: retentionEl.value,
+      processing: processingEl.value,
+      selected_video_ids: retentionEl.value === "selected" ? selectedVideoIds : (source.selected_video_ids || []),
+    };
+    const title = `Update source settings: ${source.id}`;
+    const body = `請自動更新 sources.json 中的來源設定：\n\n\`\`\`json\n${JSON.stringify(proposal, null, 2)}\n\`\`\``;
+    const issueUrl = new URL("https://github.com/ZhongZheng782/YoutubeAudio.Fetch/issues/new");
+    issueUrl.searchParams.set("title", title);
+    issueUrl.searchParams.set("body", body);
+    window.open(issueUrl.toString(), "_blank", "noopener");
+  });
+}
+
 function renderTabs() {
   tabsEl.innerHTML = "";
   CHANNEL_GROUPS.forEach((group) => {
@@ -763,7 +858,9 @@ function renderTabs() {
     group.channels.filter((channel) => channels.includes(channel)).forEach((channel) => {
       const el = document.createElement("div");
       el.className = "tab" + (channel === currentChannel ? " active" : "");
-      el.textContent = displayNameFor(channel);
+      const source = sourceForChannel(channel);
+      const policyLabel = { selected: "指定影片", all: "全部", latest: "最新一支" }[source?.retention || "all"];
+      el.textContent = `${displayNameFor(channel)} · ${policyLabel}`;
       el.addEventListener("click", () => selectChannel(channel));
       groupEl.appendChild(el);
     });
@@ -781,6 +878,7 @@ function selectChannel(channel) {
   // Per-channel feeds remain available at /{channel}/feed.xml for direct use.
   feedLinkEl.href = `${PAGES_BASE}/feed.xml`;
   renderTabs();
+  renderSourceSettings(channel);
 
   const audioEpisodes = Object.keys(manifest)
     .filter((stem) => channelOf(stem) === channel)
@@ -793,6 +891,7 @@ function selectChannel(channel) {
         audioUrl: manifest[stem],
         title: meta.title || stem,
         date: meta.date || "",
+        thumbnail: meta.thumbnail || `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`,
         phase: meta.phase !== undefined ? meta.phase : 1,
         description: meta.description || "",
       };
@@ -808,14 +907,41 @@ function selectChannel(channel) {
         videoId: video.video_id,
         audioUrl: manifest[stem] || "",
         title: video.title || video.video_id,
-        date: video.date || "",
+        date: video.date || meta.date || "",
+        thumbnail: meta.thumbnail || video.thumbnail || `https://i.ytimg.com/vi/${video.video_id}/hqdefault.jpg`,
         phase: manifest[stem] ? (meta.phase !== undefined ? meta.phase : 1) : 0,
         description: meta.description || "",
         youtubeUrl: `https://www.youtube.com/watch?v=${video.video_id}`,
       };
     });
-  const episodes = [...new Map([...audioEpisodes, ...playlistEpisodes].map((episode) => [episode.stem, episode])).values()]
+  const source = sourceForChannel(channel);
+  if (source?.retention === "latest" && source.latest_video_id && ![...audioEpisodes, ...playlistEpisodes].some((episode) => episode.videoId === source.latest_video_id)) {
+    const videoId = source.latest_video_id;
+    const meta = metaCache[videoId] || {};
+    const video = (source.videos || []).find((item) => item.video_id === videoId) || {};
+    const stem = `${channel}_${videoId}`;
+    playlistEpisodes.push({
+      stem,
+      videoId,
+      audioUrl: manifest[stem] || "",
+      title: video.title || meta.title || videoId,
+      date: video.date || meta.date || "",
+      thumbnail: meta.thumbnail || video.thumbnail || `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`,
+      phase: manifest[stem] ? (meta.phase !== undefined ? meta.phase : 1) : 0,
+      description: meta.description || "",
+      youtubeUrl: `https://www.youtube.com/watch?v=${videoId}`,
+    });
+  }
+  let episodes = [...new Map([...audioEpisodes, ...playlistEpisodes].map((episode) => [episode.stem, episode])).values()]
     .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  if (source?.retention === "latest") {
+    episodes = source.latest_video_id
+      ? episodes.filter((episode) => episode.videoId === source.latest_video_id)
+      : episodes.slice(0, 1);
+  } else if (source?.retention === "selected") {
+    const selectedIds = new Set(source.selected_video_ids || []);
+    episodes = episodes.filter((episode) => selectedIds.has(episode.videoId));
+  }
 
   renderEpisodeList(channel, episodes);
   mainEl.innerHTML = `<div class="placeholder">請從左邊選一集</div>`;
@@ -825,14 +951,24 @@ function selectChannel(channel) {
 }
 
 async function loadChannels() {
-  [manifest, metaCache] = await Promise.all([
+  [manifest, metaCache, sourceConfig] = await Promise.all([
     fetchJson("audio_manifest.json"),
     fetchJson("data/.video_metadata.json").catch(() => ({})),
+    fetchJson("sources.json").then((config) => config.sources || []),
   ]);
-  playlistCatalog = await fetchJson("playlists.json").catch(() => []);
+  playlistCatalog = sourceConfig.filter((source) => source.type === "playlist");
+
+  const playlistDirs = new Set(playlistCatalog.map((source) => source.channel_dir));
+  CHANNEL_GROUPS = [
+    { label: "Daily", channels: [...new Set(sourceConfig.filter((source) => source.type === "channel" && !playlistDirs.has(source.channel_dir)).map((source) => source.channel_dir))] },
+    { label: "Playlist", channels: [...playlistDirs] },
+  ];
+  CHANNEL_DISPLAY_NAMES = {};
+  sourceConfig.filter((source) => source.type === "channel").forEach((source) => { CHANNEL_DISPLAY_NAMES[source.channel_dir] = source.name; });
+  playlistCatalog.forEach((source) => { CHANNEL_DISPLAY_NAMES[source.channel_dir] = source.name; });
 
   const manifestChannels = Object.keys(manifest).map(channelOf);
-  channels = [...new Set([...manifestChannels, ...CHANNEL_GROUPS.flatMap((group) => group.channels)])].sort();
+  channels = [...new Set([...manifestChannels, ...sourceConfig.map((source) => source.channel_dir)])].sort();
   if (channels.length === 0) {
     episodeListEl.innerHTML = `<div class="loading">目前沒有任何有音檔的集數</div>`;
     return;
@@ -1134,7 +1270,11 @@ async function selectEpisode(channel, ep) {
         title: ep.title,
         artist: channelName,
         album: "YoutubeAudio.Fetch",
-        artwork: [{ src: `${PAGES_BASE}whale-favicon.png`, sizes: "512x512", type: "image/png" }],
+        artwork: [{
+          src: ep.thumbnail,
+          sizes: "480x360",
+          type: ep.thumbnail.endsWith(".webp") ? "image/webp" : "image/jpeg",
+        }],
       });
       navigator.mediaSession.setActionHandler("play", () => player.play().catch(() => {}));
       navigator.mediaSession.setActionHandler("pause", () => player.pause());

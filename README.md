@@ -67,8 +67,7 @@ data/{channel}/{channel}_{video_id}_FIN.srt  # pipeline 依 CER 挑選出的最�
 
 `.github/workflows/daily-channel-fetch.yml` 每天自動：
 
-1. 對 `channels.json` 裡列的每個 Daily 頻道跑 `channel_fetch.py fetch <url> --limit 5 --sync`，
-   並掃描 `playlists.json` 裡的公開 Playlist，抓新影片、寫逐字稿/manifest、觸發 whisper
+1. 讀取 `sources.json` 的頻道與播放清單來源，抓取新影片、寫逐字稿/manifest、觸發 whisper
 2. 對每個「有 `FIN.srt`（沒有的話退而求其次用 `GT.srt`）但還沒有 `_keyframes.md`」的
    stem 跑 `skill-youtube-channel-srt-keyframe-extract`，補齊關鍵畫面擷取（每支重試一次；
    YouTube 端偶發限流導致某支失敗不會擋住其他支，會留到隔天的排程自動重試，因為判斷條件
@@ -76,8 +75,9 @@ data/{channel}/{channel}_{video_id}_FIN.srt  # pipeline 依 CER 挑選出的最�
 3. 重新產生根 README 的頻道連結與各頻道頁——新影片跑完關鍵畫面擷取後會出現在對應的
    `data/{channel}/README.md` 影片集合中
 
-也可用 `workflow_dispatch` 手動觸發並自訂 `limit`。要追蹤新頻道，直接編輯 `channels.json`
-加一行 URL 即可，不用改 workflow。
+也可用 `workflow_dispatch` 手動觸發並自訂 `limit`。要追蹤頻道或播放清單，直接在 `sources.json`
+新增來源即可，不用改 workflow。網站選擇器中的保留與處理設定會透過 GitHub Issue 提交，再由 workflow 更新 `sources.json`。
+每個來源可設 `retention` 為 `selected`、`all` 或 `latest`，並以 `processing` 選擇只做音訊／逐字稿，或再擷取影片畫面。播放清單預設為 `selected`，目前清單中的影片會先全部勾選。
 
 此 workflow 需要在 repo 的 GitHub Actions Secrets 設定：
 - `YOUTUBE_COOKIES_B64`：YouTube cookies.txt 內容的 base64 編碼；給 `yt-dlp` 通過

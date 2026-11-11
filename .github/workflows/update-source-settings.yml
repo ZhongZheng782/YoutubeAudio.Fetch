@@ -1,0 +1,87 @@
+name: Update YouTube source settings
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  actions: write
+  contents: write
+  issues: write
+
+jobs:
+  update-settings:
+    if: >-
+      startsWith(github.event.issue.title, 'Update source settings: ')
+      && contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Validate and apply setting proposal
+        id: update
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import re
+          from pathlib import Path
+
+          title = os.environ["ISSUE_TITLE"]
+          body = os.environ.get("ISSUE_BODY") or ""
+          match = re.search(r"```json\s*(.*?)\s*```", body, re.S)
+          if not match:
+              raise SystemExit("Issue body must contain a fenced JSON proposal")
+          proposal = json.loads(match.group(1))
+          source_id = proposal.get("source_id")
+          if not source_id or title != f"Update source settings: {source_id}":
+              raise SystemExit("Issue title and source_id do not match")
+          if proposal.get("retention") not in {"selected", "all", "latest"}:
+              raise SystemExit("Invalid retention mode")
+          if proposal.get("processing") not in {"audio_only", "audio_and_frames"}:
+              raise SystemExit("Invalid processing mode")
+          selected_ids = proposal.get("selected_video_ids", [])
+          if not isinstance(selected_ids, list) or any(not re.fullmatch(r"[A-Za-z0-9_-]{11}", x) for x in selected_ids):
+              raise SystemExit("selected_video_ids must be YouTube video IDs")
+
+          path = Path("sources.json")
+          config = json.loads(path.read_text(encoding="utf-8"))
+          source = next((item for item in config["sources"] if item.get("id") == source_id), None)
+          if source is None:
+              raise SystemExit(f"Unknown source: {source_id}")
+          related_sources = [item for item in config["sources"] if item.get("channel_dir") == source["channel_dir"]]
+          if proposal["retention"] == "selected":
+              available = {
+                  video.get("video_id")
+                  for item in related_sources
+                  for video in item.get("videos", [])
+              }
+              manifest = json.loads(Path("audio_manifest.json").read_text(encoding="utf-8"))
+              available.update(stem[-11:] for stem in manifest if stem[:-12] == source["channel_dir"])
+              if not selected_ids or not set(selected_ids) <= available:
+                  raise SystemExit("Selected videos must exist in this source's catalog")
+          for related in related_sources:
+              if proposal["retention"] == "selected":
+                  related["selected_video_ids"] = list(dict.fromkeys(selected_ids))
+              related["retention"] = proposal["retention"]
+              related["processing"] = proposal["processing"]
+          path.write_text(json.dumps(config, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sources.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update source settings from issue #${{ github.event.issue.number }}"
+            git push
+          fi
+
+      - name: Close processed issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue close "${{ github.event.issue.number }}" --comment "設定已更新並提交至 sources.json。"
+          gh workflow run "Daily channel fetch" --ref main

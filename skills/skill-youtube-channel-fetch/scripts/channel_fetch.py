@@ -438,13 +438,34 @@ class ChannelFetcher:
         date_after: str | None = None,
         date_before: str | None = None,
         source_slug: str | None = None,
+        video_ids: list[str] | None = None,
     ) -> dict[str, int]:
         manifest_path = Path(manifest_path)
         manifest: dict[str, str] = {}
         if manifest_path.exists():
             manifest = {k: v for k, v in json.loads(manifest_path.read_text(encoding="utf-8")).items() if not k.startswith("_")}
 
-        videos = self.list_channel_videos(channel_url, limit, date_after=date_after, date_before=date_before)
+        if video_ids:
+            videos = []
+            for video_id in dict.fromkeys(video_ids):
+                if not VIDEO_ID_RE.fullmatch(video_id):
+                    raise ValueError(f"invalid YouTube video ID: {video_id!r}")
+                proc = subprocess.run(
+                    ["yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(), "--skip-download", "--dump-single-json", f"https://www.youtube.com/watch?v={video_id}"],
+                    capture_output=True,
+                    text=True,
+                )
+                if proc.returncode != 0:
+                    print(f"[channel_fetch] could not inspect selected video {video_id}: {proc.stderr[:300]}")
+                    continue
+                info = json.loads(proc.stdout)
+                videos.append({
+                    "video_id": video_id,
+                    "title": info.get("title") or video_id,
+                    "channel": info.get("channel") or info.get("uploader") or "channel",
+                })
+        else:
+            videos = self.list_channel_videos(channel_url, limit, date_after=date_after, date_before=date_before)
         transcribed_auto = transcribed_manual = added = skipped = failed = 0
         with tempfile.TemporaryDirectory(prefix="channel_fetch_") as tmp:
             tmp_dir = Path(tmp)
@@ -643,7 +664,8 @@ if __name__ == "__main__":
     fetch_p.add_argument("--date-after", default=None, help="Only videos uploaded on/after this date (YYYY-MM-DD)")
     fetch_p.add_argument("--date-before", default=None, help="Only videos uploaded on/before this date (YYYY-MM-DD)")
     fetch_p.add_argument("--manifest", default="audio_manifest.json", help="Path to the manifest JSON")
-    fetch_p.add_argument("--source-slug", default=None, help="Stable data/ and manifest slug for playlist sources")
+    fetch_p.add_argument("--source-slug", default=None, help="Stable data/ and manifest slug for this source")
+    fetch_p.add_argument("--video-id", action="append", dest="video_ids", default=None, help="Fetch only this selected video ID (repeatable)")
     fetch_p.add_argument("--sync", action="store_true", help="Run whisper_issue_client.sync_manifest afterwards")
     fetch_p.add_argument(
         "--no-transcript", action="store_true",
@@ -679,6 +701,7 @@ if __name__ == "__main__":
             date_after=args.date_after,
             date_before=args.date_before,
             source_slug=args.source_slug,
+            video_ids=args.video_ids,
         )
         if args.sync:
             sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "skill-mlx-api-client-whisper" / "scripts"))

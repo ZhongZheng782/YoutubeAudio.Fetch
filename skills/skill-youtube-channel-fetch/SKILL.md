@@ -20,7 +20,7 @@ description: 從 YouTube 財經頻道下載最新影片，優先嘗試官方逐�
 1. 用 `yt-dlp` 列出頻道影片，預設「最新 N 支」。**只有在傳入不帶 `/videos`／`/streams`
    後綴的裸頻道網址時，才會合併 `/videos` + `/streams` 兩個 tab**（由新到舊排序——像每日
    直播存檔這類頻道，日常內容大多發佈在 `/streams`，只查 `/videos` 會漏掉）；若網址本身已
-   明確帶 `/videos` 或 `/streams` 後綴，就只查那一個 tab（例如目前 `channels.json` 裡
+   明確帶 `/videos` 或 `/streams` 後綴，就只查那一個 tab（例如目前 `sources.json` 裡
    `yutinghaofinance` 就是固定指到 `.../streams`，只掃 streams tab，不會合併 `/videos`）。
    也可以改成「日期區間」模式（見下方方式 E），抓某段期間內的全部影片
 2. 對每支尚未出現在 manifest、也還沒有本地 `FIN.srt` 或 `GT.srt` 的影片，**先用
@@ -120,15 +120,18 @@ python scripts/channel_fetch.py fetch https://www.youtube.com/@yutinghaofinance 
 除非另外明確指定。
 
 ### 方式 F：公開 Playlist 與每日自動排程
-公開 YouTube Playlist 可放在 repo 根目錄的 `playlists.json`，每個項目指定 `url`、穩定的
-`channel_dir` 與選用的 `fetch_limit`。對 Playlist 執行：
+公開 YouTube Playlist 可放在 repo 根目錄的 `sources.json`，每個項目指定 `type: "playlist"`、
+`url`、穩定的 `channel_dir`、`fetch_limit`、`retention` 與 `processing`。新加入的播放清單預設
+使用 `retention: "selected"`，並把目前要保留的影片 ID 放入 `selected_video_ids`。可選
+`all` 保留全部影片，或 `latest` 只保留最新一支。處理方式使用 `audio_only`（音訊與逐字稿）
+或 `audio_and_frames`（另外擷取影片畫面）。對 Playlist 執行：
 ```bash
 python scripts/channel_fetch.py fetch \
     'https://www.youtube.com/playlist?list=PLSo-zkDeyJdw' \
     --source-slug themarketmemo --limit 100 --sync
 ```
-`.github/workflows/daily-channel-fetch.yml` 每天除了掃描 `channels.json` 的 Daily 頻道，
-也會掃描 `playlists.json` 的每個公開 Playlist；新增到 Playlist 的影片會沿用同一套官方
+`.github/workflows/daily-channel-fetch.yml` 每天會掃描 `sources.json` 中的頻道與公開 Playlist；
+新增到 Playlist 的影片會沿用同一套官方
 字幕、音訊 Release、manifest 與 whisper sync 流程。細節與所需的 GitHub Actions Secrets
 見本 repo 根目錄 README.md 的「自動化（每日排程）」一節。
 

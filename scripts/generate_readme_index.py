@@ -31,7 +31,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = REPO_ROOT / "data"
 CACHE_PATH = DATA_DIR / ".video_metadata.json"
 CHANNEL_CACHE_PATH = DATA_DIR / ".channel_metadata.json"
-PLAYLISTS_PATH = REPO_ROOT / "playlists.json"
+SOURCES_PATH = REPO_ROOT / "sources.json"
 HEADER = "## 內容索引"
 
 VIDEO_ID_RE = re.compile(r"[A-Za-z0-9_-]{11}$")
@@ -97,9 +97,18 @@ def load_channel_cache() -> dict[str, str]:
 
 
 def load_playlists() -> list[dict]:
-    if not PLAYLISTS_PATH.exists():
+    if not SOURCES_PATH.exists():
         return []
-    return json.loads(PLAYLISTS_PATH.read_text(encoding="utf-8"))
+    sources = json.loads(SOURCES_PATH.read_text(encoding="utf-8"))["sources"]
+    playlists = [source for source in sources if source.get("type") == "playlist"]
+    for playlist in playlists:
+        videos = playlist.get("videos", [])
+        if playlist.get("retention") == "selected":
+            selected = set(playlist.get("selected_video_ids", []))
+            playlist["videos"] = [video for video in videos if video.get("video_id") in selected]
+        elif playlist.get("retention") == "latest" and playlist.get("latest_video_id"):
+            playlist["videos"] = [video for video in videos if video.get("video_id") == playlist["latest_video_id"]]
+    return playlists
 
 
 def save_channel_cache(cache: dict[str, str]) -> None:
@@ -234,7 +243,8 @@ def render_index(by_channel: dict[str, list[dict]], channel_descriptions: dict[s
     if not by_channel:
         return f"{HEADER}\n\n*(尚無已完成關鍵畫面擷取的影片)*\n"
 
-    daily_channels = {source_slug(url) for url in json.loads((REPO_ROOT / "channels.json").read_text(encoding="utf-8"))}
+    source_config = json.loads(SOURCES_PATH.read_text(encoding="utf-8"))["sources"]
+    daily_channels = {source["channel_dir"] for source in source_config if source.get("type") == "channel"}
     playlist_channels = {playlist["channel_dir"] for playlist in playlists}
     lines = [HEADER, "", "### Daily", ""]
     for channel in sorted(by_channel):
