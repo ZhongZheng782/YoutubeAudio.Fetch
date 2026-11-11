@@ -648,7 +648,7 @@
 <script>
 const REPO_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/";
 const PAGES_BASE = "https://zhongzheng782.github.io/YoutubeAudio.Fetch/";
-const SITE_VERSION = "v0.1.009"; // bump manually on each docs/index.html change — no build step to derive this
+const SITE_VERSION = "v0.1.010"; // bump manually on each docs/index.html change — no build step to derive this
 // Re-serves GitHub Release assets with correct Content-Type/CORS (see cloudflare-worker/); iOS Safari
 // refuses to play the raw release URL, which GitHub always serves as application/octet-stream.
 const AUDIO_WORKER_BASE = "https://youtubeaudio.wenchiehlee1020.workers.dev";
@@ -828,7 +828,9 @@ function parseDescriptionChapters(desc) {
 }
 
 async function fetchJson(path) {
-  const url = REPO_BASE + path + (path.endsWith(".json") ? `?v=${Date.now().toString(36)}` : "");
+  // Config/catalog JSON changes frequently; jsDelivr can keep @main responses cached
+  // for hours even with a query string. Fetch JSON from GitHub raw so settings are current.
+  const url = `https://raw.githubusercontent.com/ZhongZheng782/YoutubeAudio.Fetch/main/${path}?v=${Date.now().toString(36)}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`${path}: ${res.status}`);
   return res.json();
