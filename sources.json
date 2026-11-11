@@ -83,7 +83,7 @@
           "channel_name": "LEI｜The Market Memo",
           "channel_url": "https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg",
           "fetch_limit": 5,
-          "retention": "selected",
+          "retention": "all",
           "selected_video_ids": [
             "tNzUUET5opY",
             "hDOZ5n9PJFI",
