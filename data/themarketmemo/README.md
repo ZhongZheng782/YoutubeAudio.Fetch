@@ -1,9 +1,9 @@
-# LEI
+# Youtube.Fetch
 
 ## 頻道資訊
 
 - 頻道代號：`themarketmemo`
-- YouTube 頻道：[https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg](https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg)
+- YouTube 播放清單：[https://www.youtube.com/playlist?list=PLSo-zkDeyJdw](https://www.youtube.com/playlist?list=PLSo-zkDeyJdw)
 
 ### 頻道介紹
 
@@ -23,12 +23,6 @@
 
 | 影片 | 日期 |
 | --- | --- |
-| [一隻股票是怎樣跌掉90%的？](themarketmemo_2xT-M6lSK5U_keyframes.md) | 2026-11-10 |
-| [買台積電還是0050？前政大校長揭散戶「常見錯誤」｜周行一、王志郁｜【富足今周起】EP62精華](themarketmemo_c4QUXoO_Oz4_keyframes.md) | 2026-11-06 |
-| [【精華】績優股倒一片怎配置？台達電跌慘能續抱？蔡明翰：先忘掉成本《鈔錢部署》盧燕俐 ft.蔡明翰 20261104](themarketmemo_IOtTfjQg0TE_keyframes.md) | 2026-11-04 |
-| [為什麼事後都懂，當下卻沒想到？人的盲點來自「模型太少」，換個角度，才看得見經驗之外的答案｜經理人讀書會《思維模型》](themarketmemo_w3baNc7NVeU_keyframes.md) | 2026-11-04 |
-| [人性博弈論:被傷害後,你該原諒還是還擊?一場實驗給出了最優解｜《合作的進化》](themarketmemo_rgS5mC9lyCw_keyframes.md) | 2026-11-03 |
-| [AI Agent新賽局 簡立峰：全球掀五變革](themarketmemo_8D50gBPUPwI_keyframes.md) | 2026-10-30 |
 | [AI威力堪比核彈？為何矽谷大佬一邊砸錢發展，又警告它會毀滅人類？\| 思想實驗室 Video Podcast ep115：ft.前LINE台灣總經理 陶韻智](themarketmemo_6OvEjZsRl4Q_keyframes.md) | 2026-09-03 |
 | [破解投資圈「窮人思維模式」](themarketmemo_tNzUUET5opY_keyframes.md) | 2026-01-16 |
 | [全職投資人，需要具備哪些條件？](themarketmemo_hDOZ5n9PJFI_keyframes.md) | 2025-12-03 |
