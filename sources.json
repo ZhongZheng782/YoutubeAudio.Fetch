@@ -14,7 +14,7 @@
       "id": "yutinghaofinance",
       "type": "channel",
       "name": "Yuting Hao Finance",
-      "url": "https://www.youtube.com/@yutinghaofinance/streams",
+      "url": "https://www.youtube.com/@yutinghaofinance",
       "channel_dir": "yutinghaofinance",
       "fetch_limit": 5,
       "retention": "all",

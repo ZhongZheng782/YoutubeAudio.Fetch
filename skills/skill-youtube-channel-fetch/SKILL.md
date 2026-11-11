@@ -84,6 +84,11 @@ REPO_FILE_SYNC_WENCHIEHLEE_MONEY=<PAT，對 WHISPER_SOURCE_REPO 需要 Contents:
 python scripts/channel_fetch.py fetch https://www.youtube.com/@fubonsec --limit 5
 ```
 
+若要掃描整個頻道的公開影片（不設支數上限），加上 `--all`：
+```bash
+python scripts/channel_fetch.py fetch https://www.youtube.com/@fubonsec --all
+```
+
 ### 方式 B：抓完直接觸發轉錄 pipeline
 ```bash
 python scripts/channel_fetch.py fetch https://www.youtube.com/@fubonsec --limit 5 --sync

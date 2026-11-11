@@ -19,7 +19,7 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: "Optional override; leave blank to use each source's fetch_limit"
+        description: "Optional video-count cap; leave blank to follow each source policy (all scans every public video)"
         default: ""
 
 concurrency:

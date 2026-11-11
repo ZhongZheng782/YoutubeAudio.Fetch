@@ -60,17 +60,17 @@ def main() -> int:
 
 def run_policy(source: dict, policy: dict, override: str) -> None:
     mode = policy.get("retention", "all")
-    # All means the whole channel archive. The fetcher accepts --limit 0 as
-    # unbounded; latest is resolved by the fetcher with a one-video limit.
     configured_limit = int(override or policy.get("fetch_limit", source.get("fetch_limit", 5)))
-    limit = 1 if mode == "latest" else (
-        0 if mode == "all" and source.get("type") == "playlist" else configured_limit
-    )
+    limit = 1 if mode == "latest" else configured_limit
     command = [
         sys.executable, str(FETCHER), "fetch", policy.get("channel_url", source["url"]),
         "--source-slug", source["channel_dir"],
-        "--limit", str(limit), "--sync",
+        "--sync",
     ]
+    if mode == "all" and not override:
+        command.append("--all")
+    else:
+        command.extend(["--limit", str(limit)])
     if mode == "selected":
         selected = policy.get("selected_video_ids", [])
         if not selected:

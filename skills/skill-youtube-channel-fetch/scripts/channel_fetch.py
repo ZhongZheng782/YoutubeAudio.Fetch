@@ -208,6 +208,12 @@ class ChannelFetcher:
             vid = e.get("id", "")
             if VIDEO_ID_RE.match(vid):
                 entries.append({"video_id": vid, "title": e.get("title", vid)})
+                timestamp = e.get("release_timestamp") or e.get("timestamp")
+                upload_date = e.get("upload_date")
+                if not timestamp and isinstance(upload_date, str) and len(upload_date) == 8 and upload_date.isdigit():
+                    timestamp = int(upload_date)
+                if timestamp:
+                    entries[-1]["_ts"] = int(timestamp)
         return entries, channel_name
 
     def _list_playlist(self, playlist_url: str, limit: int | None) -> list[dict]:
@@ -331,7 +337,8 @@ class ChannelFetcher:
             # lists by dict-insertion order isn't — resolve real order via per-video
             # timestamp lookups before truncating to `limit`.
             for c in candidates:
-                c["_ts"] = self._video_upload_timestamp(c["video_id"])
+                if not c.get("_ts"):
+                    c["_ts"] = self._video_upload_timestamp(c["video_id"])
             candidates.sort(key=lambda c: c["_ts"], reverse=True)
 
         if limit is not None:
@@ -664,6 +671,10 @@ if __name__ == "__main__":
         help="Number of newest videos to consider (default 5, unless --date-after/--date-before "
              "is given, in which case the default is every video in that range)",
     )
+    fetch_p.add_argument(
+        "--all", action="store_true", dest="fetch_all",
+        help="Consider every public video on the channel (no video-count limit)",
+    )
     fetch_p.add_argument("--date-after", default=None, help="Only videos uploaded on/after this date (YYYY-MM-DD)")
     fetch_p.add_argument("--date-before", default=None, help="Only videos uploaded on/before this date (YYYY-MM-DD)")
     fetch_p.add_argument("--manifest", default="audio_manifest.json", help="Path to the manifest JSON")
@@ -692,8 +703,8 @@ if __name__ == "__main__":
     fetcher = ChannelFetcher()
 
     if args.cmd == "fetch":
-        limit = args.limit
-        if limit is None and not (args.date_after or args.date_before):
+        limit = None if args.fetch_all else args.limit
+        if not args.fetch_all and limit is None and not (args.date_after or args.date_before):
             limit = 5  # default "newest N" behavior when no date range is given
         fetcher.fetch_channel(
             args.channel_url,
