@@ -1,4 +1,4 @@
-const CACHE_NAME = "yaf-shell-v1";
+const CACHE_NAME = "yaf-shell-v2";
 const SHELL_FILES = [
   "index.html",
   "manifest.webmanifest",
@@ -35,6 +35,18 @@ self.addEventListener("fetch", (event) => {
 
   const isNavigation = req.mode === "navigate";
   const filename = url.pathname.split("/").pop() || "index.html";
+  if (isNavigation) {
+    const indexUrl = new URL("index.html", self.registration.scope).toString();
+    event.respondWith(
+      fetch(req)
+        .then((res) => {
+          if (res.ok) caches.open(CACHE_NAME).then((cache) => cache.put(indexUrl, res.clone()));
+          return res;
+        })
+        .catch(() => caches.match(indexUrl))
+    );
+    return;
+  }
   if (!isNavigation && !SHELL_FILES.includes(filename)) return;
 
   event.respondWith(
