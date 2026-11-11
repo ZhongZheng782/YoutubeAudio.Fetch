@@ -648,7 +648,7 @@
 <script>
 const REPO_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/";
 const PAGES_BASE = "https://zhongzheng782.github.io/YoutubeAudio.Fetch/";
-const SITE_VERSION = "v0.1.006"; // bump manually on each docs/index.html change — no build step to derive this
+const SITE_VERSION = "v0.1.007"; // bump manually on each docs/index.html change — no build step to derive this
 // Re-serves GitHub Release assets with correct Content-Type/CORS (see cloudflare-worker/); iOS Safari
 // refuses to play the raw release URL, which GitHub always serves as application/octet-stream.
 const AUDIO_WORKER_BASE = "https://youtubeaudio.wenchiehlee1020.workers.dev";
@@ -666,6 +666,22 @@ let manifest = {};
 let metaCache = {};
 let playlistCatalog = [];
 let sourceConfig = [];
+const PICKER_CHANNEL_SEP = "::";
+
+function playlistSelectionForChannel(channel) {
+  const separator = channel.indexOf(PICKER_CHANNEL_SEP);
+  if (separator < 0) return null;
+  const channelDir = channel.slice(0, separator);
+  const channelId = channel.slice(separator + PICKER_CHANNEL_SEP.length);
+  const source = sourceConfig.find((item) => item.type === "playlist" && item.channel_dir === channelDir);
+  if (!source) return null;
+  const group = playlistChannelGroups(source).find((item) => item.channel_id === channelId);
+  return group ? { source, group } : null;
+}
+
+function storageChannelForPicker(channel) {
+  return playlistSelectionForChannel(channel)?.source.channel_dir || channel;
+}
 
 function playlistChannelGroups(source) {
   const groups = new Map();
@@ -820,6 +836,8 @@ async function fetchText(path) {
 }
 
 function displayNameFor(channel) {
+  const playlistSelection = playlistSelectionForChannel(channel);
+  if (playlistSelection) return playlistSelection.group.channel_name;
   if (CHANNEL_DISPLAY_NAMES[channel]) return CHANNEL_DISPLAY_NAMES[channel];
   for (const stem of Object.keys(manifest)) {
     if (channelOf(stem) !== channel) continue;
@@ -831,6 +849,8 @@ function displayNameFor(channel) {
 }
 
 function sourceForChannel(channel) {
+  const playlistSelection = playlistSelectionForChannel(channel);
+  if (playlistSelection) return playlistSelection.source;
   return sourceConfig.find((source) => source.channel_dir === channel && source.type === "playlist")
     || sourceConfig.find((source) => source.channel_dir === channel);
 }
@@ -842,13 +862,13 @@ function renderSourceSettings(channel) {
     return;
   }
   if (source.type === "playlist") {
-    renderPlaylistSourceSettings(source);
+    renderPlaylistSourceSettings(source, playlistSelectionForChannel(channel)?.group.key || null);
     return;
   }
   const isPlaylist = source.type === "playlist";
   const selectedIds = new Set(source.selected_video_ids || []);
   const channelVideos = Object.keys(manifest).filter((stem) => channelOf(stem) === channel).map((stem) => {
-        const videoId = stem.slice(channel.length + 1);
+        const videoId = stem.slice(storageChannel.length + 1);
         return { video_id: videoId, title: (metaCache[videoId] || {}).title || videoId };
       });
   const videos = isPlaylist
@@ -917,14 +937,14 @@ function renderSourceSettings(channel) {
   });
 }
 
-function renderPlaylistSourceSettings(source) {
+function renderPlaylistSourceSettings(source, selectedGroupKey = null) {
   sourceSettingsEl.replaceChildren();
   const title = document.createElement("div");
   title.className = "source-settings-title";
   title.textContent = `${source.name}｜依頻道管理影片`;
   sourceSettingsEl.appendChild(title);
 
-  for (const group of playlistChannelGroups(source)) {
+  for (const group of playlistChannelGroups(source).filter((item) => !selectedGroupKey || item.key === selectedGroupKey)) {
     const card = document.createElement("section");
     card.className = "channel-policy-card";
     const name = document.createElement("div");
@@ -1017,8 +1037,11 @@ function renderTabs() {
       const el = document.createElement("div");
       el.className = "tab" + (channel === currentChannel ? " active" : "");
       const source = sourceForChannel(channel);
-      const policyLabel = source?.type === "playlist"
-        ? "依頻道設定"
+      const pickerSelection = playlistSelectionForChannel(channel);
+      const policyLabel = pickerSelection
+        ? ({ selected: "指定影片", all: "全部", latest: "最新一支" }[pickerSelection.group.retention || "selected"])
+        : source?.type === "playlist"
+          ? "所有頻道"
         : ({ selected: "指定影片", all: "全部", latest: "最新一支" }[source?.retention || "all"]);
       el.textContent = `${displayNameFor(channel)} · ${policyLabel}`;
       el.addEventListener("click", () => selectChannel(channel));
@@ -1030,6 +1053,9 @@ function renderTabs() {
 
 function selectChannel(channel) {
   currentChannel = channel;
+  const storageChannel = storageChannelForPicker(channel);
+  const pickerSelection = playlistSelectionForChannel(channel);
+  const source = sourceForChannel(channel);
   const url = new URL(window.location.href);
   url.searchParams.set("channel", channel);
   window.history.replaceState(null, "", url);
@@ -1041,7 +1067,7 @@ function selectChannel(channel) {
   renderSourceSettings(channel);
 
   const audioEpisodes = Object.keys(manifest)
-    .filter((stem) => channelOf(stem) === channel)
+    .filter((stem) => channelOf(stem) === storageChannel)
     .map((stem) => {
       const videoId = stem.slice(channel.length + 1);
       const meta = metaCache[videoId] || {};
@@ -1059,10 +1085,10 @@ function selectChannel(channel) {
       };
     });
   const playlistEpisodes = playlistCatalog
-    .filter((playlist) => playlist.channel_dir === channel)
+    .filter((playlist) => playlist.channel_dir === storageChannel)
     .flatMap((playlist) => playlist.videos || [])
     .map((video) => {
-      const stem = `${channel}_${video.video_id}`;
+      const stem = `${storageChannel}_${video.video_id}`;
       const meta = metaCache[video.video_id] || {};
       return {
         stem,
@@ -1078,12 +1104,11 @@ function selectChannel(channel) {
         youtubeUrl: `https://www.youtube.com/watch?v=${video.video_id}`,
       };
     });
-  const source = sourceForChannel(channel);
   if (source?.retention === "latest" && source.latest_video_id && ![...audioEpisodes, ...playlistEpisodes].some((episode) => episode.videoId === source.latest_video_id)) {
     const videoId = source.latest_video_id;
     const meta = metaCache[videoId] || {};
     const video = (source.videos || []).find((item) => item.video_id === videoId) || {};
-    const stem = `${channel}_${videoId}`;
+    const stem = `${storageChannel}_${videoId}`;
     playlistEpisodes.push({
       stem,
       videoId,
@@ -1121,6 +1146,9 @@ function selectChannel(channel) {
       return true;
     });
   }
+  if (pickerSelection) {
+    episodes = episodes.filter((episode) => episode.channelUrl === pickerSelection.group.channel_url);
+  }
 
   renderEpisodeList(channel, episodes);
   mainEl.innerHTML = `<div class="placeholder">請從左邊選一集</div>`;
@@ -1138,16 +1166,20 @@ async function loadChannels() {
   playlistCatalog = sourceConfig.filter((source) => source.type === "playlist");
 
   const playlistDirs = new Set(playlistCatalog.map((source) => source.channel_dir));
+  const playlistPickerChannels = playlistCatalog.flatMap((source) => [
+    source.channel_dir,
+    ...playlistChannelGroups(source).map((group) => `${source.channel_dir}${PICKER_CHANNEL_SEP}${group.channel_id}`),
+  ]);
   CHANNEL_GROUPS = [
     { label: "Daily", channels: [...new Set(sourceConfig.filter((source) => source.type === "channel" && !playlistDirs.has(source.channel_dir)).map((source) => source.channel_dir))] },
-    { label: "Playlist", channels: [...playlistDirs] },
+    { label: "Playlist", channels: [...new Set(playlistPickerChannels)] },
   ];
   CHANNEL_DISPLAY_NAMES = {};
   sourceConfig.filter((source) => source.type === "channel").forEach((source) => { CHANNEL_DISPLAY_NAMES[source.channel_dir] = source.name; });
   playlistCatalog.forEach((source) => { CHANNEL_DISPLAY_NAMES[source.channel_dir] = source.name; });
 
   const manifestChannels = Object.keys(manifest).map(channelOf);
-  channels = [...new Set([...manifestChannels, ...sourceConfig.map((source) => source.channel_dir)])].sort();
+  channels = [...new Set([...manifestChannels, ...sourceConfig.map((source) => source.channel_dir), ...playlistPickerChannels])].sort();
   if (channels.length === 0) {
     episodeListEl.innerHTML = `<div class="loading">目前沒有任何有音檔的集數</div>`;
     return;
@@ -1225,12 +1257,13 @@ function setActiveEpisode(stem) {
 async function selectEpisode(channel, ep) {
   setActiveEpisode(ep.stem);
   const channelName = displayNameFor(channel);
+  const storageChannel = storageChannelForPicker(channel);
   const playbackUrl = ep.audioUrl ? `${AUDIO_WORKER_BASE}/audio/${ep.stem}.m4a` : "";
   const audioMarkup = ep.audioUrl
     ? `
       <div class="yaf-playback-panel">
         <audio id="player" preload="metadata" src="${playbackUrl}">
-          <track id="lyricsTrack" kind="subtitles" srclang="zh-TW" label="逐字稿" src="${PAGES_BASE}${channel}/transcripts/${ep.stem}.vtt">
+          <track id="lyricsTrack" kind="subtitles" srclang="zh-TW" label="逐字稿" src="${PAGES_BASE}${storageChannel}/transcripts/${ep.stem}.vtt">
         </audio>
 
         <!-- 頂部資訊與串流狀態（取代原本重複的集數大標題） -->
@@ -1492,8 +1525,8 @@ async function selectEpisode(channel, ep) {
   let cues = [];
   let hasKeyframes = false;
   try {
-    const md = await fetchText(`data/${channel}/${ep.stem}_keyframes.md`);
-    cues = parseKeyframesMd(md, channel, ep.stem);
+    const md = await fetchText(`data/${storageChannel}/${ep.stem}_keyframes.md`);
+    cues = parseKeyframesMd(md, storageChannel, ep.stem);
     hasKeyframes = cues.length > 0;
   } catch (_) {}
 
@@ -1521,7 +1554,7 @@ async function selectEpisode(channel, ep) {
     // Keyframes not ready: check for VTT transcript (Phase 2)
     let vttText = null;
     try {
-      const res = await fetch(`${PAGES_BASE}${channel}/transcripts/${ep.stem}.vtt`);
+      const res = await fetch(`${PAGES_BASE}${storageChannel}/transcripts/${ep.stem}.vtt`);
       if (res.ok) vttText = await res.text();
     } catch (_) {}
 
