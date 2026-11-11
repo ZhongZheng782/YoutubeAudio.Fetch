@@ -175,13 +175,16 @@ class ChannelFetcher:
 
     # -- yt-dlp -----------------------------------------------------------
 
-    def _list_tab(self, channel_url: str, tab: str, limit: int) -> tuple[list[dict], str]:
+    def _list_tab(self, channel_url: str, tab: str, limit: int | None) -> tuple[list[dict], str]:
         """Flat-playlist a single channel tab (/videos or /streams). Returns
         ([{video_id, title}], channel_name) — channel_name is best-effort per this
         one tab's response and may be empty for a tab with zero entries."""
         url = channel_url.rstrip("/") + f"/{tab}"
+        args = ["yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(), "--flat-playlist"]
+        if limit is not None:
+            args.extend(["--playlist-end", str(limit)])
         proc = subprocess.run(
-            ["yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(), "--flat-playlist", "--playlist-end", str(limit), "-J", url],
+            [*args, "-J", url],
             capture_output=True, text=True, encoding="utf-8", errors="replace",
         )
         if proc.returncode != 0:
@@ -201,7 +204,7 @@ class ChannelFetcher:
             or ""
         )
         entries = []
-        for e in data.get("entries", [])[:limit]:
+        for e in data.get("entries", [])[:limit] if limit is not None else data.get("entries", []):
             vid = e.get("id", "")
             if VIDEO_ID_RE.match(vid):
                 entries.append({"video_id": vid, "title": e.get("title", vid)})
@@ -308,7 +311,7 @@ class ChannelFetcher:
         else:
             tabs = ["videos", "streams"]
 
-        pool = self.DATE_RANGE_CANDIDATE_POOL if ranged else (limit or 5)
+        pool = self.DATE_RANGE_CANDIDATE_POOL if ranged else limit
 
         by_id: dict[str, dict] = {}
         channel_name = ""

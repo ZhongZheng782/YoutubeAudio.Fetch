@@ -52,22 +52,48 @@ jobs:
           source = next((item for item in config["sources"] if item.get("id") == source_id), None)
           if source is None:
               raise SystemExit(f"Unknown source: {source_id}")
-          related_sources = [item for item in config["sources"] if item.get("channel_dir") == source["channel_dir"]]
+          channel_id = proposal.get("channel_id")
+          if source.get("type") == "playlist":
+              policy = next((item for item in source.setdefault("channel_policies", []) if item.get("channel_id") == channel_id), None)
+              videos_for_channel = [video for video in source.get("videos", []) if video.get("channel_id") == channel_id]
+              channel_url = proposal.get("channel_url")
+              if policy is None:
+                  if not channel_id or not channel_url or not videos_for_channel:
+                      raise SystemExit(f"Unknown channel in playlist: {channel_id}")
+                  if any(video.get("channel_url") and video["channel_url"] != channel_url for video in videos_for_channel):
+                      raise SystemExit("channel_url does not match the playlist catalog")
+                  policy = {
+                      "channel_id": channel_id,
+                      "channel_name": videos_for_channel[0].get("channel_name", channel_id),
+                      "channel_url": channel_url,
+                      "fetch_limit": source.get("fetch_limit", 5),
+                      "retention": "selected",
+                      "selected_video_ids": [video["video_id"] for video in videos_for_channel],
+                      "processing": "audio_and_frames",
+                  }
+                  source["channel_policies"].append(policy)
+              channel_url = policy["channel_url"]
+              channel_videos = videos_for_channel
+          else:
+              policy = source
+              channel_url = source["url"]
+              channel_videos = []
           if proposal["retention"] == "selected":
-              available = {
-                  video.get("video_id")
-                  for item in related_sources
-                  for video in item.get("videos", [])
-              }
+              available = {video.get("video_id") for video in channel_videos}
               manifest = json.loads(Path("audio_manifest.json").read_text(encoding="utf-8"))
-              available.update(stem[-11:] for stem in manifest if stem[:-12] == source["channel_dir"])
+              metadata_path = Path("data/.video_metadata.json")
+              metadata = json.loads(metadata_path.read_text(encoding="utf-8")) if metadata_path.exists() else {}
+              available.update(
+                  stem[-11:] for stem in manifest
+                  if stem[:-12] == source["channel_dir"]
+                  and (source.get("type") != "playlist" or metadata.get(stem[-11:], {}).get("channel_url") == channel_url)
+              )
               if not selected_ids or not set(selected_ids) <= available:
                   raise SystemExit("Selected videos must exist in this source's catalog")
-          for related in related_sources:
-              if proposal["retention"] == "selected":
-                  related["selected_video_ids"] = list(dict.fromkeys(selected_ids))
-              related["retention"] = proposal["retention"]
-              related["processing"] = proposal["processing"]
+          if proposal["retention"] == "selected":
+              policy["selected_video_ids"] = list(dict.fromkeys(selected_ids))
+          policy["retention"] = proposal["retention"]
+          policy["processing"] = proposal["processing"]
           path.write_text(json.dumps(config, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
           PY
 

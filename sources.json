@@ -51,26 +51,6 @@
       "processing": "audio_and_frames"
     },
     {
-      "id": "themarketmemo-channel",
-      "type": "channel",
-      "name": "The Market Memo",
-      "url": "https://www.youtube.com/@TheMarketMemo",
-      "channel_dir": "themarketmemo",
-      "fetch_limit": 5,
-      "retention": "selected",
-      "selected_video_ids": [
-        "tNzUUET5opY",
-        "hDOZ5n9PJFI",
-        "qbU7LHPZ4Xo",
-        "IMZgGZVQu2M",
-        "DRiYHzY83T0",
-        "YtPfvTaSE8k",
-        "6OvEjZsRl4Q",
-        "U1rRnRWnMz8"
-      ],
-      "processing": "audio_and_frames"
-    },
-    {
       "id": "ai-note-101",
       "type": "channel",
       "name": "AI Note 101",
@@ -97,27 +77,43 @@
       "url": "https://www.youtube.com/playlist?list=PLSo-zkDeyJdw",
       "channel_dir": "themarketmemo",
       "fetch_limit": 100,
-      "retention": "selected",
-      "selected_video_ids": [
-        "tNzUUET5opY",
-        "hDOZ5n9PJFI",
-        "qbU7LHPZ4Xo",
-        "IMZgGZVQu2M",
-        "DRiYHzY83T0",
-        "YtPfvTaSE8k",
-        "6OvEjZsRl4Q",
-        "U1rRnRWnMz8"
+      "channel_policies": [
+        {
+          "channel_id": "UCZyTcQHJGKkGeotf0vWA7Rg",
+          "channel_name": "LEI｜The Market Memo",
+          "channel_url": "https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg",
+          "fetch_limit": 5,
+          "retention": "selected",
+          "selected_video_ids": [
+            "tNzUUET5opY",
+            "hDOZ5n9PJFI",
+            "qbU7LHPZ4Xo",
+            "IMZgGZVQu2M",
+            "DRiYHzY83T0",
+            "YtPfvTaSE8k",
+            "U1rRnRWnMz8"
+          ],
+          "processing": "audio_and_frames"
+        },
+        {
+          "channel_id": "UCOXeXCmNvxPrX-EvGzUPOFA",
+          "channel_name": "Thought Lab with Guowei",
+          "channel_url": "https://www.youtube.com/channel/UCOXeXCmNvxPrX-EvGzUPOFA",
+          "fetch_limit": 5,
+          "retention": "selected",
+          "selected_video_ids": ["6OvEjZsRl4Q"],
+          "processing": "audio_and_frames"
+        }
       ],
-      "processing": "audio_and_frames",
       "videos": [
-        { "video_id": "tNzUUET5opY", "title": "破解投資圈「窮人思維模式」", "date": "2026-01-16" },
-        { "video_id": "hDOZ5n9PJFI", "title": "全職投資人，需要具備哪些條件？", "date": "2025-12-03" },
-        { "video_id": "qbU7LHPZ4Xo", "title": "【硬核】我用二十年經驗總結的投資分析框架", "date": "2025-11-27" },
-        { "video_id": "IMZgGZVQu2M", "title": "市場崩盤的本質是什麼？｜聊聊流動性風險", "date": "2025-10-09" },
-        { "video_id": "DRiYHzY83T0", "title": "我的故事：從設計師到職業投資人", "date": "2025-10-01" },
-        { "video_id": "YtPfvTaSE8k", "title": "投資的自然科學原理｜慣性，動量，催化劑", "date": "2025-09-24" },
-        { "video_id": "6OvEjZsRl4Q", "title": "AI威力堪比核彈？為何矽谷大佬一邊砸錢發展，又警告它會毀滅人類？｜思想實驗室 Video Podcast ep115", "date": "2026-09-03" },
-        { "video_id": "U1rRnRWnMz8", "title": "投機的本質｜投機之王 Jesse Livermore 啟示錄 EP.1", "date": "2023-04-07" }
+        { "video_id": "tNzUUET5opY", "title": "破解投資圈「窮人思維模式」", "date": "2026-01-16", "channel_name": "LEI｜The Market Memo", "channel_id": "UCZyTcQHJGKkGeotf0vWA7Rg", "channel_url": "https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg" },
+        { "video_id": "hDOZ5n9PJFI", "title": "全職投資人，需要具備哪些條件？", "date": "2025-12-03", "channel_name": "LEI｜The Market Memo", "channel_id": "UCZyTcQHJGKkGeotf0vWA7Rg", "channel_url": "https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg" },
+        { "video_id": "qbU7LHPZ4Xo", "title": "【硬核】我用二十年經驗總結的投資分析框架", "date": "2025-11-27", "channel_name": "LEI｜The Market Memo", "channel_id": "UCZyTcQHJGKkGeotf0vWA7Rg", "channel_url": "https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg" },
+        { "video_id": "IMZgGZVQu2M", "title": "市場崩盤的本質是什麼？｜聊聊流動性風險", "date": "2025-10-09", "channel_name": "LEI｜The Market Memo", "channel_id": "UCZyTcQHJGKkGeotf0vWA7Rg", "channel_url": "https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg" },
+        { "video_id": "DRiYHzY83T0", "title": "我的故事：從設計師到職業投資人", "date": "2025-10-01", "channel_name": "LEI｜The Market Memo", "channel_id": "UCZyTcQHJGKkGeotf0vWA7Rg", "channel_url": "https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg" },
+        { "video_id": "YtPfvTaSE8k", "title": "投資的自然科學原理｜慣性，動量，催化劑", "date": "2025-09-24", "channel_name": "LEI｜The Market Memo", "channel_id": "UCZyTcQHJGKkGeotf0vWA7Rg", "channel_url": "https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg" },
+        { "video_id": "6OvEjZsRl4Q", "title": "AI威力堪比核彈？為何矽谷大佬一邊砸錢發展，又警告它會毀滅人類？｜思想實驗室 Video Podcast ep115", "date": "2026-09-03", "channel_name": "Thought Lab with Guowei", "channel_id": "UCOXeXCmNvxPrX-EvGzUPOFA", "channel_url": "https://www.youtube.com/channel/UCOXeXCmNvxPrX-EvGzUPOFA" },
+        { "video_id": "U1rRnRWnMz8", "title": "投機的本質｜投機之王 Jesse Livermore 啟示錄 EP.1", "date": "2023-04-07", "channel_name": "LEI｜The Market Memo", "channel_id": "UCZyTcQHJGKkGeotf0vWA7Rg", "channel_url": "https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg" }
       ]
     }
   ]

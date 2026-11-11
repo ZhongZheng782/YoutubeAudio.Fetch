@@ -89,6 +89,11 @@
   .source-selection-list { display: grid; gap: 5px; max-height: 180px; overflow: auto; margin: 10px 0; font-size: 12px; }
   .source-selection-list label { display: flex; align-items: flex-start; gap: 6px; color: var(--text); }
   .source-settings-note { margin-top: 8px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+  .channel-policy-card { border-top: 1px solid var(--border); margin-top: 12px; padding-top: 12px; }
+  .channel-policy-name { font-size: 13px; font-weight: 700; }
+  .channel-policy-url { margin-top: 2px; color: var(--muted); font-size: 10px; overflow-wrap: anywhere; }
+  .episode-channel-heading { padding: 10px 12px 6px; color: var(--cyan-dark); font-size: 12px; font-weight: 700; border-bottom: 1px solid var(--border); }
+  .episode-channel-label { color: var(--cyan-dark); font-size: 10px; font-weight: 600; }
   .layout {
     display: grid;
     grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
@@ -643,7 +648,7 @@
 <script>
 const REPO_BASE = "https://cdn.jsdelivr.net/gh/ZhongZheng782/YoutubeAudio.Fetch@main/";
 const PAGES_BASE = "https://zhongzheng782.github.io/YoutubeAudio.Fetch/";
-const SITE_VERSION = "v0.1.005"; // bump manually (v0.1.006, ...) on each docs/index.html change — no build step to derive this
+const SITE_VERSION = "v0.1.006"; // bump manually on each docs/index.html change — no build step to derive this
 // Re-serves GitHub Release assets with correct Content-Type/CORS (see cloudflare-worker/); iOS Safari
 // refuses to play the raw release URL, which GitHub always serves as application/octet-stream.
 const AUDIO_WORKER_BASE = "https://youtubeaudio.wenchiehlee1020.workers.dev";
@@ -661,6 +666,73 @@ let manifest = {};
 let metaCache = {};
 let playlistCatalog = [];
 let sourceConfig = [];
+
+function playlistChannelGroups(source) {
+  const groups = new Map();
+  const policies = source.channel_policies || [];
+  for (const policy of policies) {
+    const key = policy.channel_url || policy.channel_id || policy.channel_name;
+    groups.set(key, {
+      ...policy,
+      key,
+      videos: new Map(),
+      selectedIds: new Set(policy.selected_video_ids || []),
+      hasExplicitPolicy: true,
+    });
+  }
+  const addVideo = (video) => {
+    const videoId = video.video_id || video.videoId;
+    if (!videoId) return;
+    const meta = metaCache[videoId] || {};
+    const channelUrl = video.channel_url || meta.channel_url || "";
+    const channelId = video.channel_id || meta.channel_id || channelUrl.split("/").filter(Boolean).pop() || "unknown";
+    const key = channelUrl || channelId;
+    let group = groups.get(key);
+    if (!group) {
+      group = {
+        key,
+        channel_id: channelId,
+        channel_name: video.channel_name || meta.channel_name || "頻道未知",
+        channel_url: channelUrl,
+        retention: "selected",
+        processing: "audio_and_frames",
+        fetch_limit: source.fetch_limit || 5,
+        videos: new Map(),
+        selectedIds: new Set(),
+        hasExplicitPolicy: false,
+      };
+      groups.set(key, group);
+    }
+    group.videos.set(videoId, {
+      video_id: videoId,
+      title: video.title || meta.title || videoId,
+      date: video.date || meta.date || "",
+      channel_name: video.channel_name || meta.channel_name || group.channel_name,
+      channel_url: channelUrl,
+      channel_id: channelId,
+    });
+    if (!group.hasExplicitPolicy) group.selectedIds.add(videoId);
+    if (group.channel_name === "頻道未知" && (video.channel_name || meta.channel_name)) {
+      group.channel_name = video.channel_name || meta.channel_name;
+    }
+  };
+  (source.videos || []).forEach(addVideo);
+  Object.keys(manifest).filter((stem) => channelOf(stem) === source.channel_dir).forEach((stem) => {
+    const videoId = stem.slice(source.channel_dir.length + 1);
+    const meta = metaCache[videoId] || {};
+    addVideo({ video_id: videoId, title: meta.title, date: meta.date, channel_name: meta.channel_name, channel_url: meta.channel_url });
+  });
+  return [...groups.values()].sort((a, b) => a.channel_name.localeCompare(b.channel_name));
+}
+
+function openSourceSettingsIssue(proposal) {
+  const title = `Update source settings: ${proposal.source_id}`;
+  const body = `請自動更新 sources.json 中的來源設定：\n\n\`\`\`json\n${JSON.stringify(proposal, null, 2)}\n\`\`\``;
+  const issueUrl = new URL("https://github.com/ZhongZheng782/YoutubeAudio.Fetch/issues/new");
+  issueUrl.searchParams.set("title", title);
+  issueUrl.searchParams.set("body", body);
+  window.open(issueUrl.toString(), "_blank", "noopener");
+}
 let channels = [];
 let currentChannel = null;
 
@@ -769,6 +841,10 @@ function renderSourceSettings(channel) {
     sourceSettingsEl.innerHTML = "";
     return;
   }
+  if (source.type === "playlist") {
+    renderPlaylistSourceSettings(source);
+    return;
+  }
   const isPlaylist = source.type === "playlist";
   const selectedIds = new Set(source.selected_video_ids || []);
   const channelVideos = Object.keys(manifest).filter((stem) => channelOf(stem) === channel).map((stem) => {
@@ -837,13 +913,95 @@ function renderSourceSettings(channel) {
       processing: processingEl.value,
       selected_video_ids: retentionEl.value === "selected" ? selectedVideoIds : (source.selected_video_ids || []),
     };
-    const title = `Update source settings: ${source.id}`;
-    const body = `請自動更新 sources.json 中的來源設定：\n\n\`\`\`json\n${JSON.stringify(proposal, null, 2)}\n\`\`\``;
-    const issueUrl = new URL("https://github.com/ZhongZheng782/YoutubeAudio.Fetch/issues/new");
-    issueUrl.searchParams.set("title", title);
-    issueUrl.searchParams.set("body", body);
-    window.open(issueUrl.toString(), "_blank", "noopener");
+    openSourceSettingsIssue(proposal);
   });
+}
+
+function renderPlaylistSourceSettings(source) {
+  sourceSettingsEl.replaceChildren();
+  const title = document.createElement("div");
+  title.className = "source-settings-title";
+  title.textContent = `${source.name}｜依頻道管理影片`;
+  sourceSettingsEl.appendChild(title);
+
+  for (const group of playlistChannelGroups(source)) {
+    const card = document.createElement("section");
+    card.className = "channel-policy-card";
+    const name = document.createElement("div");
+    name.className = "channel-policy-name";
+    name.textContent = group.channel_name;
+    card.appendChild(name);
+    if (group.channel_url) {
+      const url = document.createElement("div");
+      url.className = "channel-policy-url";
+      url.textContent = group.channel_url;
+      card.appendChild(url);
+    }
+
+    const controls = document.createElement("div");
+    controls.className = "source-settings-controls";
+    const retentionLabel = document.createElement("label");
+    retentionLabel.textContent = "保留方式";
+    const retention = document.createElement("select");
+    retention.innerHTML = `<option value="selected">指定影片</option><option value="all">全部影片</option><option value="latest">只留最新一支</option>`;
+    retention.value = group.retention || "selected";
+    retentionLabel.appendChild(retention);
+    const processingLabel = document.createElement("label");
+    processingLabel.textContent = "處理內容";
+    const processing = document.createElement("select");
+    processing.innerHTML = `<option value="audio_only">音訊＋逐字稿（不擷取畫面）</option><option value="audio_and_frames">音訊＋逐字稿＋影片畫面</option>`;
+    processing.value = group.processing || "audio_and_frames";
+    processingLabel.appendChild(processing);
+    controls.append(retentionLabel, processingLabel);
+    card.appendChild(controls);
+
+    const selection = document.createElement("div");
+    selection.className = "source-selection-list";
+    const renderSelection = () => {
+      selection.replaceChildren();
+      if (retention.value !== "selected") return;
+      for (const video of [...group.videos.values()].sort((a, b) => (b.date || "").localeCompare(a.date || ""))) {
+        const label = document.createElement("label");
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.value = video.video_id;
+        checkbox.checked = group.selectedIds.has(video.video_id);
+        const textEl = document.createElement("span");
+        textEl.textContent = `${video.title}${video.date ? ` · ${video.date}` : ""}`;
+        label.append(checkbox, textEl);
+        selection.appendChild(label);
+      }
+    };
+    retention.addEventListener("change", renderSelection);
+    renderSelection();
+    card.appendChild(selection);
+
+    const save = document.createElement("button");
+    save.type = "button";
+    save.textContent = `儲存 ${group.channel_name} 設定`;
+    save.disabled = !group.channel_url;
+    save.addEventListener("click", () => {
+      const selectedVideoIds = [...selection.querySelectorAll("input:checked")].map((input) => input.value);
+      if (retention.value === "selected" && selectedVideoIds.length === 0) {
+        alert("請至少選取一支要保留的影片。");
+        return;
+      }
+      openSourceSettingsIssue({
+        source_id: source.id,
+        channel_id: group.channel_id,
+        channel_url: group.channel_url,
+        retention: retention.value,
+        processing: processing.value,
+        selected_video_ids: retention.value === "selected" ? selectedVideoIds : [...group.selectedIds],
+      });
+    });
+    card.appendChild(save);
+    sourceSettingsEl.appendChild(card);
+  }
+  const note = document.createElement("div");
+  note.className = "source-settings-note";
+  note.textContent = "每組設定只影響該頻道。Selected／Latest 會移除該頻道未保留影片的音檔與相關資料；變更會以 GitHub Issue 提交。";
+  sourceSettingsEl.appendChild(note);
 }
 
 function renderTabs() {
@@ -859,7 +1017,9 @@ function renderTabs() {
       const el = document.createElement("div");
       el.className = "tab" + (channel === currentChannel ? " active" : "");
       const source = sourceForChannel(channel);
-      const policyLabel = { selected: "指定影片", all: "全部", latest: "最新一支" }[source?.retention || "all"];
+      const policyLabel = source?.type === "playlist"
+        ? "依頻道設定"
+        : ({ selected: "指定影片", all: "全部", latest: "最新一支" }[source?.retention || "all"]);
       el.textContent = `${displayNameFor(channel)} · ${policyLabel}`;
       el.addEventListener("click", () => selectChannel(channel));
       groupEl.appendChild(el);
@@ -891,6 +1051,8 @@ function selectChannel(channel) {
         audioUrl: manifest[stem],
         title: meta.title || stem,
         date: meta.date || "",
+        channelName: meta.channel_name || displayNameFor(channel),
+        channelUrl: meta.channel_url || "",
         thumbnail: meta.thumbnail || `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`,
         phase: meta.phase !== undefined ? meta.phase : 1,
         description: meta.description || "",
@@ -908,6 +1070,8 @@ function selectChannel(channel) {
         audioUrl: manifest[stem] || "",
         title: video.title || video.video_id,
         date: video.date || meta.date || "",
+        channelName: video.channel_name || meta.channel_name || "頻道未知",
+        channelUrl: video.channel_url || meta.channel_url || "",
         thumbnail: meta.thumbnail || video.thumbnail || `https://i.ytimg.com/vi/${video.video_id}/hqdefault.jpg`,
         phase: manifest[stem] ? (meta.phase !== undefined ? meta.phase : 1) : 0,
         description: meta.description || "",
@@ -926,6 +1090,8 @@ function selectChannel(channel) {
       audioUrl: manifest[stem] || "",
       title: video.title || meta.title || videoId,
       date: video.date || meta.date || "",
+      channelName: video.channel_name || meta.channel_name || "頻道未知",
+      channelUrl: video.channel_url || meta.channel_url || "",
       thumbnail: meta.thumbnail || video.thumbnail || `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`,
       phase: manifest[stem] ? (meta.phase !== undefined ? meta.phase : 1) : 0,
       description: meta.description || "",
@@ -933,7 +1099,7 @@ function selectChannel(channel) {
     });
   }
   let episodes = [...new Map([...audioEpisodes, ...playlistEpisodes].map((episode) => [episode.stem, episode])).values()]
-    .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    .sort((a, b) => (a.channelName || "").localeCompare(b.channelName || "") || (b.date || "").localeCompare(a.date || ""));
   if (source?.retention === "latest") {
     episodes = source.latest_video_id
       ? episodes.filter((episode) => episode.videoId === source.latest_video_id)
@@ -941,6 +1107,19 @@ function selectChannel(channel) {
   } else if (source?.retention === "selected") {
     const selectedIds = new Set(source.selected_video_ids || []);
     episodes = episodes.filter((episode) => selectedIds.has(episode.videoId));
+  } else if (source?.type === "playlist") {
+    const groups = playlistChannelGroups(source);
+    const latestByChannel = new Map();
+    episodes.forEach((episode) => {
+      if (episode.channelUrl && !latestByChannel.has(episode.channelUrl)) latestByChannel.set(episode.channelUrl, episode.videoId);
+    });
+    episodes = episodes.filter((episode) => {
+      const group = groups.find((item) => item.channel_url === episode.channelUrl);
+      if (!group) return true;
+      if (group.retention === "selected") return group.selectedIds.has(episode.videoId);
+      if (group.retention === "latest") return episode.videoId === (group.latest_video_id || latestByChannel.get(episode.channelUrl));
+      return true;
+    });
   }
 
   renderEpisodeList(channel, episodes);
@@ -990,17 +1169,35 @@ function getBadge(phase, hasAudio) {
 
 function renderEpisodeList(channel, episodes) {
   episodeListEl.innerHTML = "";
+  const isPlaylist = sourceForChannel(channel)?.type === "playlist";
+  let previousChannel = null;
   episodes.forEach((ep) => {
+    const channelKey = ep.channelUrl || ep.channelName;
+    if (isPlaylist && channelKey !== previousChannel) {
+      const heading = document.createElement("div");
+      heading.className = "episode-channel-heading";
+      heading.textContent = ep.channelName || "頻道未知";
+      episodeListEl.appendChild(heading);
+      previousChannel = channelKey;
+    }
     const el = document.createElement("div");
     el.className = "episode";
     el.dataset.stem = ep.stem;
-    el.innerHTML = `
-      <div class="meta-row">
-        <span class="date">${ep.date || "日期未知"}</span>
-        ${getBadge(ep.phase, !!ep.audioUrl)}
-      </div>
-      <div class="title">${ep.title}</div>
-    `;
+    const metaRow = document.createElement("div");
+    metaRow.className = "meta-row";
+    const date = document.createElement("span");
+    date.className = "date";
+    date.textContent = ep.date || "日期未知";
+    const channelLabel = document.createElement("span");
+    channelLabel.className = "episode-channel-label";
+    channelLabel.textContent = isPlaylist ? (ep.channelName || "頻道未知") : "";
+    const badge = document.createElement("span");
+    badge.innerHTML = getBadge(ep.phase, !!ep.audioUrl);
+    metaRow.append(date, channelLabel, badge);
+    const title = document.createElement("div");
+    title.className = "title";
+    title.textContent = ep.title;
+    el.append(metaRow, title);
     el.addEventListener("click", () => selectEpisode(channel, ep));
     episodeListEl.appendChild(el);
   });

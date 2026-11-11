@@ -120,11 +120,14 @@ python scripts/channel_fetch.py fetch https://www.youtube.com/@yutinghaofinance 
 除非另外明確指定。
 
 ### 方式 F：公開 Playlist 與每日自動排程
-公開 YouTube Playlist 可放在 repo 根目錄的 `sources.json`，每個項目指定 `type: "playlist"`、
-`url`、穩定的 `channel_dir`、`fetch_limit`、`retention` 與 `processing`。新加入的播放清單預設
-使用 `retention: "selected"`，並把目前要保留的影片 ID 放入 `selected_video_ids`。可選
-`all` 保留全部影片，或 `latest` 只保留最新一支。處理方式使用 `audio_only`（音訊與逐字稿）
-或 `audio_and_frames`（另外擷取影片畫面）。對 Playlist 執行：
+YouTube.Fetch 等播放清單來源放在 repo 根目錄的 `sources.json`，指定 `type: "playlist"`、
+播放清單 `url` 與穩定的 `channel_dir`。每日排程會依播放清單影片 metadata 中的上傳者頻道
+分組；每個 `channel_policies` 項目包含 `channel_id`、`channel_name`、`channel_url`、
+`retention`、`selected_video_ids` 與 `processing`。`selected` 只抓取指定影片；`all` 抓取並
+保留該頻道全部影片；`latest` 抓取並保留該頻道最新一支。處理方式使用 `audio_only`（音訊與逐字稿）
+或 `audio_and_frames`（另外擷取影片畫面）。播放清單新增影片預設以 `selected` 加入該影片
+所屬頻道。每日排程會直接依上傳者頻道抓取，而非把整個播放清單當成單一頻道處理。
+若要手動抓取播放清單本身，可執行：
 ```bash
 python scripts/channel_fetch.py fetch \
     'https://www.youtube.com/playlist?list=PLSo-zkDeyJdw' \

@@ -62,7 +62,7 @@ def delete_audio_release(session: requests.Session, repo_api: str, stem: str) ->
         ref.raise_for_status()
 
 
-def latest_video_id(source: dict, repo: str, token: str) -> str | None:
+def latest_video_id(channel_url: str, repo: str, token: str) -> str | None:
     module_path = ROOT / "skills/skill-youtube-channel-fetch/scripts/channel_fetch.py"
     spec = importlib.util.spec_from_file_location("source_channel_fetch", module_path)
     if spec is None or spec.loader is None:
@@ -71,8 +71,95 @@ def latest_video_id(source: dict, repo: str, token: str) -> str | None:
     sys.modules[spec.name] = module
     spec.loader.exec_module(module)
     fetcher = module.ChannelFetcher(source_repo=repo, token=token, repo_root=ROOT)
-    videos = fetcher.list_channel_videos(source["url"], limit=1)
+    videos = fetcher.list_channel_videos(channel_url, limit=1)
     return videos[0]["video_id"] if videos else None
+
+
+def source_video_ids(manifest: dict, channel_dir: str) -> set[str]:
+    return {
+        stem[-11:] for stem in manifest
+        if len(stem) >= 12 and stem[:-12] == channel_dir
+    } | video_ids_in_data(channel_dir)
+
+
+def apply_retention(channel_dir: str, policy: dict, manifest: dict, metadata: dict,
+                    session: requests.Session | None, repo_api: str, repo: str, token: str,
+                    channel_url: str | None = None) -> bool:
+    mode = policy.get("retention", "all")
+    if mode == "all":
+        return False
+    filter_channel_url = channel_url
+
+    existing_ids = source_video_ids(manifest, channel_dir)
+    if channel_url:
+        # The playlist data folder contains videos from several uploaders. Limit this
+        # policy to the selected uploader so other channel groups remain untouched.
+        owned_ids = {
+            video_id for video_id in existing_ids
+            if metadata.get(video_id, {}).get("channel_url") == channel_url
+        }
+        owned_ids.update(policy.get("selected_video_ids", []))
+    else:
+        owned_ids = existing_ids
+
+    if mode == "selected":
+        keep_ids = set(policy.get("selected_video_ids", []))
+        if not keep_ids:
+            print(f"::warning::selected mode has no video IDs for {policy.get('channel_name', channel_dir)}; keeping all files")
+            return False
+    elif mode == "latest":
+        latest_url = channel_url or policy.get("url")
+        try:
+            newest_id = latest_video_id(latest_url, repo, token) if latest_url else None
+        except Exception as exc:
+            print(f"::warning::cannot determine latest video for {policy.get('channel_name', channel_dir)}: {exc}; keeping all files")
+            return False
+        if not newest_id:
+            print(f"::warning::no latest video found for {policy.get('channel_name', channel_dir)}; keeping all files")
+            return False
+        keep_ids = {newest_id}
+        if policy.get("latest_video_id") != newest_id:
+            policy["latest_video_id"] = newest_id
+            config_changed = True
+        else:
+            config_changed = False
+    else:
+        print(f"::warning::unknown retention mode {mode!r}; keeping all files")
+        return False
+
+    remove_ids = owned_ids - keep_ids
+    if not remove_ids:
+        return locals().get("config_changed", False)
+    if not token or session is None:
+        print(f"::warning::GITHUB_TOKEN missing; cannot prune audio releases for {policy.get('channel_name', channel_dir)}")
+        return locals().get("config_changed", False)
+
+    remove_stems = [
+        stem for stem in manifest
+        if len(stem) >= 12 and stem[:-12] == channel_dir and stem[-11:] in remove_ids
+    ]
+    for stem in remove_stems:
+        delete_audio_release(session, repo_api, stem)
+        manifest.pop(stem, None)
+
+    folder = ROOT / "data" / channel_dir
+    if folder.exists():
+        prefix = f"{channel_dir}_"
+        for path in folder.iterdir():
+            remainder = path.name[len(prefix):] if path.name.startswith(prefix) else ""
+            video_id = remainder[:11]
+            if VIDEO_ID_RE.fullmatch(video_id) and (len(remainder) == 11 or remainder[11] in "_.") and video_id in remove_ids:
+                if filter_channel_url and metadata.get(video_id, {}).get("channel_url") != filter_channel_url:
+                    continue
+                if path.is_dir():
+                    shutil.rmtree(path)
+                else:
+                    path.unlink()
+    for video_id in remove_ids:
+        if not filter_channel_url or metadata.get(video_id, {}).get("channel_url") == filter_channel_url:
+            metadata.pop(video_id, None)
+    print(f"[source retention] {policy.get('channel_name', channel_dir)}: retained {len(keep_ids)} video(s), removed {len(remove_ids)}")
+    return locals().get("config_changed", False)
 
 
 def main() -> int:
@@ -82,78 +169,17 @@ def main() -> int:
     repo = os.environ.get("GITHUB_REPOSITORY", "ZhongZheng782/YoutubeAudio.Fetch")
     token = os.environ.get("GITHUB_TOKEN", "")
 
-    by_directory: dict[str, list[dict]] = {}
-    for source in config.get("sources", []):
-        by_directory.setdefault(source["channel_dir"], []).append(source)
-
     session, repo_api = release_api(repo, token) if token else (None, "")
     config_changed = False
-    for channel, sources in by_directory.items():
-        modes = {source.get("retention", "all") for source in sources}
-        if modes == {"all"}:
-            continue
-        if len(modes) != 1:
-            print(f"::warning::retention conflict for {channel}; keeping all files")
-            continue
-        mode = next(iter(modes))
-        existing_ids = {
-            stem[-11:] for stem in manifest
-            if stem[:-12] == channel and len(stem) >= 12
-        } | video_ids_in_data(channel)
-        if mode == "selected":
-            keep_ids = {
-                video_id
-                for source in sources
-                for video_id in source.get("selected_video_ids", [])
-            }
-            keep_ids &= existing_ids
-        elif mode == "latest":
-            source = next((item for item in sources if item.get("type") == "playlist"), sources[0])
-            try:
-                newest_id = latest_video_id(source, repo, token)
-            except Exception as exc:
-                print(f"::warning::cannot determine latest video for {channel}: {exc}; keeping all files")
-                continue
-            if not newest_id:
-                print(f"::warning::no latest video found for {channel}; keeping all files")
-                continue
-            keep_ids = {newest_id}
-            for source in sources:
-                source["latest_video_id"] = newest_id
-            config_changed = True
-        else:
-            print(f"::warning::unknown retention mode {mode!r} for {channel}; keeping all files")
-            continue
-
-        remove_ids = existing_ids - keep_ids
-        if mode == "selected" and not keep_ids:
-            print(f"::warning::selected mode has no existing selected videos for {channel}; keeping all files")
-            continue
-        if not remove_ids:
-            continue
-        if not token:
-            print(f"::warning::GITHUB_TOKEN missing; cannot prune audio releases for {channel}")
-            continue
-
-        remove_stems = [stem for stem in manifest if stem[:-12] == channel and stem[-11:] in remove_ids]
-        for stem in remove_stems:
-            delete_audio_release(session, repo_api, stem)
-            manifest.pop(stem, None)
-
-        folder = ROOT / "data" / channel
-        if folder.exists():
-            for path in folder.iterdir():
-                prefix = f"{channel}_"
-                remainder = path.name[len(prefix):] if path.name.startswith(prefix) else ""
-                video_id = remainder[:11]
-                if VIDEO_ID_RE.fullmatch(video_id) and (len(remainder) == 11 or remainder[11] in "_.") and video_id in remove_ids:
-                    if path.is_dir():
-                        shutil.rmtree(path)
-                    else:
-                        path.unlink()
-        for video_id in remove_ids:
-            metadata.pop(video_id, None)
-        print(f"[source retention] {channel}: retained {len(keep_ids)} video(s), removed {len(remove_ids)}")
+    for source in config.get("sources", []):
+        if source.get("type") == "channel":
+            config_changed |= apply_retention(source["channel_dir"], source, manifest, metadata,
+                                               session, repo_api, repo, token)
+        elif source.get("type") == "playlist":
+            for policy in source.get("channel_policies", []):
+                config_changed |= apply_retention(source["channel_dir"], policy, manifest, metadata,
+                                                   session, repo_api, repo, token,
+                                                   channel_url=policy.get("channel_url"))
 
     MANIFEST_PATH.write_text(json.dumps(manifest, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
     if METADATA_PATH.exists():
