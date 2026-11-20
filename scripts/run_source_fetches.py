@@ -3,13 +3,98 @@
 from __future__ import annotations
 
 import json
+import os
+import re
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
+
+import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 FETCHER = ROOT / "skills/skill-youtube-channel-fetch/scripts/channel_fetch.py"
 INCREMENTAL_FETCH_LIMIT = 25
+YOUTUBE_API_ROOT = "https://www.googleapis.com/youtube/v3"
+YOUTUBE_HANDLE_RE = re.compile(r"youtube\.com/@([^/?]+)", re.IGNORECASE)
+YOUTUBE_CHANNEL_ID_RE = re.compile(r"youtube\.com/channel/(UC[A-Za-z0-9_-]+)", re.IGNORECASE)
+
+
+def list_uploads(policy: dict, api_key: str, mode: str) -> tuple[list[dict], str, str, str]:
+    """List this channel's uploads, stopping at the saved cursor or date cutoff."""
+    channel_id = policy.get("youtube_channel_id") or policy.get("channel_id")
+    uploads_id = policy.get("youtube_uploads_playlist_id")
+
+    def api_get(endpoint: str, **params: str) -> dict:
+        response = requests.get(
+            f"{YOUTUBE_API_ROOT}/{endpoint}",
+            params={**params, "key": api_key}, timeout=30,
+        )
+        if response.status_code >= 400:
+            raise RuntimeError(f"YouTube API {endpoint} returned HTTP {response.status_code}: {response.text[:300]}")
+        return response.json()
+
+    if not uploads_id:
+        if channel_id and channel_id.startswith("UC"):
+            channel = api_get("channels", part="contentDetails", id=channel_id)
+        else:
+            handle_match = YOUTUBE_HANDLE_RE.search(policy["channel_url"])
+            channel_match = YOUTUBE_CHANNEL_ID_RE.search(policy["channel_url"])
+            if handle_match:
+                channel = api_get("channels", part="contentDetails", forHandle=handle_match.group(1))
+            elif channel_match:
+                channel = api_get("channels", part="contentDetails", id=channel_match.group(1))
+            else:
+                raise ValueError(f"cannot resolve channel ID from {policy['channel_url']}")
+        items = channel.get("items", [])
+        if not items:
+            raise ValueError(f"YouTube channel not found: {policy['channel_url']}")
+        channel_id = items[0]["id"]
+        uploads_id = items[0]["contentDetails"]["relatedPlaylists"]["uploads"]
+
+    cutoff = policy.get("date_after") if mode == "since_date" else None
+    completed_scope = policy.get("sync_completed_scope")
+    scope = "all" if mode == "all" else f"since_date:{cutoff}"
+    cursor = policy.get("youtube_sync_cursor") if completed_scope == scope else None
+    first_page_only = completed_scope == scope and not cursor
+    entries: list[dict] = []
+    page_token = ""
+    newest_id = ""
+    cursor_found = False
+    while True:
+        params = {"part": "snippet,contentDetails", "playlistId": uploads_id, "maxResults": "50"}
+        if page_token:
+            params["pageToken"] = page_token
+        page = api_get("playlistItems", **params)
+        for item in page.get("items", []):
+            snippet = item.get("snippet", {})
+            video_id = snippet.get("resourceId", {}).get("videoId")
+            if not video_id:
+                continue
+            if not newest_id:
+                newest_id = video_id
+            if cursor and video_id == cursor:
+                cursor_found = True
+                break
+            published = item.get("contentDetails", {}).get("videoPublishedAt") or snippet.get("publishedAt", "")
+            published_date = published[:10] if len(published) >= 10 else ""
+            if cutoff and published_date and published_date < cutoff:
+                # Initial date backfill is newest-first; older pages are out of scope.
+                if not cursor:
+                    cursor_found = True
+                    break
+                continue
+            entries.append({
+                "video_id": video_id,
+                "title": snippet.get("title") or video_id,
+                "channel": snippet.get("videoOwnerChannelTitle") or policy.get("channel_name") or "channel",
+            })
+        if cursor_found or first_page_only:
+            break
+        page_token = page.get("nextPageToken", "")
+        if not page_token:
+            break
+    return entries, channel_id, uploads_id, newest_id or cursor or ""
 
 
 def main() -> int:
@@ -64,6 +149,9 @@ def main() -> int:
 
 def run_policy(source: dict, policy: dict, override: str) -> None:
     mode = policy.get("retention", "all")
+    if mode == "since_date" and not policy.get("date_after"):
+        print(f"::warning::since_date mode has no date_after for {policy['id']}; skipping")
+        return
     configured_limit = int(override or policy.get("fetch_limit", source.get("fetch_limit", 5)))
     limit = 1 if mode == "latest" else configured_limit
     scope = "all" if mode == "all" else f"since_date:{policy.get('date_after', '')}"
@@ -76,18 +164,40 @@ def run_policy(source: dict, policy: dict, override: str) -> None:
         "--source-slug", source["channel_dir"],
         "--sync",
     ]
+    api_key = os.environ.get("YOUTUBE_DATA_API_KEY", "").strip()
+    api_entries = None
+    api_state = None
+    if api_key and mode in {"all", "since_date"} and not override:
+        try:
+            api_entries, channel_id, uploads_id, newest_id = list_uploads(policy, api_key, mode)
+            api_state = (channel_id, uploads_id, newest_id)
+        except Exception as exc:
+            print(f"::warning::YouTube Data API listing failed for {policy['id']} ({type(exc).__name__}); falling back to yt-dlp", flush=True)
+
+    video_list_path = None
+    if api_entries is not None:
+        video_list = tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", suffix=".json", prefix="youtube-uploads-", delete=False
+        )
+        try:
+            json.dump(api_entries, video_list, ensure_ascii=False)
+            video_list.close()
+            video_list_path = Path(video_list.name)
+            command.extend(["--video-list", str(video_list_path)])
+        except Exception:
+            video_list.close()
+            Path(video_list.name).unlink(missing_ok=True)
+            raise
     if mode == "all" and not incremental and not override:
-        command.append("--all")
+        if api_entries is None:
+            command.append("--all")
     elif mode == "since_date":
         date_after = policy.get("date_after")
-        if not date_after:
-            print(f"::warning::since_date mode has no date_after for {policy['id']}; skipping")
-            return
-        if not incremental:
+        if not incremental and api_entries is None:
             command.extend(["--date-after", date_after])
-        if incremental or override:
+        if api_entries is None and (incremental or override):
             command.extend(["--limit", str(limit)])
-    else:
+    elif api_entries is None:
         command.extend(["--limit", str(limit)])
     if mode == "selected":
         selected = policy.get("selected_video_ids", [])
@@ -97,9 +207,22 @@ def run_policy(source: dict, policy: dict, override: str) -> None:
         command = [*command, *(arg for video_id in selected for arg in ("--video-id", video_id))]
 
     print(f"[run_source_fetches] fetching {policy.get('channel_name', source['name'])} ({mode})", flush=True)
-    result = subprocess.run(command, cwd=ROOT)
+    try:
+        result = subprocess.run(command, cwd=ROOT)
+    finally:
+        if video_list_path:
+            video_list_path.unlink(missing_ok=True)
     if result.returncode:
         print(f"::warning::fetch failed for {policy['id']} (exit {result.returncode})")
+    elif api_state:
+        channel_id, uploads_id, newest_id = api_state
+        policy["youtube_channel_id"] = channel_id
+        policy["youtube_uploads_playlist_id"] = uploads_id
+        if newest_id:
+            policy["youtube_sync_cursor"] = newest_id
+        if mode in {"all", "since_date"} and not override:
+            policy["sync_completed_scope"] = scope
+        print(f"[run_source_fetches] {policy['id']}: playlist sync processed {len(api_entries)} videos", flush=True)
     elif mode in {"all", "since_date"} and not override and not already_scanned:
         policy["sync_completed_scope"] = scope
         print(f"[run_source_fetches] {policy['id']}: initial scan completed for {scope}", flush=True)

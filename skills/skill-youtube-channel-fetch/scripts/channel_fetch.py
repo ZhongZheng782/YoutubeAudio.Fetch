@@ -451,13 +451,25 @@ class ChannelFetcher:
         date_before: str | None = None,
         source_slug: str | None = None,
         video_ids: list[str] | None = None,
+        video_entries: list[dict] | None = None,
     ) -> dict[str, int]:
         manifest_path = Path(manifest_path)
         manifest: dict[str, str] = {}
         if manifest_path.exists():
             manifest = {k: v for k, v in json.loads(manifest_path.read_text(encoding="utf-8")).items() if not k.startswith("_")}
 
-        if video_ids:
+        if video_entries is not None:
+            videos = []
+            for entry in video_entries:
+                video_id = entry.get("video_id", "")
+                if not VIDEO_ID_RE.fullmatch(video_id):
+                    raise ValueError(f"invalid YouTube video ID: {video_id!r}")
+                videos.append({
+                    "video_id": video_id,
+                    "title": entry.get("title") or video_id,
+                    "channel": entry.get("channel") or "channel",
+                })
+        elif video_ids:
             videos = []
             for video_id in dict.fromkeys(video_ids):
                 if not VIDEO_ID_RE.fullmatch(video_id):
@@ -589,6 +601,7 @@ class ChannelFetcher:
             "transcribed_manual": transcribed_manual,
             "added": added,
             "skipped": skipped,
+            "failed": failed,
         }
 
     # -- refinement of manual-transcript stems -------------------------------
@@ -682,6 +695,7 @@ if __name__ == "__main__":
     fetch_p.add_argument("--manifest", default="audio_manifest.json", help="Path to the manifest JSON")
     fetch_p.add_argument("--source-slug", default=None, help="Stable data/ and manifest slug for this source")
     fetch_p.add_argument("--video-id", action="append", dest="video_ids", default=None, help="Fetch only this selected video ID (repeatable)")
+    fetch_p.add_argument("--video-list", default=None, help="JSON file containing video_id/title/channel entries from a playlist API")
     fetch_p.add_argument("--sync", action="store_true", help="Run whisper_issue_client.sync_manifest afterwards")
     fetch_p.add_argument(
         "--no-transcript", action="store_true",
@@ -708,7 +722,10 @@ if __name__ == "__main__":
         limit = None if args.fetch_all else args.limit
         if not args.fetch_all and limit is None and not (args.date_after or args.date_before):
             limit = 5  # default "newest N" behavior when no date range is given
-        fetcher.fetch_channel(
+        video_entries = None
+        if args.video_list:
+            video_entries = json.loads(Path(args.video_list).read_text(encoding="utf-8"))
+        result = fetcher.fetch_channel(
             args.channel_url,
             limit=limit,
             manifest_path=args.manifest,
@@ -718,11 +735,18 @@ if __name__ == "__main__":
             date_before=args.date_before,
             source_slug=args.source_slug,
             video_ids=args.video_ids,
+            video_entries=video_entries,
         )
+        if result.get("failed", 0):
+            return_code = 1
+        else:
+            return_code = 0
         if args.sync:
             sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "skill-mlx-api-client-whisper" / "scripts"))
             from whisper_issue_client import WhisperIssueClient  # type: ignore
 
             WhisperIssueClient().sync_manifest(args.manifest)
+        if args.cmd == "fetch":
+            raise SystemExit(return_code)
     elif args.cmd == "refine":
         fetcher.request_refinement(manifest_path=args.manifest, stems=args.stems)

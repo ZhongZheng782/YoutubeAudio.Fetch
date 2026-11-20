@@ -67,7 +67,7 @@ data/{channel}/{channel}_{video_id}_FIN.srt  # pipeline 依 CER 挑選出的最�
 
 `.github/workflows/daily-channel-fetch.yml` 每天自動：
 
-1. 讀取 `sources.json` 的頻道與播放清單來源，抓取新影片、寫逐字稿/manifest、觸發 whisper
+1. 讀取 `sources.json` 的頻道與播放清單來源，優先用 YouTube uploads playlist 分頁找新影片，抓取音訊/逐字稿並觸發 whisper
 2. 對每個「有 `FIN.srt`（沒有的話退而求其次用 `GT.srt`）但還沒有 `_keyframes.md`」的
    stem 跑 `skill-youtube-channel-srt-keyframe-extract`，補齊關鍵畫面擷取（每支重試一次；
    YouTube 端偶發限流導致某支失敗不會擋住其他支，會留到隔天的排程自動重試，因為判斷條件
@@ -82,6 +82,7 @@ data/{channel}/{channel}_{video_id}_FIN.srt  # pipeline 依 CER 挑選出的最�
 此 workflow 需要在 repo 的 GitHub Actions Secrets 設定：
 - `YOUTUBE_COOKIES_B64`：YouTube cookies.txt 內容的 base64 編碼；給 `yt-dlp` 通過
   YouTube「Sign in to confirm you’re not a bot」檢查用
+- `YOUTUBE_DATA_API_KEY`：YouTube Data API key；啟用 uploads playlist 游標同步。缺少時會退回 `yt-dlp` 頻道掃描
 - `REPO_FILE_SYNC_WENCHIEHLEE_MONEY`：對本 repo `Contents: Read and write`（發布音訊 Release、
   push commit）
 - `REPO_FILE_SYNC_ZHONGZHENG782_MONEY`：對 `WHISPER_TARGET_REPO`（Mac-mini repo）

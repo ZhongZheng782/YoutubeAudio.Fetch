@@ -93,6 +93,7 @@ jobs:
           WHISPER_SOURCE_TYPE: youtube
           REPO_FILE_SYNC_WENCHIEHLEE_MONEY: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
           REPO_FILE_SYNC_ZHONGZHENG782_MONEY: ${{ secrets.REPO_FILE_SYNC_ZHONGZHENG782_MONEY }}
+          YOUTUBE_DATA_API_KEY: ${{ secrets.YOUTUBE_DATA_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           LIMIT_OVERRIDE="${{ github.event.inputs.limit }}"
