@@ -211,7 +211,7 @@ class ChannelFetcher:
                 timestamp = e.get("release_timestamp") or e.get("timestamp")
                 upload_date = e.get("upload_date")
                 if not timestamp and isinstance(upload_date, str) and len(upload_date) == 8 and upload_date.isdigit():
-                    timestamp = int(upload_date)
+                    timestamp = int(datetime.strptime(upload_date, "%Y%m%d").replace(tzinfo=timezone.utc).timestamp())
                 if timestamp:
                     entries[-1]["_ts"] = int(timestamp)
         return entries, channel_name
@@ -267,7 +267,9 @@ class ChannelFetcher:
         instead of always walking the full DATE_RANGE_CANDIDATE_POOL."""
         matched = []
         for e in entries:
-            ts = self._video_upload_timestamp(e["video_id"])
+            # Flat playlist metadata often already includes upload_date/timestamp.
+            # Use it before making a separate yt-dlp request for every video.
+            ts = e.get("_ts") or self._video_upload_timestamp(e["video_id"])
             if ts == 0:
                 continue  # lookup failed; skip rather than mis-include/exclude
             date_str = datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y%m%d")

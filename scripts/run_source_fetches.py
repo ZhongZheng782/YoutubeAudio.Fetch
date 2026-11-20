@@ -9,6 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 FETCHER = ROOT / "skills/skill-youtube-channel-fetch/scripts/channel_fetch.py"
+INCREMENTAL_FETCH_LIMIT = 25
 
 
 def main() -> int:
@@ -55,6 +56,9 @@ def main() -> int:
         for channel_url, policy in policies.items():
             if channel_url not in derived:
                 run_policy(source, policy, override)
+    (ROOT / "sources.json").write_text(
+        json.dumps(config, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
     return 0
 
 
@@ -62,20 +66,26 @@ def run_policy(source: dict, policy: dict, override: str) -> None:
     mode = policy.get("retention", "all")
     configured_limit = int(override or policy.get("fetch_limit", source.get("fetch_limit", 5)))
     limit = 1 if mode == "latest" else configured_limit
+    scope = "all" if mode == "all" else f"since_date:{policy.get('date_after', '')}"
+    already_scanned = policy.get("sync_completed_scope") == scope
+    incremental = already_scanned and mode in {"all", "since_date"} and not override
+    if incremental:
+        limit = max(limit, INCREMENTAL_FETCH_LIMIT)
     command = [
         sys.executable, str(FETCHER), "fetch", policy.get("channel_url", source["url"]),
         "--source-slug", source["channel_dir"],
         "--sync",
     ]
-    if mode == "all" and not override:
+    if mode == "all" and not incremental and not override:
         command.append("--all")
     elif mode == "since_date":
         date_after = policy.get("date_after")
         if not date_after:
             print(f"::warning::since_date mode has no date_after for {policy['id']}; skipping")
             return
-        command.extend(["--date-after", date_after])
-        if override:
+        if not incremental:
+            command.extend(["--date-after", date_after])
+        if incremental or override:
             command.extend(["--limit", str(limit)])
     else:
         command.extend(["--limit", str(limit)])
@@ -90,6 +100,11 @@ def run_policy(source: dict, policy: dict, override: str) -> None:
     result = subprocess.run(command, cwd=ROOT)
     if result.returncode:
         print(f"::warning::fetch failed for {policy['id']} (exit {result.returncode})")
+    elif mode in {"all", "since_date"} and not override and not already_scanned:
+        policy["sync_completed_scope"] = scope
+        print(f"[run_source_fetches] {policy['id']}: initial scan completed for {scope}", flush=True)
+    elif incremental:
+        print(f"[run_source_fetches] {policy['id']}: incremental scan limit={limit}", flush=True)
 
 
 if __name__ == "__main__":

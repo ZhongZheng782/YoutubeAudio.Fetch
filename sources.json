@@ -8,6 +8,7 @@
       "channel_dir": "fubonsec",
       "fetch_limit": 5,
       "retention": "all",
+      "sync_completed_scope": "all",
       "processing": "audio_and_frames"
     },
     {
