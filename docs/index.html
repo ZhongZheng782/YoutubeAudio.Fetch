@@ -685,7 +685,7 @@ function storageChannelForPicker(channel) {
 
 function retentionLabel(policy) {
   if (policy?.retention === "since_date") return `自 ${policy.date_after || "指定日期"} 起`;
-  return ({ selected: "指定影片", all: "全部", latest: "最新一支" }[policy?.retention || "all"]);
+  return ({ selected: "指定影片", all: "全部", latest: "最新一支" }[policy?.retention || "latest"]);
 }
 
 function playlistChannelGroups(source) {
@@ -888,7 +888,7 @@ function renderSourceSettings(channel) {
       <label>保留方式
         <select id="sourceRetention">
           <option value="selected">Selected｜指定影片</option>
-          <option value="all">All｜全部歷史影片</option>
+          <option value="all">All｜保留全部已收錄影片</option>
           <option value="since_date">自指定日期起</option>
           <option value="latest">Latest｜只保留最新</option>
         </select>
@@ -905,14 +905,14 @@ function renderSourceSettings(channel) {
       <input id="sourceDateAfter" type="date" value="${source.date_after || ""}">
     </label>
     <div class="source-selection-list" id="sourceSelectionList"></div>
-    <div class="source-settings-note">All 會抓取完整頻道歷史；自指定日期起會抓取該日（含）之後的影片；Latest 只留最新影片。</div>
+    <div class="source-settings-note">All 會保留已收錄的全部影片並同步新上傳；自指定日期起會回補該日（含）之後的影片並同步新上傳；Latest 只保留最新影片。若要回補歷史，請選擇起始日期。</div>
   `;
   const retentionEl = document.getElementById("sourceRetention");
   const processingEl = document.getElementById("sourceProcessing");
   const selectionEl = document.getElementById("sourceSelectionList");
   const dateAfterWrap = document.getElementById("sourceDateAfterWrap");
   const dateAfterEl = document.getElementById("sourceDateAfter");
-  retentionEl.value = source.retention || "all";
+  retentionEl.value = source.retention || "latest";
   processingEl.value = source.processing || "audio_and_frames";
   const renderSelection = () => {
     selectionEl.replaceChildren();
@@ -983,7 +983,7 @@ function renderPlaylistSourceSettings(source, selectedGroupKey = null) {
     const retentionLabel = document.createElement("label");
     retentionLabel.textContent = "保留方式";
     const retention = document.createElement("select");
-    retention.innerHTML = `<option value="selected">指定影片</option><option value="all">全部歷史影片</option><option value="since_date">自指定日期起</option><option value="latest">只留最新一支</option>`;
+    retention.innerHTML = `<option value="selected">指定影片</option><option value="all">保留全部已收錄影片</option><option value="since_date">自指定日期起</option><option value="latest">只留最新一支</option>`;
     retention.value = group.retention || "selected";
     retentionLabel.appendChild(retention);
     const processingLabel = document.createElement("label");

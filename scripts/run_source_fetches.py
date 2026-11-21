@@ -53,16 +53,24 @@ def list_uploads(policy: dict, api_key: str, mode: str) -> tuple[list[dict], str
         uploads_id = items[0]["contentDetails"]["relatedPlaylists"]["uploads"]
 
     cutoff = policy.get("date_after") if mode == "since_date" else None
-    completed_scope = policy.get("sync_completed_scope")
     scope = "all" if mode == "all" else f"since_date:{cutoff}"
-    cursor = policy.get("youtube_sync_cursor") if completed_scope == scope else None
-    first_page_only = completed_scope == scope and not cursor
+    completed_scope = policy.get("sync_completed_scope")
+    cursor_scope = policy.get("youtube_sync_scope")
+    cursor = policy.get("youtube_sync_cursor") if scope in {completed_scope, cursor_scope} else None
+    # `all` means retain the existing archive and keep up with uploads. It does
+    # not trigger a historical channel crawl; seed the cursor from the newest item.
+    seed_cursor = mode == "all" and not cursor
+    first_page_only = seed_cursor or (completed_scope == scope and not cursor)
     entries: list[dict] = []
     page_token = ""
     newest_id = ""
     cursor_found = False
     while True:
-        params = {"part": "snippet,contentDetails", "playlistId": uploads_id, "maxResults": "50"}
+        params = {
+            "part": "snippet,contentDetails",
+            "playlistId": uploads_id,
+            "maxResults": "1" if seed_cursor else "50",
+        }
         if page_token:
             params["pageToken"] = page_token
         page = api_get("playlistItems", **params)
@@ -148,7 +156,7 @@ def main() -> int:
 
 
 def run_policy(source: dict, policy: dict, override: str) -> None:
-    mode = policy.get("retention", "all")
+    mode = policy.get("retention", "latest")
     if mode == "since_date" and not policy.get("date_after"):
         print(f"::warning::since_date mode has no date_after for {policy['id']}; skipping")
         return
@@ -156,7 +164,8 @@ def run_policy(source: dict, policy: dict, override: str) -> None:
     limit = 1 if mode == "latest" else configured_limit
     scope = "all" if mode == "all" else f"since_date:{policy.get('date_after', '')}"
     already_scanned = policy.get("sync_completed_scope") == scope
-    incremental = already_scanned and mode in {"all", "since_date"} and not override
+    cursor_initialized = policy.get("youtube_sync_scope") == scope
+    incremental = (already_scanned or cursor_initialized) and mode in {"all", "since_date"} and not override
     if incremental:
         limit = max(limit, INCREMENTAL_FETCH_LIMIT)
     command = [
@@ -190,7 +199,7 @@ def run_policy(source: dict, policy: dict, override: str) -> None:
             raise
     if mode == "all" and not incremental and not override:
         if api_entries is None:
-            command.append("--all")
+            command.extend(["--limit", "1"])
     elif mode == "since_date":
         date_after = policy.get("date_after")
         if not incremental and api_entries is None:
@@ -220,12 +229,20 @@ def run_policy(source: dict, policy: dict, override: str) -> None:
         policy["youtube_uploads_playlist_id"] = uploads_id
         if newest_id:
             policy["youtube_sync_cursor"] = newest_id
-        if mode in {"all", "since_date"} and not override:
+        if mode == "all" and not override:
+            policy["youtube_sync_scope"] = scope
+        elif mode == "since_date" and not override:
             policy["sync_completed_scope"] = scope
+            policy["youtube_sync_scope"] = scope
         print(f"[run_source_fetches] {policy['id']}: playlist sync processed {len(api_entries)} videos", flush=True)
     elif mode in {"all", "since_date"} and not override and not already_scanned:
-        policy["sync_completed_scope"] = scope
-        print(f"[run_source_fetches] {policy['id']}: initial scan completed for {scope}", flush=True)
+        if mode == "all":
+            policy["youtube_sync_scope"] = scope
+            print(f"[run_source_fetches] {policy['id']}: newest-video cursor initialized", flush=True)
+        else:
+            policy["sync_completed_scope"] = scope
+            policy["youtube_sync_scope"] = scope
+            print(f"[run_source_fetches] {policy['id']}: initial scan completed for {scope}", flush=True)
     elif incremental:
         print(f"[run_source_fetches] {policy['id']}: incremental scan limit={limit}", flush=True)
 
