@@ -20,7 +20,9 @@
       "fetch_limit": 5,
       "retention": "since_date",
       "date_after": "2026-08-10",
-      "processing": "audio_and_frames"
+      "processing": "audio_and_frames",
+      "sync_completed_scope": "since_date:2026-08-10",
+      "youtube_sync_scope": "since_date:2026-08-10"
     },
     {
       "id": "smartmonthly-bw",
@@ -50,7 +52,8 @@
       "channel_dir": "x",
       "fetch_limit": 5,
       "retention": "all",
-      "processing": "audio_and_frames"
+      "processing": "audio_and_frames",
+      "youtube_sync_scope": "all"
     },
     {
       "id": "ai-note-101",
@@ -70,7 +73,8 @@
       "channel_dir": "jimainotebook",
       "fetch_limit": 5,
       "retention": "all",
-      "processing": "audio_and_frames"
+      "processing": "audio_and_frames",
+      "youtube_sync_scope": "all"
     },
     {
       "id": "themarketmemo-playlist",
@@ -95,7 +99,12 @@
             "YtPfvTaSE8k",
             "U1rRnRWnMz8"
           ],
-          "processing": "audio_and_frames"
+          "processing": "audio_and_frames",
+          "id": "themarketmemo-playlist:UCZyTcQHJGKkGeotf0vWA7Rg",
+          "youtube_channel_id": "UCZyTcQHJGKkGeotf0vWA7Rg",
+          "youtube_uploads_playlist_id": "UUZyTcQHJGKkGeotf0vWA7Rg",
+          "youtube_sync_cursor": "8xuiJiKAM4w",
+          "youtube_sync_scope": "all"
         },
         {
           "channel_id": "UCOXeXCmNvxPrX-EvGzUPOFA",
@@ -106,7 +115,8 @@
           "selected_video_ids": [
             "6OvEjZsRl4Q"
           ],
-          "processing": "audio_and_frames"
+          "processing": "audio_and_frames",
+          "id": "themarketmemo-playlist:UCOXeXCmNvxPrX-EvGzUPOFA"
         }
       ],
       "videos": [
