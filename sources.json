@@ -32,7 +32,8 @@
       "channel_dir": "smartmonthly-bw",
       "fetch_limit": 5,
       "retention": "all",
-      "processing": "audio_and_frames"
+      "processing": "audio_and_frames",
+      "youtube_sync_scope": "all"
     },
     {
       "id": "wealth1974",
