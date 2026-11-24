@@ -43,7 +43,8 @@
       "channel_dir": "wealth1974",
       "fetch_limit": 5,
       "retention": "all",
-      "processing": "audio_and_frames"
+      "processing": "audio_and_frames",
+      "youtube_sync_scope": "all"
     },
     {
       "id": "x",
@@ -104,7 +105,7 @@
           "id": "themarketmemo-playlist:UCZyTcQHJGKkGeotf0vWA7Rg",
           "youtube_channel_id": "UCZyTcQHJGKkGeotf0vWA7Rg",
           "youtube_uploads_playlist_id": "UUZyTcQHJGKkGeotf0vWA7Rg",
-          "youtube_sync_cursor": "8xuiJiKAM4w",
+          "youtube_sync_cursor": "t_5Ig6Wk6B4",
           "youtube_sync_scope": "all"
         },
         {
