@@ -500,6 +500,17 @@ class ChannelFetcher:
                 fin_path = data_dir / f"{stem}_FIN.srt"
                 gt_path = data_dir / f"{stem}_GT.srt"
                 if fin_path.exists():
+                    # FIN.srt can be created directly from YouTube's auto captions.
+                    # Older runs treated that as fully sourced even when audio had
+                    # never been published, leaving the manifest behind the video
+                    # list forever. Backfill the missing artifact once.
+                    if stem not in manifest:
+                        print(f"[channel_fetch] downloading audio for FIN-transcript episode {stem}")
+                        audio_path = self.download_audio(video["video_id"], tmp_dir)
+                        renamed = audio_path.with_name(f"{stem}{audio_path.suffix}")
+                        audio_path.rename(renamed)
+                        print(f"[channel_fetch] publishing release asset for {stem}")
+                        manifest[stem] = self.publish_audio_asset(stem, renamed)
                     print(f"[channel_fetch] skip {stem} (already sourced)")
                     skipped += 1
                     continue
@@ -542,7 +553,12 @@ class ChannelFetcher:
                                     transcript_to_pseudo_srt(raw, stem, transcript.language_code, "_youtube-transcript-auto"),
                                     encoding="utf-8",
                                 )
-                                print(f"[channel_fetch] {stem}: auto-generated YouTube transcript ({transcript.language_code}), wrote {fin_path} — skipping whisper")
+                                audio_path = self.download_audio(video["video_id"], tmp_dir)
+                                renamed = audio_path.with_name(f"{stem}{audio_path.suffix}")
+                                audio_path.rename(renamed)
+                                print(f"[channel_fetch] publishing release asset for {stem}")
+                                manifest[stem] = self.publish_audio_asset(stem, renamed)
+                                print(f"[channel_fetch] {stem}: auto-generated YouTube transcript ({transcript.language_code}), wrote {fin_path} and published audio — skipping whisper")
                                 transcribed_auto += 1
                             else:
                                 # Creator-uploaded captions — close enough to ground truth to keep
