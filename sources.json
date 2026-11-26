@@ -7,8 +7,10 @@
       "url": "https://www.youtube.com/@fubonsec",
       "channel_dir": "fubonsec",
       "fetch_limit": 5,
-      "retention": "all",
-      "sync_completed_scope": "all",
+      "retention": "since_date",
+      "date_after": "2026-08-05",
+      "sync_completed_scope": "since_date:2026-08-05",
+      "youtube_sync_scope": "since_date:2026-08-05",
       "processing": "audio_and_frames"
     },
     {
@@ -31,9 +33,11 @@
       "url": "https://www.youtube.com/@smartmonthly-BW",
       "channel_dir": "smartmonthly-bw",
       "fetch_limit": 5,
-      "retention": "all",
+      "retention": "since_date",
+      "date_after": "2026-08-01",
       "processing": "audio_and_frames",
-      "youtube_sync_scope": "all"
+      "sync_completed_scope": "since_date:2026-08-01",
+      "youtube_sync_scope": "since_date:2026-08-01"
     },
     {
       "id": "wealth1974",
@@ -42,9 +46,11 @@
       "url": "https://www.youtube.com/@wealth1974",
       "channel_dir": "wealth1974",
       "fetch_limit": 5,
-      "retention": "all",
+      "retention": "since_date",
+      "date_after": "2026-08-31",
       "processing": "audio_and_frames",
-      "youtube_sync_scope": "all"
+      "sync_completed_scope": "since_date:2026-08-31",
+      "youtube_sync_scope": "since_date:2026-08-31"
     },
     {
       "id": "x",
@@ -53,9 +59,11 @@
       "url": "https://www.youtube.com/@X的財經筆記",
       "channel_dir": "x",
       "fetch_limit": 5,
-      "retention": "all",
+      "retention": "since_date",
+      "date_after": "2026-07-30",
       "processing": "audio_and_frames",
-      "youtube_sync_scope": "all"
+      "sync_completed_scope": "since_date:2026-07-30",
+      "youtube_sync_scope": "since_date:2026-07-30"
     },
     {
       "id": "ai-note-101",
@@ -64,8 +72,11 @@
       "url": "https://www.youtube.com/@AI_Note_101",
       "channel_dir": "ai-note-101",
       "fetch_limit": 5,
-      "retention": "all",
-      "processing": "audio_and_frames"
+      "retention": "since_date",
+      "date_after": "2026-09-09",
+      "processing": "audio_and_frames",
+      "sync_completed_scope": "since_date:2026-09-09",
+      "youtube_sync_scope": "since_date:2026-09-09"
     },
     {
       "id": "jimainotebook",
@@ -74,9 +85,11 @@
       "url": "https://www.youtube.com/@JimAINotebook/videos",
       "channel_dir": "jimainotebook",
       "fetch_limit": 5,
-      "retention": "all",
+      "retention": "since_date",
+      "date_after": "2026-08-30",
       "processing": "audio_and_frames",
-      "youtube_sync_scope": "all"
+      "sync_completed_scope": "since_date:2026-08-30",
+      "youtube_sync_scope": "since_date:2026-08-30"
     },
     {
       "id": "themarketmemo-playlist",
@@ -119,6 +132,78 @@
           ],
           "processing": "audio_and_frames",
           "id": "themarketmemo-playlist:UCOXeXCmNvxPrX-EvGzUPOFA"
+        },
+        {
+          "channel_id": "UCg9lyHcJi4igB83EU5mwbSw",
+          "channel_name": "求知行囊",
+          "channel_url": "https://www.youtube.com/channel/UCg9lyHcJi4igB83EU5mwbSw",
+          "fetch_limit": 5,
+          "retention": "selected",
+          "selected_video_ids": [
+            "l2V4g_rMo4o"
+          ],
+          "processing": "audio_and_frames",
+          "id": "themarketmemo-playlist:UCg9lyHcJi4igB83EU5mwbSw"
+        },
+        {
+          "channel_id": "UCUopc5tlSTMgBsZaP4PItRA",
+          "channel_name": "經濟日報EDN",
+          "channel_url": "https://www.youtube.com/channel/UCUopc5tlSTMgBsZaP4PItRA",
+          "fetch_limit": 5,
+          "retention": "selected",
+          "selected_video_ids": [
+            "8D50gBPUPwI"
+          ],
+          "processing": "audio_and_frames",
+          "id": "themarketmemo-playlist:UCUopc5tlSTMgBsZaP4PItRA"
+        },
+        {
+          "channel_id": "UCA_hK5eRICBdSOLlXKESvEg",
+          "channel_name": "鈔錢部署–華視優選",
+          "channel_url": "https://www.youtube.com/channel/UCA_hK5eRICBdSOLlXKESvEg",
+          "fetch_limit": 5,
+          "retention": "selected",
+          "selected_video_ids": [
+            "IOtTfjQg0TE"
+          ],
+          "processing": "audio_and_frames",
+          "id": "themarketmemo-playlist:UCA_hK5eRICBdSOLlXKESvEg"
+        },
+        {
+          "channel_id": "UCPBTziiHub0FbIuhVW808fA",
+          "channel_name": "今周刊",
+          "channel_url": "https://www.youtube.com/channel/UCPBTziiHub0FbIuhVW808fA",
+          "fetch_limit": 5,
+          "retention": "selected",
+          "selected_video_ids": [
+            "c4QUXoO_Oz4"
+          ],
+          "processing": "audio_and_frames",
+          "id": "themarketmemo-playlist:UCPBTziiHub0FbIuhVW808fA"
+        },
+        {
+          "channel_id": "UCFFHAdMc4PybyfTFkkEYdfQ",
+          "channel_name": "天天讀書會 DailyReading",
+          "channel_url": "https://www.youtube.com/channel/UCFFHAdMc4PybyfTFkkEYdfQ",
+          "fetch_limit": 5,
+          "retention": "selected",
+          "selected_video_ids": [
+            "rgS5mC9lyCw"
+          ],
+          "processing": "audio_and_frames",
+          "id": "themarketmemo-playlist:UCFFHAdMc4PybyfTFkkEYdfQ"
+        },
+        {
+          "channel_id": "UCvR_60U6L3GWXxa1RJTznag",
+          "channel_name": "經理人",
+          "channel_url": "https://www.youtube.com/channel/UCvR_60U6L3GWXxa1RJTznag",
+          "fetch_limit": 5,
+          "retention": "selected",
+          "selected_video_ids": [
+            "w3baNc7NVeU"
+          ],
+          "processing": "audio_and_frames",
+          "id": "themarketmemo-playlist:UCvR_60U6L3GWXxa1RJTznag"
         }
       ],
       "videos": [
@@ -185,6 +270,54 @@
           "channel_name": "LEI｜The Market Memo",
           "channel_id": "UCZyTcQHJGKkGeotf0vWA7Rg",
           "channel_url": "https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg"
+        },
+        {
+          "video_id": "l2V4g_rMo4o",
+          "title": "纳瓦尔最新访谈3小时完整版 -  关于人性的44个残酷真相",
+          "date": "2025-04-28",
+          "channel_name": "求知行囊",
+          "channel_id": "UCg9lyHcJi4igB83EU5mwbSw",
+          "channel_url": "https://www.youtube.com/channel/UCg9lyHcJi4igB83EU5mwbSw"
+        },
+        {
+          "video_id": "8D50gBPUPwI",
+          "title": "The New AI Agent Game: Chien Li-feng on the Five Global Revolutions",
+          "date": "2026-10-30",
+          "channel_name": "經濟日報EDN",
+          "channel_id": "UCUopc5tlSTMgBsZaP4PItRA",
+          "channel_url": "https://www.youtube.com/channel/UCUopc5tlSTMgBsZaP4PItRA"
+        },
+        {
+          "video_id": "IOtTfjQg0TE",
+          "title": "\"Money Deployment\" Lu Yan-Li ft. 2025XXXX",
+          "date": "2026-11-04",
+          "channel_name": "鈔錢部署–華視優選",
+          "channel_id": "UCA_hK5eRICBdSOLlXKESvEg",
+          "channel_url": "https://www.youtube.com/channel/UCA_hK5eRICBdSOLlXKESvEg"
+        },
+        {
+          "video_id": "c4QUXoO_Oz4",
+          "title": "買台積電還是0050？前政大校長揭散戶「常見錯誤」｜周行一、王志郁｜【富足今周起】EP62精華",
+          "date": "2026-11-06",
+          "channel_name": "今周刊",
+          "channel_id": "UCPBTziiHub0FbIuhVW808fA",
+          "channel_url": "https://www.youtube.com/channel/UCPBTziiHub0FbIuhVW808fA"
+        },
+        {
+          "video_id": "rgS5mC9lyCw",
+          "title": "The Prisoner's Dilemma of Human Nature: Should You Forgive or Retaliate After Being Wronged? An E...",
+          "date": "2026-11-03",
+          "channel_name": "天天讀書會 DailyReading",
+          "channel_id": "UCFFHAdMc4PybyfTFkkEYdfQ",
+          "channel_url": "https://www.youtube.com/channel/UCFFHAdMc4PybyfTFkkEYdfQ"
+        },
+        {
+          "video_id": "w3baNc7NVeU",
+          "title": "為什麼事後都懂，當下卻沒想到？人的盲點來自「模型太少」，換個角度，才看得見經驗之外的答案｜經理人讀書會《思維模型》",
+          "date": "2026-11-04",
+          "channel_name": "經理人",
+          "channel_id": "UCvR_60U6L3GWXxa1RJTznag",
+          "channel_url": "https://www.youtube.com/channel/UCvR_60U6L3GWXxa1RJTznag"
         }
       ]
     }

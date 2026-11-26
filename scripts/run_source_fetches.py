@@ -14,7 +14,13 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 FETCHER = ROOT / "skills/skill-youtube-channel-fetch/scripts/channel_fetch.py"
-INCREMENTAL_FETCH_LIMIT = 25
+# Caps how many candidate videos a single incremental run checks per channel. Lowered
+# from 25: with several channels carrying a 50-70+ video fetch backlog, 25/channel x 6
+# channels could blow well past daily-channel-fetch.yml's 2-hour budget in one run (each
+# candidate needs an official-transcript lookup + yt-dlp audio download + GitHub Release
+# upload). 8/channel x 6 channels x 5 scheduled runs/day still clears a 70-deep backlog
+# in about a day, just spread across runs instead of attempted all at once.
+INCREMENTAL_FETCH_LIMIT = 8
 YOUTUBE_API_ROOT = "https://www.googleapis.com/youtube/v3"
 YOUTUBE_HANDLE_RE = re.compile(r"youtube\.com/@([^/?]+)", re.IGNORECASE)
 YOUTUBE_CHANNEL_ID_RE = re.compile(r"youtube\.com/channel/(UC[A-Za-z0-9_-]+)", re.IGNORECASE)

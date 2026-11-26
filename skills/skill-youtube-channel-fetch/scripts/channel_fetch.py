@@ -75,6 +75,26 @@ VIDEO_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 # doesn't fully eliminate — YouTube's anti-bot behavior is itself flaky) plain 403s.
 YT_DLP_JS_RUNTIME_ARGS = ["--js-runtimes", "node", "--remote-components", "ejs:github"]
 
+# None of the yt-dlp subprocess.run() calls below used to have a timeout. YouTube's
+# anti-bot throttling can make a single call hang indefinitely rather than erroring out,
+# and with no timeout that silently ate the whole daily-channel-fetch.yml job's 6-hour
+# GitHub Actions limit (confirmed: every run for several days in a row died there).
+# A listing call is metadata-only and should be fast; audio download is the one call
+# that legitimately takes minutes for a long video.
+YT_DLP_LISTING_TIMEOUT = 90
+YT_DLP_DOWNLOAD_TIMEOUT = 1200
+
+
+def _run_yt_dlp(args: list[str], timeout: float) -> subprocess.CompletedProcess:
+    """subprocess.run wrapper that turns a hang into a bounded failure instead of
+    blocking forever — see YT_DLP_LISTING_TIMEOUT/YT_DLP_DOWNLOAD_TIMEOUT above."""
+    try:
+        return subprocess.run(
+            args, capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=timeout,
+        )
+    except subprocess.TimeoutExpired:
+        return subprocess.CompletedProcess(args, 124, stdout="", stderr=f"yt-dlp timed out after {timeout}s")
+
 
 def yt_dlp_cookie_args() -> list[str]:
     cookies_file = os.environ.get("YOUTUBE_COOKIES_FILE")
@@ -183,10 +203,7 @@ class ChannelFetcher:
         args = ["yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(), "--flat-playlist"]
         if limit is not None:
             args.extend(["--playlist-end", str(limit)])
-        proc = subprocess.run(
-            [*args, "-J", url],
-            capture_output=True, text=True, encoding="utf-8", errors="replace",
-        )
+        proc = _run_yt_dlp([*args, "-J", url], timeout=YT_DLP_LISTING_TIMEOUT)
         if proc.returncode != 0:
             # Plenty of channels simply don't have a /streams tab (e.g. ones that never
             # livestream) — that's "zero entries", not a fetch failure, and shouldn't
@@ -221,9 +238,7 @@ class ChannelFetcher:
         args = ["yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(), "--flat-playlist", "-J"]
         if limit is not None:
             args.extend(["--playlist-end", str(limit)])
-        proc = subprocess.run(
-            [*args, playlist_url], capture_output=True, text=True, encoding="utf-8", errors="replace"
-        )
+        proc = _run_yt_dlp([*args, playlist_url], timeout=YT_DLP_LISTING_TIMEOUT)
         if proc.returncode != 0:
             raise RuntimeError(f"yt-dlp playlist listing failed: {proc.stderr[:500]}")
         data = json.loads(proc.stdout)
@@ -243,10 +258,10 @@ class ChannelFetcher:
         tabs (flat-playlist entries don't carry a usable date). 0 if the lookup fails —
         such a video sorts last / is excluded from date-range filtering rather than
         crashing the whole channel fetch."""
-        proc = subprocess.run(
+        proc = _run_yt_dlp(
             ["yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(), "--skip-download", "--print", "%(timestamp)s",
              f"https://www.youtube.com/watch?v={video_id}"],
-            capture_output=True, text=True, encoding="utf-8", errors="replace",
+            timeout=YT_DLP_LISTING_TIMEOUT,
         )
         line = proc.stdout.strip().splitlines()[-1] if proc.stdout.strip() else ""
         try:
@@ -369,7 +384,7 @@ class ChannelFetcher:
     def download_audio(self, video_id: str, dest_dir: Path) -> Path:
         """Download best-audio for a video into dest_dir, returns the resulting file path."""
         out_template = str(dest_dir / f"{video_id}.%(ext)s")
-        proc = subprocess.run(
+        proc = _run_yt_dlp(
             [
                 "yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(),
                 "-x", "--audio-format", "m4a", "--audio-quality", "0",
@@ -377,7 +392,7 @@ class ChannelFetcher:
                 "-o", out_template,
                 f"https://www.youtube.com/watch?v={video_id}",
             ],
-            capture_output=True, text=True, encoding="utf-8", errors="replace",
+            timeout=YT_DLP_DOWNLOAD_TIMEOUT,
         )
         if proc.returncode != 0:
             raise RuntimeError(f"yt-dlp audio download failed for {video_id}: {proc.stderr[:500]}")
@@ -474,10 +489,9 @@ class ChannelFetcher:
             for video_id in dict.fromkeys(video_ids):
                 if not VIDEO_ID_RE.fullmatch(video_id):
                     raise ValueError(f"invalid YouTube video ID: {video_id!r}")
-                proc = subprocess.run(
+                proc = _run_yt_dlp(
                     ["yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(), "--skip-download", "--dump-single-json", f"https://www.youtube.com/watch?v={video_id}"],
-                    capture_output=True,
-                    text=True,
+                    timeout=YT_DLP_LISTING_TIMEOUT,
                 )
                 if proc.returncode != 0:
                     print(f"[channel_fetch] could not inspect selected video {video_id}: {proc.stderr[:300]}")

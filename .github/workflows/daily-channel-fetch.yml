@@ -6,6 +6,7 @@ on:
       - ".github/workflows/daily-channel-fetch.yml"
       - "skills/skill-youtube-channel-fetch/scripts/channel_fetch.py"
       - "scripts/run_source_fetches.py"
+      - "scripts/sync_playlist_videos.py"
       - "scripts/enforce_source_retention.py"
       - "sources.json"
   schedule:
@@ -86,7 +87,21 @@ jobs:
             echo "YOUTUBE_COOKIES_FILE=$PWD/youtube-cookies.txt" >> "$GITHUB_ENV"
           fi
 
+      - name: Sync playlist videos from YouTube
+        # Saving a video to a tracked playlist on youtube.com doesn't touch this repo by
+        # itself — sources.json's `videos` list for a `type: "playlist"` source is a
+        # static snapshot. This copies the playlist's current videos into it and, for
+        # any never-seen uploader channel, adds a channel_policies entry defaulting to
+        # retention="selected" (fetch just that one video; promoting a channel to
+        # ongoing "all"/"since_date" Daily tracking is a deliberate manual edit).
+        run: python scripts/sync_playlist_videos.py
+
       - name: Fetch each tracked channel
+        # Bounds the worst case instead of silently eating the job's 6-hour GitHub
+        # Actions limit (confirmed: that's what was happening on every run for days).
+        # If this still times out, the two steps below run anyway (if: always()) so
+        # whatever channels did finish this run still get committed.
+        timeout-minutes: 60
         env:
           WHISPER_SOURCE_REPO: ZhongZheng782/YoutubeAudio.Fetch
           WHISPER_TARGET_REPO: ZhongZheng782/Mac-mini
@@ -100,11 +115,13 @@ jobs:
           python scripts/run_source_fetches.py "$LIMIT_OVERRIDE"
 
       - name: Apply source retention policies
+        if: always()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/enforce_source_retention.py
 
       - name: Commit fetch outputs if changed
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -132,7 +149,13 @@ jobs:
           pip install --force-reinstall --no-deps "llm @ git+https://github.com/wenchiehlee/llm.git"
 
       - name: Extract keyframes for videos missing a _keyframes.md
+        # Same 6-hour-hang issue as the fetch step above, except here the backlog is a
+        # full-video yt-dlp download per stem (not just audio) — much more expensive.
+        # The MAX_KEYFRAME_VIDEOS_PER_RUN cap below bounds it further: each run chips
+        # away at the backlog instead of trying (and failing) to clear all of it at once.
+        timeout-minutes: 60
         env:
+          MAX_KEYFRAME_VIDEOS_PER_RUN: "15"
           # GeminiProvider (../llm) round-robins across GEMINI_API_KEY plus any
           # GEMINI_API_KEY_1..N, permanently skipping ones that come back invalid
           # or daily-quota-exhausted — mirrors the key pool in GoogleAlertManager/.env.
@@ -171,7 +194,13 @@ jobs:
           for fin in sorted(Path("data").glob("*/*_FIN.srt")):
               srt_by_stem[fin.name[: -len("_FIN.srt")]] = fin
 
+          max_per_run = int(__import__("os").environ.get("MAX_KEYFRAME_VIDEOS_PER_RUN", "15"))
+          processed = 0
+
           for stem, srt in sorted(srt_by_stem.items()):
+              if processed >= max_per_run:
+                  print(f"::notice::hit MAX_KEYFRAME_VIDEOS_PER_RUN={max_per_run}, leaving the rest of the backlog for the next run")
+                  break
               channel = srt.parent.name
               source = by_dir.get(channel)
               video_id = stem[-11:]
@@ -195,6 +224,7 @@ jobs:
               # so slice by width rather than rsplit("_", 1) — the latter truncated
               # IDs like "rTnPsm_gAhA" or "_FsaTDrvsms" down to a broken short ID.
               video_url = f"https://www.youtube.com/watch?v={video_id}"
+              processed += 1
               print(f"::group::{stem}")
               ok = False
               for attempt in range(4):

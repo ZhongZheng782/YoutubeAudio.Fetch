@@ -49,6 +49,13 @@ from llm import LLMClient
 # eliminate — YouTube's anti-bot behavior is itself flaky) the plain 403s seen without it.
 YT_DLP_JS_RUNTIME_ARGS = ["--js-runtimes", "node", "--remote-components", "ejs:github"]
 
+# Unbounded subprocess.run() calls here used to be able to hang forever on YouTube
+# anti-bot throttling, with nothing to stop it short of the whole GitHub Actions job's
+# 6-hour limit (same issue found and fixed in skill-youtube-channel-fetch/channel_fetch.py).
+# A full-video download is the expensive one; ffmpeg's frame grab is local and fast.
+YT_DLP_DOWNLOAD_TIMEOUT = 1200
+FFMPEG_FRAME_TIMEOUT = 60
+
 
 def yt_dlp_cookie_args() -> list[str]:
     cookies_file = os.environ.get("YOUTUBE_COOKIES_FILE")
@@ -181,19 +188,23 @@ class KeyframeExtractor:
 
     def download_video(self, video_url: str, dest_dir: Path) -> Path:
         out_template = str(dest_dir / "video.%(ext)s")
-        proc = subprocess.run(
-            ["yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(),
-             "-f", "bestvideo[height<=1080]+bestaudio/best[height<=1080]/best",
-             # mkv, not mp4: merging separate video+audio streams into mp4 needs
-             # ffmpeg to remux the audio codec (often Opus) into an MP4-compatible
-             # one, which fails as "Postprocessing: Stream #1:0 -> #0:1 (copy)" on
-             # older ffmpeg builds (seen on a fresh self-hosted runner's distro-repo
-             # ffmpeg 4.2.7). Matroska accepts stream-copying virtually any
-             # video/audio codec pairing, and grab_frame()'s later ffmpeg call
-             # doesn't care about the container.
-             "--merge-output-format", "mkv", "-o", out_template, video_url],
-            capture_output=True, text=True, encoding="utf-8", errors="replace",
-        )
+        try:
+            proc = subprocess.run(
+                ["yt-dlp", *YT_DLP_JS_RUNTIME_ARGS, *yt_dlp_cookie_args(),
+                 "-f", "bestvideo[height<=1080]+bestaudio/best[height<=1080]/best",
+                 # mkv, not mp4: merging separate video+audio streams into mp4 needs
+                 # ffmpeg to remux the audio codec (often Opus) into an MP4-compatible
+                 # one, which fails as "Postprocessing: Stream #1:0 -> #0:1 (copy)" on
+                 # older ffmpeg builds (seen on a fresh self-hosted runner's distro-repo
+                 # ffmpeg 4.2.7). Matroska accepts stream-copying virtually any
+                 # video/audio codec pairing, and grab_frame()'s later ffmpeg call
+                 # doesn't care about the container.
+                 "--merge-output-format", "mkv", "-o", out_template, video_url],
+                capture_output=True, text=True, encoding="utf-8", errors="replace",
+                timeout=YT_DLP_DOWNLOAD_TIMEOUT,
+            )
+        except subprocess.TimeoutExpired:
+            raise RuntimeError(f"yt-dlp video download timed out after {YT_DLP_DOWNLOAD_TIMEOUT}s")
         if proc.returncode != 0:
             raise RuntimeError(f"yt-dlp video download failed: {proc.stderr[:500]}")
         matches = sorted(dest_dir.glob("video.*"))
@@ -205,11 +216,15 @@ class KeyframeExtractor:
         out_path.parent.mkdir(parents=True, exist_ok=True)
         # -q:v 2 on JPEG output (mjpeg encoder) is roughly quality ~95 — visually
         # indistinguishable from the PNG this used to write, at a fraction of the size.
-        proc = subprocess.run(
-            ["ffmpeg", "-y", "-ss", timestamp, "-i", str(video_path),
-             "-frames:v", "1", "-q:v", "2", str(out_path)],
-            capture_output=True, text=True, encoding="utf-8", errors="replace",
-        )
+        try:
+            proc = subprocess.run(
+                ["ffmpeg", "-y", "-ss", timestamp, "-i", str(video_path),
+                 "-frames:v", "1", "-q:v", "2", str(out_path)],
+                capture_output=True, text=True, encoding="utf-8", errors="replace",
+                timeout=FFMPEG_FRAME_TIMEOUT,
+            )
+        except subprocess.TimeoutExpired:
+            raise RuntimeError(f"ffmpeg frame capture timed out at {timestamp}")
         if proc.returncode != 0:
             raise RuntimeError(f"ffmpeg frame capture failed at {timestamp}: {proc.stderr[-500:]}")
 
