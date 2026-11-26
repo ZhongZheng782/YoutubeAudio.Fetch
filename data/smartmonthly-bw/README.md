@@ -48,4 +48,3 @@
 | [日圓甜甜價沒了，28年首見！美日聯手救日圓，下一場股災要來了？新台幣怎沒跟著日圓升值？｜峰哥｜Smart智富．投資的一千零一夜245](smartmonthly-bw_-3z0BSuQ9p8_keyframes.md) | 2026-08-08 |
 | [暴漲暴跌怎麼做當沖？選股竟不看K棒！股價、成交值、大戶單為關鍵｜林昇、佑佑｜理財佑佑班](smartmonthly-bw_XG6az-eXZNY_keyframes.md) | 2026-08-06 |
 | [AI股危機不是獲利下滑，而是自由現金流正在消失。哪些熱門ETF受創最大？0050比較抗震嗎？｜峰哥｜Smart智富．投資的一千零一夜244](smartmonthly-bw_WW1Kpl3LLc0_keyframes.md) | 2026-08-01 |
-| [吃播聊投資，峰哥怎麼看債券ETF？長期資金，選0050或台積電？市場反彈，佑佑加碼部位的資產翻正了嗎？｜佑佑，峰哥｜人人都能學會](smartmonthly-bw_XcMUo9k65Rs_keyframes.md) | 2022-11-29 |
