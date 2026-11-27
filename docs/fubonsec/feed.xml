@@ -58,6 +58,7 @@ LINE 搜尋：富邦FUBON
       <media:thumbnail url="https://i.ytimg.com/vi/9II8T1wh1ks/maxresdefault.jpg"/>
       <media:community><media:statistics views="3405"/></media:community>
       <media:category>Education</media:category>
+      <podcast:transcript url="https://zhongzheng782.github.io/YoutubeAudio.Fetch/fubonsec/transcripts/fubonsec_9II8T1wh1ks.vtt" type="text/vtt" rel="captions" language="zh" lang="zh-TW"/>
     </item>
     <item>
       <title>ETF質押、溢價追買有哪些風險？從過度槓桿到當沖的投資誤區｜周冠男專訪 EP3</title>
