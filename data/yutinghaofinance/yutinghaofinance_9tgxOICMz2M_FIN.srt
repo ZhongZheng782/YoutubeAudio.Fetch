@@ -1,0 +1,76 @@
+[METADATA]
+Source: yutinghaofinance_9tgxOICMz2M_youtube-transcript-auto
+Language: en
+---
+(00:00.100) There is a perspective now suggesting
+(00:02.557) that in the 1980s, industrial upgrading
+(00:05.144) was like a focused beam that benefited
+(00:07.666) 80%of the population, whereas the 2026
+(00:10.188) AI boom is like a massive cloud, yet
+(00:12.580) only 10%of people in the ICT sector are
+(00:15.167) benefiting.
+(00:16.051) >> We also know that AI policies are
+(00:18.257) rapidly absorbing massive amounts of
+(00:20.659) water, electricity, and human resources
+(00:23.191) , and are even driving up financial
+(00:25.527) lending. As a result, with so many
+(00:27.570) resources tilting toward AI, many polls
+(00:29.759) in the U.S. have already shown that
+(00:31.730) those who oppose AI data centers now
+(00:33.755) outnumber those who support them. Given
+(00:35.990) that your policy direction is to
+(00:37.794) promote AI, how do you plan to strike a
+(00:39.982) balance?
+(00:40.520) >> Thank you for this question. I am fully
+(00:42.946) aware that the world has entered the
+(00:45.193) era of artificial intelligence. That is
+(00:47.618) why, at the beginning of my term, I
+(00:49.610) actively pushed for legislation. It is
+(00:51.895) called the Basic Law for Artificial
+(00:54.380) Intelligence, which rests on seven core
+(00:57.142) principles. These principles state that
+(01:00.620) as we promote AI development, the first
+(01:03.284) priority is social sustainability, and
+(01:05.881) the second is human autonomy, ensuring
+(01:08.478) we don't end up being controlled by AI.
+(01:11.690) >> Mm.
+(01:12.760) >> The third principle is privacy, as data
+(01:15.471) is the most crucial element of AI, so
+(01:18.047) we must be mindful of data acquisition
+(01:20.690) and ownership. The fourth is security;
+(01:23.689) security is extremely important.
+(01:27.799) >> The fifth is transparency and
+(01:29.901) explainability, and the sixth is that
+(01:32.565) we must ensure fairness and avoid
+(01:34.948) discrimination.
+(01:37.952) >> That covers the sixth and seventh,
+(01:40.190) which is accountability. So, as you can
+(01:42.683) see, My answer is that the government
+(01:44.858) must act as a responsible promoter. The
+(01:47.160) seven principles mentioned above are
+(01:49.006) our way of being responsible. Mm.
+(01:51.559) >> Secondly, the government must, of
+(01:53.678) course, promote the development of AI,
+(01:56.109) but we will do so steadily within the
+(01:58.478) framework of these seven principles. As
+(02:01.021) you just mentioned, we have proposed
+(02:03.471) the "AI New Ten Major Constructions,"
+(02:05.988) which include four infrastructure
+(02:08.239) foundations: the first is human talent
+(02:10.822) cultivation, aiming to train at least
+(02:13.338) 500,000 AI application talents by 2040.
+(02:16.088) The second is to build centers for
+(02:18.432) computing power and AI sovereignty; the
+(02:21.112) third is stable electricity supply; and
+(02:23.792) the fourth is to ensure balanced
+(02:26.003) development across Taiwan. Of course,
+(02:28.512) the AI New Ten Major Constructions also
+(02:30.938) focus on three key core technologies:
+(02:33.244) silicon photonics, quantum computing,
+(02:35.549) and robotics. Ultimately, we hope to
+(02:38.077) achieve three goals. The first is to
+(02:40.636) assist at least one million small and
+(02:43.090) medium-sized enterprises by 2040 in
+(02:45.415) adopting artificial intelligence so
+(02:47.740) they can successfully upgrade and
+(02:49.936) transform.
