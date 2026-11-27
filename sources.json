@@ -70,6 +70,7 @@
       "type": "channel",
       "name": "AI Note 101",
       "url": "https://www.youtube.com/@AI_Note_101",
+      "channel_id": "UC1q6LKlcco02dF0BxE0G1zg",
       "channel_dir": "ai-note-101",
       "fetch_limit": 5,
       "retention": "since_date",

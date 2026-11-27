@@ -30,6 +30,13 @@ def list_uploads(policy: dict, api_key: str, mode: str) -> tuple[list[dict], str
     """List this channel's uploads, stopping at the saved cursor or date cutoff."""
     channel_id = policy.get("youtube_channel_id") or policy.get("channel_id")
     uploads_id = policy.get("youtube_uploads_playlist_id")
+    # A `type: "channel"` source's own dict is passed in as `policy` (see run_policy's
+    # caller) and uses the key "url", not "channel_url" — only a playlist-derived policy
+    # has "channel_url". Without this fallback, policy["channel_url"] KeyErrors for every
+    # one of the 7 Daily channels on every run, silently forcing the slow yt-dlp
+    # per-video date-scan fallback instead of this fast Data API path (confirmed via
+    # run 45928682174's log: every channel hit "KeyError" here and took 10-40min each).
+    channel_url = policy.get("channel_url") or policy.get("url", "")
 
     def api_get(endpoint: str, **params: str) -> dict:
         response = requests.get(
@@ -44,17 +51,17 @@ def list_uploads(policy: dict, api_key: str, mode: str) -> tuple[list[dict], str
         if channel_id and channel_id.startswith("UC"):
             channel = api_get("channels", part="contentDetails", id=channel_id)
         else:
-            handle_match = YOUTUBE_HANDLE_RE.search(policy["channel_url"])
-            channel_match = YOUTUBE_CHANNEL_ID_RE.search(policy["channel_url"])
+            handle_match = YOUTUBE_HANDLE_RE.search(channel_url)
+            channel_match = YOUTUBE_CHANNEL_ID_RE.search(channel_url)
             if handle_match:
                 channel = api_get("channels", part="contentDetails", forHandle=handle_match.group(1))
             elif channel_match:
                 channel = api_get("channels", part="contentDetails", id=channel_match.group(1))
             else:
-                raise ValueError(f"cannot resolve channel ID from {policy['channel_url']}")
+                raise ValueError(f"cannot resolve channel ID from {channel_url!r}")
         items = channel.get("items", [])
         if not items:
-            raise ValueError(f"YouTube channel not found: {policy['channel_url']}")
+            raise ValueError(f"YouTube channel not found: {channel_url!r}")
         channel_id = items[0]["id"]
         uploads_id = items[0]["contentDetails"]["relatedPlaylists"]["uploads"]
 
