@@ -23,6 +23,7 @@
 
 | 影片 | 日期 |
 | --- | --- |
+| [Taiwan Stocks Close Up, but Individual Stocks Are in the Red! A 198-Point Surge in the Final Auct...](https://www.youtube.com/watch?v=3c6kmQax2KU) | 2026-11-27 |
 | [買台積電還是0050？前政大校長揭散戶「常見錯誤」｜周行一、王志郁｜【富足今周起】EP62精華](https://www.youtube.com/watch?v=c4QUXoO_Oz4) | 2026-11-06 |
 | ["Money Deployment" Lu Yan-Li ft. 2025XXXX](https://www.youtube.com/watch?v=IOtTfjQg0TE) | 2026-11-04 |
 | [為什麼事後都懂，當下卻沒想到？人的盲點來自「模型太少」，換個角度，才看得見經驗之外的答案｜經理人讀書會《思維模型》](https://www.youtube.com/watch?v=w3baNc7NVeU) | 2026-11-04 |
