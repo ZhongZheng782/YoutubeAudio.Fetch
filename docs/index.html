@@ -1202,13 +1202,20 @@ async function loadChannels() {
   playlistCatalog = sourceConfig.filter((source) => source.type === "playlist");
 
   const playlistDirs = new Set(playlistCatalog.map((source) => source.channel_dir));
-  const playlistPickerChannels = playlistCatalog.flatMap((source) => [
-    source.channel_dir,
-    ...playlistChannelGroups(source).map((group) => `${source.channel_dir}${PICKER_CHANNEL_SEP}${group.channel_id}`),
-  ]);
+  // Each channel_policies entry is its own browsable channel with its own retention —
+  // functionally no different from a type:"channel" source once it's been synced in via
+  // the playlist mechanism — so it belongs in the "Daily" tab group alongside them. Only
+  // the raw playlist source itself (e.g. "Youtube.Fetch") stays under "Playlist".
+  const playlistChannelKeys = playlistCatalog.flatMap((source) =>
+    playlistChannelGroups(source).map((group) => `${source.channel_dir}${PICKER_CHANNEL_SEP}${group.channel_id}`)
+  );
+  const playlistPickerChannels = [...playlistCatalog.map((source) => source.channel_dir), ...playlistChannelKeys];
   CHANNEL_GROUPS = [
-    { label: "Daily", channels: [...new Set(sourceConfig.filter((source) => source.type === "channel" && !playlistDirs.has(source.channel_dir)).map((source) => source.channel_dir))] },
-    { label: "Playlist", channels: [...new Set(playlistPickerChannels)] },
+    { label: "Daily", channels: [...new Set([
+        ...sourceConfig.filter((source) => source.type === "channel" && !playlistDirs.has(source.channel_dir)).map((source) => source.channel_dir),
+        ...playlistChannelKeys,
+      ])] },
+    { label: "Playlist", channels: [...new Set(playlistCatalog.map((source) => source.channel_dir))] },
   ];
   CHANNEL_DISPLAY_NAMES = {};
   sourceConfig.filter((source) => source.type === "channel").forEach((source) => { CHANNEL_DISPLAY_NAMES[source.channel_dir] = source.name; });
