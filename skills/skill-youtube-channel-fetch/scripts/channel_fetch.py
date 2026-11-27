@@ -83,6 +83,7 @@ YT_DLP_JS_RUNTIME_ARGS = ["--js-runtimes", "node", "--remote-components", "ejs:g
 # that legitimately takes minutes for a long video.
 YT_DLP_LISTING_TIMEOUT = 90
 YT_DLP_DOWNLOAD_TIMEOUT = 1200
+TRANSCRIPT_API_TIMEOUT = 30
 
 
 def _run_yt_dlp(args: list[str], timeout: float) -> subprocess.CompletedProcess:
@@ -94,6 +95,17 @@ def _run_yt_dlp(args: list[str], timeout: float) -> subprocess.CompletedProcess:
         )
     except subprocess.TimeoutExpired:
         return subprocess.CompletedProcess(args, 124, stdout="", stderr=f"yt-dlp timed out after {timeout}s")
+
+
+class _TimeoutSession(requests.Session):
+    """requests.Session that always applies TRANSCRIPT_API_TIMEOUT — YouTubeTranscriptApi
+    issues its HTTP calls with no timeout of its own, which hung a run for 43+ minutes on a
+    single stalled lookup (confirmed via GitHub Actions run 45904828034's log, which showed
+    no further output between two consecutive channels for that long)."""
+
+    def request(self, *args, **kwargs):
+        kwargs.setdefault("timeout", TRANSCRIPT_API_TIMEOUT)
+        return super().request(*args, **kwargs)
 
 
 def yt_dlp_cookie_args() -> list[str]:
@@ -374,7 +386,7 @@ class ChannelFetcher:
         failing the whole channel fetch over a single flaky lookup."""
         languages = languages or DEFAULT_TRANSCRIPT_LANGUAGES
         try:
-            return YouTubeTranscriptApi().fetch(video_id, languages=languages)
+            return YouTubeTranscriptApi(http_client=_TimeoutSession()).fetch(video_id, languages=languages)
         except CouldNotRetrieveTranscript:
             return None
         except Exception as e:
