@@ -205,6 +205,18 @@
           ],
           "processing": "audio_and_frames",
           "id": "themarketmemo-playlist:UCvR_60U6L3GWXxa1RJTznag"
+        },
+        {
+          "channel_id": "UC0SDKT4nH1JRYfPsAJV02yQ",
+          "channel_name": "晨星 DayStar Brilliant",
+          "channel_url": "https://www.youtube.com/channel/UC0SDKT4nH1JRYfPsAJV02yQ",
+          "fetch_limit": 5,
+          "retention": "selected",
+          "selected_video_ids": [
+            "3c6kmQax2KU"
+          ],
+          "processing": "audio_and_frames",
+          "id": "themarketmemo-playlist:UC0SDKT4nH1JRYfPsAJV02yQ"
         }
       ],
       "videos": [
@@ -319,6 +331,14 @@
           "channel_name": "經理人",
           "channel_id": "UCvR_60U6L3GWXxa1RJTznag",
           "channel_url": "https://www.youtube.com/channel/UCvR_60U6L3GWXxa1RJTznag"
+        },
+        {
+          "video_id": "3c6kmQax2KU",
+          "title": "Taiwan Stocks Close Up, but Individual Stocks Are in the Red! A 198-Point Surge in the Final Auct...",
+          "date": "2026-11-27",
+          "channel_name": "晨星 DayStar Brilliant",
+          "channel_id": "UC0SDKT4nH1JRYfPsAJV02yQ",
+          "channel_url": "https://www.youtube.com/channel/UC0SDKT4nH1JRYfPsAJV02yQ"
         }
       ]
     }
