@@ -29,6 +29,7 @@
 | [為什麼事後都懂，當下卻沒想到？人的盲點來自「模型太少」，換個角度，才看得見經驗之外的答案｜經理人讀書會《思維模型》](https://www.youtube.com/watch?v=w3baNc7NVeU) | 2026-11-04 |
 | [The Prisoner's Dilemma of Human Nature: Should You Forgive or Retaliate After Being Wronged? An E...](https://www.youtube.com/watch?v=rgS5mC9lyCw) | 2026-11-03 |
 | [The New AI Agent Game: Chien Li-feng on the Five Global Revolutions](https://www.youtube.com/watch?v=8D50gBPUPwI) | 2026-10-30 |
+| [越跌越買的數學｜補倉｜攤低成本｜炒股｜交易](https://www.youtube.com/watch?v=ZGWWNPQRyNI) | 2026-10-30 |
 | [AI威力堪比核彈？為何矽谷大佬一邊砸錢發展，又警告它會毀滅人類？\| 思想實驗室 Video Podcast ep115：ft.前LINE台灣總經理 陶韻智](themarketmemo_6OvEjZsRl4Q_keyframes.md) | 2026-09-03 |
 | [破解投資圈「窮人思維模式」](themarketmemo_tNzUUET5opY_keyframes.md) | 2026-01-16 |
 | [全職投資人，需要具備哪些條件？](themarketmemo_hDOZ5n9PJFI_keyframes.md) | 2025-12-03 |
