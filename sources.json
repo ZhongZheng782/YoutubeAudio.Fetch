@@ -217,6 +217,18 @@
           ],
           "processing": "audio_and_frames",
           "id": "themarketmemo-playlist:UC0SDKT4nH1JRYfPsAJV02yQ"
+        },
+        {
+          "channel_id": "UCpbrtkuyHfDLy0FBrh4Qn6Q",
+          "channel_name": "概率實驗室",
+          "channel_url": "https://www.youtube.com/channel/UCpbrtkuyHfDLy0FBrh4Qn6Q",
+          "fetch_limit": 5,
+          "retention": "selected",
+          "selected_video_ids": [
+            "ZGWWNPQRyNI"
+          ],
+          "processing": "audio_and_frames",
+          "id": "themarketmemo-playlist:UCpbrtkuyHfDLy0FBrh4Qn6Q"
         }
       ],
       "videos": [
@@ -339,6 +351,14 @@
           "channel_name": "晨星 DayStar Brilliant",
           "channel_id": "UC0SDKT4nH1JRYfPsAJV02yQ",
           "channel_url": "https://www.youtube.com/channel/UC0SDKT4nH1JRYfPsAJV02yQ"
+        },
+        {
+          "video_id": "ZGWWNPQRyNI",
+          "title": "越跌越買的數學｜補倉｜攤低成本｜炒股｜交易",
+          "date": "2026-10-30",
+          "channel_name": "概率實驗室",
+          "channel_id": "UCpbrtkuyHfDLy0FBrh4Qn6Q",
+          "channel_url": "https://www.youtube.com/channel/UCpbrtkuyHfDLy0FBrh4Qn6Q"
         }
       ]
     }
